@@ -1,0 +1,17 @@
+{
+  "contract": 1,
+  "id": "2026-11-12-anthropic-ipo-roadshow",
+  "cycle": "2026-11-12",
+  "kind": "story",
+  "type": "company",
+  "category": "industry",
+  "tags": ["anthropic", "funding"],
+  "primary_source": "https://www.anthropic.com/news/roadshow-launch",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

@@ -1,0 +1,43 @@
+{
+  "cycle": "2026-11-12",
+  "model": "Google Gemini 4 Hydrogen",
+  "picked": 1,
+  "why": "Anthropic launching its IPO roadshow is the cycle's biggest AI industry story: an offering of 825 million Class A shares at $70 to $78 seeking up to $64.35 billion publicly, plus a $26 billion private placement with seven strategic tech suppliers. It has an official Anthropic primary announcement, wide global press coverage, and high stakes for the AI market.",
+  "trend": [
+    {
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "publisher": "TechCrunch",
+      "published": "2026-11-10"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html",
+      "publisher": "CNBC",
+      "published": "2026-11-11"
+    },
+    {
+      "url": "https://www.cbc.ca/news/business/anthropic-ipo-9.7416077",
+      "publisher": "CBC News",
+      "published": "2026-11-10"
+    },
+    {
+      "url": "https://qz.com/anthropic-ipo-roadshow-launch-64-billion-111026",
+      "publisher": "Quartz",
+      "published": "2026-11-10"
+    },
+    {
+      "url": "https://gfmag.com/capital-raising-corporate-finance/anthropic-preps-for-trillion-dollar-ipo/",
+      "publisher": "Global Finance",
+      "published": "2026-11-12"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Major developer model launch with introductory pricing and swarm preview, though narrower in industry-wide scope than Anthropic's IPO roadshow; strong candidate for the weekly recap."
+    },
+    {
+      "n": 3,
+      "why": "Notable formal verification milestone for Signal's libsignal binary, but narrower in immediate business impact than Anthropic's IPO; well suited for the weekly recap."
+    }
+  ]
+}
