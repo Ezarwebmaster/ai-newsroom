@@ -1,0 +1,15 @@
+{ "cycle": "2026-11-12", "model": "Anthropic Claude Sonnet 5.5", "topics": [
+  { "n": 1, "title": "Anthropic launches its IPO roadshow at $70 to $78 a share", "type": "company", "summary": "Anthropic began its investor roadshow on November 10, 2026, offering 825 million Class A shares at $70 to $78 each, with pricing expected on November 18 and a Nasdaq listing under ANT. Seven suppliers plan a $26 billion private placement alongside the offering.", "follow_up_of": null,
+    "sources": [
+      { "url": "https://www.anthropic.com/news/roadshow-launch", "publisher": "Anthropic", "published": "2026-11-10" },
+      { "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/", "publisher": "SiliconANGLE", "published": "2026-11-10" } ] },
+  { "n": 2, "title": "Google makes Gemini 4 Carbon generally available to paying developers", "type": "model_launch", "summary": "Google moved Gemini 4 Carbon from restricted access to general availability in the paid Gemini API on November 10, 2026, at an introductory $2 per million input tokens and $10 per million output tokens through November 30, and previewed a swarm feature for agents.", "follow_up_of": null,
+    "sources": [
+      { "url": "https://aistudio.google.com/docs/changelog", "publisher": "Google AI Studio", "published": "2026-11-10" },
+      { "url": "https://mlq.ai/news/google-makes-gemini-4-carbon-widely-available-at-2-per-million-input-tokens-and-previews-agent-swarms/", "publisher": "MLQ.ai", "published": "2026-11-10" } ] },
+  { "n": 3, "title": "DeepMind agents formally verify core Signal protocol code", "type": "research", "summary": "Google DeepMind says its AlphaProof Code agents proved security properties of Signal's libsignal at machine-code level, covering the post-quantum handshake and Triple Ratchet for one-to-one chats. Group messaging and the full apps are out of scope. Proof artifacts are public.", "follow_up_of": null,
+    "sources": [
+      { "url": "https://google-deepmind.github.io/code-verification/", "publisher": "Google DeepMind", "published": "2026-11-10" },
+      { "url": "https://thenextweb.com/news/google-deepmind-alphaproof-code-signal-encryption-formal-verification", "publisher": "The Next Web", "published": "2026-11-12" },
+      { "url": "https://9to5mac.com/2026/11/10/google-deepmind-analysis-proves-signal-and-whatsapp-encryption-is-secure/", "publisher": "9to5Mac", "published": "2026-11-10" } ] }
+] }
