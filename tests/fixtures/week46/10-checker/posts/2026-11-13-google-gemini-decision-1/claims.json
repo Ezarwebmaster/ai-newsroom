@@ -1,0 +1,304 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Google launches Gemini Decision 1, a model that scores answers instead of writing them",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "The new Gemini Decisions API answers yes/no, multiple-choice and rubric questions with probabilities, at $0.10 per million input tokens and no charge for output.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Google DeepMind introduced the Gemini Decisions API on November 11, 2026, a new endpoint for what it calls \"fast, closed-set decisions\", powered by a new model named Gemini Decision 1.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 12,
+    "claim": "The API accepts three kinds of question: yes/no checks, multiple choice among 2 to 255 options, and scores on an ordered rubric.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Gemini Notebook uses the Decisions API as a real-time router to instantly direct incoming queries to the optimal model tier and thinking level for each request."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 13,
+    "claim": "One request carries a single shared input of up to 256K tokens, which can mix text, images, audio, video and PDFs, along with up to 1,000 independent questions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "You can pass one multimodal input across text, images, audio, video, and PDFs (up to 256K tokens) along with up to 1,000 independent questions."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 15,
+    "claim": "The two headline limits share one budget: the documentation gives a context window of \"262,144 tokens across shared input and all questions\", so a request cannot carry both a full-size input and a very long list of questions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "262,144 tokens across shared input and all questions"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 19,
+    "claim": "Every answer comes with a confidence score from 0 to 1 so that, in Google's words, \"your code can route ambiguous cases to a fallback or human reviewer\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Every answer includes a confidence score (from 0 to 1) so your code can route ambiguous cases to a fallback or human reviewer"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 20,
+    "claim": "SiliconANGLE gives the example of a security team asking the model to rate the severity of an antivirus alert on a scale of 1 to 10.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "A cybersecurity team, for example, could ask the model to rate the severity of an antivirus alert on a scale of 1 to 10."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 24,
+    "claim": "Gemini Decision 1 costs $0.10 per 1M input tokens, and output is not billed, because the model generates no output tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Gemini Decision 1 is priced at $0.10 per 1M input tokens and $0 for output tokens, with an API no-cost tier you can use in Google AI Studio for prototyping."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 26,
+    "claim": "Google says this makes the model \"nearly 5x cheaper across the shared benchmark suite\" than Gemini 3.5 Flash-Lite, which SiliconANGLE describes as Google's entry-level language model.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "With zero output tokens billed, Gemini Decision 1 with the Decisions API is nearly 5x cheaper across the shared benchmark suite than Gemini 3.5 Flash-Lite with the Interactions API."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 30,
+    "claim": "That is not what Google's post says: it gives the price, and OpenRouter lists the model at $0.10 per million input tokens with free output.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Gemini Decision 1 is priced at $0.10 per 1M input tokens and $0 for output tokens, with an API no-cost tier you can use in Google AI Studio for prototyping."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 31,
+    "claim": "MLQ.ai notes that $0.10 per million input tokens is also what Meta charges for Muse Ember, \"its small model for high-volume agent work\", although Muse Ember generates text and Gemini Decision 1 does not.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The price matches the $0.10 per million input tokens Meta set for Muse Ember, its small model for high-volume agent work (MLQ.ai coverage), although Muse Ember is a text generator."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 34,
+    "claim": "Google reports an end-to-end latency of 150 to 250 milliseconds.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "keeping median latency 50-100 ms of model compute (150-250 ms end-to-end), across multimodal inputs and contexts up to 16K tokens, remaining nearly flat from 1 to 100 questions per request"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 35,
+    "claim": "The figure comes with a condition: it was measured on \"contexts up to 16K tokens\", far below the 256K maximum, and with 1 to 100 questions per request rather than 1,000.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "keeping median latency 50-100 ms of model compute (150-250 ms end-to-end), across multimodal inputs and contexts up to 16K tokens, remaining nearly flat from 1 to 100 questions per request"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 39,
+    "claim": "The model is available now, under the identifier gemini-decision-1, through the Gemini API in Google AI Studio.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 40,
+    "claim": "The documentation lists it on the Gemini Developer API (v1beta) only, and notes that context caching and the Batch API are not supported.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Available on the Gemini Developer API (v1beta) with Gemini Decision 1 only."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 51,
+    "claim": "Crypto Briefing gives the only precise dates for the rivals: OpenAI's Decisions API \"entered public beta on October 6, 2026\", and Microsoft followed on October 9, 2026 with a model called Microsoft-Decision-1.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "OpenAI’s Decisions API entered public beta on October 6, 2026. Microsoft followed on October 9, 2026, with a model called Microsoft-Decision-1."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 54,
+    "claim": "On performance, Google's post says only that Gemini Decision 1 \"leads across the suite, with the lowest calibration error\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "On benchmarks spanning agent routing, reasoning, ranking, and multimodal understanding, Gemini Decision 1 leads across the suite, with the lowest calibration error."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 65,
+    "claim": "The rival dates hold up: OpenAI's API changelog lists its Decisions API in beta on October 6, 2026 and as generally available on October 22, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Oct 6 Feature gpt-6-luna v1/decisions Released the Decisions API in beta with gpt-6-luna."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 66,
+    "claim": "Microsoft's post putting Microsoft-Decision-1 in public preview is dated October 9, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 9,
+        "quote": "Now available in public preview, Microsoft-Decision-1 is a decision model built on Qwen3.5-9B and designed for applications that need to make fast, structured choices among predefined options."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 67,
+    "claim": "No article read reports an independent benchmark of the model.",
+    "status": "absence",
+    "note": "Read Google's post and the five articles cited."
+  },
+  {
+    "id": 22,
+    "line": 68,
+    "claim": "Google gives no latency figure for inputs above 16K tokens, although one request can carry up to 256K.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "keeping median latency 50-100 ms of model compute (150-250 ms end-to-end), across multimodal inputs and contexts up to 16K tokens, remaining nearly flat from 1 to 100 questions per request"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 69,
+    "claim": "Google gives no date for Google Cloud support.",
+    "status": "absence",
+    "note": "Google's post says only \"coming soon\"."
+  },
+  {
+    "id": 24,
+    "line": 73,
+    "claim": "Gemini Decision 1 answers up to 1,000 yes/no, multiple-choice or rubric questions about one input of up to 256K tokens, returning probabilities instead of text.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 74,
+    "claim": "It costs $0.10 per million input tokens with no output charge; Google's latency figures cover inputs up to 16K tokens, and its benchmarks are its own.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Gemini Decision 1 is priced at $0.10 per 1M input tokens and $0 for output tokens, with an API no-cost tier you can use in Google AI Studio for prototyping."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 75,
+    "claim": "Google follows TypeSafe AI's Jev, OpenAI and Microsoft into decision models; OpenAI's rival API has been generally available since October 22, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Google checked how Gemini Decision 1 compares to Jev and OpenAI Group PBC’s Decisions API, a competing service that launched last month."
+      }
+    ]
+  }
+]

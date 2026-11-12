@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-13",
+  "model": "Claude Fable 5.2",
+  "picked": 1,
+  "why": "The only first release of the three. Google's own post gives checkable figures on price, latency and limits, and several outlets covered it within a day, with details that differ and are worth sorting out. No earlier post covers decision models.",
+  "trend": [
+    {
+      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+      "publisher": "The Decoder",
+      "published": "2026-11-11"
+    },
+    {
+      "url": "https://mlq.ai/news/google-launches-gemini-decision-1-a-model-that-scores-up-to-1000-questions-in-one-pass/",
+      "publisher": "MLQ.ai",
+      "published": "2026-11-12"
+    },
+    {
+      "url": "https://cryptobriefing.com/google-gemini-decisions-api-launch/",
+      "publisher": "Crypto Briefing",
+      "published": "2026-11-11"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Solid product news with an independent benchmark, but narrower in audience; good material for the Sunday recap."
+    },
+    {
+      "n": 3,
+      "why": "A wider rollout of a model unveiled in late October: the larger story, but the less new one."
+    }
+  ]
+}

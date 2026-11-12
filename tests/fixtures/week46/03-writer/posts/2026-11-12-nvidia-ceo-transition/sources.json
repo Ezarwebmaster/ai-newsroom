@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+    "title": "NVIDIA Announces CEO Transition",
+    "publisher": "NVIDIA (SEC filing, Exhibit 99.1)",
+    "kind": "filing",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+        "for": "Huang resigned from all three roles, effective immediately; announced November 12, 2026.",
+        "by": "writer"
+      },
+      {
+        "text": "Kress has served as Executive Vice President and Chief Financial Officer of NVIDIA since joining the company in September 2013.",
+        "for": "Kress has been CFO since September 2013.",
+        "by": "writer"
+      },
+      {
+        "text": "Kress will continue to serve as Executive Vice President and Chief Financial Officer while serving as Interim Chief Executive Officer until a permanent successor has been named.",
+        "for": "Kress is interim CEO and remains CFO.",
+        "by": "writer"
+      },
+      {
+        "text": "The Board is initiating a search for a permanent Chief Executive Officer and will consider internal and external candidates.",
+        "for": "A CEO search is starting, open to internal and external candidates.",
+        "by": "writer"
+      },
+      {
+        "text": "The Board of Directors appointed Harvey C. Jones as its first-ever Chair of the Board.",
+        "for": "Jones is the first board chair.",
+        "by": "writer"
+      },
+      {
+        "text": "The Board has full confidence in Colette and the leadership team, and we expect the company’s operations, customer commitments and product roadmap to continue without interruption.",
+        "for": "Jones's statement on confidence and continuity.",
+        "by": "writer"
+      },
+      {
+        "text": "NVIDIA will report its third-quarter fiscal 2027 financial results on Tuesday, November 17, at approximately 1:20 p.m. PT, as previously scheduled",
+        "for": "Earnings date is unchanged: November 17, 2026.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+    "title": "NVIDIA Corporation Form 8-K, Item 5.02 (date of report November 11, 2026)",
+    "publisher": "NVIDIA (SEC filing)",
+    "kind": "filing",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang, as NVIDIA’s President, Chief Executive Officer and member of the Board, effective immediately.",
+        "for": "The board accepted the resignation on November 11, 2026.",
+        "by": "writer"
+      },
+      {
+        "text": "On November 11, 2026, the Board appointed Harvey C. Jones, age 73, as Chair of the Board. Mr. Jones has served on the Board since 1993.",
+        "for": "Jones's age and board tenure.",
+        "by": "writer"
+      },
+      {
+        "text": "He has been the Managing Partner of Square Wave Ventures, a private family office, since 2004",
+        "for": "Jones's current occupation.",
+        "by": "writer"
+      },
+      {
+        "text": "Interim Chief Executive Officer, Executive Vice President and Chief Financial Officer",
+        "for": "Kress signed the 8-K under her new title.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+    "title": "Nvidia's Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
+    "publisher": "TechCrunch",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Huang founded Nvidia in 1993 and has led it as CEO ever since.",
+        "for": "Huang's tenure.",
+        "by": "writer"
+      },
+      {
+        "text": "Nvidia’s shares were down nearly 12% in early morning trading on Thursday.",
+        "for": "Share price move on November 12, 2026, per TechCrunch.",
+        "by": "writer"
+      },
+      {
+        "text": "Jensen Huang has resigned from his position as president and chief executive of Nvidia, the company said on Thursday, just a few days after he admitted to a romantic affair with an alleged Chinese spy",
+        "for": "TechCrunch presents the resignation as following the affair.",
+        "by": "writer"
+      },
+      {
+        "text": "putting $30 billion into OpenAI, and $10 billion into Anthropic",
+        "for": "Nvidia's investments in AI labs.",
+        "by": "writer"
+      },
+      {
+        "text": "Huang famously ran a very flat organization, with around 60 direct reports. There was no heir apparent or succession plan either",
+        "for": "Flat organization, no succession plan.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo",
+    "title": "Nvidia CEO Jensen Huang resigns amid spy scandal and market loss",
+    "publisher": "Al Jazeera",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The firm’s market value fell below $4 trillion for the first time since 2025 following the announcement",
+        "for": "Market value fell below $4 trillion.",
+        "by": "writer"
+      },
+      {
+        "text": "The stock slid roughly 10 percent in early trading as US markets opened on Thursday.",
+        "for": "Share price move on November 12, 2026, per Al Jazeera.",
+        "by": "writer"
+      },
+      {
+        "text": "which supplies most of the chips powering advanced artificial intelligence (AI) technology",
+        "for": "Nvidia supplies most advanced AI chips.",
+        "by": "writer"
+      },
+      {
+        "text": "Tech giant’s market value drops below $4 trillion after Huang steps down following espionage and affair allegations.",
+        "for": "Al Jazeera presents the resignation as following the allegations.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+    "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+    "publisher": "CNBC",
+    "kind": "press",
+    "published": "2026-11-08",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Huang told Nvidia staff in an email on Sunday that he had an affair with the woman and that Nvidia's board of directors had opened an independent investigation into the spying allegations.",
+        "for": "Huang's email of November 8, 2026 and the board investigation.",
+        "by": "writer"
+      },
+      {
+        "text": "U.S. intelligence agencies have expressed concerns that the woman, Alice Huang, who is affiliated with a cloud company and an Nvidia customer called Megaspeed, has been passing information to Beijing, according to reports in The New York Times and the Financial Times.",
+        "for": "The allegation and the two outlets that reported it.",
+        "by": "writer"
+      },
+      {
+        "text": "While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board's inquiry will examine all available information",
+        "for": "The board's statement on national security and company secrets.",
+        "by": "writer"
+      }
+    ]
+  }
+]

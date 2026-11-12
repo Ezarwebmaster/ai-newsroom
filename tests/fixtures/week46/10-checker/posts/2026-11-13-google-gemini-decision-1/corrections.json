@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "by": "checker",
+    "model": "Claude Opus 5.5",
+    "kind": "fact",
+    "line": 55,
+    "old": "SiliconANGLE reports that Google's model did better than Jev and OpenAI's service on seven of the nine benchmarks Google tested, but that Jev \"proved to be slightly more cost-efficient\".[^2]",
+    "new": "According to SiliconANGLE, Google says its model \"performed better across seven of the nine benchmarks it tested\", while Jev \"proved to be slightly more cost-efficient\".[^2]",
+    "why": "Google's results table, published only as an image, shows no Jev or OpenAI score on two of the nine tests; the new line keeps SiliconANGLE's exact words.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "its model performed better across seven of the nine benchmarks it tested"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "checker",
+    "model": "Claude Opus 5.5",
+    "kind": "fact",
+    "line": 49,
+    "old": "The outlets do not agree on who came first.",
+    "new": "The outlets agree that Jev came first, but not on what Jev is.",
+    "why": "Both outlets put Jev first; they differ only on whether Jev is a startup or a model.",
+    "support": [
+      {
+        "source": 3,
+        "quote": "After the startup Jev introduced its version, OpenAI, Cloudflare, and Microsoft quickly followed"
+      }
+    ]
+  }
+]

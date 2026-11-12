@@ -1,0 +1,328 @@
+[
+  {
+    "id": 1,
+    "line": 3,
+    "claim": "Nvidia's board announced the change on November 12, 2026 and named Harvey C. Jones its first chair. The company gave no reason for the departure.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang, as NVIDIA’s President, Chief Executive Officer and member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 6,
+    "claim": "Nvidia said on November 12, 2026 that Jensen Huang has resigned as president, chief executive officer and member of the board, \"effective immediately\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 7,
+    "claim": "The Form 8-K filed with the announcement says the board accepted the resignation on November 11, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang, as NVIDIA’s President, Chief Executive Officer and member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 8,
+    "claim": "Huang founded Nvidia in 1993 and had led it as CEO ever since.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Huang founded Nvidia in 1993 and has led it as CEO ever since."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 12,
+    "claim": "Colette Kress, chief financial officer since September 2013, becomes interim CEO and keeps the finance job \"until a permanent successor has been named\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Kress will continue to serve as Executive Vice President and Chief Financial Officer while serving as Interim Chief Executive Officer until a permanent successor has been named."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 14,
+    "claim": "The 8-K is already signed by Kress under her new title.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang, as NVIDIA’s President, Chief Executive Officer and member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 17,
+    "claim": "Jones, 73, has been an Nvidia director since 1993 and is managing partner of Square Wave Ventures, a private family office.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "He has been the Managing Partner of Square Wave Ventures, a private family office, since 2004"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 22,
+    "claim": "The release gives no reason and does not mention any investigation.",
+    "status": "absence",
+    "note": "Read the whole release (Exhibit 99.1) and the 8-K."
+  },
+  {
+    "id": 9,
+    "line": 24,
+    "claim": "On November 8, 2026, Huang told Nvidia staff by email that he had had an affair, and that the board had opened an independent investigation, CNBC reported.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Huang told Nvidia staff in an email on Sunday that he had an affair with the woman and that Nvidia's board of directors had opened an independent investigation into the spying allegations."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 27,
+    "claim": "China's foreign ministry said on November 9, 2026 that the allegation was \"unsubstantiated\", NBC News reported.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 9,
+        "quote": "Chinese Foreign Ministry Spokesperson Guo Jiakun said Monday that “the so-called Chinese spy allegation is unsubstantiated. It is nothing but smears against China.”"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 28,
+    "claim": "Megaspeed, the Nvidia customer the woman was affiliated with, said on November 12, 2026 that it \"takes its compliance obligations under U.S. export control laws extremely seriously\", according to CNN.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "U.S. intelligence agencies have expressed concerns that the woman, Alice Huang, who is affiliated with a cloud company and an Nvidia customer called Megaspeed, has been passing information to Beijing, according to reports in The New York Times and the Financial Times."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 32,
+    "claim": "The board said on November 8, 2026 that it had \"no reason to believe that either national security or NVIDIA secrets were compromised\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board's inquiry will examine all available information"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 41,
+    "claim": "On November 10, 2026, the independent directors said they had hired Joon H. Kim, a former acting U.S. Attorney for the Southern District of New York, and his firm Wachtell, Lipton, Rosen & Katz to conduct it.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "The independent members of the NVIDIA Board have retained former acting U.S. Attorney of the Southern District of New York Joon H. Kim and his firm Wachtell, Lipton, Rosen & Katz"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 42,
+    "claim": "CNN and Al Jazeera both report that the board met late on Wednesday, November 11, 2026, after reports that Huang had also had a relationship with an Nvidia executive; Al Jazeera attributes those reports to The New York Times.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "met to decide Huang’s fate on Wednesday shortly after The New York Times reported that Huang also had an extramarital relationship with an Nvidia vice president"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 43,
+    "claim": "The Nvidia statements of November 8, 10 and 12 do not address the reports of a relationship with an executive.",
+    "status": "absence",
+    "note": "Read the three statements in full."
+  },
+  {
+    "id": 16,
+    "line": 47,
+    "claim": "Three House Republican committee chairs wrote to Huang on November 4, 2026 asking for a closed-door briefing, CNN and CNBC reported; CNBC gave the requested date as November 18, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Three House Republican committee chairs sent a letter to Huang on Wednesday asking him to sit for a closed-door briefing with lawmakers on Nov. 18."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 48,
+    "claim": "CNN reported that House Foreign Affairs chairman Brian Mast said Huang tentatively agreed on November 11, 2026 to testify.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Huang tentatively agreed to testify on Wednesday night — just ahead of his resignation — as part of an ongoing probe, Foreign Affairs Chairman Brian Mast told reporters."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 53,
+    "claim": "Nvidia shares were \"down nearly 12%\" in early trading on November 12, 2026, according to TechCrunch; Al Jazeera put the slide at \"roughly 10 percent\" and said the company's market value fell below $4 trillion for the first time since 2025.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The firm’s market value fell below $4 trillion for the first time since 2025 following the announcement"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 57,
+    "claim": "It is also an investor in the labs that buy them: TechCrunch counts $30 billion put into OpenAI and $10 billion into Anthropic.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "putting $30 billion into OpenAI, and $10 billion into Anthropic"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 58,
+    "claim": "The same report says Huang ran a flat organization with around 60 direct reports and that there was no heir apparent or succession plan.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Huang famously ran a very flat organization, with around 60 direct reports. There was no heir apparent or succession plan either"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 61,
+    "claim": "Nvidia said it will report third-quarter fiscal 2027 results on Tuesday, November 17, 2026, \"as previously scheduled\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NVIDIA will report its third-quarter fiscal 2027 financial results on Tuesday, November 17, at approximately 1:20 p.m. PT, as previously scheduled"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 66,
+    "claim": "Why Huang resigned: neither the release nor the 8-K gives a reason.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 67,
+    "claim": "What the investigation found: the board has published no result since its independent directors hired outside counsel on November 10, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "The independent members of the NVIDIA Board have retained former acting U.S. Attorney of the Southern District of New York Joon H. Kim and his firm Wachtell, Lipton, Rosen & Katz"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 70,
+    "claim": "How far the shares fell: the figures cited here are intraday and differ by outlet and hour, from roughly 10% to as much as 14%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Jensen Huang has resigned from his position as president and chief executive of Nvidia, the company said on Thursday, just a few days after he admitted to a romantic affair with an alleged Chinese spy"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 71,
+    "claim": "What the next weeks show: Nvidia kept its results date of November 17, 2026, and CNN notes that its GTC conference runs from November 30 to December 3, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "its next quarterly earnings report on Nov. 17, and its GTC conference, where it usually announces new products and technologies, on Nov. 30 through Dec. 3."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 75,
+    "claim": "Jensen Huang resigned as Nvidia's president, CEO and director; the board accepted on November 11, 2026 and announced it on November 12, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang, as NVIDIA’s President, Chief Executive Officer and member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 76,
+    "claim": "CFO Colette Kress is interim CEO while the board looks for a permanent one; longtime director Harvey C. Jones becomes the board's first chair.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "On November 11, 2026, the Board appointed Harvey C. Jones, age 73, as Chair of the Board. Mr. Jones has served on the Board since 1993."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 77,
+    "claim": "Nvidia gave no reason. TechCrunch, Al Jazeera and CNN report the exit followed allegations that a woman linked to Huang spied for China.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Nvidia announced that Huang had resigned as CEO following earlier reports of a relationship with a woman who was allegedly working as a spy for China"
+      }
+    ]
+  }
+]

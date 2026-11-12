@@ -1,0 +1,73 @@
+{
+  "cycle": "2026-11-13",
+  "model": "Claude Fable 5.2",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Google launches the Gemini Decisions API and its Gemini Decision 1 model",
+      "type": "model_launch",
+      "summary": "Google released Gemini Decision 1, a model that scores yes/no, multiple-choice and rubric questions in one pass instead of generating text, through a new Gemini Decisions API. It accepts text, images, audio, video and PDFs, and costs $0.10 per million input tokens with no output charge.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "publisher": "Google",
+          "published": "2026-11-11"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/11/google-enters-the-decision-model-market-with-gemini-decisions-api/",
+          "publisher": "SiliconANGLE",
+          "published": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "ElevenLabs releases Scribe v3 and Scribe v3 Live speech-to-text models",
+      "type": "product",
+      "summary": "ElevenLabs released Scribe v3 for recorded audio and Scribe v3 Live for real-time use, with live speaker diarization and turn detection based on conversational context. Both are available through ElevenAPI and ElevenAgents. The Decoder reports that independent benchmarks rank Scribe v3 among the most accurate models, but slower and pricier than rivals.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://elevenlabs.io/blog/scribe-v3",
+          "publisher": "ElevenLabs",
+          "published": "2026-11-10"
+        },
+        {
+          "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+          "publisher": "The Decoder",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://runtimewire.com/article/elevenlabs-scribe-v3-live-launch",
+          "publisher": "RuntimeWire",
+          "published": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Google makes Gemini 4 Carbon generally available",
+      "type": "model_launch",
+      "summary": "About two weeks after a restricted preview, Google opened Gemini 4 Carbon to paying developers and business customers through the Gemini API, at the same introductory token price as Gemini 4 Argon. Google positions it for multi-step coding, debugging and research, and previewed a /swarm agent feature in Antigravity.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "publisher": "Google",
+          "published": "2026-11-10"
+        },
+        {
+          "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+          "publisher": "The Decoder",
+          "published": "2026-11-10"
+        },
+        {
+          "url": "https://www.digitaltrends.com/computing/google-gemini-4-carbon-is-now-available-for-complex-ai-tasks/",
+          "publisher": "Digital Trends",
+          "published": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

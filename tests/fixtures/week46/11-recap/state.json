@@ -1,0 +1,26 @@
+{
+  "contract": 1,
+  "cycle": "2026-11-13",
+  "next": "done",
+  "post": null,
+  "history": [
+    {
+      "cycle": "2026-11-12",
+      "post": "2026-11-12-nvidia-ceo-transition",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-13",
+      "post": "2026-11-13-google-gemini-decision-1",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-15",
+      "post": "2026-11-15-week-46-recap",
+      "kind": "recap",
+      "status": "ready"
+    }
+  ]
+}

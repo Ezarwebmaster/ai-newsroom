@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "line": 3,
+    "claim": "Week 46 of 2026: a leadership shock at the largest AI chipmaker, a new kind of model from Google, and the price range of the largest AI listing yet.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Anthropic expects to price the offering on November 18 and begin trading on November 19, and is targeting a retail allocation of about 20%, well above the norm for an IPO, CNBC reported, citing people familiar with the details."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 8,
+    "claim": "Jensen Huang resigned as Nvidia's president, chief executive officer and director on November 12, 2026, effective immediately.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 15,
+    "claim": "Google launched the Gemini Decisions API and its Gemini Decision 1 model on November 11, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 17,
+    "claim": "It costs $0.10 per million input tokens, and output tokens are free.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Gemini Decision 1 is priced at $0.10 per 1M input tokens and $0 for output tokens, with an API no-cost tier you can use in Google AI Studio for prototyping."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 22,
+    "claim": "An updated filing showed on November 10, 2026 that Anthropic plans to sell 825 million shares at $70 to $78 each on Nasdaq, which could raise up to about $64.4 billion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Anthropic plans to sell 825 million shares at $70 to $78 each in its Nasdaq IPO, which could raise up to about $64.4 billion, an updated filing shows."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 23,
+    "claim": "Nvidia, Google and other partners agreed to buy $26 billion of stock in a private placement alongside the offering, Decrypt reported.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Nvidia, Google, AMD, Broadcom, Micron, Microsoft and TSMC have agreed to buy $26 billion of non-voting stock at the IPO price in a concurrent private placement."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 24,
+    "claim": "The company expects to price the shares on November 18, 2026 and start trading the next day, according to CNBC as cited by Decrypt.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Anthropic expects to price the offering on November 18 and begin trading on November 19, and is targeting a retail allocation of about 20%, well above the norm for an IPO, CNBC reported, citing people familiar with the details."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 28,
+    "claim": "Two weeks after a limited release to cybersecurity defenders, Google made Gemini 4 Carbon available to paying developers and businesses on November 10, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Two weeks ago, Google gave Gemini 4 Carbon to a small group of cybersecurity defenders through its Fairwind Program."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 29,
+    "claim": "Digital Trends reports that it ranked first on CursorBench 4.0, Perplexity's WANDR and Zapier's AutomationBench.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Carbon ranked first on CursorBench 4.0, Perplexity’s WANDR, and Zapier’s AutomationBench, and its cost per task was less than half that of the next best model from another company."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 30,
+    "claim": "At its introductory rate it costs $2 per million input tokens and $10 per million output tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Paying developers and businesses can use it through the API in Google AI Studio and Gemini for business at Argon’s introductory rate of $2 per million input tokens and $10 per million output tokens."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 34,
+    "claim": "Microsoft put Microsoft-Decision-1 in public preview in October 2026, describing a model for \"fast, structured choices among predefined options\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Now available in public preview, Microsoft-Decision-1 is a decision model built on Qwen3.5-9B and designed for applications that need to make fast, structured choices among predefined options."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 35,
+    "claim": "OpenAI released its Decisions API in beta on October 6, 2026 and made it generally available on October 22, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Oct 6 Feature gpt-6-luna v1/decisions Released the Decisions API in beta with gpt-6-luna."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 41,
+    "claim": "Nvidia said it will report its third-quarter fiscal 2027 results on Tuesday, November 17, 2026, as previously scheduled.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NVIDIA will report its third-quarter fiscal 2027 financial results on Tuesday, November 17, at approximately 1:20 p.m. PT, as previously scheduled"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 42,
+    "claim": "It will be the first public test for the interim team, two weeks before the GTC conference that runs from November 30 to December 3, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "its next quarterly earnings report on Nov. 17, and its GTC conference, where it usually announces new products and technologies, on Nov. 30 through Dec. 3."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 46,
+    "claim": "Jensen Huang left Nvidia on November 12, 2026; CFO Colette Kress is interim CEO.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 47,
+    "claim": "Google's Gemini Decision 1 scores answers instead of writing them, at $0.10 per million input tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 48,
+    "claim": "Anthropic set its IPO range at $70 to $78 a share, with pricing expected on November 18, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Anthropic plans to sell 825 million shares at $70 to $78 each in its Nasdaq IPO, which could raise up to about $64.4 billion, an updated filing shows."
+      }
+    ]
+  }
+]

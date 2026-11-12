@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Claude Opus 5.5",
+    "kind": "fact",
+    "line": 29,
+    "old": "TechCrunch and Al Jazeera both present the resignation as a consequence of that affair; Nvidia itself has not said so.[^3][^4]",
+    "new": "TechCrunch reports that the resignation came \"just a few days after\" Huang admitted the affair, and Al Jazeera that he stepped down \"following espionage and affair allegations\"; Nvidia itself has not linked the two.[^3][^4]",
+    "why": "The two outlets report the resignation as coming after the affair and the allegations; neither says it was their consequence. The line now quotes their own words.",
+    "support": [
+      {
+        "source": 3,
+        "quote": "just a few days after he admitted to a romantic affair with an alleged Chinese spy"
+      },
+      {
+        "source": 4,
+        "quote": "after Huang steps down following espionage and affair allegations"
+      }
+    ]
+  }
+]

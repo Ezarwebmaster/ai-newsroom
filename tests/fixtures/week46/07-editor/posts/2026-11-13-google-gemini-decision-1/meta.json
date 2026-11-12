@@ -1,0 +1,22 @@
+{
+  "contract": 1,
+  "id": "2026-11-13-google-gemini-decision-1",
+  "cycle": "2026-11-13",
+  "kind": "story",
+  "type": "model_launch",
+  "category": "models",
+  "tags": [
+    "google",
+    "multimodal",
+    "pricing",
+    "agents"
+  ],
+  "primary_source": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

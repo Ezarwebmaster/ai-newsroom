@@ -1,0 +1,21 @@
+{
+  "contract": 1,
+  "id": "2026-11-12-nvidia-ceo-transition",
+  "cycle": "2026-11-12",
+  "kind": "story",
+  "type": "company",
+  "category": "industry",
+  "tags": [
+    "nvidia",
+    "leadership",
+    "chips"
+  ],
+  "primary_source": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+  "follow_up_of": null,
+  "sensitive": true,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

@@ -1,0 +1,25 @@
+{
+  "contract": 1,
+  "id": "2026-11-15-week-46-recap",
+  "cycle": "2026-11-15",
+  "kind": "recap",
+  "type": "recap",
+  "category": "recap",
+  "tags": [
+    "nvidia",
+    "google",
+    "anthropic",
+    "funding"
+  ],
+  "primary_source": null,
+  "follow_up_of": null,
+  "sensitive": true,
+  "unconfirmed": false,
+  "covers": [
+    "2026-11-12-nvidia-ceo-transition",
+    "2026-11-13-google-gemini-decision-1"
+  ],
+  "status": "ready",
+  "issues": [],
+  "image_brief": "Seven thin vertical bands of light of different heights on a dark background, like a weekly calendar drawn as a skyline. Muted teal and warm grey, abstract, no text, no logos, no people."
+}

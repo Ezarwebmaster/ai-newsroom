@@ -1,0 +1,111 @@
+{
+  "contract": 1,
+  "note": "A copy for reading. check.mjs holds the lists that count.",
+  "categories": [
+    "models",
+    "research",
+    "products",
+    "industry",
+    "open-source",
+    "policy",
+    "recap"
+  ],
+  "tags": [
+    "openai",
+    "anthropic",
+    "google",
+    "meta",
+    "microsoft",
+    "apple",
+    "amazon",
+    "nvidia",
+    "deepseek",
+    "mistral",
+    "xai",
+    "qwen",
+    "alibaba",
+    "agents",
+    "reasoning",
+    "coding",
+    "open-weights",
+    "pricing",
+    "api",
+    "benchmarks",
+    "multimodal",
+    "robotics",
+    "chips",
+    "data-centers",
+    "energy",
+    "regulation",
+    "safety",
+    "copyright",
+    "privacy",
+    "funding",
+    "leadership",
+    "startups",
+    "enterprise",
+    "healthcare",
+    "education"
+  ],
+  "types": {
+    "model_launch": {
+      "category": "models",
+      "primary_source_kind": [
+        "primary"
+      ],
+      "trend_minimum": 3,
+      "may_be_unconfirmed": false
+    },
+    "product": {
+      "category": "products",
+      "primary_source_kind": [
+        "primary"
+      ],
+      "trend_minimum": 3,
+      "may_be_unconfirmed": false
+    },
+    "open_source": {
+      "category": "open-source",
+      "primary_source_kind": [
+        "primary"
+      ],
+      "trend_minimum": 2,
+      "may_be_unconfirmed": false
+    },
+    "research": {
+      "category": "research",
+      "primary_source_kind": [
+        "paper",
+        "primary"
+      ],
+      "trend_minimum": 2,
+      "may_be_unconfirmed": false
+    },
+    "company": {
+      "category": "industry",
+      "primary_source_kind": [
+        "filing",
+        "primary"
+      ],
+      "trend_minimum": 3,
+      "may_be_unconfirmed": true
+    },
+    "funding": {
+      "category": "industry",
+      "primary_source_kind": [
+        "filing",
+        "primary"
+      ],
+      "trend_minimum": 3,
+      "may_be_unconfirmed": true
+    },
+    "policy": {
+      "category": "policy",
+      "primary_source_kind": [
+        "primary"
+      ],
+      "trend_minimum": 3,
+      "may_be_unconfirmed": false
+    }
+  }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+    "title": "NVIDIA Announces CEO Transition",
+    "publisher": "NVIDIA (SEC filing, Exhibit 99.1)",
+    "kind": "filing",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+        "for": "The resignation.",
+        "by": "recap"
+      },
+      {
+        "text": "Kress will continue to serve as Executive Vice President and Chief Financial Officer while serving as Interim Chief Executive Officer until a permanent successor has been named.",
+        "for": "The interim CEO.",
+        "by": "recap"
+      },
+      {
+        "text": "NVIDIA will report its third-quarter fiscal 2027 financial results on Tuesday, November 17, at approximately 1:20 p.m. PT, as previously scheduled",
+        "for": "The results date.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "title": "Introducing the Gemini Decisions API",
+    "publisher": "Google",
+    "kind": "primary",
+    "published": "2026-11-11",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio.",
+        "for": "The launch.",
+        "by": "recap"
+      },
+      {
+        "text": "Gemini Decision 1 is priced at $0.10 per 1M input tokens and $0 for output tokens, with an API no-cost tier you can use in Google AI Studio for prototyping.",
+        "for": "The price.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion",
+    "title": "Anthropic Sets IPO Price Range at $70 to $78",
+    "publisher": "Decrypt",
+    "kind": "press",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Anthropic plans to sell 825 million shares at $70 to $78 each in its Nasdaq IPO, which could raise up to about $64.4 billion, an updated filing shows.",
+        "for": "The price range and the size.",
+        "by": "recap"
+      },
+      {
+        "text": "Nvidia, Google, AMD, Broadcom, Micron, Microsoft and TSMC have agreed to buy $26 billion of non-voting stock at the IPO price in a concurrent private placement.",
+        "for": "The private placement.",
+        "by": "recap"
+      },
+      {
+        "text": "Anthropic expects to price the offering on November 18 and begin trading on November 19, and is targeting a retail allocation of about 20%, well above the norm for an IPO, CNBC reported, citing people familiar with the details.",
+        "for": "The calendar.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.digitaltrends.com/computing/google-gemini-4-carbon-is-now-available-for-complex-ai-tasks/",
+    "title": "Google Gemini 4 Carbon is now available for complex AI tasks",
+    "publisher": "Digital Trends",
+    "kind": "press",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Two weeks ago, Google gave Gemini 4 Carbon to a small group of cybersecurity defenders through its Fairwind Program.",
+        "for": "The limited release before.",
+        "by": "recap"
+      },
+      {
+        "text": "Carbon ranked first on CursorBench 4.0, Perplexity’s WANDR, and Zapier’s AutomationBench, and its cost per task was less than half that of the next best model from another company.",
+        "for": "The rankings.",
+        "by": "recap"
+      },
+      {
+        "text": "Paying developers and businesses can use it through the API in Google AI Studio and Gemini for business at Argon’s introductory rate of $2 per million input tokens and $10 per million output tokens.",
+        "for": "Availability and price.",
+        "by": "recap"
+      },
+      {
+        "type": "date",
+        "text": "Published November 10, 2026",
+        "for": "The date of the release.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "title": "API changelog",
+    "publisher": "OpenAI (API changelog)",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Oct 6 Feature gpt-6-luna v1/decisions Released the Decisions API in beta with gpt-6-luna.",
+        "for": "The beta.",
+        "by": "recap"
+      },
+      {
+        "text": "Oct 22 Update gpt-6-luna v1/decisions The Decisions API is now generally available with gpt-6-luna.",
+        "for": "General availability.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for-decision-and-classific/4562742",
+    "title": "Introducing Microsoft-Decision-1 in Microsoft Foundry",
+    "publisher": "Microsoft (Foundry blog)",
+    "kind": "primary",
+    "published": "2026-10-09",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Now available in public preview, Microsoft-Decision-1 is a decision model built on Qwen3.5-9B and designed for applications that need to make fast, structured choices among predefined options.",
+        "for": "The Microsoft model.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout",
+    "title": "Nvidia’s Jensen Huang resigns, CFO Colette Kress set as interim: Live updates",
+    "publisher": "CNN",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Nvidia announced that Huang had resigned as CEO following earlier reports of a relationship with a woman who was allegedly working as a spy for China",
+        "for": "What the press links the exit to.",
+        "by": "recap"
+      },
+      {
+        "text": "its next quarterly earnings report on Nov. 17, and its GTC conference, where it usually announces new products and technologies, on Nov. 30 through Dec. 3.",
+        "for": "The calendar ahead.",
+        "by": "recap"
+      },
+      {
+        "text": "Huang tentatively agreed to testify on Wednesday night — just ahead of his resignation — as part of an ongoing probe, Foreign Affairs Chairman Brian Mast told reporters.",
+        "for": "The testimony.",
+        "by": "recap"
+      }
+    ]
+  }
+]

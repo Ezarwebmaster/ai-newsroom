@@ -1,0 +1,14 @@
+{
+  "contract": 1,
+  "cycle": "2026-11-13",
+  "next": "writer",
+  "post": "2026-11-13-google-gemini-decision-1",
+  "history": [
+    {
+      "cycle": "2026-11-12",
+      "post": "2026-11-12-nvidia-ceo-transition",
+      "kind": "story",
+      "status": "ready"
+    }
+  ]
+}
