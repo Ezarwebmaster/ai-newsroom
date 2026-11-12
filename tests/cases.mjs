@@ -296,3 +296,39 @@ add('checker: abandons and edits the article', { parent: '04-reviser', step: nul
 }, expect: /article\.md: is not a file the checker \(abandoning the story\) writes/ })
 add('done: --todo after the week', { parent: '11-recap', step: null, today: '2026-11-16', args: ['--todo'], expect: (out, pass) => pass && /YOUR ROLE: SCOUT/.test(out) && /2026-11-13-google-gemini-decision-1: Google launches Gemini Decision 1/.test(out) })
 add('done: nothing changed after the recap', { parent: '11-recap', step: null, today: '2026-11-16', expect: 'OK' })
+
+// ── A second story the same day: the Gemini cycle replayed as 2026-11-12-2 ──
+function sameDay(tree) {
+  const out = new Map()
+  for (const [p, v] of tree) {
+    out.set(p.replace('editions/2026-11-13/', 'editions/2026-11-12-2/').replace('posts/2026-11-13-google-gemini-decision-1/', 'posts/2026-11-12-google-gemini-decision-1/'),
+      v.split('"cycle": "2026-11-13"').join('"cycle": "2026-11-12-2"').split('2026-11-13-google-gemini-decision-1').join('2026-11-12-google-gemini-decision-1'))
+  }
+  return out
+}
+const second = (name, parent, step, today, expect, extra = {}) => {
+  const parentTree = sameDay(treeAt(W, parent))
+  CASES.push({ name: `second story: ${name}`, parents: [parentTree], child: step === null ? new Map(parentTree) : sameDay(treeAt(W, step)), today, expect, ...extra })
+}
+second('--todo offers <date>-2', '05-checker', null, '2026-11-12', (out, pass) => pass && /<cycle> = 2026-11-12-2 \(a second story today/.test(out), { args: ['--todo'] })
+second('scout', '05-checker', '06-scout', '2026-11-12', 'OK')
+second('editor', '06-scout', '07-editor', '2026-11-12', 'OK')
+second('writer', '07-editor', '08-writer', '2026-11-12', 'OK')
+second('reviser', '08-writer', '09-reviser', '2026-11-12', 'OK')
+second('checker', '09-reviser', '10-checker', '2026-11-13', 'OK')
+second('the recap covers both', '10-checker', null, '2026-11-15', (out, pass) => pass && /2026-11-12-nvidia-ceo-transition/.test(out) && /2026-11-12-google-gemini-decision-1/.test(out) && /YOUR ROLE: RECAP/.test(out), { args: ['--todo'] })
+const scoutOn = (parent, date, today, expect, name) => {
+  const parentTree = parent === '10-checker' ? sameDay(treeAt(W, parent)) : treeAt(W, parent)
+  const child = new Map(parentTree)
+  sundayScout(date, today)(child)
+  CASES.push({ name: `second story: ${name}`, parents: [parentTree], child, today, expect })
+}
+scoutOn('10-checker', '2026-11-12', '2026-11-12', /2026-11-12 already has two stories, the most a day can have/, 'a third the same day')
+scoutOn('05-checker', '2026-11-13-2', '2026-11-13', /2026-11-13-2 is the second story of 2026-11-13: the first one is the cycle 2026-11-13/, '<date>-2 without a first story that day')
+scoutOn('05-checker', '2026-11-12', '2026-11-12', /a second story the same day is the cycle 2026-11-12-2/, 'the same date twice')
+
+// ── Stories that do not all look alike (warnings, not failures) ──
+const warns = re => (out, pass) => pass && re.test(out)
+writer('a heading that fits any story', t => sub(t, AP, '## Who runs Nvidia now', '## Background'), warns(/warning · .*"Background" could head any story/))
+add('writer: a heading a recent story used', { parent: '07-editor', step: '08-writer', today: '2026-11-13', edit: t => sub(t, `${GEP}/article.md`, '## Availability', '## Markets and the AI supply chain'), expect: warns(/"Markets and the AI supply chain" already heads a section of 2026-11-12-nvidia-ceo-transition/) })
+add('writer: --todo shows how the last story opens', { parent: '07-editor', step: null, today: '2026-11-13', args: ['--todo'], expect: (out, pass) => pass && /How the last story opens/.test(out) && /2026-11-12-nvidia-ceo-transition: "Nvidia said on November 12, 2026/.test(out) && /headings: "Who runs Nvidia now"/.test(out) })

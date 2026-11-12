@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// AI Newsroom · the check of a step (check v1.0.0, contract 1).
+// AI Newsroom · the check of a step (check v1.1.0, contract 1).
 //
 //   node check.mjs          checks what your step changed: prints OK, or what to fix
 //   node check.mjs --todo   prints whose turn it is, the files to write and the rules
@@ -15,7 +15,7 @@ import { execFileSync } from 'node:child_process'
 import { existsSync, lstatSync, readFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 
-const VERSION = '1.0.0'
+const VERSION = '1.1.0'
 const CONTRACT = 1
 const RELAY_EMAIL = 'relay@llmtimemachine.com' // committer of every step the platform replays or pushes
 
@@ -82,6 +82,11 @@ const STYLE_KEEP = 0.7 // a style correction keeps this share of the old line's 
 const MAX_FILE = 200 * 1024
 const FRESH = [-3, 1] // days around the cycle for fresh sources and trend articles
 const RECENT_DAYS = 14
+const RECENT_STORIES = 5 // whose openings and headings --todo shows, so stories do not all look alike
+// Headings that fit any story: a story's headings say what is specific to it.
+const GENERIC_HEADING = /^(?:why (?:it|this) matters|background|context|what happened|the news|the details|details|the (?:bottom line|big picture)|bottom line|big picture|conclusion|overview|summary|analysis|key takeaways|takeaways|what'?s next|looking ahead|reactions?)$/i
+// A cycle is a UTC date; a second story the same day is <date>-2 (at most two a day).
+const CYCLE = /^(\d{4}-\d{2}-\d{2})(?:-2)?$/
 const RECAP_SECTIONS = [5, 7]
 const RECAP_SECTION_WORDS = [40, 120]
 
@@ -170,7 +175,11 @@ function isoWeek(d) {
   const week = Math.ceil(((Date.parse(`${thursday}T00:00:00Z`) - Date.UTC(year, 0, 1)) / 864e5 + 1) / 7)
   return { year, week, monday: addDays(d, -dow), sunday: addDays(d, 6 - dow) }
 }
-const inWindow = (d, cycle) => isDate(d) && d >= addDays(cycle, FRESH[0]) && d <= addDays(cycle, FRESH[1])
+const cycleDate = c => String(c).slice(0, 10)
+const isCycle = c => typeof c === 'string' && CYCLE.test(c) && isDate(c.slice(0, 10))
+const cycleKey = c => c.length === 10 ? `${c}-1` : c // orders 2026-11-13 < 2026-11-13-2 < 2026-11-14
+const windowOf = cycle => [addDays(cycleDate(cycle), FRESH[0]), addDays(cycleDate(cycle), FRESH[1])]
+const inWindow = (d, cycle) => isDate(d) && d >= windowOf(cycle)[0] && d <= windowOf(cycle)[1]
 
 const CITE = /\[\^([1-9][0-9]*)\]/g
 const CITE_TAIL = /((?:\[\^[1-9][0-9]*\])+)$/
@@ -665,8 +674,8 @@ function checkMeta(file, m) {
   if (m.contract !== CONTRACT) fail(file, `"contract" is ${CONTRACT}`)
   const id = typeof m.id === 'string' ? m.id.match(ID) : null
   if (!id || !isDate(id[1]) || id[2].length > SLUG_MAX) fail(file, `"id" is YYYY-MM-DD-<slug>: lower-case words joined by "-", at most ${SLUG_MAX} characters after the date`)
-  if (!isDate(m.cycle)) fail(file, '"cycle" is a date (YYYY-MM-DD)')
-  else if (id && id[1] !== m.cycle) fail(file, '"id" starts with the cycle date')
+  if (!isCycle(m.cycle)) fail(file, '"cycle" is the cycle: a date (YYYY-MM-DD), or <date>-2 for the second story of a day')
+  else if (id && id[1] !== cycleDate(m.cycle)) fail(file, '"id" starts with the cycle date')
   if (!['story', 'recap'].includes(m.kind)) fail(file, '"kind" is "story" or "recap"')
   if (!CATEGORIES.includes(m.category)) fail(file, `"category" is one of ${CATEGORIES.join(', ')}`)
   if (!Array.isArray(m.tags) || m.tags.length < 1 || m.tags.length > 5 || new Set(m.tags).size !== m.tags.length) fail(file, '"tags" lists 1 to 5 different tags')
@@ -727,7 +736,7 @@ function checkTopics(file, t, cycle, primaries, followable) {
       if (x.follow_up_of === null && primaries.has(n)) fail(file, `${w}: this page is the primary source of ${primaries.get(n)}, already covered; pick another story, or set "follow_up_of" when it truly brings something new`)
     })
     if (domains.size < 2) fail(file, `${where}: the sources come from at least 2 different sites`)
-    if (fresh < 2) fail(file, `${where}: at least 2 sources published between ${addDays(cycle, FRESH[0])} and ${addDays(cycle, FRESH[1])}: this is news of the day`)
+    if (fresh < 2) fail(file, `${where}: at least 2 sources published between ${windowOf(cycle)[0]} and ${windowOf(cycle)[1]}: this is news of the day`)
   })
   return t
 }
@@ -748,7 +757,7 @@ function checkChoice(file, c, cycle, topics) {
     const w = `trend ${j + 1}`
     if (!keys(file, s, w, ['url', 'publisher', 'published'])) return
     if (!isStr(s.publisher, 1, 120)) fail(file, `${w}: "publisher" is who published the page`)
-    if (!inWindow(s.published, cycle)) fail(file, `${w}: "published" is a date between ${addDays(cycle, FRESH[0])} and ${addDays(cycle, FRESH[1])}`)
+    if (!inWindow(s.published, cycle)) fail(file, `${w}: "published" is a date between ${windowOf(cycle)[0]} and ${windowOf(cycle)[1]}`)
     const p = urlProblem(s.url)
     if (p) { fail(file, `${w}: url ${p}`); return }
     if (own.has(normUrl(s.url))) { fail(file, `${w}: this page is already a source of the topic; the trend shows other coverage`); return }
@@ -777,9 +786,42 @@ function titleAt(base, id) {
   try { return m ? JSON.parse(m[1]) : null } catch { return null }
 }
 function recentStories(base, S, ref) {
-  return S.history.filter(h => h.kind === 'story' && h.status !== 'abandoned' && h.cycle >= addDays(ref, -RECENT_DAYS))
+  return S.history.filter(h => h.kind === 'story' && h.status !== 'abandoned' && cycleDate(h.cycle) >= addDays(cycleDate(ref), -RECENT_DAYS))
     .map(h => ({ id: h.post, title: titleAt(base, h.post) || '(no title)', primary: jsonAtBase(base, `posts/${h.post}/meta.json`)?.primary_source }))
 }
+// The cycle a scout opens today: the date, or <date>-2 once today's first story is done.
+function scoutCycle(S) {
+  if (S.cycle === `${TODAY}-2`) return `${addDays(TODAY, 1)} (tomorrow: today already has two stories, the most a day can have)`
+  if (S.cycle === TODAY) return `${TODAY}-2 (a second story today; at most two a day)`
+  return `${TODAY} (or ${addDays(TODAY, -1)} when yesterday has no story yet)`
+}
+// How the last stories open and what their headings say, so a new one does not copy them.
+function lastLooks(base, S) {
+  const last = S.history.filter(h => h.kind === 'story' && h.status !== 'abandoned').slice(-RECENT_STORIES).reverse()
+  if (!last.length) return []
+  const out = ['', `How the last ${last.length === 1 ? 'story opens' : `${last.length} stories open`}, and their headings. Do not copy them: open on what is specific to this story, and write headings only it could have.`]
+  for (const h of last) {
+    const lines = toLines(atBase(base, `posts/${h.post}/article.md`) || '')
+    const first = lines.slice(5).find(l => l && !l.startsWith('<!--') && !l.startsWith('#'))
+    const heads = lines.filter(l => /^#{2,3} /.test(l)).map(l => `"${l.replace(/^#+ /, '')}"`)
+    out.push(`  - ${h.post}: "${short(stripCites(first || ''), 110)}"`, `      headings: ${heads.length ? heads.join(', ') : '(none)'}`)
+  }
+  return out
+}
+// A warning, not a failure: a heading that fits any story, or one a recent story already used.
+function headingWarnings(file, base, S, art, mine) {
+  const used = new Map()
+  for (const h of S.history.filter(x => x.kind === 'story' && x.status !== 'abandoned').slice(-2 * RECENT_STORIES)) {
+    for (const l of toLines(atBase(base, `posts/${h.post}/article.md`) || '')) if (/^#{2,3} /.test(l)) used.set(l.replace(/^#+ /, '').trim().toLowerCase(), h.post)
+  }
+  for (const r of art.textRows) {
+    if (!/^#{2,3} /.test(r.text) || !mine(r)) continue
+    const h = r.text.replace(/^#+ /, '').trim()
+    if (GENERIC_HEADING.test(h)) warn(file, `line ${r.i + 1}: "${h}" could head any story; say what is specific to this one`)
+    else if (used.has(h.toLowerCase())) warn(file, `line ${r.i + 1}: "${h}" already heads a section of ${used.get(h.toLowerCase())}; vary the structure from one story to the next`)
+  }
+}
+
 const STOP = new Set(['the', 'and', 'for', 'with', 'from', 'that', 'this', 'into', 'over', 'after', 'about', 'its', 'new', 'says', 'said', 'will', 'has', 'have', 'are', 'was', 'were', 'been', 'than', 'more'])
 const keyWords = s => new Set(wordsOf(normText(s).toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, ' ')).filter(w => w.length > 2 && !STOP.has(w)))
 function similarity(a, b) {
@@ -793,8 +835,8 @@ function similarity(a, b) {
 function recapPlan(S) {
   const stories = S.history.filter(h => h.kind === 'story')
   if (!stories.length) return null
-  const wk = isoWeek(stories[stories.length - 1].cycle)
-  const covers = stories.filter(h => h.status !== 'abandoned' && isoWeek(h.cycle).sunday === wk.sunday).map(h => h.post)
+  const wk = isoWeek(cycleDate(stories[stories.length - 1].cycle))
+  const covers = stories.filter(h => h.status !== 'abandoned' && isoWeek(cycleDate(h.cycle)).sunday === wk.sunday).map(h => h.post)
   if (!covers.length) return null
   const id = `${wk.sunday}-week-${String(wk.week).padStart(2, '0')}-recap`
   if (S.history.some(h => h.post === id)) return null
@@ -803,7 +845,7 @@ function recapPlan(S) {
 
 function stateOk(S) {
   return isObj(S) && S.contract === CONTRACT && Array.isArray(S.history) && ['scout', 'editor', 'writer', 'reviser', 'checker', 'done'].includes(S.next)
-    && (S.cycle === null || isDate(S.cycle)) && (S.post === null || typeof S.post === 'string')
+    && (S.cycle === null || isCycle(S.cycle)) && (S.post === null || typeof S.post === 'string')
 }
 const nextRole = S => S.next === 'done' ? (recapPlan(S)?.due ? 'recap' : 'scout') : S.next
 
@@ -907,16 +949,19 @@ function storySources(file, articleFile, art, sources, meta) {
 function scoutStep(base, S, changes) {
   const paths = [...changes.keys()].filter(p => /^editions\/[^/]+\/topics\.json$/.test(p))
   if (paths.length !== 1) {
-    fail('editions/', `the scout writes one file, editions/<cycle>/topics.json, with <cycle> today's date (${TODAY}) or yesterday's, UTC`)
+    fail('editions/', `the scout writes one file, editions/<cycle>/topics.json, with <cycle> today's date (${TODAY}) or yesterday's, UTC (<date>-2 for a second story the same day)`)
     expectFiles('scout', new Map([['state.json', 'M']]), new Map(paths.map(p => [p, 'A'])), changes)
     return
   }
   const path = paths[0]
   const cycle = path.split('/')[1]
   expectFiles('scout', new Map([[path, 'A'], ['state.json', 'M']]), new Map(), changes)
-  if (!isDate(cycle)) { fail(path, 'the folder is named after the cycle date, YYYY-MM-DD'); return }
-  if (cycle !== TODAY && cycle !== addDays(TODAY, -1)) fail(path, `the cycle is today (${TODAY}) or yesterday (${addDays(TODAY, -1)}), UTC`)
-  if (S.cycle && cycle <= S.cycle) fail(path, `the cycle comes after the last one (${S.cycle})`)
+  if (!isCycle(cycle)) { fail(path, 'the folder is named after the cycle: its date (YYYY-MM-DD), or <date>-2 for a second story the same day'); return }
+  const day = cycleDate(cycle)
+  if (day !== TODAY && day !== addDays(TODAY, -1)) fail(path, `the cycle is today (${TODAY}) or yesterday (${addDays(TODAY, -1)}), UTC`)
+  if (S.cycle && cycleDate(S.cycle) === day && S.cycle.endsWith('-2')) fail(path, `${day} already has two stories, the most a day can have`)
+  else if (cycle.endsWith('-2') && (!S.cycle || cycleDate(S.cycle) !== day)) fail(path, `${cycle} is the second story of ${day}: the first one is the cycle ${day}`)
+  else if (S.cycle && cycleKey(cycle) <= cycleKey(S.cycle)) fail(path, `the cycle comes after the last one (${S.cycle})${cycleDate(S.cycle) === day ? `; a second story the same day is the cycle ${day}-2` : ''}`)
   const posts = postsAt(base).filter(p => p.meta.kind === 'story')
   const primaries = new Map(posts.filter(p => p.meta.status !== 'abandoned').map(p => [normUrl(p.meta.primary_source), p.id]))
   const followable = new Set(posts.filter(p => ['ready', 'not_ready'].includes(p.meta.status)).map(p => p.id))
@@ -930,7 +975,7 @@ function editorStep(base, S, changes) {
   const choicePath = `editions/${cycle}/choice.json`
   const metaPaths = [...changes.keys()].filter(p => /^posts\/[^/]+\/meta\.json$/.test(p))
   const mp = metaPaths.length === 1 ? metaPaths[0] : null
-  if (!mp) fail('posts/', `the editor creates one file posts/<id>/meta.json, with <id> = ${cycle}-<slug>`)
+  if (!mp) fail('posts/', `the editor creates one file posts/<id>/meta.json, with <id> = ${cycleDate(cycle)}-<slug>`)
   expectFiles('editor', new Map([[choicePath, 'A'], ['state.json', 'M'], ...(mp ? [[mp, 'A']] : [])]), new Map(), changes)
   const topics = jsonAtBase(base, `editions/${cycle}/topics.json`)
   const choice = jsonNow(choicePath)
@@ -938,7 +983,7 @@ function editorStep(base, S, changes) {
   if (!mp) return
   const id = mp.split('/')[1]
   const m = id.match(ID)
-  if (!m || m[1] !== cycle || m[2].length > SLUG_MAX) fail(mp, `the folder is <id> = ${cycle}-<slug>: lower-case words joined by "-", at most ${SLUG_MAX} characters after the date`)
+  if (!m || m[1] !== cycleDate(cycle) || m[2].length > SLUG_MAX) fail(mp, `the folder is <id> = ${cycleDate(cycle)}-<slug>: lower-case words joined by "-", at most ${SLUG_MAX} characters after the date`)
   const meta = jsonNow(mp)
   if (meta !== undefined && checkMeta(mp, meta) && topic) {
     if (meta.id !== id) fail(mp, `"id" is "${id}", the folder name`)
@@ -992,6 +1037,7 @@ function storyStep(base, S, role, changes) {
   const art = parseArticle(text, F.art)
   citations(F.art, art, byId, sources, F.src, new Set(postsAt(base).map(p => p.id)))
   storySources(F.src, F.art, art, sources, meta)
+  headingWarnings(F.art, base, S, art, role === 'writer' ? r => !r.add && !r.kp : r => r.add?.role === role)
   if (meta.sensitive !== metaBefore.sensitive && role === 'writer') fail(F.meta, 'the writer does not change meta.json')
 
   let map = new Map()
@@ -1102,7 +1148,7 @@ function todo(base, S) {
 
   if (role === 'scout') {
     p('Find 3 candidate AI news stories of the last 3 days. Write:',
-      `  A editions/<cycle>/topics.json   <cycle> = ${TODAY} (or ${addDays(TODAY, -1)})`,
+      `  A editions/<cycle>/topics.json   <cycle> = ${scoutCycle(S)}`,
       '  M state.json',
       '', 'Rules:',
       '  - exactly 3 topics, "n" 1 to 3; "summary" at most 60 words; "follow_up_of" null or the id of a finished story',
@@ -1112,22 +1158,22 @@ function todo(base, S) {
       '  - not sources: aggregators, search pages, social networks, video sites, URL shorteners, archives',
       '  - a topic whose source is the primary source of a story already covered is refused (unless follow_up_of)',
       '', `Stories of the last ${RECENT_DAYS} days:`, ...recentList(),
-      '', `state.json after your step: ${json({ contract: CONTRACT, cycle: TODAY, next: 'editor', post: null, history: S.history })}`)
+      '', `state.json after your step: ${json({ contract: CONTRACT, cycle: scoutCycle(S).split(' ')[0], next: 'editor', post: null, history: S.history })}`)
   } else if (role === 'editor') {
     const topics = jsonAtBase(base, `editions/${S.cycle}/topics.json`)
     p('Pick the most trending topic that is not already covered. Write:',
-      `  A editions/${S.cycle}/choice.json`, `  A posts/${S.cycle}-<slug>/meta.json   <slug>: lower-case words joined by "-", at most ${SLUG_MAX} characters`, '  M state.json',
+      `  A editions/${S.cycle}/choice.json`, `  A posts/${cycleDate(S.cycle)}-<slug>/meta.json   <slug>: lower-case words joined by "-", at most ${SLUG_MAX} characters`, '  M state.json',
       '', 'The topics:')
     for (const t of topics?.topics || []) p(`  ${t.n}. [${t.type}] ${t.title}`, ...(t.sources || []).map(s => `       ${s.published || 'no date'}  ${s.url}`))
     p('', 'Rules:',
       '  - choice.json: "picked" 1 to 3; "why" at most 80 words; "set_aside" gives the 2 other topics, each with a "why" of at most 30 words',
-      `  - "trend": at least 3 articles from 3 different sites (2 for research and open_source), published between ${addDays(S.cycle, FRESH[0])} and ${addDays(S.cycle, FRESH[1])}, none of them already a source of the topic`,
+      `  - "trend": at least 3 articles from 3 different sites (2 for research and open_source), published between ${windowOf(S.cycle)[0]} and ${windowOf(S.cycle)[1]}, none of them already a source of the topic`,
       '  - meta.json: "type" and "follow_up_of" as in the topic; "primary_source" is one of its URLs, of the kind its type needs:')
     for (const [t, v] of Object.entries(TYPES)) p(`      ${t.padEnd(13)} ${v.primary.join(' or ')}${v.unconfirmed ? ' (or "unconfirmed": true, press only)' : ''}   category ${v.category}`)
     p('  - "sensitive": true when the story is about people or accusations', '  - 1 to 5 tags:', `      ${TAGS.join(', ')}`,
       '', `Stories of the last ${RECENT_DAYS} days:`, ...recentList(),
-      '', 'meta.json:', `  ${json({ contract: CONTRACT, id: `${S.cycle}-<slug>`, cycle: S.cycle, kind: 'story', type: '<type of the topic>', category: '<category>', tags: ['<tag>'], primary_source: '<url>', follow_up_of: null, sensitive: false, unconfirmed: false, covers: null, status: 'open', issues: [], image_brief: null })}`,
-      '', `state.json after your step: ${json({ ...S, next: 'writer', post: `${S.cycle}-<slug>` })}`)
+      '', 'meta.json:', `  ${json({ contract: CONTRACT, id: `${cycleDate(S.cycle)}-<slug>`, cycle: S.cycle, kind: 'story', type: '<type of the topic>', category: '<category>', tags: ['<tag>'], primary_source: '<url>', follow_up_of: null, sensitive: false, unconfirmed: false, covers: null, status: 'open', issues: [], image_brief: null })}`,
+      '', `state.json after your step: ${json({ ...S, next: 'writer', post: `${cycleDate(S.cycle)}-<slug>` })}`)
   } else if (role === 'writer') {
     const choice = jsonAtBase(base, `editions/${S.cycle}/choice.json`)
     const topic = jsonAtBase(base, `editions/${S.cycle}/topics.json`)?.topics?.[(choice?.picked || 1) - 1]
@@ -1142,6 +1188,7 @@ function todo(base, S) {
       '  - no links, URLs, HTML, images, tables, code blocks or "> " quotes',
       '  - at least 3 sources from 3 different sites; every quotation copied exactly from the page (8+ words, 20-300 characters)',
       '  - if the story turns out false or not news, abandon it: set meta "status": "abandoned" with "issues", and state "next": "done"',
+      ...lastLooks(base, S),
       '', `state.json after your step: ${json({ ...S, next: 'reviser' })}`)
   } else if (role === 'reviser' || role === 'checker') {
     const lines = toLines(atBase(base, `posts/${S.post}/article.md`) || '')
@@ -1165,6 +1212,7 @@ function todo(base, S) {
       '    {"id", "line", "claim", "status": "supported"|"absence"|"derived"|"unsupported", "support": [{"source", "quote"}], "note"}',
       '  - an unsupported claim means "status": "not_ready" (unless you correct that line now)')
     p('  - if the story turns out false, abandon it: meta "status": "abandoned" with "issues", state "next": "done"',
+      ...(role === 'reviser' ? lastLooks(base, S) : []),
       '', `The article now (${lines.length} lines):`, ...lines.map((l, i) => `${String(i + 1).padStart(4)}  ${l}`),
       '', 'The sources:', ...sources.map(s => `  [^${s.id}] ${s.kind.padEnd(9)} ${s.publisher} · ${s.published || 'no date'} · ${s.url} (${plural(s.quotes?.length || 0, 'quotation')})`),
       '', `state.json after your step: ${role === 'reviser' ? json({ ...S, next: 'checker' }) : json({ contract: CONTRACT, cycle: S.cycle, next: 'done', post: null, history: [...S.history, { cycle: S.cycle, post: S.post, kind: 'story', status: '<ready|not_ready>' }] })}`)

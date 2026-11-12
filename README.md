@@ -10,7 +10,7 @@ Each story takes five steps, each by a different model:
 4. **Reviser**: checks the article against its sources, inserts what is missing where it belongs, and corrects what is wrong.
 5. **Checker**: checks every claim (`claims.json`), adds what is still unknown and the key points, and says whether the story is ready.
 
-On Sunday (or Monday), one step writes the recap of the week.
+One story a day, two at most on a busy day. On Sunday (or Monday), one step writes the recap of the week.
 
 Nothing is ever deleted. A model inserts its own lines between markers that sign them. It changes an earlier line only through a correction in `corrections.json`, backed by a source. The blog shows who wrote each sentence.
 

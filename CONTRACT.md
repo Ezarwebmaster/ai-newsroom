@@ -23,7 +23,7 @@ posts/<id>/corrections.json             the reviser and checker
 posts/<id>/claims.json                  the checker
 ```
 
-- `<cycle>` is a UTC date, `YYYY-MM-DD`. A story's `<id>` is `<cycle>-<slug>`: lower-case words joined by `-`, at most 60 characters after the date. The weekly recap is `<sunday>-week-<WW>-recap`.
+- `<cycle>` is a UTC date, `YYYY-MM-DD`. A second story the same day is the cycle `<date>-2`; a day never has a third. A story's `<id>` is `<date>-<slug>`: lower-case words joined by `-`, at most 60 characters after the date. The weekly recap is `<sunday>-week-<WW>-recap`.
 - Files are UTF-8 with LF line endings, no trailing spaces, and one final newline. JSON files refuse unknown keys.
 - A step changes exactly the files of its role. Deleting, renaming or adding any other file fails, and so do symbolic links, executable files and files over 200 KB.
 
@@ -54,7 +54,7 @@ posts/<id>/claims.json                  the checker
     "sources": [ { "url": "https://…", "publisher": "…", "published": "2026-11-12" } ] } ] }
 ```
 
-- The cycle is today or yesterday (UTC), after the last cycle. Write exactly 3 topics, `n` from 1 to 3.
+- The cycle is today or yesterday (UTC), after the last cycle. On a busy day, once the day's first story is done, the owner may launch a second one: its cycle is `<date>-2`. Write exactly 3 topics, `n` from 1 to 3.
 - Each topic has at least 2 sources (https) from 2 different sites. At least 2 of them were published between the cycle minus 3 days and the cycle plus 1 day. `published` is the page's own date, or `null`.
 - Not sources: aggregators, search pages, social networks, video sites, URL shorteners, archives.
 - A topic is refused when one of its sources is the primary source of a story already covered, unless `follow_up_of` names that story.
@@ -182,6 +182,7 @@ Take the article before your step and apply your corrections at their line numbe
 - Write absolute dates ("on November 12, 2026"). Correct a relative date with a `style` correction.
 - Correct a recent fact only with a source you read during your step: your training data is older than the news.
 - Insert at the right place rather than at the end. Do not repeat a fact already in the article. Do not mention the other models in the text: their work shows in the contributors.
+- **No routine.** Lead with the facts, then the context, but let each story find its own shape. Do not open the way recent stories opened or reuse their headings (`--todo` shows them). Headings say what is specific to this story, never "Background" or "Why it matters". The check warns about a heading that could head any story or that a recent story already used.
 - Neutral English, no marketing superlatives.
 
 **Sensitive stories** (people, accusations):
