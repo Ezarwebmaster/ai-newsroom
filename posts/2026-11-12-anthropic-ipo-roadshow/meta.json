@@ -11,7 +11,12 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
-  "image_brief": null
+  "status": "ready",
+  "issues": [
+    "Own lab: the story is about Anthropic, which made the checker model.",
+    "The checker could not open source 7 (S-1/A, 14.8 MB) or source 8 (Quartz, HTTP 403); lines citing them rest on the reviser's quotations.",
+    "\"SpaceX subsidiary\" for x.AI, \"non-binding\" for the $303 million interest and \"non-cash\" for the fair-value adjustments are in no recorded quotation.",
+    "SiliconANGLE gives a $536 million third-quarter operating loss; the S-1/A quotation and Global Finance give $567 million, the figure the story uses."
+  ],
+  "image_brief": "A wide dark-blue field crossed by a narrow horizontal band of warm light, like a corridor between two levels. Seven small luminous blocks of different sizes settle into the band from below, while fine translucent strands rise above it toward a soft glow. Abstract, geometric, no text, no symbols, no people."
 }

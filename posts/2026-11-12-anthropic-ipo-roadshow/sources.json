@@ -91,6 +91,41 @@
         "text": "The Registration Statement shall have been declared effective by the SEC and the IPO shall have closed.",
         "for": "The placement depends on the registration statement being effective.",
         "by": "writer"
+      },
+      {
+        "text": "Neither the Shares nor the shares of Class A Common Stock issuable upon conversion thereof shall be subject to any",
+        "for": "Google's Class N shares carry no lock-up (start of the sentence).",
+        "by": "checker"
+      },
+      {
+        "text": "market stand-off, lock-up or similar restriction on transfer (other than restrictions under applicable securities laws).",
+        "for": "Google's Class N shares carry no lock-up (end of the sentence).",
+        "by": "checker"
+      },
+      {
+        "text": "The Investor has executed and delivered to the Underwriters a lock-up agreement in the form provided by the Company",
+        "for": "Google has signed a lock-up agreement with the underwriters.",
+        "by": "checker"
+      },
+      {
+        "text": "covering all securities of the Company held by the Investor and its Affiliates, other than the Shares",
+        "for": "The lock-up covers Google's other Anthropic securities.",
+        "by": "checker"
+      },
+      {
+        "text": "This Agreement shall automatically terminate upon the earliest to occur of any of the following events:",
+        "for": "The agreement can end automatically.",
+        "by": "checker"
+      },
+      {
+        "text": "on January 31, 2027 (or such later date, not more than 90 days thereafter, as the Company may specify",
+        "for": "The January 31, 2027 end date and its extension of up to 90 days.",
+        "by": "checker"
+      },
+      {
+        "text": "by written notice to the Investor prior to January 31, 2027) if the Underwriting Agreement has not been executed,",
+        "for": "The end date applies if no underwriting agreement is signed.",
+        "by": "checker"
       }
     ]
   },
@@ -294,6 +329,11 @@
         "text": "“A deal of this size gets one shot at its debut, and making it digestible for the market matters more than the last turn of valuation,” the firm added.",
         "for": "Yorkville Ives & Co. on making the deal digestible for the market.",
         "by": "reviser"
+      },
+      {
+        "text": "$70 to $80 a share on 866.7 million shares — which a company representative later said contained inaccurate pricing details, Reuters reported.",
+        "for": "The retracted terms and the company representative's explanation, as Global Finance cites Reuters.",
+        "by": "checker"
       }
     ]
   },

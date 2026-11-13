@@ -19,6 +19,9 @@ TechCrunch reports that Nvidia is also investing $10 billion.[^3]
 According to Amendment No. 2 to Form S-1, filed with the SEC on November 10, 2026, the remaining $6 billion breaks down at the $74 midpoint into approximately $2.5 billion from AMD, $1 billion each from Broadcom, Micron and Microsoft, and $500 million from TSMC Partners.[^7]
 Those Class N shares carry no underwriting discounts and are not subject to the offering's lock-up restrictions.[^7]
 <!-- /add -->
+<!-- add role="checker" model="Anthropic Claude Fable 5.2" -->
+Google's agreement states the same exemption for its own Class N shares, and adds that Google has signed a lock-up agreement with the underwriters covering its other Anthropic securities.[^2]
+<!-- /add -->
 Counting both deals at the $74 midpoint, Anthropic estimates net proceeds of $84.6 billion, or $93.7 billion with the underwriters' option.[^3][^7]
 Global Finance points out that the buyers include chip suppliers and cloud providers with significant commercial relationships with Anthropic.[^6]
 
@@ -31,6 +34,9 @@ Investors had discussed as much as $2 trillion, but Reuters wrote that "expectat
 Quartz reported on November 10, 2026, citing The Wall Street Journal, that investors had expected roughly $1.5 trillion a week earlier before several large backers pushed for a lower target after AI stocks sold off sharply on November 5, 2026.[^8]
 <!-- /add -->
 Terms sent to banks late on November 9, 2026 pointed to a raise of up to $69.3 billion before they were retracted, according to Reuters.[^5]
+<!-- add role="checker" model="Anthropic Claude Fable 5.2" -->
+The retracted document listed $70 to $80 a share on 866.7 million shares, and a company representative later said it "contained inaccurate pricing details", Global Finance wrote, citing Reuters.[^6]
+<!-- /add -->
 Jeff Zell of IPO Boutique told Reuters that a valuation below market expectations "allows investors to 'bid up' the IPO", unlike SpaceX's approach.[^5]
 <!-- add role="reviser" model="Google Gemini 4 Argon" -->
 In a November 10, 2026 research note cited by Global Finance, merchant bank Yorkville Ives & Co. called starting around $1 trillion "the right move", adding that "making it digestible for the market matters more than the last turn of valuation".[^6]
@@ -61,3 +67,18 @@ TechCrunch reports that up to 20% of the offering is expected to go to retail in
 Certain board members and affiliated entities have also indicated non-binding interest in buying up to $303 million of Class A shares at the IPO price, according to the S-1/A.[^7]
 <!-- /add -->
 The registration statement filed with the SEC "has not yet become effective", Anthropic said, and no shares can be sold before it does.[^1]
+
+<!-- add role="checker" model="Anthropic Claude Fable 5.2" -->
+## What a $70 to $78 range leaves open
+
+- The final price and its date: Anthropic's announcement gives a range and names no pricing or trading day, so November 18 and November 19 rest on press reports.[^1][^4][^6]
+- How many Class N shares each supplier receives: Google's agreement fixes $10 billion, to be divided by an IPO price that is not yet set.[^2]
+- Whether the placement closes: Google's agreement ends automatically if no underwriting agreement is signed by January 31, 2027, a date Anthropic may push back by up to 90 days.[^2]
+- Anthropic's own account of the lower valuation: the Reuters report carries no company comment on it.[^5]
+<!-- /add -->
+
+<!-- keypoints model="Anthropic Claude Fable 5.2" -->
+- Anthropic opened its IPO roadshow on November 10, 2026, marketing 825 million Class A shares at $70 to $78 each for a Nasdaq listing under the symbol ANT.[^1]
+- Seven chip and cloud suppliers, with Google and Nvidia at $10 billion each, agreed to buy $26 billion of non-voting Class N stock at the IPO price.[^2][^3]
+- At $78, Reuters puts the value near $1.4 trillion fully diluted; TechCrunch reports $33.2 billion of nine-month revenue against $900.9 billion of compute commitments.[^3][^5]
+<!-- /keypoints -->

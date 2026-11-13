@@ -1,0 +1,739 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Roadshow at $70 to $78 a share; seven suppliers agree to a $26 billion placement.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The initial public offering price is expected to be between $70.00 and $78.00 per share."
+      },
+      {
+        "source": 3,
+        "quote": "Anthropic said it had struck a deal to privately sell $26 billion of non-voting Class N stock at the IPO price to AMD"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "825 million Class A shares marketed from November 10, 2026 for a Nasdaq listing as ANT; press reports put pricing on November 18 and the value at up to $1.4 trillion fully diluted.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The proposed offering consists of 825,000,000 shares of Class A common stock."
+      },
+      {
+        "source": 1,
+        "quote": "Nov 10, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "Anthropic has applied to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.”"
+      },
+      {
+        "source": 6,
+        "quote": "expected to price its initial public offering on Wednesday, Nov. 18"
+      },
+      {
+        "source": 5,
+        "quote": "At the top of the price range, Anthropic would be valued at about $1.4-trillion on a fully diluted basis,"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Roadshow launched on November 10, 2026 for 825 million Class A shares at $70 to $78.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock."
+      },
+      {
+        "source": 1,
+        "quote": "Nov 10, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "The proposed offering consists of 825,000,000 shares of Class A common stock."
+      },
+      {
+        "source": 1,
+        "quote": "The initial public offering price is expected to be between $70.00 and $78.00 per share."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Application to list on the Nasdaq Global Select Market as ANT.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Anthropic has applied to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.”"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "801,351,354 shares from Anthropic, 23,648,646 from existing stockholders, with no proceeds to the company from the latter.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Of these, 801,351,354 shares are being offered by Anthropic and"
+      },
+      {
+        "source": 1,
+        "quote": "23,648,646 shares are being offered by certain existing stockholders."
+      },
+      {
+        "source": 1,
+        "quote": "Anthropic will not receive any proceeds from the sale of shares by the selling stockholders."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 9,
+    "claim": "A 30-day option on up to 123,750,000 more shares; Goldman Sachs and Morgan Stanley are lead bookrunners.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Anthropic also expects to grant the underwriters a 30-day option to purchase up to an additional 123,750,000 shares"
+      },
+      {
+        "source": 6,
+        "quote": "With Goldman Sachs & Co. and Morgan Stanley & Co. serving as lead bookrunners"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 10,
+    "claim": "Up to $64.35 billion at the top of the range, per TechCrunch.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The sale is expected to raise anywhere from $57.75 billion to $64.35 billion."
+      }
+    ],
+    "note": "825,000,000 shares at $78.00 is $64.35 billion."
+  },
+  {
+    "id": 8,
+    "line": 14,
+    "claim": "Seven named suppliers agreed to buy $26 billion of non-voting Class N stock at the IPO price, per TechCrunch.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Anthropic said it had struck a deal to privately sell $26 billion of non-voting Class N stock at the IPO price to AMD"
+      },
+      {
+        "source": 3,
+        "quote": "AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 15,
+    "claim": "Google's agreement, dated November 10, 2026, sets $10 billion converted at the IPO price.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "$10,000,000,000 (the \"Investment Amount\") divided by the IPO Price, rounded down to the nearest whole share"
+      },
+      {
+        "source": 2,
+        "quote": "at a price per share equal to the per share initial public offering price of the Class A Common Stock"
+      }
+    ],
+    "note": "The agreement's preamble reads \"made as of November 10, 2026\"; EDGAR dates the files of the filing 2026-11-10."
+  },
+  {
+    "id": 10,
+    "line": 16,
+    "claim": "The placement closes right after the IPO, once the registration statement is effective.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The purchase and sale of the Shares shall take place remotely immediately following the closing of the IPO."
+      },
+      {
+        "source": 2,
+        "quote": "The Registration Statement shall have been declared effective by the SEC and the IPO shall have closed."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 17,
+    "claim": "Nvidia is also investing $10 billion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Google and Nvidia are investing $10 billion apiece."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 19,
+    "claim": "At the $74 midpoint: about $2.5 billion from AMD, $1 billion each from Broadcom, Micron and Microsoft, $500 million from TSMC Partners; the filing is dated November 10, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "Dated November 10, 2026"
+      },
+      {
+        "source": 7,
+        "quote": "NVIDIA Corporation (“NVIDIA”) would purchase 135,135,135 shares of our Class N common stock for approximately $10.0 billion, Advanced Micro Devices, Inc. (“AMD”) would purchase 33,783,783 shares of our Class N common stock for approximately $2.5 billion"
+      },
+      {
+        "source": 7,
+        "quote": "Broadcom Inc. (“Broadcom”) would purchase 13,513,513 shares of our Class N common stock for approximately $1.0 billion, Micron Technology, Inc. (“Micron”) would purchase 13,513,513 shares of our Class N common stock for approximately $1.0 billion"
+      },
+      {
+        "source": 7,
+        "quote": "Microsoft Corporation (“Microsoft”) would purchase 13,513,513 shares of our Class N common stock for approximately $1.0 billion, and TSMC Partners, Ltd. (“TSMC”) would purchase 6,756,756 shares of our Class N common stock for approximately $500 million."
+      }
+    ],
+    "note": "Not opened by the checker: source 7 (14.8 MB) exceeded the fetch limit; quotation recorded by the reviser. The amounts sum to $6 billion, consistent with $26 billion less $10 billion each from Google and Nvidia."
+  },
+  {
+    "id": 13,
+    "line": 20,
+    "claim": "No underwriting discounts on the Class N shares, and no lock-up.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "The underwriters will not receive any underwriting discounts or commissions on the shares of Class N common stock sold in the concurrent private placement."
+      },
+      {
+        "source": 7,
+        "quote": "The shares of Class N common stock sold in the concurrent private placement will not be registered in this offering and will not be subject to lock-up restrictions described in the section titled “Shares Eligible for Future Sale.”"
+      },
+      {
+        "source": 2,
+        "quote": "market stand-off, lock-up or similar restriction on transfer (other than restrictions under applicable securities laws)."
+      }
+    ],
+    "note": "Not opened by the checker: source 7 (14.8 MB) exceeded the fetch limit; quotation recorded by the reviser. Section 3.10 of Google's agreement (source 2), which I read, confirms the absence of a lock-up for Google's shares."
+  },
+  {
+    "id": 14,
+    "line": 23,
+    "claim": "Google's Class N shares carry no lock-up; Google signed a lock-up agreement covering its other Anthropic securities.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Neither the Shares nor the shares of Class A Common Stock issuable upon conversion thereof shall be subject to any"
+      },
+      {
+        "source": 2,
+        "quote": "market stand-off, lock-up or similar restriction on transfer (other than restrictions under applicable securities laws)."
+      },
+      {
+        "source": 2,
+        "quote": "The Investor has executed and delivered to the Underwriters a lock-up agreement in the form provided by the Company"
+      },
+      {
+        "source": 2,
+        "quote": "covering all securities of the Company held by the Investor and its Affiliates, other than the Shares"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 25,
+    "claim": "Estimated net proceeds of $84.6 billion, or $93.7 billion with the underwriters' option, at $74.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "will be approximately $84.6 billion (or approximately $93.7 billion if the underwriters’ option to purchase additional shares of our Class A common stock is exercised in full), based upon the assumed initial public offering price of $74.00 per share"
+      },
+      {
+        "source": 3,
+        "quote": "Anthropic estimates net proceeds to reach somewhere between $84.6 billion and $93.7 billion"
+      }
+    ],
+    "note": "Not opened by the checker: source 7 (14.8 MB) exceeded the fetch limit; quotation recorded by the reviser. TechCrunch (source 3), which I read, gives the same two figures."
+  },
+  {
+    "id": 16,
+    "line": 26,
+    "claim": "The buyers have significant commercial relationships with Anthropic.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "companies with significant commercial relationships with Anthropic — including chip suppliers, cloud providers"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 30,
+    "claim": "About $1.4 trillion fully diluted and about $1 trillion non-diluted at the top of the range, per Reuters.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "At the top of the price range, Anthropic would be valued at about $1.4-trillion on a fully diluted basis,"
+      },
+      {
+        "source": 5,
+        "quote": "On a non-diluted basis, excluding those securities, Anthropic’s market value would be about $1-trillion."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 31,
+    "claim": "A $965 billion valuation in the May 2026 fundraise, per TechCrunch.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "the $965 billion valuation Anthropic reached in a May fundraise"
+      }
+    ],
+    "note": "The article is dated November 10, 2026, so \"a May fundraise\" is May 2026."
+  },
+  {
+    "id": 19,
+    "line": 32,
+    "claim": "Investors had discussed up to $2 trillion; expectations came down, per Reuters.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Investors had previously discussed a valuation of as much as $2-trillion,"
+      },
+      {
+        "source": 5,
+        "quote": "but expectations have since come down given Anthropic’s substantial infrastructure commitments"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 34,
+    "claim": "Investors expected roughly $1.5 trillion a week earlier; large backers pressed for less after the November 5, 2026 selloff, per Quartz citing The Wall Street Journal.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Investors were expecting roughly $1.5 trillion a week ago, but several large backers pressed for a lower number after AI stocks sold off sharply last Thursday, according to The Wall Street Journal."
+      }
+    ],
+    "note": "Not opened by the checker: source 8 answered HTTP 403; quotation recorded by the reviser. \"Last Thursday\" before November 10, 2026 is November 5; Global Finance (source 6), which I read, also dates the selloff to November 5 and mentions the $1.5 trillion figure."
+  },
+  {
+    "id": 21,
+    "line": 36,
+    "claim": "Terms circulated late on November 9, 2026 pointed to up to $69.3 billion before being retracted, per Reuters.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 5,
+        "quote": "details of its IPO were briefly circulated to investment banks late on Monday shortly before being retracted"
+      },
+      {
+        "source": 5,
+        "quote": "The preliminary terms showed Anthropic’s IPO could raise as much as $69.3bn."
+      }
+    ],
+    "note": "The report is dated Tuesday, November 10, 2026, so \"late on Monday\" is November 9, 2026."
+  },
+  {
+    "id": 22,
+    "line": 38,
+    "claim": "The retracted terms were $70 to $80 a share on 866.7 million shares; a company representative said they contained inaccurate pricing details, per Global Finance citing Reuters.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "$70 to $80 a share on 866.7 million shares — which a company representative later said contained inaccurate pricing details, Reuters reported."
+      }
+    ],
+    "note": "866.7 million shares at $80 is $69.3 billion, which matches the Reuters figure on the line above."
+  },
+  {
+    "id": 23,
+    "line": 40,
+    "claim": "Jeff Zell says a valuation below expectations lets investors bid up the IPO, unlike SpaceX.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "this allows investors to ‘bid up’ the IPO rather than facing a take-it-or-leave-it scenario like SpaceX took,"
+      },
+      {
+        "source": 5,
+        "quote": "said Jeff Zell, senior research analyst at IPO Boutique."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 42,
+    "claim": "Yorkville Ives & Co., in a November 10, 2026 note, called pricing at roughly $1 trillion the right move.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Pricing at roughly $1 trillion, with the option to move toward $1.2 trillion, “is the right move,” according to a Nov. 10 research note from merchant bank Yorkville Ives & Co."
+      },
+      {
+        "source": 6,
+        "quote": "“A deal of this size gets one shot at its debut, and making it digestible for the market matters more than the last turn of valuation,” the firm added."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 47,
+    "claim": "Third-quarter revenue of $17 billion and $33.2 billion for nine months, per TechCrunch.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The company’s third-quarter revenue came in at $17 billion, and nine-month revenue was $33.2 billion."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 48,
+    "claim": "Nine-month net loss of $104 billion, per TechCrunch.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "reported a nine-month net loss of $104 billion, with compute and infrastructure commitments hitting $900.9 billion."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 50,
+    "claim": "Nine-month revenue up about 1,200% year on year (Quartz); $94.3 billion of the $104.0 billion net loss is fair-value adjustments (S-1/A).",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "In an amended filing, the company said sales through the first three quarters, ending Sept. 30, came to $33.24 billion, a jump of about 1,200% from a year earlier."
+      },
+      {
+        "source": 7,
+        "quote": "These net losses included changes in fair value of convertible notes, derivative liabilities, and SAFEs of $1.0 billion, $5.4 billion, and $34.3 billion for the years ended December 31, 2023, 2024, and 2025, respectively, and $94.3 billion for the nine months ended September 30, 2026"
+      }
+    ],
+    "note": "Not opened by the checker: source 7 (14.8 MB) exceeded the fetch limit; quotation recorded by the reviser. Not opened by the checker: source 8 answered HTTP 403; quotation recorded by the reviser. The line calls the adjustments non-cash, a word the recorded quotations do not contain."
+  },
+  {
+    "id": 28,
+    "line": 51,
+    "claim": "Operating loss of $567 million in Q3 2026 after $974 million of operating income in Q2; Adjusted Operating Income $2.5 billion against $2.3 billion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "Our operating loss was $567 million for the three months ended September 30, 2026, compared to an operating income of $974 million for the three months ended June 30, 2026, primarily driven by $5.0 billion of compute under short-term commitments"
+      },
+      {
+        "source": 7,
+        "quote": "Adjusted Operating Income increased for the three months ended September 30, 2026 to $2.5 billion compared to $2.3 billion for the three months ended June 30, 2026."
+      }
+    ],
+    "note": "Not opened by the checker: source 7 (14.8 MB) exceeded the fetch limit; quotation recorded by the reviser. Global Finance (source 6), which I read, also gives the $567 million operating loss; SiliconANGLE (source 4) writes $536 million."
+  },
+  {
+    "id": 29,
+    "line": 53,
+    "claim": "Run-rate revenue of roughly $81 billion on October 31, 2026, up $10 billion from September 30, per Reuters.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Anthropic’s run-rate revenue was roughly $81bn as of October 31, up $10bn from September 30,"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 54,
+    "claim": "$900.9 billion of commitments against nearly $132 billion in cash and short-term investments.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "reported a nine-month net loss of $104 billion, with compute and infrastructure commitments hitting $900.9 billion."
+      },
+      {
+        "source": 3,
+        "quote": "It has nearly $132 billion in cash and short-term investments."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 56,
+    "claim": "At least $121.3 billion with Google to July 2033, at least $110.0 billion with Amazon to April 2036, $47.2 to $49.2 billion with Microsoft to June 2033, up to $84.5 billion with x.AI into 2029.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "In March 2026, we entered into a CSP hosting agreement with Google, which was subsequently amended between May and October 2026, pursuant to which we committed to spend at least approximately $121.3 billion between April 2026 and July 2033, regardless of actual usage."
+      },
+      {
+        "source": 7,
+        "quote": "In April 2026, we entered into an agreement with Amazon, pursuant to which we committed to spend an aggregate of at least $110.0 billion between May 2026 and April 2036, regardless of actual usage."
+      },
+      {
+        "source": 7,
+        "quote": "In November 2025, we entered into an agreement with Microsoft, which was subsequently amended between February and November 2026, pursuant to which we committed to spend an aggregate of at least $47.2 billion and up to $49.2 billion between November 2026 and June 2033, regardless of actual usage."
+      },
+      {
+        "source": 7,
+        "quote": "Under the x.AI Arrangements, we agreed to spend an aggregate of up to $84.5 billion over terms extending into 2029, consisting of approximately $2.37 billion in the aggregate per month under the agreements, with capacity ramping periods at reduced fees."
+      }
+    ],
+    "note": "Not opened by the checker: source 7 (14.8 MB) exceeded the fetch limit; quotation recorded by the reviser. No recorded quotation describes x.AI as a SpaceX subsidiary; the line gives it as background."
+  },
+  {
+    "id": 32,
+    "line": 57,
+    "claim": "$125.0 to $150.0 billion of additional Google TPU payments between 2028 and 2031, and more than $20.0 billion for a first tranche of AMD Helios systems from 2027.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "We estimate the aggregate future payments for such additional compute to be approximately $125.0 billion to $150.0 billion, which are not included in the contractual obligations table above."
+      },
+      {
+        "source": 7,
+        "quote": "If we procure the full amount of this initial committed capacity, we expect aggregate expenditures to exceed $20.0 billion over the term of the agreement, which are not included in the contractual obligations table above."
+      }
+    ],
+    "note": "Not opened by the checker: source 7 (14.8 MB) exceeded the fetch limit; quotation recorded by the reviser. The recorded quotations give the amounts but not the years 2028 to 2031 and 2027, nor the names TPU and Helios."
+  },
+  {
+    "id": 33,
+    "line": 59,
+    "claim": "Each co-founder sells nearly 3.4 million shares, about $250 million at $74, per TechCrunch.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "interpretability research lead Christopher Olah are all selling nearly 3.4 million shares each."
+      },
+      {
+        "source": 3,
+        "quote": "At the $74 midpoint of the IPO price range, that would land them about $250 million each."
+      }
+    ],
+    "note": "23,648,646 selling-stockholder shares divided by seven is about 3.38 million."
+  },
+  {
+    "id": 34,
+    "line": 60,
+    "claim": "A Class F share with 50.1% of the voting power; the Long-Term Benefit Trust elects a board majority.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "As a public benefit corporation, the founders hold a Class F share with 50.1% of the voting power."
+      },
+      {
+        "source": 3,
+        "quote": "The Long-Term Benefit Trust will also elect a board majority, so Class A buyers will have limited influence."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 64,
+    "claim": "Pricing expected on November 18, 2026 and a Nasdaq debut on November 19.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Anthropic is expected to price its shares on Nov. 18."
+      },
+      {
+        "source": 6,
+        "quote": "expected to price its initial public offering on Wednesday, Nov. 18"
+      },
+      {
+        "source": 6,
+        "quote": "ahead of a planned Nasdaq debut on Nov. 19"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "line": 65,
+    "claim": "Up to 20% of the offering expected to go to retail investors.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The company expects up to 20% of the offering to be allocated to retail investors."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "line": 67,
+    "claim": "Board members and affiliated entities indicated interest in buying up to $303 million of Class A shares.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "Certain members of our board of directors and entities affiliated or associated with them have indicated an interest in purchasing shares of our Class A common stock in this offering at the initial public offering price at an aggregate purchase price of up to $303 million."
+      }
+    ],
+    "note": "Not opened by the checker: source 7 (14.8 MB) exceeded the fetch limit; quotation recorded by the reviser. The recorded quotation does not contain the word non-binding."
+  },
+  {
+    "id": 38,
+    "line": 69,
+    "claim": "The registration statement is not yet effective.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "A registration statement relating to these securities has been filed with the U.S. Securities and Exchange Commission but has not yet become effective."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "line": 74,
+    "claim": "Anthropic's announcement names no pricing or trading day; November 18 and 19 come from press reports.",
+    "status": "absence",
+    "note": "Read Anthropic's whole announcement (source 1): a price range, no pricing date, no first trading date. The dates are in sources 4 and 6."
+  },
+  {
+    "id": 40,
+    "line": 75,
+    "claim": "Google's agreement fixes $10 billion, divided by an IPO price not yet set.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "$10,000,000,000 (the \"Investment Amount\") divided by the IPO Price, rounded down to the nearest whole share"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "line": 76,
+    "claim": "Google's agreement ends automatically if no underwriting agreement is signed by January 31, 2027, a date Anthropic may extend by up to 90 days.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This Agreement shall automatically terminate upon the earliest to occur of any of the following events:"
+      },
+      {
+        "source": 2,
+        "quote": "on January 31, 2027 (or such later date, not more than 90 days thereafter, as the Company may specify"
+      },
+      {
+        "source": 2,
+        "quote": "by written notice to the Investor prior to January 31, 2027) if the Underwriting Agreement has not been executed,"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "line": 77,
+    "claim": "The Reuters report carries no company comment on the lower valuation.",
+    "status": "absence",
+    "note": "Read the whole Reuters report (source 5): it cites the filing and emails seen by Reuters, and no statement from Anthropic."
+  },
+  {
+    "id": 43,
+    "line": 81,
+    "claim": "Roadshow opened November 10, 2026: 825 million Class A shares at $70 to $78, Nasdaq symbol ANT.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock."
+      },
+      {
+        "source": 1,
+        "quote": "The proposed offering consists of 825,000,000 shares of Class A common stock."
+      },
+      {
+        "source": 1,
+        "quote": "The initial public offering price is expected to be between $70.00 and $78.00 per share."
+      },
+      {
+        "source": 1,
+        "quote": "Anthropic has applied to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.”"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "line": 82,
+    "claim": "Seven suppliers, Google and Nvidia at $10 billion each, agreed to buy $26 billion of non-voting Class N stock at the IPO price.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Anthropic said it had struck a deal to privately sell $26 billion of non-voting Class N stock at the IPO price to AMD"
+      },
+      {
+        "source": 3,
+        "quote": "Google and Nvidia are investing $10 billion apiece."
+      },
+      {
+        "source": 2,
+        "quote": "$10,000,000,000 (the \"Investment Amount\") divided by the IPO Price, rounded down to the nearest whole share"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "line": 83,
+    "claim": "About $1.4 trillion fully diluted at $78 (Reuters); $33.2 billion of nine-month revenue and $900.9 billion of commitments (TechCrunch).",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "At the top of the price range, Anthropic would be valued at about $1.4-trillion on a fully diluted basis,"
+      },
+      {
+        "source": 3,
+        "quote": "The company’s third-quarter revenue came in at $17 billion, and nine-month revenue was $33.2 billion."
+      },
+      {
+        "source": 3,
+        "quote": "reported a nine-month net loss of $104 billion, with compute and infrastructure commitments hitting $900.9 billion."
+      }
+    ]
+  }
+]
