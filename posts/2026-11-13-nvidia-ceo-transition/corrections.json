@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Anthropic Claude Opus 5.5",
+    "kind": "fact",
+    "line": 2,
+    "old": "title: \"Jensen Huang resigns as Nvidia CEO after 33 years as CFO Colette Kress becomes interim chief\"",
+    "new": "title: \"Jensen Huang resigns as Nvidia CEO after 33 years; CFO Colette Kress becomes interim chief\"",
+    "why": "Without punctuation the title says Huang spent 33 years as CFO; Kress is the CFO, now interim CEO.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "reviser",
+    "model": "Anthropic Claude Opus 5.5",
+    "kind": "style",
+    "line": 14,
+    "old": "Whereas Huang oversaw about 60 direct reports himself, The Guardian noted, Jones said Kress has \"a deep understanding of our business, customers, operations and financial position\".[^1][^2][^6]",
+    "new": "Jones said Kress has \"a deep understanding of our business, customers, operations and financial position\", while The Guardian noted that Huang had about 60 direct reports.[^1][^2][^6]",
+    "why": "The sentence set an unrelated Guardian detail against Jones's quotation as if one answered the other."
+  },
+  {
+    "id": 3,
+    "by": "reviser",
+    "model": "Anthropic Claude Opus 5.5",
+    "kind": "fact",
+    "line": 30,
+    "old": "U.S. President Donald Trump announced on November 8, 2026, that the FBI was investigating, and House Foreign Affairs Committee Chair Brian Mast said his panel contacted Huang's team on November 11, 2026, after requesting an interview on November 5, 2026.[^5]",
+    "new": "U.S. President Donald Trump announced on November 8, 2026, that the FBI was investigating, and House Foreign Affairs Committee Chair Brian Mast said his panel had been in contact with Huang's team as recently as the night of November 11, 2026, after requesting an interview on November 5, 2026.[^5]",
+    "why": "The AP says the committee was in contact with Huang's team as recently as that night, not that it first contacted his team then.",
+    "support": [
+      {
+        "source": 5,
+        "quote": "the committee was in contact with Huang's team as recently as Wednesday night"
+      }
+    ]
+  }
+]

@@ -23,47 +23,83 @@
       {
         "text": "Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer.",
         "for": "Colette Kress's appointment as Interim CEO.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This URL serves NVIDIA's news archive listing, not the release; the passage is on source 2, the full release."
+        }
       },
       {
         "text": "Kress will continue to serve as Executive Vice President and Chief Financial Officer while serving as Interim Chief Executive Officer until a permanent successor has been named.",
         "for": "Kress retains her EVP and CFO roles while serving as Interim CEO.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This URL serves NVIDIA's news archive listing, not the release; the passage is on source 2, the full release."
+        }
       },
       {
         "text": "The Board is initiating a search for a permanent Chief Executive Officer and will consider internal and external candidates.",
         "for": "The board's search for a permanent CEO across internal and external candidates.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This URL serves NVIDIA's news archive listing, not the release; the passage is on source 2, the full release."
+        }
       },
       {
         "text": "Kress has served as Executive Vice President and Chief Financial Officer of NVIDIA since joining the company in September 2013.",
         "for": "Kress joined NVIDIA as EVP and CFO in September 2013.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This URL serves NVIDIA's news archive listing, not the release; the passage is on source 2, the full release."
+        }
       },
       {
         "text": "Prior to joining NVIDIA, Kress spent nearly 25 years in finance roles at leading technology companies, including Cisco and Microsoft.",
         "for": "Kress's nearly 25 years in technology finance roles at Cisco and Microsoft.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This URL serves NVIDIA's news archive listing, not the release; the passage is on source 2, the full release."
+        }
       },
       {
         "text": "The Board of Directors appointed Harvey C. Jones as its first-ever Chair of the Board.",
         "for": "Harvey C. Jones appointed as NVIDIA's first Chair of the Board.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This URL serves NVIDIA's news archive listing, not the release; the passage is on source 2, the full release."
+        }
       },
       {
         "text": "Mr. Jones has been an entrepreneur, technology executive, and active venture investor for over 30 years, including serving as Chief Executive Officer and Executive Chairman of Synopsys.",
         "for": "Jones's background as an investor and former CEO and Executive Chairman of Synopsys.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This URL serves NVIDIA's news archive listing, not the release; the passage is on source 2, the full release."
+        }
       },
       {
         "text": "The Board has full confidence in Colette and the leadership team, and we expect the company's operations, customer commitments and product roadmap to continue without interruption.",
         "for": "Harvey Jones's statement on uninterrupted operations, customer commitments, and product roadmap.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This URL serves NVIDIA's news archive listing, not the release; the passage is on source 2, the full release."
+        }
       },
       {
         "text": "NVIDIA's strength has always come from its people, and together with our leadership team, I am committed to building on the extraordinary foundation Jensen created over the last 33 years,",
         "for": "Colette Kress's statement on building on Huang's 33-year foundation.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This URL serves NVIDIA's news archive listing, not the release; the passage is on source 2, the full release."
+        }
       }
     ]
   },
@@ -132,6 +168,21 @@
         "text": "NVIDIA's strength has always come from its people, and together with our leadership team, I am committed to building on the extraordinary foundation Jensen created over the last 33 years,",
         "for": "Colette Kress on Huang's 33-year tenure and leadership continuity.",
         "by": "writer"
+      },
+      {
+        "text": "has a deep understanding of our business, customers, operations and financial position",
+        "for": "Harvey Jones on Kress, quoted in the article.",
+        "by": "reviser"
+      },
+      {
+        "text": "NVIDIA will report its third-quarter fiscal 2027 financial results on Tuesday, November 17",
+        "for": "The scheduled date of Nvidia's next quarterly results.",
+        "by": "reviser"
+      },
+      {
+        "text": "The Board and the company thank Jensen for his immeasurable contributions to the company and the industry.",
+        "for": "The board's thanks to Huang, on the release itself.",
+        "by": "reviser"
       }
     ]
   },
@@ -244,6 +295,31 @@
         "text": "Shares of Nvidia tumbled 14% at the opening bell Thursday, while the tech-heavy Nasdaq slid 1.5%.",
         "for": "Nvidia shares falling 14% at the opening bell on November 12, 2026, and the Nasdaq sliding 1.5%.",
         "by": "writer"
+      },
+      {
+        "text": "Nvidia had no succession plan to prepare for the possibility of the departure of Huang",
+        "for": "No succession plan.",
+        "by": "reviser"
+      },
+      {
+        "text": "Megaspeed said Thursday that it has cooperated with the U.S. Department of Commerce's Bureau of Industry and Security",
+        "for": "Megaspeed's cooperation with the Bureau of Industry and Security.",
+        "by": "reviser"
+      },
+      {
+        "text": "Mast said Huang would receive a subpoena to compel his appearance, if necessary.",
+        "for": "Possible House subpoena.",
+        "by": "reviser"
+      },
+      {
+        "text": "remained complimentary of Huang on Thursday, saying he “has done a fantastic job.”",
+        "for": "Trump's comment on Huang on November 12, 2026.",
+        "by": "reviser"
+      },
+      {
+        "text": "The stock closed down about 4% Thursday as investors pondered the lawsuits, investigations, likely corporate jockeying",
+        "for": "The close on November 12, 2026, and what investors weighed.",
+        "by": "reviser"
       }
     ]
   },
@@ -308,6 +384,56 @@
         "text": "10%. That's how much Nvidia shares dropped at the opening bell Thursday morning following news of Huang's resignation, pushing the company's stock price 18% lower than it was five days ago.",
         "for": "Forbes figure of a 10% opening drop on November 12, 2026, and an 18% five-day decline.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+    "title": "NVIDIA Corporation Form 8-K (Date of Report: November 11, 2026)",
+    "publisher": "NVIDIA (SEC filing)",
+    "kind": "filing",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Date: November 12, 2026",
+        "for": "The date the 8-K was signed.",
+        "by": "reviser"
+      },
+      {
+        "text": "On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang",
+        "for": "The board accepted the resignation on November 11, 2026.",
+        "by": "reviser"
+      },
+      {
+        "text": "On November 11, 2026, the Board appointed Harvey C. Jones, age 73, as Chair of the Board.",
+        "for": "Jones's age and appointment as chair.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+    "title": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
+    "publisher": "CNBC",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Nvidia shares declined 4.34% Thursday after Jensen Huang announced he would immediately step down as CEO",
+        "for": "The closing decline on November 12, 2026.",
+        "by": "reviser"
+      },
+      {
+        "text": "who U.S. intelligence officials believe is a spy for China.",
+        "for": "CNBC, citing the Financial Times, on what U.S. intelligence officials believe.",
+        "by": "reviser"
       }
     ]
   }
