@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+    "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+    "publisher": "Google",
+    "kind": "primary",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Start building with the Gemini API in Google AI Studio and Android Studio, Gemini for business,",
+        "for": "Developer access.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "title": "Introducing Gemini 4 Hydrogen",
+    "publisher": "Google",
+    "kind": "primary",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session.",
+        "for": "Model routing.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/",
+    "title": "Google announces Gemini 4 Hydrogen with significant leaps in speed, intelligence",
+    "publisher": "9to5Google",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Hydrogen is the default model for AI Mode and is used for “your hardest questions” in AI Overviews.",
+        "for": "Search deployment.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+    "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+    "publisher": "Ars Technica",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "It replaces the faster, more economical Flash models most people in Google’s ecosystem use.",
+        "for": "Flash successor.",
+        "by": "writer"
+      }
+    ]
+  }
+]
