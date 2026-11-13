@@ -9,7 +9,7 @@ Ars Technica describes Hydrogen as the replacement for Google's faster Flash mod
 
 ## One context window, four reasoning settings
 
-Google lists flat pricing across Hydrogen's entire 1 million-token context window: $1.50 per million input tokens and $7.50 per million output tokens, in its November 12 announcement.[^2]
+Google's November 12 announcement gives standard API prices across Hydrogen's 1 million-token window of $1.50 per million uncached input tokens and $7.50 per million output tokens, including reasoning tokens.[^2][^5]
 <!-- add role="reviser" model="Anthropic Claude Opus 5.5" -->
 VentureBeat notes that this price matches the standard rate Gemini 3.8 Flash is scheduled to charge from January 1, 2027, and is twice Flash's introductory rate, which runs through December 31, 2026.[^5]
 <!-- /add -->
@@ -37,7 +37,7 @@ Google's new Orchestrator in Antigravity switches models within a session, assig
 Its proposed parallel setup puts Carbon in charge of coordination while Hydrogen agents implement and verify changes in isolated workspaces.[^2]
 Google describes the division as pairing deeper architectural judgment with faster code writing, testing and verification.[^2]
 <!-- add role="reviser" model="Anthropic Claude Opus 5.5" -->
-Google says that, on Terminal-Bench 4.0, the Orchestrator reached near-Carbon task success rates while using 24% less quota and finishing 19% faster on average.[^2][^5]
+Google's launch post credits Orchestrator with near-Carbon success, 24% less quota and 19% faster completion on average on Terminal-Bench 4.0, while its Antigravity team gives the same figures for version 4.1.[^2][^5][^7]
 VentureBeat cautions that such savings depend on which model the work would otherwise have gone to.[^5]
 <!-- /add -->
 Individual Antigravity access requires a paid Google AI Pro or Ultra subscription, according to the developer announcement and VentureBeat.[^1][^5]
@@ -47,3 +47,16 @@ Individual Antigravity access requires a paid Google AI Pro or Ultra subscriptio
 The rollout also reaches Google's consumer products: 9to5Google reports that Hydrogen becomes the default model for AI Mode and handles the hardest questions in AI Overviews.[^3]
 The outlet says free Gemini app users receive Hydrogen through automatic model selection when appropriate for a prompt.[^3]
 Google frames the Search changes around understanding multipart questions and returning more visual answers with a broader range of relevant links.[^2]
+
+<!-- add role="checker" model="OpenAI GPT-6 Astra" -->
+## Open questions about Flash migration and Hydrogen’s safety tests
+
+- Google's API retirement schedule still lists no shutdown date for Gemini 3.8 Flash, so developers have a successor and a price change to plan for, but no announced deadline to switch.[^5][^8]
+- The Hydrogen model card promises a full safety and security report without giving a publication date for the evidence behind Google's internal tests.[^9]
+<!-- /add -->
+
+<!-- keypoints model="OpenAI GPT-6 Astra" -->
+- Google released Gemini 4 Hydrogen on November 12, 2026, for everyday coding, with a choice of reasoning levels and access through the Gemini API.[^1][^2]
+- Standard API prices are $1.50 per million uncached input tokens and $7.50 per million output tokens across the full context window.[^2][^5]
+- Carbon and Hydrogen can share a coding session in Antigravity, while Google Search uses Hydrogen as its default AI Mode model.[^2][^3][^7][^10]
+<!-- /keypoints -->

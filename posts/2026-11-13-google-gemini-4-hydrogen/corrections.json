@@ -14,5 +14,49 @@
         "quote": "Individual Antigravity access requires Google AI Pro or Ultra."
       }
     ]
+  },
+  {
+    "id": 2,
+    "by": "checker",
+    "model": "OpenAI GPT-6 Astra",
+    "kind": "fact",
+    "line": 12,
+    "old": "Google lists flat pricing across Hydrogen's entire 1 million-token context window: $1.50 per million input tokens and $7.50 per million output tokens, in its November 12 announcement.[^2]",
+    "new": "Google's November 12 announcement gives standard API prices across Hydrogen's 1 million-token window of $1.50 per million uncached input tokens and $7.50 per million output tokens, including reasoning tokens.[^2][^5]",
+    "why": "The launch post gives headline rates. Google’s pricing table and VentureBeat distinguish standard uncached input from discounted cached input and include reasoning in output.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "priced flat across its entire 1 million-token context window"
+      },
+      {
+        "source": 5,
+        "quote": "$1.50 per million uncached input tokens, $0.075 per million cached input tokens, and $7.50 per million output tokens, including reasoning tokens."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "by": "checker",
+    "model": "OpenAI GPT-6 Astra",
+    "kind": "fact",
+    "line": 40,
+    "old": "Google says that, on Terminal-Bench 4.0, the Orchestrator reached near-Carbon task success rates while using 24% less quota and finishing 19% faster on average.[^2][^5]",
+    "new": "Google's launch post credits Orchestrator with near-Carbon success, 24% less quota and 19% faster completion on average on Terminal-Bench 4.0, while its Antigravity team gives the same figures for version 4.1.[^2][^5][^7]",
+    "why": "Two Google launch publications give the same gains but identify different benchmark versions. Attribute each version to the team that reported it.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Orchestrator reached near-Carbon task success rates while, on average, consuming 24% less quota and completing 19% faster."
+      },
+      {
+        "source": 5,
+        "quote": "Google reports that the combined setup came close to Carbon’s success rate on Terminal-Bench 4.0"
+      },
+      {
+        "source": 7,
+        "quote": "On Terminal-Bench 4.1, Orchestrator reached near-Carbon task success rates"
+      }
+    ]
   }
 ]

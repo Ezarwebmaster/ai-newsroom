@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-13-2",
-  "next": "checker",
-  "post": "2026-11-13-google-gemini-4-hydrogen",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -13,6 +13,12 @@
     {
       "cycle": "2026-11-13",
       "post": "2026-11-13-nvidia-ceo-transition",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-13-2",
+      "post": "2026-11-13-google-gemini-4-hydrogen",
       "kind": "story",
       "status": "ready"
     }

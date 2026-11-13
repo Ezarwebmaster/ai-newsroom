@@ -13,6 +13,22 @@
         "text": "Start building with the Gemini API in Google AI Studio and Android Studio, Gemini for business,",
         "for": "Developer access.",
         "by": "writer"
+      },
+      {
+        "text": "Nov 12, 2026",
+        "for": "Publication date of the developer announcement.",
+        "by": "checker",
+        "type": "date"
+      },
+      {
+        "text": "repository coding and debugging, interactive web development, and multimodal workflows",
+        "for": "Target uses.",
+        "by": "checker"
+      },
+      {
+        "text": "or alongside frontier models like Gemini 4 Carbon and Gemini 4 Argon.",
+        "for": "The other models in the developer announcement.",
+        "by": "checker"
       }
     ]
   },
@@ -45,6 +61,16 @@
         "text": "Orchestrator reached near-Carbon task success rates while, on average, consuming 24% less quota and completing 19% faster.",
         "for": "Orchestrator efficiency.",
         "by": "reviser"
+      },
+      {
+        "text": "priced flat across its entire 1 million-token context window",
+        "for": "The launch price applies at all prompt lengths.",
+        "by": "checker"
+      },
+      {
+        "text": "finishing tasks 2.5 times faster at its high default setting",
+        "for": "Google’s speed comparison.",
+        "by": "checker"
       }
     ]
   },
@@ -62,6 +88,16 @@
         "text": "Hydrogen is the default model for AI Mode and is used for “your hardest questions” in AI Overviews.",
         "for": "Search deployment.",
         "by": "writer"
+      },
+      {
+        "text": "model selection when it’s the appropriate model for the prompt.",
+        "for": "Free app routing.",
+        "by": "checker"
+      },
+      {
+        "text": "build and test changes simultaneously across isolated workspaces",
+        "for": "The verifier and implementation workspaces.",
+        "by": "checker"
       }
     ]
   },
@@ -79,6 +115,16 @@
         "text": "It replaces the faster, more economical Flash models most people in Google’s ecosystem use.",
         "for": "Flash successor.",
         "by": "writer"
+      },
+      {
+        "text": "Google is continuing its elemental AI naming scheme with the new Gemini 4 Hydrogen.",
+        "for": "Element names for the fourth generation.",
+        "by": "checker"
+      },
+      {
+        "text": "it reduces “fabricated claims” by more than 5x, according to Google’s analysis.",
+        "for": "Who measured the reduction.",
+        "by": "checker"
       }
     ]
   },
@@ -136,6 +182,11 @@
         "text": "Individual Antigravity access requires Google AI Pro or Ultra.",
         "for": "Antigravity access.",
         "by": "reviser"
+      },
+      {
+        "text": "$1.50 per million uncached input tokens, $0.075 per million cached input tokens, and $7.50 per million output tokens, including reasoning tokens.",
+        "for": "Standard rates distinguish cached from uncached input.",
+        "by": "checker"
       }
     ]
   },
@@ -163,6 +214,89 @@
         "text": "At 13.9 minutes per Intelligence Index task, Gemini 4 Hydrogen (Xhigh) is slower than average compared with the median of 12.9 minutes",
         "for": "Time per task.",
         "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+    "title": "Gemini 4 Hydrogen and Orchestrator",
+    "publisher": "Google Antigravity",
+    "kind": "primary",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "text": "On Terminal-Bench 4.1, Orchestrator reached near-Carbon task success rates",
+        "for": "Benchmark name in the Antigravity team’s account.",
+        "by": "checker"
+      },
+      {
+        "text": "low, medium, high (default), and a new xhigh tier.",
+        "for": "Names of the four settings and the default.",
+        "by": "checker"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://aistudio.google.com/docs/deprecations",
+    "title": "Gemini deprecations",
+    "publisher": "Google AI Studio",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-13",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "text": "This page lists the known deprecation schedules for stable (GA) and preview models and for managed agents in the Gemini API.",
+        "for": "Scope of the Gemini API schedule.",
+        "by": "checker"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "url": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/",
+    "title": "Gemini 4 Hydrogen",
+    "publisher": "Google DeepMind",
+    "kind": "primary",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "text": "The full Safety & Security Report for Gemini 4 Hydrogen will be available in the coming days.",
+        "for": "Timing given for the full safety report.",
+        "by": "checker"
+      },
+      {
+        "text": "built for deep, long-horizon reasoning on your hardest problems",
+        "for": "How DeepMind describes Carbon and Argon.",
+        "by": "checker"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+    "publisher": "Google Search",
+    "kind": "primary",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "text": "multi-part questions and provides clear answers with helpful images, tables, and links.",
+        "for": "Multipart questions, richer visual results and links.",
+        "by": "checker"
+      },
+      {
+        "text": "connecting you to a broader range of helpful links than before.",
+        "for": "Breadth of links.",
+        "by": "checker"
       }
     ]
   }

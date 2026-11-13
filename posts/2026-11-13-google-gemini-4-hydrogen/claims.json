@@ -1,0 +1,540 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Google launched Hydrogen for coding and agent workflows.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 12, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "repository coding and debugging, interactive web development, and multimodal workflows"
+      },
+      {
+        "source": 1,
+        "quote": "Start building with the Gemini API in Google AI Studio and Android Studio, Gemini for business,"
+      }
+    ],
+    "note": "The developer post announces availability beginning on its publication date."
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Hydrogen offers several reasoning settings and keeps its per-token rates flat across the context window.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "low, medium, high (default), and a new xhigh tier."
+      },
+      {
+        "source": 2,
+        "quote": "priced flat across its entire 1 million-token context window"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 3,
+    "claim": "Orchestrator routes work between Carbon and Hydrogen.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 6,
+    "claim": "Developers gained access on November 12, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 12, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "Start building with the Gemini API in Google AI Studio and Android Studio, Gemini for business,"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 6,
+    "claim": "Hydrogen supports standalone work and can run alongside Carbon and Argon.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "or alongside frontier models like Gemini 4 Carbon and Gemini 4 Argon."
+      },
+      {
+        "source": 1,
+        "quote": "repository coding and debugging, interactive web development, and multimodal workflows"
+      }
+    ],
+    "note": "Source 1 describes standalone use and explicitly names both companion models in the same sentence."
+  },
+  {
+    "id": 6,
+    "line": 7,
+    "claim": "The developer announcement names repository, web and multimodal work and gives API access through both studios.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "repository coding and debugging, interactive web development, and multimodal workflows"
+      },
+      {
+        "source": 1,
+        "quote": "Start building with the Gemini API in Google AI Studio and Android Studio, Gemini for business,"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 8,
+    "claim": "Ars describes Hydrogen as a Flash replacement and traces the element names across this generation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "It replaces the faster, more economical Flash models most people in Google’s ecosystem use."
+      },
+      {
+        "source": 4,
+        "quote": "Google is continuing its elemental AI naming scheme with the new Gemini 4 Hydrogen."
+      },
+      {
+        "source": 9,
+        "quote": "built for deep, long-horizon reasoning on your hardest problems"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 12,
+    "claim": "The November 12 rates are flat over a million tokens. The standard rates are $1.50 for uncached input and $7.50 for output per million tokens, including reasoning.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 12, 2026"
+      },
+      {
+        "source": 2,
+        "quote": "priced flat across its entire 1 million-token context window"
+      },
+      {
+        "source": 5,
+        "quote": "$1.50 per million uncached input tokens, $0.075 per million cached input tokens, and $7.50 per million output tokens, including reasoning tokens."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 14,
+    "claim": "Flash’s standard uncached input and output rates double after December 31, 2026, reaching Hydrogen’s launch rates on January 1, 2027.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "That matches Flash’s scheduled standard pricing from January 1, 2027"
+      },
+      {
+        "source": 5,
+        "quote": "and is twice Flash’s introductory rate through December 31."
+      },
+      {
+        "source": 5,
+        "quote": "$1.50 per million uncached input tokens, $0.075 per million cached input tokens, and $7.50 per million output tokens, including reasoning tokens."
+      }
+    ],
+    "note": "Google’s Gemini Developer API pricing table independently lists $0.75/$3.75 through December 31 and $1.50/$7.50 from January 1."
+  },
+  {
+    "id": 10,
+    "line": 16,
+    "claim": "The four thinking settings are low, medium, high (default) and xhigh.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "low, medium, high (default), and a new xhigh tier."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 17,
+    "claim": "Developers can vary reasoning within Hydrogen.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 7,
+        "quote": "low, medium, high (default), and a new xhigh tier."
+      }
+    ],
+    "note": "All four selectable settings belong to the same model."
+  },
+  {
+    "id": 12,
+    "line": 19,
+    "claim": "The old thinking_budget parameter and MINIMAL setting are rejected.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "It rejects the old thinking_budget parameter and the MINIMAL setting."
+      }
+    ],
+    "note": "The Google Cloud developer guide also specifies an HTTP 400 for either input."
+  },
+  {
+    "id": 13,
+    "line": 22,
+    "claim": "Google reports a 2.5-times speed advantage over Flash at high and a more than fivefold reduction in fabricated claims.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "finishing tasks 2.5 times faster at its high default setting"
+      },
+      {
+        "source": 4,
+        "quote": "it reduces “fabricated claims” by more than 5x, according to Google’s analysis."
+      },
+      {
+        "source": 2,
+        "quote": "while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%)"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 24,
+    "claim": "Google’s Terminal-Bench 4.1 comparison puts Hydrogen at 57% versus 18.2% for Flash.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%)"
+      },
+      {
+        "source": 5,
+        "quote": "On Google’s Terminal-Bench 4.1 evaluation, Hydrogen completes 57% of tasks, up from 18.2% for Flash"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 25,
+    "claim": "The current Google launch post reports 94% on its internal honesty evaluation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "and achieves a 94% honesty rate on our internal agent honesty evaluation."
+      }
+    ],
+    "note": "The launch post shows a November 13 update. An earlier figure is still reproduced in 9to5Google."
+  },
+  {
+    "id": 16,
+    "line": 27,
+    "claim": "The preceding comparisons come from Google’s tests.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 2,
+        "quote": "while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%)"
+      },
+      {
+        "source": 2,
+        "quote": "and achieves a 94% honesty rate on our internal agent honesty evaluation."
+      },
+      {
+        "source": 2,
+        "quote": "finishing tasks 2.5 times faster at its high default setting"
+      }
+    ],
+    "note": "The launch post describes its own evaluations. Its aggregate results do not measure the reader’s repository."
+  },
+  {
+    "id": 17,
+    "line": 29,
+    "claim": "Google’s Terminal-Bench 4.1 table puts Sonnet 5.5 ahead at 63.9%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "It still trails Claude Sonnet 5.5’s 63.9% in Google’s table."
+      },
+      {
+        "source": 5,
+        "quote": "On Google’s Terminal-Bench 4.1 evaluation, Hydrogen completes 57% of tasks, up from 18.2% for Flash"
+      }
+    ],
+    "note": "DeepMind’s model card corroborates both figures in the cheating-adjusted row."
+  },
+  {
+    "id": 18,
+    "line": 30,
+    "claim": "Artificial Analysis scored Hydrogen 51 at high and 54 at xhigh.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "In Artificial Analysis’s independent testing, Hydrogen at that setting scored 51 on the firm’s Intelligence Index"
+      },
+      {
+        "source": 6,
+        "quote": "Gemini 4 Hydrogen (Xhigh) scores 54 on the Artificial Analysis Intelligence Index"
+      },
+      {
+        "source": 7,
+        "quote": "low, medium, high (default), and a new xhigh tier."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 31,
+    "claim": "Artificial Analysis reports 304M tokens at xhigh against a median of 77.3M, with 13.9 minutes per task versus a 12.9-minute median.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "it generated 304M tokens, which is very verbose in comparison to the median of 77.3M"
+      },
+      {
+        "source": 6,
+        "quote": "At 13.9 minutes per Intelligence Index task, Gemini 4 Hydrogen (Xhigh) is slower than average compared with the median of 12.9 minutes"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 36,
+    "claim": "Antigravity Orchestrator switches between Carbon and Hydrogen in one session.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 37,
+    "claim": "Google describes Carbon coordinating Hydrogen workers and verifiers in separate workspaces.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "build and test changes simultaneously across isolated workspaces"
+      },
+      {
+        "source": 2,
+        "quote": "Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session."
+      }
+    ],
+    "note": "Source 2’s parallel-agent paragraph names all three roles. Source 3 reproduces the full passage."
+  },
+  {
+    "id": 22,
+    "line": 38,
+    "claim": "Google pairs architectural work on the frontier models with faster implementation and testing on Hydrogen.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 9,
+        "quote": "built for deep, long-horizon reasoning on your hardest problems"
+      },
+      {
+        "source": 1,
+        "quote": "repository coding and debugging, interactive web development, and multimodal workflows"
+      },
+      {
+        "source": 3,
+        "quote": "build and test changes simultaneously across isolated workspaces"
+      }
+    ],
+    "note": "The main announcement explicitly assigns these roles in its multi-model workflows section."
+  },
+  {
+    "id": 23,
+    "line": 40,
+    "claim": "Google reports near-Carbon task success, 24% less quota and 19% faster completion, naming Terminal-Bench 4.0 in its launch post and 4.1 on the Antigravity blog.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Orchestrator reached near-Carbon task success rates while, on average, consuming 24% less quota and completing 19% faster."
+      },
+      {
+        "source": 5,
+        "quote": "Google reports that the combined setup came close to Carbon’s success rate on Terminal-Bench 4.0"
+      },
+      {
+        "source": 7,
+        "quote": "On Terminal-Bench 4.1, Orchestrator reached near-Carbon task success rates"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 41,
+    "claim": "VentureBeat says savings depend on the alternative model.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The savings depend on which model the work would have gone to in the first place."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 43,
+    "claim": "Individual Antigravity use requires a paid Pro or Ultra subscription.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Individual Antigravity access requires Google AI Pro or Ultra."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 47,
+    "claim": "Hydrogen is the default model for AI Mode and handles the hardest AI Overviews questions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Hydrogen is the default model for AI Mode and is used for “your hardest questions” in AI Overviews."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 48,
+    "claim": "Free Gemini app access depends on automatic routing for the prompt.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "model selection when it’s the appropriate model for the prompt."
+      }
+    ],
+    "note": "The footnote in Google’s updated launch post also specifies automatic selection for free users."
+  },
+  {
+    "id": 28,
+    "line": 49,
+    "claim": "Google describes multipart query handling, visual results and broader links.",
+    "status": "supported",
+    "note": "Three consecutive Search bullets in Google’s launch post describe intent, visual responses and a wider range of links. Google’s dedicated Search post repeats all three.",
+    "support": [
+      {
+        "source": 10,
+        "quote": "multi-part questions and provides clear answers with helpful images, tables, and links."
+      },
+      {
+        "source": 10,
+        "quote": "connecting you to a broader range of helpful links than before."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 54,
+    "claim": "Google has announced no Gemini API shutdown date for Gemini 3.8 Flash.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 8,
+        "quote": "This page lists the known deprecation schedules for stable (GA) and preview models and for managed agents in the Gemini API."
+      }
+    ],
+    "note": "The gemini-3.8-flash row explicitly lists “No shutdown date announced.” Source 5 also checks the deprecation schedule."
+  },
+  {
+    "id": 30,
+    "line": 55,
+    "claim": "The model card does not specify a calendar date for the full safety and security report.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 9,
+        "quote": "The full Safety & Security Report for Gemini 4 Hydrogen will be available in the coming days."
+      }
+    ],
+    "note": "DeepMind gives only a relative release window in the Safety & Security section."
+  },
+  {
+    "id": 31,
+    "line": 59,
+    "claim": "Hydrogen launched November 12 for everyday coding with Gemini API access and configurable reasoning.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 12, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "repository coding and debugging, interactive web development, and multimodal workflows"
+      },
+      {
+        "source": 1,
+        "quote": "Start building with the Gemini API in Google AI Studio and Android Studio, Gemini for business,"
+      },
+      {
+        "source": 7,
+        "quote": "low, medium, high (default), and a new xhigh tier."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "line": 60,
+    "claim": "Standard rates across the context window are $1.50 per million uncached input and $7.50 per million output tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "priced flat across its entire 1 million-token context window"
+      },
+      {
+        "source": 5,
+        "quote": "$1.50 per million uncached input tokens, $0.075 per million cached input tokens, and $7.50 per million output tokens, including reasoning tokens."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "line": 61,
+    "claim": "Antigravity can route between Carbon and Hydrogen within a session, and Hydrogen is the default for AI Mode.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session."
+      },
+      {
+        "source": 3,
+        "quote": "Hydrogen is the default model for AI Mode and is used for “your hardest questions” in AI Overviews."
+      }
+    ]
+  }
+]
