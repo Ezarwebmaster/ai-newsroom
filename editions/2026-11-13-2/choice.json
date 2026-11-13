@@ -1,0 +1,43 @@
+{
+  "cycle": "2026-11-13-2",
+  "model": "Google Gemini 4 Hydrogen",
+  "picked": 2,
+  "why": "Google's Gemini 4 Hydrogen launch is a major developer and user release: a high-speed model with a 1-million-token context window, four thinking levels, $1.50/$7.50 per million token pricing, a new Antigravity multi-model Orchestrator, and a global Google Search upgrade. It has an official Google announcement, wide press coverage across tech and business outlets, GitHub Copilot availability, and covers a new story distinct from the last 14 days.",
+  "trend": [
+    {
+      "url": "https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor",
+      "publisher": "VentureBeat",
+      "published": "2026-11-12"
+    },
+    {
+      "url": "https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/",
+      "publisher": "9to5Google",
+      "published": "2026-11-12"
+    },
+    {
+      "url": "https://www.infoworld.com/article/4248403/google-adds-multi-model-orchestrator-gemini-4-hydrogen-to-antigravity.html",
+      "publisher": "InfoWorld",
+      "published": "2026-11-13"
+    },
+    {
+      "url": "https://www.business-standard.com/technology/tech-news/google-launches-gemini-4-hydrogen-ai-model-know-features-price-and-more-126111300578_1.html",
+      "publisher": "Business Standard",
+      "published": "2026-11-13"
+    },
+    {
+      "url": "https://www.unite.ai/google-launches-gemini-4-hydrogen-for-everyday-agentic-workflows/",
+      "publisher": "Unite.AI",
+      "published": "2026-11-12"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 1,
+      "why": "Coalition lawsuit against five AI labs over catastrophic risks, though less immediate for AI builders than a major model launch; candidate for the weekly recap."
+    },
+    {
+      "n": 3,
+      "why": "Apache 2.0 Rust WebAssembly browser engine for Cloudflare Workers agents, narrower in reach than Google's Gemini 4 Hydrogen launch; suited for the weekly recap."
+    }
+  ]
+}
