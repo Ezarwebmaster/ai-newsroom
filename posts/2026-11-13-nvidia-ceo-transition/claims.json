@@ -1,0 +1,694 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Huang resigned as Nvidia CEO after 33 years; CFO Colette Kress becomes interim chief.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      },
+      {
+        "source": 2,
+        "quote": "Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer."
+      },
+      {
+        "source": 2,
+        "quote": "the extraordinary foundation Jensen created over the last 33 years"
+      }
+    ],
+    "note": "The 33 years are Kress's words in the release; the AP dates the founding to 1993."
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "The board announced the departure on November 12, 2026, and named Harvey C. Jones its first chair; the exit followed Huang's admission of an affair and the opening of a board inquiry.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "November 12, 2026"
+      },
+      {
+        "source": 2,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      },
+      {
+        "source": 2,
+        "quote": "The Board of Directors appointed Harvey C. Jones as its first-ever Chair of the Board."
+      },
+      {
+        "source": 4,
+        "quote": "I was unfaithful to my wife."
+      },
+      {
+        "source": 4,
+        "quote": "November 8, 2026"
+      },
+      {
+        "source": 3,
+        "quote": "The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort."
+      }
+    ],
+    "note": "\"Followed\" gives the order of events, not a cause: the message and the board statement are dated November 8, 2026, the release November 12, 2026."
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "The board announced on November 12, 2026, that Huang resigned as president, CEO and director, effective immediately.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "November 12, 2026"
+      },
+      {
+        "source": 2,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 8,
+    "claim": "The Form 8-K, signed on November 12, 2026, says the board accepted the resignation on November 11, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Date: November 12, 2026"
+      },
+      {
+        "source": 8,
+        "quote": "On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 10,
+    "claim": "Huang led Nvidia for 33 years, co-founded it in 1993, and the company is worth roughly $4 trillion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "the extraordinary foundation Jensen created over the last 33 years"
+      },
+      {
+        "source": 6,
+        "quote": "Huang, who co-founded the company in 1993"
+      },
+      {
+        "source": 5,
+        "quote": "Huang and two other engineers gathered in 1993"
+      },
+      {
+        "source": 6,
+        "quote": "with a market cap of around $4tn"
+      },
+      {
+        "source": 9,
+        "quote": "The stock hovered under $4 trillion in market cap for most of the day"
+      }
+    ],
+    "note": "Source 6 (The Guardian) could not be opened by the checker; 1993 and the $4 trillion value are confirmed on sources 5 and 9, which I read."
+  },
+  {
+    "id": 6,
+    "line": 11,
+    "claim": "Kress is interim CEO and stays CFO until a successor is named; the board will consider internal and external candidates.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Kress will continue to serve as Executive Vice President and Chief Financial Officer while serving as Interim Chief Executive Officer until a permanent successor has been named."
+      },
+      {
+        "source": 2,
+        "quote": "The Board is initiating a search for a permanent Chief Executive Officer and will consider internal and external candidates."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "Nvidia had no succession plan for Huang's departure, per the AP.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Nvidia had no succession plan to prepare for the possibility of the departure of Huang"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 15,
+    "claim": "Harvey C. Jones, a venture investor and former Synopsys CEO with over 30 years in technology, is Nvidia's first chair of the board.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The Board of Directors appointed Harvey C. Jones as its first-ever Chair of the Board."
+      },
+      {
+        "source": 2,
+        "quote": "Mr. Jones has been an entrepreneur, technology executive, and active venture investor for over 30 years, including serving as Chief Executive Officer and Executive Chairman of Synopsys."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 17,
+    "claim": "The filing gives Jones's age as 73.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "On November 11, 2026, the Board appointed Harvey C. Jones, age 73, as Chair of the Board."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 22,
+    "claim": "Kress, 59, joined Nvidia as CFO in September 2013 after nearly 25 years in finance roles, including at Cisco, Microsoft and Texas Instruments.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Colette M. Kress, age 59"
+      },
+      {
+        "source": 2,
+        "quote": "Kress has served as Executive Vice President and Chief Financial Officer of NVIDIA since joining the company in September 2013."
+      },
+      {
+        "source": 2,
+        "quote": "Prior to joining NVIDIA, Kress spent nearly 25 years in finance roles at leading technology companies, including Cisco and Microsoft."
+      },
+      {
+        "source": 6,
+        "quote": "Kress, 59, joined Nvidia in 2013 as the CFO after working in finance roles at Texas Instruments, Microsoft and Cisco."
+      }
+    ],
+    "note": "Texas Instruments rests on the Guardian quotation the writer recorded: the checker could not open source 6. Her age, the date and the 25 years are on the 8-K and the release, which I read."
+  },
+  {
+    "id": 11,
+    "line": 23,
+    "claim": "Jones said Kress has a deep understanding of the business; the Guardian wrote that Huang had about 60 direct reports.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "has a deep understanding of our business, customers, operations and financial position"
+      },
+      {
+        "source": 6,
+        "quote": "having about 60 direct reports"
+      }
+    ],
+    "note": "The 60 direct reports rest on the Guardian quotation the writer recorded: the checker could not open source 6."
+  },
+  {
+    "id": 12,
+    "line": 24,
+    "claim": "Jones said the board expects operations, customer commitments and the product roadmap to continue without interruption.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "operations, customer commitments and product roadmap to continue without interruption"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 26,
+    "claim": "Nvidia will report its third-quarter fiscal 2027 results on November 17, 2026.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 2,
+        "quote": "NVIDIA will report its third-quarter fiscal 2027 financial results on Tuesday, November 17"
+      },
+      {
+        "source": 2,
+        "quote": "November 12, 2026"
+      }
+    ],
+    "note": "The release, dated November 12, 2026, says \"Tuesday, November 17\"; November 17, 2026 is a Tuesday."
+  },
+  {
+    "id": 14,
+    "line": 28,
+    "claim": "On November 12, 2026, Kress committed to building on what Huang created over 33 years, and the board thanked him for his contributions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "November 12, 2026"
+      },
+      {
+        "source": 2,
+        "quote": "committed to building on the extraordinary foundation Jensen created over the last 33 years"
+      },
+      {
+        "source": 2,
+        "quote": "immeasurable contributions to the company and the industry"
+      }
+    ],
+    "note": "Both quotations are on the release (source 2), which I read. Source 7 (Forbes) answered HTTP 403 and was not opened."
+  },
+  {
+    "id": 15,
+    "line": 32,
+    "claim": "Nvidia's release gives no reason for the departure.",
+    "status": "absence",
+    "note": "Read the whole release (source 2): no reason, no mention of an affair, an investigation or national security."
+  },
+  {
+    "id": 16,
+    "line": 32,
+    "claim": "The AP, the Guardian and Forbes report that the exit came days after Huang admitted an affair and after reports of affairs with Nvidia employees.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Then pressure compounded late Wednesday after reports surfaced of another alleged affair by Huang, this time with an Nvidia employee who reported to him."
+      },
+      {
+        "source": 5,
+        "quote": "Reuters reported Thursday that Huang had an intimate relationship with a second employee, citing unidentified sources."
+      },
+      {
+        "source": 6,
+        "quote": "resign amid multiple allegations of extramarital affairs"
+      },
+      {
+        "source": 7,
+        "quote": "after reports of a second affair with a Nvidia employee days after he admitted to a relationship"
+      },
+      {
+        "source": 9,
+        "quote": "On Sunday, Huang admitted to having an affair."
+      }
+    ],
+    "note": "Order of events, not a cause. The affairs with employees are allegations; the one admitted affair is in source 4. Sources 6 and 7 were not opened by the checker; the AP and CNBC, which I read, say the same."
+  },
+  {
+    "id": 17,
+    "line": 33,
+    "claim": "In a message to employees on November 8, 2026, Huang wrote that he was unfaithful to his wife and takes full responsibility.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "November 8, 2026"
+      },
+      {
+        "source": 4,
+        "quote": "I was unfaithful to my wife."
+      },
+      {
+        "source": 4,
+        "quote": "I take full responsibility for what I did and the hurt I caused, and I accept the criticism that comes with it."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 35,
+    "claim": "Huang's message identifies no one.",
+    "status": "absence",
+    "note": "Read the whole message (source 4): it gives no name, job, employer or nationality, and mentions no Nvidia employee."
+  },
+  {
+    "id": 19,
+    "line": 35,
+    "claim": "The AP wrote that Huang acknowledged an affair but did not identify the woman.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Jensen Huang acknowledged an affair but did not identify her."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 37,
+    "claim": "Per the AP and Forbes, U.S. officials suspected that the woman, a former executive at Singapore-based Megaspeed International, was acting for Beijing.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "a woman the paper said U.S. officials had concluded was a Chinese spy"
+      },
+      {
+        "source": 5,
+        "quote": "is a former executive at Singapore-based Megaspeed International."
+      },
+      {
+        "source": 7,
+        "quote": "another tech executive that intelligence officials believe may have been a Chinese spy"
+      }
+    ],
+    "note": "An allegation, attributed. The AP relays The New York Times and calls her \"the suspected spy\"; Forbes (HTTP 403) was not opened; CNBC, line 39, is the second outlet I read. She is not charged and the story does not name her."
+  },
+  {
+    "id": 21,
+    "line": 39,
+    "claim": "CNBC, citing the Financial Times, says U.S. intelligence officials believe she is a spy for China.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 9,
+        "quote": "who U.S. intelligence officials believe is a spy for China."
+      }
+    ],
+    "note": "An allegation, attributed: CNBC citing the Financial Times counts as CNBC only."
+  },
+  {
+    "id": 22,
+    "line": 42,
+    "claim": "Trump said on November 9, 2026, that Huang told him he had no idea the person was a spy, per the Australian Associated Press.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 10,
+        "quote": "Speaking at a White House briefing on Monday, US President Donald Trump said Huang should not be concerned"
+      },
+      {
+        "source": 10,
+        "quote": "he had absolutely no idea that the person in question was a spy"
+      }
+    ],
+    "note": "The page, dated November 10, 2026, says \"on Monday\": November 9, 2026. The denial is Huang's as relayed by Trump, not a statement by Huang; the AP report on Daily Sabah, which I also read, carries the same sentence."
+  },
+  {
+    "id": 23,
+    "line": 44,
+    "claim": "On November 8, 2026, the board announced an independent investigation, overseen by independent directors and outside counsel, into reporting that Huang was the target of a foreign intelligence effort.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "November 8, 2026"
+      },
+      {
+        "source": 3,
+        "quote": "The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort."
+      },
+      {
+        "source": 3,
+        "quote": "A committee of independent directors, assisted by outside independent counsel, will oversee the investigation."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 45,
+    "claim": "The board said Huang committed to cooperating and that it had no reason to believe national security or Nvidia secrets were compromised.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Jensen fully supports the review and has committed to cooperating with it."
+      },
+      {
+        "source": 3,
+        "quote": "no reason to believe that either national security or NVIDIA secrets were compromised"
+      }
+    ],
+    "note": "The board's own statement, not an independent finding."
+  },
+  {
+    "id": 25,
+    "line": 46,
+    "claim": "China denied attempting to ensnare Huang; Megaspeed said on November 12, 2026, that it welcomes appropriate government scrutiny.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 5,
+        "quote": "China has denied that it attempted to ensnare Jensen Huang."
+      },
+      {
+        "source": 5,
+        "quote": "welcomes appropriate government scrutiny"
+      },
+      {
+        "source": 5,
+        "quote": "Megaspeed said Thursday"
+      }
+    ],
+    "note": "The AP page, dated November 12, 2026, says \"Thursday\": November 12, 2026. Corrected in this step: the earlier \"extremely seriously\" quotation is no longer on the page."
+  },
+  {
+    "id": 26,
+    "line": 48,
+    "claim": "Megaspeed said it has cooperated with the Commerce Department's Bureau of Industry and Security, per the AP.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Megaspeed said Thursday that it has cooperated with the U.S. Department of Commerce's Bureau of Industry and Security"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 50,
+    "claim": "Reports of another alleged affair, with an employee who reported to Huang, surfaced late on November 11, 2026; Reuters reported on November 12, 2026, citing unidentified sources, an intimate relationship with a second employee.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Then pressure compounded late Wednesday after reports surfaced of another alleged affair by Huang, this time with an Nvidia employee who reported to him."
+      },
+      {
+        "source": 5,
+        "quote": "Reuters reported Thursday that Huang had an intimate relationship with a second employee, citing unidentified sources."
+      },
+      {
+        "source": 9,
+        "quote": "with an unnamed second employee, Reuters reported Thursday."
+      }
+    ],
+    "note": "Wednesday and Thursday on pages dated November 12, 2026: November 11 and 12. Allegations from unidentified sources, relayed by the AP and CNBC; neither article carries an answer from Huang or Nvidia. Corrected in this step."
+  },
+  {
+    "id": 28,
+    "line": 54,
+    "claim": "Trump said on November 9, 2026, that the FBI was investigating; Mast said his committee was in contact with Huang's team as recently as the night of November 11, 2026, after an interview request on November 5, 2026.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 5,
+        "quote": "U.S. President Donald Trump said Monday that the FBI was investigating"
+      },
+      {
+        "source": 5,
+        "quote": "Rep. Brian Mast, chairman of the House Committee on Foreign Affairs, said the committee was in contact with Huang's team as recently as Wednesday night after putting in an initial request for an interview on Nov. 5."
+      },
+      {
+        "source": 10,
+        "quote": "Speaking at a White House briefing on Monday, US President Donald Trump said Huang should not be concerned"
+      }
+    ],
+    "note": "On a page dated Thursday, November 12, 2026, \"Monday\" is November 9 and \"Wednesday night\" November 11. Corrected in this step from November 8; the AP report on Daily Sabah, dated November 10, 2026, also says Monday."
+  },
+  {
+    "id": 29,
+    "line": 56,
+    "claim": "Mast said Huang would be subpoenaed if necessary, per the AP.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Mast said Huang would receive a subpoena to compel his appearance, if necessary."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 57,
+    "claim": "Trump remained complimentary of Huang on November 12, 2026, saying he has done a fantastic job, per the AP.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 5,
+        "quote": "remained complimentary of Huang on Thursday, saying he “has done a fantastic job.”"
+      },
+      {
+        "source": 5,
+        "quote": "U.S. President Donald Trump said Monday that the FBI was investigating"
+      }
+    ],
+    "note": "The AP page, dated November 12, 2026, says \"on Thursday\": November 12, 2026."
+  },
+  {
+    "id": 31,
+    "line": 59,
+    "claim": "Nvidia shares fell 14% at the opening bell on November 12, 2026, before stabilizing, per the AP; Forbes put the opening drop at 10% and the five-day decline at 18%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The resignation sent shares of Nvidia plummeting 14% at the opening bell, before stabilizing."
+      },
+      {
+        "source": 9,
+        "quote": "The 4% fall pared steeper losses earlier in the day of as much as 14%."
+      },
+      {
+        "source": 7,
+        "quote": "10%. That's how much Nvidia shares dropped at the opening bell Thursday morning following news of Huang's resignation, pushing the company's stock price 18% lower than it was five days ago."
+      }
+    ],
+    "note": "Forbes answered HTTP 403: its 10% and 18% rest on the writer's quotation and differ from the AP's 14%, which CNBC's \"as much as 14%\" matches. The Nasdaq figure, no longer on the AP page, is corrected out in this step."
+  },
+  {
+    "id": 32,
+    "line": 61,
+    "claim": "The stock closed down 4.34% on November 12, 2026, per CNBC, as investors weighed lawsuits, investigations and likely corporate jockeying, per the AP.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 9,
+        "quote": "Nvidia shares declined 4.34% Thursday after Jensen Huang announced he would immediately step down as CEO"
+      },
+      {
+        "source": 5,
+        "quote": "The stock closed down about 4% Thursday as investors pondered the lawsuits, investigations, likely corporate jockeying"
+      }
+    ],
+    "note": "Both pages are dated November 12, 2026, a Thursday."
+  },
+  {
+    "id": 33,
+    "line": 67,
+    "claim": "Neither the release nor the 8-K gives a reason for the resignation, mentions the board's investigation or carries a statement from Huang.",
+    "status": "absence",
+    "note": "Read the whole release (source 2) and the 8-K (source 8, Items 5.02 and 9.01): no reason, no mention of a disagreement or an investigation; only Jones and Kress are quoted."
+  },
+  {
+    "id": 34,
+    "line": 68,
+    "claim": "The 8-K reports no severance or separation agreement for Huang and nothing on Kress's pay as interim CEO.",
+    "status": "absence",
+    "note": "Read the 8-K (source 8): Item 5.02 gives the resignation, the two appointments, ages and biographies; it has no word on severance, equity, a separation agreement or compensation."
+  },
+  {
+    "id": 35,
+    "line": 69,
+    "claim": "The release sets no timetable for naming a permanent chief executive.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The Board is initiating a search for a permanent Chief Executive Officer and will consider internal and external candidates."
+      }
+    ],
+    "note": "Read the whole release (source 2): it announces a search and gives no date or deadline."
+  },
+  {
+    "id": 36,
+    "line": 70,
+    "claim": "The board's statement of November 8, 2026, promised only further updates as appropriate; no finding has been published.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "November 8, 2026"
+      },
+      {
+        "source": 3,
+        "quote": "will provide further updates as appropriate"
+      }
+    ],
+    "note": "The statement (source 3) gives no timetable; the release of November 12, 2026 (source 2) does not mention the investigation."
+  },
+  {
+    "id": 37,
+    "line": 71,
+    "claim": "The AP and CNBC articles carry no response from Huang or Nvidia to the reports about employees.",
+    "status": "absence",
+    "note": "Read both articles (sources 5 and 9) in their versions of November 13, 2026: no denial, confirmation or refusal to comment on those reports. I did not find a response elsewhere; that is not proof none exists."
+  },
+  {
+    "id": 38,
+    "line": 75,
+    "claim": "Huang resigned as president, chief executive and director; the board accepted the resignation on November 11, 2026, and announced it on November 12, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      },
+      {
+        "source": 2,
+        "quote": "November 12, 2026"
+      },
+      {
+        "source": 8,
+        "quote": "On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "line": 76,
+    "claim": "CFO Colette Kress is interim chief executive while the board considers internal and external successors; Harvey C. Jones, a director since 1993, becomes the first chair.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer."
+      },
+      {
+        "source": 2,
+        "quote": "The Board is initiating a search for a permanent Chief Executive Officer and will consider internal and external candidates."
+      },
+      {
+        "source": 2,
+        "quote": "The Board of Directors appointed Harvey C. Jones as its first-ever Chair of the Board."
+      },
+      {
+        "source": 8,
+        "quote": "Mr. Jones has served on the Board since 1993."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "line": 77,
+    "claim": "Nvidia gave no reason for the exit, which came four days after Huang admitted an affair and the board opened an inquiry into reported foreign intelligence targeting.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 4,
+        "quote": "November 8, 2026"
+      },
+      {
+        "source": 4,
+        "quote": "I was unfaithful to my wife."
+      },
+      {
+        "source": 3,
+        "quote": "November 8, 2026"
+      },
+      {
+        "source": 3,
+        "quote": "The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort."
+      },
+      {
+        "source": 2,
+        "quote": "November 12, 2026"
+      }
+    ],
+    "note": "November 8 to November 12, 2026 is four days. The release (source 2), read in full, gives no reason: the sentence states an order of events, not a cause."
+  }
+]

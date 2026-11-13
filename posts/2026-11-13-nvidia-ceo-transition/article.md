@@ -31,26 +31,48 @@ On November 12, 2026, Kress said she and the leadership team are "committed to b
 
 While Nvidia's release gave no reason for the departure, the Associated Press, The Guardian and Forbes reported that it came days after Huang admitted to an extramarital affair and after reports alleged additional affairs with Nvidia employees.[^1][^2][^5][^6][^7]
 In a message to employees on November 8, 2026, Huang wrote, "I was unfaithful to my wife," adding, "I take full responsibility for what I did and the hurt I caused, and I accept the criticism that comes with it."[^4]
+<!-- add role="checker" model="Anthropic Claude Fable 5.2" -->
+The message identifies no one, and the Associated Press wrote that Huang "acknowledged an affair but did not identify her".[^4][^5]
+<!-- /add -->
 According to the Associated Press and Forbes, U.S. intelligence officials suspected that the woman outside Nvidia, a former executive at Singapore-based Megaspeed International, was acting as an agent for Beijing.[^5][^7]
 <!-- add role="reviser" model="Anthropic Claude Opus 5.5" -->
 CNBC, citing the Financial Times, likewise described her as a person "U.S. intelligence officials believe is a spy for China".[^9]
 <!-- /add -->
+<!-- add role="checker" model="Anthropic Claude Fable 5.2" -->
+Trump said on November 9, 2026, that Huang told him he "had absolutely no idea that the person in question was a spy", the Australian Associated Press reported.[^10]
+<!-- /add -->
 Also on November 8, 2026, Nvidia's board announced an independent investigation overseen by independent directors and outside counsel into reporting that Huang "has been the target of a foreign intelligence effort".[^3]
 The board said Huang committed to cooperating and stated it had "no reason to believe that either national security or NVIDIA secrets were compromised".[^3]
-China denied attempting to ensnare Huang, the Associated Press reported, and Megaspeed stated on November 12, 2026, that it takes compliance with U.S. export control laws "extremely seriously".[^5]
+China denied attempting to ensnare Huang, the Associated Press reported, and Megaspeed stated on November 12, 2026, that it "welcomes appropriate government scrutiny".[^5]
 <!-- add role="reviser" model="Anthropic Claude Opus 5.5" -->
 Megaspeed added that it has cooperated with the U.S. Department of Commerce's Bureau of Industry and Security, according to the Associated Press.[^5]
 <!-- /add -->
-The New York Times reported on November 11, 2026, that Huang also had an affair with an Nvidia executive who reported to him, a report the Associated Press said it could not independently confirm.[^5]
+Reports of another alleged affair, with an Nvidia employee who reported to Huang, surfaced late on November 11, 2026, and Reuters reported on November 12, 2026, citing unidentified sources, an "intimate relationship" with a second employee.[^5][^9]
 
 ## Federal probes and an opening-bell drop
 
-U.S. President Donald Trump announced on November 8, 2026, that the FBI was investigating, and House Foreign Affairs Committee Chair Brian Mast said his panel had been in contact with Huang's team as recently as the night of November 11, 2026, after requesting an interview on November 5, 2026.[^5]
+U.S. President Donald Trump said on November 9, 2026, that the FBI was investigating, and House Foreign Affairs Committee Chair Brian Mast said his panel had been in contact with Huang's team as recently as the night of November 11, 2026, after requesting an interview on November 5, 2026.[^5]
 <!-- add role="reviser" model="Anthropic Claude Opus 5.5" -->
 Mast said Huang would receive a subpoena to compel his appearance if necessary, the Associated Press reported.[^5]
 Trump, who had announced the FBI inquiry, remained complimentary of Huang on November 12, 2026, saying he "has done a fantastic job", according to the Associated Press.[^5]
 <!-- /add -->
-At the opening bell on November 12, 2026, Nvidia shares fell 14% while the Nasdaq slid 1.5%, the Associated Press reported, whereas Forbes put the opening drop at 10% and the five-day decline at 18%.[^5][^7]
+At the opening bell on November 12, 2026, Nvidia shares fell 14% before stabilizing, the Associated Press reported, whereas Forbes put the opening drop at 10% and the five-day decline at 18%.[^5][^7]
 <!-- add role="reviser" model="Anthropic Claude Opus 5.5" -->
 The stock then recovered part of that loss and closed down 4.34% on November 12, 2026, CNBC reported, as investors weighed lawsuits, investigations and likely corporate jockeying, according to the Associated Press.[^5][^9]
 <!-- /add -->
+
+<!-- add role="checker" model="Anthropic Claude Fable 5.2" -->
+## What neither the release nor the 8-K says
+
+- Why Huang resigned: neither document gives a reason, mentions the board's investigation or carries a statement from him.[^2][^8]
+- The terms of his exit: the 8-K reports no severance or separation agreement, and nothing on Kress's pay as interim chief.[^8]
+- When a permanent chief executive will be named: the release sets no timetable for the search.[^2]
+- What the board's inquiry has found: its November 8, 2026, statement promised only "further updates as appropriate".[^3]
+- Whether Huang has answered the reports about employees: the Associated Press and CNBC articles carry no response from him or from Nvidia.[^5][^9]
+<!-- /add -->
+
+<!-- keypoints model="Anthropic Claude Fable 5.2" -->
+- Jensen Huang resigned as Nvidia's president, chief executive and director; the board accepted the resignation on November 11, 2026, and announced it on November 12, 2026.[^2][^8]
+- Chief Financial Officer Colette Kress is interim chief executive while the board considers internal and external successors; Harvey C. Jones, a director since 1993, becomes its first chair.[^2][^8]
+- Nvidia gave no reason for the exit, which came four days after Huang admitted an affair and the board opened an inquiry into reported foreign intelligence targeting.[^2][^3][^4]
+<!-- /keypoints -->

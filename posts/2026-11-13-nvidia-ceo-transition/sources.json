@@ -221,6 +221,11 @@
         "text": "Jensen fully supports the review and has committed to cooperating with it.",
         "for": "Huang's support for and commitment to cooperate with the board's review.",
         "by": "writer"
+      },
+      {
+        "text": "The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate.",
+        "for": "The board's confidence in Huang on November 8, 2026, and its promise of updates.",
+        "by": "checker"
       }
     ]
   },
@@ -243,6 +248,12 @@
         "text": "I take full responsibility for what I did and the hurt I caused, and I accept the criticism that comes with it.",
         "for": "Huang taking responsibility in his message to employees.",
         "by": "writer"
+      },
+      {
+        "type": "date",
+        "text": "November 8, 2026",
+        "for": "The date of Huang's message to employees.",
+        "by": "checker"
       }
     ]
   },
@@ -259,27 +270,47 @@
       {
         "text": "Huang faced growing calls to resign after his affair with a Chinese businesswoman who reportedly was also acting as a spy for Beijing.",
         "for": "AP report on calls for Huang to resign after his affair with a businesswoman suspected of spying for Beijing.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "checker",
+          "why": "Not on the page as the checker read it on November 13, 2026: the AP story was updated on November 12, 2026, and the passage was reworded or dropped."
+        }
       },
       {
         "text": "His troubles compounded late Wednesday after media reports said Huang had another extramarital affair with an Nvidia employee who reported to him.",
         "for": "AP report on media accounts of a separate affair with an Nvidia subordinate.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "checker",
+          "why": "Not on the page as the checker read it on November 13, 2026: the AP story was updated on November 12, 2026, and the passage was reworded or dropped."
+        }
       },
       {
         "text": "The New York Times reported Wednesday that Huang also had an affair with an Nvidia executive who reported to him. The Associated Press could not independently confirm those reports.",
         "for": "The New York Times report on the subordinate relationship and AP's note that it could not independently confirm it.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "checker",
+          "why": "Not on the page as the checker read it on November 13, 2026: the AP story was updated on November 12, 2026, and the passage was reworded or dropped."
+        }
       },
       {
         "text": "In its first statement since the scandal broke, Singapore-headquartered Megaspeed International said Thursday that it takes its obligation to comply with U.S. export control laws “extremely seriously.”",
         "for": "Megaspeed International's statement on complying with U.S. export control laws.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "checker",
+          "why": "Not on the page as the checker read it on November 13, 2026: the AP story was updated on November 12, 2026, and the passage was reworded or dropped."
+        }
       },
       {
         "text": "China has denied that it engaged in an attempt to ensnare Huang, who heads one of the world's most valuable companies.",
         "for": "China's denial that it attempted to ensnare Huang.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "checker",
+          "why": "Not on the page as the checker read it on November 13, 2026: the AP story was updated on November 12, 2026, and the passage was reworded or dropped."
+        }
       },
       {
         "text": "Rep. Brian Mast, chairman of the House Committee on Foreign Affairs, said the committee was in contact with Huang's team as recently as Wednesday night after putting in an initial request for an interview on Nov. 5.",
@@ -289,12 +320,20 @@
       {
         "text": "On Sunday, U.S. President Donald Trump announced that the FBI was investigating.",
         "for": "President Donald Trump's announcement on November 8, 2026, that the FBI was investigating.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "checker",
+          "why": "Not on the page as the checker read it on November 13, 2026: the AP story was updated on November 12, 2026, and the passage was reworded or dropped."
+        }
       },
       {
         "text": "Shares of Nvidia tumbled 14% at the opening bell Thursday, while the tech-heavy Nasdaq slid 1.5%.",
         "for": "Nvidia shares falling 14% at the opening bell on November 12, 2026, and the Nasdaq sliding 1.5%.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "checker",
+          "why": "Not on the page as the checker read it on November 13, 2026: the AP story was updated on November 12, 2026, and the passage was reworded or dropped."
+        }
       },
       {
         "text": "Nvidia had no succession plan to prepare for the possibility of the departure of Huang",
@@ -320,6 +359,61 @@
         "text": "The stock closed down about 4% Thursday as investors pondered the lawsuits, investigations, likely corporate jockeying",
         "for": "The close on November 12, 2026, and what investors weighed.",
         "by": "reviser"
+      },
+      {
+        "text": "U.S. President Donald Trump said Monday that the FBI was investigating",
+        "for": "Trump's statement on the FBI, on Monday, November 9, 2026.",
+        "by": "checker"
+      },
+      {
+        "text": "a woman the paper said U.S. officials had concluded was a Chinese spy",
+        "for": "What The New York Times reported about U.S. officials, as relayed by the AP.",
+        "by": "checker"
+      },
+      {
+        "text": "is a former executive at Singapore-based Megaspeed International.",
+        "for": "The woman's former role at Megaspeed.",
+        "by": "checker"
+      },
+      {
+        "text": "Jensen Huang acknowledged an affair but did not identify her.",
+        "for": "Huang admitted an affair without saying with whom.",
+        "by": "checker"
+      },
+      {
+        "text": "Then pressure compounded late Wednesday after reports surfaced of another alleged affair by Huang, this time with an Nvidia employee who reported to him.",
+        "for": "Reports late on November 11, 2026, of an alleged affair with a subordinate.",
+        "by": "checker"
+      },
+      {
+        "text": "Reuters reported Thursday that Huang had an intimate relationship with a second employee, citing unidentified sources.",
+        "for": "The Reuters report of November 12, 2026, as relayed by the AP.",
+        "by": "checker"
+      },
+      {
+        "text": "China has denied that it attempted to ensnare Jensen Huang.",
+        "for": "China's denial.",
+        "by": "checker"
+      },
+      {
+        "text": "welcomes appropriate government scrutiny and is committed to demonstrating through concrete actions",
+        "for": "Megaspeed's statement of November 12, 2026.",
+        "by": "checker"
+      },
+      {
+        "text": "The resignation sent shares of Nvidia plummeting 14% at the opening bell, before stabilizing.",
+        "for": "The opening drop on November 12, 2026.",
+        "by": "checker"
+      },
+      {
+        "text": "Huang and two other engineers gathered in 1993 at a Denny's in San Jose, California",
+        "for": "Nvidia's founding in 1993.",
+        "by": "checker"
+      },
+      {
+        "text": "Nvidia said its board would consider internal and external candidates to replace him.",
+        "for": "The search for a permanent chief executive.",
+        "by": "checker"
       }
     ]
   },
@@ -412,6 +506,16 @@
         "text": "On November 11, 2026, the Board appointed Harvey C. Jones, age 73, as Chair of the Board.",
         "for": "Jones's age and appointment as chair.",
         "by": "reviser"
+      },
+      {
+        "text": "Colette M. Kress, age 59, to serve as interim Chief Executive Officer",
+        "for": "Kress's age and appointment, in the filing.",
+        "by": "checker"
+      },
+      {
+        "text": "Mr. Jones has served on the Board since 1993.",
+        "for": "Jones's time on the board.",
+        "by": "checker"
       }
     ]
   },
@@ -434,6 +538,48 @@
         "text": "who U.S. intelligence officials believe is a spy for China.",
         "for": "CNBC, citing the Financial Times, on what U.S. intelligence officials believe.",
         "by": "reviser"
+      },
+      {
+        "text": "with an unnamed second employee, Reuters reported Thursday.",
+        "for": "The Reuters report of November 12, 2026, as relayed by CNBC.",
+        "by": "checker"
+      },
+      {
+        "text": "The stock hovered under $4 trillion in market cap for most of the day",
+        "for": "Nvidia's market value on November 12, 2026.",
+        "by": "checker"
+      },
+      {
+        "text": "The 4% fall pared steeper losses earlier in the day of as much as 14%.",
+        "for": "The steepest loss of the day, next to the close.",
+        "by": "checker"
+      },
+      {
+        "text": "On Sunday, Huang admitted to having an affair.",
+        "for": "Huang's admission on Sunday, November 8, 2026.",
+        "by": "checker"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "url": "https://www.canberratimes.com.au/story/9388674/fbi-to-probe-nvidia-chiefs-affair-with-alleged-spy/",
+    "title": "US Congress summons Nvidia boss over 'spy interactions'",
+    "publisher": "The Canberra Times (Australian Associated Press)",
+    "kind": "press",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-13",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "text": "Speaking at a White House briefing on Monday, US President Donald Trump said Huang should not be concerned",
+        "for": "Trump's remarks on Monday, November 9, 2026.",
+        "by": "checker"
+      },
+      {
+        "text": "he had absolutely no idea that the person in question was a spy",
+        "for": "Huang's denial, as Trump relayed it.",
+        "by": "checker"
       }
     ]
   }

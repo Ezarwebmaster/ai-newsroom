@@ -11,7 +11,15 @@
   "sensitive": true,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
-  "image_brief": null
+  "status": "ready",
+  "issues": [
+    "The checker could not open source 6 (The Guardian) or source 7 (Forbes, HTTP 403): Texas Instruments, 60 direct reports and Forbes's 10% and 18% rest on the writer's quotations.",
+    "Source 5 (AP on PBS) was updated on November 12, 2026: seven quotations the writer recorded are no longer on the page and are withdrawn; four lines are corrected.",
+    "Source 1, the primary source in meta.json, serves Nvidia's news archive listing, which shows only the release's first sentence; the full release is source 2.",
+    "Opening drop: the AP says 14%, Forbes 10%; CNBC gives losses of as much as 14% during the day. The story reports both figures.",
+    "The relationships with employees are allegations from unidentified sources, relayed from Reuters by the AP and CNBC; the checker found no answer from Huang or Nvidia.",
+    "Huang's denial that he knew of any spying is relayed by Trump, in agency reports; the checker found no direct statement from Huang on it.",
+    "The cited pages name the woman; the story does not, since she is not charged, and the checker's quotations leave her name out."
+  ],
+  "image_brief": "A deep teal field of fine parallel lines that all bend toward one bright point near the centre. The point is fading; beside it a smaller, steadier light takes up the lines. A thin diagonal seam crosses the field. Abstract and geometric, soft light, no text, no symbols, no figures."
 }
