@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.anthropic.com/news/roadshow-launch",
+    "title": "Anthropic launches roadshow for proposed initial public offering",
+    "publisher": "Anthropic",
+    "kind": "primary",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Nov 10, 2026",
+        "for": "The date of the announcement.",
+        "by": "writer"
+      },
+      {
+        "text": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+        "for": "The roadshow launch.",
+        "by": "writer"
+      },
+      {
+        "text": "The proposed offering consists of 825,000,000 shares of Class A common stock.",
+        "for": "The 825 million shares offered.",
+        "by": "writer"
+      },
+      {
+        "text": "The initial public offering price is expected to be between $70.00 and $78.00 per share.",
+        "for": "The $70 to $78 price range.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic has applied to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.”",
+        "for": "The Nasdaq listing under ANT.",
+        "by": "writer"
+      },
+      {
+        "text": "Of these, 801,351,354 shares are being offered by Anthropic and",
+        "for": "The shares offered by Anthropic.",
+        "by": "writer"
+      },
+      {
+        "text": "23,648,646 shares are being offered by certain existing stockholders.",
+        "for": "The shares offered by existing stockholders.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic will not receive any proceeds from the sale of shares by the selling stockholders.",
+        "for": "No proceeds to Anthropic from the selling stockholders.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic also expects to grant the underwriters a 30-day option to purchase up to an additional 123,750,000 shares",
+        "for": "The underwriters' 30-day option.",
+        "by": "writer"
+      },
+      {
+        "text": "A registration statement relating to these securities has been filed with the U.S. Securities and Exchange Commission but has not yet become effective.",
+        "for": "The registration statement is not yet effective.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/exhibit1015-sx1ax2.htm",
+    "title": "Class N Common Stock Purchase Agreement between Anthropic, PBC and Google LLC (Exhibit 10.15 to Form S-1/A)",
+    "publisher": "Anthropic, PBC (SEC filing)",
+    "kind": "filing",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "$10,000,000,000 (the \"Investment Amount\") divided by the IPO Price, rounded down to the nearest whole share",
+        "for": "Google's $10 billion investment, converted into shares at the IPO price.",
+        "by": "writer"
+      },
+      {
+        "text": "at a price per share equal to the per share initial public offering price of the Class A Common Stock",
+        "for": "The Class N shares are bought at the IPO price.",
+        "by": "writer"
+      },
+      {
+        "text": "The purchase and sale of the Shares shall take place remotely immediately following the closing of the IPO.",
+        "for": "The placement closes right after the IPO.",
+        "by": "writer"
+      },
+      {
+        "text": "The Registration Statement shall have been declared effective by the SEC and the IPO shall have closed.",
+        "for": "The placement depends on the registration statement being effective.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+    "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+    "publisher": "TechCrunch",
+    "kind": "press",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The sale is expected to raise anywhere from $57.75 billion to $64.35 billion.",
+        "for": "The offering raises up to $64.35 billion.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic said it had struck a deal to privately sell $26 billion of non-voting Class N stock at the IPO price to AMD",
+        "for": "The $26 billion private placement of non-voting Class N stock.",
+        "by": "writer"
+      },
+      {
+        "text": "AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC.",
+        "for": "The seven buyers in the placement.",
+        "by": "writer"
+      },
+      {
+        "text": "Google and Nvidia are investing $10 billion apiece.",
+        "for": "Nvidia's $10 billion.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic estimates net proceeds to reach somewhere between $84.6 billion and $93.7 billion",
+        "for": "The estimated net proceeds.",
+        "by": "writer"
+      },
+      {
+        "text": "the $965 billion valuation Anthropic reached in a May fundraise",
+        "for": "The May valuation.",
+        "by": "writer"
+      },
+      {
+        "text": "The company’s third-quarter revenue came in at $17 billion, and nine-month revenue was $33.2 billion.",
+        "for": "Third-quarter and nine-month revenue.",
+        "by": "writer"
+      },
+      {
+        "text": "reported a nine-month net loss of $104 billion, with compute and infrastructure commitments hitting $900.9 billion.",
+        "for": "The net loss and the compute commitments.",
+        "by": "writer"
+      },
+      {
+        "text": "It has nearly $132 billion in cash and short-term investments.",
+        "for": "Cash and short-term investments.",
+        "by": "writer"
+      },
+      {
+        "text": "interpretability research lead Christopher Olah are all selling nearly 3.4 million shares each.",
+        "for": "The co-founders' share sales.",
+        "by": "writer"
+      },
+      {
+        "text": "At the $74 midpoint of the IPO price range, that would land them about $250 million each.",
+        "for": "About $250 million per co-founder.",
+        "by": "writer"
+      },
+      {
+        "text": "As a public benefit corporation, the founders hold a Class F share with 50.1% of the voting power.",
+        "for": "The founders' voting power.",
+        "by": "writer"
+      },
+      {
+        "text": "The Long-Term Benefit Trust will also elect a board majority, so Class A buyers will have limited influence.",
+        "for": "The trust's board majority.",
+        "by": "writer"
+      },
+      {
+        "text": "The company expects up to 20% of the offering to be allocated to retail investors.",
+        "for": "The retail allocation.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/",
+    "title": "Anthropic launches IPO roadshow with $64B fundraising goal",
+    "publisher": "SiliconANGLE",
+    "kind": "press",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Anthropic is expected to price its shares on Nov. 18.",
+        "for": "The expected pricing date.",
+        "by": "writer"
+      },
+      {
+        "text": "seven of its top suppliers will buy $26 billion worth of shares through a private placement.",
+        "for": "The suppliers' placement.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.timeslive.co.za/news/business/2026-11-10-anthropic-lowers-ipo-valuation-target-to-102-trillion/",
+    "title": "Anthropic lowers IPO valuation target to $1.4-trillion",
+    "publisher": "TimesLive (Reuters)",
+    "kind": "press",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "At the top of the price range, Anthropic would be valued at about $1.4-trillion on a fully diluted basis,",
+        "for": "The fully diluted valuation.",
+        "by": "writer"
+      },
+      {
+        "text": "On a non-diluted basis, excluding those securities, Anthropic’s market value would be about $1-trillion.",
+        "for": "The non-diluted valuation.",
+        "by": "writer"
+      },
+      {
+        "text": "Investors had previously discussed a valuation of as much as $2-trillion,",
+        "for": "The earlier $2 trillion talk.",
+        "by": "writer"
+      },
+      {
+        "text": "but expectations have since come down given Anthropic’s substantial infrastructure commitments",
+        "for": "Why expectations came down, per Reuters.",
+        "by": "writer"
+      },
+      {
+        "text": "details of its IPO were briefly circulated to investment banks late on Monday shortly before being retracted",
+        "for": "The retracted terms.",
+        "by": "writer"
+      },
+      {
+        "text": "The preliminary terms showed Anthropic’s IPO could raise as much as $69.3bn.",
+        "for": "The $69.3 billion in the retracted terms.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic’s run-rate revenue was roughly $81bn as of October 31, up $10bn from September 30,",
+        "for": "Run-rate revenue.",
+        "by": "writer"
+      },
+      {
+        "text": "this allows investors to ‘bid up’ the IPO rather than facing a take-it-or-leave-it scenario like SpaceX took,",
+        "for": "Jeff Zell's comparison with SpaceX.",
+        "by": "writer"
+      },
+      {
+        "text": "said Jeff Zell, senior research analyst at IPO Boutique.",
+        "for": "Who made the SpaceX comparison.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://gfmag.com/capital-raising-corporate-finance/anthropic-preps-for-trillion-dollar-ipo/",
+    "title": "Anthropic Preps for a Trillion-Dollar Debut",
+    "publisher": "Global Finance",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-12",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "With Goldman Sachs & Co. and Morgan Stanley & Co. serving as lead bookrunners",
+        "for": "The lead bookrunners.",
+        "by": "writer"
+      },
+      {
+        "text": "expected to price its initial public offering on Wednesday, Nov. 18",
+        "for": "The expected pricing date.",
+        "by": "writer"
+      },
+      {
+        "text": "ahead of a planned Nasdaq debut on Nov. 19",
+        "for": "The planned Nasdaq debut.",
+        "by": "writer"
+      },
+      {
+        "text": "companies with significant commercial relationships with Anthropic — including chip suppliers, cloud providers",
+        "for": "The buyers' commercial ties to Anthropic.",
+        "by": "writer"
+      }
+    ]
+  }
+]
