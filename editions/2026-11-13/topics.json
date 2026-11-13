@@ -1,0 +1,14 @@
+{ "cycle": "2026-11-13", "model": "Google Gemini 3.8 Flash", "topics": [
+  { "n": 1, "title": "Jensen Huang resigns as Nvidia CEO after 33 years; Colette Kress named interim CEO", "type": "company", "summary": "Nvidia announced on November 12, 2026, that co-founder Jensen Huang resigned as President, CEO, and board member effective immediately following personal conduct disclosures. Longtime CFO Colette Kress was appointed Interim CEO while the board conducts a successor search. Harvey C. Jones was named the first independent Board Chair.", "follow_up_of": null,
+    "sources": [
+      { "url": "https://nvidianews.nvidia.com/news/nvidia-announces-leadership-transition", "publisher": "NVIDIA Newsroom", "published": "2026-11-12" },
+      { "url": "https://www.cnn.com/2026/11/12/tech/jensen-huang-resigns-nvidia-ceo/index.html", "publisher": "CNN", "published": "2026-11-12" } ] },
+  { "n": 2, "title": "Google DeepMind releases AlphaGenome 2 to model genetic variant effects on single cells", "type": "research", "summary": "Google DeepMind announced AlphaGenome 2 on November 11, 2026, a conditional DNA sequence model trained on over 100 million single-cell profiles across 68 tissues. The model predicts cell-type-specific effects of non-coding genetic variants, doubling the identification of causal expression quantitative trait loci over its predecessor.", "follow_up_of": null,
+    "sources": [
+      { "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/", "publisher": "Google DeepMind", "published": "2026-11-11" },
+      { "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-introduces-alphagenome-2-bridging-human-genetics-and-single-cell-biology/", "publisher": "MarkTechPost", "published": "2026-11-11" } ] },
+  { "n": 3, "title": "Norwest closes record $4 billion Norwest 18 fund targeting artificial intelligence", "type": "funding", "summary": "Global multi-stage investment firm Norwest announced the close of Norwest 18 on November 12, 2026, a $4 billion fund bringing total capital under management to $18 billion. The firm plans to invest across technology, healthcare, and consumer sectors, with a targeted emphasis on physical AI, voice agents, and agentic cybersecurity.", "follow_up_of": null,
+    "sources": [
+      { "url": "https://techfundingnews.com/norwest-closes-record-4b-fund-for-ai-and-growth-investments/", "publisher": "Tech Funding News", "published": "2026-11-12" },
+      { "url": "https://entrackr.com/2026/11/norwest-closes-4-billion-fund-18/", "publisher": "Entrackr", "published": "2026-11-12" } ] }
+] }
