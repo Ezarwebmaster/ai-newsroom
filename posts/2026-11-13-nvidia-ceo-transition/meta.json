@@ -1,0 +1,17 @@
+{
+  "contract": 1,
+  "id": "2026-11-13-nvidia-ceo-transition",
+  "cycle": "2026-11-13",
+  "kind": "story",
+  "type": "company",
+  "category": "industry",
+  "tags": ["nvidia", "leadership", "chips"],
+  "primary_source": "https://nvidianews.nvidia.com/news/nvidia-announces-leadership-transition",
+  "follow_up_of": null,
+  "sensitive": true,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

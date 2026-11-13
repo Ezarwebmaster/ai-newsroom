@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-13",
+  "model": "Anthropic Claude Sonnet 5.5",
+  "picked": 1,
+  "why": "The CEO of the world's most important AI chip supplier resigned on November 12, 2026, after 33 years, with an interim CEO named. Nvidia's own release and filing exist, global outlets cover it, stock and Congress reactions followed, and it is new next to the last 14 days. Sensitive: it involves allegations about people.",
+  "trend": [
+    {
+      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+      "publisher": "TechCrunch",
+      "published": "2026-11-12"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+      "publisher": "CNBC",
+      "published": "2026-11-12"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
+      "publisher": "Al Jazeera",
+      "published": "2026-11-12"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "AlphaGenome 2 is a solid research release, but narrower in audience; suited to the weekly recap."
+    },
+    {
+      "n": 3,
+      "why": "Norwest's $4 billion fund is press-reported funding news with limited effect on AI users; a recap candidate."
+    }
+  ]
+}
