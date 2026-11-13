@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 18,
+    "old": "Counting both deals, Anthropic estimates net proceeds of $84.6 billion to $93.7 billion, TechCrunch reported.[^3]",
+    "new": "Counting both deals at the $74 midpoint, Anthropic estimates net proceeds of $84.6 billion, or $93.7 billion with the underwriters' option.[^3][^7]",
+    "why": "The S-1/A specifies that $84.6 billion and $93.7 billion are both estimated at the $74.00 midpoint, without and with full exercise of the underwriters' 123.75 million-share option, rather than across the $70 to $78 price range.",
+    "support": [
+      {
+        "source": 7,
+        "quote": "will be approximately $84.6 billion (or approximately $93.7 billion if the underwriters’ option to purchase additional shares of our Class A common stock is exercised in full), based upon the assumed initial public offering price of $74.00 per share"
+      }
+    ]
+  }
+]
