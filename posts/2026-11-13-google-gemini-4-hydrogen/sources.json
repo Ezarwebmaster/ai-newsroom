@@ -30,6 +30,21 @@
         "text": "Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session.",
         "for": "Model routing.",
         "by": "writer"
+      },
+      {
+        "text": "while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%)",
+        "for": "Terminal-Bench 4.1 against 3.8 Flash.",
+        "by": "reviser"
+      },
+      {
+        "text": "and achieves a 94% honesty rate on our internal agent honesty evaluation.",
+        "for": "Honesty evaluation.",
+        "by": "reviser"
+      },
+      {
+        "text": "Orchestrator reached near-Carbon task success rates while, on average, consuming 24% less quota and completing 19% faster.",
+        "for": "Orchestrator efficiency.",
+        "by": "reviser"
       }
     ]
   },
@@ -64,6 +79,90 @@
         "text": "It replaces the faster, more economical Flash models most people in Google’s ecosystem use.",
         "for": "Flash successor.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor",
+    "title": "Google launches Gemini 4 Hydrogen, a faster, smarter, pricier Flash successor",
+    "publisher": "VentureBeat",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-13",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "That matches Flash’s scheduled standard pricing from January 1, 2027",
+        "for": "Price against Flash's scheduled rate.",
+        "by": "reviser"
+      },
+      {
+        "text": "and is twice Flash’s introductory rate through December 31.",
+        "for": "Price against Flash's introductory rate.",
+        "by": "reviser"
+      },
+      {
+        "text": "It rejects the old thinking_budget parameter and the MINIMAL setting.",
+        "for": "API migration.",
+        "by": "reviser"
+      },
+      {
+        "text": "On Google’s Terminal-Bench 4.1 evaluation, Hydrogen completes 57% of tasks, up from 18.2% for Flash",
+        "for": "Terminal-Bench 4.1 against Flash.",
+        "by": "reviser"
+      },
+      {
+        "text": "It still trails Claude Sonnet 5.5’s 63.9% in Google’s table.",
+        "for": "Competitor score in Google's table.",
+        "by": "reviser"
+      },
+      {
+        "text": "In Artificial Analysis’s independent testing, Hydrogen at that setting scored 51 on the firm’s Intelligence Index",
+        "for": "Independent index score at high.",
+        "by": "reviser"
+      },
+      {
+        "text": "Google reports that the combined setup came close to Carbon’s success rate on Terminal-Bench 4.0",
+        "for": "Orchestrator benchmark.",
+        "by": "reviser"
+      },
+      {
+        "text": "The savings depend on which model the work would have gone to in the first place.",
+        "for": "Caveat on savings.",
+        "by": "reviser"
+      },
+      {
+        "text": "Individual Antigravity access requires Google AI Pro or Ultra.",
+        "for": "Antigravity access.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen",
+    "title": "Gemini 4 Hydrogen (Xhigh): Intelligence, Performance & Price Analysis",
+    "publisher": "Artificial Analysis",
+    "kind": "data",
+    "published": null,
+    "retrieved": "2026-11-13",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Gemini 4 Hydrogen (Xhigh) scores 54 on the Artificial Analysis Intelligence Index",
+        "for": "Independent index score at xhigh.",
+        "by": "reviser"
+      },
+      {
+        "text": "it generated 304M tokens, which is very verbose in comparison to the median of 77.3M",
+        "for": "Token use.",
+        "by": "reviser"
+      },
+      {
+        "text": "At 13.9 minutes per Intelligence Index task, Gemini 4 Hydrogen (Xhigh) is slower than average compared with the median of 12.9 minutes",
+        "for": "Time per task.",
+        "by": "reviser"
       }
     ]
   }

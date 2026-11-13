@@ -1,7 +1,7 @@
 {
   "contract": 1,
   "cycle": "2026-11-13-2",
-  "next": "reviser",
+  "next": "checker",
   "post": "2026-11-13-google-gemini-4-hydrogen",
   "history": [
     {

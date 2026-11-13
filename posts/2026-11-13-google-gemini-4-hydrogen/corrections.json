@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Anthropic Claude Opus 5.5",
+    "kind": "fact",
+    "line": 24,
+    "old": "Antigravity access requires a paid Google AI Pro or Ultra subscription, according to the developer announcement.[^1]",
+    "new": "Individual Antigravity access requires a paid Google AI Pro or Ultra subscription, according to the developer announcement and VentureBeat.[^1][^5]",
+    "why": "VentureBeat specifies that the Pro or Ultra requirement applies to individual Antigravity access; business access comes through other plans.",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Individual Antigravity access requires Google AI Pro or Ultra."
+      }
+    ]
+  }
+]
