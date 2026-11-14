@@ -13,62 +13,125 @@
         "type": "date",
         "text": "Nov 11, 2026",
         "for": "Publication date of the United Airlines news release.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "United Airlines today announced updates to its digital policies to protect customers and address cybersecurity, privacy and consumer protection concerns raised by unauthorized, third-party personal artificial intelligence (AI) agents or assistants.",
         "for": "Announcement of digital policy updates targeting third-party personal AI agents.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "While personal AI agents are increasingly popular, they are currently unregulated and operate without uniform standards for consumer protection, privacy, and data security.",
         "for": "United's description of personal AI agents as unregulated and without uniform standards.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "United is committed to adopting the latest technology to serve its customers and is developing its own AI capabilities to personalize and improve customer service, but not at the expense of customer trust or compliance with critical regulations.",
         "for": "United developing its own AI capabilities.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "United is taking steps to restrict access – directly within our digital platforms and indirectly via travel agencies and aggregators – to prohibit use by unauthorized, third-party personal AI agents or assistants.",
         "for": "Direct digital platform and indirect travel agency and aggregator restrictions.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "Explicitly prohibiting third-party personal AI agents from using United.com, the United app, and our systems to book flights and manage reservations on behalf of customers.",
         "for": "Prohibition on booking flights and managing reservations on United.com and the United app.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "Disallowing third-party personal AI agents from accessing MileagePlus accounts. When a customer shares their credentials with an AI agent, it creates significant security and privacy concerns and leaves consumers vulnerable to fraud and scams.",
         "for": "MileagePlus access ban and credential-sharing risks.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "Banning tools and applications from scraping our sites for real-time fares and availability data.",
         "for": "Ban on scraping real-time fares and availability data.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "United is actively reviewing all DOT rules to ensure third-party personal AI agents comply with all applicable requirements, including:",
         "for": "Review of all Department of Transportation rules for third-party AI agents.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "Transparent Pricing: Presenting clear, accurate, and comprehensive pricing information to consumers.",
         "for": "DOT transparent pricing requirement.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "Accessibility: Adhering to DOT requirements ensuring digital booking tools are accessible to people with disabilities.",
         "for": "DOT accessibility requirement for people with disabilities.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
       },
       {
         "text": "Prompt Notification: Ensuring customers receive mandatory disclosures and urgent communications such as flight delays, gate changes, and other critical travel updates.",
         "for": "DOT prompt notification requirement for delays and gate changes.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "This passage does not appear verbatim in the United newsroom release opened for this revision."
+        }
+      },
+      {
+        "text": "As a result, United is taking steps to restrict access - directly within our digital platforms and indirectly via travel agencies and aggregators - to prohibit use by unauthorized, third-party personal AI agents or assistants.",
+        "for": "United describes the scope of its restrictions.",
+        "by": "reviser"
+      },
+      {
+        "text": "We will also update our Digital Trust Center so customers can better understand what these new restrictions mean for them, how to protect their accounts, and where to get help if an agent takes an unintended action.",
+        "for": "United plans to explain the restrictions.",
+        "by": "reviser"
+      },
+      {
+        "text": "Corporate leaders in the banking and retail industries have taken similar actions regarding AI agents and we encourage others to consider measures that preserve the data and security of their customers and strengthen safety.",
+        "for": "United calls for similar measures.",
+        "by": "reviser"
       }
     ]
   },
@@ -202,6 +265,33 @@
         "text": "During its recent third-quarter earnings call, Uber shared that it handled 320 million trips and deliveries during the week of Halloween; of those, AI agents were responsible for 500 Uber Eats orders and only four rides.",
         "for": "Uber third-quarter call figures on AI-agent orders and rides.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://aidedex.com/guides/united-airlines-ai-agent-booking-ban/",
+    "title": "United bans AI agents from booking flights",
+    "publisher": "AideDex",
+    "kind": "press",
+    "published": null,
+    "retrieved": "2026-11-14",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Agent bookings made before Nov 11 are not being cancelled",
+        "for": "Treatment of prior agent bookings.",
+        "by": "reviser"
+      },
+      {
+        "text": "The help page is stricter: any tool that searches or collects information on united.com or the app without permission is unauthorized.",
+        "for": "Distinction between the contract and the customer help page.",
+        "by": "reviser"
+      },
+      {
+        "text": "We did not ask any agent to book, search or check in on a United flight, so everything about what happens in practice is unobserved.",
+        "for": "Limits of the report on enforcement.",
+        "by": "reviser"
       }
     ]
   }

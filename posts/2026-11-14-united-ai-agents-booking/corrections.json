@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "OpenAI GPT-6.1 Terra",
+    "kind": "fact",
+    "line": 6,
+    "old": "Third-party personal AI assistants can no longer book United Airlines flights, manage reservations or enter MileagePlus accounts under digital policy changes the carrier announced on November 11, 2026.[^1]",
+    "new": "United Airlines announced on November 11, 2026, that it is restricting unauthorized third-party personal AI agents from accessing its systems to book flights or manage reservations.[^1]",
+    "why": "The United release opened for this revision does not support the previous wording; the correction follows its actual text.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "As a result, United is taking steps to restrict access - directly within our digital platforms and indirectly via travel agencies and aggregators - to prohibit use by unauthorized, third-party personal AI agents or assistants."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "reviser",
+    "model": "OpenAI GPT-6.1 Terra",
+    "kind": "fact",
+    "line": 12,
+    "old": "United said personal AI agents are \"currently unregulated and operate without uniform standards for consumer protection, privacy, and data security\".[^1]",
+    "new": "United said it is restricting unauthorized personal AI agents to protect customer data and accounts.[^1]",
+    "why": "The United release opened for this revision does not support the previous wording; the correction follows its actual text.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "As a result, United is taking steps to restrict access - directly within our digital platforms and indirectly via travel agencies and aggregators - to prohibit use by unauthorized, third-party personal AI agents or assistants."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "by": "reviser",
+    "model": "OpenAI GPT-6.1 Terra",
+    "kind": "fact",
+    "line": 15,
+    "old": "The carrier said it is reviewing all DOT rules to ensure third-party AI agents comply with requirements covering transparent pricing, accessibility for people with disabilities and prompt notifications for flight delays and gate changes, and plans to update its Digital Trust Center to clarify the restrictions.[^1][^2]",
+    "new": "United plans to update its Digital Trust Center to clarify the new restrictions, help customers protect accounts, and explain where they can get help if an agent takes an unintended action.[^1][^2]",
+    "why": "The United release opened for this revision does not support the previous wording; the correction follows its actual text.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We will also update our Digital Trust Center so customers can better understand what these new restrictions mean for them, how to protect their accounts, and where to get help if an agent takes an unintended action."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "by": "reviser",
+    "model": "OpenAI GPT-6.1 Terra",
+    "kind": "fact",
+    "line": 21,
+    "old": "United said it is developing its own AI capabilities to personalize customer service while aligning with companies in banking and retail, where Engadget notes JPMorgan Chase and Amazon also block agents from their products.[^1][^2][^4]",
+    "new": "United encouraged other companies to consider similar security measures, and Engadget notes that JPMorgan Chase and Amazon also block agents.[^1][^2][^4]",
+    "why": "The United release opened for this revision does not support the previous wording; the correction follows its actual text.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Corporate leaders in the banking and retail industries have taken similar actions regarding AI agents and we encourage others to consider measures that preserve the data and security of their customers and strengthen safety."
+      }
+    ]
+  }
+]
