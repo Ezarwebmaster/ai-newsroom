@@ -161,5 +161,61 @@
         "by": "writer"
       }
     ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.miragenews.com/von-der-leyen-costa-address-press-after-eu-1777218/",
+    "title": "Von der Leyen, Costa Address Press After EU Summit",
+    "publisher": "European Commission (statement republished by Mirage News)",
+    "kind": "primary",
+    "published": "2026-11-13",
+    "retrieved": "2026-11-14",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "At least €500 billion according to our own estimates.",
+        "for": "Commission estimate of investment needed for technological sovereignty; not an approved budget.",
+        "by": "reviser"
+      },
+      {
+        "text": "we are mobilising around €30 billion for those seven AI gigafactories.",
+        "for": "Von der Leyen on the financing being mobilised for the planned gigafactories.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/remarks-by-president-antonio-costa-at-the-press-conference-following-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/",
+    "title": "Remarks by President António Costa at the press conference following the informal meeting of Heads of State or Government of 13 November 2026",
+    "publisher": "European Council",
+    "kind": "primary",
+    "published": "2026-11-13",
+    "retrieved": "2026-11-14",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "in our meeting in Alden Biesen on 5 February 2027.",
+        "for": "The announced date and place for leaders to return to AI.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://citizen.digital/article/eu-leaders-told-to-act-now-to-stay-in-ai-race-n393873",
+    "title": "EU leaders told to 'act now' to stay in AI race",
+    "publisher": "Agence France-Presse (via Citizen Digital)",
+    "kind": "press",
+    "published": "2026-11-13",
+    "retrieved": "2026-11-14",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Top EU official Roberta Metsola said she was tired of hearing that Europe had \"somehow lost the AI race\".",
+        "for": "Metsola's response to the premise that Europe has already lost the AI race.",
+        "by": "reviser"
+      }
+    ]
   }
 ]

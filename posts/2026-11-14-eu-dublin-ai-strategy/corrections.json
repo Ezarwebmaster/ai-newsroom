@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "OpenAI GPT-6 Astra",
+    "kind": "fact",
+    "line": 17,
+    "old": "The Council's account gives no amount and records no decision.[^1]",
+    "new": "The Council's AI summary gives no funding amount or agreed allocation.[^1]",
+    "why": "Limit this absence claim to the AI funding summary; the meeting account also describes outcomes on Ukraine, and the Commission's separate closing statement supplies an investment estimate.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "catching up with global peers in AI will require significant additional funding"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "reviser",
+    "model": "OpenAI GPT-6 Astra",
+    "kind": "fact",
+    "line": 37,
+    "old": "On AI, the next fixed date is a social one: Costa announced that AI and its impact on jobs will be the central theme of the 2027 social summit, which marks the 10th anniversary of the European Pillar of Social Rights.[^1]",
+    "new": "Costa also announced that AI and its impact on jobs will be the central theme of the 2027 social summit, which marks the 10th anniversary of the European Pillar of Social Rights.[^1][^6]",
+    "why": "The social summit is not the next fixed AI date: Costa's closing remarks explicitly schedule another leaders' discussion for February 5, 2027, in Alden Biesen.",
+    "support": [
+      {
+        "source": 6,
+        "quote": "in our meeting in Alden Biesen on 5 February 2027."
+      },
+      {
+        "source": 1,
+        "quote": "AI and its impact on jobs will be the central theme of the 2027 social summit"
+      }
+    ]
+  }
+]
