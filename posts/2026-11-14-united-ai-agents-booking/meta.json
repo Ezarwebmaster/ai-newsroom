@@ -11,7 +11,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
-  "image_brief": null
+  "status": "ready",
+  "issues": [
+    "United's newsroom release describes the check-in rule as requiring 'human acknowledgment', whereas AirlineGeeks paraphrases it as confirming 'in person'. The article attributes both accounts.",
+    "AideDex's breakdown of United's contract of carriage and customer help page carries no publication date and notes that the outlet did not test enforcement."
+  ],
+  "image_brief": "Abstract geometric composition on a deep navy background. Translucent amber and cobalt glass planes form a curved corridor where several thin silver pathways approach a solid brass threshold; one continuous line passes smoothly through while fragmented dashed trails deflect outward into soft light."
 }

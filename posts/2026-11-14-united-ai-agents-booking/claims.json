@@ -1,0 +1,501 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "United Airlines bars unauthorized third-party AI agents from booking flights and accessing MileagePlus accounts.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "As a result, United is taking steps to restrict access - directly within our digital platforms and indirectly via travel agencies and aggregators - to prohibit use by unauthorized, third-party personal AI agents or assistants."
+      },
+      {
+        "source": 1,
+        "quote": "expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles."
+      },
+      {
+        "source": 3,
+        "quote": "The Chicago-based carrier updated its contract of carriage on Wednesday, prohibiting the use of AI agents to “make, modify or service a ticket, and/or purchase any service or product.”"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "United updated its booking policies and contract of carriage on November 11, 2026, citing credential risks, MileagePlus miles, and FAA and DOT rules, while Delta and American have not followed suit.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "This work includes updates to our booking, ticketing and distribution policies."
+      },
+      {
+        "source": 1,
+        "quote": "expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles."
+      },
+      {
+        "source": 1,
+        "quote": "flight check-in requires human acknowledgment that bags do not contain banned substances like explosives."
+      },
+      {
+        "source": 2,
+        "quote": "November 11, 2026"
+      },
+      {
+        "source": 3,
+        "quote": "The Chicago-based carrier updated its contract of carriage on Wednesday, prohibiting the use of AI agents to “make, modify or service a ticket, and/or purchase any service or product.”"
+      },
+      {
+        "source": 3,
+        "quote": "Delta and American both indicated to Fast Company that some AI tools have booking privileges on their systems, though they continue to evaluate the landscape."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "United Airlines announced on November 11, 2026, that it is restricting unauthorized third-party personal AI agents from accessing its systems to book flights or manage reservations.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "As a result, United is taking steps to restrict access - directly within our digital platforms and indirectly via travel agencies and aggregators - to prohibit use by unauthorized, third-party personal AI agents or assistants."
+      },
+      {
+        "source": 1,
+        "quote": "This work includes updates to our booking, ticketing and distribution policies."
+      },
+      {
+        "source": 2,
+        "quote": "November 11, 2026"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Updates to United's booking, ticketing and distribution policies and its contract of carriage prohibit using AI agents to \"make, modify or service a ticket, and/or purchase any service or product\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "This work includes updates to our booking, ticketing and distribution policies."
+      },
+      {
+        "source": 3,
+        "quote": "The Chicago-based carrier updated its contract of carriage on Wednesday, prohibiting the use of AI agents to “make, modify or service a ticket, and/or purchase any service or product.”"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "The restrictions apply directly on United's digital platforms and indirectly through travel agencies and aggregators, which AirlineGeeks reports is the first such move by a U.S. airline.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "As a result, United is taking steps to restrict access - directly within our digital platforms and indirectly via travel agencies and aggregators - to prohibit use by unauthorized, third-party personal AI agents or assistants."
+      },
+      {
+        "source": 2,
+        "quote": "In the first such move by a U.S. airline, United will ban third-party AI from parts of its digital platforms and adjust its policies to prevent access via travel agencies and aggregators."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 10,
+    "claim": "AideDex reports that United's contract prohibits agents from buying or changing tickets even if a traveler supervises or approves the action.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The help page is stricter: any tool that searches or collects information on united.com or the app without permission is unauthorized."
+      },
+      {
+        "source": 3,
+        "quote": "The Chicago-based carrier updated its contract of carriage on Wednesday, prohibiting the use of AI agents to “make, modify or service a ticket, and/or purchase any service or product.”"
+      }
+    ],
+    "note": "AideDex's comparison between the contract and help page explains that the contract prohibits making, modifying or servicing tickets regardless of supervision."
+  },
+  {
+    "id": 7,
+    "line": 11,
+    "claim": "AideDex says United's customer help page takes a broader approach to unauthorized tools that search or collect information on United's site or app.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The help page is stricter: any tool that searches or collects information on united.com or the app without permission is unauthorized."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "United said it is restricting unauthorized personal AI agents to protect customer data and accounts.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "As a result, United is taking steps to restrict access - directly within our digital platforms and indirectly via travel agencies and aggregators - to prohibit use by unauthorized, third-party personal AI agents or assistants."
+      },
+      {
+        "source": 1,
+        "quote": "Corporate leaders in the banking and retail industries have taken similar actions regarding AI agents and we encourage others to consider measures that preserve the data and security of their customers and strengthen safety."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 17,
+    "claim": "Sharing credentials with third-party AI assistants exposes sensitive information and may result in unintended purchases, account changes or use of MileagePlus miles.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles."
+      },
+      {
+        "source": 2,
+        "quote": "Sharing account credentials with personal, third-party AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 18,
+    "claim": "AirlineGeeks reports that United warned AI actions could violate FAA and DOT regulations, citing the requirement that passengers confirm in person that their bags contain no banned items such as explosives.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The carrier also said AI actions could violate FAA and Department of Transportation regulations. As an example, it cited the requirement that passengers confirm in person that their bags do not contain banned items, such as explosives."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 20,
+    "claim": "United's release states that flight check-in requires \"human acknowledgment that bags do not contain banned substances like explosives\" and notes updates to its booking, ticketing and distribution policies.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "flight check-in requires human acknowledgment that bags do not contain banned substances like explosives."
+      },
+      {
+        "source": 1,
+        "quote": "This work includes updates to our booking, ticketing and distribution policies."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 22,
+    "claim": "United plans to update its Digital Trust Center to clarify the restrictions, help customers protect accounts, and explain where to get help if an agent takes an unintended action.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We will also update our Digital Trust Center so customers can better understand what these new restrictions mean for them, how to protect their accounts, and where to get help if an agent takes an unintended action."
+      },
+      {
+        "source": 2,
+        "quote": "The airline said it will update its Digital Trust Center to clarify the new restrictions."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 24,
+    "claim": "AideDex reports that United will not cancel agent bookings made before November 11, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Agent bookings made before Nov 11 are not being cancelled"
+      },
+      {
+        "source": 2,
+        "quote": "November 11, 2026"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 25,
+    "claim": "AideDex did not test an agent booking, searching or checking in on a United flight, so practical enforcement remains unobserved in its report.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "We did not ask any agent to book, search or check in on a United flight, so everything about what happens in practice is unobserved."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 30,
+    "claim": "Engadget reports that United has been reluctant to jump into agentic commerce.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The Wall Street Journal reports that United CEO Scott Kirby has been open about the company's reluctance to jump into agentic commerce. \"To be honest, I don't want to create another middleman,\" Kirby said at an event on Tuesday."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 31,
+    "claim": "United CEO Scott Kirby said \"To be honest, I don't want to create another middleman\" at an event on Tuesday, November 10, 2026, as reported by The Wall Street Journal and cited by Engadget.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Nov. 11, 2026"
+      },
+      {
+        "source": 4,
+        "quote": "The Wall Street Journal reports that United CEO Scott Kirby has been open about the company's reluctance to jump into agentic commerce. \"To be honest, I don't want to create another middleman,\" Kirby said at an event on Tuesday."
+      }
+    ],
+    "note": "November 10, 2026 is derived from Engadget's publication date of Wednesday, November 11, 2026, and its reference to Kirby speaking at an event on Tuesday."
+  },
+  {
+    "id": 17,
+    "line": 32,
+    "claim": "United encouraged other companies to consider similar security measures, and Engadget notes that JPMorgan Chase and Amazon also block agents.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Corporate leaders in the banking and retail industries have taken similar actions regarding AI agents and we encourage others to consider measures that preserve the data and security of their customers and strengthen safety."
+      },
+      {
+        "source": 2,
+        "quote": "United said its stance is in line with companies in the banking and retail sectors."
+      },
+      {
+        "source": 4,
+        "quote": "The airline joins a growing number of businesses, including JPMorgan Chase and Amazon, which block agents from using their products to avoid the security and privacy issues associated with them."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 33,
+    "claim": "Fast Company reports that Delta Air Lines and American Airlines still give some AI tools booking privileges while they evaluate the landscape.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Delta and American both indicated to Fast Company that some AI tools have booking privileges on their systems, though they continue to evaluate the landscape."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 34,
+    "claim": "Delta told Fast Company it supports authenticated AI interactions with additional safeguards for sensitive transactions and that passengers remain responsible for overseeing actions and authorizing transactions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "We currently support certain interactions with AI assistants when they can be appropriately authenticated, while maintaining additional safeguards for sensitive transactions,"
+      },
+      {
+        "source": 3,
+        "quote": "even if passengers use AI tools, they’re ultimately responsible for overseeing any actions and authorizing any transactions taken by these assistants on their behalf."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 35,
+    "claim": "Southwest Airlines announced a ChatGPT plugin partnership in October 2026, and representatives for Southwest, JetBlue, Alaska and Frontier did not immediately respond to Fast Company's requests for comment.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Just last month, Southwest Airlines announced a plugin partnership with ChatGPT to “offer a simpler, more direct path from inspiration and discovery to booking options” with the airline."
+      },
+      {
+        "source": 3,
+        "quote": "Representatives for Southwest, JetBlue, Alaska, and Frontier airlines didn’t immediately respond to Fast Company’s requests for comment."
+      }
+    ],
+    "note": "October 2026 is derived from Fast Company's November 11, 2026 publication date and its statement that Southwest announced the partnership 'last month'."
+  },
+  {
+    "id": 21,
+    "line": 39,
+    "claim": "Engadget wrote that \"agentic commerce might not be taking off with regular people\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Luckily for United and other companies blocking AI agents, agentic commerce might not be taking off with regular people."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 40,
+    "claim": "Uber disclosed on its third-quarter earnings call that AI agents accounted for 500 Uber Eats orders and four rides out of 320 million trips and deliveries during the week of Halloween.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "During its recent third-quarter earnings call, Uber shared that it handled 320 million trips and deliveries during the week of Halloween; of those, AI agents were responsible for 500 Uber Eats orders and only four rides."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 41,
+    "claim": "Engadget reported that United sought to avoid incidents such as Meta's Muse leaking a user's address online.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "United would like to avoid association with any agent-based embarrassments, for instance when Meta's Muse leaked a user's address online."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 42,
+    "claim": "On Wednesday, November 11, 2026, United shares fell 1.8% while the S&P 500 Index rose 1.3%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Shares of United fell 1.8% on Wednesday, while the broader S&P 500 Index rose 1.3%."
+      },
+      {
+        "source": 2,
+        "quote": "November 11, 2026"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 47,
+    "claim": "United's release prohibits \"unauthorized, third-party personal AI agents\" without naming any authorized external agent or certification process.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 1,
+        "quote": "As a result, United is taking steps to restrict access - directly within our digital platforms and indirectly via travel agencies and aggregators - to prohibit use by unauthorized, third-party personal AI agents or assistants."
+      }
+    ],
+    "note": "The newsroom release restricts unauthorized agents but names no authorized third-party agent or approval process."
+  },
+  {
+    "id": 26,
+    "line": 48,
+    "claim": "Neither United's release nor the cited reports specify the technical mechanisms used to detect or block AI agents.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 5,
+        "quote": "We did not ask any agent to book, search or check in on a United flight, so everything about what happens in practice is unobserved."
+      }
+    ],
+    "note": "Checked United's release, AirlineGeeks and AideDex; none specifies technical detection or blocking mechanisms."
+  },
+  {
+    "id": 27,
+    "line": 49,
+    "claim": "United says it \"will also update\" its Digital Trust Center without giving a target date.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We will also update our Digital Trust Center so customers can better understand what these new restrictions mean for them, how to protect their accounts, and where to get help if an agent takes an unintended action."
+      }
+    ],
+    "note": "Neither United's release nor AirlineGeeks provides a schedule for the Digital Trust Center update."
+  },
+  {
+    "id": 28,
+    "line": 50,
+    "claim": "American Airlines did not identify which AI tools have booking privileges on its systems, and Southwest, JetBlue, Alaska and Frontier had not responded to Fast Company's questions.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Delta and American both indicated to Fast Company that some AI tools have booking privileges on their systems, though they continue to evaluate the landscape."
+      },
+      {
+        "source": 3,
+        "quote": "Representatives for Southwest, JetBlue, Alaska, and Frontier airlines didn’t immediately respond to Fast Company’s requests for comment."
+      }
+    ],
+    "note": "Fast Company reports American's general confirmation without naming specific tools, and notes the non-response of the other four carriers."
+  },
+  {
+    "id": 29,
+    "line": 54,
+    "claim": "United Airlines updated its contract of carriage and booking policies on November 11, 2026, barring unauthorized third-party AI agents from booking, modifying or servicing tickets.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "As a result, United is taking steps to restrict access - directly within our digital platforms and indirectly via travel agencies and aggregators - to prohibit use by unauthorized, third-party personal AI agents or assistants."
+      },
+      {
+        "source": 1,
+        "quote": "This work includes updates to our booking, ticketing and distribution policies."
+      },
+      {
+        "source": 3,
+        "quote": "The Chicago-based carrier updated its contract of carriage on Wednesday, prohibiting the use of AI agents to “make, modify or service a ticket, and/or purchase any service or product.”"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 55,
+    "claim": "United cited credential-sharing risks to MileagePlus accounts and federal rules requiring human check-in acknowledgment for banned items such as explosives, while honoring bookings made before November 11.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles."
+      },
+      {
+        "source": 1,
+        "quote": "flight check-in requires human acknowledgment that bags do not contain banned substances like explosives."
+      },
+      {
+        "source": 5,
+        "quote": "Agent bookings made before Nov 11 are not being cancelled"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 56,
+    "claim": "CEO Scott Kirby warned against creating \"another middleman\", whereas Delta and American still allow some AI tools to book flights under authentication safeguards.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Delta and American both indicated to Fast Company that some AI tools have booking privileges on their systems, though they continue to evaluate the landscape."
+      },
+      {
+        "source": 3,
+        "quote": "We currently support certain interactions with AI assistants when they can be appropriately authenticated, while maintaining additional safeguards for sensitive transactions,"
+      },
+      {
+        "source": 4,
+        "quote": "The Wall Street Journal reports that United CEO Scott Kirby has been open about the company's reluctance to jump into agentic commerce. \"To be honest, I don't want to create another middleman,\" Kirby said at an event on Tuesday."
+      }
+    ]
+  }
+]

@@ -62,5 +62,69 @@
         "quote": "Corporate leaders in the banking and retail industries have taken similar actions regarding AI agents and we encourage others to consider measures that preserve the data and security of their customers and strengthen safety."
       }
     ]
+  },
+  {
+    "id": 5,
+    "by": "checker",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 3,
+    "old": "dek: \"The carrier updated its terms and contract of carriage on November 11, 2026, citing credential risks, FAA and DOT rules, and fare scraping. Delta and American have not followed suit.\"",
+    "new": "dek: \"The carrier updated its booking policies and contract of carriage on November 11, 2026, citing credential risks, MileagePlus miles, and FAA and DOT rules. Delta and American have not followed suit.\"",
+    "why": "Neither United's release nor Fast Company cites fare scraping; United's release cites booking policy updates, credential risks, MileagePlus miles, and FAA and DOT rules.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "This work includes updates to our booking, ticketing and distribution policies."
+      },
+      {
+        "source": 1,
+        "quote": "expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles."
+      },
+      {
+        "source": 3,
+        "quote": "The Chicago-based carrier updated its contract of carriage on Wednesday, prohibiting the use of AI agents to “make, modify or service a ticket, and/or purchase any service or product.”"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "by": "checker",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 7,
+    "old": "Updates to United's terms and conditions and its contract of carriage prohibit using AI agents to \"make, modify or service a ticket, and/or purchase any service or product\", while banning tools from scraping its sites for real-time fares and availability data.[^1][^3]",
+    "new": "Updates to United's booking, ticketing and distribution policies and its contract of carriage prohibit using AI agents to \"make, modify or service a ticket, and/or purchase any service or product\".[^1][^3]",
+    "why": "The fare-scraping clause relied on a withdrawn quotation not in United's release or Fast Company; United's release specifies updates to booking, ticketing and distribution policies.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "This work includes updates to our booking, ticketing and distribution policies."
+      },
+      {
+        "source": 3,
+        "quote": "The Chicago-based carrier updated its contract of carriage on Wednesday, prohibiting the use of AI agents to “make, modify or service a ticket, and/or purchase any service or product.”"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "by": "checker",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 14,
+    "old": "## MileagePlus logins, scraping and federal flight rules",
+    "new": "## MileagePlus logins, federal flight rules and prior bookings",
+    "why": "Removed the unsupported scraping reference from the heading and aligned it with the section's verified coverage of MileagePlus accounts, federal rules and prior bookings.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles."
+      },
+      {
+        "source": 5,
+        "quote": "Agent bookings made before Nov 11 are not being cancelled"
+      }
+    ]
   }
 ]
