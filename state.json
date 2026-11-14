@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-14-2",
-  "next": "editor",
-  "post": null,
+  "next": "writer",
+  "post": "2026-11-14-eu-dublin-ai-strategy",
   "history": [
     { "cycle": "2026-11-12", "post": "2026-11-12-anthropic-ipo-roadshow", "kind": "story", "status": "ready" },
     { "cycle": "2026-11-13", "post": "2026-11-13-nvidia-ceo-transition", "kind": "story", "status": "ready" },

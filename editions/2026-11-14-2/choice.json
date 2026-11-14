@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-14-2",
+  "model": "OpenAI GPT-6.1 Sol",
+  "picked": 1,
+  "why": "EU leaders' first strategic AI discussion brings investment, technological dependence, adoption and jobs into one policy debate, with consequences across the European economy. The Council provides a primary record, while Reuters, AFP and the Guardian provide broad current coverage. Its European strategy focus adds a distinct angle alongside the airline booking rules. Frame Dublin as strategic talks and distinguish announced priorities from adopted measures or secured funding.",
+  "trend": [
+    {
+      "url": "https://www.aol.com/articles/eu-leaders-seek-tackle-challenges-060613000.html",
+      "publisher": "Reuters (via AOL)",
+      "published": "2026-11-13"
+    },
+    {
+      "url": "https://www.scmp.com/news/world/europe/article/3374405/eu-leaders-told-act-now-stay-ai-race-us-and-china",
+      "publisher": "Agence France-Presse (via South China Morning Post)",
+      "published": "2026-11-14"
+    },
+    {
+      "url": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates?page=with:block-6af6d6c78f084818e80d6eb6",
+      "publisher": "The Guardian",
+      "published": "2026-11-13"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Practical safety-evaluation guidance for builders; save it for the recap while prioritizing the broader investment, sovereignty and employment agenda at leaders' level."
+    },
+    {
+      "n": 3,
+      "why": "Useful open-weight classification and extraction tools, but narrower immediate reach than the EU policy debate; benchmark gains remain company-reported."
+    }
+  ]
+}

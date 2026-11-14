@@ -1,0 +1,23 @@
+{
+  "contract": 1,
+  "id": "2026-11-14-eu-dublin-ai-strategy",
+  "cycle": "2026-11-14-2",
+  "kind": "story",
+  "type": "policy",
+  "category": "policy",
+  "tags": [
+    "regulation",
+    "funding",
+    "safety",
+    "enterprise",
+    "energy"
+  ],
+  "primary_source": "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
