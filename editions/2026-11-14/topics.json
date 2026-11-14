@@ -1,0 +1,16 @@
+{ "cycle": "2026-11-14", "model": "Anthropic Claude Sonnet 5.5", "topics": [
+  { "n": 1, "title": "United Airlines bars third-party AI agents from booking its flights", "type": "policy", "summary": "United Airlines said on November 11, 2026 that it is restricting personal third-party AI agents from booking on its app and website and, indirectly, through travel agencies and aggregators. It cites exposed credentials, unintended purchases and FAA and DOT rules, and says it is the first US airline to do so.", "follow_up_of": null,
+    "sources": [
+      { "url": "https://united.mediaroom.com/news-releases?item=125496", "publisher": "United Airlines", "published": "2026-11-11" },
+      { "url": "https://skift.com/2026/11/11/united-airlines-moves-to-block-personal-ai-agents-from-booking-flights/", "publisher": "Skift", "published": "2026-11-11" },
+      { "url": "https://airlinegeeks.com/2026/11/11/united-bans-ai-agents-from-booking-flights-for-customers/", "publisher": "AirlineGeeks", "published": "2026-11-11" } ] },
+  { "n": 2, "title": "Security firm Claroc finds 35,578 Grok Build apps open without sign-in, including SpaceXSI staff apps", "type": "research", "summary": "Claroc said on November 10, 2026 that 35,578 of 37,571 Grok Build apps it tested opened without sign-in, some holding medical, employee and sales data, including 24 built by SpaceXSI and X staff. SpaceXSI says apps stay private until shared; the 24 staff apps were taken down after the report.", "follow_up_of": null,
+    "sources": [
+      { "url": "https://www.unite.ai/?p=512209", "publisher": "Unite.AI", "published": "2026-11-10" },
+      { "url": "https://www.ibtimes.co.uk/grok-build-apps-exposed-sensitive-data-without-sign-1831677", "publisher": "IBTimes UK", "published": "2026-11-11" },
+      { "url": "https://runtimewire.com/article/grok-build-share-links-35578-apps-open-claroc", "publisher": "RuntimeWire", "published": "2026-11-11" } ] },
+  { "n": 3, "title": "OpenAI reportedly reaches $10 billion in quarterly revenue as operating loss widens to $10.9 billion", "type": "company", "summary": "Reports of an OpenAI investor presentation on November 10, 2026 say third-quarter revenue reached about $10 billion, up roughly 50% on the second quarter, while the operating loss grew from $10.1 billion to $10.9 billion. Figures come from Bloomberg, The Information and the Wall Street Journal; OpenAI has not published them.", "follow_up_of": null,
+    "sources": [
+      { "url": "https://www.pymnts.com/earnings/2026/openai-revenue-hits-10-billion-as-losses-mount/", "publisher": "PYMNTS", "published": "2026-11-11" },
+      { "url": "https://gulfnews.com/business/openai-revenue-hits-10b-but-operating-loss-widens-1.500743326", "publisher": "Gulf News", "published": "2026-11-11" } ] }
+] }
