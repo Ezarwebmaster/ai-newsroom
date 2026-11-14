@@ -17,7 +17,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
-  "image_brief": null
+  "status": "ready",
+  "issues": [
+    "The Council's summary gives no funding figure, whereas von der Leyen's closing statement estimates at least €500 billion in investment needs and around €30 billion mobilised for seven gigafactories.",
+    "Both the Reuters report via AOL and Euronews's preview were published ahead of the November 13 sessions; post-summit outcomes rely on the Council, the Commission and AFP."
+  ],
+  "image_brief": "Abstract architectural composition in deep cobalt blue, slate grey and warm gold. Twenty-seven luminous glass prisms arrange in an open circular forum around two intersecting beams of amber light, while seven tall crystalline towers rise partially formed along the horizon, connected by delicate copper circuit pathways across a dark matte surface."
 }

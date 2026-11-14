@@ -53,6 +53,26 @@
         "text": "President Costa announced that AI and its impact on jobs will be the central theme of the 2027 social summit, which will mark the 10th anniversary of the European Pillar of Social Rights and bring together the EU and social partners.",
         "for": "AI and jobs at the 2027 social summit.",
         "by": "writer"
+      },
+      {
+        "text": "EU leaders met in Dublin for an informal European Council meeting.",
+        "for": "The informal European Council meeting took place in Dublin.",
+        "by": "checker"
+      },
+      {
+        "text": "strengthening European AI capabilities, securing value chains and reducing critical dependencies",
+        "for": "Second subject of the competitiveness session: European AI capabilities and dependencies.",
+        "by": "checker"
+      },
+      {
+        "text": "the protection of fundamental rights, including children's rights",
+        "for": "Discussion of fundamental rights and children's rights in the second session.",
+        "by": "checker"
+      },
+      {
+        "text": "the impact of AI on Europe's social model and labour markets",
+        "for": "Discussion of labour markets and Europe's social model in the second session.",
+        "by": "checker"
       }
     ]
   },
@@ -117,6 +137,11 @@
         "text": "has yet to fully take off due to the fight among EU countries over spending on competitiveness in the bloc's 2028-2034 budget.",
         "for": "Why the gigafactory plan has stalled.",
         "by": "writer"
+      },
+      {
+        "text": "An initiative known as the Chips Act implemented three years ago looks likely to fall short of its goal to attract advanced manufacturing and double the bloc's share of the global chip market to 20% by 2030.",
+        "for": "Complete Reuters sentence on the Chips Act 20% by 2030 target.",
+        "by": "checker"
       }
     ]
   },
@@ -181,6 +206,21 @@
         "text": "we are mobilising around €30 billion for those seven AI gigafactories.",
         "for": "Von der Leyen on the financing being mobilised for the planned gigafactories.",
         "by": "reviser"
+      },
+      {
+        "text": "We have opened them to our researchers and start-ups through our 19 AI factories across Europe, and now we are expanding it to AI Gigafactories.",
+        "for": "Von der Leyen on expanding from 19 existing AI factories across Europe to AI Gigafactories.",
+        "by": "checker"
+      },
+      {
+        "text": "Therefore, we need to complete our Savings and Investment Union, and attract private investment. And of course, our next European budget must also reflect this ambition.",
+        "for": "Von der Leyen calling for private investment and support from the next European budget.",
+        "by": "checker"
+      },
+      {
+        "text": "Today, we saw a shared will to put forward ideas for funding for Tech sovereignty financing. I will follow up with an ambitious proposal.",
+        "for": "Von der Leyen promising a follow-up proposal on tech-sovereignty financing.",
+        "by": "checker"
       }
     ]
   },
@@ -198,6 +238,11 @@
         "text": "in our meeting in Alden Biesen on 5 February 2027.",
         "for": "The announced date and place for leaders to return to AI.",
         "by": "reviser"
+      },
+      {
+        "text": "That is why we want to make AI and its impacts on societies the central theme of our Social Summit in 2027, where we will mark 10 years of the European pillar of social rights, together with our social partners.",
+        "for": "Costa's press conference remarks announcing the 2027 Social Summit theme.",
+        "by": "checker"
       }
     ]
   },

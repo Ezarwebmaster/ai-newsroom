@@ -1,0 +1,543 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "EU leaders held their first strategic AI debate in Dublin and tied catching up in AI to the next EU long-term budget.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "EU leaders met in Dublin for an informal European Council meeting."
+      },
+      {
+        "source": 1,
+        "quote": "For the first time, they held a strategic discussion on artificial intelligence (AI), focusing on two key aspects:"
+      },
+      {
+        "source": 1,
+        "quote": "He also stressed that catching up with global peers in AI will require significant additional funding, and that the next EU long-term budget, in particular the new European Competitiveness Fund, will play a decisive role."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Meeting informally on November 13, 2026, EU leaders heard Mistral's Arthur Mensch and Nobel laureate Geoffrey Hinton, adopted no text, and made AI's impact on jobs the theme of a 2027 social summit.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Joined by Arthur Mensch, CEO of Mistral AI, the leaders discussed Europe's position in the global AI landscape and the strategic choices needed to strengthen Europe's competitiveness and AI sovereignty."
+      },
+      {
+        "source": 1,
+        "quote": "Joined by Nobel Prize laureate Professor Geoffrey Hinton, they discussed:"
+      },
+      {
+        "source": 2,
+        "quote": "With no political statements to adopt at the end, leaders can speak more openly."
+      },
+      {
+        "source": 1,
+        "quote": "President Costa announced that AI and its impact on jobs will be the central theme of the 2027 social summit, which will mark the 10th anniversary of the European Pillar of Social Rights and bring together the EU and social partners."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "European Union leaders held their first strategic discussion on artificial intelligence on November 13, 2026, at an informal European Council meeting in Dublin.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "EU leaders met in Dublin for an informal European Council meeting."
+      },
+      {
+        "source": 1,
+        "quote": "For the first time, they held a strategic discussion on artificial intelligence (AI), focusing on two key aspects:"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "The debate had two parts: how AI can raise European competitiveness, and its \"wider impact on society, security and trust\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "For the first time, they held a strategic discussion on artificial intelligence (AI), focusing on two key aspects:"
+      },
+      {
+        "source": 1,
+        "quote": "its wider impact on society, security and trust"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "Euronews noted beforehand that the informal format leaves \"no political statements to adopt at the end\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "With no political statements to adopt at the end, leaders can speak more openly."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 12,
+    "claim": "Mistral AI CEO Arthur Mensch joined the first session on competitiveness and AI sovereignty.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Joined by Arthur Mensch, CEO of Mistral AI, the leaders discussed Europe's position in the global AI landscape and the strategic choices needed to strengthen Europe's competitiveness and AI sovereignty."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "Mensch told the leaders that \"Europe has all the technology and the talent to lead the AI race\", according to AFP.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Europe has all the technology and the talent to lead the AI race"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 14,
+    "claim": "Mensch said Europe needs \"speed, financing and a strong coordination between member states\" and that decisions over the next two years would shape the industry for the next decade.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "What it needs now is speed, financing and a strong coordination between member states."
+      },
+      {
+        "source": 4,
+        "quote": "He said the decisions taken over the next two years would shape the industry for the next decade."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 16,
+    "claim": "European Parliament President Roberta Metsola rejected the idea that Europe had already lost the AI race, AFP reported.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "Top EU official Roberta Metsola said she was tired of hearing that Europe had \"somehow lost the AI race\"."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 18,
+    "claim": "The Council lists three subjects for the competitiveness session: public and private investment and infrastructure, European capabilities and supply dependencies, and clean, affordable energy.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "mobilising public and private investment at scale and developing the necessary infrastructure"
+      },
+      {
+        "source": 1,
+        "quote": "strengthening European AI capabilities, securing value chains and reducing critical dependencies"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 19,
+    "claim": "European Council President António Costa said catching up in AI \"will require significant additional funding\" and that the next EU long-term budget, through a new European Competitiveness Fund, \"will play a decisive role\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "He also stressed that catching up with global peers in AI will require significant additional funding, and that the next EU long-term budget, in particular the new European Competitiveness Fund, will play a decisive role."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 20,
+    "claim": "The Council's AI summary gives no funding amount or agreed allocation.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 1,
+        "quote": "catching up with global peers in AI will require significant additional funding"
+      }
+    ],
+    "note": "Checked the European Council's meeting summary; it states that significant additional funding is required without specifying any euro figure or agreed budget allocation."
+  },
+  {
+    "id": 13,
+    "line": 22,
+    "claim": "In her November 13, 2026, closing statement, Commission President Ursula von der Leyen estimated that technological sovereignty would require at least €500 billion in investment.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "At least €500 billion according to our own estimates."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 23,
+    "claim": "Von der Leyen called for private capital and support from the next EU budget, and promised a financing proposal, setting out estimated needs rather than an approved spending allocation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Therefore, we need to complete our Savings and Investment Union, and attract private investment. And of course, our next European budget must also reflect this ambition."
+      },
+      {
+        "source": 5,
+        "quote": "Today, we saw a shared will to put forward ideas for funding for Tech sovereignty financing. I will follow up with an ambitious proposal."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 28,
+    "claim": "Reuters wrote before the meeting that the Chips Act looks likely to fall short of its goal of doubling the bloc's share of the global chip market to 20% by 2030.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "An initiative known as the Chips Act implemented three years ago looks likely to fall short of its goal to attract advanced manufacturing and double the bloc's share of the global chip market to 20% by 2030."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 29,
+    "claim": "Reuters reported that a plan for seven AI gigafactories \"has yet to fully take off\" because EU countries are fighting over competitiveness spending in the 2028-2034 budget.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "A plan to build seven artificial intelligence gigafactories to house advanced"
+      },
+      {
+        "source": 3,
+        "quote": "has yet to fully take off due to the fight among EU countries over spending on competitiveness in the bloc's 2028-2034 budget."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 31,
+    "claim": "In her closing statement, von der Leyen said around €30 billion was being mobilised for the seven planned gigafactories.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "we are mobilising around €30 billion for those seven AI gigafactories."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 34,
+    "claim": "Von der Leyen said the planned gigafactories expand on 19 existing European AI factories already open to researchers and start-ups.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "We have opened them to our researchers and start-ups through our 19 AI factories across Europe, and now we are expanding it to AI Gigafactories."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 36,
+    "claim": "Euronews reported that the EU is advancing rules to ensure that public contracts in sensitive use cases go only to European companies.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "To strengthen European players, the EU is advancing rules to ensure that public contracts in sensitive use cases go only to European companies."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 40,
+    "claim": "Nobel laureate Geoffrey Hinton, who has estimated a 10% to 20% risk that AI could cause human extinction, joined the second session.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Joined by Nobel Prize laureate Professor Geoffrey Hinton, they discussed:"
+      },
+      {
+        "source": 2,
+        "quote": "estimating a 10% to 20% risk that AI could cause human extinction by escaping human control"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 41,
+    "claim": "Leaders discussed fundamental rights, including children's rights, the integrity of democratic processes, labour markets, market concentration and cybersecurity.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "the protection of fundamental rights, including children's rights"
+      },
+      {
+        "source": 1,
+        "quote": "the impact of AI on Europe's social model and labour markets"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 42,
+    "claim": "Leaders exchanged views on the need for \"global safeguards that uphold democratic values and fundamental rights\" for advanced AI.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Leaders also exchanged views on international cooperation and governance on the safety of advanced AI, including the need for global safeguards that uphold democratic values and fundamental rights."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 43,
+    "claim": "Costa cited the AI Act, noting that the EU \"is the first region in the world to establish an AI governance framework\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "President Costa highlighted the EU's AI Act, noting that the EU is the first region in the world to establish an AI governance framework and can use its experience to help shape global standards."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 44,
+    "claim": "Estonia and Finland called in a letter ahead of the summit for EU-level arrangements to respond to serious AI incidents, AFP reported.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Estonia and Finland said in a letter this week that Europe needed to “establish EU-level arrangements for responding to serious AI incidents”"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 45,
+    "claim": "EU foreign policy chief Kaja Kallas warned of a \"dark side of AI\", pointing to AI-equipped drones in Ukraine.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "EU foreign policy chief Kaja Kallas warned of a “dark side of AI”."
+      },
+      {
+        "source": 4,
+        "quote": "where you have drones equipped by artificial intelligence to really train to find anybody to kill"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 49,
+    "claim": "Euronews wrote that the question of who should speak for the EU in the Ukraine peace talks \"has taken over\" the summit.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The summit was meant to focus on AI, but the question of who should speak for the EU in the Ukraine talks has taken over."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 51,
+    "claim": "Costa said leaders would return to AI at their meeting in Alden Biesen on February 5, 2027.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "in our meeting in Alden Biesen on 5 February 2027."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 53,
+    "claim": "Costa announced that AI and its impact on jobs will be the central theme of the 2027 social summit, marking the 10th anniversary of the European Pillar of Social Rights.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "President Costa announced that AI and its impact on jobs will be the central theme of the 2027 social summit, which will mark the 10th anniversary of the European Pillar of Social Rights and bring together the EU and social partners."
+      },
+      {
+        "source": 6,
+        "quote": "That is why we want to make AI and its impacts on societies the central theme of our Social Summit in 2027, where we will mark 10 years of the European pillar of social rights, together with our social partners."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 54,
+    "claim": "Euronews reported that Ukraine financing and the EU budget \"will take centre stage\" at a special European Council on November 26 and 27, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Ukraine financing and the EU budget will take centre stage at a special European Council on 26-27 November."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 59,
+    "claim": "Von der Leyen promised \"an ambitious proposal\" on tech-sovereignty financing alongside her €500 billion investment estimate without giving a date or public-to-private budget split.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 5,
+        "quote": "At least €500 billion according to our own estimates."
+      },
+      {
+        "source": 5,
+        "quote": "Today, we saw a shared will to put forward ideas for funding for Tech sovereignty financing. I will follow up with an ambitious proposal."
+      }
+    ],
+    "note": "Checked von der Leyen's closing statement; she estimates €500 billion in investment needs and promises a proposal without specifying a submission date or public-versus-private split."
+  },
+  {
+    "id": 31,
+    "line": 60,
+    "claim": "Neither von der Leyen's closing statement nor Reuters specifies locations, timelines or national budget shares for the seven AI gigafactories.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 5,
+        "quote": "we are mobilising around €30 billion for those seven AI gigafactories."
+      },
+      {
+        "source": 3,
+        "quote": "has yet to fully take off due to the fight among EU countries over spending on competitiveness in the bloc's 2028-2034 budget."
+      }
+    ],
+    "note": "Neither the Commission's closing statement nor the Reuters report names host sites, construction timelines or national funding shares for the seven gigafactories."
+  },
+  {
+    "id": 32,
+    "line": 61,
+    "claim": "The Council's summary of the safety session records no decision on Estonia and Finland's call for EU-level AI incident-response arrangements.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Leaders also exchanged views on international cooperation and governance on the safety of advanced AI, including the need for global safeguards that uphold democratic values and fundamental rights."
+      },
+      {
+        "source": 4,
+        "quote": "Estonia and Finland said in a letter this week that Europe needed to “establish EU-level arrangements for responding to serious AI incidents”"
+      }
+    ],
+    "note": "Checked the Council's meeting summary; it lists cybersecurity and global safeguards but records no decision on an EU incident-response mechanism."
+  },
+  {
+    "id": 33,
+    "line": 62,
+    "claim": "Neither the Council's summary nor Costa's press remarks gives a specific date or host city for the 2027 social summit beyond placing it in 2027.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 1,
+        "quote": "President Costa announced that AI and its impact on jobs will be the central theme of the 2027 social summit, which will mark the 10th anniversary of the European Pillar of Social Rights and bring together the EU and social partners."
+      },
+      {
+        "source": 6,
+        "quote": "That is why we want to make AI and its impacts on societies the central theme of our Social Summit in 2027, where we will mark 10 years of the European pillar of social rights, together with our social partners."
+      }
+    ],
+    "note": "Neither European Council text gives a month, day or host city for the 2027 social summit."
+  },
+  {
+    "id": 34,
+    "line": 66,
+    "claim": "EU leaders held their first strategic AI debate in Dublin on November 13, 2026, with Mistral CEO Arthur Mensch and Nobel laureate Geoffrey Hinton, adopting no formal text.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "EU leaders met in Dublin for an informal European Council meeting."
+      },
+      {
+        "source": 1,
+        "quote": "Joined by Arthur Mensch, CEO of Mistral AI, the leaders discussed Europe's position in the global AI landscape and the strategic choices needed to strengthen Europe's competitiveness and AI sovereignty."
+      },
+      {
+        "source": 1,
+        "quote": "Joined by Nobel Prize laureate Professor Geoffrey Hinton, they discussed:"
+      },
+      {
+        "source": 2,
+        "quote": "With no political statements to adopt at the end, leaders can speak more openly."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 67,
+    "claim": "Commission President Ursula von der Leyen estimated tech sovereignty needs at least €500 billion and said around €30 billion is being mobilised for seven planned AI gigafactories.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "At least €500 billion according to our own estimates."
+      },
+      {
+        "source": 5,
+        "quote": "we are mobilising around €30 billion for those seven AI gigafactories."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "line": 68,
+    "claim": "European Council President António Costa tied AI catch-up funding to the 2028-2034 EU budget and scheduled follow-ups at Alden Biesen on February 5, 2027, and a 2027 social summit.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "He also stressed that catching up with global peers in AI will require significant additional funding, and that the next EU long-term budget, in particular the new European Competitiveness Fund, will play a decisive role."
+      },
+      {
+        "source": 3,
+        "quote": "has yet to fully take off due to the fight among EU countries over spending on competitiveness in the bloc's 2028-2034 budget."
+      },
+      {
+        "source": 6,
+        "quote": "in our meeting in Alden Biesen on 5 February 2027."
+      },
+      {
+        "source": 1,
+        "quote": "President Costa announced that AI and its impact on jobs will be the central theme of the 2027 social summit, which will mark the 10th anniversary of the European Pillar of Social Rights and bring together the EU and social partners."
+      }
+    ]
+  }
+]

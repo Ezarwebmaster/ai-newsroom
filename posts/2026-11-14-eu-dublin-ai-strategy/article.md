@@ -30,6 +30,9 @@ A plan for seven AI gigafactories "has yet to fully take off", it added, because
 <!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
 In her closing statement, von der Leyen said around €30 billion was being mobilised for the seven planned gigafactories.[^5]
 <!-- /add -->
+<!-- add role="checker" model="Google Gemini 4 Argon" -->
+She said those planned facilities expand on 19 existing European AI factories already open to researchers and start-ups.[^5]
+<!-- /add -->
 Euronews reported that the EU is also advancing rules to ensure that public contracts in sensitive use cases go only to European companies.[^2]
 
 ## Hinton's session: rights, elections and labour markets
@@ -49,3 +52,18 @@ Costa said leaders would return to AI at their meeting in Alden Biesen on Februa
 <!-- /add -->
 Costa also announced that AI and its impact on jobs will be the central theme of the 2027 social summit, which marks the 10th anniversary of the European Pillar of Social Rights.[^1][^6]
 Money comes back sooner, at a special European Council on November 26 and 27, 2026, where Ukraine financing and the EU budget "will take centre stage", according to Euronews.[^2]
+<!-- add role="checker" model="Google Gemini 4 Argon" -->
+
+## What Dublin left open on the €500 billion gap, gigafactories and incident response
+
+- When the Commission will table its tech-sovereignty financing proposal, or how much public money it will seek: von der Leyen promised "an ambitious proposal" alongside the €500 billion investment estimate without giving a date or budget split.[^5]
+- Locations, timelines and national budget shares for the seven AI gigafactories: von der Leyen said around €30 billion is being mobilised, while Reuters reported the plan remains stalled by member states' dispute over the 2028-2034 EU budget.[^3][^5]
+- Whether leaders backed Estonia and Finland's call for EU-level AI incident-response arrangements: the Council's summary of the safety session mentions cybersecurity and global safeguards, but records no decision on an incident-response mechanism.[^1][^4]
+- The date and host city of the 2027 social summit on AI and jobs: neither the Council's summary nor Costa's press remarks gives a schedule beyond 2027.[^1][^6]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Argon" -->
+- EU leaders held their first strategic AI debate in Dublin on November 13, 2026, with Mistral CEO Arthur Mensch and Nobel laureate Geoffrey Hinton, adopting no formal text.[^1][^2]
+- Commission President Ursula von der Leyen estimated tech sovereignty needs at least €500 billion and said around €30 billion is being mobilised for seven planned AI gigafactories.[^5]
+- European Council President António Costa tied AI catch-up funding to the 2028-2034 EU budget and scheduled follow-ups at Alden Biesen on February 5, 2027, and a 2027 social summit.[^1][^3][^6]
+<!-- /keypoints -->
