@@ -1,0 +1,42 @@
+{
+  "cycle": "2026-11-14-2",
+  "model": "OpenAI GPT-6 Luna",
+  "topics": [
+    {
+      "n": 1,
+      "title": "EU leaders hold their first strategic discussion on AI",
+      "type": "policy",
+      "summary": "At the EU leaders’ informal meeting in Dublin on November 13, leaders held their first strategic discussion on AI, covering competitiveness and sovereignty, as well as society, security and trust. Mistral CEO Arthur Mensch and AI researcher Geoffrey Hinton joined; the Council says AI and jobs will return at future summits.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/", "publisher": "European Council", "published": "2026-11-13" },
+        { "url": "https://www.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit", "publisher": "Euronews", "published": "2026-11-13" },
+        { "url": "https://www.lemonde.fr/en/international/article/2026/11/14/ai-europeans-face-challenge-of-reaching-consensus-to-stay-competitive-and-improve-regulation_6780458_4.html", "publisher": "Le Monde", "published": "2026-11-14" }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Anthropic publishes guidance for stronger AI safety evaluations",
+      "type": "research",
+      "summary": "Anthropic published recommendations on November 13, 2026 for designing, running and reporting AI safety evaluations. They call for domain and methods expertise, realistic multi-turn tests, preregistration and transparent reporting; the company also said incidents led it to harden evaluation environments and pause many internet-connected tests.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/building-strong-safety-evaluations", "publisher": "Anthropic", "published": "2026-11-13" },
+        { "url": "https://ai.info/news/anthropic-ai-safety-evaluation-recommendations", "publisher": "AI.info", "published": "2026-11-13" },
+        { "url": "https://newruntime.com/posts/building-strong-safety-evaluations-anthropic-d8bdac/", "publisher": "New Runtime", "published": "2026-11-13" }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Perplexity releases two open-weight decision models with a new span-finding feature",
+      "type": "open_source",
+      "summary": "Perplexity released Decider v1.3 and Decider Flash v1.3 on November 12, 2026, open-weight models that return probabilities for classification and scoring. Both add Locate, which extracts matching text spans, and are offered under Apache licensing. The company reports benchmark gains, but those results are self-reported.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider", "publisher": "Perplexity", "published": "2026-11-12" },
+        { "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/", "publisher": "MarkTechPost", "published": "2026-11-13" },
+        { "url": "https://neuralbrew.ai/en/articles/2026/11/perplexity-decider-v1-3-locate-extraction-open-weights/", "publisher": "Neural Brew", "published": "2026-11-14" }
+      ]
+    }
+  ]
+}
