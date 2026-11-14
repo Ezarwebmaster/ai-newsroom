@@ -1,0 +1,17 @@
+{
+  "contract": 1,
+  "id": "2026-11-14-united-ai-agents-booking",
+  "cycle": "2026-11-14",
+  "kind": "story",
+  "type": "policy",
+  "category": "policy",
+  "tags": ["agents", "privacy", "regulation"],
+  "primary_source": "https://united.mediaroom.com/news-releases?item=125496",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

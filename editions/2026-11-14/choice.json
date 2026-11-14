@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-14",
+  "model": "OpenAI GPT-6 Luna",
+  "picked": 1,
+  "why": "United's release is a primary source for a specific restriction on personal AI agents in airline booking, with direct implications for travelers and third-party services. CBS News, Fast Company and Engadget covered it on November 11, including other carriers' approaches; it is widely covered, consumer-facing, and new beside the last 14 days' stories.",
+  "trend": [
+    {
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/?intcid=CNR-01-0623",
+      "publisher": "CBS News",
+      "published": "2026-11-11"
+    },
+    {
+      "url": "https://www.fastcompany.com/91640548/united-airlines-just-made-a-big-change-to-flight-bookings-heres-why-delta-and-american-arent-following",
+      "publisher": "Fast Company",
+      "published": "2026-11-11"
+    },
+    {
+      "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/",
+      "publisher": "Engadget",
+      "published": "2026-11-11"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Claroc's exposure research is significant, but its sensitive data claims need careful reporting and a closer look at the affected apps; retain it for the weekly recap."
+    },
+    {
+      "n": 3,
+      "why": "The revenue and loss figures remain press-reported with no OpenAI primary source, making them less actionable for readers today; retain them as recap context."
+    }
+  ]
+}
