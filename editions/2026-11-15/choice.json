@@ -1,0 +1,15 @@
+{
+  "cycle": "2026-11-15",
+  "model": "Anthropic Claude Sonnet 5.5",
+  "picked": 3,
+  "why": "The Federal Reserve's own report is a primary source, and several outlets covered it on November 14 and 15. It gives checkable figures on AI-related debt and the share of market contacts citing AI as a risk. No story of the last 14 days touches financial stability.",
+  "trend": [
+    { "url": "https://www.nationthailand.com/news/world/40073507", "publisher": "The Nation Thailand", "published": "2026-11-14" },
+    { "url": "https://coinpaper.com/38834/fed-warns-ai-debt-surges-to-680-b-as-data-center-boom-raises-financial-crisis-risks", "publisher": "Coinpaper", "published": "2026-11-14" },
+    { "url": "https://www.chosun.com/english/market-money-en/2026/11/15/A6BYEHSXGRHY3OZFFDPA6G5BIM/", "publisher": "The Chosun Daily", "published": "2026-11-15" }
+  ],
+  "set_aside": [
+    { "n": 1, "why": "Reported mainly by Fortune and two follow-ups; narrower for readers, and OpenAI describes it as a reorganization. It can feed the weekly recap." },
+    { "n": 2, "why": "A procedural ruling letting the Canadian publishers' suit proceed; the merits are untouched. Worth a follow-up when the case moves." }
+  ]
+}

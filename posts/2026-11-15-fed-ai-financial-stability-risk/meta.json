@@ -1,0 +1,4 @@
+{ "contract": 1, "id": "2026-11-15-fed-ai-financial-stability-risk", "cycle": "2026-11-15", "kind": "story",
+  "type": "funding", "category": "industry", "tags": ["funding", "data-centers"],
+  "primary_source": "https://www.federalreserve.gov/publications/financial-stability-report.htm", "follow_up_of": null, "sensitive": false, "unconfirmed": false,
+  "covers": null, "status": "open", "issues": [], "image_brief": null }
