@@ -1,0 +1,41 @@
+{
+  "cycle": "2026-11-15",
+  "model": "Google Gemini 4 Hydrogen",
+  "topics": [
+    {
+      "n": 1,
+      "title": "OpenAI reorganizes stand-alone robotics team into core research and product groups",
+      "type": "company",
+      "summary": "On November 13, 2026, Fortune reported that OpenAI disbanded its stand-alone robotics unit, reassigning staff to Mark Chen's research group and Greg Brockman's applied division. OpenAI clarified that robotics work continues, arguing general-purpose frontier models can increasingly control physical robots directly without isolated robotics-only AI models.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/", "publisher": "Fortune", "published": "2026-11-13" },
+        { "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/", "publisher": "The Decoder", "published": "2026-11-14" },
+        { "url": "https://dealroom.co/news/172712-openai-disbands-robotics-team-bets-general-models-can-run-robots/", "publisher": "Dealroom News", "published": "2026-11-14" }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Ontario Court of Appeal lets Canadian news publishers' copyright lawsuit against OpenAI proceed",
+      "type": "policy",
+      "summary": "On November 13, 2026, the Ontario Court of Appeal dismissed an appeal by OpenAI, allowing a copyright lawsuit by a coalition of Canadian news organizations—including The Canadian Press, Torstar, and CBC/Radio-Canada—to move forward in Ontario courts over the alleged unlicensed use of journalism to train ChatGPT.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/13/court-allows-news-publishers-copyright-lawsuit-against-openai-to-go-ahead/", "publisher": "BNN Bloomberg", "published": "2026-11-13" },
+        { "url": "https://chatnewstoday.ca/2026/11/13/court-allows-news-publishers-copyright-lawsuit-against-openai-to-go-ahead/", "publisher": "CHAT News Today", "published": "2026-11-13" }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Federal Reserve flags AI as top financial stability risk as data center debt tops $680 billion",
+      "type": "funding",
+      "summary": "In its November 13, 2026 Financial Stability Report, the U.S. Federal Reserve said 87% of surveyed market contacts cited AI as a top near-term financial stability risk, up from 50% in May. The report noted advanced computing debt issuance exceeded $680 billion through October 2026, roughly five times 2023 levels.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm", "publisher": "Federal Reserve", "published": "2026-11-13" },
+        { "url": "https://mlq.ai/news/fed-financial-stability-report-finds-ai-is-now-the-top-worry-for-the-financial-system-cited-by-87-of-market-contacts/", "publisher": "MLQ.ai", "published": "2026-11-13" },
+        { "url": "https://casrai.org/news/federal-reserve-financial-stability-report-ai-november-2026", "publisher": "CASRAI", "published": "2026-11-14" }
+      ]
+    }
+  ]
+}
