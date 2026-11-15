@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Anthropic Claude Opus 5.5",
+    "kind": "fact",
+    "line": 6,
+    "old": "Artificial intelligence has overtaken geopolitical tensions and interest rates as the top near-term worry for the U.S. financial system in the Federal Reserve Board's semiannual Financial Stability Report, published on November 13, 2026.[^1][^2][^3]",
+    "new": "Artificial intelligence has overtaken geopolitical risks and an oil shock as the most cited near-term risk among market contacts surveyed for the Federal Reserve Board's semiannual Financial Stability Report, published on November 13, 2026.[^1][^2][^3][^6]",
+    "why": "In the spring 2026 survey geopolitical risks and an oil shock led, not interest rates (which ranked low and rose this fall); the 87% ranking reflects surveyed market contacts, not the Board's own view.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "when geopolitics and an oil shock led the list and AI ranked third"
+      },
+      {
+        "source": 6,
+        "quote": "AI was the top-cited risk"
+      }
+    ]
+  }
+]

@@ -222,5 +222,67 @@
         "by": "writer"
       }
     ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+    "title": "Financial Stability Report, November 2026",
+    "publisher": "Federal Reserve Board",
+    "kind": "primary",
+    "published": "2026-11-13",
+    "retrieved": "2026-11-15",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "AI was the top-cited risk, with responses noting concerns around elevated equity valuations",
+        "for": "AI was the most cited risk in the fall 2026 survey.",
+        "by": "reviser"
+      },
+      {
+        "text": "a larger percentage of respondents mentioned risks from high interest rates than had done so in the spring survey",
+        "for": "More respondents cited high interest rates than in spring.",
+        "by": "reviser"
+      },
+      {
+        "text": "Cyberattack and fiscal debt sustainability risks were viewed as having the most severe potential",
+        "for": "Cyberattack and fiscal risks seen as most severe.",
+        "by": "reviser"
+      },
+      {
+        "text": "Private placements issued under section 4(a)(2) are excluded from this estimate.",
+        "for": "Scope of the issuance estimate.",
+        "by": "reviser"
+      },
+      {
+        "text": "discounted and therefore are not directly comparable with on-balance-sheet debt, which is discounted.",
+        "for": "Undiscounted obligations not comparable with debt.",
+        "by": "reviser"
+      },
+      {
+        "text": "The hyperscaler and GPU firms’ on-balance-sheet debt obligations are held primarily in mutual funds,",
+        "for": "Holders of on-balance-sheet debt.",
+        "by": "reviser"
+      },
+      {
+        "text": "The banking sector remained sound and resilient overall.",
+        "for": "Banking sector assessment.",
+        "by": "reviser"
+      },
+      {
+        "text": "Banks continued to report regulatory capital levels near historically high levels",
+        "for": "Bank capital levels.",
+        "by": "reviser"
+      },
+      {
+        "text": "continued its gradual decline but remained in the upper quartile of its historical range.",
+        "for": "Business debt-to-GDP ratio.",
+        "by": "reviser"
+      },
+      {
+        "text": "Robust debt issuance by large technology companies may drive aggregate business debt higher over time.",
+        "for": "Tech debt issuance and aggregate business debt.",
+        "by": "reviser"
+      }
+    ]
   }
 ]
