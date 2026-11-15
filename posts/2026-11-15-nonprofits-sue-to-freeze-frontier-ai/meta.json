@@ -1,0 +1,23 @@
+{
+  "contract": 1,
+  "id": "2026-11-15-nonprofits-sue-to-freeze-frontier-ai",
+  "cycle": "2026-11-15-2",
+  "kind": "story",
+  "type": "policy",
+  "category": "policy",
+  "tags": [
+    "anthropic",
+    "openai",
+    "google",
+    "meta",
+    "safety"
+  ],
+  "primary_source": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+  "follow_up_of": null,
+  "sensitive": true,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

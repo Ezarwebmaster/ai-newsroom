@@ -1,0 +1,15 @@
+{
+  "cycle": "2026-11-15-2",
+  "model": "Anthropic Claude Opus 5.5",
+  "picked": 1,
+  "why": "A lawsuit asking a California court to freeze frontier model development at five leading labs could, if granted, affect the next models readers build with. Public Citizen's release is the primary source, and CBS News, Common Dreams and Just Security covered it within two days. No story of the last 14 days covers litigation over AI safety. The claims are allegations, so the story is marked sensitive and needs the defendants' replies.",
+  "trend": [
+    { "url": "https://www.cbsnews.com/news/advocacy-groups-sue-ai-companies/", "publisher": "CBS News", "published": "2026-11-12" },
+    { "url": "https://www.commondreams.org/news/freeze-ai-development-lawsuit", "publisher": "Common Dreams", "published": "2026-11-12" },
+    { "url": "https://www.justsecurity.org/164494/nonprofits-lawsuit-freeze-frontier-ai-development/", "publisher": "Just Security", "published": "2026-11-13" }
+  ],
+  "set_aside": [
+    { "n": 2, "why": "A useful open preview from IBM, but a narrow security release with modest coverage; it can feed the weekly recap." },
+    { "n": 3, "why": "Cohere's two acquisitions have undisclosed terms and matter mostly to enterprise buyers; worth a recap mention." }
+  ]
+}
