@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 3.8 Flash",
+    "kind": "fact",
+    "line": 15,
+    "old": "They also want the court to bar AI systems from autonomously directing AI research, a process the complaint refers to as \"recursive self-improvement.\"[^2][^4]",
+    "new": "They also ask the court to bar AI systems from \"autonomously directing AI research\" without human supervision.[^2][^4]",
+    "why": "The cited sources do not use the phrase \"recursive self-improvement\"; source 4 quotes the complaint asking to bar AI systems from autonomously directing AI research.",
+    "support": [
+      {
+        "source": 4,
+        "quote": "autonomously directing AI research"
+      }
+    ]
+  }
+]

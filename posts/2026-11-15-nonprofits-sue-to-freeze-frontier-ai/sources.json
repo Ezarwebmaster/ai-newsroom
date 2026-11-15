@@ -28,6 +28,11 @@
         "text": "AI companies are causing a public nuisance by knowingly developing and deploying AI systems that pose catastrophic risk.",
         "for": "Platkin quote on public nuisance.",
         "by": "writer"
+      },
+      {
+        "text": "Our lawsuit asks the court to apply existing law and find the AI corporations’ reckless practices unlawful and freeze further AI development",
+        "for": "Robert Weissman statement on applying existing law to freeze development.",
+        "by": "reviser"
       }
     ]
   },
@@ -60,6 +65,11 @@
         "text": "In 2025, Anthropic CEO Dario Amodei suggested there was a 25% chance that the development of AI could lead to disastrous outcomes.",
         "for": "2025 Dario Amodei 25% estimate cited in the lawsuit.",
         "by": "writer"
+      },
+      {
+        "text": "AI company leaders, including Altman, Amodei and SpaceX CEO Elon Musk, in October voiced support for an industrywide slowdown in AI development",
+        "for": "Tech leaders voicing support in October 2026 for an industrywide slowdown.",
+        "by": "reviser"
       }
     ]
   },
@@ -119,6 +129,33 @@
         "text": "It also cites the companies’ own warnings about AI-enabled cyberattacks and bioweapons, and asks the court to bar AI systems from autonomously directing AI research.",
         "for": "Request to bar AI systems from autonomously directing AI research.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.commondreams.org/news/freeze-ai-development-lawsuit",
+    "title": "Landmark Lawsuit Aims to Stop Big Tech’s Advanced, Unregulated, and ‘Insane’ AI Systems",
+    "publisher": "Common Dreams",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-15",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Children have already paid the price for Big Tech prioritizing profit over safety",
+        "for": "Heat Initiative CEO Brooke Istook on child safety harms.",
+        "by": "reviser"
+      },
+      {
+        "text": "No other industry is allowed to treat its own development of unsafe products—much less ones that could kill us all—as inevitable. Nor is any industry granted the right to self-regulate the development of such dangerous products.",
+        "for": "Complaint statement calling the development of unsafe catastrophic products illegal.",
+        "by": "reviser"
+      },
+      {
+        "text": "We must freeze frontier AI development until the technology is under control and the American people have a say and a stake in its future, instead of leaving it to a handful of billionaire Big Tech CEOs.",
+        "for": "Phil Aroneanu call to freeze frontier AI development until the public has a say.",
+        "by": "reviser"
       }
     ]
   }
