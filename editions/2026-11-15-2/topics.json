@@ -1,0 +1,42 @@
+{
+  "cycle": "2026-11-15-2",
+  "model": "Google Gemini 4 Argon",
+  "topics": [
+    {
+      "n": 1,
+      "title": "U.S. nonprofits sue five frontier AI developers in San Francisco to freeze next-generation model training",
+      "type": "policy",
+      "summary": "On November 12, 2026, Public Citizen, the Irreplaceable Education Fund, the Heat Initiative, and the Alliance for Secure AI sued Anthropic, Google, Meta, OpenAI, and SpaceXSI in San Francisco Superior Court. Bringing public nuisance and unfair competition claims, the coalition seeks an injunction freezing development of advanced AI models until developers prove the systems remain under human control.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/", "publisher": "Public Citizen", "published": "2026-11-12" },
+        { "url": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development", "publisher": "Al Jazeera", "published": "2026-11-12" },
+        { "url": "https://techweez.com/2026/11/14/nonprofits-sue-openai-google-meta-anthropic-spacex/", "publisher": "Techweez", "published": "2026-11-14" }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "IBM releases Granite 4.1 preview models with LLMON markup to resist indirect prompt injections",
+      "type": "open_source",
+      "summary": "On November 12, 2026, IBM's Granite team released Granite-4.1-3B-LLMON-preview and Granite-4.1-8B-LLMON-preview under an Apache 2.0 license, alongside LLM Object Notation (LLMON). Using reserved delimiter tokens and explicit execution blocks to separate instructions from untrusted data, the preview models cut indirect prompt injection attack success rates to between 0.02% and 5.6% in IBM's evaluations.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite", "publisher": "IBM Granite (Hugging Face)", "published": "2026-11-12" },
+        { "url": "https://www.unite.ai/ibm-releases-granite-models-designed-to-resist-prompt-injection/", "publisher": "Unite.AI", "published": "2026-11-12" },
+        { "url": "https://casrai.org/news/ibm-granite-llmon-preview-models-release-2026", "publisher": "CASRAI", "published": "2026-11-14" }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Cohere acquires cybersecurity startup AISLE and code-review firm cubic for its sovereign AI platform",
+      "type": "company",
+      "summary": "On November 13, 2026, Cohere announced it completed the acquisition of autonomous vulnerability-discovery startup AISLE and acquired AI code-review company cubic. AISLE forms a new Cohere Cyber unit led by co-founder Ondrej Vlcek, while cubic adds secure software development capabilities to Cohere's enterprise sovereign AI platform.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://cohere.com/blog/cohere-expands-its-sovereign-ai-platform-with-aisle-and-cubic", "publisher": "Cohere", "published": "2026-11-13" },
+        { "url": "https://www.unite.ai/cohere-acquires-aisle-and-cubic-to-add-cyber-defense-and-secure-coding/", "publisher": "Unite.AI", "published": "2026-11-13" },
+        { "url": "https://dealroom.co/news/172615-cohere-buys-aisle-and-cubic-to-add-cyber-defense-to-sovereign-ai/", "publisher": "Dealroom News", "published": "2026-11-13" }
+      ]
+    }
+  ]
+}
