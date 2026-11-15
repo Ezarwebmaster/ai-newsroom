@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
+    "title": "The Fed - Financial Stability Report",
+    "publisher": "Federal Reserve",
+    "kind": "primary",
+    "published": "2026-11-13",
+    "retrieved": "2026-11-15",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "November 13, 2026",
+        "for": "Release date of the November 2026 Financial Stability Report on the publication page.",
+        "by": "writer"
+      },
+      {
+        "text": "This report summarizes the Federal Reserve Board’s framework for assessing the resilience of the U.S. financial system and presents the Board’s current assessment.",
+        "for": "Purpose of the Financial Stability Report.",
+        "by": "writer"
+      },
+      {
+        "text": "By publishing this report, the Board intends to promote public understanding and increase transparency and accountability for the Federal Reserve’s views on this topic.",
+        "for": "Goal of promoting public understanding and transparency.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://mlq.ai/news/fed-financial-stability-report-finds-ai-is-now-the-top-worry-for-the-financial-system-cited-by-87-of-market-contacts/",
+    "title": "Fed financial stability report finds AI is now the top worry for the financial system, cited by 87% of market contacts",
+    "publisher": "MLQ.ai",
+    "kind": "press",
+    "published": "2026-11-13",
+    "retrieved": "2026-11-15",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Nov 13, 2026",
+        "for": "Publication date of the MLQ.ai article and the Fed report.",
+        "by": "writer"
+      },
+      {
+        "text": "87% of the 23 market contacts in the Fed's fall survey named AI as a salient risk, up from 50% in spring 2026 and 30% in fall 2025; the next most cited were a risk-asset correction (52%), higher long-term rates (48%), cyberattacks (43%) and fiscal debt sustainability (43%)",
+        "for": "Survey share citing AI (87%, up from 50% and 30%) and the next four cited risks.",
+        "by": "writer"
+      },
+      {
+        "text": "Respondents named three AI concerns: elevated equity valuations that could fall if earnings disappoint, cyberattacks by state actors or damage caused by frontier AI models themselves, and \"complex forms of AI-related financing\"",
+        "for": "The three AI concerns named by survey respondents.",
+        "by": "writer"
+      },
+      {
+        "text": "Fewer respondents cited private credit than in the spring, when geopolitics and an oil shock led the list and AI ranked third",
+        "for": "Spring 2026 survey leaders (geopolitics and oil shock) and AI's third-place ranking.",
+        "by": "writer"
+      },
+      {
+        "text": "Advanced computing-related debt issuance rose to more than $680 billion by October 2026, about five times the $130 billion issued in all of 2023, and its share of nonfinancial investment-grade corporate issuance rose from less than 6% in 2023 to about 31% this year",
+        "for": "Debt issuance over $680 billion vs. $130 billion in 2023, and 31% vs. under 6% investment-grade share.",
+        "by": "writer"
+      },
+      {
+        "text": "For seven companies (Amazon, Alphabet, Broadcom, Meta, Microsoft, Nvidia and Oracle), not-yet-commenced leases exceed $1 trillion and take-or-pay contracts, residual value guarantees and similar commitments exceed $2 trillion, both undiscounted",
+        "for": "The seven companies and their >$1 trillion in uncommenced leases and >$2 trillion in guarantees and commitments.",
+        "by": "writer"
+      },
+      {
+        "text": "Hyperscalers sign long leases that developers use to borrow for construction, and GPU makers guarantee the residual value of chips used as collateral, often alongside equity stakes, which the Fed calls a \"circular financing\" dynamic",
+        "for": "How circular financing works between hyperscalers, developers, and GPU makers.",
+        "by": "writer"
+      },
+      {
+        "text": "Those links could let the largest firms absorb losses in a downturn, but their economic exposure \"may be substantially larger than suggested by their on-balance-sheet liabilities,\" the report said",
+        "for": "Quote on economic exposure exceeding on-balance-sheet liabilities.",
+        "by": "writer"
+      },
+      {
+        "text": "The riskier subordinated debt and equity tranches of these deals sit with high-yield bond funds, life insurers, business development companies and other private debt vehicles",
+        "for": "Holders of subordinated debt and equity tranches.",
+        "by": "writer"
+      },
+      {
+        "text": "the largest US bank holding companies have close to $1 trillion of exposure to big tech, data center developers, related special purpose vehicles, private credit funds and utilities",
+        "for": "Nearly $1 trillion exposure at the largest U.S. bank holding companies.",
+        "by": "writer"
+      },
+      {
+        "text": "The Fed also said the hyperscalers' capital spending, scaled to GDP, may soon pass the pace of the late-1990s telecom buildout",
+        "for": "Comparison of hyperscaler capital spending scaled to GDP with the late-1990s telecom buildout.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://casrai.org/news/federal-reserve-financial-stability-report-ai-november-2026",
+    "title": "Fed report: AI valuations and data center debt — CASRAI",
+    "publisher": "CASRAI",
+    "kind": "press",
+    "published": "2026-11-14",
+    "retrieved": "2026-11-15",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The report generally reflects information available as of October 28, 2026.",
+        "for": "Data cutoff date of October 28, 2026.",
+        "by": "writer"
+      },
+      {
+        "text": "In its overview it states that asset valuation pressures “continued to be elevated” and that measures of equity valuations “have remained high, partly driven by market enthusiasm for super intelligence (SI).”",
+        "for": "Equity valuations driven by enthusiasm for super intelligence (SI).",
+        "by": "writer"
+      },
+      {
+        "text": "It adds that the ratio of equity prices to earnings for S&P 500 companies stayed well above its historical median.",
+        "for": "S&P 500 price-to-earnings ratio well above its historical median.",
+        "by": "writer"
+      },
+      {
+        "text": "A boxed analysis, “Leverage in the Data Center Buildout,” reports that debt issuance to finance advanced computing infrastructure has grown rapidly over the past year, and that the debt is shifting from mostly corporate bonds to a mix of public and private debt, structured credit and project finance",
+        "for": "Box title and shift from corporate bonds to public/private debt, structured credit, and project finance.",
+        "by": "writer"
+      },
+      {
+        "text": "Outstanding public debt related to advanced computing is estimated at more than $1.1 trillion as of October 2026; the report notes that private credit transactions make the full magnitude harder to measure.",
+        "for": "More than $1.1 trillion in outstanding public debt and private credit measurement difficulty.",
+        "by": "writer"
+      },
+      {
+        "text": "The largest U.S. bank holding companies have close to $1 trillion of exposure to large technology firms, data center developers, advanced computing-related special purpose entities and private credit vehicles, and utility companies",
+        "for": "Bank holding company exposures close to $1 trillion.",
+        "by": "writer"
+      },
+      {
+        "text": "the report says these exposures are evaluated in the annual supervisory stress test.",
+        "for": "Evaluation of bank exposures in the annual supervisory stress test.",
+        "by": "writer"
+      },
+      {
+        "text": "It says the complex links among data center firms, public credit markets, private lenders and special purpose vehicles “create vulnerabilities that necessitate close monitoring.”",
+        "for": "Quote that complex links create vulnerabilities that necessitate close monitoring.",
+        "by": "writer"
+      },
+      {
+        "text": "Box 5.1 summarizes a survey run by Federal Reserve Bank of New York staff, with responses from 23 contacts at broker-dealers, banks, investment funds and advisory firms in September and October. The report notes the box does not represent the views of the Board or the New York Fed.",
+        "for": "Survey details (23 contacts across four firm types in September-October) and disclaimer.",
+        "by": "writer"
+      },
+      {
+        "text": "an unexpected downturn in corporate earnings could prompt lower asset valuations, tighter credit conditions and reduced capital expenditure.",
+        "for": "Macroeconomic impact of an unexpected earnings downturn.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.nationthailand.com/news/world/40073507",
+    "title": "AI tops financial stability concerns in latest Fed survey",
+    "publisher": "The Nation Thailand",
+    "kind": "press",
+    "published": "2026-11-14",
+    "retrieved": "2026-11-15",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "NOVEMBER 14, 2026",
+        "for": "Publication date of The Nation Thailand article.",
+        "by": "writer"
+      },
+      {
+        "text": "AI-related risks were identified by 87% of respondents, up from 50% in the survey published in May. The findings appeared in the US central bank’s twice-yearly Financial Stability Report, released on November 13, 2026.",
+        "for": "87% of respondents citing AI, up from 50% in May, in the November 13, 2026 report.",
+        "by": "writer"
+      },
+      {
+        "text": "A broad decline in risky assets was the second most frequently cited concern, mentioned by 52% of respondents. Higher long-term interest rates followed at 48%, while cyberattacks and the sustainability of government debt were each identified by 43%.",
+        "for": "Percentages for the next four most cited concerns (52%, 48%, 43%, 43%).",
+        "by": "writer"
+      },
+      {
+        "text": "High leverage in parts of the financial sector could intensify the impact. Hedge fund leverage, particularly among the largest funds, remained at its highest recorded level since the data series began in 2013.",
+        "for": "Hedge fund leverage at its highest recorded level since 2013.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://coinpaper.com/38834/fed-warns-ai-debt-surges-to-680-b-as-data-center-boom-raises-financial-crisis-risks",
+    "title": "Fed Warns AI Debt Hits $680B as Financial Risks Rise",
+    "publisher": "Coinpaper",
+    "kind": "press",
+    "published": "2026-11-14",
+    "retrieved": "2026-11-15",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "14 November 2026",
+        "for": "Publication date of the Coinpaper article.",
+        "by": "writer"
+      },
+      {
+        "text": "In its November 13 Financial Stability Report, the central bank revealed that borrowing linked to AI infrastructure has increased approximately fivefold from $130 billion issued throughout 2023.",
+        "for": "Fivefold increase in AI infrastructure borrowing from $130 billion in 2023.",
+        "by": "writer"
+      },
+      {
+        "text": "AI-related borrowing accounted for approximately 31% of nonfinancial investment-grade corporate debt issuance in 2026, compared with less than 6% three years earlier.",
+        "for": "31% share of nonfinancial investment-grade corporate debt issuance vs. under 6% in 2023.",
+        "by": "writer"
+      },
+      {
+        "text": "Future data-center leases exceed $1 trillion, while guarantees and contractual commitments surpass $2 trillion in undiscounted value.",
+        "for": "Future data center leases over $1 trillion and guarantees/commitments over $2 trillion.",
+        "by": "writer"
+      }
+    ]
+  }
+]
