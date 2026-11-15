@@ -14,5 +14,21 @@
         "quote": "autonomously directing AI research"
       }
     ]
+  },
+  {
+    "id": 2,
+    "by": "checker",
+    "model": "Anthropic Claude Sonnet 5.5",
+    "kind": "fact",
+    "line": 31,
+    "old": "Tech executives have nonetheless pointed to voluntary safety steps, with Altman, Amodei and SpaceX CEO Elon Musk voicing support in October 2026 for an industrywide slowdown in AI development, according to CBS News.[^2]",
+    "new": "Tech leaders have nonetheless underlined their safety commitments, with Altman, Amodei and SpaceX CEO Elon Musk voicing support in October 2026 for an industrywide slowdown in AI development, according to CBS News.[^2]",
+    "why": "CBS News says tech leaders underlined their safety commitments; it does not describe voluntary safety steps.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "As scrutiny of their tech's safety grows, tech leaders have underlined their safety commitments."
+      }
+    ]
   }
 ]

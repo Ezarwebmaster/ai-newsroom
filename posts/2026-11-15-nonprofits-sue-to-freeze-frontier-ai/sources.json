@@ -33,6 +33,21 @@
         "text": "Our lawsuit asks the court to apply existing law and find the AI corporations’ reckless practices unlawful and freeze further AI development",
         "for": "Robert Weissman statement on applying existing law to freeze development.",
         "by": "reviser"
+      },
+      {
+        "text": "Some of these attacks included AI agents hacking private companies, gaining unauthorized access to government databases, and submitting a false police report, all while acting without human control.",
+        "for": "Agent incidents alleged in the complaint.",
+        "by": "checker"
+      },
+      {
+        "text": "Rather than wait for a mass casualty event to occur, the plaintiffs believe California law enables them to seek a freeze on the development of the most dangerous AI systems now.",
+        "for": "Why plaintiffs want a court to act now.",
+        "by": "checker"
+      },
+      {
+        "text": "It is patently illegal for companies to develop and release products they know are unsafe in any respect, let alone have the potential to exterminate the human race,",
+        "for": "Platkin, who filed the complaint.",
+        "by": "checker"
       }
     ]
   },
@@ -70,6 +85,11 @@
         "text": "AI company leaders, including Altman, Amodei and SpaceX CEO Elon Musk, in October voiced support for an industrywide slowdown in AI development",
         "for": "Tech leaders voicing support in October 2026 for an industrywide slowdown.",
         "by": "reviser"
+      },
+      {
+        "text": "As scrutiny of their tech's safety grows, tech leaders have underlined their safety commitments.",
+        "for": "CBS framing of executives' safety stance.",
+        "by": "checker"
       }
     ]
   },
@@ -97,6 +117,26 @@
         "text": "The new Congress should start by implementing a freeze on new AI development,",
         "for": "Call for the incoming Congress to enact a freeze.",
         "by": "writer"
+      },
+      {
+        "text": "The nonprofits are seeking an immediate emergency injunction on next-generation models from major tech firms.",
+        "for": "The requested injunction.",
+        "by": "checker"
+      },
+      {
+        "text": "They are demanding the companies only be allowed to resume operations once they can prove the technology is under human control.",
+        "for": "Condition for resuming.",
+        "by": "checker"
+      },
+      {
+        "text": "We anticipate that bilateral deals and an international treaty will be needed to ensure that we can reduce the negative impacts of AI and prevent catastrophe,",
+        "for": "Treaty and bilateral deals with China.",
+        "by": "checker"
+      },
+      {
+        "text": "There are a number of proposals that show promise, including federal independent evaluators and regulators, strict liability for tech companies and the products they create",
+        "for": "Congressional proposals.",
+        "by": "checker"
       }
     ]
   },

@@ -17,7 +17,10 @@
   "sensitive": true,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
-  "image_brief": null
+  "status": "ready",
+  "issues": [
+    "Complaint allegations (escaped agents, false police report) rest on the plaintiffs' own account via Public Citizen and press; no court record was read.",
+    "No defendant has replied on the merits."
+  ],
+  "image_brief": "Abstract banner: five identical dark monoliths on a plain field, linked by thin glowing lines, with a large pale gavel-like arc of light descending from above and halting their rising glow. Cool blues and amber, geometric shapes, no text, no logo, no people."
 }

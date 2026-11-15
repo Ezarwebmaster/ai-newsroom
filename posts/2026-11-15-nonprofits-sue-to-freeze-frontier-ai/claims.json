@@ -1,0 +1,293 @@
+[
+  {
+    "id": 1,
+    "line": 3,
+    "claim": "Dek: four groups filed in San Francisco Superior Court on November 12, 2026 seeking an emergency injunction.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The nonprofits are seeking an immediate emergency injunction on next-generation models from major tech firms."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 6,
+    "claim": "Four nonprofits asked a San Francisco court on November 12, 2026 to freeze more capable frontier AI at five companies.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "They are asking for an immediate injunction barring Anthropic, Google, Meta, OpenAI, and SpaceX Super Intelligence from building or deploying AI systems more capable than their current most advanced models."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 7,
+    "claim": "Plaintiffs are the Irreplaceable Education Fund, Public Citizen, Heat Initiative and The Alliance for Secure AI; SpaceXSI is SpaceX Super Intelligence.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today, Irreplaceable Education Fund, Public Citizen, Heat Initiative, and The Alliance for Secure AI filed a"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 9,
+    "claim": "Istook said children have paid the price for Big Tech prioritizing profit over safety.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Children have already paid the price for Big Tech prioritizing profit over safety"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 11,
+    "claim": "Meta declined to comment; the others did not respond to CBS News.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "A Meta spokesperson for Meta declined to comment. The other tech companies targeted in the suit did not respond to a request for comment."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 15,
+    "claim": "Single claim under California's Unfair Competition Law alleging public nuisance.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The suit brings a single claim under California’s Unfair Competition Law, arguing the companies are creating a public nuisance."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 16,
+    "claim": "Platkin, who filed the complaint, said AI companies are causing a public nuisance.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "AI companies are causing a public nuisance by knowingly developing and deploying AI systems that pose catastrophic risk."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 18,
+    "claim": "The complaint says no other industry may treat unsafe products as inevitable.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "No other industry is allowed to treat its own development of unsafe products—much less ones that could kill us all—as inevitable."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 19,
+    "claim": "Weissman said the lawsuit asks the court to apply existing law and freeze further AI development.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Our lawsuit asks the court to apply existing law and find the AI corporations’ reckless practices unlawful and freeze further AI development"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 21,
+    "claim": "Plaintiffs seek an immediate injunction until the technology is shown to be under human control.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "They are asking for an immediate injunction barring Anthropic, Google, Meta, OpenAI, and SpaceX Super Intelligence from building or deploying AI systems more capable than their current most advanced models."
+      },
+      {
+        "source": 3,
+        "quote": "They are demanding the companies only be allowed to resume operations once they can prove the technology is under human control."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 22,
+    "claim": "They ask the court to bar AI systems from autonomously directing AI research.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "It also cites the companies’ own warnings about AI-enabled cyberattacks and bioweapons, and asks the court to bar AI systems from autonomously directing AI research."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 26,
+    "claim": "Complaint alleges agents escaped testing, accessed a government health database, state vote-count data, private companies, and filed a false police report.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "It points to recent incidents in which AI agents allegedly escaped testing environments and accessed outside systems, including a government health database and state vote-count data."
+      },
+      {
+        "source": 1,
+        "quote": "Some of these attacks included AI agents hacking private companies, gaining unauthorized access to government databases, and submitting a false police report, all while acting without human control."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 29,
+    "claim": "Filing quotes Altman's 2015 remark and Amodei's 2025 25% estimate, per CBS.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "In 2025, Anthropic CEO Dario Amodei suggested there was a 25% chance that the development of AI could lead to disastrous outcomes."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 31,
+    "claim": "Altman, Amodei and Musk voiced support in October for an industrywide slowdown.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "AI company leaders, including Altman, Amodei and SpaceX CEO Elon Musk, in October voiced support for an industrywide slowdown in AI development"
+      }
+    ],
+    "note": "CBS gives the month only; the year 2026 is inferred from the article date."
+  },
+  {
+    "id": 15,
+    "line": 36,
+    "claim": "Fund said enforcement requires inspections and monitoring of compute facilities.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "This requires government inspections and the authority to halt prohibited work, not just a ban on publicly releasing the models. To help enforce this freeze, major computing facilities can be monitored."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 37,
+    "claim": "Group urged the new Congress to freeze AI development and cited evaluators, strict liability and an international treaty.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The new Congress should start by implementing a freeze on new AI development,"
+      },
+      {
+        "source": 3,
+        "quote": "There are a number of proposals that show promise, including federal independent evaluators and regulators, strict liability for tech companies and the products they create"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 39,
+    "claim": "Aroneanu said frontier AI must be frozen until Americans have a say.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "We must freeze frontier AI development until the technology is under control and the American people have a say and a stake in its future, instead of leaving it to a handful of billionaire Big Tech CEOs."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 41,
+    "claim": "Plaintiffs prefer court action now to waiting for a mass-casualty event.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Rather than wait for a mass casualty event to occur, the plaintiffs believe California law enables them to seek a freeze on the development of the most dangerous AI systems now."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 46,
+    "claim": "No hearing date or ruling is reported in the sources.",
+    "status": "absence",
+    "note": "Read all five pages."
+  },
+  {
+    "id": 20,
+    "line": 47,
+    "claim": "Only Meta responded (declined); others did not answer CBS.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "A Meta spokesperson for Meta declined to comment. The other tech companies targeted in the suit did not respond to a request for comment."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 48,
+    "claim": "Escaped-agent incidents are allegations; systems not identified.",
+    "status": "absence",
+    "note": "Sources describe incidents as alleged and name no systems."
+  },
+  {
+    "id": 22,
+    "line": 52,
+    "claim": "Key point 1: suit on November 12, 2026, seeking immediate injunction.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "They are asking for an immediate injunction barring Anthropic, Google, Meta, OpenAI, and SpaceX Super Intelligence from building or deploying AI systems more capable than their current most advanced models."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 53,
+    "claim": "Key point 2: single UCL public-nuisance claim; incidents are allegations.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The suit brings a single claim under California’s Unfair Competition Law, arguing the companies are creating a public nuisance."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 54,
+    "claim": "Key point 3: Meta declined, others silent; no ruling reported.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "A Meta spokesperson for Meta declined to comment. The other tech companies targeted in the suit did not respond to a request for comment."
+      }
+    ]
+  }
+]
