@@ -1,4 +1,22 @@
-{ "contract": 1, "id": "2026-11-15-fed-ai-financial-stability-risk", "cycle": "2026-11-15", "kind": "story",
-  "type": "funding", "category": "industry", "tags": ["funding", "data-centers"],
-  "primary_source": "https://www.federalreserve.gov/publications/financial-stability-report.htm", "follow_up_of": null, "sensitive": false, "unconfirmed": false,
-  "covers": null, "status": "open", "issues": [], "image_brief": null }
+{
+  "contract": 1,
+  "id": "2026-11-15-fed-ai-financial-stability-risk",
+  "cycle": "2026-11-15",
+  "kind": "story",
+  "type": "funding",
+  "category": "industry",
+  "tags": [
+    "funding",
+    "data-centers"
+  ],
+  "primary_source": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "not_ready",
+  "issues": [
+    "MLQ.ai returned HTTP 403 during the checker review; its existing captured quotations require verification before publication."
+  ],
+  "image_brief": "Abstract layers of translucent financial pathways linking geometric data structures, with contrasting pools of light and shadow suggesting concentrated obligations and uncertainty. No text, logos, people, or photorealistic imagery."
+}

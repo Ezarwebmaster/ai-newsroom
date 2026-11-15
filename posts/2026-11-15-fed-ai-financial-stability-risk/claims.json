@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "AI led the risk survey and issuance exceeded $680 billion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "AI was the top-cited risk"
+      },
+      {
+        "source": 3,
+        "quote": "Advanced computing-related debt issuance rose to more than $680 billion"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Survey share and commitments exceed the stated amounts.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "AI-related risks were identified by 87% of respondents"
+      },
+      {
+        "source": 3,
+        "quote": "Not-yet-commenced leases have undiscounted values above $1 trillion"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "AI led survey after geopolitical risks and oil shock led in spring.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "AI was the top-cited risk"
+      },
+      {
+        "source": 4,
+        "quote": "released on November 13, 2026"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "The survey had 23 contacts; AI was named by 87%, compared with 50% and 30% in earlier surveys.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "responses from 23 contacts"
+      },
+      {
+        "source": 4,
+        "quote": "87% of respondents, up from 50%"
+      },
+      {
+        "source": 7,
+        "quote": "30 percent of contacts surveyed cited a turn in the prevailing sentiment toward AI"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "Issuance exceeded $680 billion, approximately five times 2023.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Advanced computing-related debt issuance rose to more than $680 billion by October 2026, about a fivefold increase from $130 billion in all of 2023."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 12,
+    "claim": "The report cutoff, framework and survey disclaimer.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The report generally reflects information available as of October 28, 2026."
+      },
+      {
+        "source": 1,
+        "quote": "This report summarizes the Federal Reserve Board’s framework"
+      },
+      {
+        "source": 3,
+        "quote": "the box does not represent the views of the Board or the New York Fed"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "Three AI risk themes.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Respondents named three areas of concern"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 14,
+    "claim": "Risk shares and change in private credit mentions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "A broad decline in risky assets was the second most frequently cited concern"
+      },
+      {
+        "source": 6,
+        "quote": "while fewer participants cited risks related to private credit"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 16,
+    "claim": "More respondents mentioned high interest rate risks than in spring.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "a larger percentage of respondents mentioned risks from high interest rates than had done so in the spring survey"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 17,
+    "claim": "Cyberattack and fiscal risks had the most severe potential consequences.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Cyberattack and fiscal debt sustainability risks were viewed as having the most severe potential"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 22,
+    "claim": "Advanced computing issuance rose to about 31% versus under 6%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "AI-related borrowing accounted for approximately 31% of nonfinancial investment-grade corporate debt issuance in 2026, compared with less than 6% three years earlier."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 23,
+    "claim": "More than $1.1 trillion outstanding and private credit makes it harder to measure.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Outstanding public debt related to advanced computing is estimated at more than $1.1 trillion as of October 2026"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 25,
+    "claim": "Most debt was issued by investment-grade tech companies and some private placements are excluded.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Investment-grade technology companies issued most of this debt"
+      },
+      {
+        "source": 6,
+        "quote": "Private placements issued under section 4(a)(2) are excluded from this estimate."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 27,
+    "claim": "Seven firms had more than $1 trillion in leases and over $2 trillion in other obligations.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "This analysis includes Amazon, Alphabet, Broadcom, Meta Platforms, Microsoft, Nvidia, and Oracle."
+      },
+      {
+        "source": 3,
+        "quote": "Not-yet-commenced leases have undiscounted values above $1 trillion"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 29,
+    "claim": "Undiscounted commitments are not comparable to discounted debt.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "discounted and therefore are not directly comparable with on-balance-sheet debt, which is discounted."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 34,
+    "claim": "Circular financing links long leases, chip guarantees and equity.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Major technology companies use long-term contracts, leases and guarantees to help smaller third-party developers secure funding for infrastructure projects."
+      },
+      {
+        "source": 3,
+        "quote": "The report describes a “circular financing” dynamic in which hyperscalers and GPU makers supplement debt financings with equity investments in smaller firms."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 35,
+    "claim": "Large firms can absorb losses but exposures and interconnections create risks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "create vulnerabilities that necessitate close monitoring"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 36,
+    "claim": "Riskier tranches and nearly $1 trillion in broad bank exposures.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "The riskier subordinated debt and equity tranches from these financings are held by high-yield bond funds"
+      },
+      {
+        "source": 3,
+        "quote": "The largest U.S. bank holding companies have close to $1 trillion of exposure"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 38,
+    "claim": "On-balance-sheet debt holders.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "The hyperscaler and GPU firms’ on-balance-sheet debt obligations are held primarily in mutual funds"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 39,
+    "claim": "Banking sector soundness and regulatory capital.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "The banking sector remained sound and resilient overall."
+      },
+      {
+        "source": 6,
+        "quote": "Banks continued to report regulatory capital levels near historically high levels"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 41,
+    "claim": "The telecom comparison, valuations, leverage and potential downturn consequences.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "the ratio of equity prices to earnings for S&P 500 companies stayed well above its historical median"
+      },
+      {
+        "source": 4,
+        "quote": "Hedge fund leverage, particularly among the largest funds"
+      },
+      {
+        "source": 3,
+        "quote": "an unexpected downturn in corporate earnings could prompt lower asset valuations"
+      },
+      {
+        "source": 4,
+        "quote": "The Fed drew comparisons with the broadband telecommunications investment boom of the late 1990s"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 43,
+    "claim": "Business debt to GDP fell but remained in the upper historical quartile.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "continued its gradual decline but remained in the upper quartile of its historical range."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 44,
+    "claim": "Technology company issuance may drive aggregate business debt higher.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Robust debt issuance by large technology companies may drive aggregate business debt higher over time."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 50,
+    "claim": "The full debt amount is difficult to measure.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "private credit transactions make the full magnitude harder to measure"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 51,
+    "claim": "The Fed does not isolate data-center losses.",
+    "status": "absence",
+    "note": "Reviewed the complete data-center leverage box; it gives broad exposures, not a separate data-center loss estimate."
+  },
+  {
+    "id": 26,
+    "line": 52,
+    "claim": "A downturn and its reach are not known.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 3,
+        "quote": "an unexpected downturn in corporate earnings could prompt lower asset valuations"
+      }
+    ],
+    "note": "The Fed describes a conditional outcome, not a prediction of a downturn."
+  },
+  {
+    "id": 27,
+    "line": 56,
+    "claim": "23 contacts, 87% and survey views do not represent the Board.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "responses from 23 contacts"
+      },
+      {
+        "source": 4,
+        "quote": "87% of respondents"
+      },
+      {
+        "source": 3,
+        "quote": "the box does not represent the views of the Board or the New York Fed"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 57,
+    "claim": "Debt issuance and comparison with 2023.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Advanced computing-related debt issuance rose to more than $680 billion by October 2026, about a fivefold increase from $130 billion in all of 2023."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 58,
+    "claim": "Lease and other commitments exceed $1 trillion and $2 trillion respectively and are undiscounted.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Not-yet-commenced leases have undiscounted values above $1 trillion"
+      },
+      {
+        "source": 6,
+        "quote": "discounted and therefore are not directly comparable with on-balance-sheet debt, which is discounted."
+      }
+    ]
+  }
+]

@@ -1,10 +1,10 @@
 ---
-title: "Federal Reserve flags AI as top financial stability risk as advanced computing debt passes $680 billion"
+title: "AI tops risk survey in Fed report as advanced computing debt issuance passes $680 billion"
 dek: "In its November 13, 2026 Financial Stability Report, the U.S. central bank said 87% of surveyed market contacts cited AI as a salient risk and estimated off-balance-sheet data center leases and commitments above $3 trillion."
 ---
 
 Artificial intelligence has overtaken geopolitical risks and an oil shock as the most cited near-term risk among market contacts surveyed for the Federal Reserve Board's semiannual Financial Stability Report, published on November 13, 2026.[^1][^2][^3][^6]
-In a September and October 2026 survey by Federal Reserve Bank of New York staff of 23 market contacts at banks, broker-dealers, investment funds, and advisory firms, 87% named AI as a salient risk, up from 50% in May 2026 and 30% in fall 2025.[^2][^3][^4]
+In a September and October 2026 survey by Federal Reserve Bank of New York staff of 23 market contacts at banks, broker-dealers, investment funds, and advisory firms, 87% named AI as a salient risk, up from 50% in May 2026 and 30% in fall 2025.[^2][^3][^4][^7]
 Alongside the survey, the central bank reported that debt issuance tied to advanced computing infrastructure exceeded $680 billion through October 2026, roughly five times the $130 billion issued in all of 2023.[^2][^3][^5]
 
 ## Three AI worries and the New York Fed survey
@@ -33,7 +33,7 @@ Those lease and guarantee figures are undiscounted, and the report cautions that
 
 The report described a "circular financing" dynamic in which hyperscalers sign long leases that third-party developers use to borrow for construction, while graphics chip makers guarantee the residual value of chips used as collateral alongside equity stakes.[^2][^3][^4]
 While those links could let large tech firms absorb downturn losses, the Fed warned their economic exposure "may be substantially larger than suggested by their on-balance-sheet liabilities" and that the interlinkages "create vulnerabilities that necessitate close monitoring".[^2][^3][^4]
-High-yield bond funds, life insurers, business development companies, and private debt vehicles hold the riskier subordinated tranches of data center special purpose entities, while the largest U.S. bank holding companies hold close to $1 trillion in exposure evaluated in the annual supervisory stress test.[^2][^3]
+High-yield bond funds, life insurers, business development companies, and private debt vehicles hold the riskier subordinated tranches of data center special purpose entities, while the largest U.S. bank holding companies hold close to $1 trillion in exposure to technology firms, developers, related vehicles and utilities, evaluated in the annual supervisory stress test.[^2][^3]
 <!-- add role="reviser" model="Anthropic Claude Opus 5.5" -->
 The hyperscalers' and GPU makers' on-balance-sheet debt, by contrast, is held primarily by mutual funds, pension funds and insurance companies, according to the report.[^6]
 The Board still described the banking sector as "sound and resilient overall", with banks reporting regulatory capital near historically high levels.[^6]
@@ -43,3 +43,17 @@ Noting that hyperscaler capital spending scaled to gross domestic product may so
 Outside the data center box, the Board's overview said the ratio of business debt to gross domestic product continued a gradual decline but stayed in the upper quartile of its historical range.[^6]
 It added: "Robust debt issuance by large technology companies may drive aggregate business debt higher over time."[^6]
 <!-- /add -->
+
+<!-- add role="checker" model="OpenAI GPT-6.1 Terra" -->
+## What the financing figures leave unresolved
+
+- The full amount of advanced computing debt remains uncertain because private credit transactions are harder to measure.[^3][^6]
+- The reported bank exposure spans technology firms, developers, financing vehicles and utilities; the report does not isolate losses attributable to data centers.[^3][^6]
+- Whether an earnings downturn will occur, or how far its effects would spread, remains unknown; the Fed describes a possible scenario, not a forecast.[^3][^6]
+<!-- /add -->
+
+<!-- keypoints model="OpenAI GPT-6.1 Terra" -->
+- AI was the most cited risk among the Fed survey’s 23 market contacts, with 87% naming it; the survey does not represent the Board’s views.[^3][^4]
+- Advanced computing debt issuance exceeded $680 billion through October 2026, roughly five times the amount issued in 2023.[^5][^6]
+- Seven firms’ undiscounted leases yet to begin exceed $1 trillion; other commitments exceed $2 trillion and are not directly comparable with discounted debt.[^3][^5][^6]
+<!-- /keypoints -->

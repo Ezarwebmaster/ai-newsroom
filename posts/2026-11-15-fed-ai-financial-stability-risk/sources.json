@@ -154,6 +154,26 @@
         "text": "an unexpected downturn in corporate earnings could prompt lower asset valuations, tighter credit conditions and reduced capital expenditure.",
         "for": "Macroeconomic impact of an unexpected earnings downturn.",
         "by": "writer"
+      },
+      {
+        "text": "Advanced computing-related debt issuance rose to more than $680 billion by October 2026, about a fivefold increase from $130 billion in all of 2023.",
+        "for": "Debt issuance and historical comparison.",
+        "by": "checker"
+      },
+      {
+        "text": "Not-yet-commenced leases have undiscounted values above $1 trillion, and take-or-pay contracts and residual value guarantees above $2 trillion.",
+        "for": "Off-balance-sheet obligations.",
+        "by": "checker"
+      },
+      {
+        "text": "Respondents named three areas of concern: elevated equity valuations and the possibility of a market correction if earnings disappoint; cybersecurity risk, from sophisticated attackers or from damage caused by frontier AI models themselves; and complex forms of AI-related financing.",
+        "for": "Three concerns.",
+        "by": "checker"
+      },
+      {
+        "text": "The report describes a “circular financing” dynamic in which hyperscalers and GPU makers supplement debt financings with equity investments in smaller firms.",
+        "for": "Circular financing and equity investments.",
+        "by": "checker"
       }
     ]
   },
@@ -187,6 +207,16 @@
         "text": "High leverage in parts of the financial sector could intensify the impact. Hedge fund leverage, particularly among the largest funds, remained at its highest recorded level since the data series began in 2013.",
         "for": "Hedge fund leverage at its highest recorded level since 2013.",
         "by": "writer"
+      },
+      {
+        "text": "Major technology companies use long-term contracts, leases and guarantees to help smaller third-party developers secure funding for infrastructure projects.",
+        "for": "How developers obtain financing.",
+        "by": "checker"
+      },
+      {
+        "text": "The Fed drew comparisons with the broadband telecommunications investment boom of the late 1990s, while noting that the pace of the current investment cycle could soon surpass that earlier period.",
+        "for": "Comparison with telecom investment.",
+        "by": "checker"
       }
     ]
   },
@@ -282,6 +312,43 @@
         "text": "Robust debt issuance by large technology companies may drive aggregate business debt higher over time.",
         "for": "Tech debt issuance and aggregate business debt.",
         "by": "reviser"
+      },
+      {
+        "text": "This analysis includes Amazon, Alphabet, Broadcom, Meta Platforms, Microsoft, Nvidia, and Oracle.",
+        "for": "Companies in the Fed assessment.",
+        "by": "checker"
+      },
+      {
+        "text": "while fewer participants cited risks related to private credit.",
+        "for": "Private credit mentions.",
+        "by": "checker"
+      },
+      {
+        "text": "The riskier subordinated debt and equity tranches from these financings are held by high-yield bond funds, life insurance companies, BDCs, and other private debt vehicles.",
+        "for": "Holders of riskier tranches.",
+        "by": "checker"
+      },
+      {
+        "text": "Investment-grade technology companies issued most of this debt",
+        "for": "Most of the issuance.",
+        "by": "checker"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20251121a.htm?trk=article-ssr-frontend-pulse_little-text-block",
+    "title": "AI, the Economy, and Financial Stability",
+    "publisher": "Federal Reserve Board",
+    "kind": "primary",
+    "published": "2025-11-21",
+    "retrieved": "2026-11-15",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "text": "30 percent of contacts surveyed cited a turn in the prevailing sentiment toward AI as a salient risk to the U.S. financial system and the global economy.",
+        "for": "Fall 2025 survey AI sentiment risk.",
+        "by": "checker"
       }
     ]
   }

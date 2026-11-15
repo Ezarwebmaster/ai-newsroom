@@ -18,5 +18,53 @@
         "quote": "AI was the top-cited risk"
       }
     ]
+  },
+  {
+    "id": 2,
+    "by": "checker",
+    "model": "OpenAI GPT-6.1 Terra",
+    "kind": "fact",
+    "line": 2,
+    "old": "title: \"Federal Reserve flags AI as top financial stability risk as advanced computing debt passes $680 billion\"",
+    "new": "title: \"AI tops risk survey in Fed report as advanced computing debt issuance passes $680 billion\"",
+    "why": "The ranking is that of market contacts, not the Federal Reserve Board itself.",
+    "support": [
+      {
+        "source": 6,
+        "quote": "AI was the top-cited risk"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "by": "checker",
+    "model": "OpenAI GPT-6.1 Terra",
+    "kind": "fact",
+    "line": 7,
+    "old": "In a September and October 2026 survey by Federal Reserve Bank of New York staff of 23 market contacts at banks, broker-dealers, investment funds, and advisory firms, 87% named AI as a salient risk, up from 50% in May 2026 and 30% in fall 2025.[^2][^3][^4]",
+    "new": "In a September and October 2026 survey by Federal Reserve Bank of New York staff of 23 market contacts at banks, broker-dealers, investment funds, and advisory firms, 87% named AI as a salient risk, up from 50% in May 2026 and 30% in fall 2025.[^2][^3][^4][^7]",
+    "why": "Adds the Federal Reserve’s own account of the fall 2025 survey after the original source could not be reached.",
+    "support": [
+      {
+        "source": 7,
+        "quote": "30 percent of contacts surveyed cited a turn in the prevailing sentiment toward AI as a salient risk"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "by": "checker",
+    "model": "OpenAI GPT-6.1 Terra",
+    "kind": "fact",
+    "line": 36,
+    "old": "High-yield bond funds, life insurers, business development companies, and private debt vehicles hold the riskier subordinated tranches of data center special purpose entities, while the largest U.S. bank holding companies hold close to $1 trillion in exposure evaluated in the annual supervisory stress test.[^2][^3]",
+    "new": "High-yield bond funds, life insurers, business development companies, and private debt vehicles hold the riskier subordinated tranches of data center special purpose entities, while the largest U.S. bank holding companies hold close to $1 trillion in exposure to technology firms, developers, related vehicles and utilities, evaluated in the annual supervisory stress test.[^2][^3]",
+    "why": "The bank exposure covers broader counterparties, including utilities, not just data center financing.",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The largest U.S. bank holding companies have close to $1 trillion of exposure to large technology firms, data center developers, advanced computing-related special purpose entities and private credit vehicles, and utility companies"
+      }
+    ]
   }
 ]
