@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.anthropic.com/news/roadshow-launch",
+    "title": "Anthropic Launches Roadshow for Proposed Initial Public Offering",
+    "publisher": "Anthropic",
+    "kind": "primary",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+        "for": "Roadshow launch date and class of shares.",
+        "by": "recap"
+      },
+      {
+        "text": "The initial public offering price is expected to be between $70.00 and $78.00 per share.",
+        "for": "Target share price range.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-leadership-transition",
+    "title": "NVIDIA Announces Leadership Transition",
+    "publisher": "NVIDIA Newsroom",
+    "kind": "primary",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+        "for": "Resignation of Jensen Huang.",
+        "by": "recap"
+      },
+      {
+        "text": "Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer.",
+        "for": "Appointment of Colette Kress as interim CEO.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "title": "Introducing Gemini 4 Hydrogen",
+    "publisher": "Google",
+    "kind": "primary",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session.",
+        "for": "Multi-model dynamic orchestration with Hydrogen.",
+        "by": "recap"
+      },
+      {
+        "text": "while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%)",
+        "for": "Coding benchmark performance improvements.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://united.mediaroom.com/news-releases?item=125496",
+    "title": "United Airlines Updates Digital Policies Regarding Third-Party AI Agents",
+    "publisher": "United Airlines",
+    "kind": "primary",
+    "published": "2026-11-11",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "United Airlines today announced updates to its digital policies to protect customers and address cybersecurity, privacy and consumer protection concerns raised by unauthorized, third-party personal artificial intelligence (AI) agents or assistants.",
+        "for": "United policy update restricting third-party AI assistants.",
+        "by": "recap"
+      },
+      {
+        "text": "United is taking steps to restrict access \u2013 directly within our digital platforms and indirectly via travel agencies and aggregators \u2013 to prohibit use by unauthorized, third-party personal AI agents or assistants.",
+        "for": "Prohibiting access directly and through aggregators.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+    "title": "Informal meeting of heads of state or government, 13 November 2026",
+    "publisher": "European Council",
+    "kind": "primary",
+    "published": "2026-11-13",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "For the first time, they held a strategic discussion on artificial intelligence (AI), focusing on two key aspects:",
+        "for": "First strategic debate on artificial intelligence.",
+        "by": "recap"
+      },
+      {
+        "text": "Joined by Arthur Mensch, CEO of Mistral AI, the leaders discussed Europe's position in the global AI landscape and the strategic choices needed to strengthen Europe's competitiveness and AI sovereignty.",
+        "for": "Participation by Arthur Mensch.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.pymnts.com/earnings/2026/openai-revenue-hits-10-billion-as-losses-mount/",
+    "title": "OpenAI Revenue Hits $10 Billion as Losses Mount",
+    "publisher": "PYMNTS",
+    "kind": "press",
+    "published": "2026-11-11",
+    "retrieved": "2026-11-15",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "The company\u2019s revenue increased by around 50% to $10 billion between the second quarter and the third, according to published reports on an investor presentation the artificial intelligence (AI) startup gave Tuesday (Nov. 10).",
+        "for": "Quarterly revenue growth to ten billion dollars.",
+        "by": "recap"
+      },
+      {
+        "text": "from The Information, OpenAI\u2019s operating losses also grew between the two quarters, from $10.1 billion to $10.9 billion.",
+        "for": "Operating losses widening to 10.9 billion dollars.",
+        "by": "recap"
+      }
+    ]
+  }
+]

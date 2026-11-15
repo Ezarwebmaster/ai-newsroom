@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "line": 3,
+    "claim": "In November 2026, major industry events included Anthropic opening its IPO roadshow, Jensen Huang stepping down at Nvidia, Google launching Gemini 4 Hydrogen, United Airlines restricting AI booking agents, and EU leaders meeting in Dublin.",
+    "status": "derived",
+    "note": "Synthesis of the week's five covered developments across posts and sources 1 through 5."
+  },
+  {
+    "id": 2,
+    "line": 8,
+    "claim": "Anthropic launched the roadshow for its proposed initial public offering on November 10, 2026, with an expected price between $70.00 and $78.00 per share.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock."
+      },
+      {
+        "source": 1,
+        "quote": "The initial public offering price is expected to be between $70.00 and $78.00 per share."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 15,
+    "claim": "Nvidia announced on November 12, 2026, that Jensen Huang resigned as president and CEO effective immediately.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 22,
+    "claim": "Google expanded its model portfolio on November 12, 2026, by launching Gemini 4 Hydrogen for coding and agent workflows.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 29,
+    "claim": "United Airlines updated its digital policies on November 11, 2026, to prohibit unauthorized third-party personal AI assistants.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "United Airlines today announced updates to its digital policies to protect customers and address cybersecurity, privacy and consumer protection concerns raised by unauthorized, third-party personal artificial intelligence (AI) agents or assistants."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 36,
+    "claim": "Heads of state and government convened in Dublin on November 13, 2026, for the European Council's first strategic debate on artificial intelligence.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "For the first time, they held a strategic discussion on artificial intelligence (AI), focusing on two key aspects:"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 44,
+    "claim": "OpenAI revenue increased by around 50% to $10 billion between the second quarter and the third.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "The company\u2019s revenue increased by around 50% to $10 billion between the second quarter and the third, according to published reports on an investor presentation the artificial intelligence (AI) startup gave Tuesday (Nov. 10)."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 45,
+    "claim": "OpenAI operating losses grew between the two quarters from $10.1 billion to $10.9 billion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "from The Information, OpenAI\u2019s operating losses also grew between the two quarters, from $10.1 billion to $10.9 billion."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 50,
+    "claim": "Anthropic launched its initial public offering roadshow with an expected price between $70.00 and $78.00 per share.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The initial public offering price is expected to be between $70.00 and $78.00 per share."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 51,
+    "claim": "Jensen Huang resigned as Nvidia president and CEO, with Colette Kress agreed to serve as interim chief executive officer.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately."
+      },
+      {
+        "source": 2,
+        "quote": "Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 52,
+    "claim": "European Union leaders held their first strategic debate on artificial intelligence in Dublin.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "For the first time, they held a strategic discussion on artificial intelligence (AI), focusing on two key aspects:"
+      }
+    ]
+  }
+]
