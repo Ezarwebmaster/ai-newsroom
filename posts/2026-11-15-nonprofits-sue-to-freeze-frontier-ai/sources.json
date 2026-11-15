@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+    "title": "Coalition of Nonprofits Files Landmark Lawsuit to Stop Development of Advanced AI Systems at Anthropic, Google, Meta, OpenAI, and SpaceXSI that Proliferate Bioweapons and Cyberattacks",
+    "publisher": "Public Citizen",
+    "kind": "primary",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-15",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Today, Irreplaceable Education Fund, Public Citizen, Heat Initiative, and The Alliance for Secure AI filed a",
+        "for": "Names of the four nonprofit plaintiffs.",
+        "by": "writer"
+      },
+      {
+        "text": "seeking to freeze the development of increasingly advanced AI models at Anthropic, Google, Meta, OpenAI, and SpaceXSI that can escape human control, including fueling the proliferation of bioweapons and cyberattacks.",
+        "for": "The five defendants and the requested freeze.",
+        "by": "writer"
+      },
+      {
+        "text": "The plaintiffs are invoking California’s Unfair Competition Law to challenge practices they allege threaten public health, safety, and property.",
+        "for": "California Unfair Competition Law claim.",
+        "by": "writer"
+      },
+      {
+        "text": "AI companies are causing a public nuisance by knowingly developing and deploying AI systems that pose catastrophic risk.",
+        "for": "Platkin quote on public nuisance.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://www.cbsnews.com/news/advocacy-groups-sue-ai-companies/",
+    "title": "Anthropic, OpenAI and other AI developers can't control their own tech, new lawsuit alleges",
+    "publisher": "CBS News",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-15",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "A Meta spokesperson for Meta declined to comment. The other tech companies targeted in the suit did not respond to a request for comment.",
+        "for": "Right of reply from the five defendants.",
+        "by": "writer"
+      },
+      {
+        "text": "Defendants know these systems do not consistently act in accordance with their intentions,",
+        "for": "Complaint allegation on system control.",
+        "by": "writer"
+      },
+      {
+        "text": "In 2015, for example, OpenAI CEO Sam Altman said AI will \"probably most likely lead to the end of the world.\"",
+        "for": "2015 Sam Altman quote cited in the lawsuit.",
+        "by": "writer"
+      },
+      {
+        "text": "In 2025, Anthropic CEO Dario Amodei suggested there was a 25% chance that the development of AI could lead to disastrous outcomes.",
+        "for": "2025 Dario Amodei 25% estimate cited in the lawsuit.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development",
+    "title": "US nonprofits sue tech giants to halt AI development",
+    "publisher": "Al Jazeera",
+    "kind": "press",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-15",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The plaintiffs claim that the companies have violated a California unfair competition law by endangering public health and interfering with the use of property, such as computer systems.",
+        "for": "California Unfair Competition Law and property interference claim.",
+        "by": "writer"
+      },
+      {
+        "text": "This requires government inspections and the authority to halt prohibited work, not just a ban on publicly releasing the models. To help enforce this freeze, major computing facilities can be monitored.",
+        "for": "Monitoring computing facilities and government inspections.",
+        "by": "writer"
+      },
+      {
+        "text": "The new Congress should start by implementing a freeze on new AI development,",
+        "for": "Call for the incoming Congress to enact a freeze.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.justsecurity.org/164494/nonprofits-lawsuit-freeze-frontier-ai-development/",
+    "title": "Just the Docs: Nonprofits Sue Five Frontier AI Companies to Freeze Development, Citing Cyberattack and Catastrophic Risks",
+    "publisher": "Just Security",
+    "kind": "press",
+    "published": "2026-11-13",
+    "retrieved": "2026-11-15",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "They are asking for an immediate injunction barring Anthropic, Google, Meta, OpenAI, and SpaceX Super Intelligence from building or deploying AI systems more capable than their current most advanced models.",
+        "for": "Scope of the requested immediate injunction.",
+        "by": "writer"
+      },
+      {
+        "text": "The suit brings a single claim under California’s Unfair Competition Law, arguing the companies are creating a public nuisance.",
+        "for": "Single claim under California Unfair Competition Law.",
+        "by": "writer"
+      },
+      {
+        "text": "It points to recent incidents in which AI agents allegedly escaped testing environments and accessed outside systems, including a government health database and state vote-count data.",
+        "for": "Alleged incidents involving escaped AI agents.",
+        "by": "writer"
+      },
+      {
+        "text": "It also cites the companies’ own warnings about AI-enabled cyberattacks and bioweapons, and asks the court to bar AI systems from autonomously directing AI research.",
+        "for": "Request to bar AI systems from autonomously directing AI research.",
+        "by": "writer"
+      }
+    ]
+  }
+]
