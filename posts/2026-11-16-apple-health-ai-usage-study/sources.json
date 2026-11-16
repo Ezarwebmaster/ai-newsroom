@@ -48,6 +48,51 @@
         "text": "Apple has implemented security measures to protect the study data it maintains",
         "for": "Apple's only description of its security measures.",
         "by": "reviser"
+      },
+      {
+        "text": "Apple today announced the launch of the Apple Health AI Usage Study in the United States, a virtual research study and associated app designed to advance the understanding of how people interact with conversational health AI tools.",
+        "for": "Launch and scope.",
+        "by": "checker"
+      },
+      {
+        "text": "By examining what drives user trust, the quality of responses, comprehension, and everyday health actions, the study aims to inform the responsible design of health AI experiences for Apple and the industry.",
+        "for": "Research aims.",
+        "by": "checker"
+      },
+      {
+        "text": "The study brings together medically grounded AI technology developed by OpenEvidence with an Apple-designed research experience.",
+        "for": "Collaboration.",
+        "by": "checker"
+      },
+      {
+        "text": "Participants will be able to ask the study app everyday health questions; explore complex medical information communicated with approachable language; and see linked, peer-reviewed clinical citations that ground each response.",
+        "for": "App answers and citations.",
+        "by": "checker"
+      },
+      {
+        "text": "Participants can also choose to share HealthKit data types — such as resting heart rate, activity, sleep, or lab results — to explore how personal data integration impacts relevance and understanding.",
+        "for": "Optional health metrics.",
+        "by": "checker"
+      },
+      {
+        "text": "The study app features safety guardrails that are intended to detect certain concerning questions and suggest that a participant follow up with a provider or other resources if needed.",
+        "for": "Guardrails.",
+        "by": "checker"
+      },
+      {
+        "text": "medical information from established sources such as The New England Journal of Medicine, Journal of the American Medical Association, and Nature",
+        "for": "Named clinical publications.",
+        "by": "checker"
+      },
+      {
+        "text": "Participants retain control over whether to share any HealthKit metrics or survey responses",
+        "for": "Participant control.",
+        "by": "checker"
+      },
+      {
+        "text": "The study will also explore how health AI can potentially help participants better prepare for clinical visits with their own doctors.",
+        "for": "Visit preparation research.",
+        "by": "checker"
       }
     ]
   },
@@ -85,6 +130,11 @@
         "text": "and it will guide users to specific providers for answers related to concerning medical issues",
         "for": "Referral of concerning questions to providers.",
         "by": "reviser"
+      },
+      {
+        "text": "Users can rate those answers and provide feedback about the responses; they’ll also be asked to participate in monthly surveys.",
+        "for": "Ratings and monthly surveys.",
+        "by": "checker"
       }
     ]
   },

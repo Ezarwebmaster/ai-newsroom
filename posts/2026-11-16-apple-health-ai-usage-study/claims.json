@@ -1,0 +1,381 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "title: \"Apple opens U.S. health AI study app with OpenEvidence for up to 200,000 iPhone users\"",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The Apple Health AI Usage Study is open to up to 200,000 eligible participants age 21 and older across the United States."
+      },
+      {
+        "source": 1,
+        "quote": "The study brings together medically grounded AI technology developed by OpenEvidence with an Apple-designed research experience."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "dek: \"On November 15, 2026, Apple launched the Apple Health AI Usage Study, pairing a research app with OpenEvidence's clinical answer engine to test how adults trust and understand medical AI.\"",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Apple today announced the launch of the Apple Health AI Usage Study in the United States, a virtual research study and associated app designed to advance the understanding of how people interact with conversational health AI tools."
+      },
+      {
+        "source": 1,
+        "quote": "By examining what drives user trust, the quality of responses, comprehension, and everyday health actions, the study aims to inform the responsible design of health AI experiences for Apple and the industry."
+      },
+      {
+        "source": 1,
+        "quote": "The study brings together medically grounded AI technology developed by OpenEvidence with an Apple-designed research experience."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Apple launched the Apple Health AI Usage Study and an accompanying iPhone app in the United States on November 15, 2026, in collaboration with clinical AI company OpenEvidence.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Apple today announced the launch of the Apple Health AI Usage Study in the United States, a virtual research study and associated app designed to advance the understanding of how people interact with conversational health AI tools."
+      },
+      {
+        "source": 1,
+        "quote": "The study brings together medically grounded AI technology developed by OpenEvidence with an Apple-designed research experience."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "The virtual study is open to up to 200,000 U.S. residents aged 21 and older who own an Apple Intelligence-enabled iPhone (iPhone 15 Pro or later) running iOS 26 or later.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The Apple Health AI Usage Study is open to up to 200,000 eligible participants age 21 and older across the United States."
+      },
+      {
+        "source": 1,
+        "quote": "To join, participants must have an Apple Intelligence-enabled iPhone (iPhone 15 Pro or later) running iOS 26 or later."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 9,
+    "claim": "TechCrunch describes the requirement as \"iPhone 15 or later\", whereas Apple's release names the iPhone 15 Pro or later as the minimum device.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "To join, participants must have an Apple Intelligence-enabled iPhone (iPhone 15 Pro or later) running iOS 26 or later."
+      },
+      {
+        "source": 2,
+        "quote": "using iPhone 15 or later, and running iOS 26 or later, with Apple Intelligence enabled"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 11,
+    "claim": "Rather than releasing a consumer diagnostic product, Apple says the study will evaluate user trust, response quality, comprehension and everyday health actions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "By examining what drives user trust, the quality of responses, comprehension, and everyday health actions, the study aims to inform the responsible design of health AI experiences for Apple and the industry."
+      },
+      {
+        "source": 1,
+        "quote": "The study app is not meant to diagnose or treat any condition, or replace the advice of medical professionals."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "Apple's release acknowledges that consumer health technologies powered by LLMs \"may at times offer responses that are incomplete or unclear\", and presents the research as a way to present health information more clearly.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Consumer health technologies powered by LLMs may at times offer responses that are incomplete or unclear"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 18,
+    "claim": "Inside the study app, participants can ask everyday health questions and receive answers written in plain language alongside linked, peer-reviewed clinical citations.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Participants will be able to ask the study app everyday health questions; explore complex medical information communicated with approachable language; and see linked, peer-reviewed clinical citations that ground each response."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 19,
+    "claim": "OpenEvidence's technology draws on established medical publications, including The New England Journal of Medicine, Journal of the American Medical Association and Nature.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The study brings together medically grounded AI technology developed by OpenEvidence with an Apple-designed research experience."
+      },
+      {
+        "source": 1,
+        "quote": "medical information from established sources such as The New England Journal of Medicine, Journal of the American Medical Association, and Nature"
+      }
+    ],
+    "note": "The named publications are explicitly listed in the Apple release read in full; the evidence quotation establishes OpenEvidence technology."
+  },
+  {
+    "id": 10,
+    "line": 20,
+    "claim": "Participants can optionally share HealthKit metrics—such as resting heart rate, activity, sleep or lab results—to test whether personal data makes responses more relevant and easier to understand.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Participants can also choose to share HealthKit data types — such as resting heart rate, activity, sleep, or lab results — to explore how personal data integration impacts relevance and understanding."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 22,
+    "claim": "Apple says the study will also explore how health AI can potentially help participants prepare for visits with their own doctors, and TechCrunch adds that the app \"will guide users to specific providers for answers related to concerning medical issues\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "and it will guide users to specific providers for answers related to concerning medical issues"
+      },
+      {
+        "source": 1,
+        "quote": "The study will also explore how health AI can potentially help participants better prepare for clinical visits with their own doctors."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 24,
+    "claim": "Users also rate the app's answers on accuracy, detail and relevance and are asked to complete monthly surveys, while the study runs for more than 12 months, TechCrunch reported.",
+    "status": "unsupported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The company is aiming to run this study with up to 200,000 participants for more than 12 months."
+      },
+      {
+        "source": 2,
+        "quote": "Users can rate those answers and provide feedback about the responses; they’ll also be asked to participate in monthly surveys."
+      }
+    ],
+    "note": "Monthly surveys and duration verified in TechCrunch; accuracy/detail/relevance criteria cannot be checked because MLQ.ai was inaccessible."
+  },
+  {
+    "id": 13,
+    "line": 25,
+    "claim": "An App Store listing reviewed by Unite.AI states that the app can help users understand symptoms or conditions, put personal health data in context, prepare for medical visits and build exercise or meal plans.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The App Store listing says the app can be used to understand symptoms or conditions, put personal health data in context, prepare for a medical visit, and build a personalized exercise or meal plan."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 29,
+    "claim": "Apple says study data will not be used to train AI models and that participants control whether to share HealthKit metrics or survey responses.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The study is designed from the ground up with privacy protections, transparency, and clinical guardrails, and study data will not be used to train AI models."
+      },
+      {
+        "source": 1,
+        "quote": "Participants retain control over whether to share any HealthKit metrics or survey responses"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 31,
+    "claim": "Apple's release gives no detail of those measures beyond saying it \"has implemented security measures to protect the study data it maintains\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Apple has implemented security measures to protect the study data it maintains"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 33,
+    "claim": "According to TechCrunch, data is anonymized before reaching a secure third-party cloud provider, and OpenEvidence deletes query and response records after 24 hours.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The company said that OpenEvidence deletes the query and response data after 24 hours."
+      }
+    ],
+    "note": "TechCrunch paragraph 116 also explicitly states anonymization before a secure third-party cloud provider."
+  },
+  {
+    "id": 17,
+    "line": 34,
+    "claim": "Unite.AI noted that the App Store privacy label still lists user identifiers as collected and linked to identity for analytics and app functionality, alongside unlinked diagnostics data.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The App Store privacy label says user identifiers may be collected and linked to identity for analytics and app functionality, while diagnostics and performance data may be collected without being linked to identity."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 35,
+    "claim": "The app includes clinical guardrails designed to detect concerning questions and direct users to a healthcare provider, and Apple states it is \"not meant to diagnose or treat any condition\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The study app is not meant to diagnose or treat any condition, or replace the advice of medical professionals."
+      },
+      {
+        "source": 1,
+        "quote": "The study app features safety guardrails that are intended to detect certain concerning questions and suggest that a participant follow up with a provider or other resources if needed."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 36,
+    "claim": "OpenEvidence physician adoption and January 2026 financing figures.",
+    "status": "unsupported",
+    "note": "MLQ.ai could not be opened after repeated attempts; its quoted financing and adoption figures were not independently verified during this step."
+  },
+  {
+    "id": 20,
+    "line": 40,
+    "claim": "TechCrunch noted that Apple has not said whether it plans to add AI-powered health answers to its Health app or Siri, even as OpenAI said earlier in 2026 that users ask over 300 million health-related questions each week.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "earlier this year, OpenAI said users were asking over 300 million health-related queries"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 41,
+    "claim": "Sumbul Desai, M.D., Apple's vice president of Health and Fitness, said in the announcement that \"responsible innovation starts with scientific rigor and clinical grounding\".",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "At Apple, we believe responsible innovation starts with scientific rigor and clinical grounding."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 42,
+    "claim": "Robert M. Wachter, M.D., chair of UCSF's Department of Medicine, said in Apple's release that patients and clinicians have been using tools \"built and tested in separate worlds\" and that studying how to connect them is key.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Patients and clinicians are both turning to AI, but the tools they use are being built and tested in separate worlds"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 47,
+    "claim": "Apple gives no enrollment deadline or timetable for publishing findings in its announcement.",
+    "status": "absence",
+    "note": "Read the complete Apple announcement, including its availability section and footnote; the specified information is absent."
+  },
+  {
+    "id": 24,
+    "line": 48,
+    "claim": "The release describes research aims but reports no measured results establishing whether the app improves understanding or health decisions.",
+    "status": "absence",
+    "note": "Read the complete Apple announcement, including its availability section and footnote; the specified information is absent."
+  },
+  {
+    "id": 25,
+    "line": 49,
+    "claim": "Apple does not identify the underlying model version or explain how the guardrails will be evaluated in the release.",
+    "status": "absence",
+    "note": "Read the complete Apple announcement, including its availability section and footnote; the specified information is absent."
+  },
+  {
+    "id": 26,
+    "line": 53,
+    "claim": "Apple launched a U.S. research study with OpenEvidence on November 15, 2026, examining how people use conversational health AI.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Apple today announced the launch of the Apple Health AI Usage Study in the United States, a virtual research study and associated app designed to advance the understanding of how people interact with conversational health AI tools."
+      },
+      {
+        "source": 1,
+        "quote": "The study brings together medically grounded AI technology developed by OpenEvidence with an Apple-designed research experience."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 54,
+    "claim": "Enrollment covers up to 200,000 adults aged 21 or older with an eligible iPhone running iOS 26 or later.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The Apple Health AI Usage Study is open to up to 200,000 eligible participants age 21 and older across the United States."
+      },
+      {
+        "source": 1,
+        "quote": "To join, participants must have an Apple Intelligence-enabled iPhone (iPhone 15 Pro or later) running iOS 26 or later."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 55,
+    "claim": "Apple says study data will not train AI models; the app is not intended to diagnose or treat conditions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The study is designed from the ground up with privacy protections, transparency, and clinical guardrails, and study data will not be used to train AI models."
+      },
+      {
+        "source": 1,
+        "quote": "The study app is not meant to diagnose or treat any condition, or replace the advice of medical professionals."
+      }
+    ]
+  }
+]

@@ -5,13 +5,19 @@
   "kind": "story",
   "type": "product",
   "category": "products",
-  "tags": ["apple", "healthcare", "privacy"],
+  "tags": [
+    "apple",
+    "healthcare",
+    "privacy"
+  ],
   "primary_source": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
   "follow_up_of": null,
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
-  "image_brief": null
+  "status": "not_ready",
+  "issues": [
+    "MLQ.ai was inaccessible: verify answer-rating criteria and OpenEvidence adoption, financing date, round and valuation before publication."
+  ],
+  "image_brief": "Abstract translucent conversation shapes orbit a softly glowing phone-shaped rectangle, with separate colored streams suggesting optional personal data and clinical references; calm blue and green palette, no text, logos, people or photographic realism."
 }

@@ -40,3 +40,17 @@ OpenEvidence, which sells a clinical answer engine used by more than 40% of U.S.
 TechCrunch noted that Apple has not said whether it plans to add AI-powered health answers to its Health app or Siri, even as OpenAI said earlier in 2026 that users ask over 300 million health-related questions each week.[^2]
 Sumbul Desai, M.D., Apple's vice president of Health and Fitness, said in the announcement that "responsible innovation starts with scientific rigor and clinical grounding".[^1]
 Robert M. Wachter, M.D., chair of UCSF's Department of Medicine, said in Apple's release that patients and clinicians have been using tools "built and tested in separate worlds" and that studying how to connect them is key.[^1]
+
+<!-- add role="checker" model="OpenAI GPT-6.1 Sol" -->
+## Questions the study announcement leaves open
+
+- Apple gives no enrollment deadline or timetable for publishing findings in its announcement.[^1]
+- The release describes research aims but reports no measured results establishing whether the app improves understanding or health decisions.[^1]
+- Apple does not identify the underlying model version or explain how the guardrails will be evaluated in the release.[^1]
+<!-- /add -->
+
+<!-- keypoints model="OpenAI GPT-6.1 Sol" -->
+- Apple launched a U.S. research study with OpenEvidence on November 15, 2026, examining how people use conversational health AI.[^1]
+- Enrollment covers up to 200,000 adults aged 21 or older with an eligible iPhone running iOS 26 or later.[^1]
+- Apple says study data will not train AI models; the app is not intended to diagnose or treat conditions.[^1]
+<!-- /keypoints -->
