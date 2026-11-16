@@ -18,6 +18,12 @@
         "text": "The rule is designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented through remote computing arrangements involving data centers in third countries.",
         "for": "The bureau's stated purpose.",
         "by": "writer"
+      },
+      {
+        "text": "November 15, 2026",
+        "for": "The date printed on the downloadable announcement.",
+        "by": "reviser",
+        "type": "date"
       }
     ]
   },
@@ -64,7 +70,11 @@
       {
         "text": "You may not knowingly export, reexport, or transfer (in-country) items specified in paragraph (a) of § 744.24 for use in a data center to or within any destination worldwide that will provide access to more than 12,000,000 “aggregate TPP”",
         "for": "Threshold for the data center control.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "The quoted preamble passage spells the term \"in-county\", not \"in-country\"; replaced with an exact passage from the operative threshold provision."
+        }
       },
       {
         "text": "Foreign data centers will be expected to perform robust due diligence on their customers to identify direct or indirect ownership or control by Country Group D:5 or Macau persons.",
@@ -75,6 +85,31 @@
         "text": "The license requirement for these five countries will not apply to semiconductors destined to companies headquartered in, or whose ultimate parent company is headquartered in, the United States, provided certain reporting requirements are met.",
         "for": "Exception for eligible U.S.-headquartered companies.",
         "by": "writer"
+      },
+      {
+        "text": "The prohibitions under § 744.24 do not apply when the computing power access is being provided exclusively for a ‘commercial recommender system’ under the (b)(2) exception provided the reporting requirements described therein are followed.",
+        "for": "The exemption is specific to the new control, exclusive use and reporting.",
+        "by": "reviser"
+      },
+      {
+        "text": "This term does not include any SI system designed or used to generate novel text, image, audio, video, software, or other content in response to user inputs, or any system that incorporates such model, regardless of whether the system also performs recommendation functions.",
+        "for": "Generative systems do not qualify as commercial recommender systems.",
+        "by": "reviser"
+      },
+      {
+        "text": "The notification from the exporter, reexporter, or transferor must also specify that the transferor, e.g., the data center operator, must obtain authorization for this change in end-use.",
+        "for": "A subsequent change to a covered end-use requires authorization.",
+        "by": "reviser"
+      },
+      {
+        "text": "prior to the publication date of this rule that wishes to continue providing these services must obtain a license with 90 days of the effective date of this IFR or face future export restrictions.",
+        "for": "Transition period for existing covered remote computing services.",
+        "by": "reviser"
+      },
+      {
+        "text": "more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5",
+        "for": "Operative threshold and customer jurisdictions in section 744.24(a)(1).",
+        "by": "reviser"
       }
     ]
   },
@@ -119,6 +154,24 @@
         "text": "the Bureau of Industry and Security under the Commerce Department said in issuing the rule that took effect immediately.",
         "for": "AP's account of the effective date.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "title": "BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology",
+    "publisher": "Bureau of Industry and Security",
+    "kind": "primary",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-16",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "November 16, 2026",
+        "for": "The date on the live HTML announcement differs from its downloadable PDF.",
+        "by": "reviser",
+        "type": "date"
       }
     ]
   }

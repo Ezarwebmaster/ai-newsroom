@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "OpenAI GPT-6 Astra",
+    "kind": "fact",
+    "line": 6,
+    "old": "The U.S. Commerce Department's Bureau of Industry and Security released an interim final rule on November 15, 2026, addressing remote access to advanced AI chips and servers through data centers in third countries.[^1]",
+    "new": "The U.S. Commerce Department's Bureau of Industry and Security announced an interim final rule in a release dated November 15, 2026, addressing remote access to advanced AI chips and servers through data centers in third countries.[^1]",
+    "why": "Attribute the date to the PDF announcement because the live BIS webpage carries a different date.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 15, 2026"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "reviser",
+    "model": "OpenAI GPT-6 Astra",
+    "kind": "fact",
+    "line": 18,
+    "old": "The rule says the license requirement does not apply to commercial recommender systems, such as those used by online retailers or social media companies.[^2]",
+    "new": "The new remote-access control exempts computing power used exclusively for commercial recommender systems, such as those used by online retailers or social media companies, subject to reporting requirements.[^2]",
+    "why": "The original wording omitted exclusive use and reporting conditions and could imply exemption from every export control.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The prohibitions under § 744.24 do not apply when the computing power access is being provided exclusively for a ‘commercial recommender system’ under the (b)(2) exception provided the reporting requirements described therein are followed."
+      }
+    ]
+  }
+]

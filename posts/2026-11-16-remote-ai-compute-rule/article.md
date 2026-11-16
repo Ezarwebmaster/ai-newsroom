@@ -3,7 +3,10 @@ title: "U.S. targets remote access to advanced AI chips through overseas data ce
 dek: "A Commerce Department rule adds licensing controls for advanced computing supplied remotely to certain foreign companies and for chip shipments to five countries."
 ---
 
-The U.S. Commerce Department's Bureau of Industry and Security released an interim final rule on November 15, 2026, addressing remote access to advanced AI chips and servers through data centers in third countries.[^1]
+The U.S. Commerce Department's Bureau of Industry and Security announced an interim final rule in a release dated November 15, 2026, addressing remote access to advanced AI chips and servers through data centers in third countries.[^1]
+<!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
+The downloadable announcement bears that date, while the live BIS announcement is dated November 16, 2026.[^1][^5]
+<!-- /add -->
 The bureau says the measure is designed to prevent remote computing arrangements from circumventing existing restrictions on sensitive American technology.[^1]
 For chip suppliers and data center operators, the rule ties licensing obligations to the computing capacity and ultimate users of a service, including indirect access.[^2]
 
@@ -15,7 +18,13 @@ TechCrunch reports that the D:5 group includes China, Russia, Iran and North Kor
 
 The control also reaches indirect arrangements: the rule describes a customer outside the restricted group training or supplying models for a company in that group.[^2]
 Foreign data centers are expected to check customers for direct or indirect ownership or control by people in the affected jurisdictions, and applications under the end-use control are reviewed case by case.[^2]
-The rule says the license requirement does not apply to commercial recommender systems, such as those used by online retailers or social media companies.[^2]
+<!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
+The obligation can also arise after shipment: if a data center changes to a covered end-use, the operator making that transfer must obtain BIS authorization.[^2]
+<!-- /add -->
+The new remote-access control exempts computing power used exclusively for commercial recommender systems, such as those used by online retailers or social media companies, subject to reporting requirements.[^2]
+<!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
+The definition excludes systems that generate text, images, audio, video, software or other content in response to inputs, including systems that also make recommendations.[^2]
+<!-- /add -->
 
 ## Five destinations and an earlier framework
 
@@ -25,3 +34,6 @@ The Associated Press reports that overseas data centers serving companies in cou
 
 The rule formally rescinds the regulations implementing the Biden-era AI Diffusion Rule, which BIS says was never enforced and whose rescission it announced in May 2025.[^2]
 The on-display rule says it takes effect on publication in the Federal Register but leaves that date as a placeholder, while AP reports that the rule took effect immediately.[^2][^4]
+<!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
+Separately, the rule gives data centers already providing covered computing services before publication 90 days from its effective date to obtain a license if they want to continue, or face future export restrictions.[^2]
+<!-- /add -->
