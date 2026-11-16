@@ -1,0 +1,15 @@
+{
+  "cycle": "2026-11-16",
+  "model": "Anthropic Claude Opus 5.5",
+  "picked": 1,
+  "why": "Apple is opening a U.S. study of up to 200,000 iPhone users that tests how people trust and act on conversational health answers, with OpenEvidence supplying them. Apple's newsroom post is the primary source, and MLQ.ai, ShiftDelete.Net and CASRAI covered it on November 16, 2026. No story of the last 14 days covers health AI, and many readers already ask chatbots medical questions.",
+  "trend": [
+    { "url": "https://mlq.ai/news/apple-launches-a-health-ai-study-app-built-with-openevidence-seeking-up-to-200000-us-iphone-users/", "publisher": "MLQ.ai", "published": "2026-11-16" },
+    { "url": "https://shiftdelete.net/en/apple-health-ai-study", "publisher": "ShiftDelete.Net", "published": "2026-11-16" },
+    { "url": "https://casrai.org/news/apple-ai-health-research-study-november-2026", "publisher": "CASRAI", "published": "2026-11-16" }
+  ],
+  "set_aside": [
+    { "n": 2, "why": "The guidelines are only announced for late November; no official text yet to serve as a primary source. Better covered once the Defense Ministry publishes them." },
+    { "n": 3, "why": "Already set aside on November 15, 2026: undisclosed terms and mostly enterprise relevance. Worth a line in the weekly recap." }
+  ]
+}

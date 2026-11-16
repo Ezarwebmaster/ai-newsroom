@@ -1,0 +1,17 @@
+{
+  "contract": 1,
+  "id": "2026-11-16-apple-health-ai-usage-study",
+  "cycle": "2026-11-16",
+  "kind": "story",
+  "type": "product",
+  "category": "products",
+  "tags": ["apple", "healthcare", "privacy"],
+  "primary_source": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
