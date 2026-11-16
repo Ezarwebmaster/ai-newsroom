@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+    "title": "Apple launches research study to explore the use of AI for health",
+    "publisher": "Apple",
+    "kind": "primary",
+    "published": "2026-11-15",
+    "retrieved": "2026-11-16",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The Apple Health AI Usage Study is open to up to 200,000 eligible participants age 21 and older across the United States.",
+        "for": "Participant cap, age requirement, and U.S. availability.",
+        "by": "writer"
+      },
+      {
+        "text": "The study is designed from the ground up with privacy protections, transparency, and clinical guardrails, and study data will not be used to train AI models.",
+        "for": "Privacy protections, guardrails, and no-training pledge.",
+        "by": "writer"
+      },
+      {
+        "text": "The study app is not meant to diagnose or treat any condition, or replace the advice of medical professionals.",
+        "for": "Non-diagnostic disclaimer for the study app.",
+        "by": "writer"
+      },
+      {
+        "text": "At Apple, we believe responsible innovation starts with scientific rigor and clinical grounding.",
+        "for": "Statement from Sumbul Desai, M.D., Apple's vice president of Health and Fitness.",
+        "by": "writer"
+      },
+      {
+        "text": "Patients and clinicians are both turning to AI, but the tools they use are being built and tested in separate worlds",
+        "for": "Statement from Robert M. Wachter, M.D., chair of UCSF's Department of Medicine.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+    "title": "Apple launches new app to study how people use AI for health",
+    "publisher": "TechCrunch",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-16",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The company is aiming to run this study with up to 200,000 participants for more than 12 months.",
+        "for": "Planned study duration of more than 12 months.",
+        "by": "writer"
+      },
+      {
+        "text": "The company said that OpenEvidence deletes the query and response data after 24 hours.",
+        "for": "OpenEvidence's 24-hour deletion window for query and response data.",
+        "by": "writer"
+      },
+      {
+        "text": "earlier this year, OpenAI said users were asking over 300 million health-related queries",
+        "for": "OpenAI's reported volume of weekly health-related queries.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://www.unite.ai/apple-opens-u-s-study-of-trust-in-conversational-health-ai/",
+    "title": "Apple Opens U.S. Study of Trust in Conversational Health AI",
+    "publisher": "Unite.AI",
+    "kind": "press",
+    "published": "2026-11-15",
+    "retrieved": "2026-11-16",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The App Store listing says the app can be used to understand symptoms or conditions, put personal health data in context, prepare for a medical visit, and build a personalized exercise or meal plan.",
+        "for": "Use cases described in the App Store listing.",
+        "by": "writer"
+      },
+      {
+        "text": "The App Store privacy label says user identifiers may be collected and linked to identity for analytics and app functionality, while diagnostics and performance data may be collected without being linked to identity.",
+        "for": "App Store privacy label disclosures on linked identifiers.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://mlq.ai/news/apple-launches-a-health-ai-study-app-built-with-openevidence-seeking-up-to-200000-us-iphone-users/",
+    "title": "Apple launches a health AI study app built with OpenEvidence, seeking up to 200,000 US iPhone users",
+    "publisher": "MLQ.ai",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-16",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Participants rate answers on criteria including accuracy, detail and relevance",
+        "for": "Criteria participants use to rate app answers.",
+        "by": "writer"
+      },
+      {
+        "text": "It said in January that more than 40% of US physicians use the platform, when it raised $250 million in a Series D co-led by Thrive Capital and DST Global at a $12 billion valuation",
+        "for": "OpenEvidence physician adoption, Series D funding, and valuation.",
+        "by": "writer"
+      }
+    ]
+  }
+]
