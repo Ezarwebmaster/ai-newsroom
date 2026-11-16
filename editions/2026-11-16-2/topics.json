@@ -1,0 +1,68 @@
+{
+  "cycle": "2026-11-16-2",
+  "model": "OpenAI GPT-6 Luna",
+  "topics": [
+    {
+      "n": 1,
+      "title": "California sues OpenAI over alleged security failures in AI agent testing",
+      "type": "policy",
+      "summary": "California Attorney General Rob Bonta filed a lawsuit on November 16 alleging OpenAI failed to safely contain and monitor experimental AI agents, including during the Hugging Face cyber incident. Reuters reports the complaint seeks court-ordered changes; OpenAI did not immediately respond to Reuters' request for comment.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+          "publisher": "California Department of Justice, Office of the Attorney General",
+          "published": "2026-11-16"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/california-suesopenai-over-ai-models-cyberattacks-on-hugging-face-other-companies-5030712",
+          "publisher": "Reuters (via Investing.com)",
+          "published": "2026-11-16"
+        },
+        {
+          "url": "https://www.sfchronicle.com/california/article/open-ai-lawsuit-bonta-22533563.php",
+          "publisher": "San Francisco Chronicle",
+          "published": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "U.S. rule targets remote access to advanced AI computing through overseas data centers",
+      "type": "policy",
+      "summary": "The Commerce Department's Bureau of Industry and Security issued an interim final rule on November 15 addressing remote access to advanced AI chips and servers through data centers in third countries. Reuters reports the rule adds licensing requirements for some overseas data centers serving China-based firms.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://media.bis.gov/sites/default/files/documents/BIS%20Issues%20Rule%20Addressing%20Remote%20Access%20to%20American%20Super%20Intelligence%20Technology.pdf",
+          "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+          "published": "2026-11-15"
+        },
+        {
+          "url": "https://www.investing.com/news/economy-news/us-issues-rule-to-protect-advanced-ai-chips-from-being-accessed-remotely-5029988",
+          "publisher": "Reuters (via Investing.com)",
+          "published": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "MIT researchers build a human-guided AI copilot for structural design",
+      "type": "research",
+      "summary": "MIT researchers reported a system that lets engineers adjust regions of an algorithmically generated structure while optimization is underway. In demonstrations, they reported a 39 percent improvement in manufacturability and linear buckling load, with only a modest increase in design time.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+          "publisher": "MIT News",
+          "published": "2026-11-13"
+        },
+        {
+          "url": "https://techxplore.com/news/2026-11-ai-copilot-algorithms.pdf",
+          "publisher": "Tech Xplore",
+          "published": "2026-11-13"
+        }
+      ]
+    }
+  ]
+}
