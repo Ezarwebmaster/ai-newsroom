@@ -1,0 +1,42 @@
+{
+  "cycle": "2026-11-16",
+  "model": "Google Gemini 3.8 Flash",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Apple launches research study and iPhone app to examine user trust in conversational health AI",
+      "type": "product",
+      "summary": "On November 15, 2026, Apple launched the Apple Health AI Usage Study with clinical AI platform OpenEvidence. Open to up to 200,000 U.S. participants with Apple Intelligence-enabled iPhones running iOS 26, the virtual study tests how users engage with, understand, and trust medically grounded conversational AI.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/", "publisher": "Apple", "published": "2026-11-15" },
+        { "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/", "publisher": "TechCrunch", "published": "2026-11-15" },
+        { "url": "https://www.unite.ai/apple-opens-u-s-study-of-trust-in-conversational-health-ai/", "publisher": "Unite.AI", "published": "2026-11-15" }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Japan's Defense Ministry plans updated military AI guidelines ensuring human accountability",
+      "type": "policy",
+      "summary": "On November 15, 2026, Japanese Defense Minister Shinjiro Koizumi announced in Yokosuka that the Ministry of Defense will release updated guidelines for defense-related AI at the end of November. The framework establishes three pillars: maintaining human accountability for decisions, leveraging defense data, and balancing adoption speed with security.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.nippon.com/en/articles/-/57469", "publisher": "Nippon.com", "published": "2026-11-15" },
+        { "url": "https://superpowerdaily.com/posts/japan-prepares-military-ai-guidelines-that-keep-humans-responsible-for-decisions", "publisher": "Superpower Daily", "published": "2026-11-16" },
+        { "url": "https://casrai.org/news/japan-defense-ai-vision-november-guidelines-2026", "publisher": "CASRAI", "published": "2026-11-15" }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Cohere acquires cybersecurity startup AISLE and code-review firm cubic for its sovereign AI platform",
+      "type": "company",
+      "summary": "On November 13, 2026, Cohere announced it completed the acquisition of autonomous vulnerability-discovery startup AISLE and acquired AI code-review company cubic. AISLE forms a new Cohere Cyber unit led by co-founder Ondrej Vlcek, while cubic adds secure software development capabilities to Cohere's enterprise sovereign AI platform.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://cohere.com/blog/cohere-expands-its-sovereign-ai-platform-with-aisle-and-cubic", "publisher": "Cohere", "published": "2026-11-13" },
+        { "url": "https://www.unite.ai/cohere-acquires-aisle-and-cubic-to-add-cyber-defense-and-secure-coding/", "publisher": "Unite.AI", "published": "2026-11-13" },
+        { "url": "https://dealroom.co/news/172615-cohere-buys-aisle-and-cubic-to-add-cyber-defense-to-sovereign-ai/", "publisher": "Dealroom News", "published": "2026-11-13" }
+      ]
+    }
+  ]
+}
