@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "url": "https://media.bis.gov/sites/default/files/documents/BIS%20Issues%20Rule%20Addressing%20Remote%20Access%20to%20American%20Super%20Intelligence%20Technology.pdf",
+    "title": "BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology",
+    "publisher": "Bureau of Industry and Security",
+    "kind": "primary",
+    "published": "2026-11-15",
+    "retrieved": "2026-11-16",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Today, the U.S. Commerce Department’s Bureau of Industry and Security (BIS) released an interim final rule (IFR)—written by and at the direction of the Department of Treasury and the National Security Council—to address remote access to advanced super intelligence (SI) chips and servers.",
+        "for": "The rule's release and scope.",
+        "by": "writer"
+      },
+      {
+        "text": "The rule is designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented through remote computing arrangements involving data centers in third countries.",
+        "for": "The bureau's stated purpose.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf?ftag=YHF4eb9d17",
+    "title": "Addressing Remote Access to Advanced Semiconductors",
+    "publisher": "U.S. Department of Commerce",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-16",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "First, this rule establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau.",
+        "for": "The rule's remote-access control.",
+        "by": "writer"
+      },
+      {
+        "text": "The license requirement will not apply to commercial recommender systems, such as those used by online retailers or social media companies, as these functions do not pose the same national security threat.",
+        "for": "The recommender exception.",
+        "by": "writer"
+      },
+      {
+        "text": "Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of State or the Assistant to the President for National Security Affairs) – countries which present a higher-than-normal risk of diversion.",
+        "for": "The five destinations.",
+        "by": "writer"
+      },
+      {
+        "text": "Finally, the IFR formally rescinds the regulations implementing the Biden-era AI Diffusion Rule. The AI Diffusion Rule has never been enforced.",
+        "for": "Rescission of the prior framework.",
+        "by": "writer"
+      },
+      {
+        "text": "This rule is effective [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER].",
+        "for": "The effective-date placeholder.",
+        "by": "writer"
+      },
+      {
+        "text": "License applications will be reviewed on a case-by-case basis.",
+        "for": "License review.",
+        "by": "writer"
+      },
+      {
+        "text": "You may not knowingly export, reexport, or transfer (in-country) items specified in paragraph (a) of § 744.24 for use in a data center to or within any destination worldwide that will provide access to more than 12,000,000 “aggregate TPP”",
+        "for": "Threshold for the data center control.",
+        "by": "writer"
+      },
+      {
+        "text": "Foreign data centers will be expected to perform robust due diligence on their customers to identify direct or indirect ownership or control by Country Group D:5 or Macau persons.",
+        "for": "Customer due diligence.",
+        "by": "writer"
+      },
+      {
+        "text": "The license requirement for these five countries will not apply to semiconductors destined to companies headquartered in, or whose ultimate parent company is headquartered in, the United States, provided certain reporting requirements are met.",
+        "for": "Exception for eligible U.S.-headquartered companies.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+    "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+    "publisher": "TechCrunch",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-16",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The remote-access rules target companies based in the U.S.’s D:5 group of embargoed countries, which includes China, Russia, Iran, North Korea, and 18 others.",
+        "for": "Examples of D:5 countries.",
+        "by": "writer"
+      },
+      {
+        "text": "Twelve million TPP roughly works out to the max computing power of about 750 Nvidia H100 or H200 chips.",
+        "for": "An approximate scale for the threshold.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://apnews.com/article/nvidia-export-controls-chips-china-remote-access-60f868d3bb430b85a8657b27d421096e",
+    "title": "Trump administration moves to block China from indirect access to American AI technology",
+    "publisher": "Associated Press",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-16",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users.",
+        "for": "End-user identification.",
+        "by": "writer"
+      },
+      {
+        "text": "the Bureau of Industry and Security under the Commerce Department said in issuing the rule that took effect immediately.",
+        "for": "AP's account of the effective date.",
+        "by": "writer"
+      }
+    ]
+  }
+]
