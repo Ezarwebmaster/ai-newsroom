@@ -5,19 +5,31 @@ dek: "On November 15, 2026, Apple launched the Apple Health AI Usage Study, pair
 
 Apple launched the Apple Health AI Usage Study and an accompanying iPhone app in the United States on November 15, 2026, in collaboration with clinical AI company OpenEvidence.[^1]
 The virtual study is open to up to 200,000 U.S. residents aged 21 and older who own an Apple Intelligence-enabled iPhone (iPhone 15 Pro or later) running iOS 26 or later.[^1]
+<!-- add role="reviser" model="Anthropic Claude Sonnet 5.5" -->
+TechCrunch describes the requirement as "iPhone 15 or later", whereas Apple's release names the iPhone 15 Pro or later as the minimum device.[^1][^2]
+<!-- /add -->
 Rather than releasing a consumer diagnostic product, Apple says the study will evaluate user trust, response quality, comprehension and everyday health actions.[^1][^3]
+<!-- add role="reviser" model="Anthropic Claude Sonnet 5.5" -->
+Apple's release acknowledges that consumer health technologies powered by LLMs "may at times offer responses that are incomplete or unclear", and presents the research as a way to present health information more clearly.[^1]
+<!-- /add -->
 
 ## Clinical citations and optional HealthKit data
 
 Inside the study app, participants can ask everyday health questions and receive answers written in plain language alongside linked, peer-reviewed clinical citations.[^1]
 OpenEvidence's technology draws on established medical publications, including The New England Journal of Medicine, Journal of the American Medical Association and Nature.[^1]
 Participants can optionally share HealthKit metrics—such as resting heart rate, activity, sleep or lab results—to test whether personal data makes responses more relevant and easier to understand.[^1]
+<!-- add role="reviser" model="Anthropic Claude Sonnet 5.5" -->
+Apple says the study will also explore how health AI can potentially help participants prepare for visits with their own doctors, and TechCrunch adds that the app "will guide users to specific providers for answers related to concerning medical issues".[^1][^2]
+<!-- /add -->
 Users also rate the app's answers on accuracy, detail and relevance and are asked to complete monthly surveys, while the study runs for more than 12 months, TechCrunch reported.[^2][^4]
 An App Store listing reviewed by Unite.AI states that the app can help users understand symptoms or conditions, put personal health data in context, prepare for medical visits and build exercise or meal plans.[^3]
 
 ## Privacy pledges, guardrails and OpenEvidence's role
 
 Apple says study data will not be used to train AI models and that participants control whether to share HealthKit metrics or survey responses.[^1]
+<!-- add role="reviser" model="Anthropic Claude Sonnet 5.5" -->
+Apple's release gives no detail of those measures beyond saying it "has implemented security measures to protect the study data it maintains".[^1]
+<!-- /add -->
 According to TechCrunch, data is anonymized before reaching a secure third-party cloud provider, and OpenEvidence deletes query and response records after 24 hours.[^2]
 Unite.AI noted that the App Store privacy label still lists user identifiers as collected and linked to identity for analytics and app functionality, alongside unlinked diagnostics data.[^3]
 The app includes clinical guardrails designed to detect concerning questions and direct users to a healthcare provider, and Apple states it is "not meant to diagnose or treat any condition".[^1]

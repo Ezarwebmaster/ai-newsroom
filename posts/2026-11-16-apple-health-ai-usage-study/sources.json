@@ -33,6 +33,21 @@
         "text": "Patients and clinicians are both turning to AI, but the tools they use are being built and tested in separate worlds",
         "for": "Statement from Robert M. Wachter, M.D., chair of UCSF's Department of Medicine.",
         "by": "writer"
+      },
+      {
+        "text": "Consumer health technologies powered by LLMs may at times offer responses that are incomplete or unclear",
+        "for": "Apple's stated rationale for the study.",
+        "by": "reviser"
+      },
+      {
+        "text": "To join, participants must have an Apple Intelligence-enabled iPhone (iPhone 15 Pro or later) running iOS 26 or later.",
+        "for": "Apple's device requirement.",
+        "by": "reviser"
+      },
+      {
+        "text": "Apple has implemented security measures to protect the study data it maintains",
+        "for": "Apple's only description of its security measures.",
+        "by": "reviser"
       }
     ]
   },
@@ -60,6 +75,16 @@
         "text": "earlier this year, OpenAI said users were asking over 300 million health-related queries",
         "for": "OpenAI's reported volume of weekly health-related queries.",
         "by": "writer"
+      },
+      {
+        "text": "using iPhone 15 or later, and running iOS 26 or later, with Apple Intelligence enabled",
+        "for": "TechCrunch's wording of the device requirement.",
+        "by": "reviser"
+      },
+      {
+        "text": "and it will guide users to specific providers for answers related to concerning medical issues",
+        "for": "Referral of concerning questions to providers.",
+        "by": "reviser"
       }
     ]
   },
