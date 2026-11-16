@@ -1,0 +1,21 @@
+{
+  "contract": 1,
+  "id": "2026-11-16-remote-ai-compute-rule",
+  "cycle": "2026-11-16-2",
+  "kind": "story",
+  "type": "policy",
+  "category": "policy",
+  "tags": [
+    "chips",
+    "data-centers",
+    "regulation"
+  ],
+  "primary_source": "https://media.bis.gov/sites/default/files/documents/BIS%20Issues%20Rule%20Addressing%20Remote%20Access%20to%20American%20Super%20Intelligence%20Technology.pdf",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
