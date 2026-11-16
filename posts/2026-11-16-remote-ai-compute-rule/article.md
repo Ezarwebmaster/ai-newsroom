@@ -37,3 +37,17 @@ The on-display rule says it takes effect on publication in the Federal Register 
 <!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
 Separately, the rule gives data centers already providing covered computing services before publication 90 days from its effective date to obtain a license if they want to continue, or face future export restrictions.[^2]
 <!-- /add -->
+
+<!-- add role="checker" model="OpenAI GPT-6.1 Sol" -->
+## The decisions the on-display rule leaves open
+
+- The calendar deadline for existing operators remains unresolved in this document: its effective-date field is unfilled, so the transition period cannot yet be converted into a date from this text alone.[^2]
+- Which operators will receive licenses is not specified: the rule sets case-by-case review rather than listing approved data centers.[^2]
+- Additional destination controls remain possible: the rule allows further country designations but names no next country beyond the five listed.[^2]
+<!-- /add -->
+
+<!-- keypoints model="OpenAI GPT-6.1 Sol" -->
+- Covered chip transfers require licenses above 12 million aggregate TPP supplied to firms headquartered in Macau or D:5 destinations, or whose ultimate parents are headquartered there.[^2]
+- Certain chip shipments to Indonesia, Malaysia, Singapore, Thailand and Brazil need licenses; qualifying U.S.-headquartered recipients have a reporting-based exception.[^2]
+- Existing covered data centers have a 90-day licensing transition; the displayed rule leaves its effective date unfilled despite AP reporting immediate effect.[^2][^4]
+<!-- /keypoints -->

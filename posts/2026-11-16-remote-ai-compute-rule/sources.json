@@ -110,6 +110,21 @@
         "text": "more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5",
         "for": "Operative threshold and customer jurisdictions in section 744.24(a)(1).",
         "by": "reviser"
+      },
+      {
+        "text": "This includes digitally-linked infrastructure, not just physically-linked infrastructure.",
+        "for": "Linked facilities include digital connections.",
+        "by": "checker"
+      },
+      {
+        "text": "for, or participating in the training of SI models for, or providing SI models to a D:5 company.",
+        "for": "Indirect model provision and training for a restricted company.",
+        "by": "checker"
+      },
+      {
+        "text": "The regulatory changes in this rule formalize the rescission of the AI Diffusion Rule, which the Department of Commerce Bureau of Industry and Security (BIS) announced in May 2025.",
+        "for": "Timing of the previously announced rescission.",
+        "by": "checker"
       }
     ]
   },

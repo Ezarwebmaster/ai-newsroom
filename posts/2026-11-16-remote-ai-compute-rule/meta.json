@@ -15,7 +15,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
-  "image_brief": null
+  "status": "ready",
+  "issues": [
+    "BIS’s announcement PDF and live webpage carry different dates; the article attributes both explicitly.",
+    "The on-display rule leaves its effective date unfilled; verify Federal Register publication before calculating compliance deadlines."
+  ],
+  "image_brief": "Abstract luminous computing blocks linked across a dark grid, with translucent gates filtering some connections and a small cluster of five geometric nodes; restrained blue and amber palette, no text, no logos, no people, no photorealistic scene."
 }

@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "BIS targets remote access to advanced chips through overseas data centers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today, the U.S. Commerce Department’s Bureau of Industry and Security (BIS) released an interim final rule (IFR)—written by and at the direction of the Department of Treasury and the National Security Council—to address remote access to advanced super intelligence (SI) chips and servers."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "The rule adds remote-compute and five-destination licensing requirements.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "First, this rule establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau."
+      },
+      {
+        "source": 2,
+        "quote": "Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of State or the Assistant to the President for National Security Affairs) – countries which present a higher-than-normal risk of diversion."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "BIS announced an interim final rule in a PDF dated November 15, 2026 covering remote access to chips and servers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today, the U.S. Commerce Department’s Bureau of Industry and Security (BIS) released an interim final rule (IFR)—written by and at the direction of the Department of Treasury and the National Security Council—to address remote access to advanced super intelligence (SI) chips and servers."
+      },
+      {
+        "source": 1,
+        "quote": "November 15, 2026"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 8,
+    "claim": "The PDF says November 15, 2026; the live BIS page says November 16, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 15, 2026"
+      },
+      {
+        "source": 5,
+        "quote": "November 16, 2026"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 10,
+    "claim": "BIS states that the rule prevents circumvention through remote computing arrangements.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The rule is designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented through remote computing arrangements involving data centers in third countries."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 11,
+    "claim": "Licensing links covered transfers to capacity and ultimate customers, including indirect access.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5"
+      },
+      {
+        "source": 2,
+        "quote": "for, or participating in the training of SI models for, or providing SI models to a D:5 company."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 15,
+    "claim": "Covered transfers require knowledge of a data center supplying more than 12 million aggregate TPP to firms headquartered in Macau or D:5, or with ultimate parents there.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5"
+      }
+    ],
+    "note": "Read operative section 744.24(a)(1), including its knowledge requirement and covered ECCNs; aggregate TPP is the rule’s metric, not a GPU count."
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "The threshold aggregates one facility or linked facilities, including digital connections that share resources and workloads.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5"
+      },
+      {
+        "source": 2,
+        "quote": "This includes digitally-linked infrastructure, not just physically-linked infrastructure."
+      }
+    ],
+    "note": "Read the linked data center definition in section 744.24(d)(2), which expressly includes resource sharing and workload balancing."
+  },
+  {
+    "id": 9,
+    "line": 17,
+    "claim": "TechCrunch identifies the four named D:5 countries and estimates the threshold at roughly 750 H100 or H200 chips.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "which includes China, Russia, Iran, North Korea, and 18 others."
+      },
+      {
+        "source": 3,
+        "quote": "about 750 Nvidia H100 or H200 chips."
+      }
+    ],
+    "note": "Checked the opened TechCrunch article; the chip equivalence is attributed to that outlet and is approximate, not an independent measurement."
+  },
+  {
+    "id": 10,
+    "line": 19,
+    "claim": "Indirect access includes training or providing models for a D:5 company through a customer outside D:5.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "for, or participating in the training of SI models for, or providing SI models to a D:5 company."
+      }
+    ],
+    "note": "Read the explanation of “for an entity” immediately before this quotation."
+  },
+  {
+    "id": 11,
+    "line": 20,
+    "claim": "Foreign data centers are expected to investigate ownership or control; license review is case by case.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Foreign data centers will be expected to perform robust due diligence on their customers to identify direct or indirect ownership or control by Country Group D:5 or Macau persons."
+      },
+      {
+        "source": 2,
+        "quote": "License applications will be reviewed on a case-by-case basis."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 22,
+    "claim": "A subsequent covered end-use change can require the operator to obtain authorization.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The notification from the exporter, reexporter, or transferor must also specify that the transferor, e.g., the data center operator, must obtain authorization for this change in end-use."
+      }
+    ],
+    "note": "Read section 744.24(e) and the preamble explanation of covered end-use changes as transfers."
+  },
+  {
+    "id": 13,
+    "line": 24,
+    "claim": "The new control’s recommender exemption requires exclusive use and reporting.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The prohibitions under § 744.24 do not apply when the computing power access is being provided exclusively for a ‘commercial recommender system’ under the (b)(2) exception provided the reporting requirements described therein are followed."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 26,
+    "claim": "Generative systems, including combined generative and recommender systems, are excluded from the definition.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This term does not include any SI system designed or used to generate novel text, image, audio, video, software, or other content in response to user inputs, or any system that incorporates such model, regardless of whether the system also performs recommendation functions."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 31,
+    "claim": "The rule adds licensing for certain semiconductor transfers to the five named destinations, described as higher diversion risks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of State or the Assistant to the President for National Security Affairs) – countries which present a higher-than-normal risk of diversion."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 32,
+    "claim": "Qualifying U.S.-headquartered recipients or ultimate parents can use an exception with reporting.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The license requirement for these five countries will not apply to semiconductors destined to companies headquartered in, or whose ultimate parent company is headquartered in, the United States, provided certain reporting requirements are met."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 33,
+    "claim": "AP reports end-user identification for overseas data centers serving firms in the named countries.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 35,
+    "claim": "The rule rescinds AI Diffusion regulations; BIS says they were never enforced and rescission was announced in May 2025.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Finally, the IFR formally rescinds the regulations implementing the Biden-era AI Diffusion Rule. The AI Diffusion Rule has never been enforced."
+      },
+      {
+        "source": 2,
+        "quote": "The regulatory changes in this rule formalize the rescission of the AI Diffusion Rule, which the Department of Commerce Bureau of Industry and Security (BIS) announced in May 2025."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 36,
+    "claim": "The on-display rule uses a publication-date placeholder for effectiveness; AP reports immediate effect.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This rule is effective [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER]."
+      },
+      {
+        "source": 4,
+        "quote": "the Bureau of Industry and Security under the Commerce Department said in issuing the rule that took effect immediately."
+      }
+    ],
+    "note": "These are accurately attributed but differing descriptions; no calendar effective date is inferred."
+  },
+  {
+    "id": 20,
+    "line": 38,
+    "claim": "Existing covered services have 90 days from effectiveness to obtain licenses or face future export restrictions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "prior to the publication date of this rule that wishes to continue providing these services must obtain a license with 90 days of the effective date of this IFR or face future export restrictions."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 44,
+    "claim": "The displayed effective-date placeholder prevents deriving a calendar transition deadline from this document alone.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This rule is effective [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER]."
+      },
+      {
+        "source": 2,
+        "quote": "prior to the publication date of this rule that wishes to continue providing these services must obtain a license with 90 days of the effective date of this IFR or face future export restrictions."
+      }
+    ],
+    "note": "A 90-day offset needs a specified effective date; the displayed text supplies none."
+  },
+  {
+    "id": 22,
+    "line": 45,
+    "claim": "The rule specifies case-by-case review but does not list individual approved operators.",
+    "status": "absence",
+    "note": "Read section 744.24(c) and the licensing discussion: they describe review policy rather than announcing individual license decisions."
+  },
+  {
+    "id": 23,
+    "line": 46,
+    "claim": "The rule permits further designations without naming the next country.",
+    "status": "absence",
+    "note": "Read the five-country provision and additional-designation process; no next destination is identified."
+  },
+  {
+    "id": 24,
+    "line": 50,
+    "claim": "Key point: covered chip transfers are licensed above the specified threshold for the specified headquarters or ultimate-parent jurisdictions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 51,
+    "claim": "Key point: five destination controls have a reporting-conditioned U.S. headquarters exception.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of State or the Assistant to the President for National Security Affairs) – countries which present a higher-than-normal risk of diversion."
+      },
+      {
+        "source": 2,
+        "quote": "The license requirement for these five countries will not apply to semiconductors destined to companies headquartered in, or whose ultimate parent company is headquartered in, the United States, provided certain reporting requirements are met."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 52,
+    "claim": "Key point: existing covered operators have a 90-day transition, while the displayed effective date is unfilled and AP reports immediate effect.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "prior to the publication date of this rule that wishes to continue providing these services must obtain a license with 90 days of the effective date of this IFR or face future export restrictions."
+      },
+      {
+        "source": 2,
+        "quote": "This rule is effective [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER]."
+      },
+      {
+        "source": 4,
+        "quote": "the Bureau of Industry and Security under the Commerce Department said in issuing the rule that took effect immediately."
+      }
+    ]
+  }
+]
