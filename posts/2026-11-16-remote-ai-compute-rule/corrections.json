@@ -30,5 +30,41 @@
         "quote": "The prohibitions under § 744.24 do not apply when the computing power access is being provided exclusively for a ‘commercial recommender system’ under the (b)(2) exception provided the reporting requirements described therein are followed."
       }
     ]
+  },
+  {
+    "id": 3,
+    "by": "checker",
+    "model": "Anthropic Claude Sonnet 5.5",
+    "kind": "fact",
+    "line": 6,
+    "old": "The U.S. Commerce Department's Bureau of Industry and Security announced an interim final rule in a release dated November 15, 2026, addressing remote access to advanced AI chips and servers through data centers in third countries.[^1]",
+    "new": "The U.S. Commerce Department's Bureau of Industry and Security announced an interim final rule on November 16, 2026, addressing remote access to advanced AI chips and servers through data centers in third countries.[^1]",
+    "why": "BIS replaced the PDF on 2026-11-16; it now reads November 16, 2026, so the dated-release hedge is no longer needed.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 16, 2026"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "by": "checker",
+    "model": "Anthropic Claude Sonnet 5.5",
+    "kind": "fact",
+    "line": 8,
+    "old": "The downloadable announcement bears that date, while the live BIS announcement is dated November 16, 2026.[^1][^5]",
+    "new": "The downloadable BIS announcement and the BIS webpage both carry that date.[^1][^5]",
+    "why": "The PDF now reads November 16, 2026, like the webpage, so the two no longer disagree.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 16, 2026"
+      },
+      {
+        "source": 5,
+        "quote": "November 16, 2026"
+      }
+    ]
   }
 ]

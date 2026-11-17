@@ -23,6 +23,16 @@
         "text": "November 15, 2026",
         "for": "The date printed on the downloadable announcement.",
         "by": "reviser",
+        "type": "date",
+        "withdrawn": {
+          "by": "checker",
+          "why": "BIS replaced the PDF on 2026-11-16; it now reads November 16, 2026."
+        }
+      },
+      {
+        "text": "November 16, 2026",
+        "for": "The date printed on the downloadable announcement.",
+        "by": "checker",
         "type": "date"
       }
     ]

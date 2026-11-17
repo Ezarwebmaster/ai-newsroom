@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "line": 3,
+    "claim": "Dek: license controls for remote supply to certain foreign companies and for chip shipments to five countries.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "First, this rule establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau."
+      },
+      {
+        "source": 2,
+        "quote": "Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of State or the Assistant to the President for National Security Affairs) – countries which present a higher-than-normal risk of diversion."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 6,
+    "claim": "BIS announced the interim final rule on November 16, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 16, 2026"
+      },
+      {
+        "source": 5,
+        "quote": "November 16, 2026"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 8,
+    "claim": "The PDF announcement and the BIS webpage both carry November 16, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 16, 2026"
+      },
+      {
+        "source": 5,
+        "quote": "November 16, 2026"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 15,
+    "claim": "A license is needed above 12 million aggregate TPP for companies tied to Macau or Country Group D:5.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 17,
+    "claim": "TechCrunch says D:5 includes China, Russia, Iran and North Korea and that 12 million TPP is about 750 H100 or H200 chips.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The remote-access rules target companies based in the U.S.’s D:5 group of embargoed countries, which includes China, Russia, Iran, North Korea, and 18 others."
+      },
+      {
+        "source": 3,
+        "quote": "Twelve million TPP roughly works out to the max computing power of about 750 Nvidia H100 or H200 chips."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 22,
+    "claim": "A data center changing to a covered end-use must obtain BIS authorization.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The notification from the exporter, reexporter, or transferor must also specify that the transferor, e.g., the data center operator, must obtain authorization for this change in end-use."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 24,
+    "claim": "Computing power used exclusively for commercial recommender systems is exempt, subject to reporting.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The prohibitions under § 744.24 do not apply when the computing power access is being provided exclusively for a ‘commercial recommender system’ under the (b)(2) exception provided the reporting requirements described therein are followed."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 31,
+    "claim": "License requirement for Indonesia, Malaysia, Singapore, Thailand and Brazil, a higher-than-normal risk of diversion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of State or the Assistant to the President for National Security Affairs) – countries which present a higher-than-normal risk of diversion."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 33,
+    "claim": "AP reports overseas data centers serving companies in China, Russia, Iran and Cuba must identify end users.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 35,
+    "claim": "The rule rescinds the AI Diffusion Rule regulations, which BIS says were never enforced.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Finally, the IFR formally rescinds the regulations implementing the Biden-era AI Diffusion Rule. The AI Diffusion Rule has never been enforced."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 36,
+    "claim": "The posted text leaves the effective date as a placeholder; AP says the rule took effect immediately.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This rule is effective [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER]."
+      },
+      {
+        "source": 4,
+        "quote": "the Bureau of Industry and Security under the Commerce Department said in issuing the rule that took effect immediately."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 38,
+    "claim": "Existing services have 90 days from the effective date to obtain a license.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "prior to the publication date of this rule that wishes to continue providing these services must obtain a license with 90 days of the effective date of this IFR or face future export restrictions."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 44,
+    "claim": "The effective date differs between the posted text and AP.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This rule is effective [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER]."
+      },
+      {
+        "source": 4,
+        "quote": "the Bureau of Industry and Security under the Commerce Department said in issuing the rule that took effect immediately."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 45,
+    "claim": "The 90-day window depends on the effective date.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "prior to the publication date of this rule that wishes to continue providing these services must obtain a license with 90 days of the effective date of this IFR or face future export restrictions."
+      },
+      {
+        "source": 2,
+        "quote": "This rule is effective [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER]."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 46,
+    "claim": "The 750-chip equivalence is TechCrunch's estimate; the rule text gives only the TPP figure.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Twelve million TPP roughly works out to the max computing power of about 750 Nvidia H100 or H200 chips."
+      },
+      {
+        "source": 2,
+        "quote": "more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 50,
+    "claim": "BIS announced the rule on November 16, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 16, 2026"
+      },
+      {
+        "source": 5,
+        "quote": "November 16, 2026"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 51,
+    "claim": "License required above 12 million aggregate TPP for Macau or D:5 companies.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 52,
+    "claim": "Licensing for five countries and rescission of the AI Diffusion Rule regulations.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of State or the Assistant to the President for National Security Affairs) – countries which present a higher-than-normal risk of diversion."
+      },
+      {
+        "source": 2,
+        "quote": "Finally, the IFR formally rescinds the regulations implementing the Biden-era AI Diffusion Rule. The AI Diffusion Rule has never been enforced."
+      }
+    ]
+  }
+]

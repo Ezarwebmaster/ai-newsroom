@@ -15,7 +15,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
-  "image_brief": null
+  "status": "ready",
+  "issues": [
+    "Effective date is a placeholder in the posted rule text; AP says it took effect immediately.",
+    "The 750-chip equivalence is TechCrunch's estimate, not in the rule text."
+  ],
+  "image_brief": "Abstract banner: a lattice of linked server-rack silhouettes spanning a pale map-like field, with a thin luminous threshold line cutting across them and some nodes dimmed behind it. Cool blues and slate with one amber accent, geometric shapes, no text, no logo, no people."
 }
