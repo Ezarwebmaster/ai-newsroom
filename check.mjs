@@ -1,21 +1,25 @@
 #!/usr/bin/env node
-// AI Newsroom · the check of a step (check v1.1.0, contract 1).
+// AI Newsroom · the check of a step (check v1.2.0, contract 1).
 //
-//   node check.mjs          checks what your step changed: prints OK, or what to fix
-//   node check.mjs --todo   prints whose turn it is, the files to write and the rules
+//   node check.mjs              checks what your step changed: prints OK, or what to fix
+//   node check.mjs --todo       prints whose turn it is, how to play that role, the files to write and the rules
+//   node check.mjs --contract   prints the sections of CONTRACT.md that role needs
 //
 // The rules are in CONTRACT.md; this script is the authority. A Relay step runs
 // the copy pinned in the capsule (bash ../check.sh), never the one in its own
 // tree. The script compares the working tree with the commit the step started
 // from and only reads. It passes when nothing has changed yet, so the platform
 // can tell a step that broke the check from one that found it broken.
+// The capsule's check command also sets NEWSROOM_PIN to the pinned commit:
+// --todo and --contract read ROLES.md and CONTRACT.md from it, so a step reads
+// only its own role and cannot rewrite anyone's.
 // No dependencies: plain Node 18 or later.
 
 import { execFileSync } from 'node:child_process'
 import { existsSync, lstatSync, readFileSync } from 'node:fs'
-import { join, resolve } from 'node:path'
+import { dirname, join, resolve } from 'node:path'
 
-const VERSION = '1.1.0'
+const VERSION = '1.2.0'
 const CONTRACT = 1
 const RELAY_EMAIL = 'relay@llmtimemachine.com' // committer of every step the platform replays or pushes
 
@@ -75,7 +79,8 @@ const SUMMARY_WORDS = 60
 const WHY_WORDS = 80
 const ASIDE_WORDS = 30
 const ISSUE_WORDS = 30
-const BRIEF_WORDS = 60
+const BRIEF_WORDS = 60 // stories written before check 1.2.0 may have one
+const NO_BRIEF = '"image_brief" stays null: the blog chooses its images elsewhere'
 const MAX_CORRECTIONS = 5 // per step
 const CORRECTION_WORD_DELTA = 15
 const STYLE_KEEP = 0.7 // a style correction keeps this share of the old line's words
@@ -116,6 +121,44 @@ const tryGit = (...args) => { try { return git(...args) } catch { return null } 
 // The command the messages tell the model to run: this file when it sits in
 // the tree, else the pinned copy the capsule writes next to the clone.
 const CMD = ROOT && resolve(process.argv[1] || '').startsWith(`${ROOT}/`) ? 'node check.mjs' : 'bash ../check.sh'
+
+/* ── The texts --todo and --contract print ── */
+
+// From the pinned commit when the check command names it (NEWSROOM_PIN): a step
+// cannot change what the next one reads. Without it (a local run), from the
+// files next to this script, else from the working tree.
+const PIN = (process.env.NEWSROOM_PIN || '').trim()
+function docText(name) {
+  if (PIN) return /^[0-9a-f]{7,40}$/.test(PIN) ? tryGit('show', `${PIN}:${name}`) : null
+  for (const dir of [dirname(resolve(process.argv[1] || '.')), ROOT]) {
+    const p = dir && join(dir, name)
+    if (p && existsSync(p)) return readFileSync(p, 'utf8')
+  }
+  return null
+}
+const docMissing = name => `${name} could not be read${PIN ? ` from the pinned commit ${PIN.slice(0, 12)}` : ''}. Say so in your changelog.`
+// The "## " sections of a Markdown text whose heading passes `keep`, in order.
+// A "## " line inside a code block is an example, not a section.
+function mdSections(text, keep) {
+  const out = []
+  let on = false
+  let fence = false
+  for (const line of text.replace(/\r\n/g, '\n').split('\n')) {
+    if (line.startsWith('```')) fence = !fence
+    else if (!fence && line.startsWith('## ')) on = keep(line.slice(3).trim())
+    if (on) out.push(line)
+  }
+  return out.join('\n').trim()
+}
+// The sections of CONTRACT.md each role needs (the whole file is the reference).
+const CONTRACT_FOR = {
+  scout: [2, 4],
+  editor: [2, 5, 6],
+  writer: [1, 2, 3, 7, 8, 11],
+  reviser: [1, 2, 3, 7, 8, 9, 10, 11],
+  checker: [1, 2, 3, 6, 7, 8, 9, 10, 11, 12],
+  recap: [1, 2, 6, 7, 8, 11, 12, 13],
+}
 
 // The commit this step started from: the last step the platform replayed or
 // pushed (committed as RELAY_EMAIL), else the Relay's base commit, else the
@@ -1022,7 +1065,7 @@ function storyStep(base, S, role, changes) {
       metaDiff(F.meta, metaBefore, meta, ['sensitive', 'status', 'issues', 'image_brief'])
       if (!['ready', 'not_ready'].includes(meta.status)) fail(F.meta, 'the checker sets "status" to "ready" or "not_ready"')
       if (meta.status === 'not_ready' && !meta.issues?.length) fail(F.meta, 'with "not_ready", "issues" lists what is wrong')
-      if (meta.image_brief === null) fail(F.meta, `the checker writes "image_brief": an abstract image in at most ${BRIEF_WORDS} words, no text, no logo, no real person`)
+      if (meta.image_brief !== null) fail(F.meta, NO_BRIEF)
     }
   }
   const srcBefore = role === 'writer' ? [] : jsonAtBase(base, F.src)
@@ -1092,7 +1135,7 @@ function recapStep(base, S, changes, plan) {
     if (!same(meta.covers, plan.covers)) fail(F.meta, `"covers" is ${JSON.stringify(plan.covers)}`)
     if (!['ready', 'not_ready'].includes(meta.status)) fail(F.meta, '"status" is "ready" or "not_ready"')
     if (meta.status === 'not_ready' && !meta.issues?.length) fail(F.meta, 'with "not_ready", "issues" lists what is wrong')
-    if (meta.image_brief === null) fail(F.meta, `"image_brief" describes an abstract image in at most ${BRIEF_WORDS} words`)
+    if (meta.image_brief !== null) fail(F.meta, NO_BRIEF)
   }
   const sources = jsonNow(F.src)
   const corrections = jsonNow(F.corr)
@@ -1141,7 +1184,11 @@ function todo(base, S) {
   p(`AI Newsroom · check ${VERSION} · contract ${CONTRACT} · today ${TODAY} (UTC)`, '', `YOUR ROLE: ${role.toUpperCase()}`)
   if (S.cycle && role !== 'scout') p(`Cycle: ${S.cycle}`)
   if (S.post) p(`Story: posts/${S.post}/`)
-  p('')
+  const roles = docText('ROLES.md')
+  const how = roles ? mdSections(roles, h => h.toLowerCase() === role).replace(/^## .*\n*/, '') : ''
+  p('', `HOW TO PLAY THE ${role.toUpperCase()}:`, how || `MISSING: ${roles ? `ROLES.md has no "## ${role[0].toUpperCase()}${role.slice(1)}" section` : docMissing('ROLES.md')}`,
+    '', `THE CONTRACT FOR YOUR ROLE: run ${CMD} --contract (sections ${CONTRACT_FOR[role].join(', ')} of CONTRACT.md: the format of every file you write).`,
+    '', `YOUR WORKLIST:`)
   const recent = recentStories(base, S, S.cycle && role !== 'scout' ? S.cycle : TODAY)
   const recentList = () => recent.length ? recent.map(r => `  - ${r.id}: ${r.title}${r.primary ? `\n      primary source: ${r.primary}` : ''}`) : ['  (none)']
   const meta = S.post ? jsonAtBase(base, `posts/${S.post}/meta.json`) : null
@@ -1199,7 +1246,7 @@ function todo(base, S) {
       : 'Check every claim of the story, add what readers still do not know, and write the key points.',
       '', `  M posts/${S.post}/article.md`, `  M posts/${S.post}/sources.json       (optional: new sources, new quotations, "withdrawn")`,
       `  M posts/${S.post}/corrections.json   (optional: at most ${MAX_CORRECTIONS})`,
-      ...(role === 'checker' ? [`  M posts/${S.post}/meta.json   ("status" ready or not_ready, "issues", "image_brief")`, `  A posts/${S.post}/claims.json`] : [`  M posts/${S.post}/meta.json   (optional: only "sensitive" false -> true)`]),
+      ...(role === 'checker' ? [`  M posts/${S.post}/meta.json   ("status" ready or not_ready, "issues"; "image_brief" stays null)`, `  A posts/${S.post}/claims.json`] : [`  M posts/${S.post}/meta.json   (optional: only "sensitive" false -> true)`]),
       '  M state.json',
       '', 'Rules:',
       `  - insert your sentences anywhere, one per line, inside <!-- add role="${role}" model="<your name>" --> … <!-- /add --> (whole lines)`,
@@ -1233,11 +1280,25 @@ function todo(base, S) {
       `  - ${RECAP_SECTIONS[0]} to ${RECAP_SECTIONS[1]} "## " sections of ${RECAP_SECTION_WORDS[0]} to ${RECAP_SECTION_WORDS[1]} words, each citing a source; then the line <!-- watch --> and one last "## " section: the story to watch`,
       '  - then a blank line and <!-- keypoints model="<your name>" -->, 3 "- " key points, <!-- /keypoints -->; no add markers',
       '  - link a story of the blog with [[post:<id>]]; at least 3 sources from 3 sites; claims.json as for the checker',
-      '', 'meta.json:', `  ${json({ contract: CONTRACT, id: plan.id, cycle: plan.sunday, kind: 'recap', type: 'recap', category: 'recap', tags: ['<tag>'], primary_source: null, follow_up_of: null, sensitive: false, unconfirmed: false, covers: plan.covers, status: '<ready|not_ready>', issues: [], image_brief: '<abstract image, at most 60 words>' })}`,
+      '', 'meta.json:', `  ${json({ contract: CONTRACT, id: plan.id, cycle: plan.sunday, kind: 'recap', type: 'recap', category: 'recap', tags: ['<tag>'], primary_source: null, follow_up_of: null, sensitive: false, unconfirmed: false, covers: plan.covers, status: '<ready|not_ready>', issues: [], image_brief: null })}`,
       '', `state.json after your step: ${json({ contract: CONTRACT, cycle: S.cycle, next: 'done', post: null, history: [...S.history, { cycle: plan.sunday, post: plan.id, kind: 'recap', status: '<ready|not_ready>' }] })}`)
   }
   p('', `Before you finish: ${CMD} must print OK. It compares your files with the commit your step started from.`)
   console.log(L.join('\n'))
+}
+
+/* ── --contract ── */
+
+function contract(S) {
+  const role = nextRole(S)
+  const nums = CONTRACT_FOR[role]
+  const text = docText('CONTRACT.md')
+  const body = text ? mdSections(text, h => nums.includes(Number(h.match(/^(\d+)\./)?.[1]))) : ''
+  console.log([
+    `AI Newsroom · check ${VERSION} · contract ${CONTRACT} · CONTRACT.md for the ${role.toUpperCase()}: sections ${nums.join(', ')}`,
+    'The check enforces these rules to the letter. If your copy of CONTRACT.md differs, this text is the one in force.',
+    '', body || `MISSING: ${text ? 'the sections were not found in CONTRACT.md' : docMissing('CONTRACT.md')}`,
+  ].join('\n'))
 }
 
 /* ── Main ── */
@@ -1248,6 +1309,7 @@ function main() {
   const S = base ? jsonAtBase(base, 'state.json') : undefined
   if (!stateOk(S)) { console.log(`FAIL · state.json at the commit your step started from (${(base || 'none').slice(0, 7)}) is missing or unreadable`); process.exitCode = 1; return }
   if (process.argv.includes('--todo')) { todo(base, S); return }
+  if (process.argv.includes('--contract')) { contract(S); return }
   const changes = stepChanges(base)
   if (!changes.size) { console.log(`OK · nothing has changed yet (check ${VERSION}). Next step: the ${nextRole(S)}. Run ${CMD} --todo for the worklist.`); return }
   genericFiles(changes)

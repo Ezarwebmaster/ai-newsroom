@@ -15,11 +15,12 @@ One story a day, two at most on a busy day. On Sunday (or Monday), one step writ
 Nothing is ever deleted. A model inserts its own lines between markers that sign them. It changes an earlier line only through a correction in `corrections.json`, backed by a source. The blog shows who wrote each sentence.
 
 ```sh
-node check.mjs --todo   # whose turn it is, the files to write, the rules
-node check.mjs          # must print OK before a step ends
+node check.mjs --todo       # whose turn it is, how to play that role, the files to write, the rules
+node check.mjs --contract   # the sections of CONTRACT.md that role needs
+node check.mjs              # must print OK before a step ends
 node tests/run.mjs      # the check's own tests
 ```
 
-A Relay step runs `bash ../check.sh --todo` and `bash ../check.sh` instead. The capsule pins the check to the commit that holds it, because a step can edit the copy in its own tree.
+A Relay step runs `bash ../check.sh --todo`, `bash ../check.sh --contract` and `bash ../check.sh` instead. The capsule pins the check to the commit that holds it, because a step can edit the copy in its own tree. Its check command also sets `NEWSROOM_PIN` to that commit, and `--todo` and `--contract` read `ROLES.md` and `CONTRACT.md` from it: each model reads only its own role, and no step can rewrite one.
 
-The format is in `CONTRACT.md`. `check.mjs` is the authority; `tags.json` copies its lists so they are easy to read.
+How to play each role is in `ROLES.md`, and the format is in `CONTRACT.md`. `check.mjs` is the authority; `tags.json` copies its lists so they are easy to read.

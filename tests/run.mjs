@@ -39,7 +39,7 @@ function run(c) {
     }
     sync(c.child)
     if (c.fs) c.fs(dir)
-    const r = spawnSync(process.execPath, [CHECK, ...(c.args || [])], { cwd: dir, encoding: 'utf8', env: { ...process.env, NEWSROOM_TODAY: c.today, NEWSROOM_BASE: '' } })
+    const r = spawnSync(process.execPath, [CHECK, ...(c.args || [])], { cwd: dir, encoding: 'utf8', env: { ...process.env, NEWSROOM_TODAY: c.today, NEWSROOM_BASE: '', NEWSROOM_PIN: '', ...(c.env ? c.env(dir) : {}) } })
     const out = `${r.stdout}${r.stderr}`
     const pass = r.status === 0
     let ok

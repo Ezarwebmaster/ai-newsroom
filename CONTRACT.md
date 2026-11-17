@@ -1,6 +1,6 @@
 # The newsroom contract (contract 1)
 
-These are the rules every step follows. `check.mjs` enforces them. Run `node check.mjs --todo` (or `bash ../check.sh --todo` in a Relay step) to see whose turn it is, the exact files to write, the allowed tags, and the article with its line numbers.
+These are the rules every step follows. `check.mjs` enforces them. Run `node check.mjs --todo` (or `bash ../check.sh --todo` in a Relay step) to see whose turn it is, how to play that role (from `ROLES.md`), the exact files to write, the allowed tags, and the article with its line numbers. `--contract` prints the sections of this file that the role needs.
 
 ## 1. Principles
 
@@ -79,10 +79,10 @@ posts/<id>/claims.json                  the checker
   "covers": null, "status": "open", "issues": [], "image_brief": null }
 ```
 
-- **The editor** writes everything, with `"status": "open"`, `"issues": []` and `"image_brief": null`. `type` and `follow_up_of` come from the topic, and `primary_source` is one of its URLs. `tags` holds 1 to 5 allowed tags.
+- **The editor** writes everything, with `"status": "open"`, `"issues": []` and `"image_brief": null`. `image_brief` stays `null`: the blog chooses its images elsewhere (stories written before check 1.2.0 may have one). `type` and `follow_up_of` come from the topic, and `primary_source` is one of its URLs. `tags` holds 1 to 5 allowed tags.
 - **`sensitive`** is true when the story is about people or accusations (section 11). The reviser or the checker may raise it, never lower it.
 - **`unconfirmed`** is only for `company` and `funding` stories known only from the press. They then need 2 `press` sources from different sites, and the dek must say the company has not confirmed.
-- **The checker** sets `status` to `ready` or `not_ready`. With `not_ready`, `issues` lists the problems, in at most 30 words each. A `ready` story may also list reservations. The checker also writes `image_brief`: an abstract image in at most 60 words, with no text, no logo and no real person.
+- **The checker** sets `status` to `ready` or `not_ready`. With `not_ready`, `issues` lists the problems, in at most 30 words each. A `ready` story may also list reservations.
 
 | type | primary source kind | advised category |
 |---|---|---|
@@ -191,7 +191,7 @@ Take the article before your step and apply your corrections at their line numbe
 3. **Never state a cause** ("resigned because of…") without a primary source that gives it. Otherwise write "after" and attribute.
 4. **Attribute every accusation** to at least two outlets you read yourself. "A, citing B" counts only as A.
 5. **Never name a private person** who is not charged. No speculation about private life or health.
-6. **These rules also apply** to the title, the dek, the key points and the image brief.
+6. **These rules also apply** to the title, the dek and the key points.
 
 ## 12. `claims.json` (checker)
 
@@ -209,6 +209,6 @@ Take the article before your step and apply your corrections at their line numbe
 ## 13. The weekly recap
 
 One step, on Sunday or Monday (UTC), when the week of the last story has at least one story and no recap yet.
-- `meta.json`: `"kind": "recap"`, `"type": "recap"`, `"category": "recap"`, `"primary_source": null`, `"covers"` = the week's stories as `--todo` lists them, `"status"` ready or not_ready, and an `image_brief`.
+- `meta.json`: `"kind": "recap"`, `"type": "recap"`, `"category": "recap"`, `"primary_source": null`, `"covers"` = the week's stories as `--todo` lists them, `"status"` ready or not_ready, and `"image_brief": null`.
 - `article.md`, without `add` markers: 5 to 7 `## ` sections of 40 to 120 words, each citing a source; then the line `<!-- watch -->` and one last `## ` section of the same length, on the story to watch; then the key points.
 - At least 3 sources from 3 sites; `corrections.json` is `[]`; `claims.json` as for the checker. The topics set aside during the week can appear.

@@ -146,6 +146,7 @@ recap('no watch line', t => sub(t, `${RCP}/article.md`, '<!-- watch -->\n', ''),
 recap('an add marker', t => sub(t, `${RCP}/article.md`, 'It costs $0.10 per million input tokens, and output tokens are free.[^2]', '<!-- add role="reviser" model="X" -->\nIt costs $0.10 per million input tokens, and output tokens are free.[^2]\n<!-- /add -->'), /no add markers/)
 recap('a link to a post that does not exist', t => sub(t, `${RCP}/article.md`, '[[post:2026-11-13-google-gemini-decision-1]]', '[[post:2026-11-13-google-gemini-decision-2]]'), /\[\[post:2026-11-13-google-gemini-decision-2\]\] is not a post/)
 recap('a section of 20 words', t => sub(t, `${RCP}/article.md`, '\nChief financial officer Colette Kress is interim CEO until the board names a permanent successor.[^1]\nNvidia gave no reason, while CNN and other outlets linked the exit to earlier reports that a woman close to Huang was allegedly working for China.[^7]', ''), /a recap section has 40 to 120 words \(this one has \d+\)/)
+recap('writes an image brief', t => json(t, `${RCP}/meta.json`, v => { v.image_brief = 'A calendar of chips.' }), /"image_brief" stays null/)
 recap('corrections.json is not empty', t => t.set(`${RCP}/corrections.json`, '[{}]\n'), /is \[\] for the recap/)
 
 // ── editor ──
@@ -263,8 +264,8 @@ checker('an unsupported claim on a story not ready', t => {
   json(t, MP, v => { v.status = 'not_ready'; v.issues = ['The dek states a date the release does not give.'] })
   json(t, 'state.json', v => { v.history[0].status = 'not_ready' })
 }, 'OK')
-checker('the status stays open', t => json(t, MP, v => { v.status = 'open' }), /the checker sets "status" to "ready" or "not_ready"/)
-checker('no image brief', t => json(t, MP, v => { v.image_brief = null }), /the checker writes "image_brief"/)
+checker('the status stays open', t => json(t, MP, v => { v.status = 'open'; v.issues = ['The dek is long.'] }), /the checker sets "status" to "ready" or "not_ready"/)
+checker('writes an image brief', t => json(t, MP, v => { v.image_brief = 'A chip on an empty chair.' }), /"image_brief" stays null/)
 checker('not ready without issues', t => { json(t, MP, v => { v.status = 'not_ready' }); json(t, 'state.json', v => { v.history[0].status = 'not_ready' }) }, /with "not_ready", "issues" lists what is wrong/)
 checker('changes the primary source', t => json(t, MP, v => { v.primary_source = 'https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors' }), /"primary_source" cannot change at this step/)
 checker('a history that disagrees with meta', t => json(t, 'state.json', v => { v.history[0].status = 'not_ready' }), /state\.json: must be exactly/)
@@ -332,3 +333,36 @@ const warns = re => (out, pass) => pass && re.test(out)
 writer('a heading that fits any story', t => sub(t, AP, '## Who runs Nvidia now', '## Background'), warns(/warning · .*"Background" could head any story/))
 add('writer: a heading a recent story used', { parent: '07-editor', step: '08-writer', today: '2026-11-13', edit: t => sub(t, `${GEP}/article.md`, '## Availability', '## Markets and the AI supply chain'), expect: warns(/"Markets and the AI supply chain" already heads a section of 2026-11-12-nvidia-ceo-transition/) })
 add('writer: --todo shows how the last story opens', { parent: '07-editor', step: null, today: '2026-11-13', args: ['--todo'], expect: (out, pass) => pass && /How the last story opens/.test(out) && /2026-11-12-nvidia-ceo-transition: "Nvidia said on November 12, 2026/.test(out) && /headings: "Who runs Nvidia now"/.test(out) })
+
+// ── Each role reads its own instructions (ROLES.md) and its sections of CONTRACT.md (check 1.2.0) ──
+const ROLE_LINE = {
+  scout: 'Find three candidate stories from the last three days',
+  editor: 'Pick the one story most worth telling today',
+  writer: 'Read the primary source in full',
+  reviser: 'Make the story more accurate and more complete',
+  checker: 'You are the last model before the editorial team',
+  recap: 'Tell the week in AI to someone who missed it',
+}
+const onlyRole = role => (out, pass) => pass && out.includes(`HOW TO PLAY THE ${role.toUpperCase()}:`) && out.includes(ROLE_LINE[role])
+  && Object.entries(ROLE_LINE).every(([r, l]) => r === role || !out.includes(l)) && /THE CONTRACT FOR YOUR ROLE: run (node check\.mjs|bash \.\.\/check\.sh) --contract/.test(out)
+const AT = { scout: [null, '2026-11-12'], editor: ['01-scout', '2026-11-12'], writer: ['02-editor', '2026-11-12'], reviser: ['03-writer', '2026-11-12'], checker: ['04-reviser', '2026-11-12'], recap: ['10-checker', '2026-11-15'] }
+for (const [role, [parent, today]] of Object.entries(AT)) add(`roles: --todo gives the ${role} its role only`, { parent, step: null, today, args: ['--todo'], expect: onlyRole(role) })
+const sections = (role, want, not) => (out, pass) => pass && out.includes(`CONTRACT.md for the ${role.toUpperCase()}`)
+  && want.every(n => new RegExp(`^## ${n}\\. `, 'm').test(out)) && not.every(n => !new RegExp(`^## ${n}\\. `, 'm').test(out))
+add('roles: --contract gives the scout sections 2 and 4', { parent: null, step: null, args: ['--contract'], expect: sections('scout', [2, 4], [1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13]) })
+add('roles: --contract gives the writer its sections', { parent: '02-editor', step: null, args: ['--contract'], expect: sections('writer', [1, 2, 3, 7, 8, 11], [4, 5, 6, 9, 10, 12, 13]) })
+add('roles: --contract keeps the example headings inside section 7', { parent: '04-reviser', step: null, args: ['--contract'], expect: (out, pass) => pass && /## What the announcement leaves out/.test(out) && /^## 12\. /m.test(out) && !/^## 13\. /m.test(out) })
+add('roles: --contract gives the recap section 13', { parent: '10-checker', step: null, today: '2026-11-15', args: ['--contract'], expect: sections('recap', [1, 2, 6, 7, 8, 11, 12, 13], [3, 4, 5, 9, 10]) })
+// With NEWSROOM_PIN, the texts come from the pinned commit, never from the step's own tree.
+const PINNED = new Map([['ROLES.md', '# The roles\n\n## Writer\nPINNED WRITER TEXT\n\n## Reviser\nPINNED REVISER TEXT\n'], ['CONTRACT.md', '# Contract\n\n## 1. Principles\nPINNED PRINCIPLES\n\n## 4. `topics.json` (scout)\nPINNED TOPICS\n']])
+const pinned = (name, parent, args, expect, edit) => {
+  const parentTree = new Map([...treeAt(W, parent), ...PINNED])
+  const child = new Map(parentTree)
+  if (edit) edit(child)
+  CASES.push({ name: `roles: ${name}`, parents: [parentTree], child, today: '2026-11-12', args, expect, env: dir => ({ NEWSROOM_PIN: execFileSync('git', ['rev-parse', 'HEAD'], { cwd: dir, encoding: 'utf8' }).trim() }) })
+}
+pinned('--todo reads ROLES.md from the pinned commit', '02-editor', ['--todo'], (out, pass) => pass && /HOW TO PLAY THE WRITER:\nPINNED WRITER TEXT/.test(out) && !/PINNED REVISER TEXT/.test(out) && !out.includes(ROLE_LINE.writer))
+pinned('a step that rewrites ROLES.md does not change what --todo prints', '02-editor', ['--todo'], (out, pass) => pass && /PINNED WRITER TEXT/.test(out) && !/TAMPERED/.test(out), t => t.set('ROLES.md', '# The roles\n\n## Writer\nTAMPERED\n'))
+pinned('--contract reads CONTRACT.md from the pinned commit', null, ['--contract'], (out, pass) => pass && /PINNED TOPICS/.test(out) && !/PINNED PRINCIPLES/.test(out))
+CASES.push({ name: 'roles: a pin that cannot be read says so', parents: [treeAt(W, '02-editor')], child: treeAt(W, '02-editor'), today: '2026-11-12', args: ['--todo'], env: () => ({ NEWSROOM_PIN: 'deadbeefdeadbeef' }),
+  expect: (out, pass) => pass && /HOW TO PLAY THE WRITER:\nMISSING: ROLES\.md could not be read from the pinned commit deadbeefdead/.test(out) && /YOUR WORKLIST:/.test(out) })
