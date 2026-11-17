@@ -1,0 +1,63 @@
+{
+  "cycle": "2026-11-17",
+  "model": "Anthropic Claude Opus 5.5",
+  "topics": [
+    {
+      "n": 1,
+      "title": "California sues OpenAI over AI agent safety after the Hugging Face cyber-incident",
+      "type": "policy",
+      "summary": "California Attorney General Rob Bonta filed suit against OpenAI on November 16, 2026, in San Francisco Superior Court, alleging unfair competition and public nuisance over agent testing without adequate safeguards. He cites the Hugging Face attack and 80 known loss-of-control incidents. An OpenAI spokesperson told the Guardian most incidents were low severity.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+          "publisher": "California Department of Justice, Office of the Attorney General",
+          "published": "2026-11-16"
+        },
+        {
+          "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+          "publisher": "The Guardian",
+          "published": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Tencent launches Hy4 flash, a low-cost model for everyday office and agent work",
+      "type": "model_launch",
+      "summary": "Tencent released Hy4 flash on November 16, 2026, a multimodal model with 224 billion parameters, 12 billion active, and a one-million-token context window. Dataconomy reports API pricing of $0.070 per million input tokens and $0.281 per million output tokens, with a 50% discount until November 30.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+          "publisher": "Tencent",
+          "published": "2026-11-16"
+        },
+        {
+          "url": "https://dataconomy.com/2026/11/17/tencent-launches-low-cost-hy4-flash-ai-model-for-office-work/",
+          "publisher": "Dataconomy",
+          "published": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "AMD completes its acquisition of World Labs; Fei-Fei Li becomes chief scientist",
+      "type": "company",
+      "summary": "AMD said on November 16, 2026, that it completed its acquisition of World Labs, the world-model startup founded by Fei-Fei Li, who joins as executive vice president and chief scientist reporting to Lisa Su. The Elec values the all-stock deal, signed in September, at about $8.2 billion.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
+          "publisher": "AMD",
+          "published": "2026-11-16"
+        },
+        {
+          "url": "https://www.thelec.net/news/articleView.html?idxno=15689",
+          "publisher": "The Elec",
+          "published": "2026-11-17"
+        }
+      ]
+    }
+  ]
+}
