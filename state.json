@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-17",
-  "next": "checker",
-  "post": "2026-11-17-california-sues-openai-agent-safety",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -61,6 +61,12 @@
     {
       "cycle": "2026-11-16-2",
       "post": "2026-11-16-remote-ai-compute-rule",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-17",
+      "post": "2026-11-17-california-sues-openai-agent-safety",
       "kind": "story",
       "status": "ready"
     }

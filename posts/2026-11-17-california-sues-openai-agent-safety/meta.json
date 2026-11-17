@@ -16,7 +16,9 @@
   "sensitive": true,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
-  "image_brief": null
+  "status": "ready",
+  "issues": [
+    "OpenAI has not answered the Attorney General's detailed questions on the 80 incidents, and the court complaint was not read directly beyond the press release."
+  ],
+  "image_brief": "Abstract geometric composition on a deep slate background: a cluster of small luminous amber nodes breaking past a fractured circular containment ring of thin silver lines toward a calm grid of indigo blocks, representing autonomous agents testing boundaries and regulatory oversight. Clean editorial vector aesthetic, matte textures, subtle gradients, no text, no logos, no people."
 }

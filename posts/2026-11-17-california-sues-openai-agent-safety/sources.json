@@ -23,6 +23,32 @@
         "text": "While OpenAI has admitted that it lost control of its autonomous AI agents at least 80 times during testing, it has failed to answer the detailed questions our office has asked about these incidents.",
         "for": "The 80 incidents and unanswered questions.",
         "by": "writer"
+      },
+      {
+        "text": "Monday, November 16, 2026",
+        "type": "date",
+        "for": "Press release date.",
+        "by": "checker"
+      },
+      {
+        "text": "Today’s lawsuit alleges OpenAI created a public nuisance creating risk to public safety and violated California’s Unfair Competition Law",
+        "for": "Two legal theories in the complaint.",
+        "by": "checker"
+      },
+      {
+        "text": "In July 2026, agents running on experimental versions of OpenAI’s AI models launched a cyberattack through the public internet on Hugging Face, an open-source AI hosting platform.",
+        "for": "Date and target of the Hugging Face attack.",
+        "by": "checker"
+      },
+      {
+        "text": "Today’s lawsuit alleges that the Hugging Face attack — one of at least 80 cyber incidents — was entirely foreseeable",
+        "for": "At least 80 cyber incidents.",
+        "by": "checker"
+      },
+      {
+        "text": "In September 2026, Attorney General Bonta announced a formal investigation into the Hugging Face incident , and later that month, he served an investigative subpoena on the company",
+        "for": "September 2026 investigation and subpoena.",
+        "by": "checker"
       }
     ]
   },
@@ -50,6 +76,11 @@
         "text": "The Federal Trade Commission is also conducting an industry-wide investigation into OpenAI, Anthropic and other AI labs",
         "for": "FTC probe.",
         "by": "writer"
+      },
+      {
+        "text": "He said most cases identified have been low severity with limited-to-no impact.",
+        "for": "OpenAI statement on severity of misalignment cases.",
+        "by": "checker"
       }
     ]
   },
@@ -77,6 +108,16 @@
         "text": "In August , Iowa Attorney General Brenna Bird led a coalition of 15 states to ask OpenAI to immediately stop tests that led to the hack.",
         "for": "Earlier state action.",
         "by": "writer"
+      },
+      {
+        "text": "In September , a nonprofit, Legal Advocates for Safe Science and Technology Inc., filed a lawsuit against OpenAI over the hack",
+        "for": "September 2026 nonprofit lawsuit.",
+        "by": "checker"
+      },
+      {
+        "text": "However, a state review of the law conducted in October raised questions about whether the law adequately addresses emerging risks.",
+        "for": "October 2026 state review of SB 53.",
+        "by": "checker"
       }
     ]
   },
@@ -109,6 +150,32 @@
         "text": "This access gives assessors the evidence and context to pursue independent evaluations and uncover failures we may not have anticipated",
         "for": "OpenAI's announcement of independent third-party evaluators.",
         "by": "reviser"
+      },
+      {
+        "text": "Nov. 16, 2026 10:42 AM PT",
+        "type": "date",
+        "for": "LA Times publication date.",
+        "by": "checker"
+      },
+      {
+        "text": "Separate from the case in California, OpenAI announced Monday that it will allow four independent third-party evaluators to monitor how its systems behave as they are tested ahead of public release.",
+        "for": "Four independent third-party evaluators announced November 16, 2026.",
+        "by": "checker"
+      },
+      {
+        "text": "An August report found that in 2026, California attracted $366 billion in industry-related venture capital — about 90% of all venture capital in the U.S., and three times more than every other state combined.",
+        "for": "California $366 billion venture capital and 90% share.",
+        "by": "checker"
+      },
+      {
+        "text": "The funding — half of it linked to just two companies, Anthropic and OpenAI — helped the state move from a multibillion-dollar fiscal deficit",
+        "for": "Half of funding linked to OpenAI and Anthropic.",
+        "by": "checker"
+      },
+      {
+        "text": "He said his office is also watching other AI companies “closely,” but declined to elaborate.",
+        "for": "Bonta declined to elaborate on other AI companies.",
+        "by": "checker"
       }
     ]
   }

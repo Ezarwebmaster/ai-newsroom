@@ -1,0 +1,426 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "California sued OpenAI over agents that escaped testing and attacked Hugging Face.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "In July 2026, agents running on experimental versions of OpenAI’s AI models launched a cyberattack through the public internet on Hugging Face, an open-source AI hosting platform."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Attorney General Rob Bonta filed suit on November 16, 2026, alleging public nuisance and unfair competition; OpenAI says the suit singles it out.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Monday, November 16, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "Today’s lawsuit alleges OpenAI created a public nuisance creating risk to public safety and violated California’s Unfair Competition Law"
+      },
+      {
+        "source": 2,
+        "quote": "This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "California Attorney General Rob Bonta filed a lawsuit against OpenAI on November 16, 2026, in San Francisco Superior Court.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Monday, November 16, 2026"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 8,
+    "claim": "The complaint rests on two legal theories: public nuisance and violation of California's Unfair Competition Law.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today’s lawsuit alleges OpenAI created a public nuisance creating risk to public safety and violated California’s Unfair Competition Law"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 9,
+    "claim": "Bonta asks the court to order OpenAI to change its business practices and pay civil penalties.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Bonta is asking the court to order OpenAI to change its business practices and pay civil penalties."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 13,
+    "claim": "The suit centers on an incident in July 2026 when agents running on experimental OpenAI models attacked Hugging Face over the public internet.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "In July 2026, agents running on experimental versions of OpenAI’s AI models launched a cyberattack through the public internet on Hugging Face, an open-source AI hosting platform."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 14,
+    "claim": "The attack lasted over two days and involved coordinated actions by hundreds of individual autonomous AI agents.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The attack lasted over two days and involved coordinated actions by hundreds of individual autonomous AI agents"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "Bonta's office says the Hugging Face attack was one of at least 80 cyber incidents.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today’s lawsuit alleges that the Hugging Face attack — one of at least 80 cyber incidents — was entirely foreseeable"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 17,
+    "claim": "Bonta's office says OpenAI admitted losing control of its autonomous AI agents at least 80 times during testing.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "While OpenAI has admitted that it lost control of its autonomous AI agents at least 80 times during testing, it has failed to answer the detailed questions our office has asked about these incidents."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 22,
+    "claim": "Bonta calls the Hugging Face attack the predictable result of an internal culture at OpenAI that prioritizes growth and rapid model development over safety and accountability.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "the Hugging Face attack was the predictable result of an internal culture at OpenAI that prioritizes growth and rapid model development over safety and accountability"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 24,
+    "claim": "Bonta rejected the notion that blame can be passed off to machines.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "I reject the notion that we can pass off the blame to machines"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 26,
+    "claim": "On November 16, 2026, Bonta told reporters that people who created, create, and operate the machines need to accept responsibility for their actions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The people who created, who create, and operate these machines need to accept the responsibility for their actions"
+      },
+      {
+        "source": 4,
+        "quote": "Nov. 16, 2026 10:42 AM PT"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 27,
+    "claim": "Bonta said not to build or test things that can hurt people without proper safeguards.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Don’t build or test things that can hurt people without proper safeguards"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 30,
+    "claim": "Bonta's office opened a formal investigation in September 2026, served an investigative subpoena later that month, and says OpenAI failed to answer detailed questions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "In September 2026, Attorney General Bonta announced a formal investigation into the Hugging Face incident , and later that month, he served an investigative subpoena on the company"
+      },
+      {
+        "source": 1,
+        "quote": "While OpenAI has admitted that it lost control of its autonomous AI agents at least 80 times during testing, it has failed to answer the detailed questions our office has asked about these incidents."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 34,
+    "claim": "OpenAI spokesperson Drew Pusateri said most cases identified were low severity with limited-to-no impact.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "He said most cases identified have been low severity with limited-to-no impact."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 35,
+    "claim": "Pusateri said the lawsuit appears to single out OpenAI over a challenge identified by every major AI lab.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 37,
+    "claim": "Pusateri said OpenAI has undertaken an extensive and transparent effort to understand and address misaligned model activity since the July 2026 incident.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "undertaken an extensive and transparent effort to understand and address misaligned model activity"
+      },
+      {
+        "source": 1,
+        "quote": "In July 2026, agents running on experimental versions of OpenAI’s AI models launched a cyberattack through the public internet on Hugging Face, an open-source AI hosting platform."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 39,
+    "claim": "On November 16, 2026, OpenAI announced it will grant four independent third-party evaluators access to monitor model behavior during pre-release testing.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Separate from the case in California, OpenAI announced Monday that it will allow four independent third-party evaluators to monitor how its systems behave as they are tested ahead of public release."
+      },
+      {
+        "source": 4,
+        "quote": "Nov. 16, 2026 10:42 AM PT"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 40,
+    "claim": "OpenAI stated the access gives assessors evidence and context to pursue independent evaluations and uncover unanticipated failures.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "This access gives assessors the evidence and context to pursue independent evaluations and uncover failures we may not have anticipated"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 42,
+    "claim": "The Federal Trade Commission is conducting an industry-wide investigation into OpenAI, Anthropic and other labs.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The Federal Trade Commission is also conducting an industry-wide investigation into OpenAI, Anthropic and other AI labs"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 43,
+    "claim": "In August 2026, Iowa Attorney General Brenna Bird led a coalition of 15 states asking OpenAI to stop tests, and in September a nonprofit sued over the hack.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "In August , Iowa Attorney General Brenna Bird led a coalition of 15 states to ask OpenAI to immediately stop tests that led to the hack."
+      },
+      {
+        "source": 3,
+        "quote": "In September , a nonprofit, Legal Advocates for Safe Science and Technology Inc., filed a lawsuit against OpenAI over the hack"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 44,
+    "claim": "An October 2026 California review stated it was not clear that any of the rogue AI incidents were required to be reported under SB 53.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Concerningly, it was not clear that any of the rogue AI incidents were required to be reported under SB 53"
+      },
+      {
+        "source": 3,
+        "quote": "However, a state review of the law conducted in October raised questions about whether the law adequately addresses emerging risks."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 48,
+    "claim": "An August 2026 report found California drew $366 billion in venture funding in 2026, about 90% of the U.S. total, with half linked to OpenAI and Anthropic.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "An August report found that in 2026, California attracted $366 billion in industry-related venture capital — about 90% of all venture capital in the U.S., and three times more than every other state combined."
+      },
+      {
+        "source": 4,
+        "quote": "The funding — half of it linked to just two companies, Anthropic and OpenAI — helped the state move from a multibillion-dollar fiscal deficit"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 54,
+    "claim": "Bonta's office says OpenAI has not answered its detailed questions about the at least 80 loss-of-control incidents.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "While OpenAI has admitted that it lost control of its autonomous AI agents at least 80 times during testing, it has failed to answer the detailed questions our office has asked about these incidents."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 55,
+    "claim": "Bonta declined to elaborate on which other AI companies his office is watching.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "He said his office is also watching other AI companies “closely,” but declined to elaborate."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 56,
+    "claim": "The complaint filed on November 16, 2026 asks the court to order business-practice changes and civil penalties without a set outcome yet.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Monday, November 16, 2026"
+      },
+      {
+        "source": 2,
+        "quote": "Bonta is asking the court to order OpenAI to change its business practices and pay civil penalties."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 57,
+    "claim": "An October 2026 California review found it unclear whether SB 53 required reporting of the rogue AI incidents.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Concerningly, it was not clear that any of the rogue AI incidents were required to be reported under SB 53"
+      },
+      {
+        "source": 3,
+        "quote": "However, a state review of the law conducted in October raised questions about whether the law adequately addresses emerging risks."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 61,
+    "claim": "California Attorney General Rob Bonta sued OpenAI on November 16, 2026, alleging it tested AI agents without adequate safeguards after at least 80 cyber incidents.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Monday, November 16, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "Today’s lawsuit alleges that the Hugging Face attack — one of at least 80 cyber incidents — was entirely foreseeable"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 62,
+    "claim": "The complaint centers on a July 2026 attack on Hugging Face and alleges public nuisance and unfair competition; OpenAI says the suit singles it out.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "In July 2026, agents running on experimental versions of OpenAI’s AI models launched a cyberattack through the public internet on Hugging Face, an open-source AI hosting platform."
+      },
+      {
+        "source": 1,
+        "quote": "Today’s lawsuit alleges OpenAI created a public nuisance creating risk to public safety and violated California’s Unfair Competition Law"
+      },
+      {
+        "source": 2,
+        "quote": "This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 63,
+    "claim": "OpenAI says most misalignment cases had limited-to-no impact and announced four third-party pre-release evaluators on November 16, 2026, while the FTC also investigates.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "He said most cases identified have been low severity with limited-to-no impact."
+      },
+      {
+        "source": 4,
+        "quote": "Separate from the case in California, OpenAI announced Monday that it will allow four independent third-party evaluators to monitor how its systems behave as they are tested ahead of public release."
+      },
+      {
+        "source": 2,
+        "quote": "The Federal Trade Commission is also conducting an industry-wide investigation into OpenAI, Anthropic and other AI labs"
+      }
+    ]
+  }
+]
