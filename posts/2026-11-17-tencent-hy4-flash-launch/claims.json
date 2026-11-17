@@ -1,0 +1,718 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Tencent launched Hy4 flash, a model with 12 billion active parameters priced at $0.070 per million input tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "with only 12 billion active parameters"
+      },
+      {
+        "source": 1,
+        "quote": "priced at approximately US$0.070 per million input tokens"
+      }
+    ],
+    "note": "Tencent gives the price as approximately US$0.070; the title leaves out \"approximately\"."
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Tencent released the multimodal Hy4 flash on November 16, 2026 for everyday work, and its cost and quality claims come from its own tests.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 16, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "supports multimodal inputs"
+      },
+      {
+        "source": 1,
+        "quote": "recommends Hy4 flash for most everyday tasks"
+      },
+      {
+        "source": 2,
+        "quote": "Both results come from company-run tests"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Tencent launched Hy4 flash on November 16, 2026 and calls it the most cost-effective Hy model.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 16, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "It is the most cost-effective Hy model to date"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Tencent says Hy4 flash has 224 billion total parameters, 64 billion of them Engram parameters, 12 billion active, and a context of up to 1M tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Hy4 flash has 224 billion total parameters (including 64 billion Engram parameters) with only 12 billion active parameters"
+      },
+      {
+        "source": 1,
+        "quote": "a context length of up to 1M tokens"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "The model accepts multimodal input.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "It accepts multimodal input"
+      },
+      {
+        "source": 1,
+        "quote": "supports multimodal inputs"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 10,
+    "claim": "Tencent says the KV cache is 1/24 of Hy3's and 1/6 of Hy4's, and decoding exceeds 150 tokens per second.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The KV cache size is just 1/24 that of Hy3 and 1/6 that of Hy4."
+      },
+      {
+        "source": 1,
+        "quote": "Hy4 flash achieves decoding speeds exceeding 150 tokens per second"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 11,
+    "claim": "Tencent says reinforcement learning cut average task output tokens by 50 percent.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Reinforcement learning cuts average end-to-end task output tokens by 50 percent."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "Tencent prices the model at about US$0.070 per million input tokens and US$0.281 per million output tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "priced at approximately US$0.070 per million input tokens"
+      },
+      {
+        "source": 1,
+        "quote": "US$0.281 per million output tokens"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 18,
+    "claim": "Cached input costs US$0.003 per million tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "US$0.003 per million cached input tokens"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 20,
+    "claim": "Tbreak gives the same prices; the Italian site rounds them to 7 and 28 cents.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Hy4 flash costs about US$0.070 per million input tokens and US$0.281 per million output tokens"
+      },
+      {
+        "source": 3,
+        "quote": "The API costs roughly 7 cents per million input tokens and 28 cents for output."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 22,
+    "claim": "Tbreak, citing Superpower Daily, puts the prices roughly 92 and 89 percent below the full Hy4.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "According to Superpower Daily"
+      },
+      {
+        "source": 2,
+        "quote": "roughly 92% and 89% less than full Hy4"
+      }
+    ],
+    "note": "Attributed as the source does; Tencent's release gives no percentage, only a reduction from Hy4."
+  },
+  {
+    "id": 12,
+    "line": 24,
+    "claim": "Until November 30, 2026, the model is free on WorkBuddy and 50 percent off via Tencent Cloud TokenHub.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "From now till November 30, users can access Hy4 flash for free on WorkBuddy"
+      },
+      {
+        "source": 1,
+        "quote": "get 50 percent off standard pricing via Tencent Cloud TokenHub"
+      }
+    ],
+    "note": "The release writes November 30 without a year; it is dated November 16, 2026."
+  },
+  {
+    "id": 13,
+    "line": 28,
+    "claim": "On WorkIndex, Tencent puts the per-task cost at 1/13 of Hy4 Preview and 1/20 of Hy4.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "delivers a per-task cost of just 1/13 that of Hy4 Preview, 1/20 that of Hy4"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 30,
+    "claim": "Tencent puts the per-task cost at 1/8 of DeepSeek-V4.1-Flash-1017 at Max tier and peak-hour pricing.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "and 1/8 that of DeepSeek-V4.1-Flash-1017 (Max tier, peak-hour pricing)"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 33,
+    "claim": "Atomic Agent describes WorkIndex as the average of 8 internal office tasks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "a composite score called WorkIndex, the average of 8 internal office tasks"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 35,
+    "claim": "Tencent says 85 internal WorkBuddy users rated outputs across 259 tasks in 27 categories.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "85 internal Tencent WorkBuddy users across 259 tasks in 27 categories"
+      },
+      {
+        "source": 2,
+        "quote": "85 Tencent WorkBuddy users rated outputs across 259 tasks in 27 categories"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 36,
+    "claim": "Tencent reports user satisfaction close to Claude Haiku 5.5 in the blind test.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Hy4 flash achieved user satisfaction close to Claude Haiku 5.5"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 37,
+    "claim": "Tencent says Hy4 flash slightly outperforms the larger Hy4 Preview.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Hy4 flash slightly outperforms the larger Hy4 Preview"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 39,
+    "claim": "Atomic Agent reports that DeepSeek V4.1 Flash 1017 won the blind test on satisfaction.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "DeepSeek V4.1 Flash 1017 won on satisfaction, 0.28 points ahead of Haiku and 0.30 ahead of Hy4 Flash."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 40,
+    "claim": "On a 1-to-4 scale, Hy4 flash scored 2.79, Claude Haiku 5.5 2.81 and DeepSeek V4.1 Flash 1017 3.09.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "average satisfaction on a 1 to 4 scale was 2.79 for Hy4 Flash and 2.81 for Claude Haiku 5.5"
+      },
+      {
+        "source": 3,
+        "quote": "Ahead of everyone sits DeepSeek V4.1 Flash 1017, with 3.09 satisfaction"
+      }
+    ],
+    "note": "Atomic Agent's gaps (0.28 and 0.30 points behind DeepSeek) match these scores."
+  },
+  {
+    "id": 21,
+    "line": 41,
+    "claim": "DeepSeek took 10.3 minutes per task, Hy4 flash 6.7 and Claude Haiku 5.5 6.8.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "taking 10.3 minutes"
+      },
+      {
+        "source": 3,
+        "quote": "with 6.7 minutes against 6.8 to finish the job."
+      },
+      {
+        "source": 5,
+        "quote": "Hy4 Flash was the fastest by 0.1 minutes."
+      }
+    ],
+    "note": "The Italian site gives 6.7 and 6.8 in the order Hy4 Flash, Claude Haiku 5.5; Atomic Agent confirms Hy4 Flash was fastest by 0.1 minutes. Atomic Agent's table calls them median times."
+  },
+  {
+    "id": 22,
+    "line": 42,
+    "claim": "Tencent says Hy4 flash had the shortest task time and a much lower per-task cost than every other model evaluated.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "with the significantly lower per-task cost among all models evaluated and the shortest task completion time"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 43,
+    "claim": "Atomic Agent lists the cost per task at ¥0.26 for Hy4 flash, ¥4.73 for Claude Haiku 5.5 and ¥1.20 for DeepSeek at its peak rate.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Hy4 Flash cost ¥0.26 per task, Haiku ¥4.73, and DeepSeek ¥1.20 at its peak rate."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 46,
+    "claim": "Tencent recommends Hy4 flash for everyday tasks such as deep research, document processing and slide decks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "recommends Hy4 flash for most everyday tasks, including deep research, document processing, PowerPoint deck generation"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 47,
+    "claim": "Tencent directs users to Hy4 for complex tasks such as long-horizon software engineering.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "directing users to the more capable Hy4 for complex tasks such as long-horizon software engineering"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 48,
+    "claim": "The Italian site says Hy4 flash trails Hy4 in programming and is not an obvious pick for a coding agent.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "As the brain of a coding agent it is not an obvious pick."
+      },
+      {
+        "source": 3,
+        "quote": "On Terminal-Bench 4.0 it scores 19.2 against 44.4 for Hy4"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 50,
+    "claim": "In Tencent's own Terminal-Bench 4.0 runs, Hy4 flash scores 19.2, Hy4 44.4 and DeepSeek V4.1 Flash 1017 40.0.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "On Terminal-Bench 4.0 it scores 19.2 against 44.4 for Hy4 and 40.0 for DeepSeek V4.1 Flash 1017"
+      },
+      {
+        "source": 5,
+        "quote": "Tencent ran all models itself, at the highest reasoning setting each offers."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 51,
+    "claim": "In Atomic Agent's own coding test, Hy4 flash passed all 59 hidden tests in four of six runs, for about two cents per task.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "In our own coding agent test, Hy4 Flash passed all 59 hidden tests in four of six runs, for about two cents per task."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 56,
+    "claim": "Tencent says the model is available on TokenHub, WorkBuddy, Yuanbao, WeCom, QQ, ima and Marvis.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Hy4 flash is now available across Tencent Cloud TokenHub, WorkBuddy, Yuanbao, WeCom, QQ, ima, and Marvis"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 58,
+    "claim": "Tencent's release says OpenRouter integration is coming soon.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "with OpenRouter integration coming soon"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 59,
+    "claim": "Tbreak, citing Unite.AI, gives a 960,000-token input limit, a 64,000-token output limit and three supported API protocols.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "according to Unite.AI"
+      },
+      {
+        "source": 2,
+        "quote": "It has a 960,000-token maximum input and 64,000-token maximum output,"
+      },
+      {
+        "source": 2,
+        "quote": "and supports the OpenAI Chat Completions, OpenAI Responses, and Anthropic Messages protocols."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "line": 62,
+    "claim": "Hy4 flash is already on OpenRouter, served only by Tencent, at a discounted US$0.035 input and US$0.1405 output per million tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Hy4 Flash and Hy4 are both available through OpenRouter today"
+      },
+      {
+        "source": 5,
+        "quote": "shows one provider, Tencent, at $0.07 input and $0.281 output per million tokens, shown at 50% off as $0.035 and $0.1405."
+      }
+    ],
+    "note": "OpenRouter's own page for tencent/hy4-flash, read on November 17, 2026, shows the same prices with Tencent Cloud as provider."
+  },
+  {
+    "id": 33,
+    "line": 64,
+    "claim": "Tencent plans to open-source Hy4 flash and gives no date.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Tencent Hy also plans to open-source Hy4 flash"
+      },
+      {
+        "source": 3,
+        "quote": "The open weights are a promise with no date and no license"
+      }
+    ],
+    "note": "Read the whole release: it gives no date for the weights."
+  },
+  {
+    "id": 34,
+    "line": 66,
+    "claim": "The Italian site says the open weights have no date and no license, and there is no model card or architecture paper.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The open weights are a promise with no date and no license; there is no model card and no paper on the architecture."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 68,
+    "claim": "Hy4 was released on November 4, 2026, and AI Journal says it entered the top tier of open-source models.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "November 4 release of Hy4, which entered the top tier of open-source models"
+      },
+      {
+        "source": 1,
+        "quote": "Hy4, released on November 4"
+      }
+    ],
+    "note": "Both pages give November 4 without a year; both are dated November 16, 2026."
+  },
+  {
+    "id": 36,
+    "line": 70,
+    "claim": "Tencent says Hy4 ranks second among Chinese models on the Artificial Analysis Intelligence Index.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Tencent says it ranks second among Chinese models on the Artificial Analysis Intelligence Index"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "line": 73,
+    "claim": "The performance figures Tencent reports come from tests it ran itself.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Both results come from company-run tests"
+      },
+      {
+        "source": 5,
+        "quote": "Tencent ran all models itself, at the highest reasoning setting each offers."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "line": 74,
+    "claim": "Tencent built both WorkIndex and the blind test, with its own users and tasks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Tencent built both WorkIndex and the blind test, with its own users and tasks of its own choosing."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "line": 75,
+    "claim": "Independent comparisons are not available yet.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "independent comparisons aren’t available yet"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "line": 77,
+    "claim": "Artificial Analysis and Vals have not published results for Hy4 flash.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Artificial Analysis and Vals have not published results for Hy4 Flash yet."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "line": 79,
+    "claim": "Tencent's release does not say in which countries the API is accessible or under what data terms.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The press release doesn't say in which countries the API is accessible or under what data terms."
+      }
+    ],
+    "note": "Checked against the whole release: it lists platforms but no countries and no data terms."
+  },
+  {
+    "id": 42,
+    "line": 84,
+    "claim": "Atomic Agent's coding test was a single task and says nothing about long software projects.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "This is one task, so it says nothing about long software projects"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "line": 85,
+    "claim": "Tencent priced DeepSeek at its peak-hour rate, and DeepSeek costs half off-peak.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "1/8 that of DeepSeek-V4.1-Flash-1017 (Max tier, peak-hour pricing)"
+      },
+      {
+        "source": 5,
+        "quote": "and prices DeepSeek at its peak-hour rate. Off-peak, DeepSeek costs half."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "line": 85,
+    "claim": "Tencent gives no cost comparison at DeepSeek's off-peak price.",
+    "status": "absence",
+    "note": "Read the whole release: its DeepSeek comparison uses only Max tier and peak-hour pricing."
+  },
+  {
+    "id": 45,
+    "line": 86,
+    "claim": "No Hy4 flash weights are on Hugging Face, ModelScope or GitHub, and llama.cpp does not support the model's new layers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Tencent has not released the weights, and we found no Hy4 Flash repository on Hugging Face, ModelScope, or GitHub."
+      },
+      {
+        "source": 5,
+        "quote": "llama.cpp supports Hy4-preview, but not the new hybrid attention, LatentMoE, and Engram layers in Flash."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "line": 90,
+    "claim": "Key point: Tencent launched the multimodal Hy4 flash, with 12 billion active parameters, on November 16, 2026, at about US$0.070 per million input tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 16, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "supports multimodal inputs"
+      },
+      {
+        "source": 1,
+        "quote": "with only 12 billion active parameters"
+      },
+      {
+        "source": 1,
+        "quote": "priced at approximately US$0.070 per million input tokens"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "line": 91,
+    "claim": "Key point: in Tencent's blind test Hy4 flash scored 2.79 of 4, near Claude Haiku 5.5's 2.81 at far lower cost; DeepSeek V4.1 Flash 1017 scored 3.09.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "2.79 for Hy4 Flash and 2.81 for Claude Haiku 5.5"
+      },
+      {
+        "source": 3,
+        "quote": "DeepSeek V4.1 Flash 1017, with 3.09 satisfaction"
+      },
+      {
+        "source": 5,
+        "quote": "Hy4 Flash cost ¥0.26 per task, Haiku ¥4.73"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "line": 92,
+    "claim": "Key point: Tencent ran its own tests, which show Hy4 flash behind Hy4 at coding; no Artificial Analysis or Vals results, and no date for open weights.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Tencent ran all models itself"
+      },
+      {
+        "source": 3,
+        "quote": "On Terminal-Bench 4.0 it scores 19.2 against 44.4 for Hy4"
+      },
+      {
+        "source": 5,
+        "quote": "Artificial Analysis and Vals have not published results for Hy4 Flash yet."
+      },
+      {
+        "source": 3,
+        "quote": "The open weights are a promise with no date and no license"
+      }
+    ]
+  }
+]

@@ -22,7 +22,16 @@
       { "text": "The KV cache size is just 1/24 that of Hy3 and 1/6 that of Hy4.", "for": "KV cache size.", "by": "reviser" },
       { "text": "Hy4 flash achieves decoding speeds exceeding 150 tokens per second", "for": "Decoding speed.", "by": "reviser" },
       { "text": "Reinforcement learning cuts average end-to-end task output tokens by 50 percent.", "for": "Shorter outputs.", "by": "reviser" },
-      { "text": "QQ, ima, and Marvis, with OpenRouter integration coming soon", "for": "OpenRouter plan.", "by": "reviser" }
+      { "text": "QQ, ima, and Marvis, with OpenRouter integration coming soon", "for": "OpenRouter plan.", "by": "reviser" },
+      { "type": "date", "text": "November 16, 2026", "for": "Date of the release.", "by": "checker" },
+      { "text": "It is the most cost-effective Hy model to date", "for": "Tencent's description of the model.", "by": "checker" },
+      { "text": "supports multimodal inputs and a context length of up to 1M tokens", "for": "Multimodal input and context length.", "by": "checker" },
+      { "text": "priced at approximately US$0.070 per million input tokens", "for": "Input price.", "by": "checker" },
+      { "text": "delivers a per-task cost of just 1/13 that of Hy4 Preview, 1/20 that of Hy4", "for": "WorkIndex per-task cost against Hy4 Preview and Hy4.", "by": "checker" },
+      { "text": "Hy4 flash slightly outperforms the larger Hy4 Preview", "for": "Comparison with Hy4 Preview.", "by": "checker" },
+      { "text": "recommends Hy4 flash for most everyday tasks, including deep research, document processing, PowerPoint deck generation", "for": "Recommended everyday uses.", "by": "checker" },
+      { "text": "directing users to the more capable Hy4 for complex tasks such as long-horizon software engineering", "for": "Hy4 for complex tasks.", "by": "checker" },
+      { "text": "Hy4, released on November 4, joined the ranks of the world’s leading open-source AI models", "for": "Release date of Hy4.", "by": "checker" }
     ]
   },
   {
@@ -95,7 +104,15 @@
       { "text": "Hy4 Flash cost ¥0.26 per task, Haiku ¥4.73, and DeepSeek ¥1.20 at its peak rate.", "for": "Cost per task.", "by": "reviser" },
       { "text": "Tencent ran all models itself, at the highest reasoning setting each offers.", "for": "Who ran the benchmarks.", "by": "reviser" },
       { "text": "In our own coding agent test, Hy4 Flash passed all 59 hidden tests in four of six runs, for about two cents per task.", "for": "Atomic Agent's own coding test.", "by": "reviser" },
-      { "text": "Artificial Analysis and Vals have not published results for Hy4 Flash yet.", "for": "No independent results yet.", "by": "reviser" }
+      { "text": "Artificial Analysis and Vals have not published results for Hy4 Flash yet.", "for": "No independent results yet.", "by": "reviser" },
+      { "text": "Tencent also reports a composite score called WorkIndex, the average of 8 internal office tasks", "for": "What WorkIndex measures.", "by": "checker" },
+      { "text": "Hy4 Flash was the fastest by 0.1 minutes.", "for": "Hy4 flash had the shortest task time, just ahead of Claude Haiku 5.5.", "by": "checker" },
+      { "text": "Hy4 Flash and Hy4 are both available through OpenRouter today", "for": "OpenRouter availability.", "by": "checker" },
+      { "text": "shows one provider, Tencent, at $0.07 input and $0.281 output per million tokens, shown at 50% off as $0.035 and $0.1405.", "for": "OpenRouter provider and discounted prices.", "by": "checker" },
+      { "text": "This is one task, so it says nothing about long software projects", "for": "Limit of Atomic Agent's coding test.", "by": "checker" },
+      { "text": "and prices DeepSeek at its peak-hour rate. Off-peak, DeepSeek costs half.", "for": "Tencent used DeepSeek's peak-hour price; off-peak it is half.", "by": "checker" },
+      { "text": "Tencent has not released the weights, and we found no Hy4 Flash repository on Hugging Face, ModelScope, or GitHub.", "for": "No weights released.", "by": "checker" },
+      { "text": "llama.cpp supports Hy4-preview, but not the new hybrid attention, LatentMoE, and Engram layers in Flash.", "for": "No llama.cpp support for Flash's new layers.", "by": "checker" }
     ]
   }
 ]
