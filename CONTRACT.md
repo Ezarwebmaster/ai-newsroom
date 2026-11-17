@@ -25,6 +25,8 @@ posts/<id>/claims.json                  the checker
 
 - `<cycle>` is a UTC date, `YYYY-MM-DD`. A second story the same day is the cycle `<date>-2`; a day never has a third. A story's `<id>` is `<date>-<slug>`: lower-case words joined by `-`, at most 60 characters after the date. The weekly recap is `<sunday>-week-<WW>-recap`.
 - Files are UTF-8 with LF line endings, no trailing spaces, and one final newline. JSON files refuse unknown keys.
+- A JSON file is laid out over several lines, one key per line or one item per line in a list, as the examples below show. The check refuses a JSON file of more than 120 characters written on one line.
+- `"model"`, in every file and marker, is the name the Relay notes give you ("You are …"), never a model id such as `provider/model`.
 - A step changes exactly the files of its role. Deleting, renaming or adding any other file fails, and so do symbolic links, executable files and files over 200 KB.
 
 ## 3. Whose turn it is: `state.json`
@@ -114,7 +116,7 @@ China's foreign ministry called the allegation "unsubstantiated" on November 9, 
 The board said it had "no reason to believe that either national security or NVIDIA secrets were compromised".[^5]
 
 <!-- add role="checker" model="Model C" -->
-## What we don't know yet
+## No reason given for the resignation
 
 - Why Huang resigned: neither the release nor the 8-K gives a reason.[^1][^2]
 <!-- /add -->
@@ -129,7 +131,7 @@ The board said it had "no reason to believe that either national security or NVI
 - **The header** is exactly 4 lines, then one blank line. Its values are JSON strings. The title has at most 110 characters, the dek at most 40 words.
 - **Blocks** are separated by exactly one blank line (with the markers left out): a `## ` or `### ` heading on its own line, a paragraph with **one sentence per line**, or a list of `- ` items.
 - **Markers** are whole lines, written exactly as above. The writer's lines carry no marker. The reviser's and the checker's lines go inside their own `add` blocks, anywhere in the text: between two sentences of a paragraph, or around whole blocks (put the blank lines you need inside your block). Blocks never nest. The checker ends the file with the key points: a blank line, then 3 `- ` items of at most 30 words each.
-- **Citations** are `[^n]`, with `n` the `id` of a source, all together at the end of the line, after the final punctuation. Every paragraph cites a source. Every line with a number or a quotation has its own citation. Every list item and every key point cites a source, except the items of a "What we don't know yet" list that state an absence.
+- **Citations** are `[^n]`, with `n` the `id` of a source, all together at the end of the line, after the final punctuation. Every paragraph cites a source. Every line with a number or a quotation has its own citation. Every list item and every key point cites a source, except the items of the checker's list of what readers do not know yet, when they state an absence.
 - **Forbidden:** a `# ` title, HTML, images, links, URLs, tables, code blocks and `> ` quotes. Inline code is allowed. The recap links a story of the blog with `[[post:<id>]]`.
 - **Word budgets** count your added lines, headings included, citations left out:
 

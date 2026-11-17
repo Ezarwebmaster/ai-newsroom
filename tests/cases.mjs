@@ -366,3 +366,35 @@ pinned('a step that rewrites ROLES.md does not change what --todo prints', '02-e
 pinned('--contract reads CONTRACT.md from the pinned commit', null, ['--contract'], (out, pass) => pass && /PINNED TOPICS/.test(out) && !/PINNED PRINCIPLES/.test(out))
 CASES.push({ name: 'roles: a pin that cannot be read says so', parents: [treeAt(W, '02-editor')], child: treeAt(W, '02-editor'), today: '2026-11-12', args: ['--todo'], env: () => ({ NEWSROOM_PIN: 'deadbeefdeadbeef' }),
   expect: (out, pass) => pass && /HOW TO PLAY THE WRITER:\nMISSING: ROLES\.md could not be read from the pinned commit deadbeefdead/.test(out) && /YOUR WORKLIST:/.test(out) })
+
+// ── Check 1.3.0: rules for every role, files laid out over lines, signatures, closing headings ──
+for (const [role, [parent, today]] of Object.entries(AT)) {
+  add(`every role: --todo gives the ${role} the "Every role" section`, { parent, step: null, today, args: ['--todo'],
+    expect: (out, pass) => pass && /IN EVERY ROLE:\n- Cite the original document/.test(out) && out.indexOf('IN EVERY ROLE:') < out.indexOf('YOUR WORKLIST:') })
+}
+add('state: --todo tells the writer the change, not the whole state on one line', { parent: '02-editor', step: null, args: ['--todo'],
+  expect: (out, pass) => pass && /^state\.json after your step: the file as it is, with "next": "reviser"\.$/m.test(out) && !/\{"contract"/.test(out) })
+add('state: --todo tells the checker the entry to add to the history', { parent: '04-reviser', step: null, args: ['--todo'],
+  expect: (out, pass) => pass && out.includes('state.json after your step: the file as it is, with "next": "done", "post": null, and at the end of "history": {"cycle":"2026-11-12","post":"2026-11-12-nvidia-ceo-transition","kind":"story","status":"<ready|not_ready>"}.') })
+const oneLineState = t => t.set('state.json', `${JSON.stringify(JSON.parse(t.get('state.json')))}\n`)
+addParent('state: --todo points out a state.json on one line', { parent: '05-checker', step: null, today: '2026-11-13', args: ['--todo'], editParent: oneLineState,
+  expect: (out, pass) => pass && /state\.json is on one line now: lay it out over several lines/.test(out) })
+addParent('state: a step that keeps state.json on one line fails', { parent: '07-editor', step: '08-writer', today: '2026-11-13', editParent: oneLineState, edit: oneLineState,
+  expect: /state\.json: is written on one line/ })
+add('state: a wrong state.json names the key to fix', { parent: '02-editor', step: '03-writer', edit: t => json(t, 'state.json', v => { v.next = 'checker' }),
+  expect: /state\.json: must be exactly the state .* --todo describes: "next" must be "reviser"/ })
+scout('a topics.json written on one line', t => t.set(T1, `${JSON.stringify(JSON.parse(t.get(T1)))}\n`), /editions\/2026-11-12\/topics\.json: is written on one line/)
+scout('signed with a model id', t => json(t, T1, v => { v.model = 'anthropic/claude-haiku-5.5' }), /topics\.json: "model" is a model id: sign with the name the Relay notes give you/)
+editor('signed with a model id', t => json(t, C1, v => { v.model = 'anthropic/claude-haiku-5.5' }), /choice\.json: "model" is a model id/)
+reviser('markers signed with a model id', t => {
+  const p = `${NVP}/article.md`
+  t.set(p, t.get(p).replaceAll('add role="reviser" model="Claude Opus 5.5"', 'add role="reviser" model="anthropic/claude-opus-5.5"'))
+  json(t, `${NVP}/corrections.json`, v => { for (const c of v) if (c.by === 'reviser') c.model = 'anthropic/claude-opus-5.5' })
+}, /"anthropic\/claude-opus-5\.5" is a model id/)
+checker('a closing heading in the usual form', t => sub(t, `${NVP}/article.md`, "## What we don't know yet", '## What Nvidia has not said'),
+  warns(/warning · .*"What Nvidia has not said" is how most stories so far close; name the open question itself/))
+checker('an absence without a citation under a heading of its own', t => {
+  sub(t, `${NVP}/article.md`, "## What we don't know yet", "## Nvidia's next leader is not named")
+  sub(t, `${NVP}/article.md`, '- Why Huang resigned: neither the release nor the 8-K gives a reason.[^1][^2]', '- Why Huang resigned: Nvidia gave no reason.')
+  json(t, `${NVP}/claims.json`, v => { const c = v.find(x => x.line === 66); c.claim = 'Nvidia gave no reason for the resignation.'; c.status = 'absence'; delete c.support; c.note = 'Read the release and the 8-K: neither gives a reason.' })
+}, 'OK')

@@ -21,6 +21,6 @@ node check.mjs              # must print OK before a step ends
 node tests/run.mjs      # the check's own tests
 ```
 
-A Relay step runs `bash ../check.sh --todo`, `bash ../check.sh --contract` and `bash ../check.sh` instead. The capsule pins the check to the commit that holds it, because a step can edit the copy in its own tree. Its check command also sets `NEWSROOM_PIN` to that commit, and `--todo` and `--contract` read `ROLES.md` and `CONTRACT.md` from it: each model reads only its own role, and no step can rewrite one.
+A Relay step runs `bash ../check.sh --todo`, `bash ../check.sh --contract` and `bash ../check.sh` instead. The capsule pins the check to the commit that holds it, because a step can edit the copy in its own tree. Its check command also sets `NEWSROOM_PIN` to that commit, and `--todo` and `--contract` read `ROLES.md` and `CONTRACT.md` from it: each model reads only its own role and the "Every role" section, and no step can rewrite them.
 
 How to play each role is in `ROLES.md`, and the format is in `CONTRACT.md`. `check.mjs` is the authority; `tags.json` copies its lists so they are easy to read.

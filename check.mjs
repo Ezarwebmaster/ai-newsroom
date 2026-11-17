@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// AI Newsroom · the check of a step (check v1.2.0, contract 1).
+// AI Newsroom · the check of a step (check v1.3.0, contract 1).
 //
 //   node check.mjs              checks what your step changed: prints OK, or what to fix
 //   node check.mjs --todo       prints whose turn it is, how to play that role, the files to write and the rules
@@ -12,14 +12,14 @@
 // can tell a step that broke the check from one that found it broken.
 // The capsule's check command also sets NEWSROOM_PIN to the pinned commit:
 // --todo and --contract read ROLES.md and CONTRACT.md from it, so a step reads
-// only its own role and cannot rewrite anyone's.
+// only its own role (and the "Every role" section) and cannot rewrite anyone's.
 // No dependencies: plain Node 18 or later.
 
 import { execFileSync } from 'node:child_process'
 import { existsSync, lstatSync, readFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 
-const VERSION = '1.2.0'
+const VERSION = '1.3.0'
 const CONTRACT = 1
 const RELAY_EMAIL = 'relay@llmtimemachine.com' // committer of every step the platform replays or pushes
 
@@ -90,6 +90,9 @@ const RECENT_DAYS = 14
 const RECENT_STORIES = 5 // whose openings and headings --todo shows, so stories do not all look alike
 // Headings that fit any story: a story's headings say what is specific to it.
 const GENERIC_HEADING = /^(?:why (?:it|this) matters|background|context|what happened|the news|the details|details|the (?:bottom line|big picture)|bottom line|big picture|conclusion|overview|summary|analysis|key takeaways|takeaways|what'?s next|looking ahead|reactions?)$/i
+// The checker's closing section was headed the same way in every story of the
+// first week ("What Nvidia has not said", "… leaves open", "… remains unanswered").
+const OPEN_QUESTIONS = /\b(?:(?:has|have|had|did|does|do)(?: not|n['’]t) (?:said|say|answered|disclosed|explained)|leaves? (?:\S+ )?(?:open|unanswered|unresolved)|left (?:open|unanswered|unresolved)|remains? (?:unanswered|unknown|unresolved|open)|(?:is|are) still unknown|(?:does|do) not answer|we (?:still )?don['’]t know)\b/i
 // A cycle is a UTC date; a second story the same day is <date>-2 (at most two a day).
 const CYCLE = /^(\d{4}-\d{2}-\d{2})(?:-2)?$/
 const RECAP_SECTIONS = [5, 7]
@@ -191,6 +194,12 @@ function jsonAtBase(base, path) {
   if (s == null) return undefined
   try { return JSON.parse(s) } catch { return undefined }
 }
+// A JSON file written on one line: its changes cannot be read line by line.
+const ONE_LINE_MAX = 120
+const oneLine = s => s.trim().length > ONE_LINE_MAX && !s.trim().includes('\n')
+// A model id ("provider/model") is not a signature: the page shows the name.
+const MODEL_ID = /^[a-z0-9][a-z0-9_.-]*\/[a-z0-9][a-z0-9_.:-]*$/i
+const NO_ID = 'is a model id: sign with the name the Relay notes give you ("You are …")'
 
 /* ── Values ── */
 
@@ -453,8 +462,8 @@ function lineRules(r, b, err) {
     err(`${at}: a sentence with a number or a quotation carries its own citation ([^n] at the end)`)
   } else if (r.kp) {
     err(`${at}: every key point cites at least one source`)
-  } else if (b.type === 'list' && !UNKNOWN_HEADING.test(b.heading)) {
-    err(`${at}: every list item cites at least one source (only the items of a "What we don't know yet" list may go without, when they state an absence)`)
+  } else if (b.type === 'list' && !UNKNOWN_HEADING.test(b.heading) && r.add?.role !== 'checker') {
+    err(`${at}: every list item cites at least one source (only the items of the checker's list of what readers do not know yet may go without, when they state an absence)`)
   }
   if (r.kp && lineWords(t) > BUDGET.keypoint) err(`${at}: a key point has at most ${BUDGET.keypoint} words (it has ${lineWords(t)})`)
   if (b.type === 'para') {
@@ -620,6 +629,7 @@ function checkCorrections(file, list, before, role, P, byId) {
     if (c.id !== k + 1) fail(file, `${where}: "id" is ${k + 1}`)
     if (c.by !== role) fail(file, `${where}: "by" is "${role}"`)
     if (!isStr(c.model, 1, 80)) fail(file, `${where}: "model" is the name the brief gives you`)
+    else if (MODEL_ID.test(c.model)) fail(file, `${where}: "model" ${NO_ID}`)
     if (!['fact', 'style'].includes(c.kind)) fail(file, `${where}: "kind" is "fact" or "style"`)
     if (!isStr(c.why, 1, 300)) fail(file, `${where}: "why" explains the correction in at most 300 characters`)
     if (!Number.isInteger(c.line) || c.line < 1 || c.line > P.length) { fail(file, `${where}: "line" is a line number of the article before your step (1 to ${P.length})`); return }
@@ -751,6 +761,7 @@ function checkTopics(file, t, cycle, primaries, followable) {
   if (!keys(file, t, 'topics.json', ['cycle', 'model', 'topics'])) return null
   if (t.cycle !== cycle) fail(file, `"cycle" is "${cycle}", the date in the folder name`)
   if (!isStr(t.model, 1, 80) || t.model.includes('"')) fail(file, '"model" is the name the brief gives you')
+  else if (MODEL_ID.test(t.model)) fail(file, `"model" ${NO_ID}`)
   if (!Array.isArray(t.topics) || t.topics.length !== 3) { fail(file, '"topics" holds exactly 3 topics'); return null }
   t.topics.forEach((x, k) => {
     const where = `topic ${k + 1}`
@@ -788,6 +799,7 @@ function checkChoice(file, c, cycle, topics) {
   if (!keys(file, c, 'choice.json', ['cycle', 'model', 'picked', 'why', 'trend', 'set_aside'])) return null
   if (c.cycle !== cycle) fail(file, `"cycle" is "${cycle}"`)
   if (!isStr(c.model, 1, 80) || c.model.includes('"')) fail(file, '"model" is the name the brief gives you')
+  else if (MODEL_ID.test(c.model)) fail(file, `"model" ${NO_ID}`)
   if (![1, 2, 3].includes(c.picked)) { fail(file, '"picked" is 1, 2 or 3'); return null }
   const topic = topics?.topics?.[c.picked - 1]
   if (!isObj(topic)) return null
@@ -861,6 +873,7 @@ function headingWarnings(file, base, S, art, mine) {
     if (!/^#{2,3} /.test(r.text) || !mine(r)) continue
     const h = r.text.replace(/^#+ /, '').trim()
     if (GENERIC_HEADING.test(h)) warn(file, `line ${r.i + 1}: "${h}" could head any story; say what is specific to this one`)
+    else if (OPEN_QUESTIONS.test(h)) warn(file, `line ${r.i + 1}: "${h}" is how most stories so far close; name the open question itself (for example "No date yet for the open weights")`)
     else if (used.has(h.toLowerCase())) warn(file, `line ${r.i + 1}: "${h}" already heads a section of ${used.get(h.toLowerCase())}; vary the structure from one story to the next`)
   }
 }
@@ -903,6 +916,11 @@ function genericFiles(changes) {
     if (s.isSymbolicLink()) fail(p, 'is a symbolic link: write a plain file')
     else if (s.mode & 0o111) fail(p, 'is executable: remove the x permission (chmod -x)')
     if (s.size > MAX_FILE) fail(p, `is larger than ${MAX_FILE / 1024} KB`)
+    else if (p.endsWith('.json') && s.isFile()) {
+      let t = ''
+      try { t = readFileSync(join(ROOT, p), 'utf8') } catch { /* reported by its own check */ }
+      if (oneLine(t)) fail(p, 'is written on one line: lay it out over several lines, one key per line, as CONTRACT.md shows (the next models and the editorial team read its changes line by line)')
+    }
   }
 }
 function expectFiles(role, req, opt, changes) {
@@ -916,7 +934,16 @@ function expectFiles(role, req, opt, changes) {
 }
 function checkState(expected) {
   const now = jsonNow('state.json')
-  if (now !== undefined && !same(now, expected)) fail('state.json', `must be exactly ${JSON.stringify(expected)}`)
+  if (now === undefined || same(now, expected)) return
+  const wrong = isObj(now) ? Object.keys(expected).filter(k => !same(now[k], expected[k])) : []
+  const extra = isObj(now) ? Object.keys(now).filter(k => !(k in expected)) : []
+  const n = expected.history.length
+  const parts = [
+    ...wrong.map(k => k !== 'history' ? `"${k}" must be ${JSON.stringify(expected[k])}`
+      : n ? `"history" must hold ${n} entries: the ones before your step, unchanged, the last one ${JSON.stringify(expected.history[n - 1])}` : '"history" must be []'),
+    ...extra.map(k => `"${k}" is not a key of state.json`),
+  ]
+  fail('state.json', `must be exactly the state ${CMD} --todo describes: ${parts.join('; ') || 'a JSON object'}`)
 }
 function metaDiff(file, before, after, allowed) {
   for (const k of META_KEYS) if (!allowed.includes(k) && !same(before[k], after[k])) fail(file, `"${k}" cannot change at this step (it was ${JSON.stringify(before[k])})`)
@@ -925,6 +952,7 @@ function metaDiff(file, before, after, allowed) {
 function oneModel(file, names) {
   const set = new Set(names.filter(Boolean))
   if (set.size > 1) fail(file, `use the same model name everywhere in your step (found ${[...set].map(n => `"${n}"`).join(', ')})`)
+  for (const n of set) if (MODEL_ID.test(n)) fail(file, `"${n}" ${NO_ID}`)
 }
 
 /* ── The article across a step ── */
@@ -1175,10 +1203,22 @@ function recapStep(base, S, changes, plan) {
 
 /* ── --todo ── */
 
+// state.json after the step, told as changes to the file as it is: a model
+// copied the whole state printed on one line (check 1.2.0), and the history
+// only grows.
+function stateChange(base, S, after) {
+  const changed = ['contract', 'cycle', 'next', 'post'].filter(k => !same(S[k], after[k])).map(k => `"${k}": ${JSON.stringify(after[k])}`)
+  const added = after.history.slice(S.history.length)
+  const L = [`state.json after your step: the file as it is${changed.length ? `, with ${changed.join(', ')}` : ''}${added.length ? `, and at the end of "history": ${added.map(h => JSON.stringify(h)).join(', ')}` : ''}.`]
+  if (oneLine(atBase(base, 'state.json') || '')) L.push('state.json is on one line now: lay it out over several lines, one key per line, as CONTRACT.md shows.')
+  return L
+}
+
 function todo(base, S) {
   const L = []
   const p = (...s) => L.push(...s)
-  const json = v => JSON.stringify(v)
+  const block = v => JSON.stringify(v, null, 2).split('\n').map(l => `  ${l}`)
+  const state = after => stateChange(base, S, after)
   const role = nextRole(S)
   const plan = S.next === 'done' ? recapPlan(S) : null
   p(`AI Newsroom · check ${VERSION} · contract ${CONTRACT} · today ${TODAY} (UTC)`, '', `YOUR ROLE: ${role.toUpperCase()}`)
@@ -1186,7 +1226,9 @@ function todo(base, S) {
   if (S.post) p(`Story: posts/${S.post}/`)
   const roles = docText('ROLES.md')
   const how = roles ? mdSections(roles, h => h.toLowerCase() === role).replace(/^## .*\n*/, '') : ''
+  const every = roles ? mdSections(roles, h => h.toLowerCase() === 'every role').replace(/^## .*\n*/, '') : ''
   p('', `HOW TO PLAY THE ${role.toUpperCase()}:`, how || `MISSING: ${roles ? `ROLES.md has no "## ${role[0].toUpperCase()}${role.slice(1)}" section` : docMissing('ROLES.md')}`,
+    ...(every ? ['', 'IN EVERY ROLE:', every] : []),
     '', `THE CONTRACT FOR YOUR ROLE: run ${CMD} --contract (sections ${CONTRACT_FOR[role].join(', ')} of CONTRACT.md: the format of every file you write).`,
     '', `YOUR WORKLIST:`)
   const recent = recentStories(base, S, S.cycle && role !== 'scout' ? S.cycle : TODAY)
@@ -1205,7 +1247,7 @@ function todo(base, S) {
       '  - not sources: aggregators, search pages, social networks, video sites, URL shorteners, archives',
       '  - a topic whose source is the primary source of a story already covered is refused (unless follow_up_of)',
       '', `Stories of the last ${RECENT_DAYS} days:`, ...recentList(),
-      '', `state.json after your step: ${json({ contract: CONTRACT, cycle: scoutCycle(S).split(' ')[0], next: 'editor', post: null, history: S.history })}`)
+      '', ...state({ contract: CONTRACT, cycle: scoutCycle(S).split(' ')[0], next: 'editor', post: null, history: S.history }))
   } else if (role === 'editor') {
     const topics = jsonAtBase(base, `editions/${S.cycle}/topics.json`)
     p('Pick the most trending topic that is not already covered. Write:',
@@ -1219,8 +1261,8 @@ function todo(base, S) {
     for (const [t, v] of Object.entries(TYPES)) p(`      ${t.padEnd(13)} ${v.primary.join(' or ')}${v.unconfirmed ? ' (or "unconfirmed": true, press only)' : ''}   category ${v.category}`)
     p('  - "sensitive": true when the story is about people or accusations', '  - 1 to 5 tags:', `      ${TAGS.join(', ')}`,
       '', `Stories of the last ${RECENT_DAYS} days:`, ...recentList(),
-      '', 'meta.json:', `  ${json({ contract: CONTRACT, id: `${cycleDate(S.cycle)}-<slug>`, cycle: S.cycle, kind: 'story', type: '<type of the topic>', category: '<category>', tags: ['<tag>'], primary_source: '<url>', follow_up_of: null, sensitive: false, unconfirmed: false, covers: null, status: 'open', issues: [], image_brief: null })}`,
-      '', `state.json after your step: ${json({ ...S, next: 'writer', post: `${cycleDate(S.cycle)}-<slug>` })}`)
+      '', 'meta.json:', ...block({ contract: CONTRACT, id: `${cycleDate(S.cycle)}-<slug>`, cycle: S.cycle, kind: 'story', type: '<type of the topic>', category: '<category>', tags: ['<tag>'], primary_source: '<url>', follow_up_of: null, sensitive: false, unconfirmed: false, covers: null, status: 'open', issues: [], image_brief: null }),
+      '', ...state({ ...S, next: 'writer', post: `${cycleDate(S.cycle)}-<slug>` }))
   } else if (role === 'writer') {
     const choice = jsonAtBase(base, `editions/${S.cycle}/choice.json`)
     const topic = jsonAtBase(base, `editions/${S.cycle}/topics.json`)?.topics?.[(choice?.picked || 1) - 1]
@@ -1236,7 +1278,7 @@ function todo(base, S) {
       '  - at least 3 sources from 3 different sites; every quotation copied exactly from the page (8+ words, 20-300 characters)',
       '  - if the story turns out false or not news, abandon it: set meta "status": "abandoned" with "issues", and state "next": "done"',
       ...lastLooks(base, S),
-      '', `state.json after your step: ${json({ ...S, next: 'reviser' })}`)
+      '', ...state({ ...S, next: 'reviser' }))
   } else if (role === 'reviser' || role === 'checker') {
     const lines = toLines(atBase(base, `posts/${S.post}/article.md`) || '')
     const sources = jsonAtBase(base, `posts/${S.post}/sources.json`) || []
@@ -1262,7 +1304,7 @@ function todo(base, S) {
       ...(role === 'reviser' ? lastLooks(base, S) : []),
       '', `The article now (${lines.length} lines):`, ...lines.map((l, i) => `${String(i + 1).padStart(4)}  ${l}`),
       '', 'The sources:', ...sources.map(s => `  [^${s.id}] ${s.kind.padEnd(9)} ${s.publisher} · ${s.published || 'no date'} · ${s.url} (${plural(s.quotes?.length || 0, 'quotation')})`),
-      '', `state.json after your step: ${role === 'reviser' ? json({ ...S, next: 'checker' }) : json({ contract: CONTRACT, cycle: S.cycle, next: 'done', post: null, history: [...S.history, { cycle: S.cycle, post: S.post, kind: 'story', status: '<ready|not_ready>' }] })}`)
+      '', ...state(role === 'reviser' ? { ...S, next: 'checker' } : { contract: CONTRACT, cycle: S.cycle, next: 'done', post: null, history: [...S.history, { cycle: S.cycle, post: S.post, kind: 'story', status: '<ready|not_ready>' }] }))
   } else if (role === 'recap') {
     p(`Write the recap of week ${plan.week} (Monday ${addDays(plan.sunday, -6)} to Sunday ${plan.sunday}):`,
       ...['meta.json', 'article.md', 'sources.json', 'corrections.json   (write [])', 'claims.json'].map(f => `  A posts/${plan.id}/${f}`), '  M state.json',
@@ -1280,8 +1322,8 @@ function todo(base, S) {
       `  - ${RECAP_SECTIONS[0]} to ${RECAP_SECTIONS[1]} "## " sections of ${RECAP_SECTION_WORDS[0]} to ${RECAP_SECTION_WORDS[1]} words, each citing a source; then the line <!-- watch --> and one last "## " section: the story to watch`,
       '  - then a blank line and <!-- keypoints model="<your name>" -->, 3 "- " key points, <!-- /keypoints -->; no add markers',
       '  - link a story of the blog with [[post:<id>]]; at least 3 sources from 3 sites; claims.json as for the checker',
-      '', 'meta.json:', `  ${json({ contract: CONTRACT, id: plan.id, cycle: plan.sunday, kind: 'recap', type: 'recap', category: 'recap', tags: ['<tag>'], primary_source: null, follow_up_of: null, sensitive: false, unconfirmed: false, covers: plan.covers, status: '<ready|not_ready>', issues: [], image_brief: null })}`,
-      '', `state.json after your step: ${json({ contract: CONTRACT, cycle: S.cycle, next: 'done', post: null, history: [...S.history, { cycle: plan.sunday, post: plan.id, kind: 'recap', status: '<ready|not_ready>' }] })}`)
+      '', 'meta.json:', ...block({ contract: CONTRACT, id: plan.id, cycle: plan.sunday, kind: 'recap', type: 'recap', category: 'recap', tags: ['<tag>'], primary_source: null, follow_up_of: null, sensitive: false, unconfirmed: false, covers: plan.covers, status: '<ready|not_ready>', issues: [], image_brief: null }),
+      '', ...state({ contract: CONTRACT, cycle: S.cycle, next: 'done', post: null, history: [...S.history, { cycle: plan.sunday, post: plan.id, kind: 'recap', status: '<ready|not_ready>' }] }))
   }
   p('', `Before you finish: ${CMD} must print OK. It compares your files with the commit your step started from.`)
   console.log(L.join('\n'))
