@@ -1,0 +1,22 @@
+{
+  "contract": 1,
+  "id": "2026-11-17-california-sues-openai-agent-safety",
+  "cycle": "2026-11-17",
+  "kind": "story",
+  "type": "policy",
+  "category": "policy",
+  "tags": [
+    "openai",
+    "agents",
+    "safety",
+    "regulation"
+  ],
+  "primary_source": "https://www.oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+  "follow_up_of": null,
+  "sensitive": true,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

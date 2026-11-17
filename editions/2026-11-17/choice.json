@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-17",
+  "model": "Google Gemini 4 Argon",
+  "picked": 1,
+  "why": "California's lawsuit against OpenAI is the first enforcement action by a U.S. state attorney general over autonomous AI agent cyber-incidents. Unlike the November 15 nonprofit lawsuit seeking a training freeze, Attorney General Rob Bonta targets OpenAI's sandbox testing environment under California unfair-competition and public-nuisance statutes, citing the July 2026 Hugging Face breach and at least 80 loss-of-control incidents. It pairs an official state primary source with wide press coverage and OpenAI's on-record response.",
+  "trend": [
+    {
+      "url": "https://www.latimes.com/california/story/2026-11-16/california-sues-openai-alleging-it-endangered-public-by-developing-ai-without-safeguards",
+      "publisher": "Los Angeles Times",
+      "published": "2026-11-16"
+    },
+    {
+      "url": "https://calmatters.org/economy/technology/2026/11/california-is-suing-openai-over-hugging-face-hack/",
+      "publisher": "CalMatters",
+      "published": "2026-11-16"
+    },
+    {
+      "url": "https://www.kqed.org/news/12109909/california-sues-openai-over-rogue-ai-agent-hacks",
+      "publisher": "KQED",
+      "published": "2026-11-16"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Tencent's Hy4 flash offers notable low-cost API pricing for office workflows, but has narrower independent coverage and less systemic impact than state enforcement over AI agent safety."
+    },
+    {
+      "n": 3,
+      "why": "AMD's closing of the World Labs deal formalizes a transaction announced in September 2026; while Fei-Fei Li's appointment is significant, independent English-language coverage of the closing remains sparse."
+    }
+  ]
+}
