@@ -1,0 +1,15 @@
+{
+  "cycle": "2026-11-17-2",
+  "model": "anthropic/claude-haiku-5.5",
+  "picked": 2,
+  "why": "Tencent's Hy4 Flash is a model launch with a primary source (Tencent's own announcement, dated November 16, 2026) and independent coverage from three outlets on November 16. Its price, $0.070 per million input tokens and $0.281 per million output tokens, matters to anyone building with low-cost models. The performance and cost-per-task figures come from Tencent's internal blind test and must be attributed to it. The story also has no independent measurement yet.",
+  "trend": [
+    { "url": "https://tbreak.com/tencent-hy4-flash-cheaper-ai-model/", "publisher": "tbreak.com", "published": "2026-11-16" },
+    { "url": "https://pasqualepillitteri.it/en/news/34117/tencent-hy4-flash-1m-context-model-7-cents", "publisher": "pasqualepillitteri.it", "published": "2026-11-16" },
+    { "url": "https://aijourn.com/tencent-unveils-hy4-flash-the-ultimate-cost-effective-model-for-everyday-work/", "publisher": "aijourn.com", "published": "2026-11-16" }
+  ],
+  "set_aside": [
+    { "n": 1, "why": "Funding reported by the press only; the talks were reported in July and no November 17 confirmation or independent coverage was found." },
+    { "n": 3, "why": "AMD's completion is confirmed by its own release on November 16; it may feed the weekly recap." }
+  ]
+}
