@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+    "title": "Tencent launches Hy4 flash to power high-speed, cost-efficient AI deployment for everyday workflows",
+    "publisher": "Tencent",
+    "kind": "primary",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-17",
+    "added_by": "writer",
+    "quotes": [
+      { "text": "Hy4 flash has 224 billion total parameters (including 64 billion Engram parameters) with only 12 billion active parameters", "for": "Parameter counts.", "by": "writer" },
+      { "text": "Hy4 flash achieved user satisfaction close to Claude Haiku 5.5", "for": "Result of Tencent's blind evaluation.", "by": "writer" },
+      { "text": "Hy4 flash is now available across Tencent Cloud TokenHub, WorkBuddy, Yuanbao, WeCom, QQ, ima, and Marvis", "for": "Availability.", "by": "writer" },
+      { "text": "From now till November 30, users can access Hy4 flash for free on WorkBuddy, and get 50 percent off standard pricing", "for": "Promotion.", "by": "writer" },
+      { "text": "Tencent Hy also plans to open-source Hy4 flash with frequent iterations to continuously improve its practical utility", "for": "Open-source plan.", "by": "writer" }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://tbreak.com/tencent-hy4-flash-cheaper-ai-model/",
+    "title": "Tencent Hy4 flash cheaper AI model",
+    "publisher": "tbreak.com",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-17",
+    "added_by": "writer",
+    "quotes": [
+      { "text": "Hy4 flash costs about US$0.070 per million input tokens and US$0.281 per million output tokens", "for": "Price.", "by": "writer" },
+      { "text": "In a blind test, 85 Tencent WorkBuddy users rated outputs across 259 tasks in 27 categories.", "for": "Blind test size.", "by": "writer" },
+      { "text": "Both results come from company-run tests; independent comparisons aren’t available yet.", "for": "Caveat.", "by": "writer" },
+      { "text": "It accepts multimodal input and a context of up to 1M tokens.", "for": "Modality and context.", "by": "writer" }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://pasqualepillitteri.it/en/news/34117/tencent-hy4-flash-1m-context-model-7-cents",
+    "title": "Tencent Hy4 flash: 1M context model at 7 cents",
+    "publisher": "pasqualepillitteri.it",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-17",
+    "added_by": "writer",
+    "quotes": [
+      { "text": "The API costs roughly 7 cents per million input tokens and 28 cents for output.", "for": "Price.", "by": "writer" },
+      { "text": "Tencent built both WorkIndex and the blind test, with its own users and tasks of its own choosing.", "for": "Independence caveat.", "by": "writer" },
+      { "text": "The press release doesn't say in which countries the API is accessible or under what data terms.", "for": "Gaps.", "by": "writer" },
+      { "text": "As the brain of a coding agent it is not an obvious pick.", "for": "Coding caveat.", "by": "writer" }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://aijourn.com/tencent-unveils-hy4-flash-the-ultimate-cost-effective-model-for-everyday-work/",
+    "title": "Tencent unveils Hy4 flash, the ultimate cost-effective model for everyday work",
+    "publisher": "AI Journal",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-17",
+    "added_by": "writer",
+    "quotes": [
+      { "text": "The launch follows Tencent's November 4 release of Hy4, which entered the top tier of open-source models.", "for": "Hy4 context.", "by": "writer" }
+    ]
+  }
+]
