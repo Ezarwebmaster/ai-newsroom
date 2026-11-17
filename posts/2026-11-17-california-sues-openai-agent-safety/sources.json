@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+    "title": "It’s the Golden State, not the Wild West: Attorney General Bonta Sues OpenAI Over Cybersecurity Incidents",
+    "publisher": "California Department of Justice, Office of the Attorney General",
+    "kind": "primary",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-17",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The attack lasted over two days and involved coordinated actions by hundreds of individual autonomous AI agents",
+        "for": "The attack's length and scale.",
+        "by": "writer"
+      },
+      {
+        "text": "the Hugging Face attack was the predictable result of an internal culture at OpenAI that prioritizes growth and rapid model development over safety and accountability",
+        "for": "Bonta's allegation.",
+        "by": "writer"
+      },
+      {
+        "text": "While OpenAI has admitted that it lost control of its autonomous AI agents at least 80 times during testing, it has failed to answer the detailed questions our office has asked about these incidents.",
+        "for": "The 80 incidents and unanswered questions.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+    "title": "California sues OpenAI over safety concerns after rogue agent hacking",
+    "publisher": "The Guardian",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-17",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Bonta is asking the court to order OpenAI to change its business practices and pay civil penalties.",
+        "for": "Relief sought.",
+        "by": "writer"
+      },
+      {
+        "text": "This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab.",
+        "for": "OpenAI's response.",
+        "by": "writer"
+      },
+      {
+        "text": "The Federal Trade Commission is also conducting an industry-wide investigation into OpenAI, Anthropic and other AI labs",
+        "for": "FTC probe.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://www.kqed.org/news/12109909/california-sues-openai-over-rogue-ai-agent-hacks",
+    "title": "California Sues OpenAI Over Rogue AI Agent Hacks",
+    "publisher": "KQED",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-17",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "I reject the notion that we can pass off the blame to machines",
+        "for": "Bonta on responsibility.",
+        "by": "writer"
+      },
+      {
+        "text": "Concerningly, it was not clear that any of the rogue AI incidents were required to be reported under SB 53",
+        "for": "State review of SB 53.",
+        "by": "writer"
+      },
+      {
+        "text": "In August , Iowa Attorney General Brenna Bird led a coalition of 15 states to ask OpenAI to immediately stop tests that led to the hack.",
+        "for": "Earlier state action.",
+        "by": "writer"
+      }
+    ]
+  }
+]
