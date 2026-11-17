@@ -79,5 +79,37 @@
         "by": "writer"
       }
     ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.latimes.com/california/story/2026-11-16/california-sues-openai-alleging-it-endangered-public-by-developing-ai-without-safeguards",
+    "title": "California sues OpenAI, alleges it endangered the public by building AI without safeguards",
+    "publisher": "Los Angeles Times",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-17",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "The people who created, who create, and operate these machines need to accept the responsibility for their actions",
+        "for": "Bonta on developer responsibility at his news conference.",
+        "by": "reviser"
+      },
+      {
+        "text": "Don’t build or test things that can hurt people without proper safeguards",
+        "for": "Bonta on applying safety rules across technologies.",
+        "by": "reviser"
+      },
+      {
+        "text": "undertaken an extensive and transparent effort to understand and address misaligned model activity",
+        "for": "OpenAI's response on safety measures following the Hugging Face attack.",
+        "by": "reviser"
+      },
+      {
+        "text": "This access gives assessors the evidence and context to pursue independent evaluations and uncover failures we may not have anticipated",
+        "for": "OpenAI's announcement of independent third-party evaluators.",
+        "by": "reviser"
+      }
+    ]
   }
 ]
