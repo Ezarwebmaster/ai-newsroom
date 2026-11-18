@@ -1,0 +1,39 @@
+{
+  "cycle": "2026-11-18",
+  "model": "Anthropic Claude Sonnet 5.5",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Nvidia's board refuses Jensen Huang's offer to return as CEO and creates a national security committee",
+      "type": "company",
+      "summary": "On November 17, 2026, Nvidia chairman Harvey Jones said the board does not intend to reinstate Jensen Huang, hours after Huang offered to return. Colette Kress stays interim CEO while the board weighs internal and external candidates. Nvidia also created a National Security and Export Control Oversight Committee.",
+      "follow_up_of": "2026-11-13-nvidia-ceo-transition",
+      "sources": [
+        { "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee", "publisher": "NVIDIA Newsroom", "published": "2026-11-17" },
+        { "url": "https://www.unite.ai/nvidia-chairman-rejects-jensen-huangs-offer-to-return-as-ceo/", "publisher": "Unite.AI", "published": "2026-11-17" }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Microsoft launches an AI Transparency Initiative with more than 40 organizations at Ignite",
+      "type": "policy",
+      "summary": "At Ignite on November 17, 2026, Microsoft announced an initiative with more than 40 organizations, including Accenture, Adobe, KPMG, Mastercard and Volvo Cars. It sets a See, Verify, Control framework for AI agents and widens Microsoft's work with NIST's agent standards effort.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/", "publisher": "The Official Microsoft Blog", "published": "2026-11-17" },
+        { "url": "https://www.unite.ai/microsoft-launches-ai-transparency-initiative-for-enterprise-agents/", "publisher": "Unite.AI", "published": "2026-11-17" }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Nvidia widens supply chain commitments, with over $1 billion for Kinsus substrate capacity",
+      "type": "funding",
+      "summary": "On November 17, 2026, Nvidia announced expanded multiyear commitments with Kinsus, SPIL, Samsung Electro-Mechanics and Amkor for substrates and advanced packaging. Kinsus will raise Nvidia-dedicated ABF substrate capacity more than 3.5 times, with production starting in the second half of 2027.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout", "publisher": "NVIDIA Newsroom", "published": "2026-11-17" },
+        { "url": "https://www.unite.ai/nvidia-secures-more-substrate-and-packaging-capacity-for-ai-platforms/", "publisher": "Unite.AI", "published": "2026-11-17" }
+      ]
+    }
+  ]
+}
