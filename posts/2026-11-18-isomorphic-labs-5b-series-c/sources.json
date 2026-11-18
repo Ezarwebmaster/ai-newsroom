@@ -82,6 +82,21 @@
         "text": "routinely solving complex biological problems that have stalled traditional research for decades.",
         "for": "Max Jaderberg on solving complex biological problems.",
         "by": "writer"
+      },
+      {
+        "text": "The breadth and precision of the simulation models within IsoDDE push predictions towards experimental accuracy and provide a suite of capabilities to advance innovative medicines.",
+        "for": "Simulation models pushing predictions toward experimental accuracy.",
+        "by": "reviser"
+      },
+      {
+        "text": "Combined with powerful proprietary agents that navigate and reason over highly complex biological systems, these models directly and repeatedly translate into advancements",
+        "for": "Proprietary agents navigating and reasoning over complex biological systems.",
+        "by": "reviser"
+      },
+      {
+        "text": "This round enables us to accelerate our progress: building foundational biology models, deepening our systemic disease understanding, and driving our first therapeutic programs towards clinical trials to deliver tangible impact for patients.",
+        "for": "Demis Hassabis on building foundational biology models, deepening disease understanding, and driving first therapeutic programs toward clinical trials.",
+        "by": "reviser"
       }
     ]
   },
@@ -211,6 +226,92 @@
         "text": "City AM understands the company remains in late-stage preclinical development, with encouraging early results across its internal oncology and immunology programmes and partnered projects.",
         "for": "Late-stage preclinical development status.",
         "by": "writer"
+      },
+      {
+        "text": "Their work could fundamentally change how new medicines are discovered and accelerate the development of life-changing treatments for patients around the world",
+        "for": "UK AI minister Kanishka Narayan on accelerating new medicine discovery.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.biospace.com/business/isomorphic-labs-breaks-biotech-vc-fundraising-record-with-5b-series-c",
+    "title": "Isomorphic Labs breaks biotech VC fundraising record with $5B series C",
+    "publisher": "BioSpace",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "November 17, 2026",
+        "for": "Publication date of the BioSpace article.",
+        "by": "reviser"
+      },
+      {
+        "text": "Isomorphic Labs has clinched a whopping $5 billion in series C funding, more than doubling its own $2.1 billion series B from May",
+        "for": "Clinched $5 billion Series C, more than doubling the $2.1 billion Series B from May 2026.",
+        "by": "reviser"
+      },
+      {
+        "text": "Altos Labs, another AI-focused drug discovery engine, previously held the title for biggest fundraise after its $3 billion debut in 2022.",
+        "for": "Surpassing Altos Labs' previous $3 billion biotech fundraise record from 2022.",
+        "by": "reviser"
+      },
+      {
+        "text": "breaks the recent trend of investors putting their money behind more mature and de-risked assets.",
+        "for": "Breaking the biotech investment trend toward more mature, de-risked assets.",
+        "by": "reviser"
+      },
+      {
+        "text": "The 2024 Nobel Laureate winner is also the co-founder of Google DeepMind and chief scientist for Alphabet.",
+        "for": "Demis Hassabis as 2024 Nobel Laureate, Google DeepMind co-founder, and chief scientist for Alphabet.",
+        "by": "reviser"
+      },
+      {
+        "text": "London-based Isomorphic launched in 2021 and shared news of its first fundraise of $600 million in March 2025. To date, the company has raised at least $7.7 billion",
+        "for": "March 2025 $600 million first fundraise and $7.7 billion total raised without disclosing a clinical program.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://www.fiercebiotech.com/biotech/isomorphic-labs-raises-5b-series-c-months-after-21b-round",
+    "title": "Isomorphic Labs raises $5B series C months after $2.1B round",
+    "publisher": "Fierce Biotech",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Nov 17, 2026 9:20am",
+        "for": "Publication timestamp of the Fierce Biotech article.",
+        "by": "reviser"
+      },
+      {
+        "text": "London-based Isomorphic emerged in 2021 as a spinoff from DeepMind, a sibling of Google that created AlphaFold to predict protein structures.",
+        "for": "2021 spinoff from DeepMind building on AlphaFold.",
+        "by": "reviser"
+      },
+      {
+        "text": "While Isomorphic has yet to provide details of the programs, it has shared evidence that IsoDDE outperforms AlphaFold 3 on a protein-ligand structure prediction benchmark and identifies novel binding sites.",
+        "for": "IsoDDE outperforming AlphaFold 3 on a protein-ligand structure prediction benchmark and identifying novel binding sites.",
+        "by": "reviser"
+      },
+      {
+        "text": "Isomorphic is still working toward the acid test of showing how drug candidates generated using IsoDDE perform in humans and has yet to disclose detailed preclinical data",
+        "for": "No detailed preclinical data disclosed yet as human testing remains ahead.",
+        "by": "reviser"
+      },
+      {
+        "text": "In 2024, Isomorphic disclosed alliances with Eli Lilly and Novartis with a combined value of about $3 billion, including milestones. The biotech raised $600 million in its first external funding round in 2025 and added Johnson & Johnson to its list of partners at the start of 2026.",
+        "for": "2024 Eli Lilly and Novartis alliances worth about $3 billion, $600 million round in 2025, and Johnson & Johnson partnership at the start of 2026.",
+        "by": "reviser"
       }
     ]
   }
