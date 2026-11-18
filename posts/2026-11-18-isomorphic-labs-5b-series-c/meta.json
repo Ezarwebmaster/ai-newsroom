@@ -16,7 +16,11 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Source 6, BioSpace, returns 404 because the article moved; source 8 is the same article at its live URL, and the corrected lines cite both.",
+    "BioSpace calls Altos Labs an AI-focused drug discovery engine; Altos launched as a cellular rejuvenation company, so line 15 now follows Altos.",
+    "The FEP sentence drops SiliconANGLE's \"often\": FEP methods often, not always, need a 3D protein model built from a crystal and X-rays."
+  ],
   "image_brief": null
 }

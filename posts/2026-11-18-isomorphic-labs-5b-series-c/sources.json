@@ -97,6 +97,11 @@
         "text": "This round enables us to accelerate our progress: building foundational biology models, deepening our systemic disease understanding, and driving our first therapeutic programs towards clinical trials to deliver tangible impact for patients.",
         "for": "Demis Hassabis on building foundational biology models, deepening disease understanding, and driving first therapeutic programs toward clinical trials.",
         "by": "reviser"
+      },
+      {
+        "text": "IsoDDE unifies a suite of foundational simulation AI models that natively work across multiple therapeutic areas and drug modalities. IsoDDE explores vast chemical spaces",
+        "for": "What IsoDDE combines and what it explores, as the company describes it.",
+        "by": "checker"
       }
     ]
   },
@@ -135,6 +140,21 @@
         "text": "The lab has struck deals with pharma giants like Eli Lilly, Novartis, and Johnson & Johnson.",
         "for": "Pharmaceutical partnerships with Eli Lilly, Novartis and Johnson & Johnson.",
         "by": "writer"
+      },
+      {
+        "text": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round",
+        "for": "Founded in 2021 as a DeepMind spinout.",
+        "by": "checker"
+      },
+      {
+        "text": "The company, whose work builds on DeepMind’s breakthrough AlphaFold protein-folding AI model",
+        "for": "Isomorphic Labs builds on AlphaFold.",
+        "by": "checker"
+      },
+      {
+        "text": "won the Nobel Prize in chemistry for the lab’s work on AlphaFold",
+        "for": "Hassabis shared the Nobel Prize in chemistry for AlphaFold.",
+        "by": "checker"
       }
     ]
   },
@@ -231,6 +251,16 @@
         "text": "Their work could fundamentally change how new medicines are discovered and accelerate the development of life-changing treatments for patients around the world",
         "for": "UK AI minister Kanishka Narayan on accelerating new medicine discovery.",
         "by": "reviser"
+      },
+      {
+        "text": "I’m proud that the UK Government’s Sovereign AI Fund has made a follow-on investment in the company",
+        "for": "Narayan on the Sovereign AI Fund follow-on investment.",
+        "by": "checker"
+      },
+      {
+        "text": "The company has not disclosed its valuation following the latest raise.",
+        "for": "No valuation disclosed after the Series C.",
+        "by": "checker"
       }
     ]
   },
@@ -263,7 +293,11 @@
       {
         "text": "breaks the recent trend of investors putting their money behind more mature and de-risked assets.",
         "for": "Breaking the biotech investment trend toward more mature, de-risked assets.",
-        "by": "reviser"
+        "by": "reviser",
+        "withdrawn": {
+          "by": "checker",
+          "why": "This is the teaser of BioSpace’s May 13, 2026 article on the Series B, shown as a related link on the page; it is not part of the November 17 story."
+        }
       },
       {
         "text": "The 2024 Nobel Laureate winner is also the co-founder of Google DeepMind and chief scientist for Alphabet.",
@@ -312,6 +346,110 @@
         "text": "In 2024, Isomorphic disclosed alliances with Eli Lilly and Novartis with a combined value of about $3 billion, including milestones. The biotech raised $600 million in its first external funding round in 2025 and added Johnson & Johnson to its list of partners at the start of 2026.",
         "for": "2024 Eli Lilly and Novartis alliances worth about $3 billion, $600 million round in 2025, and Johnson & Johnson partnership at the start of 2026.",
         "by": "reviser"
+      },
+      {
+        "text": "While that vacuum leaves room for skepticism, the biotech has persuaded investors to write big checks and landed deals with leading drug developers.",
+        "for": "Fierce Biotech on the lack of disclosed preclinical data.",
+        "by": "checker"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://www.biospace.com/drug-development/isomorphic-labs-breaks-biotech-vc-fundraising-record-with-5b-series-c",
+    "title": "Isomorphic Labs breaks biotech VC fundraising record with $5B series C",
+    "publisher": "BioSpace",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "November 17, 2026",
+        "for": "Publication date of the BioSpace article at its live URL (source 6 now returns 404).",
+        "by": "checker"
+      },
+      {
+        "text": "Isomorphic Labs has clinched a whopping $5 billion in series C funding, more than doubling its own $2.1 billion series B from May and breaking the industry’s record for most money raised in a single round.",
+        "for": "BioSpace calls the $5 billion series C the biotech industry’s largest single round.",
+        "by": "checker"
+      },
+      {
+        "text": "Altos Labs, another AI-focused drug discovery engine, previously held the title for biggest fundraise after its $3 billion debut in 2022.",
+        "for": "How BioSpace describes Altos Labs, and the $3 billion record it held since 2022.",
+        "by": "checker"
+      },
+      {
+        "text": "Isomorphic has yet to publicly disclose any assets but said it has produced preclinical results for internal programs in both oncology and immunology.",
+        "for": "No disclosed drug candidate.",
+        "by": "checker"
+      },
+      {
+        "text": "The 2024 Nobel Laureate winner is also the co-founder of Google DeepMind and chief scientist for Alphabet.",
+        "for": "Hassabis: 2024 Nobel laureate and Alphabet chief scientist.",
+        "by": "checker"
+      },
+      {
+        "text": "London-based Isomorphic launched in 2021 and shared news of its first fundraise of $600 million in March 2025. To date, the company has raised at least $7.7 billion—all without ever disclosing a clinical program.",
+        "for": "The $600 million first round in March 2025, and no disclosed clinical program.",
+        "by": "checker"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "url": "https://www.prnewswire.com/news-releases/altos-labs-launches-with-the-goal-to-transform-medicine-through-cellular-rejuvenation-programming-301463541.html",
+    "title": "Altos Labs launches with the goal to transform medicine through cellular rejuvenation programming",
+    "publisher": "Altos Labs (PR Newswire)",
+    "kind": "primary",
+    "published": "2022-01-19",
+    "retrieved": "2026-11-18",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Jan 19, 2022, 02:09 ET",
+        "for": "Date of the Altos Labs launch release.",
+        "by": "checker"
+      },
+      {
+        "text": "launched today as a new biotechnology company dedicated to unraveling the deep biology of cellular rejuvenation programming",
+        "for": "What Altos Labs does, in its own words: cellular rejuvenation, not AI drug discovery.",
+        "by": "checker"
+      },
+      {
+        "text": "Altos launches with $3B fully committed from renowned company builders and investors",
+        "for": "The $3 billion Altos Labs launched with in 2022.",
+        "by": "checker"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "url": "https://www.rdworldonline.com/isomorphic-labs-president-says-all-drugs-will-be-ai-designed-as-first-trials-near-a-year-end-target/",
+    "title": "Isomorphic Labs president says all drugs will be AI-designed as first trials near a year-end target",
+    "publisher": "R&D World",
+    "kind": "press",
+    "published": "2026-11-05",
+    "retrieved": "2026-11-18",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "November 5, 2026",
+        "for": "Publication date of the R&D World article.",
+        "by": "checker"
+      },
+      {
+        "text": "At Davos on Jan. 20, Hassabis said Isomorphic expected its first clinical trials by the end of 2026, Reuters reported",
+        "for": "The end-of-2026 target for first clinical trials.",
+        "by": "checker"
+      },
+      {
+        "text": "In the Bloomberg interview, Jaderberg described its programs as “deep in pre-clinical development,” where researchers design molecules and test them in cells and animal models before advancing into human trials.",
+        "for": "Jaderberg on the programs’ stage in November 2026.",
+        "by": "checker"
       }
     ]
   }

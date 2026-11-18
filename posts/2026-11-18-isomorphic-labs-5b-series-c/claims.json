@@ -1,0 +1,606 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Isomorphic Labs raised a $5 billion Series C to move its first drug candidates toward clinical trials.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Isomorphic Labs announces it has raised $5 Billion in Series C funding"
+      },
+      {
+        "source": 2,
+        "quote": "as it advances its drug candidates to clinical trials"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "The oversubscribed round was announced on November 17, 2026, co-led by Greenoaks and Sequoia Capital, six months after a $2.1 billion Series B.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "LONDON, 17 November, 2026"
+      },
+      {
+        "source": 2,
+        "quote": "Greenoaks and Sequoia Capital co-lead the oversubscribed round"
+      },
+      {
+        "source": 5,
+        "quote": "The $5bn injection comes just six months after Isomorphic secured $2.1bn in Series B funding"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Isomorphic Labs announced on November 17, 2026, a $5 billion (£3.8 billion) oversubscribed Series C.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 17, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "Isomorphic Labs announces it has raised $5 Billion in Series C funding"
+      },
+      {
+        "source": 5,
+        "quote": "has raised $5bn (£3.8bn)"
+      },
+      {
+        "source": 2,
+        "quote": "co-lead the oversubscribed round"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Greenoaks and Sequoia Capital co-led, with new investor Andreessen Horowitz and continued investment from Alphabet.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The round was co-led by Greenoaks and Sequoia Capital, alongside Andreessen Horowitz (a16z) and several other new investors, with continued significant investment from Alphabet."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "All existing investors took part: Thrive Capital, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The round also included participation from all existing investors: Thrive Capital, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 9,
+    "claim": "Proceeds fund IsoDDE, the pipeline and translational and clinical infrastructure ahead of clinical trials.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The company is scaling its proprietary drug design engine (IsoDDE) and therapeutic candidate pipeline"
+      },
+      {
+        "source": 2,
+        "quote": "Proceeds will also support the company’s continued build of scalable AI-first translational and clinical development infrastructure as it advances its drug candidates to clinical trials."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "The Series C follows a $2.1 billion Series B in May 2026 and brings disclosed external funding since 2025 to about $7.7 billion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "comes on the heels of a $2.1 billion Series B round in May"
+      },
+      {
+        "source": 5,
+        "quote": "bringing its total disclosed external funding to approximately $7.7bn since 2025"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 15,
+    "claim": "BioSpace calls the $5 billion round the biotech industry record, ahead of the $3 billion Altos Labs launched with in 2022; Altos is a cellular rejuvenation company.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "breaking the industry’s record for most money raised in a single round"
+      },
+      {
+        "source": 8,
+        "quote": "previously held the title for biggest fundraise after its $3 billion debut in 2022"
+      },
+      {
+        "source": 9,
+        "quote": "dedicated to unraveling the deep biology of cellular rejuvenation programming"
+      },
+      {
+        "source": 9,
+        "quote": "Altos launches with $3B fully committed"
+      }
+    ],
+    "note": "BioSpace itself calls Altos Labs \"another AI-focused drug discovery engine\"; Altos describes itself as a cellular rejuvenation company, hence the correction."
+  },
+  {
+    "id": 9,
+    "line": 16,
+    "claim": "Isomorphic Labs raised $600 million in its first external round in March 2025.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "shared news of its first fundraise of $600 million in March 2025"
+      },
+      {
+        "source": 7,
+        "quote": "The biotech raised $600 million in its first external funding round in 2025"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 18,
+    "claim": "Isomorphic Labs did not disclose a valuation for the new round.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Isomorphic did not disclose its new valuation."
+      },
+      {
+        "source": 5,
+        "quote": "The company has not disclosed its valuation following the latest raise."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 19,
+    "claim": "Bloomberg reported in November 2026 a $50 billion valuation target; City A.M. cites October 2026 reports of up to $50 billion versus roughly $17.5 billion before.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Bloomberg reported earlier this month that the lab was looking to raise funding at a $50 billion valuation."
+      },
+      {
+        "source": 5,
+        "quote": "The investment follows reports last month that Isomorphic was seeking a valuation of up to $50bn, compared with roughly $17.5bn previously."
+      }
+    ],
+    "note": "\"Earlier this month\" in TechCrunch of November 17, 2026 is November 2026; \"last month\" in City A.M. of November 17, 2026 is October 2026."
+  },
+  {
+    "id": 12,
+    "line": 20,
+    "claim": "The Series C is the first raise since Hassabis left the head of DeepMind for drug discovery and became DeepMind chairman.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The Series C is Isomorphic’s first fundraise since its founder and CEO, Demis Hassabis, left his position as head of DeepMind to focus on drug discovery, which also saw him moving into a chairman role at DeepMind."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 21,
+    "claim": "Founded in 2021 out of DeepMind, headquartered in London with offices in Cambridge, Massachusetts, and Lausanne, led by Hassabis and Jaderberg.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "was spun out of Google’s DeepMind in 2021"
+      },
+      {
+        "source": 2,
+        "quote": "Isomorphic Labs is headquartered in London and has office locations in Cambridge, Massachusetts and Lausanne, Switzerland."
+      },
+      {
+        "source": 2,
+        "quote": "Isomorphic Labs is led by CEO Sir Demis Hassabis and President Max Jaderberg."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 23,
+    "claim": "Isomorphic builds on AlphaFold, which won Hassabis a share of the 2024 Nobel Prize in chemistry; he is also Alphabet chief scientist.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "whose work builds on DeepMind’s breakthrough AlphaFold protein-folding AI model"
+      },
+      {
+        "source": 3,
+        "quote": "won the Nobel Prize in chemistry for the lab’s work on AlphaFold"
+      },
+      {
+        "source": 8,
+        "quote": "The 2024 Nobel Laureate winner is also the co-founder of Google DeepMind and chief scientist for Alphabet."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 25,
+    "claim": "UK AI minister Kanishka Narayan called it one of the biggest Series C rounds in UK tech history and noted the Sovereign AI Fund follow-on.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "calling it “one of the biggest Series C rounds in UK tech history”"
+      },
+      {
+        "source": 5,
+        "quote": "Sovereign AI Fund has made a follow-on investment in the company"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 27,
+    "claim": "Narayan said the company could fundamentally change how new medicines are discovered.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Their work could fundamentally change how new medicines are discovered and accelerate the development of life-changing treatments for patients around the world"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 32,
+    "claim": "Isomorphic Labs says IsoDDE unifies simulation AI models across therapeutic areas and modalities and explores chemical spaces.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "IsoDDE unifies a suite of foundational simulation AI models that natively work across multiple therapeutic areas and drug modalities. IsoDDE explores vast chemical spaces"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 34,
+    "claim": "The company says its models push predictions toward experimental accuracy and work with proprietary agents.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "push predictions towards experimental accuracy"
+      },
+      {
+        "source": 2,
+        "quote": "Combined with powerful proprietary agents that navigate and reason over highly complex biological systems"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 35,
+    "claim": "Fierce Biotech: Isomorphic has shared evidence that IsoDDE outperforms AlphaFold 3 on a protein-ligand benchmark.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "it has shared evidence that IsoDDE outperforms AlphaFold 3 on a protein-ligand structure prediction benchmark and identifies novel binding sites"
+      }
+    ],
+    "note": "A company result reported by Fierce Biotech; no independent benchmark is cited."
+  },
+  {
+    "id": 20,
+    "line": 37,
+    "claim": "Multiple pharmaceutical companies already use IsoDDE, according to SiliconANGLE.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The Alphabet unit says that multiple pharmaceutical companies are already using IsoDDE to power drug discovery programs."
+      }
+    ],
+    "note": "This is the company's own claim as SiliconANGLE reports it; the checker line that follows says so."
+  },
+  {
+    "id": 21,
+    "line": 39,
+    "claim": "SiliconANGLE attributes the claim to Isomorphic Labs and names no company.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The Alphabet unit says that multiple pharmaceutical companies are already using IsoDDE"
+      }
+    ],
+    "note": "Read the whole SiliconANGLE article: it names no pharmaceutical company using IsoDDE."
+  },
+  {
+    "id": 22,
+    "line": 41,
+    "claim": "IsoDDE speeds up finding binding pockets and helps design compounds that make a protein form one.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Isomorphic says that IsoDDE speeds up the task of finding binding pockets. When there are no such pockets, it helps researchers develop compounds that cause a target protein to form them."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 42,
+    "claim": "FEP models need a crystal-and-X-ray 3D protein model, a step Isomorphic says IsoDDE skips, with output it says beats FEP.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "It requires scientists to freeze a target protein in a crystal and scan it using specialized X-ray equipment."
+      },
+      {
+        "source": 4,
+        "quote": "IsoDDE skips that step of the research workflow. Furthermore, Isomorphic says that the software can generate higher-quality output than FEP algorithms."
+      }
+    ],
+    "note": "SiliconANGLE says FEP algorithms \"often\" require such a 3D model; the line says they require it. Listed as a reservation in meta.json."
+  },
+  {
+    "id": 24,
+    "line": 43,
+    "claim": "Hassabis and Jaderberg quotes on IsoDDE and the teams.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Our drug design engine is generating molecules with unprecedented precision and speed"
+      },
+      {
+        "source": 2,
+        "quote": "Every week we are making repeatable scientific advancements enabled by our models"
+      },
+      {
+        "source": 2,
+        "quote": "routinely solving complex biological problems that have stalled traditional research for decades."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 45,
+    "claim": "Hassabis says the round will drive the first therapeutic programs towards clinical trials.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "building foundational biology models, deepening our systemic disease understanding, and driving our first therapeutic programs towards clinical trials to deliver tangible impact for patients."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 50,
+    "claim": "Isomorphic Labs reports positive preclinical results in internal oncology and immunology programs and with partners.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This momentum is yielding positive preclinical results, both for internal programs in oncology and immunology and with partners"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 51,
+    "claim": "Partners include Eli Lilly, Novartis and Johnson & Johnson.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The lab has struck deals with pharma giants like Eli Lilly, Novartis, and Johnson & Johnson."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 53,
+    "claim": "Lilly and Novartis alliances in 2024 worth about $3 billion with milestones; Johnson & Johnson added at the start of 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "In 2024, Isomorphic disclosed alliances with Eli Lilly and Novartis with a combined value of about $3 billion, including milestones."
+      },
+      {
+        "source": 7,
+        "quote": "added Johnson & Johnson to its list of partners at the start of 2026"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 55,
+    "claim": "Isomorphic Labs has not yet tested its own drug candidates in humans.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "However, despite raising billions, Isomorphic has yet to begin testing its own drug candidates in humans."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 56,
+    "claim": "City A.M. says the company is in late-stage preclinical development while building infrastructure for clinical entry.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "City AM understands the company remains in late-stage preclinical development"
+      },
+      {
+        "source": 2,
+        "quote": "build its global AI-led bioengineering infrastructure"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 58,
+    "claim": "No candidate, clinical program or detailed preclinical data disclosed; Fierce Biotech says that gap leaves room for skepticism.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Isomorphic has yet to publicly disclose any assets"
+      },
+      {
+        "source": 8,
+        "quote": "all without ever disclosing a clinical program"
+      },
+      {
+        "source": 7,
+        "quote": "has yet to disclose detailed preclinical data"
+      },
+      {
+        "source": 7,
+        "quote": "While that vacuum leaves room for skepticism"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "line": 64,
+    "claim": "At Davos on January 20, 2026, Hassabis said first clinical trials were expected by the end of 2026, per R&D World citing Reuters.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 10,
+        "quote": "At Davos on Jan. 20, Hassabis said Isomorphic expected its first clinical trials by the end of 2026, Reuters reported"
+      },
+      {
+        "source": 10,
+        "quote": "November 5, 2026"
+      }
+    ],
+    "note": "R&D World cites Reuters; the Reuters story itself was not opened."
+  },
+  {
+    "id": 33,
+    "line": 65,
+    "claim": "R&D World reported on November 5, 2026 that Jaderberg called the programs deep in pre-clinical development.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 10,
+        "quote": "November 5, 2026"
+      },
+      {
+        "source": 10,
+        "quote": "In the Bloomberg interview, Jaderberg described its programs as “deep in pre-clinical development,”"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "line": 66,
+    "claim": "The Series C release names no drug candidate, biological target or trial start date.",
+    "status": "absence",
+    "note": "Read the whole release (source 2): it names oncology and immunology areas only, no candidate, target or date."
+  },
+  {
+    "id": 35,
+    "line": 67,
+    "claim": "Isomorphic Labs did not say how much Alphabet invested or name the other new investors.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 1,
+        "quote": "alongside Andreessen Horowitz (a16z) and several other new investors, with continued significant investment from Alphabet"
+      }
+    ],
+    "note": "Neither the announcement nor the release gives Alphabet's amount or the other new investors' names."
+  },
+  {
+    "id": 36,
+    "line": 71,
+    "claim": "Key point: $5 billion Series C announced November 17, 2026, co-led by new investors Greenoaks and Sequoia, with Alphabet investing again.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 17, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "The round was co-led by Greenoaks and Sequoia Capital, alongside Andreessen Horowitz (a16z) and several other new investors, with continued significant investment from Alphabet."
+      },
+      {
+        "source": 1,
+        "quote": "all existing investors: Thrive Capital, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "line": 72,
+    "claim": "Key point: follows a $2.1 billion May 2026 Series B; about $7.7 billion raised since 2025; valuation undisclosed.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "comes on the heels of a $2.1 billion Series B round in May"
+      },
+      {
+        "source": 5,
+        "quote": "bringing its total disclosed external funding to approximately $7.7bn since 2025"
+      },
+      {
+        "source": 3,
+        "quote": "Isomorphic did not disclose its new valuation."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "line": 73,
+    "claim": "Key point: no drug in human trials, positive preclinical results claimed, no candidate disclosed, end-2026 trial goal.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Isomorphic has yet to begin testing its own drug candidates in humans"
+      },
+      {
+        "source": 2,
+        "quote": "This momentum is yielding positive preclinical results"
+      },
+      {
+        "source": 10,
+        "quote": "Hassabis said Isomorphic expected its first clinical trials by the end of 2026"
+      }
+    ],
+    "note": "The absence of a disclosed candidate is also stated by BioSpace (source 8) and Fierce Biotech (source 7)."
+  }
+]

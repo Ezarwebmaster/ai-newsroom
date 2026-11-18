@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-18-2",
-  "next": "checker",
-  "post": "2026-11-18-isomorphic-labs-5b-series-c",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -79,6 +79,12 @@
     {
       "cycle": "2026-11-18",
       "post": "2026-11-18-nvidia-board-rejects-huang-return",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-18-2",
+      "post": "2026-11-18-isomorphic-labs-5b-series-c",
       "kind": "story",
       "status": "ready"
     }
