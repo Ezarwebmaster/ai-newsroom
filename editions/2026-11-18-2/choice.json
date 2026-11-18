@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-18-2",
+  "model": "Google Gemini 3.8 Flash",
+  "picked": 2,
+  "why": "Isomorphic Labs raising $5 billion in Series C funding marks the largest private financing round in biotech history, coming only six months after its $2.1 billion Series B. Backed by Greenoaks, Sequoia Capital, and parent company Alphabet, the capital accelerates clinical trials for AI-designed therapeutics and scales its IsoDDE engine. The milestone represents a major shift toward commercial and clinical validation for AI drug discovery with confirmed primary documentation and extensive global coverage.",
+  "trend": [
+    {
+      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "publisher": "TechCrunch",
+      "published": "2026-11-17"
+    },
+    {
+      "url": "https://www.biospace.com/business/isomorphic-labs-breaks-biotech-vc-fundraising-record-with-5b-series-c",
+      "publisher": "BioSpace",
+      "published": "2026-11-17"
+    },
+    {
+      "url": "https://www.cityam.com/isomorphic-labs-raises-5bn-in-one-of-uk-techs-biggest-funding-rounds/",
+      "publisher": "City A.M.",
+      "published": "2026-11-17"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 1,
+      "why": "OpenAI's launch lacks a primary source among its sources because openai.com returned 403 to the scout; we set it aside for coverage once primary documentation is confirmed."
+    },
+    {
+      "n": 3,
+      "why": "OpenAI's safety assessment agreement also lacks an official primary source due to the scout receiving HTTP 403 blocks from openai.com; we hold it for the weekly recap."
+    }
+  ]
+}
