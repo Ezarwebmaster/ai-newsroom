@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+    "title": "NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee",
+    "publisher": "NVIDIA Newsroom",
+    "kind": "primary",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "writer",
+    "quotes": [
+      { "type": "date", "text": "November 17, 2026", "for": "Date of the release.", "by": "writer" },
+      { "text": "a new standing committee responsible for board-level oversight of the company’s national security policies, export control compliance and global trade risk management", "for": "The committee's remit.", "by": "writer" },
+      { "text": "The Committee will be chaired by director Suzanne Nora Johnson and will also include directors Stephen C. Neal and John O. Dabiri as members.", "for": "Committee chair and members.", "by": "writer" },
+      { "text": "It will meet at least quarterly, including with management and in executive session.", "for": "Meeting frequency.", "by": "writer" },
+      { "text": "NVIDIA’s existing National Security Team and Global Trade Compliance Team will report directly to the Committee and to Interim CEO, Colette Kress, on day-to-day operations.", "for": "Reporting lines of the existing teams.", "by": "writer" },
+      { "text": "Committee will retain independent, outside experts to provide legal, national security and trade compliance expertise to support the Committee", "for": "Outside experts.", "by": "writer" },
+      { "text": "advanced silicon technologies and the emergence of artificial and superintelligence present unprecedented challenges for national security", "for": "Jones's statement in the release.", "by": "writer" }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://decrypt.co/383513/nvidia-board-shuts-down-jensen-huang-comeback",
+    "title": "Nvidia Board Shuts Down Jensen Huang Comeback, Launches Search for New CEO",
+    "publisher": "Decrypt",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "writer",
+    "quotes": [
+      { "text": "The Nvidia board does not intend to reinstate Jensen as CEO", "for": "Jones's statement on the earnings call.", "by": "writer" },
+      { "text": "The declaration comes just hours after Huang publicly offered to return if directors believed his reinstatement would benefit shareholders and employees.", "for": "Huang's offer and its timing.", "by": "writer" },
+      { "text": "The company has hired executive recruitment firm Heidrick & Struggles to find a permanent replacement.", "for": "The search firm.", "by": "writer" },
+      { "text": "We have every confidence in Colette's leadership, integrity and ability to deliver as interim CEO", "for": "Board backing for Kress.", "by": "writer" },
+      { "text": "would not answer questions about the circumstances surrounding his departure or the ongoing independent investigation", "for": "Questions Jones declined.", "by": "writer" },
+      { "text": "with President Donald Trump and Elon Musk among those publicly supporting his return", "for": "Public supporters of Huang's return.", "by": "writer" },
+      { "text": "Huang resigned after revelations about extramarital relationships, including one involving a businesswoman whose alleged Chinese intelligence connections have attracted scrutiny from U.S. authorities.", "for": "Reported circumstances of the resignation.", "by": "writer" },
+      { "text": "Jones also defended Nvidia's newly established National Security and Export Control Oversight Committee, saying it would improve engagement with U.S. officials", "for": "Jones on the committee.", "by": "writer" },
+      { "text": "Nvidia reported $115.8 billion in revenue, up 103% year over year, with data center sales reaching $107.6 billion.", "for": "Quarterly revenue.", "by": "writer" },
+      { "text": "Nvidia reported $2.5 billion in quarterly revenue from sales to Chinese business units under the Trump administration's limited export permissions.", "for": "China revenue.", "by": "writer" }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://www.cbc.ca/news/business/nvidia-earnings-jensen-huang-9.7425620",
+    "title": "No plans to reinstate CEO Jensen Huang, Nvidia chair tells investors",
+    "publisher": "CBC News",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "writer",
+    "quotes": [
+      { "text": "Nvidia board chair Harvey Jones opened an investor conference call on Tuesday by saying the AI chip company would", "for": "Jones opened the call with the statement.", "by": "writer" },
+      { "text": "Jones said the board had hired executive search firm Heidrick & Struggles to help find a new CEO.", "for": "The search firm.", "by": "writer" },
+      { "text": "Our leadership has stood up so strongly over the last week", "for": "Kress on the call.", "by": "writer" },
+      { "text": "campaign has complicated the search, and Huang said on Tuesday he would be \"honoured\" to return if the board", "for": "Huang's offer.", "by": "writer" },
+      { "text": "If you don't bring Jensen back, I would not hire an outsider. Nvidia is too complicated", "for": "Bezos's comment.", "by": "writer" },
+      { "text": "resigned last Thursday after reports of extramarital affairs", "for": "Reported circumstances of the resignation.", "by": "writer" },
+      { "text": "Nvidia's board created a committee on national security and export controls, its first major governance move since", "for": "The committee as the first governance move.", "by": "writer" },
+      { "text": "The company expects fourth-quarter revenue of $130 billion US, plus or minus three per cent", "for": "Fourth-quarter forecast.", "by": "writer" },
+      { "text": "rose 4.5 per cent in extended trading, after Nvidia forecast sales ahead of Wall Street targets", "for": "Share move.", "by": "writer" }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.techradar.com/computing/gpu/nvidia-goes-into-full-damage-limitation-mode-announcing-new-national-security-and-export-committee-which-would-have-been-a-great-idea-a-few-years-ago",
+    "title": "Nvidia goes into full damage limitation mode, announcing new national security and export committee",
+    "publisher": "TechRadar",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "writer",
+    "quotes": [
+      { "text": "While Huang has admitted to having an affair, the allegations around it being with a Chinese spy remain just that – allegations – and there's been no proof of this.", "for": "Status of the allegations.", "by": "writer" },
+      { "text": "Nvidia does indeed have teams dedicated to national security and global trade compliance", "for": "Existing compliance teams.", "by": "writer" }
+    ]
+  }
+]
