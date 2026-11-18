@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Nvidia's board rules out Jensen Huang's return as CEO and creates a national security committee.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "The Nvidia board does not intend to reinstate Jensen as CEO" },
+      { "source": 1, "quote": "a new standing committee responsible for board-level oversight of the company’s national security policies, export control compliance and global trade risk management" }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "On November 17, 2026, board chair Harvey Jones said Nvidia will not reinstate Huang, hours after the co-founder offered to come back, while Colette Kress stays interim CEO during a search.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "The Nvidia board does not intend to reinstate Jensen as CEO" },
+      { "source": 2, "quote": "The declaration comes just hours after Huang publicly offered to return if directors believed his reinstatement would benefit shareholders and employees." },
+      { "source": 2, "quote": "The company has hired executive recruitment firm Heidrick & Struggles to find a permanent replacement." },
+      { "source": 2, "quote": "We have every confidence in Colette's leadership, integrity and ability to deliver as interim CEO" },
+      { "source": 2, "quote": "By Jose Antonio Lanz Edited by Guillermo Jimenez Nov 17, 2026" }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Nvidia board chair Harvey Jones opened the company's quarterly earnings call on November 17, 2026, by saying the board would not rehire Huang and would not take questions on the matter.",
+    "status": "derived",
+    "note": "CBC News (published Nov 17, 2026) says Jones opened an investor conference call on Tuesday, which is November 17, 2026, and would not rehire Huang as CEO or take questions on the matter."
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Jones said the Nvidia board does not intend to reinstate Jensen as CEO.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "The Nvidia board does not intend to reinstate Jensen as CEO" }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "The statement came hours after Huang publicly offered to return if directors believed his reinstatement would benefit shareholders and employees.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "The declaration comes just hours after Huang publicly offered to return if directors believed his reinstatement would benefit shareholders and employees." }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 9,
+    "claim": "Earlier on November 17, 2026, the board set up a National Security and Export Control Oversight Committee, its first major governance move since Huang's departure.",
+    "status": "supported",
+    "support": [
+      { "source": 1, "quote": "November 17, 2026" },
+      { "source": 3, "quote": "Nvidia's board created a committee on national security and export controls, its first major governance move since" }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "Jones said the board unanimously accepted Huang's resignation and hired Heidrick & Struggles to find a permanent CEO.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "Jones said the board unanimously accepted Huang's resignation" },
+      { "source": 3, "quote": "Jones said the board had hired executive search firm Heidrick & Struggles to help find a new CEO." }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 15,
+    "claim": "Jones said Huang resigned after disclosure of personal behavior inconsistent with Nvidia's code of conduct, standards, and cultural norms, after the November 12, 2026, statement gave no reason.",
+    "status": "supported",
+    "support": [
+      { "source": 6, "quote": "Board chair Harvey C. Jones said during Tuesday’s call that the board unanimously accepted Huang's resignation after disclosure of “ personal behavior inconsistent with the company's code of conduct, standards, and cultural norms .”" },
+      { "source": 7, "quote": "The board's November 12 statement announcing the resignation had not given a reason." }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 16,
+    "claim": "Jones said the board is weighing internal and external candidates and wants to install a permanent CEO as quickly as possible without expediting before finding the right person.",
+    "status": "supported",
+    "support": [
+      { "source": 6, "quote": "It is considering both internal and external candidates." },
+      { "source": 6, "quote": "We want to install the CEO, the permanent CEO, as quickly as possible, but we won't expedite the CEO before finding exactly the right person," }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 18,
+    "claim": "Colette Kress remains interim CEO and Jones expressed full confidence in her leadership, integrity and ability to deliver.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "We have every confidence in Colette's leadership, integrity and ability to deliver as interim CEO" }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 19,
+    "claim": "Kress said Nvidia's leadership had stood up strongly over the past week.",
+    "status": "supported",
+    "support": [
+      { "source": 3, "quote": "Our leadership has stood up so strongly over the last week" }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 21,
+    "claim": "Kress said customers, suppliers and partners were 100% behind Nvidia and TSMC leadership was in Nvidia's office and fully engaged in helping.",
+    "status": "supported",
+    "support": [
+      { "source": 6, "quote": "We've engaged with our customers, we've engaged with our suppliers, our partners. They're all 100% up behind us," },
+      { "source": 3, "quote": "which makes chips for Nvidia, was in the office and \"fully engaged in helping us,\" she said." }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 23,
+    "claim": "Jones would not answer questions about the circumstances of Huang's departure or the independent investigation into his conduct.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "would not answer questions about the circumstances surrounding his departure or the ongoing independent investigation" }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 27,
+    "claim": "Huang said on November 17, 2026, that he would be honoured to return if the board deemed it best.",
+    "status": "derived",
+    "note": "CBC News (published Nov 17, 2026) says Huang said on Tuesday he would be \"honoured\" to return if the board deemed it best; Tuesday is November 17, 2026."
+  },
+  {
+    "id": 15,
+    "line": 29,
+    "claim": "In his first statement on X since resigning, Huang apologized for serious mistakes in his personal life and pledged to cooperate with the board's inquiry.",
+    "status": "supported",
+    "support": [
+      { "source": 4, "quote": "former Nvidia boss Jensen Huang released his first statement on X since resigning from the company." },
+      { "source": 7, "quote": "I did not live up to the standards expected of everyone at Nvidia, and I have made serious mistakes in my personal life. I created problems for the Board that I deeply regret," },
+      { "source": 7, "quote": "adding that he owns his mistakes completely and is committed to cooperating with the board's independent investigation." }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 31,
+    "claim": "President Donald Trump and Elon Musk were among public supporters of Huang's return.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "with President Donald Trump and Elon Musk among those publicly supporting his return" }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 33,
+    "claim": "An open letter on standwithjensen.com drew over 198,000 signatures by early November 18, 2026, including Musk and more than 10,024 self-described Nvidia employees.",
+    "status": "derived",
+    "note": "Mint (published 18 Nov 2026) reports \"More than 1.98 lakh people\" (1.98 lakh = 198,000) \"as of early Wednesday\" (November 18, 2026), and directly states \"over 10,024 who say they are current Nvidia employees\" and Elon Musk."
+  },
+  {
+    "id": 18,
+    "line": 35,
+    "claim": "Jeff Bezos said on November 17, 2026, that without Huang he would not hire an outsider.",
+    "status": "supported",
+    "support": [
+      { "source": 3, "quote": "If you don't bring Jensen back, I would not hire an outsider. Nvidia is too complicated" }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 37,
+    "claim": "U.S. Treasury Secretary Scott Bessent called on November 15, 2026, for a dramatic shake-up and urged the board to seek an outside successor.",
+    "status": "derived",
+    "note": "CFO Dive (published Nov 17, 2026, a Tuesday) reports Bessent made the call \"on Sunday\", which is November 15, 2026."
+  },
+  {
+    "id": 20,
+    "line": 39,
+    "claim": "Huang resigned on November 12, 2026, after reports of extramarital affairs, one reportedly involving a businesswoman whose alleged Chinese intelligence connections drew U.S. scrutiny.",
+    "status": "derived",
+    "note": "CBC News (published Nov 17, 2026, a Tuesday) reports Huang resigned \"last Thursday\" (November 12, 2026) after reports of extramarital affairs; Decrypt reports the alleged Chinese intelligence connections."
+  },
+  {
+    "id": 21,
+    "line": 40,
+    "claim": "Huang admitted to an affair, while the spying allegations remain unproved.",
+    "status": "supported",
+    "support": [
+      { "source": 4, "quote": "While Huang has admitted to having an affair, the allegations around it being with a Chinese spy remain just that – allegations – and there's been no proof of this." }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 44,
+    "claim": "The new standing committee oversees national security policies, export control compliance and global trade risk management.",
+    "status": "supported",
+    "support": [
+      { "source": 1, "quote": "a new standing committee responsible for board-level oversight of the company’s national security policies, export control compliance and global trade risk management" }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 45,
+    "claim": "Suzanne Nora Johnson chairs the committee, with Stephen C. Neal and John O. Dabiri as members, and it will meet at least quarterly.",
+    "status": "supported",
+    "support": [
+      { "source": 1, "quote": "The Committee will be chaired by director Suzanne Nora Johnson and will also include directors Stephen C. Neal and John O. Dabiri as members." },
+      { "source": 1, "quote": "It will meet at least quarterly, including with management and in executive session." }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 46,
+    "claim": "Existing national security and trade compliance teams will report to the committee and to Kress, and the committee will retain outside experts.",
+    "status": "supported",
+    "support": [
+      { "source": 1, "quote": "NVIDIA’s existing National Security Team and Global Trade Compliance Team will report directly to the Committee and to Interim CEO, Colette Kress, on day-to-day operations." },
+      { "source": 1, "quote": "Committee will retain independent, outside experts to provide legal, national security and trade compliance expertise to support the Committee" }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 47,
+    "claim": "Jones said advanced chips and the emergence of artificial and superintelligence present unprecedented challenges for national security.",
+    "status": "supported",
+    "support": [
+      { "source": 1, "quote": "advanced silicon technologies and the emergence of artificial and superintelligence present unprecedented challenges for national security" }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 48,
+    "claim": "Jones said the committee would improve engagement with U.S. officials as Washington investigates how restricted AI chips reached China.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "Jones also defended Nvidia's newly established National Security and Export Control Oversight Committee, saying it would improve engagement with U.S. officials" },
+      { "source": 2, "quote": "as Washington investigates how restricted AI chips have reached China." }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 52,
+    "claim": "Nvidia reported quarterly revenue of $115.8 billion, up 103% from a year earlier, with data center sales of $107.6 billion.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "Nvidia reported $115.8 billion in revenue, up 103% year over year, with data center sales reaching $107.6 billion." }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 54,
+    "claim": "In Q3 FY27 ended October 25, 2026, revenue rose 20% sequentially, data center sales grew 110% year over year, edge computing revenue reached $8.2 billion, and GAAP net income reached $65.3 billion ($2.70 per diluted share) at a 74.8% gross margin.",
+    "status": "supported",
+    "support": [
+      { "source": 5, "quote": "NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago." },
+      { "source": 5, "quote": "Third-quarter revenue was $107.6 billion, up 21% from the previous quarter and up 110% from a year ago." },
+      { "source": 5, "quote": "Third-quarter Edge Computing revenue was $8.2 billion, up 14% from the previous quarter and up 42% from a year ago." },
+      { "source": 5, "quote": "For the quarter, GAAP and non-GAAP gross margins were 74.8% and 74.9%, respectively. GAAP and non-GAAP earnings per diluted share were $2.70 and $2.68, respectively." },
+      { "source": 7, "quote": "Meanwhile, Nvidia's net income more than doubled to USD 65.3 billion for the quarter ended October 25, 2026, from USD 31.9 billion a year earlier." }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 55,
+    "claim": "Nvidia began shipping Vera Rubin NVL72 systems to CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure and Nebius.",
+    "status": "supported",
+    "support": [
+      { "source": 5, "quote": "Ramped production and began shipping NVIDIA Vera Rubin NVL72 — the fastest product ramp in the company’s history — with racks running at partners including CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure and Nebius" },
+      { "source": 5, "quote": "Vera Rubin is off to an explosive start, our roadmap is on track and our ambition has never been greater." }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 57,
+    "claim": "Nvidia reported $2.5 billion in quarterly revenue from sales to Chinese business units under limited export permissions.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "Nvidia reported $2.5 billion in quarterly revenue from sales to Chinese business units under the Trump administration's limited export permissions." }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 58,
+    "claim": "Nvidia forecast fourth-quarter revenue of $130 billion, plus or minus 3%, assuming no data-centre chip sales to China.",
+    "status": "supported",
+    "support": [
+      { "source": 3, "quote": "The company expects fourth-quarter revenue of $130 billion US, plus or minus three per cent" },
+      { "source": 3, "quote": "the outlook assumes no data-centre chip sales to China." }
+    ]
+  },
+  {
+    "id": 32,
+    "line": 60,
+    "claim": "The outlook beat the $125.25 billion LSEG consensus, Kress raised FY28 revenue growth projection to about 75% from 70%, and shares rose 4.5% in extended trading on November 17, 2026.",
+    "status": "derived",
+    "note": "CBC News (Nov 17, 2026) reports the $125.25 billion LSEG consensus and 4.5% rise in extended trading; CFO Dive (published Tuesday Nov 17, 2026) reports the raised FY28 projection from 70% to about 75% on Tuesday."
+  },
+  {
+    "id": 33,
+    "line": 66,
+    "claim": "Nvidia has not disclosed the scope, timeline or findings of its independent investigation, and Jones declined questions on it or Huang's departure.",
+    "status": "absence",
+    "note": "Checked Decrypt, CBC News, CFO Dive, Mint, TechRadar and Nvidia's releases; Jones explicitly declined to answer questions about the circumstances or ongoing independent investigation (Decrypt)."
+  },
+  {
+    "id": 34,
+    "line": 67,
+    "claim": "No proof has been made public regarding allegations of a relationship involving Chinese intelligence.",
+    "status": "supported",
+    "support": [
+      { "source": 4, "quote": "While Huang has admitted to having an affair, the allegations around it being with a Chinese spy remain just that – allegations – and there's been no proof of this." }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 68,
+    "claim": "The board has not named a shortlist of candidates or a target date to appoint a permanent CEO.",
+    "status": "absence",
+    "note": "Checked all seven sources; Jones said only that the board is considering internal and external candidates and will not expedite before finding the right person (CFO Dive)."
+  },
+  {
+    "id": 36,
+    "line": 69,
+    "claim": "Nvidia has not identified the outside legal, national security and trade compliance experts the new committee will retain.",
+    "status": "absence",
+    "note": "Checked Nvidia's November 17, 2026 committee press release; it states the committee will retain independent, outside experts without naming them."
+  },
+  {
+    "id": 37,
+    "line": 73,
+    "claim": "Key point 1: On November 17, 2026, Nvidia's board ruled out reinstating Jensen Huang as CEO, keeping Colette Kress as interim chief while Heidrick & Struggles searches for a replacement.",
+    "status": "supported",
+    "support": [
+      { "source": 2, "quote": "The Nvidia board does not intend to reinstate Jensen as CEO" },
+      { "source": 2, "quote": "The company has hired executive recruitment firm Heidrick & Struggles to find a permanent replacement." },
+      { "source": 2, "quote": "We have every confidence in Colette's leadership, integrity and ability to deliver as interim CEO" },
+      { "source": 3, "quote": "Posted: Nov 17, 2026 5:56 PM EST" }
+    ]
+  },
+  {
+    "id": 38,
+    "line": 74,
+    "claim": "Key point 2: Jones said Huang resigned after disclosing behavior inconsistent with Nvidia's code of conduct, as the board formed a national security committee amid U.S. chip-export scrutiny.",
+    "status": "supported",
+    "support": [
+      { "source": 6, "quote": "Board chair Harvey C. Jones said during Tuesday’s call that the board unanimously accepted Huang's resignation after disclosure of “ personal behavior inconsistent with the company's code of conduct, standards, and cultural norms .”" },
+      { "source": 1, "quote": "a new standing committee responsible for board-level oversight of the company’s national security policies, export control compliance and global trade risk management" },
+      { "source": 2, "quote": "as Washington investigates how restricted AI chips have reached China." }
+    ]
+  },
+  {
+    "id": 39,
+    "line": 75,
+    "claim": "Key point 3: Nvidia reported $115.8 billion in third-quarter revenue, up 103% year over year, and forecast $130 billion for the fourth quarter assuming no China data-center sales.",
+    "status": "supported",
+    "support": [
+      { "source": 5, "quote": "NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago." },
+      { "source": 3, "quote": "The company expects fourth-quarter revenue of $130 billion US, plus or minus three per cent" },
+      { "source": 3, "quote": "the outlook assumes no data-centre chip sales to China." }
+    ]
+  }
+]

@@ -59,3 +59,18 @@ Nvidia forecast fourth-quarter revenue of $130 billion, plus or minus 3%, and it
 <!-- add role="reviser" model="Google Gemini 4 Argon" -->
 That outlook beat the $125.25 billion LSEG consensus, Kress raised Nvidia's fiscal 2028 revenue growth projection to about 75% from 70%, and shares rose 4.5% in extended trading on November 17, 2026, CBC News and CFO Dive reported.[^3][^6]
 <!-- /add -->
+
+<!-- add role="checker" model="Google Gemini 4 Hydrogen" -->
+## What Nvidia has not disclosed about the inquiry and succession
+
+- Nvidia has not disclosed the scope, timeline or findings of its independent investigation into Huang's conduct, and Jones declined to take questions on the inquiry or his departure.[^2]
+- No proof has been made public regarding allegations of a relationship involving Chinese intelligence, which TechRadar noted remain unverified.[^4]
+- The board has not named a shortlist of candidates or a target date to appoint a permanent chief executive, saying only that it will not rush the search.[^6]
+- Nvidia has also not identified the outside legal, national security and trade compliance experts the new board committee will retain.[^1]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Hydrogen" -->
+- On November 17, 2026, Nvidia's board ruled out reinstating Jensen Huang as CEO, keeping Colette Kress as interim chief while Heidrick & Struggles searches for a replacement.[^2][^3]
+- Jones said Huang resigned after disclosing behavior inconsistent with Nvidia's code of conduct, as the board formed a national security committee amid U.S. chip-export scrutiny.[^1][^2][^6]
+- Nvidia reported $115.8 billion in third-quarter revenue, up 103% year over year, and forecast $130 billion for the fourth quarter assuming no China data-center sales.[^2][^3][^5]
+<!-- /keypoints -->
