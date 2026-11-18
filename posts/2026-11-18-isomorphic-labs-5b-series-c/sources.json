@@ -1,0 +1,217 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round",
+    "title": "Isomorphic Labs announces Series C investment round",
+    "publisher": "Isomorphic Labs",
+    "kind": "primary",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "November 17, 2026",
+        "for": "Publication date of the Isomorphic Labs announcement.",
+        "by": "writer"
+      },
+      {
+        "text": "Isomorphic Labs announces it has raised $5 Billion in Series C funding. The round was co-led by Greenoaks and Sequoia Capital, alongside Andreessen Horowitz (a16z) and several other new investors, with continued significant investment from Alphabet.",
+        "for": "The $5 billion Series C round, co-leads, Andreessen Horowitz and Alphabet.",
+        "by": "writer"
+      },
+      {
+        "text": "The round also included participation from all existing investors: Thrive Capital, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund.",
+        "for": "Participation from all existing investors.",
+        "by": "writer"
+      },
+      {
+        "text": "The company is scaling its proprietary drug design engine (IsoDDE) and therapeutic candidate pipeline designed with AI to deliver the next generation of medicines for patients.",
+        "for": "Scaling IsoDDE and the AI-designed therapeutic pipeline.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://storage.googleapis.com/isomorphiclabs-website-public-artifacts/ISOMORPHIC_LABS_FUNDING_17-11-26.pdf",
+    "title": "Isomorphic Labs announces $5 Billion Series C funding",
+    "publisher": "Isomorphic Labs (news release)",
+    "kind": "primary",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "LONDON, 17 November, 2026",
+        "for": "Dateline of the Isomorphic Labs Series C news release.",
+        "by": "writer"
+      },
+      {
+        "text": "Greenoaks and Sequoia Capital co-lead the oversubscribed round as Isomorphic Labs continues to advance its foundational simulation models, progress and scale its internal and partnered medicine candidate pipeline, and build its global AI-led bioengineering infrastructure.",
+        "for": "Oversubscribed round, simulation models, pipeline scaling and bioengineering infrastructure.",
+        "by": "writer"
+      },
+      {
+        "text": "This momentum is yielding positive preclinical results, both for internal programs in oncology and immunology and with partners, setting the stage for clinical entry.",
+        "for": "Positive preclinical results in oncology and immunology and partner work.",
+        "by": "writer"
+      },
+      {
+        "text": "Proceeds will also support the company’s continued build of scalable AI-first translational and clinical development infrastructure as it advances its drug candidates to clinical trials.",
+        "for": "Use of proceeds for translational and clinical development infrastructure.",
+        "by": "writer"
+      },
+      {
+        "text": "Isomorphic Labs is headquartered in London and has office locations in Cambridge, Massachusetts and Lausanne, Switzerland.",
+        "for": "Headquarters and office locations.",
+        "by": "writer"
+      },
+      {
+        "text": "Isomorphic Labs is led by CEO Sir Demis Hassabis and President Max Jaderberg.",
+        "for": "Leadership by Hassabis and Jaderberg.",
+        "by": "writer"
+      },
+      {
+        "text": "Every week we are making repeatable scientific advancements enabled by our models",
+        "for": "Max Jaderberg on repeatable weekly advancements.",
+        "by": "writer"
+      },
+      {
+        "text": "routinely solving complex biological problems that have stalled traditional research for decades.",
+        "for": "Max Jaderberg on solving complex biological problems.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+    "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+    "publisher": "TechCrunch",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Posted: 6:50 AM PST · November 17, 2026",
+        "for": "Publication timestamp of the TechCrunch article.",
+        "by": "writer"
+      },
+      {
+        "text": "The new funding, which comes on the heels of a $2.1 billion Series B round in May, will be used to continue developing its drug-design engine, as well as to foray into more types of medicine.",
+        "for": "The May 2026 $2.1 billion Series B round.",
+        "by": "writer"
+      },
+      {
+        "text": "The Series C is Isomorphic’s first fundraise since its founder and CEO, Demis Hassabis, left his position as head of DeepMind to focus on drug discovery, which also saw him moving into a chairman role at DeepMind.",
+        "for": "First fundraise since Hassabis left his role as head of DeepMind to become chairman.",
+        "by": "writer"
+      },
+      {
+        "text": "Isomorphic did not disclose its new valuation. Bloomberg reported earlier this month that the lab was looking to raise funding at a $50 billion valuation.",
+        "for": "Undisclosed valuation and Bloomberg's $50 billion valuation report.",
+        "by": "writer"
+      },
+      {
+        "text": "The lab has struck deals with pharma giants like Eli Lilly, Novartis, and Johnson & Johnson.",
+        "for": "Pharmaceutical partnerships with Eli Lilly, Novartis and Johnson & Johnson.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://siliconangle.com/2026/11/17/alphabets-isomorphic-labs-raises-5b-to-accelerate-drug-discovery-with-ai/",
+    "title": "Alphabet’s Isomorphic Labs raises $5B to accelerate drug discovery with AI",
+    "publisher": "SiliconANGLE",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "UPDATED 18:51 EST / NOVEMBER 17 2026",
+        "for": "Publication timestamp of the SiliconANGLE article.",
+        "by": "writer"
+      },
+      {
+        "text": "The Alphabet unit says that multiple pharmaceutical companies are already using IsoDDE to power drug discovery programs.",
+        "for": "Multiple pharmaceutical companies already using IsoDDE.",
+        "by": "writer"
+      },
+      {
+        "text": "Isomorphic says that IsoDDE speeds up the task of finding binding pockets. When there are no such pockets, it helps researchers develop compounds that cause a target protein to form them.",
+        "for": "Finding and inducing binding pockets on target proteins.",
+        "by": "writer"
+      },
+      {
+        "text": "The process of creating 3D protein models for FEP algorithms is itself a highly complex task. It requires scientists to freeze a target protein in a crystal and scan it using specialized X-ray equipment.",
+        "for": "X-ray crystallization step required by traditional FEP methods.",
+        "by": "writer"
+      },
+      {
+        "text": "IsoDDE skips that step of the research workflow. Furthermore, Isomorphic says that the software can generate higher-quality output than FEP algorithms.",
+        "for": "IsoDDE skipping crystallization and claiming higher-quality output than FEP.",
+        "by": "writer"
+      },
+      {
+        "text": "Our drug design engine is generating molecules with unprecedented precision and speed",
+        "for": "Demis Hassabis quote on IsoDDE.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.cityam.com/isomorphic-labs-raises-5bn-in-one-of-uk-techs-biggest-funding-rounds/",
+    "title": "Isomorphic Labs raises $5bn in 'one of UK tech’s biggest funding rounds'",
+    "publisher": "City A.M.",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Tuesday 17 November 2026 7:07 pm",
+        "for": "Publication timestamp of the City A.M. article.",
+        "by": "writer"
+      },
+      {
+        "text": "London-based AI drug discovery firm Isomorphic Labs has raised $5bn (£3.8bn) in one of the largest funding rounds in British tech, as investors bet billions on AI transforming the pharmaceutical industry.",
+        "for": "GBP conversion (£3.8 billion) and London base.",
+        "by": "writer"
+      },
+      {
+        "text": "The investment follows reports last month that Isomorphic was seeking a valuation of up to $50bn, compared with roughly $17.5bn previously.",
+        "for": "Previous valuation comparison of roughly $17.5 billion and up to $50 billion target.",
+        "by": "writer"
+      },
+      {
+        "text": "The $5bn injection comes just six months after Isomorphic secured $2.1bn in Series B funding, bringing its total disclosed external funding to approximately $7.7bn since 2025.",
+        "for": "Six-month interval since Series B and $7.7 billion total disclosed external funding since 2025.",
+        "by": "writer"
+      },
+      {
+        "text": "AI minister Kanishka Narayan welcomed the announcement, calling it “one of the biggest Series C rounds in UK tech history”.",
+        "for": "UK AI minister Kanishka Narayan reaction.",
+        "by": "writer"
+      },
+      {
+        "text": "However, despite raising billions, Isomorphic has yet to begin testing its own drug candidates in humans.",
+        "for": "No human clinical trials started yet.",
+        "by": "writer"
+      },
+      {
+        "text": "City AM understands the company remains in late-stage preclinical development, with encouraging early results across its internal oncology and immunology programmes and partnered projects.",
+        "for": "Late-stage preclinical development status.",
+        "by": "writer"
+      }
+    ]
+  }
+]
