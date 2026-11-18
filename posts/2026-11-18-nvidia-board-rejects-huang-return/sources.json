@@ -37,7 +37,11 @@
       { "text": "Huang resigned after revelations about extramarital relationships, including one involving a businesswoman whose alleged Chinese intelligence connections have attracted scrutiny from U.S. authorities.", "for": "Reported circumstances of the resignation.", "by": "writer" },
       { "text": "Jones also defended Nvidia's newly established National Security and Export Control Oversight Committee, saying it would improve engagement with U.S. officials", "for": "Jones on the committee.", "by": "writer" },
       { "text": "Nvidia reported $115.8 billion in revenue, up 103% year over year, with data center sales reaching $107.6 billion.", "for": "Quarterly revenue.", "by": "writer" },
-      { "text": "Nvidia reported $2.5 billion in quarterly revenue from sales to Chinese business units under the Trump administration's limited export permissions.", "for": "China revenue.", "by": "writer" }
+      { "text": "Nvidia reported $2.5 billion in quarterly revenue from sales to Chinese business units under the Trump administration's limited export permissions.", "for": "China revenue.", "by": "writer" },
+      { "type": "date", "text": "By Jose Antonio Lanz Edited by Guillermo Jimenez Nov 17, 2026", "for": "Publication date of the Decrypt article.", "by": "reviser" },
+      { "text": "Earlier today, before Huang’s public statement, sources told CNBC the board was not considering bringing Huang back.", "for": "CNBC report earlier on November 17 before Huang's offer.", "by": "reviser" },
+      { "text": "Jones said the board unanimously accepted Huang's resignation and would not answer questions about the circumstances surrounding his departure", "for": "Unanimous board acceptance of Huang's resignation.", "by": "reviser" },
+      { "text": "as Washington investigates how restricted AI chips have reached China.", "for": "Washington investigation into restricted AI chips reaching China.", "by": "reviser" }
     ]
   },
   {
@@ -58,7 +62,15 @@
       { "text": "resigned last Thursday after reports of extramarital affairs", "for": "Reported circumstances of the resignation.", "by": "writer" },
       { "text": "Nvidia's board created a committee on national security and export controls, its first major governance move since", "for": "The committee as the first governance move.", "by": "writer" },
       { "text": "The company expects fourth-quarter revenue of $130 billion US, plus or minus three per cent", "for": "Fourth-quarter forecast.", "by": "writer" },
-      { "text": "rose 4.5 per cent in extended trading, after Nvidia forecast sales ahead of Wall Street targets", "for": "Share move.", "by": "writer" }
+      { "text": "rose 4.5 per cent in extended trading, after Nvidia forecast sales ahead of Wall Street targets", "for": "Share move.", "by": "writer" },
+      { "type": "date", "text": "Posted: Nov 17, 2026 5:56 PM EST", "for": "Publication date of the CBC News article.", "by": "reviser" },
+      { "text": "not rehire co-founder Jensen Huang as CEO and would not take questions on the matter.", "for": "Jones ruling out rehiring Huang and declining questions.", "by": "reviser" },
+      { "text": "which makes chips for Nvidia, was in the office and \"fully engaged in helping us,\" she said.", "for": "Kress on TSMC leadership being in Nvidia's office.", "by": "reviser" },
+      { "text": "The company expects fourth-quarter revenue of $130 billion US, plus or minus three per cent, above analysts' average estimate of $125.25 billion US, according to LSEG data.", "for": "Fourth-quarter guidance beating the $125.25 billion LSEG consensus.", "by": "reviser" },
+      { "text": "the outlook assumes no data-centre chip sales to China.", "for": "Fourth-quarter outlook assuming no data-center chip sales to China.", "by": "reviser" },
+      { "text": "They were down about 17 per cent for the year through Tuesday's close, valuing the company at roughly $3.8 trillion US.", "for": "Year-to-date stock decline and $3.8 trillion valuation.", "by": "reviser" },
+      { "text": "Washington has also tightened licensing rules for chip shipments to", "for": "Tightened U.S. licensing rules for chip shipments.", "by": "reviser" },
+      { "text": "Southeast Asia and overseas data centres serving Chinese firms, while lawmakers prepare to question Huang", "for": "Scope of tightened licensing rules and lawmakers preparing to question Huang.", "by": "reviser" }
     ]
   },
   {
@@ -72,7 +84,68 @@
     "added_by": "writer",
     "quotes": [
       { "text": "While Huang has admitted to having an affair, the allegations around it being with a Chinese spy remain just that – allegations – and there's been no proof of this.", "for": "Status of the allegations.", "by": "writer" },
-      { "text": "Nvidia does indeed have teams dedicated to national security and global trade compliance", "for": "Existing compliance teams.", "by": "writer" }
+      { "text": "Nvidia does indeed have teams dedicated to national security and global trade compliance", "for": "Existing compliance teams.", "by": "writer" },
+      { "type": "date", "text": "News By Darren Allan last updated 17 November 2026", "for": "Publication date of the TechRadar article.", "by": "reviser" },
+      { "text": "Since this story was published, former Nvidia boss Jensen Huang released his first statement on X since resigning from the company.", "for": "Huang's November 17 post on X as his first statement since resigning.", "by": "reviser" }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+    "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+    "publisher": "NVIDIA Newsroom",
+    "kind": "primary",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "reviser",
+    "quotes": [
+      { "type": "date", "text": "November 17, 2026", "for": "Date of the third-quarter fiscal 2027 earnings release.", "by": "reviser" },
+      { "text": "NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago.", "for": "Third-quarter revenue and sequential and year-over-year growth.", "by": "reviser" },
+      { "text": "For the quarter, GAAP and non-GAAP gross margins were 74.8% and 74.9%, respectively. GAAP and non-GAAP earnings per diluted share were $2.70 and $2.68, respectively.", "for": "Third-quarter gross margins and diluted earnings per share.", "by": "reviser" },
+      { "text": "Vera Rubin is off to an explosive start, our roadmap is on track and our ambition has never been greater.", "for": "Kress statement on Vera Rubin and Nvidia's roadmap.", "by": "reviser" },
+      { "text": "During the third quarter of fiscal 2027, NVIDIA returned $28.1 billion to shareholders in the form of shares repurchased and cash dividends.", "for": "Shareholder returns in the third quarter.", "by": "reviser" },
+      { "text": "Third-quarter revenue was $107.6 billion, up 21% from the previous quarter and up 110% from a year ago.", "for": "Data Center revenue and growth rates.", "by": "reviser" },
+      { "text": "Ramped production and began shipping NVIDIA Vera Rubin NVL72 — the fastest product ramp in the company’s history — with racks running at partners including CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure and Nebius", "for": "Vera Rubin NVL72 shipments and cloud partners.", "by": "reviser" },
+      { "text": "Third-quarter Edge Computing revenue was $8.2 billion, up 14% from the previous quarter and up 42% from a year ago.", "for": "Edge Computing third-quarter revenue.", "by": "reviser" },
+      { "text": "GAAP and non-GAAP gross margins are expected to be between 71.0% and 72.0%.", "for": "Fourth-quarter gross margin guidance.", "by": "reviser" }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.cfodive.com/news/nvidia-projects-75-growth-leadership-upheaval-earnings/875000/",
+    "title": "Nvidia interim CEO seeks to reassure investors after Huang’s downfall",
+    "publisher": "CFO Dive",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-18",
+    "added_by": "reviser",
+    "quotes": [
+      { "type": "date", "text": "Published Nov. 17, 2026", "for": "Publication date of the CFO Dive article.", "by": "reviser" },
+      { "text": "We've engaged with our customers, we've engaged with our suppliers, our partners. They're all 100% up behind us,", "for": "Kress statement on customer, supplier and partner support.", "by": "reviser" },
+      { "text": "Nvidia on Tuesday also raised its fiscal 2028 revenue growth projection to about 75% from 70%.", "for": "Raised fiscal 2028 revenue growth projection.", "by": "reviser" },
+      { "text": "Board chair Harvey C. Jones said during Tuesday’s call that the board unanimously accepted Huang's resignation after disclosure of “ personal behavior inconsistent with the company's code of conduct, standards, and cultural norms .”", "for": "Jones stating the code-of-conduct reason for Huang's resignation.", "by": "reviser" },
+      { "text": "The board has retained executive search firm Heidrick & Struggles to lead the search for a permanent CEO, Jones said. It is considering both internal and external candidates.", "for": "Board considering both internal and external candidates.", "by": "reviser" },
+      { "text": "We want to install the CEO, the permanent CEO, as quickly as possible, but we won't expedite the CEO before finding exactly the right person,", "for": "Jones on the pace of the CEO search.", "by": "reviser" },
+      { "text": "U.S. Treasury Secretary Scott Bessent on Sunday called for Nvidia's board to pursue a “dramatic shake-up” and urged it to look outside the company for Huang's successor.", "for": "Treasury Secretary Scott Bessent urging an outside successor.", "by": "reviser" }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://www.livemint.com/focus/hours-after-huang-offers-to-return-nvidia-chair-says-no-plan-to-reinstate-him-as-ceo-11794979262372.html",
+    "title": "Hours after Huang offers to return, Nvidia chair says no plan to reinstate him as CEO",
+    "publisher": "Mint",
+    "kind": "press",
+    "published": "2026-11-18",
+    "retrieved": "2026-11-18",
+    "added_by": "reviser",
+    "quotes": [
+      { "type": "date", "text": "Published 18 Nov 2026", "for": "Publication date of the Mint article.", "by": "reviser" },
+      { "text": "Jones said Huang had voluntarily resigned \"after disclosure of personal behaviour inconsistent with the company's code of conduct standards and cultural norms\". The board's November 12 statement announcing the resignation had not given a reason.", "for": "Jones's explanation on the call and the contrast with the November 12 statement.", "by": "reviser" },
+      { "text": "Since his departure, Nvidia's employees, investors, business partners and customers have called for him to return as CEO, and many continue to reach out to him directly, he said.", "for": "Huang saying employees, investors, partners and customers called on him to return.", "by": "reviser" },
+      { "text": "I did not live up to the standards expected of everyone at Nvidia, and I have made serious mistakes in my personal life. I created problems for the Board that I deeply regret,", "for": "Huang's apology in his post on X.", "by": "reviser" },
+      { "text": "adding that he owns his mistakes completely and is committed to cooperating with the board's independent investigation.", "for": "Huang committing to cooperate with the board's investigation.", "by": "reviser" },
+      { "text": "More than 1.98 lakh people, including over 10,024 who say they are current Nvidia employees, had signed an open letter seeking Huang's reinstatement as of early Wednesday, according to the campaign website standwithjensen.com. Tesla CEO Elon Musk is among the signatories.", "for": "Petition signature counts on standwithjensen.com.", "by": "reviser" },
+      { "text": "Meanwhile, Nvidia's net income more than doubled to USD 65.3 billion for the quarter ended October 25, 2026, from USD 31.9 billion a year earlier.", "for": "Third-quarter GAAP net income of $65.3 billion.", "by": "reviser" }
     ]
   }
 ]
