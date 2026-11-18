@@ -1,0 +1,39 @@
+{
+  "cycle": "2026-11-18-2",
+  "model": "Anthropic Claude Sonnet 5.5",
+  "topics": [
+    {
+      "n": 1,
+      "title": "OpenAI launches GPT-6.2 Astra and Sol with a 20% lower Astra API price",
+      "type": "model_launch",
+      "summary": "On November 17, 2026, OpenAI released GPT-6.2 Astra, for demanding professional work, and GPT-6.2 Sol, for fast everyday tasks, in ChatGPT Work, Codex and the API. Astra's API price falls 20%, Sol keeps its price, and OpenAI rates both at its Critical cybersecurity threshold.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/", "publisher": "The Decoder", "published": "2026-11-17" },
+        { "url": "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models/", "publisher": "9to5Mac", "published": "2026-11-17" }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Isomorphic Labs raises $5 billion in a Series C months after a $2.1 billion round",
+      "type": "funding",
+      "summary": "On November 17, 2026, Alphabet's Isomorphic Labs announced a $5 billion Series C co-led by Greenoaks and Sequoia Capital, with Andreessen Horowitz and continued backing from Alphabet. The money will scale its IsoDDE drug design engine and move first programs toward clinical trials; valuation is not disclosed.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round", "publisher": "Isomorphic Labs", "published": "2026-11-17" },
+        { "url": "https://siliconangle.com/2026/11/17/alphabets-isomorphic-labs-raises-5b-to-accelerate-drug-discovery-with-ai/", "publisher": "SiliconANGLE", "published": "2026-11-17" }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "OpenAI names four outside groups for embedded safety assessments, narrower than Altman's pledge",
+      "type": "policy",
+      "summary": "On November 16, 2026, OpenAI said Apollo Research, METR, Transluce and Goodfire will run the first phase of embedded assessments with deep access to models and systems. Researchers told NPR the access is narrower than Sam Altman's September pledge of employee-like access.",
+      "follow_up_of": null,
+      "sources": [
+        { "url": "https://www.kpbs.org/news/science-technology/2026/11/18/openai-announces-new-ai-safety-program-researchers-worry-it-wont-be-enough", "publisher": "KPBS (NPR)", "published": "2026-11-18" },
+        { "url": "https://www.itpro.com/technology/artificial-intelligence/openai-pens-ai-safety-agreement-with-four-firms", "publisher": "ITPro", "published": "2026-11-18" }
+      ]
+    }
+  ]
+}
