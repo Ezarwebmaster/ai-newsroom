@@ -1,0 +1,21 @@
+{
+  "contract": 1,
+  "id": "2026-11-18-nvidia-board-rejects-huang-return",
+  "cycle": "2026-11-18",
+  "kind": "story",
+  "type": "company",
+  "category": "industry",
+  "tags": [
+    "nvidia",
+    "leadership",
+    "chips"
+  ],
+  "primary_source": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+  "follow_up_of": "2026-11-13-nvidia-ceo-transition",
+  "sensitive": true,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

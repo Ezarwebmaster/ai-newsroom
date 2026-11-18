@@ -1,0 +1,38 @@
+{
+  "cycle": "2026-11-18",
+  "model": "Google Gemini 3.8 Flash",
+  "picked": 1,
+  "why": "Nvidia's board shutting down Jensen Huang's offer to return and standing up a dedicated national security committee is the critical next chapter in the industry's largest leadership disruption. With broad coverage across global outlets, confirmed primary documentation from Nvidia, and direct continuity from our November 13 CEO transition coverage, this high-stakes governance battle impacts the entire AI hardware ecosystem.",
+  "trend": [
+    {
+      "url": "https://www.forbes.com/sites/maryroeloffs/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-is-new-national-security-committee/",
+      "publisher": "Forbes",
+      "published": "2026-11-17"
+    },
+    {
+      "url": "https://decrypt.co/383513/nvidia-board-shuts-down-jensen-huang-comeback",
+      "publisher": "Decrypt",
+      "published": "2026-11-17"
+    },
+    {
+      "url": "https://www.cbc.ca/news/business/nvidia-earnings-jensen-huang-9.7425620",
+      "publisher": "CBC News",
+      "published": "2026-11-17"
+    },
+    {
+      "url": "https://www.techradar.com/computing/gpu/nvidia-goes-into-full-damage-limitation-mode-announcing-new-national-security-and-export-committee-which-would-have-been-a-great-idea-a-few-years-ago",
+      "publisher": "TechRadar",
+      "published": "2026-11-17"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Microsoft's multi-partner transparency initiative outlines governance principles, but lacks binding enforcement or immediate technical impact compared to the unfolding leadership and national security crisis at Nvidia."
+    },
+    {
+      "n": 3,
+      "why": "The packaging and substrate investments are significant for long-term capacity, but production starts in late 2027; we hold this for the upcoming weekly recap."
+    }
+  ]
+}
