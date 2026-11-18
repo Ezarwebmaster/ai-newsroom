@@ -398,3 +398,18 @@ checker('an absence without a citation under a heading of its own', t => {
   sub(t, `${NVP}/article.md`, '- Why Huang resigned: neither the release nor the 8-K gives a reason.[^1][^2]', '- Why Huang resigned: Nvidia gave no reason.')
   json(t, `${NVP}/claims.json`, v => { const c = v.find(x => x.line === 66); c.claim = 'Nvidia gave no reason for the resignation.'; c.status = 'absence'; delete c.support; c.note = 'Read the release and the 8-K: neither gives a reason.' })
 }, 'OK')
+
+// ── Check 1.3.1: a topic lists its primary source, of the kind its type needs ──
+const kinds = (list) => t => json(t, T1, v => { v.topics.forEach((x, k) => x.sources.forEach((s, j) => { if (list[k]?.[j]) s.kind = list[k][j] })) })
+scout('a topic that marks its primary source gets no warning', kinds([['filing', 'press', 'press'], ['press', 'press'], ['primary', 'press']]),
+  (out, pass) => pass && !/topic 1: no source of kind/.test(out) && !/topic 3: no source of kind/.test(out))
+scout('a model launch with press sources only', kinds([['filing', 'press', 'press'], ['press', 'press'], ['press', 'press']]),
+  warns(/warning · .*topic 3: no source of kind "primary", which a model_launch story needs as its primary source\. .*Otherwise the editor cannot pick this topic\./))
+scout('a funding story with press sources only can still run unconfirmed', kinds([['filing', 'press', 'press'], ['press', 'press'], ['primary', 'press']]),
+  warns(/topic 2: no source of kind "filing" or "primary", which a funding story needs .*can only run it as "unconfirmed"/))
+scout('a topic source with an unknown kind', kinds([['filing'], [], [], []].map((x, k) => k === 0 ? ['official'] : x)), /topic 1, source 1: "kind" is one of primary, filing/)
+scout('a topic source marked filing outside the filing hosts', kinds([[], [], ['filing']]), /topic 3, source 1: kind "filing" is only for sec\.gov/)
+add('scout: --todo lists the kind each type needs', { parent: null, step: null, args: ['--todo'],
+  expect: (out, pass) => pass && /give each source its "kind"/.test(out) && /^ {6}model_launch +primary$/m.test(out) && /^ {6}funding +filing or primary \(else it can only run as unconfirmed, press only\)$/m.test(out) })
+add('editor: --todo shows the kind of each topic source', { parent: '01-scout', step: null, editParent: undefined, args: ['--todo'],
+  expect: (out, pass) => pass && /^ {7}\d{4}-\d{2}-\d{2} +\? +https:\/\/www\.sec\.gov/m.test(out) })

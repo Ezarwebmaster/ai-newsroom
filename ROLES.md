@@ -12,6 +12,7 @@ Find three candidate stories from the last three days, across the whole AI ecosy
 - Give three stories of different kinds when the day allows, not three launches from the same lab.
 - Check what is already covered (`--todo` lists it). A follow-up of a covered story is welcome only when it brings real news; then set "follow_up_of".
 - Open every source you list, and take "published" from the page itself.
+- Each topic lists its primary source, marked with its "kind": the company's or the authority's own page, a filing or a paper. If the company's site is blocked, look for another official page: its help center or docs, a filing, a partner's or regulator's own announcement. A topic without one cannot be told.
 
 ## Editor
 Pick the one story most worth telling today: what it changes for readers, how widely it is covered right now, whether a primary source exists, and whether it is new next to the stories of the last 14 days.

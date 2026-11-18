@@ -53,13 +53,14 @@ posts/<id>/claims.json                  the checker
 ```json
 { "cycle": "2026-11-13", "model": "<your name, as the brief gives it>", "topics": [
   { "n": 1, "title": "…", "type": "company", "summary": "At most 60 words.", "follow_up_of": null,
-    "sources": [ { "url": "https://…", "publisher": "…", "published": "2026-11-12" } ] } ] }
+    "sources": [ { "url": "https://…", "publisher": "…", "published": "2026-11-12", "kind": "primary" } ] } ] }
 ```
 
 - The cycle is today or yesterday (UTC), after the last cycle. On a busy day, once the day's first story is done, the owner may launch a second one: its cycle is `<date>-2`. Write exactly 3 topics, `n` from 1 to 3.
 - Each topic has at least 2 sources (https) from 2 different sites. At least 2 of them were published between the cycle minus 3 days and the cycle plus 1 day. `published` is the page's own date, or `null`.
 - Not sources: aggregators, search pages, social networks, video sites, URL shorteners, archives.
 - A topic is refused when one of its sources is the primary source of a story already covered, unless `follow_up_of` names that story.
+- `kind` is optional, with the values of `sources.json` (§8). The story's primary source is one of the topic's pages, of the kind its type needs (§6, and `--todo` lists them): mark the company's or the authority's own page with its `kind`. A topic without one gets a warning: the editor cannot pick it, except a company or funding story run as unconfirmed.
 
 ## 5. `choice.json` (editor)
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// AI Newsroom · the check of a step (check v1.3.0, contract 1).
+// AI Newsroom · the check of a step (check v1.3.1, contract 1).
 //
 //   node check.mjs              checks what your step changed: prints OK, or what to fix
 //   node check.mjs --todo       prints whose turn it is, how to play that role, the files to write and the rules
@@ -19,7 +19,7 @@ import { execFileSync } from 'node:child_process'
 import { existsSync, lstatSync, readFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 
-const VERSION = '1.3.0'
+const VERSION = '1.3.1'
 const CONTRACT = 1
 const RELAY_EMAIL = 'relay@llmtimemachine.com' // committer of every step the platform replays or pushes
 
@@ -777,8 +777,13 @@ function checkTopics(file, t, cycle, primaries, followable) {
     const domains = new Set()
     x.sources.forEach((s, j) => {
       const w = `${where}, source ${j + 1}`
-      if (!keys(file, s, w, ['url', 'publisher', 'published'])) return
+      if (!keys(file, s, w, ['url', 'publisher', 'published'], ['kind'])) return
       if (!isStr(s.publisher, 1, 120)) fail(file, `${w}: "publisher" is who published the page`)
+      if (s.kind !== undefined) {
+        if (!KINDS.includes(s.kind)) fail(file, `${w}: "kind" is one of ${KINDS.join(', ')}`)
+        else if (s.kind === 'filing' && !urlProblem(s.url) && !onHost(s.url, FILING_HOSTS)) fail(file, `${w}: kind "filing" is only for ${FILING_HOSTS.join(', ')}; a company's own page is "primary"`)
+        else if (s.kind === 'paper' && !urlProblem(s.url) && !onHost(s.url, PAPER_HOSTS)) fail(file, `${w}: kind "paper" is only for ${PAPER_HOSTS.join(', ')}; a paper on a lab's own site is "primary"`)
+      }
       if (s.published !== null && !isDate(s.published)) fail(file, `${w}: "published" is the page's date (YYYY-MM-DD, UTC) or null`)
       if (inWindow(s.published, cycle)) fresh++
       const p = urlProblem(s.url)
@@ -791,6 +796,13 @@ function checkTopics(file, t, cycle, primaries, followable) {
     })
     if (domains.size < 2) fail(file, `${where}: the sources come from at least 2 different sites`)
     if (fresh < 2) fail(file, `${where}: at least 2 sources published between ${windowOf(cycle)[0]} and ${windowOf(cycle)[1]}: this is news of the day`)
+    // The story's primary source must be one of the topic's pages (editor), of the kind its type needs (writer).
+    const T = TYPES[x.type]
+    if (T && !x.sources.some(s => T.primary.includes(s?.kind))) {
+      warn(file, `${where}: no source of kind ${T.primary.map(k => `"${k}"`).join(' or ')}, which a ${x.type} story needs as its primary source. `
+        + 'Add the company\'s or the authority\'s own page with its "kind"; if its site is blocked, another official page (help center, docs, a filing, a partner\'s or regulator\'s announcement). '
+        + (T.unconfirmed ? 'Otherwise the editor can only run it as "unconfirmed" (press only).' : 'Otherwise the editor cannot pick this topic.'))
+    }
   })
   return t
 }
@@ -1246,6 +1258,8 @@ function todo(base, S) {
       '    between <cycle> - 3 days and <cycle> + 1 day; "published" is the page\'s own date (UTC) or null',
       '  - not sources: aggregators, search pages, social networks, video sites, URL shorteners, archives',
       '  - a topic whose source is the primary source of a story already covered is refused (unless follow_up_of)',
+      `  - give each source its "kind" (${KINDS.join(', ')}); a topic lists its primary source, of the kind its type needs:`,
+      ...Object.entries(TYPES).map(([t, v]) => `      ${t.padEnd(13)} ${v.primary.join(' or ')}${v.unconfirmed ? ' (else it can only run as unconfirmed, press only)' : ''}`),
       '', `Stories of the last ${RECENT_DAYS} days:`, ...recentList(),
       '', ...state({ contract: CONTRACT, cycle: scoutCycle(S).split(' ')[0], next: 'editor', post: null, history: S.history }))
   } else if (role === 'editor') {
@@ -1253,7 +1267,7 @@ function todo(base, S) {
     p('Pick the most trending topic that is not already covered. Write:',
       `  A editions/${S.cycle}/choice.json`, `  A posts/${cycleDate(S.cycle)}-<slug>/meta.json   <slug>: lower-case words joined by "-", at most ${SLUG_MAX} characters`, '  M state.json',
       '', 'The topics:')
-    for (const t of topics?.topics || []) p(`  ${t.n}. [${t.type}] ${t.title}`, ...(t.sources || []).map(s => `       ${s.published || 'no date'}  ${s.url}`))
+    for (const t of topics?.topics || []) p(`  ${t.n}. [${t.type}] ${t.title}`, ...(t.sources || []).map(s => `       ${s.published || 'no date'}  ${(s.kind || '?').padEnd(9)} ${s.url}`))
     p('', 'Rules:',
       '  - choice.json: "picked" 1 to 3; "why" at most 80 words; "set_aside" gives the 2 other topics, each with a "why" of at most 30 words',
       `  - "trend": at least 3 articles from 3 different sites (2 for research and open_source), published between ${windowOf(S.cycle)[0]} and ${windowOf(S.cycle)[1]}, none of them already a source of the topic`,
