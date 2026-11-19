@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "title": "Anthropic prices initial public offering",
+    "publisher": "Anthropic",
+    "kind": "primary",
+    "published": "2026-11-18",
+    "retrieved": "2026-11-19",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Nov 18, 2026",
+        "for": "The date of the pricing announcement.",
+        "by": "writer"
+      },
+      {
+        "text": "Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share.",
+        "for": "The pricing at $83 per share.",
+        "by": "writer"
+      },
+      {
+        "text": "The offering consists of 980,000,000 shares of Class A common stock, 956,351,354 of which are being sold by Anthropic and 23,648,646 of which are being sold by certain selling stockholders.",
+        "for": "The Class A share count breakdown.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic will not receive any proceeds from the sale of shares by the selling stockholders.",
+        "for": "Anthropic receiving no proceeds from selling stockholders.",
+        "by": "writer"
+      },
+      {
+        "text": "The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.”",
+        "for": "The Nasdaq debut date and ticker.",
+        "by": "writer"
+      },
+      {
+        "text": "The offering is expected to close on November 20, 2026, subject to the satisfaction of customary closing conditions.",
+        "for": "The closing date of the offering.",
+        "by": "writer"
+      },
+      {
+        "text": "In addition, Anthropic has granted the underwriters a 30-day option to purchase up to an additional 147,000,000 shares of its Class A common stock.",
+        "for": "The 30-day overallotment option.",
+        "by": "writer"
+      },
+      {
+        "text": "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026.",
+        "for": "The SEC registration statement effective date.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
+    "title": "Anthropic prices IPO at $83 per share, giving it a $1.5 trillion valuation | Fortune",
+    "publisher": "Fortune",
+    "kind": "press",
+    "published": "2026-11-18",
+    "retrieved": "2026-11-19",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "November 18, 2026",
+        "for": "The publication date.",
+        "by": "writer"
+      },
+      {
+        "text": "The expanded float means Anthropic will raise roughly $79.4 billion in the IPO—and as much as $91.6 billion if the deal’s underwriters choose to exercise an over-allotment option.",
+        "for": "Anthropic proceeds and overallotment total.",
+        "by": "writer"
+      },
+      {
+        "text": "At a $1.5 trillion valuation, Anthropic would be the second most valuable IPO of all time, behind SpaceX’s $1.77 trillion IPO in June.",
+        "for": "Valuation and historical ranking behind SpaceX.",
+        "by": "writer"
+      },
+      {
+        "text": "Measured by capital raised however, Anthropic’s $79 billion would top the $75 billon raised by SpaceX.",
+        "for": "Capital raised exceeding SpaceX.",
+        "by": "writer"
+      },
+      {
+        "text": "Despite the risks, and the already massive valuation for a newly public company, Khan said he believed Anthropic’s fair value is actually closer to $92 per share.",
+        "for": "Morningstar analyst fair value estimate.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion",
+    "title": "Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion",
+    "publisher": "PBS News (Associated Press)",
+    "kind": "press",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-19",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Nov 18, 2026",
+        "for": "The reporting date.",
+        "by": "writer"
+      },
+      {
+        "text": "Proceeds totaling $81 billion put Anthropic's IPO ahead of SpaceX, which raised about $75 billion in June.",
+        "for": "Total proceeds comparison with SpaceX.",
+        "by": "writer"
+      },
+      {
+        "text": "The company said it has already signed leases and other deals requiring it to spend $900 billion on computing power and infrastructure in the coming years, including $70 billion in the next 12 months.",
+        "for": "Multi-year infrastructure spending commitments.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic already has taken on $6.2 billion in debt, which it acknowledges in financial filings is \"substantial.\"",
+        "for": "Anthropic outstanding debt burden.",
+        "by": "writer"
+      },
+      {
+        "text": "\"This is strong appetite for this major AI IPO in Anthropic, and it's a big win for the tech sector after a white-knuckle time with Nvidia. The pricing shows strong demand among investors,\" said Dan Ives",
+        "for": "Dan Ives quote on market sentiment.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time",
+    "title": "Anthropic raises $81.3bn in biggest IPO of all time",
+    "publisher": "Al Jazeera",
+    "kind": "press",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-19",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "19 Nov 2026",
+        "for": "The publication date.",
+        "by": "writer"
+      },
+      {
+        "text": "The Claude creator is also set to raise $26bn through a private placement, a type of deal involving the sale of stock to private investors, taking the total capital raised to $107.3bn.",
+        "for": "Private placement raising total capital to $107.3 billion.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic has raised $81.3bn in the largest initial public offering (IPO) in history, leapfrogging SpaceX’s initial $75bn market debut in June.",
+        "for": "Record IPO proceeds.",
+        "by": "writer"
+      }
+    ]
+  }
+]
