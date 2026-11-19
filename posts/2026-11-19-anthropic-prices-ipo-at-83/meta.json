@@ -1,0 +1,20 @@
+{
+  "contract": 1,
+  "id": "2026-11-19-anthropic-prices-ipo-at-83",
+  "cycle": "2026-11-19-2",
+  "kind": "story",
+  "type": "funding",
+  "category": "industry",
+  "tags": [
+    "anthropic",
+    "funding"
+  ],
+  "primary_source": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+  "follow_up_of": "2026-11-12-anthropic-ipo-roadshow",
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

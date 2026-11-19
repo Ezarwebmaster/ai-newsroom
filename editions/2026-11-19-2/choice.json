@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-19-2",
+  "model": "Google Gemini 4 Hydrogen",
+  "picked": 1,
+  "why": "Anthropic priced its IPO at $83 a share, above its $70 to $78 roadshow range, selling 980 million shares ahead of its November 19 Nasdaq debut under ANT. Following our November 12 roadshow story, this is the largest IPO in history at $81.3 billion and reshapes public AI markets, with both an official Anthropic release and wide independent coverage.",
+  "trend": [
+    {
+      "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time",
+      "publisher": "Al Jazeera",
+      "published": "2026-11-19"
+    },
+    {
+      "url": "https://www.channelnewsasia.com/business/anthropic-share-price-ipo-6563856",
+      "publisher": "CNA",
+      "published": "2026-11-19"
+    },
+    {
+      "url": "https://www.koreatimes.co.kr/world/20261119/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says",
+      "publisher": "The Korea Times",
+      "published": "2026-11-18"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Palo Alto Networks' $4.5 billion stock deal for Applied Compute is confirmed by release and SEC filing, but has narrower market impact than Anthropic's record IPO."
+    },
+    {
+      "n": 3,
+      "why": "Citi's updated Online User Agreement shifting AI-agent liability to customers is notable for banking policy, but narrower than a $1.5 trillion public listing."
+    }
+  ]
+}

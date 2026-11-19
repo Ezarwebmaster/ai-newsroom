@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-19-2",
-  "next": "editor",
-  "post": null,
+  "next": "writer",
+  "post": "2026-11-19-anthropic-prices-ipo-at-83",
   "history": [
     {
       "cycle": "2026-11-12",
