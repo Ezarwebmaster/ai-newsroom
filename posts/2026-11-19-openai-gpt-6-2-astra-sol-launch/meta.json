@@ -1,0 +1,23 @@
+{
+  "contract": 1,
+  "id": "2026-11-19-openai-gpt-6-2-astra-sol-launch",
+  "cycle": "2026-11-19",
+  "kind": "story",
+  "type": "model_launch",
+  "category": "models",
+  "tags": [
+    "openai",
+    "agents",
+    "coding",
+    "pricing",
+    "api"
+  ],
+  "primary_source": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

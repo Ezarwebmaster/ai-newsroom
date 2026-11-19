@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-19",
+  "model": "Google Gemini 4 Hydrogen",
+  "picked": 1,
+  "why": "OpenAI's November 17 launch of GPT-6.2 Astra and GPT-6.2 Sol updates both its flagship frontier model and its everyday model across ChatGPT Work, Codex, and the API, while cutting Astra's standard token prices by 20%. It affects a broad audience of developers and enterprise users, has a full primary announcement on OpenAI's site, and drew immediate independent coverage and benchmark testing.",
+  "trend": [
+    {
+      "url": "https://www.scworld.com/brief/openai-releases-gpt-6-2-astra-and-sol-models",
+      "publisher": "SC Media",
+      "published": "2026-11-18"
+    },
+    {
+      "url": "https://cryptobriefing.com/openai-gpt-6-2-astra-sol-code-arena/",
+      "publisher": "Crypto Briefing",
+      "published": "2026-11-18"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "publisher": "Simon Willison’s Weblog",
+      "published": "2026-11-17"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Palo Alto Networks' $4.5 billion all-stock deal to acquire Applied Compute is a notable enterprise M&A story, but narrower in immediate developer impact than OpenAI's dual model launch."
+    },
+    {
+      "n": 3,
+      "why": "Portland Council President Jamie Dunphy's proposed municipal AI procurement moratorium is an early local ordinance draft still awaiting a council hearing and vote."
+    }
+  ]
+}
