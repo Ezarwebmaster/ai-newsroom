@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-19-2",
-  "next": "checker",
-  "post": "2026-11-19-anthropic-prices-ipo-at-83",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -91,6 +91,12 @@
     {
       "cycle": "2026-11-19",
       "post": "2026-11-19-openai-gpt-6-2-astra-sol-launch",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-19-2",
+      "post": "2026-11-19-anthropic-prices-ipo-at-83",
       "kind": "story",
       "status": "ready"
     }

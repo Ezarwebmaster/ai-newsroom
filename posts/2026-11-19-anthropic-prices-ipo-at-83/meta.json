@@ -14,7 +14,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Section heading on line 29 references lockups even though the article body and cited sources do not cover Anthropic's lockup schedule.",
+    "Line 9 attributes the 12th-largest global market value ranking alongside Fortune, though that ranking comes from Al Jazeera ([^4]); both sources are cited."
+  ],
   "image_brief": null
 }

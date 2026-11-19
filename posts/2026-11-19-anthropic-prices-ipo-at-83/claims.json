@@ -1,0 +1,545 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Anthropic priced its IPO at $83 a share, raising up to $91.6 billion at a $1.5 trillion valuation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "priced its initial public offering of its Class A common stock at $83.00 per share."
+      },
+      {
+        "source": 2,
+        "quote": "Anthropic will raise roughly $79.4 billion in the IPO—and as much as $91.6 billion if the deal’s underwriters choose to exercise an over-allotment option."
+      },
+      {
+        "source": 2,
+        "quote": "valuing the AI company at $1.5 trillion."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Anthropic expanded its offering to 980 million shares ahead of trading on Nasdaq under ANT.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "increased the number of shares sold in the offering to 980 million, instead of the 825 million shares it initially indicated it would sell."
+      },
+      {
+        "source": 1,
+        "quote": "begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.”"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Anthropic priced its IPO at $83.00 per share on November 18, 2026, above its $70 to $78 roadshow range.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share."
+      },
+      {
+        "source": 2,
+        "quote": "above its initially guided ranged of $70 to $78 per share"
+      },
+      {
+        "source": 3,
+        "quote": "The company had set a price range of $70 to $78 per share"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "The pricing values Anthropic at about $1.5 trillion fully diluted or $1.1 trillion non-diluted, the second most valuable IPO behind SpaceX's $1.77 trillion June 2026 listing.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "On a fully diluted basis, the IPO values the company at about US$1.5 trillion, including securities such as stock options and restricted stock. On a non-diluted basis, the valuation stands at about US$1.1 trillion."
+      },
+      {
+        "source": 2,
+        "quote": "At a $1.5 trillion valuation, Anthropic would be the second most valuable IPO of all time, behind SpaceX’s $1.77 trillion IPO in June."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 9,
+    "claim": "With OpenAI holding off until at least 2027, Anthropic is the first pure-play frontier AI model developer to go public and ranks 12th globally by market value behind Tesla.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "With OpenAI holding off on its IPO until at least 2027, Anthropic becomes the first pure-play maker of frontier AI models to go public"
+      },
+      {
+        "source": 4,
+        "quote": "making it the world’s 12th-biggest firm at current valuations, just behind Tesla."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 11,
+    "claim": "The SEC declared Anthropic's registration statement effective on November 18, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 15,
+    "claim": "Anthropic expanded the offering to 980,000,000 Class A shares, up from 825 million shares initially planned.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The offering consists of 980,000,000 shares of Class A common stock"
+      },
+      {
+        "source": 2,
+        "quote": "increased the number of shares sold in the offering to 980 million, instead of the 825 million shares it initially indicated it would sell."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 17,
+    "claim": "The roughly 19% upsizing followed roadshow demand several times the shares offered, with Goldman Sachs and Morgan Stanley leading a 22-bank underwriting syndicate.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "the IPO was upsized by about 19 per cent to 980 million shares from its initial plan to sell 825 million shares"
+      },
+      {
+        "source": 5,
+        "quote": "a roadshow that attracted demand several times the number of shares offered"
+      },
+      {
+        "source": 5,
+        "quote": "Goldman Sachs and Morgan Stanley are the lead underwriters for Anthropic's offering, which has a 22-bank underwriting syndicate."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 19,
+    "claim": "Anthropic is selling 956,351,354 shares itself and selling stockholders are offering 23,648,646 shares.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "956,351,354 of which are being sold by Anthropic and 23,648,646 of which are being sold by certain selling stockholders."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 20,
+    "claim": "Anthropic receives no proceeds from selling stockholders, who include Dario Amodei, Daniela Amodei, and Jared Kaplan.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Anthropic will not receive any proceeds from the sale of shares by the selling stockholders."
+      },
+      {
+        "source": 2,
+        "quote": "Some—including CEO Dario Amodei, President Daniella Amodei, and Chief Science Officer Jared Kaplan—are cashing in small portions of their equity through the offering"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 21,
+    "claim": "Gross proceeds of $81.3 billion exceed SpaceX's initial $75 billion debut in June 2026, though SpaceX later reached $85.7 billion after its overallotment option.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Anthropic has raised $81.3bn in the largest initial public offering (IPO) in history, leapfrogging SpaceX’s initial $75bn market debut in June."
+      },
+      {
+        "source": 4,
+        "quote": "SpaceX’s total IPO haul later came to $85.7bn, after the deal’s underwriters exercised an overallotment option to purchase additional shares."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 22,
+    "claim": "Fortune reports Anthropic will raise roughly $79.4 billion from its own shares and up to $91.6 billion if underwriters exercise their overallotment option.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The expanded float means Anthropic will raise roughly $79.4 billion in the IPO—and as much as $91.6 billion if the deal’s underwriters choose to exercise an over-allotment option."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 23,
+    "claim": "Underwriters hold a 30-day option to purchase up to an additional 147,000,000 Class A shares from Anthropic.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Anthropic has granted the underwriters a 30-day option to purchase up to an additional 147,000,000 shares of its Class A common stock."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 24,
+    "claim": "Seven strategic partners including Google and Nvidia agreed to purchase $26 billion of non-voting stock at the $83 IPO price.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Seven strategic partners, including Google and Nvidia, have also agreed to buy $26 billion of non-voting Anthropic stock at the IPO price"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 26,
+    "claim": "Including the private placement, total capital raised reaches $107.3 billion, or up to roughly $118 billion for Anthropic with the overallotment option.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "taking the total capital raised to $107.3bn."
+      },
+      {
+        "source": 2,
+        "quote": "all told, Anthropic could exit the deal with proceeds of $118 billion."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 31,
+    "claim": "Anthropic's Class A stock is expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under ANT.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.”"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 32,
+    "claim": "The offering is expected to close on November 20, 2026, subject to customary closing conditions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The offering is expected to close on November 20, 2026, subject to the satisfaction of customary closing conditions."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 33,
+    "claim": "Dan Ives told the Associated Press the pricing shows strong investor demand after turmoil at Nvidia.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "it's a big win for the tech sector after a white-knuckle time with Nvidia. The pricing shows strong demand among investors,\" said Dan Ives"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 35,
+    "claim": "Over the preceding month, the Nasdaq Composite fell nearly 7.6%, led by a drop of more than 30% in Nvidia's stock.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The tech-heavy Nasdaq Composite stock index has shed nearly 7.6 percent of its value over the past month, led by a more than 30 percent plunge in Nvidia’s stock price."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 37,
+    "claim": "Morningstar analyst Malik Ahmed Khan said Anthropic's fair value is closer to $92 per share.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Khan said he believed Anthropic’s fair value is actually closer to $92 per share."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 39,
+    "claim": "On November 18, 2026, Khan cautioned Anthropic must manage enormous model development and running costs amid competitive and economic uncertainty.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "“Anthropic will need to sustain rapid growth while managing the enormous cost of developing and running its models, and there is still considerable uncertainty around how the competitive landscape and economics of generative AI will evolve,”"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 40,
+    "claim": "Anthropic had 11,900 customers generating at least $100,000 in trailing 12-month revenue as of September 30, 2026, up from more than 1,500 at the end of 2025, while Ramp tracked Claude Fable at about 8% of enterprise AI spending behind GPT-6 Astra at 13%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The Claude maker said it had 11,900 customers generating at least US$100,000 in annual revenue on a trailing 12-month basis as of Sep 30, compared with more than 1,500 at the end of last year"
+      },
+      {
+        "source": 5,
+        "quote": "OpenAI's GPT-6 Astra, its latest flagship AI model, accounted for about 13 per cent of enterprise AI spending tracked by corporate expense platform Ramp, compared with about 8 per cent for Anthropic's Claude Fable, according to data cited by Reuters in September."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 41,
+    "claim": "Baillie Gifford invested roughly $1.5 billion in Anthropic before the IPO, and Peter Singlehurst said value will accrue to whoever is at the frontier.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Our thesis is that the vast amount of value will accrue to whoever is at the frontier,\" said Peter Singlehurst, head of private companies at Baillie Gifford, which invested roughly US$1.5 billion in Anthropic before its IPO."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 48,
+    "claim": "Anthropic spent nearly $9 billion on computing capacity and infrastructure in the first half of 2026, nearly four times a year earlier, plus $5 billion in third-quarter computing costs.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Anthropic spent nearly US$9 billion on computing capacity and infrastructure in the first half of 2026, nearly four times the amount spent a year earlier."
+      },
+      {
+        "source": 5,
+        "quote": "It also incurred an additional US$5 billion in computing costs in the third quarter"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 50,
+    "claim": "Anthropic has signed leases and agreements committing it to spend $900 billion on computing power and infrastructure over the coming years.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The company said it has already signed leases and other deals requiring it to spend $900 billion on computing power and infrastructure in the coming years"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 51,
+    "claim": "Those commitments include $70 billion scheduled to be spent within the next 12 months.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "including $70 billion in the next 12 months."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 53,
+    "claim": "Anthropic warned in its prospectus that if partners' third-party financing becomes unavailable or costlier, contracted capacity may be delayed, repriced, reduced, or not delivered.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Anthropic warned in its prospectus that some of its computing providers and infrastructure partners depend on third-party financing and credit support to acquire chips and build capacity."
+      },
+      {
+        "source": 5,
+        "quote": "\"If such financing or support becomes unavailable or more costly, contracted capacity may be delayed, repriced, reduced, or not delivered,\" Anthropic said in an IPO filing."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 55,
+    "claim": "Anthropic carries $6.2 billion in debt, which its filings acknowledge as substantial.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Anthropic already has taken on $6.2 billion in debt, which it acknowledges in financial filings is \"substantial.\""
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 56,
+    "claim": "Anthropic remains unprofitable under standard accounting rules.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Adding to the strain, the company is unprofitable, at least under standard accounting rules"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 61,
+    "claim": "Shares are expected to begin trading on Nasdaq around midday on November 19, 2026, and closing on November 20, 2026 remains subject to customary conditions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "When the stock begins trading, likely around midday on Thursday, investors will finally have their chance to opine on the “fair” share price."
+      },
+      {
+        "source": 1,
+        "quote": "The offering is expected to close on November 20, 2026, subject to the satisfaction of customary closing conditions."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 62,
+    "claim": "Underwriters hold a 30-day option for up to 147,000,000 additional shares that could lift Anthropic's IPO proceeds to $91.6 billion against SpaceX's $85.7 billion post-overallotment total.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Anthropic has granted the underwriters a 30-day option to purchase up to an additional 147,000,000 shares of its Class A common stock."
+      },
+      {
+        "source": 2,
+        "quote": "as much as $91.6 billion if the deal’s underwriters choose to exercise an over-allotment option."
+      },
+      {
+        "source": 4,
+        "quote": "SpaceX’s total IPO haul later came to $85.7bn, after the deal’s underwriters exercised an overallotment option to purchase additional shares."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "line": 62,
+    "claim": "Whether underwriters will exercise the 30-day overallotment option is not yet known.",
+    "status": "absence",
+    "note": "Anthropic's November 18, 2026 announcement grants the 30-day option and neither the company nor the press reports any exercise before trading opens on November 19, 2026."
+  },
+  {
+    "id": 33,
+    "line": 63,
+    "claim": "Anthropic reported a $567 million third-quarter operating loss and remains unprofitable under standard accounting rules, while its long-term benefit trust can elect or remove a board majority in uncharted territory.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The company reported an operating loss of US$567 million, compared with operating income of US$974 million in the previous quarter."
+      },
+      {
+        "source": 3,
+        "quote": "Adding to the strain, the company is unprofitable, at least under standard accounting rules"
+      },
+      {
+        "source": 3,
+        "quote": "Anthropic has set up a long-term benefit trust that will have the ability to elect or remove a majority of the company's board of directors."
+      },
+      {
+        "source": 3,
+        "quote": "How that will play out for companies worth potentially trillions of dollars is uncharted territory."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "line": 67,
+    "claim": "Anthropic priced its 980-million-share IPO at $83 per share on November 18, 2026, valuing the company at about $1.5 trillion fully diluted ahead of Nasdaq trading under ANT.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share."
+      },
+      {
+        "source": 1,
+        "quote": "The offering consists of 980,000,000 shares of Class A common stock"
+      },
+      {
+        "source": 1,
+        "quote": "The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.”"
+      },
+      {
+        "source": 5,
+        "quote": "On a fully diluted basis, the IPO values the company at about US$1.5 trillion"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 68,
+    "claim": "Gross IPO proceeds of $81.3 billion and a $26 billion private placement total $107.3 billion, with Anthropic raising up to $91.6 billion if underwriters exercise their option.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Anthropic has raised $81.3bn in the largest initial public offering (IPO) in history"
+      },
+      {
+        "source": 4,
+        "quote": "The Claude creator is also set to raise $26bn through a private placement, a type of deal involving the sale of stock to private investors, taking the total capital raised to $107.3bn."
+      },
+      {
+        "source": 2,
+        "quote": "Anthropic will raise roughly $79.4 billion in the IPO—and as much as $91.6 billion if the deal’s underwriters choose to exercise an over-allotment option."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "line": 69,
+    "claim": "Proceeds help fund $900 billion in computing commitments, including $70 billion within 12 months, as Anthropic carries $6.2 billion in debt and remains unprofitable.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The company said it has already signed leases and other deals requiring it to spend $900 billion on computing power and infrastructure in the coming years, including $70 billion in the next 12 months."
+      },
+      {
+        "source": 3,
+        "quote": "Anthropic already has taken on $6.2 billion in debt, which it acknowledges in financial filings is \"substantial.\""
+      },
+      {
+        "source": 3,
+        "quote": "Adding to the strain, the company is unprofitable, at least under standard accounting rules"
+      }
+    ]
+  }
+]

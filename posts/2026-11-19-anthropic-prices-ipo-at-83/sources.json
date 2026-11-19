@@ -107,6 +107,26 @@
         "text": "“Anthropic will need to sustain rapid growth while managing the enormous cost of developing and running its models, and there is still considerable uncertainty around how the competitive landscape and economics of generative AI will evolve,”",
         "for": "Malik Ahmed Khan warning on computing costs and competitive uncertainty.",
         "by": "reviser"
+      },
+      {
+        "text": "Anthropic priced shares for its initial public offering on Wednesday at $83 per share, above its initially guided ranged of $70 to $78 per share, and valuing the AI company at $1.5 trillion.",
+        "for": "Initial $70 to $78 price range, $83 IPO price, and $1.5 trillion valuation.",
+        "by": "checker"
+      },
+      {
+        "text": "The San Francisco-based AI company said Wednesday that it increased the number of shares sold in the offering to 980 million, instead of the 825 million shares it initially indicated it would sell.",
+        "for": "Upsizing of the offering from 825 million to 980 million shares.",
+        "by": "checker"
+      },
+      {
+        "text": "Seven strategic partners, including Google and Nvidia, have also agreed to buy $26 billion of non-voting Anthropic stock at the IPO price—meaning that, all told, Anthropic could exit the deal with proceeds of $118 billion.",
+        "for": "Seven strategic partners including Google and Nvidia buying $26 billion of non-voting stock at the IPO price.",
+        "by": "checker"
+      },
+      {
+        "text": "When the stock begins trading, likely around midday on Thursday, investors will finally have their chance to opine on the “fair” share price.",
+        "for": "Expected midday November 19, 2026 trading debut on Nasdaq.",
+        "by": "checker"
       }
     ]
   },
@@ -145,6 +165,26 @@
         "text": "\"This is strong appetite for this major AI IPO in Anthropic, and it's a big win for the tech sector after a white-knuckle time with Nvidia. The pricing shows strong demand among investors,\" said Dan Ives",
         "for": "Dan Ives quote on market sentiment.",
         "by": "writer"
+      },
+      {
+        "text": "The company had set a price range of $70 to $78 per share, offering 825 million shares that will begin trading on the Nasdaq under the ticker symbol \"ANT.\"",
+        "for": "Initial $70 to $78 price range and 825 million share offering on Nasdaq under ANT.",
+        "by": "checker"
+      },
+      {
+        "text": "Adding to the strain, the company is unprofitable, at least under standard accounting rules, suggesting that its resources to pay interest and principal are limited.",
+        "for": "Anthropic remaining unprofitable under standard accounting rules.",
+        "by": "checker"
+      },
+      {
+        "text": "Anthropic has set up a long-term benefit trust that will have the ability to elect or remove a majority of the company's board of directors.",
+        "for": "Long-term benefit trust authority to elect or remove a board majority.",
+        "by": "checker"
+      },
+      {
+        "text": "How that will play out for companies worth potentially trillions of dollars is uncharted territory.",
+        "for": "Untested public-benefit corporation governance at trillion-dollar scale.",
+        "by": "checker"
       }
     ]
   },
@@ -256,6 +296,16 @@
         "text": "\"If such financing or support becomes unavailable or more costly, contracted capacity may be delayed, repriced, reduced, or not delivered,\" Anthropic said in an IPO filing.",
         "for": "Prospectus quote on contracted capacity risks if third-party financing becomes unavailable or more costly.",
         "by": "reviser"
+      },
+      {
+        "text": "Reuters was first to report that the IPO was upsized by about 19 per cent to 980 million shares from its initial plan to sell 825 million shares at between US$70 and US$78 apiece.",
+        "for": "Roughly 19% upsizing of the IPO from 825 million to 980 million shares.",
+        "by": "checker"
+      },
+      {
+        "text": "The company reported an operating loss of US$567 million, compared with operating income of US$974 million in the previous quarter.",
+        "for": "Third-quarter 2026 operating loss of $567 million.",
+        "by": "checker"
       }
     ]
   }

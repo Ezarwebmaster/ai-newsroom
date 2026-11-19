@@ -54,3 +54,17 @@ In its prospectus, Anthropic warned that some computing partners rely on third-p
 <!-- /add -->
 The Associated Press reported that Anthropic carries $6.2 billion in debt, which company filings describe as substantial.[^3]
 Although the company remains unprofitable under standard accounting rules, public listing proceeds provide substantial funding without taking on additional high-interest loans.[^3]
+
+<!-- add role="checker" model="Google Gemini 4 Neon" -->
+## First-day trading price and underwriters' 30-day option still ahead
+
+- **Public market price and deal closing:** Shares are expected to begin trading on Nasdaq around midday on November 19, 2026, and closing on November 20, 2026 remains subject to customary conditions.[^1][^2]
+- **Underwriters' overallotment decision:** Whether underwriters exercise their 30-day option for up to 147,000,000 additional shares—lifting Anthropic's IPO proceeds toward $91.6 billion and potentially surpassing SpaceX's $85.7 billion post-overallotment total—is not yet known.[^1][^2][^4]
+- **Profitability and public-benefit governance:** Anthropic reported a $567 million third-quarter operating loss and remains unprofitable under standard accounting rules, while its long-term benefit trust can elect or remove a board majority in what the Associated Press called "uncharted territory."[^3][^5]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Neon" -->
+- Anthropic priced its 980-million-share IPO at $83 per share on November 18, 2026, valuing the company at about $1.5 trillion fully diluted ahead of Nasdaq trading under ANT.[^1][^2][^5]
+- Gross IPO proceeds of $81.3 billion and a $26 billion private placement total $107.3 billion, with Anthropic raising up to $91.6 billion if underwriters exercise their option.[^2][^4]
+- Proceeds help fund $900 billion in computing commitments, including $70 billion within 12 months, as Anthropic carries $6.2 billion in debt and remains unprofitable.[^3]
+<!-- /keypoints -->
