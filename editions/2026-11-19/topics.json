@@ -1,0 +1,93 @@
+{
+  "cycle": "2026-11-19",
+  "model": "OpenAI GPT-6.2 Sol",
+  "topics": [
+    {
+      "n": 1,
+      "title": "OpenAI launches GPT-6.2 Astra and Sol and cuts Astra’s standard API token prices by 20%",
+      "type": "model_launch",
+      "summary": "On November 17, 2026, OpenAI released GPT-6.2 Astra for complex professional work and GPT-6.2 Sol for everyday tasks in ChatGPT Work, Codex and the API. Astra’s standard input and output token prices fell 20% from GPT-6 Astra, and Sol kept GPT-6.1 Sol’s API token prices.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "publisher": "OpenAI",
+          "published": null,
+          "kind": "primary"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "publisher": "OpenAI Help Center",
+          "published": "2026-11-17",
+          "kind": "changelog"
+        },
+        {
+          "url": "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models/",
+          "publisher": "9to5Mac",
+          "published": "2026-11-17",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.techradar.com/tech/openai-just-launched-gpt-6-2-and-its-powerful-enough-to-recreate-the-whole-of-paris-as-a-virtual-world-you-can-explore-in-your-browser",
+          "publisher": "TechRadar",
+          "published": "2026-11-17",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Palo Alto Networks agrees to buy Applied Compute in a $4.5 billion stock deal",
+      "type": "company",
+      "summary": "On November 18, 2026, Palo Alto Networks announced a $4.5 billion all-stock deal, subject to adjustments, for Applied Compute, which helps companies adapt and run open-weight AI models. The deal requires regulatory clearance. Applied Compute co-founder and CEO Yash Patil is set to become co-chief AI officer after closing.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+          "publisher": "Palo Alto Networks",
+          "published": "2026-11-18",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/panw-20261117.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "published": "2026-11-18",
+          "kind": "filing"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/",
+          "publisher": "SiliconANGLE",
+          "published": "2026-11-18",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Portland council president proposes a pause on new city AI contracts and deployments",
+      "type": "policy",
+      "summary": "On November 17, 2026, Portland City Council President Jamie Dunphy proposed pausing new municipal AI purchases and deployments while the city sets privacy and procurement safeguards. The draft allows exceptions including cybersecurity and council-approved pilots and would require an inventory of city AI within 60 days of adoption.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.portland.gov/council/districts/1/jamie-dunphy/news/2026/11/17/council-president-dunphy-proposes-temporary-halt",
+          "publisher": "City of Portland",
+          "published": "2026-11-17",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.portland.gov/council/documents/ordinance/ai-moratorium",
+          "publisher": "Portland City Council",
+          "published": null,
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.axios.com/local/portland/2026/11/18/city-government-ai-moratorium",
+          "publisher": "Axios Portland",
+          "published": "2026-11-18",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
