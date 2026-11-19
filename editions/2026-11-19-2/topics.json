@@ -1,0 +1,93 @@
+{
+  "cycle": "2026-11-19-2",
+  "model": "Anthropic Claude Opus 5.5",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Anthropic prices its IPO at $83 a share, above its $70 to $78 range, and sells 980 million shares",
+      "type": "funding",
+      "summary": "On November 18, 2026, Anthropic priced its initial public offering at $83 per share, above the $70 to $78 range set at the roadshow, and sold 980 million Class A shares, about 956 million of them its own. Trading on Nasdaq under “ANT” was set for November 19. Fortune and the AP put the valuation at $1.5 trillion.",
+      "follow_up_of": "2026-11-12-anthropic-ipo-roadshow",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "publisher": "Anthropic",
+          "published": "2026-11-18",
+          "kind": "primary"
+        },
+        {
+          "url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
+          "publisher": "Fortune",
+          "published": "2026-11-18",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion",
+          "publisher": "PBS News (Associated Press)",
+          "published": "2026-11-19",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Palo Alto Networks agrees to buy open-weight AI platform Applied Compute in a $4.5 billion stock deal",
+      "type": "company",
+      "summary": "On November 18, 2026, Palo Alto Networks agreed to acquire Applied Compute, a platform for post-training and inference of open-weight AI models, for $4.5 billion in stock, subject to adjustments, its SEC filing says. The deal needs regulatory clearance. Applied Compute CEO Yash Patil is to become co-chief AI officer after closing.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302944421.html",
+          "publisher": "Palo Alto Networks (PR Newswire)",
+          "published": "2026-11-18",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/panw-20261117.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "published": "2026-11-18",
+          "kind": "filing"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/",
+          "publisher": "SiliconANGLE",
+          "published": "2026-11-18",
+          "kind": "press"
+        },
+        {
+          "url": "https://m.economictimes.com/tech/startups/palo-alto-networks-to-acquire-ai-startup-applied-compute-in-4-5-billion-all-stock-deal/articleshow/135975598.cms",
+          "publisher": "The Economic Times",
+          "published": "2026-11-19",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Citi makes customers responsible for what third-party AI agents do in their bank accounts, even after a hack",
+      "type": "company",
+      "summary": "Citi updated its Online User Agreement in November 2026 with a new section on third-party AI agents, making customers responsible for those agents’ actions. TechCrunch reported on November 18 that this extends to hacks or leaked credentials, and that PNC and Citizens made similar changes after JPMorgan and Bank of America.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.citi.com/tandc/view-printable-version",
+          "publisher": "Citi",
+          "published": null,
+          "kind": "primary"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-18",
+          "kind": "press"
+        },
+        {
+          "url": "https://cryptobriefing.com/citibank-customers-liable-ai-agent-risks/",
+          "publisher": "Crypto Briefing",
+          "published": "2026-11-18",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
