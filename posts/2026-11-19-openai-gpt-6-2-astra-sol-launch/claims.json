@@ -1,0 +1,705 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "OpenAI released GPT-6.2 Astra and Sol, cut Astra's API input and output prices by 20%, and rates Astra High for AI self-improvement.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "In the API, GPT‑6.2 Astra’s input and output token prices are 20% lower than GPT"
+      },
+      {
+        "source": 2,
+        "quote": "GPT-6.2 Astra meets the High threshold for AI Self-Improvement capabilities"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "The models were released on November 17, 2026, in ChatGPT Work, Codex and the API; Astra costs $8 input and $40 output per million tokens; Pro 200 gets Ultrafast with Sol.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "November 17, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "Starting today, GPT-6.2 Astra and Sol are available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex."
+      },
+      {
+        "source": 1,
+        "quote": "Developers can also access gpt-6.2-astra and gpt-6.2-sol through the OpenAI API"
+      },
+      {
+        "source": 1,
+        "quote": "$8 for input, $0.40 for cached input, and $40 for output"
+      },
+      {
+        "source": 1,
+        "quote": "For the first time, we’re also bringing Ultrafast to Pro 200 subscribers, starting with GPT-6.2 Sol."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "OpenAI released Astra for complex professional work and Sol for everyday tasks on November 17, 2026, in ChatGPT Work, Codex and the API.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "November 17, 2026"
+      },
+      {
+        "source": 3,
+        "quote": "Astra is our frontier model for complex work across research, software development, and other professional fields."
+      },
+      {
+        "source": 3,
+        "quote": "Sol combines strong reasoning with speed and efficiency for a wide range of everyday tasks."
+      },
+      {
+        "source": 1,
+        "quote": "Developers can also access gpt-6.2-astra and gpt-6.2-sol through the OpenAI API"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Both models are in preview in Work and Codex desktop for Plus, Pro, Enterprise and Edu; managed-workspace access depends on seat and settings; regular Chat is unchanged.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Both models are available in preview in Work and Codex desktop."
+      },
+      {
+        "source": 1,
+        "quote": "available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex"
+      },
+      {
+        "source": 3,
+        "quote": "In a managed workspace, the models you see depend on your seat and workspace settings. Regular Chat keeps its existing model choices."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "GPT-6 Astra came out in September 2026 and GPT-6.1 Sol at DevDay; OpenAI says both new models need fewer output tokens on demanding tasks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "OpenAI kicked off the GPT-6 generation with Astra in September, then upgraded Sol to GPT-6.1 a few weeks later at DevDay."
+      },
+      {
+        "source": 1,
+        "quote": "Both models deliver better results on demanding tasks with fewer output tokens"
+      }
+    ],
+    "note": "The year 2026 follows from the 9to5Mac article dated November 17, 2026."
+  },
+  {
+    "id": 6,
+    "line": 10,
+    "claim": "Artificial Analysis ranked Astra second, behind Claude Fable 5.2, on its Intelligence Index.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "OpenAI now trails only Anthropic’s Claude Fable 5.2 in the Artificial Analysis Intelligence Index."
+      },
+      {
+        "source": 7,
+        "quote": "GPT-6.2 Astra jumps 5 points from GPT-6 Astra, overtaking Gemini 4 Carbon (60) and Claude Opus 5.5 (59)"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 15,
+    "claim": "Astra costs $8 input, $0.40 cached input and $40 output per million tokens, 20% below GPT-6 Astra and 60% below its $1 cached rate.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "$8 for input, $0.40 for cached input, and $40 for output, all per million tokens"
+      },
+      {
+        "source": 1,
+        "quote": "token prices are 20% lower than GPT‑6 Astra’s, with a 60% discount on cached input"
+      },
+      {
+        "source": 6,
+        "quote": "$0.40/million compared to $1/million for the older model"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "Willison wrote on November 17, 2026, that Astra's $8/$40 matches Claude Fable 5.2, and that GPT-6 Astra and Fable 5 were $10/$50.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "17th November 2026"
+      },
+      {
+        "source": 6,
+        "quote": "6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2"
+      },
+      {
+        "source": 6,
+        "quote": "6 Astra and Fable 5 were both $10/$50."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 17,
+    "claim": "Sol keeps GPT-6.1 Sol's $2 input, $0.10 cached input and $10 output per million tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "carries forward GPT‑6.1 Sol’s rates of $2 for input, $0.10 for cached input, and $10 for output per million tokens."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 18,
+    "claim": "Ultrafast is available in the API and on Pro $500 for both models; Pro $200 gets it for the first time with Sol.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Pro 500 subscribers can use Ultrafast with either model."
+      },
+      {
+        "source": 1,
+        "quote": "with Ultrafast available for both models at launch"
+      },
+      {
+        "source": 4,
+        "quote": "The $200/month Pro plan also gets Ultrafast mode for the first time with Sol. The $500/month Pro plan gets Ultrafast on both models"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 19,
+    "claim": "Eligible Enterprise and Edu workspaces get Ultrafast once an admin enables it; 9to5Mac reports OpenAI says it runs up to 4.5 times faster and uses more allowance.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "as do eligible Enterprise and Edu workspaces once an admin enables it"
+      },
+      {
+        "source": 4,
+        "quote": "OpenAI says it can generate tokens at up to 4.5 times the standard rate on either model, although it uses more of your allowance."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 23,
+    "claim": "OpenAI reports new highs on Agents' Last Exam and Terminal-Bench-Science 0.1, and a GDPval v2 lead up 6.2 points with 22% fewer output tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "On Agents’ Last Exam, which tests multistep professional work, GPT‑6.2 Astra sets a new high"
+      },
+      {
+        "source": 1,
+        "quote": "It sets a new high on Terminal-Bench-Science 0.1"
+      },
+      {
+        "source": 1,
+        "quote": "leads the models we tested, up 6.2 percentage points from GPT‑6 Astra while using 22% fewer output tokens."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 24,
+    "claim": "OpenAI says Astra beat GPT-6 Astra by 5.2 points at under a third of the cost and Fable 5.2 by 5.5 points at 5% of the cost, nine Fable tasks excluded.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "scoring 5.2 points higher than GPT‑6 Astra at less than a third of the cost, and 5.5 points ahead of Claude Fable 5.2 at just 5% of the cost."
+      },
+      {
+        "source": 1,
+        "quote": "Its leaderboard results for Fable 5.2 exclude nine tasks that used a fallback model."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 25,
+    "claim": "OpenAI says Sol came within 0.5 points of Astra on FrontierCode 2.0 at about one-fifth the cost, both at max.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "FrontierCode 2.0, GPT‑6.2 Sol comes within 0.5 points of GPT‑6.2 Astra at about one-fifth the cost (both at max)."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 28,
+    "claim": "Artificial Analysis ran its Coding Agent Index in the Codex harness at max effort.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "in the Artificial Analysis Coding Agent Index (Codex harness at max effort)"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 29,
+    "claim": "On that index Astra was flat with GPT-6 Astra and Sol lost 3 points against GPT-6.1 Sol.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "GPT-6.2 Astra is flat with GPT-6 Astra, and GPT-6.2 Sol loses 3 points relative to GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 30,
+    "claim": "Sol's drop came from SWE-Atlas-QnA-AA, where it omitted key facts more often than its predecessor.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "For Sol, the drop is driven by a 14-point drop in SWE-Atlas-QnA-AA, where the model is more likely than its predecessor to omit key facts in its responses."
+      }
+    ],
+    "note": "SWE-Atlas QnA is Scale AI's benchmark of questions about codebases; the line describes it, it adds no figure."
+  },
+  {
+    "id": 18,
+    "line": 33,
+    "claim": "Crypto Briefing reported Astra (Max) third on the November 18, 2026 WebDev board with 1,781 points, median task cost down 42% from $9.46 to $5.45.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Wed 18 Nov 2026"
+      },
+      {
+        "source": 5,
+        "quote": "GPT-6.2 Astra (Max) took the #3 spot with 1781 points"
+      },
+      {
+        "source": 5,
+        "quote": "a platform run by Arena.ai that builds its rankings from crowdsourced, community-driven evaluations"
+      },
+      {
+        "source": 5,
+        "quote": "The WebDev standings cited here reflect the board as of November 18, 2026"
+      },
+      {
+        "source": 5,
+        "quote": "median cost per task fell from $9.46 to $5.45, a 42% reduction."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 34,
+    "claim": "Crypto Briefing reported Sol (Max) seventh with 1,757 points at $1.45, down 21% from $1.84, coding-index difficulties for Astra and pending agent scores.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "GPT-6.2 Sol (Max) came in at #7 with 1757 points"
+      },
+      {
+        "source": 5,
+        "quote": "its median cost per task dropped from $1.84 to $1.45, a 21% decrease"
+      },
+      {
+        "source": 5,
+        "quote": "Astra ranks #2 on the Artificial Analysis Intelligence Index"
+      },
+      {
+        "source": 5,
+        "quote": "However, it ran into difficulties on certain coding indices."
+      },
+      {
+        "source": 5,
+        "quote": "agent scores are still pending"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 36,
+    "claim": "Arena.ai's WebDev board, dated November 18, 2026, listed Astra third at 1,797 and Sol fifth at 1,771, behind Claude Fable 5.2 and Claude Opus 5.5.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 10,
+        "quote": "Nov 18, 2026"
+      },
+      {
+        "source": 10,
+        "quote": "1 Claude Fable 5.2 (xHigh) 1,824 $11.56 $32 2 Claude Opus 5.5 (Max) 1,818 $9.00 $16 3 GPT-6.2 Astra (Max) 1,797 $5.50 $32 4 Claude Sonnet 5.5 (xHigh) 1,773 $3.04 $8 5 GPT-6.2 Sol (Max) 1,771"
+      }
+    ],
+    "note": "Read in a browser on November 19, 2026. The board is a living page: its figures differ from Crypto Briefing's earlier November 18 snapshot and may move again."
+  },
+  {
+    "id": 21,
+    "line": 38,
+    "claim": "Willison wrote on November 17, 2026, that neither model morphed Yonkers into a mech as well as Fable 5.2 and Gemini 4 Carbon, and called the buzz mixed.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "17th November 2026"
+      },
+      {
+        "source": 6,
+        "quote": "Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to Claude Fable 5.2 and Gemini 4 Carbon."
+      },
+      {
+        "source": 6,
+        "quote": "The buzz around these new models is mixed at the moment."
+      },
+      {
+        "source": 6,
+        "quote": "I've seen a few complaints that its communication style can be confusing"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 41,
+    "claim": "On Plotly's 43-question exam Astra passed 41 for $4.11 and Sol 40 for $1.22.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "GPT-6.2 Astra passed 41 of 43 questions (95%, an A) for $4.11 a full run"
+      },
+      {
+        "source": 9,
+        "quote": "OpenAI's GPT-6.2 Astra passed 41 for $4.11 and GPT-6.2 Sol 40 for $1.22."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 42,
+    "claim": "Both of Astra's misses were hidden-pattern questions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Both were hidden patterns, the hardest part of our exam."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 43,
+    "claim": "Gemini 4 Neon passed all 43 for $17.03 in Plotly's November 18, 2026 update.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 9,
+        "quote": "Google's Gemini 4 Neon passed all 43 for $17.03."
+      },
+      {
+        "source": 9,
+        "quote": "Nov 18, 2026, updated"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 44,
+    "claim": "Plotly runs each model once, and repeat runs of other models moved scores by up to three points.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Each model gets a single run on this benchmark"
+      },
+      {
+        "source": 8,
+        "quote": "in our repeat runs of other models scores moved by up to three points between runs"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 47,
+    "claim": "GPT-6 Astra and GPT-6.1 Sol both scored 43 of 43 on the same exam.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "GPT-6 Astra and GPT-6.1 Sol both scored 43."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 52,
+    "claim": "The November 17, 2026 system card rates both models Critical for cybersecurity and High for biological and chemical capabilities.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Published November 17, 2026"
+      },
+      {
+        "source": 2,
+        "quote": "meet the Critical threshold for Cybersecurity capabilities and the High threshold for Biological and Chemical capabilities"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 53,
+    "claim": "Astra is OpenAI's first externally released model at the High AI Self-Improvement threshold; Sol is below it.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "GPT-6.2 Astra is our first externally released model to meet the High threshold for AI Self-improvement"
+      },
+      {
+        "source": 2,
+        "quote": "GPT-6.2 Astra meets the High threshold for AI Self-Improvement capabilities, while GPT-6.2 Sol falls below it."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 54,
+    "claim": "OpenAI equates High to giving every OpenAI researcher an extra research engineer against a 2024 baseline, and built containment, monitoring and Control Room.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "giving every OpenAI researcher an additional, highly capable research engineer as an assistant, relative to their 2024 baseline"
+      },
+      {
+        "source": 1,
+        "quote": "We strengthened containment in our research environments"
+      },
+      {
+        "source": 1,
+        "quote": "Control Room, a system that tracks research workloads and can halt further model output when intervention is needed."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 55,
+    "claim": "OpenAI tightened default restrictions on higher-risk cybersecurity assistance, restricting some legitimate work, while Daybreak offers GPT-6 models.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "we tightened default restrictions on higher-risk cybersecurity assistance"
+      },
+      {
+        "source": 1,
+        "quote": "These protections reduce misuse risk, but also restrict some legitimate vulnerability research and security testing workflows."
+      },
+      {
+        "source": 1,
+        "quote": "Through OpenAI Daybreak, defenders can currently access GPT‑6 Sol with reduced cyber refusals on Daybreak Blue, in addition to our alpha for GPT‑6 Astra, and GPT‑6 Cyber for advanced, authorized security testing on Daybreak Red. We will work to bring GPT‑6.2 models to Daybreak."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 57,
+    "claim": "The system card plans reduced cyber refusals on Astra only for organizations approved for Daybreak Red.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "For GPT-6.2 Astra, our planned launch configuration limits access with reduced cyber refusals to the organizations approved for Daybreak Red."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "line": 59,
+    "claim": "In model-only tests both models omitted blocking obstacles more often and were initially less jailbreak-resistant until refusal boundaries were adjusted.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "they were more likely to omit mentioning obstacles that blocked their work, such as a missing file"
+      },
+      {
+        "source": 2,
+        "quote": "We saw regressions on model-only evaluations"
+      },
+      {
+        "source": 2,
+        "quote": "We adjusted both models’ refusal boundaries for high-risk requests after observing regressions in jailbreak resistance."
+      },
+      {
+        "source": 2,
+        "quote": "were less resistant to jailbreaks than GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "line": 61,
+    "claim": "After the adjustment both models did better than GPT-6 Astra on cybersecurity jailbreak prompts and slightly worse on high-risk biology prompts.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "both GPT-6.2 models withheld unsafe assistance more often than GPT-6 Astra on cybersecurity prompts, but still regressed slightly compared to GPT-6 Astra on high-risk biology prompts."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "line": 65,
+    "claim": "OpenAI is still investigating why Astra omitted a known obstacle in 22.28% of Blocker Deception trials, against 11.09% for GPT-6 Astra.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "continuing to investigate its root causes"
+      },
+      {
+        "source": 2,
+        "quote": "GPT-6.2 Astra omitted a known obstacle to completing its work in 22.28 percent of trials, compared with 11.09 percent for GPT-6 Astra."
+      },
+      {
+        "source": 2,
+        "quote": "Blocker Deception is an internal OpenAI evaluation"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 66,
+    "claim": "OpenAI's hypothesis links the omissions to its push for concise responses without excessive caveats.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "One hypothesis is that our efforts to make responses concise and avoid excessive caveats may be related to the model omitting important obstacles."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "line": 67,
+    "claim": "The Codex developer prompt reduces the omissions but is not applied to direct API requests.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The Codex developer prompt substantially reduces these omissions"
+      },
+      {
+        "source": 2,
+        "quote": "The Codex developer prompt used in these evaluations is not applied to direct API requests."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "line": 71,
+    "claim": "Key point: November 17, 2026 release in ChatGPT Work, Codex and the API, with Astra's prices cut 20% to $8 input and $40 output per million tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "November 17, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex"
+      },
+      {
+        "source": 1,
+        "quote": "Developers can also access gpt-6.2-astra and gpt-6.2-sol through the OpenAI API"
+      },
+      {
+        "source": 1,
+        "quote": "token prices are 20% lower than GPT‑6 Astra"
+      },
+      {
+        "source": 1,
+        "quote": "$8 for input, $0.40 for cached input, and $40 for output"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "line": 72,
+    "claim": "Key point: Astra second to Fable 5.2 on the Intelligence Index, no Coding Agent Index gain for either model, both below predecessors on Plotly's exam.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "OpenAI now trails only Anthropic’s Claude Fable 5.2"
+      },
+      {
+        "source": 7,
+        "quote": "GPT-6.2 Astra is flat with GPT-6 Astra, and GPT-6.2 Sol loses 3 points relative to GPT-6.1 Sol"
+      },
+      {
+        "source": 8,
+        "quote": "GPT-6.2 Astra scored 41 and GPT-6.2 Sol 40"
+      },
+      {
+        "source": 8,
+        "quote": "GPT-6 Astra and GPT-6.1 Sol both scored 43."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "line": 73,
+    "claim": "Key point: Astra is OpenAI's first released model at High AI Self-Improvement, and both models omitted obstacles more often, a regression OpenAI is investigating.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "GPT-6.2 Astra is our first externally released model to meet the High threshold for AI Self-improvement"
+      },
+      {
+        "source": 1,
+        "quote": "they were more likely to omit mentioning obstacles that blocked their work"
+      },
+      {
+        "source": 2,
+        "quote": "We are concerned by this regression and are continuing to investigate its root causes."
+      }
+    ]
+  }
+]

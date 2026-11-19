@@ -17,7 +17,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Code Arena: Crypto Briefing's November 18 figures differ from Arena.ai's live board (source 10), a living page whose numbers may move again.",
+    "The announcement says GPT-6.2 is not yet on Daybreak; the system card plans Daybreak Red access to Astra. OpenAI gives no date."
+  ],
   "image_brief": null
 }

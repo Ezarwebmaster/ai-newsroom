@@ -46,5 +46,25 @@
         "quote": "giving every OpenAI researcher an additional, highly capable research engineer as an assistant"
       }
     ]
+  },
+  {
+    "id": 4,
+    "by": "checker",
+    "model": "Anthropic Claude Opus 5.5",
+    "kind": "fact",
+    "line": 49,
+    "old": "OpenAI tightened default cybersecurity safeguards, acknowledging this restricts some legitimate testing while Daybreak still runs GPT-6 models.[^1]",
+    "new": "OpenAI tightened default restrictions on higher-risk cybersecurity assistance, acknowledging this limits some legitimate testing while Daybreak still runs GPT-6 models.[^1][^2]",
+    "why": "OpenAI tightened its default safeguards for higher-risk cybersecurity assistance, not for cybersecurity requests in general.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "we tightened default restrictions on higher-risk cybersecurity assistance"
+      },
+      {
+        "source": 1,
+        "quote": "tighter safeguards for higher-risk cybersecurity assistance"
+      }
+    ]
   }
 ]

@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-19",
-  "next": "checker",
-  "post": "2026-11-19-openai-gpt-6-2-astra-sol-launch",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -85,6 +85,12 @@
     {
       "cycle": "2026-11-18-2",
       "post": "2026-11-18-isomorphic-labs-5b-series-c",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-19",
+      "post": "2026-11-19-openai-gpt-6-2-astra-sol-launch",
       "kind": "story",
       "status": "ready"
     }

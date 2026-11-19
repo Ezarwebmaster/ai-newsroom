@@ -156,6 +156,51 @@
         "text": "In initial model-level evaluations, both GPT-6.2 models refused fewer harmless requests than their predecessors but were less resistant to jailbreaks than GPT-6 Astra.",
         "for": "Initial weaker jailbreak resistance compared with GPT-6 Astra.",
         "by": "writer"
+      },
+      {
+        "text": "Notably, GPT-6.2 Astra omitted a known obstacle to completing its work in 22.28 percent of trials, compared with 11.09 percent for GPT-6 Astra.",
+        "for": "Blocker Deception omission rates for GPT-6.2 Astra and GPT-6 Astra.",
+        "by": "checker"
+      },
+      {
+        "text": "We are concerned by this regression and are continuing to investigate its root causes.",
+        "for": "The cause of the obstacle omissions is still under investigation.",
+        "by": "checker"
+      },
+      {
+        "text": "One hypothesis is that our efforts to make responses concise and avoid excessive caveats may be related to the model omitting important obstacles.",
+        "for": "OpenAI's hypothesis for the omissions.",
+        "by": "checker"
+      },
+      {
+        "text": "Blocker Deception is an internal OpenAI evaluation that measures whether a model tells the user when an obstacle prevents it from completing a coding task as requested.",
+        "for": "What the Blocker Deception evaluation measures.",
+        "by": "checker"
+      },
+      {
+        "text": "The Codex developer prompt substantially reduces these omissions across the evaluations that test for them.",
+        "for": "The Codex prompt reduces the omissions.",
+        "by": "checker"
+      },
+      {
+        "text": "The Codex developer prompt used in these evaluations is not applied to direct API requests.",
+        "for": "The Codex prompt does not apply to direct API requests.",
+        "by": "checker"
+      },
+      {
+        "text": "On our static jailbreak evaluations, both GPT-6.2 models withheld unsafe assistance more often than GPT-6 Astra on cybersecurity prompts, but still regressed slightly compared to GPT-6 Astra on high-risk biology prompts.",
+        "for": "Jailbreak results after the refusal-boundary adjustment.",
+        "by": "checker"
+      },
+      {
+        "text": "In response, we tightened default restrictions on higher-risk cybersecurity assistance and require additional vetting for more permissive access.",
+        "for": "Scope of the tightened cybersecurity safeguards.",
+        "by": "checker"
+      },
+      {
+        "text": "For GPT-6.2 Astra, our planned launch configuration limits access with reduced cyber refusals to the organizations approved for Daybreak Red.",
+        "for": "Planned Daybreak Red access to Astra with reduced cyber refusals.",
+        "by": "checker"
       }
     ]
   },
@@ -184,6 +229,16 @@
         "text": "On Plus or Pro, choose either model in the Work model picker or the Codex model selector. In a managed workspace, the models you see depend on your seat and workspace settings. Regular Chat keeps its existing model choices.",
         "for": "Regular Chat keeping its existing model choices.",
         "by": "writer"
+      },
+      {
+        "text": "Astra is our frontier model for complex work across research, software development, and other professional fields.",
+        "for": "Astra's intended use.",
+        "by": "checker"
+      },
+      {
+        "text": "Sol combines strong reasoning with speed and efficiency for a wide range of everyday tasks.",
+        "for": "Sol's intended use.",
+        "by": "checker"
       }
     ]
   },
@@ -265,6 +320,11 @@
         "text": "OpenAI built these models with agentic tasks in mind, but agent scores are still pending.",
         "for": "Pending Code Arena agent scores.",
         "by": "writer"
+      },
+      {
+        "text": "Astra ranks #2 on the Artificial Analysis Intelligence Index",
+        "for": "The model the coding-index remark refers to.",
+        "by": "checker"
       }
     ]
   },
@@ -330,6 +390,27 @@
         "text": "Sol loses 3 points relative to GPT-6.1 Sol",
         "for": "Change from Sol’s predecessor on the Coding Agent Index.",
         "by": "reviser"
+      },
+      {
+        "text": "November 17, 2026",
+        "for": "Publication date of the Artificial Analysis article.",
+        "by": "checker",
+        "type": "date"
+      },
+      {
+        "text": "GPT-6.2 Astra jumps 5 points from GPT-6 Astra, overtaking Gemini 4 Carbon (60) and Claude Opus 5.5 (59) at their top effort settings.",
+        "for": "Astra is the OpenAI model ranked second.",
+        "by": "checker"
+      },
+      {
+        "text": "GPT-6.2 Astra is flat with GPT-6 Astra, and GPT-6.2 Sol loses 3 points relative to GPT-6.1 Sol in the Artificial Analysis Coding Agent Index (Codex harness at max effort).",
+        "for": "Coding Agent Index results and test setup.",
+        "by": "checker"
+      },
+      {
+        "text": "For Sol, the drop is driven by a 14-point drop in SWE-Atlas-QnA-AA, where the model is more likely than its predecessor to omit key facts in its responses.",
+        "for": "Cause of Sol's Coding Agent Index drop.",
+        "by": "checker"
       }
     ]
   },
@@ -352,6 +433,26 @@
         "text": "in our repeat runs of other models scores moved by up to three points between runs",
         "for": "Uncertainty in single-run scores.",
         "by": "reviser"
+      },
+      {
+        "text": "GPT-6.2 Astra passed 41 of 43 questions (95%, an A) for $4.11 a full run",
+        "for": "Astra's score on the 43-question exam.",
+        "by": "checker"
+      },
+      {
+        "text": "GPT-6.2 Astra scored 41 and GPT-6.2 Sol 40",
+        "for": "Both new models' scores.",
+        "by": "checker"
+      },
+      {
+        "text": "GPT-6 Astra and GPT-6.1 Sol both scored 43.",
+        "for": "The predecessors' scores on the same exam.",
+        "by": "checker"
+      },
+      {
+        "text": "Each model gets a single run on this benchmark",
+        "for": "One run per model.",
+        "by": "checker"
       }
     ]
   },
@@ -374,6 +475,35 @@
         "text": "Google's Gemini 4 Neon passed all 43 for $17.03.",
         "for": "Comparison with Gemini 4 Neon in the November 18 update.",
         "by": "reviser"
+      },
+      {
+        "text": "Nov 18, 2026, updated",
+        "for": "Date of the update that added the GPT-6.2 models and Gemini 4 Neon.",
+        "by": "checker",
+        "type": "date"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "url": "https://arena.ai/leaderboard/code/webdev",
+    "title": "WebDev Arena: Best AI for Web Development",
+    "publisher": "Arena.ai",
+    "kind": "data",
+    "published": null,
+    "retrieved": "2026-11-19",
+    "added_by": "checker",
+    "quotes": [
+      {
+        "text": "Nov 18, 2026",
+        "for": "Date shown on the Code Arena WebDev board.",
+        "by": "checker",
+        "type": "date"
+      },
+      {
+        "text": "1 Claude Fable 5.2 (xHigh) 1,824 $11.56 $32 2 Claude Opus 5.5 (Max) 1,818 $9.00 $16 3 GPT-6.2 Astra (Max) 1,797 $5.50 $32 4 Claude Sonnet 5.5 (xHigh) 1,773 $3.04 $8 5 GPT-6.2 Sol (Max) 1,771",
+        "for": "Top five of the WebDev board as read on November 19, 2026.",
+        "by": "checker"
       }
     ]
   }
