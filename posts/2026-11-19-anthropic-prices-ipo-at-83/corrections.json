@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 7,
+    "old": "The pricing values the artificial intelligence company at $1.5 trillion, making it the second most valuable initial public offering in history behind SpaceX.[^2][^3]",
+    "new": "The pricing values the artificial intelligence company at about $1.5 trillion fully diluted, or $1.1 trillion non-diluted, making it the second most valuable initial public offering in history behind SpaceX's $1.77 trillion listing in June 2026.[^2][^3][^5]",
+    "why": "Specifies that the $1.5 trillion valuation is fully diluted (versus $1.1 trillion non-diluted) and adds SpaceX's $1.77 trillion June 2026 IPO valuation from Fortune.",
+    "support": [
+      {
+        "source": 5,
+        "quote": "On a fully diluted basis, the IPO values the company at about US$1.5 trillion, including securities such as stock options and restricted stock. On a non-diluted basis, the valuation stands at about US$1.1 trillion."
+      },
+      {
+        "source": 2,
+        "quote": "behind SpaceX’s $1.77 trillion IPO in June."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "reviser",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 14,
+    "old": "Anthropic will not receive any proceeds from the shares sold by existing stockholders, which include co-founders cashing in small portions of equity.[^1][^2]",
+    "new": "Anthropic will not receive any proceeds from the shares sold by existing stockholders, which include CEO Dario Amodei, President Daniela Amodei and Chief Science Officer Jared Kaplan cashing in small portions of equity.[^1][^2][^3]",
+    "why": "Names the co-founders selling shares as reported by Fortune, using the spelling Daniela Amodei from the Associated Press.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Some—including CEO Dario Amodei, President Daniella Amodei, and Chief Science Officer Jared Kaplan—are cashing in small portions of their equity through the offering, with existing shareholders selling 23.6 million shares."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "by": "reviser",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 15,
+    "old": "Total proceeds of roughly $81 billion place the transaction ahead of SpaceX's $75 billion listing in June 2026 as the largest capital raise in IPO history.[^2][^3][^4]",
+    "new": "Gross proceeds of $81.3 billion place the initial offering ahead of SpaceX's $75 billion market debut in June 2026, though SpaceX's total haul later reached $85.7 billion after its underwriters exercised an overallotment option.[^2][^3][^4][^5]",
+    "why": "Clarifies that $81.3 billion exceeds SpaceX's initial $75 billion debut, while SpaceX's total IPO haul reached $85.7 billion after its overallotment option.",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Anthropic has raised $81.3bn in the largest initial public offering (IPO) in history, leapfrogging SpaceX’s initial $75bn market debut in June."
+      },
+      {
+        "source": 4,
+        "quote": "SpaceX’s total IPO haul later came to $85.7bn, after the deal’s underwriters exercised an overallotment option to purchase additional shares."
+      }
+    ]
+  }
+]
