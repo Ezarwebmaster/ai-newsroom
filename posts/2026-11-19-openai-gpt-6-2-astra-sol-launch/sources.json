@@ -310,5 +310,71 @@
         "by": "writer"
       }
     ]
+  },
+  {
+    "id": 7,
+    "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+    "title": "OpenAI’s release of GPT-6.2 Astra and GPT-6.2 Sol delivers the #2 model in the Artificial Analysis Intelligence Index and most of the Cost per Task Pareto frontier",
+    "publisher": "Artificial Analysis",
+    "kind": "primary",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-19",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "OpenAI now trails only Anthropic’s Claude Fable 5.2 in the Artificial Analysis Intelligence Index.",
+        "for": "Astra’s position at launch.",
+        "by": "reviser"
+      },
+      {
+        "text": "Sol loses 3 points relative to GPT-6.1 Sol",
+        "for": "Change from Sol’s predecessor on the Coding Agent Index.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench/",
+    "title": "GPT-6.2 Astra Benchmark Results for Data Analysis",
+    "publisher": "Plotly",
+    "kind": "primary",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-19",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Both were hidden patterns, the hardest part of our exam.",
+        "for": "What Astra missed.",
+        "by": "reviser"
+      },
+      {
+        "text": "in our repeat runs of other models scores moved by up to three points between runs",
+        "for": "Uncertainty in single-run scores.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "url": "https://plotly.com/blog/llm-progress-data-analysis-2024-2026/",
+    "title": "Two Years of LLM Progress on Data Analysis",
+    "publisher": "Plotly",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-19",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "OpenAI's GPT-6.2 Astra passed 41 for $4.11 and GPT-6.2 Sol 40 for $1.22.",
+        "for": "Results and cost of the same exam for both new models.",
+        "by": "reviser"
+      },
+      {
+        "text": "Google's Gemini 4 Neon passed all 43 for $17.03.",
+        "for": "Comparison with Gemini 4 Neon in the November 18 update.",
+        "by": "reviser"
+      }
+    ]
   }
 ]

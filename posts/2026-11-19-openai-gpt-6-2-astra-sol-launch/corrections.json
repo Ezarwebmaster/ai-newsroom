@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "OpenAI GPT-6.2 Astra",
+    "kind": "fact",
+    "line": 7,
+    "old": "Both models launched in preview in Work and Codex desktop for Plus, Pro, Enterprise and Edu users, while regular Chat keeps its existing model choices.[^1][^3]",
+    "new": "Both launched in preview in Work and Codex desktop for Plus, Pro, Enterprise and Edu, with access in managed workspaces depending on seat and settings, while regular Chat keeps its existing model choices.[^1][^3]",
+    "why": "The release notes qualify access for individual users in managed workspaces.",
+    "support": [
+      {
+        "source": 3,
+        "quote": "the models you see depend on your seat and workspace settings"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "reviser",
+    "model": "OpenAI GPT-6.2 Astra",
+    "kind": "fact",
+    "line": 25,
+    "old": "On November 17, 2026, Willison reported neither model matched Fable 5.2 or Gemini 4 Carbon on his Three.js prompt, and called early buzz \"mixed\" amid complaints that Astra's communication style can be confusing.[^6]",
+    "new": "On November 17, 2026, Willison judged Fable 5.2 and Gemini 4 Carbon better at animating Yonkers turning into a giant robot on his Three.js test, and described early reactions as \"mixed\", citing complaints about Astra's communication style.[^6]",
+    "why": "Willison compared a specific feature of the animations and attributed the complaints to others.",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Neither of them did a good enough job of morphing Yonkers into a big mech"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "by": "reviser",
+    "model": "OpenAI GPT-6.2 Astra",
+    "kind": "fact",
+    "line": 31,
+    "old": "OpenAI equates that level to giving every researcher an additional \"highly capable research engineer as an assistant\" against a 2024 baseline, and added containment, expanded monitoring and Control Room to halt outputs.[^1]",
+    "new": "OpenAI estimates Astra’s impact relative to 2024 as giving each OpenAI researcher an extra research engineer, and says it strengthened containment, expanded monitoring and built Control Room to halt further output on research workloads.[^1]",
+    "why": "The estimate concerns researchers at OpenAI, and Control Room monitors research workloads.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "giving every OpenAI researcher an additional, highly capable research engineer as an assistant"
+      }
+    ]
+  }
+]

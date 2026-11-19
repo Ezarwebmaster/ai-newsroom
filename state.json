@@ -1,7 +1,7 @@
 {
   "contract": 1,
   "cycle": "2026-11-19",
-  "next": "reviser",
+  "next": "checker",
   "post": "2026-11-19-openai-gpt-6-2-astra-sol-launch",
   "history": [
     {
