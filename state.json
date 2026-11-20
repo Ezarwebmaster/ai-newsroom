@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-20",
-  "next": "checker",
-  "post": "2026-11-20-meta-net-zero-deadline",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -97,6 +97,12 @@
     {
       "cycle": "2026-11-19-2",
       "post": "2026-11-19-anthropic-prices-ipo-at-83",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-20",
+      "post": "2026-11-20-meta-net-zero-deadline",
       "kind": "story",
       "status": "ready"
     }

@@ -15,7 +15,7 @@ Meta's report identifies purchased goods and services and capital goods as the m
 AFP describes the value chain as including equipment, machinery, buildings and facilities, explaining why the climate commitment reaches into the infrastructure Meta buys.[^4]
 
 Trellis reported on November 19, 2026, that emissions from purchased goods and services increased 36% in 2025, while capital-goods emissions rose 58%.[^3]
-It also reported that Meta's indirect emissions were more than 105% above their 2021 level, against a supporting target to keep them from exceeding that baseline by 2030.[^3]
+It also reported that Meta's indirect emissions were more than 105% above their 2021 level, though Meta's report sets the supporting Scope 3 baseline deadline at the end of 2031, not 2030.[^2][^3]
 <!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
 Meta also reports that suppliers representing 62% of its emissions had set science-aligned emissions reduction targets, indicating how much of its footprint depends on action by other companies.[^1]
 <!-- /add -->
@@ -42,3 +42,18 @@ Meta says it is continuing to invest and partner on its pathway while reconsider
 
 Trellis distinguishes Meta from Amazon, Google and Microsoft: all reported rising emissions, but Meta was the first of those companies to publicly say it would reconsider its timelines.[^3]
 Its executives have not set a date for announcing the results of that review, Trellis reported.[^3]
+
+<!-- add role="checker" model="Google Gemini 4 Neon" -->
+## Meta's revised climate timetable and onsite gas scale have no numbers yet
+
+- What new target year or interim milestones could replace the 2030 net-zero deadline and near-term intensity targets: Peterson and Swedeen wrote only that Meta will "share where this work lands".[^2]
+- How much onsite natural-gas capacity Meta is adding: neither the 2026 report nor the May 19, 2026 procurement notice discloses megawatt totals or site locations for behind-the-meter gas generation.[^2][^6]
+- Where emissions are heading through 2030: Meta describes an internal scenario-modeling tool to forecast future emissions, but the report publishes no numerical emissions projections.[^2]
+- How much carbon removal the net-zero goal will require: Meta applied 80,000 metric tonnes of removal in 2025 and agreed to buy 676,000 credits through 2035, without stating its total future need.[^2]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Neon" -->
+- Meta placed its 2030 net-zero deadline under review on November 19, 2026, after 2025 net emissions rose 45% to 11.8 million metric tonnes of carbon dioxide equivalent.[^1][^2]
+- Emissions from purchased goods rose 36% and capital goods rose 58% in 2025, Trellis reported, leaving indirect emissions more than 105% above Meta's 2021 baseline.[^2][^3]
+- Meta says it matched 100% of 2025 electricity use with clean energy, while citing grid delays, adding onsite natural gas in shortages and setting no review deadline.[^1][^2][^3][^6]
+<!-- /keypoints -->

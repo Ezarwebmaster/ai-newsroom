@@ -18,6 +18,17 @@
         "text": "Reached 62% of suppliers, based on their contribution to our emissions, setting science-aligned emissions reduction targets",
         "for": "Supplier target coverage is weighted by contribution to Meta emissions.",
         "by": "reviser"
+      },
+      {
+        "text": "November 19, 2026",
+        "type": "date",
+        "for": "Publication date of Meta's 2026 Sustainability Report launch announcement.",
+        "by": "checker"
+      },
+      {
+        "text": "contracting more than 10 GW of capacity in 2025 and bringing our total to more than 30 GW across seven countries and 28 US states.",
+        "for": "Meta's 2025 clean-energy contracting volume and cumulative total across seven countries and 28 US states.",
+        "by": "checker"
       }
     ]
   },
@@ -40,6 +51,81 @@
         "text": "In 2025, our net emissions were 11.8 million metric tonnes",
         "for": "Page 19: reported net emissions total, read directly in the browser PDF viewer.",
         "by": "writer"
+      },
+      {
+        "text": "At the beginning of the decade, we set our ambitious goals: to achieve net zero emissions across our value chain and to become water positive in 2030.",
+        "for": "Page 5: Meta's 2030 net-zero goal covers emissions across its value chain.",
+        "by": "checker"
+      },
+      {
+        "text": "Our long-term ambitions haven’t changed, but our operating environment has.",
+        "for": "Page 5: executives say long-term ambitions remain unchanged while the operating environment has changed.",
+        "by": "checker"
+      },
+      {
+        "text": "Interconnection queues run years long, permitting timelines have not meaningfully shortened, transmission buildout lags demand, and supply chains for low-carbon fuels, materials, and hardware are still maturing.",
+        "for": "Page 5: grid-connection, permitting and low-carbon supply-chain constraints cited by Peterson and Swedeen.",
+        "by": "checker"
+      },
+      {
+        "text": "continuing to invest, innovate, and partner at pace, and evolving our pathway to net zero.",
+        "for": "Page 5: Meta says it continues to invest and partner while evolving its net-zero pathway.",
+        "by": "checker"
+      },
+      {
+        "text": "We are re-evaluating our timelines, sequencing, and interim milestones",
+        "for": "Page 5: Meta says it is reconsidering the sequence and timing of its milestones.",
+        "by": "checker"
+      },
+      {
+        "text": "including the 2030 timeframe for our net zero emissions goal and our near-term intensity targets",
+        "for": "Page 5: the review covers both the 2030 net-zero timeframe and near-term intensity targets.",
+        "by": "checker"
+      },
+      {
+        "text": "so our approach reflects current operating realities while keeping progress transparent year over year. We will share where this work lands.",
+        "for": "Page 5: executives set no review completion date, saying only they will share where the work lands.",
+        "by": "checker"
+      },
+      {
+        "text": "Not exceed our 2021 baseline Scope 3 emissions by the end of 2031.",
+        "for": "Page 8: Meta's supporting Scope 3 baseline deadline is the end of 2031, not 2030.",
+        "by": "checker"
+      },
+      {
+        "text": "This represented a year-over-year increase of 45%, driven primarily by Scope 3 categories 1 and 2",
+        "for": "Page 19: Meta reports a 45% annual net emissions increase in 2025 driven primarily by Scope 3 categories 1 and 2.",
+        "by": "checker"
+      },
+      {
+        "text": "purchased goods and services and capital goods, respectively.",
+        "for": "Page 19: identifies Scope 3 categories 1 and 2 as purchased goods and services and capital goods.",
+        "by": "checker"
+      },
+      {
+        "text": "To address residual Scope 1 and Scope 2 emissions in 2025, we removed 80,000",
+        "for": "Page 19: Meta applied 80,000 metric tonnes of carbon removal in 2025.",
+        "by": "checker"
+      },
+      {
+        "text": "We developed a tool to model emissions under different growth scenarios, allowing us to forecast future-state emissions based on numerous data inputs",
+        "for": "Page 20: Meta describes an internal scenario-modeling tool for future emissions without publishing numerical projections.",
+        "by": "checker"
+      },
+      {
+        "text": "Our own electricity consumption increased 35% year over year as additional data centers came online.",
+        "for": "Page 21: confirms the 35% year-over-year increase in Meta's electricity consumption in 2025.",
+        "by": "checker"
+      },
+      {
+        "text": "we have agreed to the purchase of 676,000 nature-based carbon removal credits through 2035",
+        "for": "Page 34: Meta's disclosed long-term carbon removal credit purchase through 2035.",
+        "by": "checker"
+      },
+      {
+        "text": "We measure our emissions by metric tonnes of carbon dioxide equivalent",
+        "for": "Page 80: defines Meta's emissions reporting unit as metric tonnes of carbon dioxide equivalent.",
+        "by": "checker"
       }
     ]
   },
@@ -57,6 +143,37 @@
         "text": "Meta is the first of the foursome to publicly state it will reconsider its timelines.",
         "for": "Trellis's comparison with Amazon, Google and Microsoft.",
         "by": "writer"
+      },
+      {
+        "text": "November 19, 2026",
+        "type": "date",
+        "for": "Publication date of Trellis's article on Meta's 2026 sustainability report.",
+        "by": "checker"
+      },
+      {
+        "text": "Much of the year-over-year increase was driven by purchased goods and services (up 36 percent) and capital goods (up 58 percent), which directly relate to Meta’s furious pace of data center expansion.",
+        "for": "Trellis's figures for 2025 increases in purchased goods and services (36%) and capital goods (58%).",
+        "by": "checker"
+      },
+      {
+        "text": "Considered cumulatively, Meta’s Scope 3 emissions inventory is more than 105 percent above 2021 levels, casting doubt on whether its original goal is achievable.",
+        "for": "Trellis's report that Meta's indirect Scope 3 emissions were more than 105% above 2021 levels.",
+        "by": "checker"
+      },
+      {
+        "text": "That mirrors a 35 percent increase in power consumption, driven by new data centers.",
+        "for": "Trellis's report that Meta's electricity consumption rose 35% in 2025 as new data centers came online.",
+        "by": "checker"
+      },
+      {
+        "text": "All posted double-digit emissions increases in their latest sustainability disclosures: Microsoft’s footprint jumped 25 percent; Amazon posted a 16 percent increase (including its e-commerce network); and Google disclosed an 18 percent year-over-year bump.",
+        "for": "Trellis's comparison showing Amazon, Google and Microsoft all reported rising emissions.",
+        "by": "checker"
+      },
+      {
+        "text": "Peterson and Swedeen did not provide a timeline for disclosing decisions related to that evaluation, promising only to “share where this work lands.”",
+        "for": "Trellis's report that Meta's executives set no date for announcing the results of the review.",
+        "by": "checker"
       }
     ]
   },
@@ -74,6 +191,11 @@
         "text": "This involves eliminating emissions as far as possible and purchasing credits from carbon removal projects where emissions cannot be eliminated.",
         "for": "AFP's explanation of how net zero addresses residual emissions.",
         "by": "writer"
+      },
+      {
+        "text": "The value chain covers emissions from sources such as purchased goods and services and capital goods -- equipment, machinery, buildings, facilities and vehicles",
+        "for": "AFP's description of what Meta's value chain includes.",
+        "by": "checker"
       }
     ]
   },
@@ -91,6 +213,11 @@
         "text": "We do this mainly through long-term power purchase agreements and partnerships with utilities.",
         "for": "How Meta describes achieving its annual clean-energy matching.",
         "by": "reviser"
+      },
+      {
+        "text": "Since 2020, we have matched 100% of our annual electricity use with clean and renewable energy.",
+        "for": "Meta's annual electricity matching statement paired with its PPA and utility partnership explanation.",
+        "by": "checker"
       }
     ]
   },
@@ -108,6 +235,17 @@
         "text": "add onsite, behind-the-meter natural gas generation where the local electric utility cannot meet our electricity needs.",
         "for": "Meta acknowledges gas generation to meet local electricity shortfalls.",
         "by": "reviser"
+      },
+      {
+        "text": "May 19, 2026",
+        "type": "date",
+        "for": "Publication date of Meta's upstream natural gas emissions RFP announcement.",
+        "by": "checker"
+      },
+      {
+        "text": "In certain locations, this means working with energy developers to add onsite, behind-the-meter natural gas generation where the local electric utility cannot meet our electricity needs.",
+        "for": "Meta states it works with energy developers to add onsite natural gas generation where local utilities cannot meet its needs.",
+        "by": "checker"
       }
     ]
   }

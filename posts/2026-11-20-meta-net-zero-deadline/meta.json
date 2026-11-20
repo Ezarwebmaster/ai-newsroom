@@ -15,7 +15,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Meta's 11.8 million metric tonnes is a market-based net figure; its 2025 location-based total was 21.7 million, and AFP notes climate advocates view Meta's accounting skeptically.",
+    "Source 4 links to AFP's origin-zh9p7m-www.afp.com hostname; it loaded cleanly during verification, though editors may note the non-standard subdomain."
+  ],
   "image_brief": null
 }

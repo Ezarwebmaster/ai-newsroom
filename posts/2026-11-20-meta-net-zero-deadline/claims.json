@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Meta is reviewing its 2030 net-zero deadline as AI expansion drives emissions higher.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "including the 2030 timeframe for our net zero emissions goal"
+      },
+      {
+        "source": 2,
+        "quote": "This represented a year-over-year increase of 45%"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Meta's net emissions rose 45% in 2025.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "In 2025, our net emissions were 11.8 million metric tonnes"
+      },
+      {
+        "source": 2,
+        "quote": "This represented a year-over-year increase of 45%"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 3,
+    "claim": "Meta's sustainability report says the company is reassessing its climate timetable as infrastructure demand outpaces clean-energy deployment.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "We are re-evaluating our timelines, sequencing, and interim milestones"
+      },
+      {
+        "source": 2,
+        "quote": "Interconnection queues run years long, permitting timelines have not meaningfully shortened, transmission buildout lags demand"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 6,
+    "claim": "Meta put its 2030 net-zero deadline under review on November 19, 2026, when it published its 2026 Sustainability Report.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 19, 2026"
+      },
+      {
+        "source": 2,
+        "quote": "including the 2030 timeframe for our net zero emissions goal"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 6,
+    "claim": "Meta's sustainability report shows net greenhouse gas emissions rose 45% in 2025 to 11.8 million metric tonnes of carbon dioxide equivalent.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "In 2025, our net emissions were 11.8 million metric tonnes"
+      },
+      {
+        "source": 2,
+        "quote": "This represented a year-over-year increase of 45%"
+      },
+      {
+        "source": 2,
+        "quote": "We measure our emissions by metric tonnes of carbon dioxide equivalent"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 7,
+    "claim": "The review covers Meta's value chain net-zero emissions timetable, extending beyond data center electricity.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "to achieve net zero emissions across our value chain"
+      },
+      {
+        "source": 2,
+        "quote": "including the 2030 timeframe for our net zero emissions goal"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 9,
+    "claim": "Rachel Peterson and Blair Swedeen said the reassessment includes the 2030 timeframe for Meta's net zero emissions goal.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "including the 2030 timeframe for our net zero emissions goal"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 10,
+    "claim": "The executives said their long-term ambitions remain unchanged while their operating environment has changed.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Our long-term ambitions haven’t changed, but our operating environment has."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 14,
+    "claim": "Meta's report identifies purchased goods and services and capital goods as the main drivers of the annual emissions increase.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "driven primarily by Scope 3 categories 1 and 2"
+      },
+      {
+        "source": 2,
+        "quote": "purchased goods and services and capital goods, respectively."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 15,
+    "claim": "AFP describes the value chain as including equipment, machinery, buildings and facilities.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "equipment, machinery, buildings, facilities and vehicles"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 17,
+    "claim": "Trellis reported on November 19, 2026, that emissions from purchased goods and services rose 36% in 2025 while capital-goods emissions rose 58%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "November 19, 2026"
+      },
+      {
+        "source": 3,
+        "quote": "purchased goods and services (up 36 percent) and capital goods (up 58 percent)"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 18,
+    "claim": "Trellis reported Meta's indirect Scope 3 emissions were more than 105% above 2021 levels.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Meta’s Scope 3 emissions inventory is more than 105 percent above 2021 levels"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 18,
+    "claim": "Meta's 2026 Sustainability Report sets its supporting Scope 3 baseline deadline at the end of 2031, not 2030.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Not exceed our 2021 baseline Scope 3 emissions by the end of 2031."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 20,
+    "claim": "Meta reports that suppliers representing 62% of its emissions had set science-aligned emissions reduction targets.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Reached 62% of suppliers, based on their contribution to our emissions, setting science-aligned emissions reduction targets"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 25,
+    "claim": "Meta said it matched 100% of its annual electricity use with clean and renewable energy for the sixth consecutive year in 2025.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Matched 100% of our annual electricity use with clean and renewable energy for the sixth consecutive year"
+      },
+      {
+        "source": 1,
+        "quote": "contracting more than 10 GW of capacity in 2025"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 26,
+    "claim": "Meta contracted more than 10 gigawatts of capacity in 2025, bringing its total to more than 30 gigawatts across seven countries and 28 US states.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "contracting more than 10 GW of capacity in 2025 and bringing our total to more than 30 GW across seven countries and 28 US states."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 28,
+    "claim": "Meta says it achieves its annual energy matching mainly through long-term power purchase agreements and partnerships with utilities.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "We do this mainly through long-term power purchase agreements and partnerships with utilities."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 31,
+    "claim": "Peterson and Swedeen cited lengthy grid-connection queues, permitting delays and developing supply chains for lower-carbon materials.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Interconnection queues run years long, permitting timelines have not meaningfully shortened, transmission buildout lags demand, and supply chains for low-carbon fuels, materials, and hardware are still maturing."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 32,
+    "claim": "Trellis reported that Meta's electricity consumption rose 35% in 2025 as new data centers came online.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "That mirrors a 35 percent increase in power consumption, driven by new data centers."
+      },
+      {
+        "source": 2,
+        "quote": "Our own electricity consumption increased 35% year over year as additional data centers came online."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 34,
+    "claim": "In a May 19, 2026 announcement, Meta said it works with developers to add onsite natural-gas generation where the local utility cannot meet its electricity needs.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "May 19, 2026"
+      },
+      {
+        "source": 6,
+        "quote": "working with energy developers to add onsite, behind-the-meter natural gas generation where the local electric utility cannot meet our electricity needs."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 35,
+    "claim": "Meta's annual clean-energy matching claim coexists with its stated use of onsite natural-gas generation for local power shortages.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Since 2020, we have matched 100% of our annual electricity use with clean and renewable energy."
+      },
+      {
+        "source": 6,
+        "quote": "add onsite, behind-the-meter natural gas generation where the local electric utility cannot meet our electricity needs."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 40,
+    "claim": "AFP explains that reaching net zero entails eliminating emissions as far as possible and purchasing carbon-removal credits for remaining emissions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "This involves eliminating emissions as far as possible and purchasing credits from carbon removal projects where emissions cannot be eliminated."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 41,
+    "claim": "Meta says it continues to invest and partner on its net-zero pathway while reconsidering the sequence and timing of its milestones.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "continuing to invest, innovate, and partner at pace, and evolving our pathway to net zero."
+      },
+      {
+        "source": 2,
+        "quote": "We are re-evaluating our timelines, sequencing, and interim milestones"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 43,
+    "claim": "Trellis reported that Amazon, Google and Microsoft all reported rising emissions, while Meta was the first of the four to publicly say it would reconsider its timelines.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "All posted double-digit emissions increases in their latest sustainability disclosures: Microsoft’s footprint jumped 25 percent; Amazon posted a 16 percent increase (including its e-commerce network); and Google disclosed an 18 percent year-over-year bump."
+      },
+      {
+        "source": 3,
+        "quote": "Meta is the first of the foursome to publicly state it will reconsider its timelines."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 44,
+    "claim": "Trellis reported that Meta's executives have not set a date for announcing the results of the review.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Peterson and Swedeen did not provide a timeline for disclosing decisions related to that evaluation, promising only to “share where this work lands.”"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 49,
+    "claim": "Meta's review includes the 2030 net-zero timeframe and near-term intensity targets, and Peterson and Swedeen wrote only that Meta will share where this work lands.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "including the 2030 timeframe for our net zero emissions goal and our near-term intensity targets"
+      },
+      {
+        "source": 2,
+        "quote": "We will share where this work lands."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 49,
+    "claim": "Meta has not disclosed what new target year or interim milestones could replace its 2030 net-zero deadline and near-term intensity targets.",
+    "status": "absence",
+    "note": "Checked Meta's 2026 Sustainability Report (pages 5 and 8) and Trellis; neither names a replacement year or revised milestones."
+  },
+  {
+    "id": 28,
+    "line": 50,
+    "claim": "Meta's May 19, 2026 procurement notice describes behind-the-meter natural-gas generation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "May 19, 2026"
+      },
+      {
+        "source": 6,
+        "quote": "add onsite, behind-the-meter natural gas generation where the local electric utility cannot meet our electricity needs."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 50,
+    "claim": "Neither Meta's 2026 Sustainability Report nor its May 19, 2026 procurement notice discloses megawatt totals or site locations for onsite natural-gas generation.",
+    "status": "absence",
+    "note": "Checked pages 22-23 and 74 of Meta's 2026 Sustainability Report and the full May 19, 2026 RFP blog post; no MW/GW capacity or site list is published."
+  },
+  {
+    "id": 30,
+    "line": 51,
+    "claim": "Meta describes an internal scenario-modeling tool to forecast future-state emissions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "We developed a tool to model emissions under different growth scenarios, allowing us to forecast future-state emissions based on numerous data inputs"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 51,
+    "claim": "Meta's 2026 Sustainability Report publishes no numerical emissions projections through 2030.",
+    "status": "absence",
+    "note": "Checked page 20 and appendix data tables of the 2026 Sustainability Report; Meta describes internal modeling without publishing 2026-2030 projections."
+  },
+  {
+    "id": 32,
+    "line": 52,
+    "claim": "Meta applied 80,000 metric tonnes of carbon removal in 2025 and agreed to buy 676,000 nature-based carbon removal credits through 2035.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "To address residual Scope 1 and Scope 2 emissions in 2025, we removed 80,000"
+      },
+      {
+        "source": 2,
+        "quote": "we have agreed to the purchase of 676,000 nature-based carbon removal credits through 2035"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "line": 52,
+    "claim": "Meta's 2026 Sustainability Report does not state the total future carbon-removal volume required to reach net zero.",
+    "status": "absence",
+    "note": "Checked pages 19, 33-34 and 71 of the 2026 Sustainability Report; Meta reports 2025 removals and specific contracts without stating total future removal need."
+  },
+  {
+    "id": 34,
+    "line": 56,
+    "claim": "Meta placed its 2030 net-zero deadline under review on November 19, 2026, after 2025 net emissions rose 45% to 11.8 million metric tonnes of carbon dioxide equivalent.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 19, 2026"
+      },
+      {
+        "source": 2,
+        "quote": "including the 2030 timeframe for our net zero emissions goal"
+      },
+      {
+        "source": 2,
+        "quote": "In 2025, our net emissions were 11.8 million metric tonnes"
+      },
+      {
+        "source": 2,
+        "quote": "This represented a year-over-year increase of 45%"
+      },
+      {
+        "source": 2,
+        "quote": "We measure our emissions by metric tonnes of carbon dioxide equivalent"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 57,
+    "claim": "Emissions from purchased goods rose 36% and capital goods rose 58% in 2025, Trellis reported, leaving indirect emissions more than 105% above Meta's 2021 baseline.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "purchased goods and services and capital goods, respectively."
+      },
+      {
+        "source": 3,
+        "quote": "purchased goods and services (up 36 percent) and capital goods (up 58 percent)"
+      },
+      {
+        "source": 3,
+        "quote": "Meta’s Scope 3 emissions inventory is more than 105 percent above 2021 levels"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "line": 58,
+    "claim": "Meta says it matched 100% of 2025 electricity use with clean energy, while citing grid delays, adding onsite natural gas in shortages and setting no review deadline.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Matched 100% of our annual electricity use with clean and renewable energy for the sixth consecutive year"
+      },
+      {
+        "source": 2,
+        "quote": "Interconnection queues run years long, permitting timelines have not meaningfully shortened"
+      },
+      {
+        "source": 6,
+        "quote": "add onsite, behind-the-meter natural gas generation where the local electric utility cannot meet our electricity needs."
+      },
+      {
+        "source": 3,
+        "quote": "Peterson and Swedeen did not provide a timeline for disclosing decisions related to that evaluation"
+      }
+    ]
+  }
+]

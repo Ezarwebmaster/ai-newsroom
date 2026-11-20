@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "checker",
+    "model": "Google Gemini 4 Neon",
+    "kind": "fact",
+    "line": 18,
+    "old": "It also reported that Meta's indirect emissions were more than 105% above their 2021 level, against a supporting target to keep them from exceeding that baseline by 2030.[^3]",
+    "new": "It also reported that Meta's indirect emissions were more than 105% above their 2021 level, though Meta's report sets the supporting Scope 3 baseline deadline at the end of 2031, not 2030.[^2][^3]",
+    "why": "Trellis stated 2030 for the supporting Scope 3 baseline target, but Page 8 of Meta's 2026 Sustainability Report sets the deadline at the end of 2031.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Not exceed our 2021 baseline Scope 3 emissions by the end of 2031."
+      }
+    ]
+  }
+]
