@@ -13,6 +13,11 @@
         "text": "Matched 100% of our annual electricity use with clean and renewable energy for the sixth consecutive year",
         "for": "Meta's annual electricity matching claim for 2025.",
         "by": "writer"
+      },
+      {
+        "text": "Reached 62% of suppliers, based on their contribution to our emissions, setting science-aligned emissions reduction targets",
+        "for": "Supplier target coverage is weighted by contribution to Meta emissions.",
+        "by": "reviser"
       }
     ]
   },
@@ -69,6 +74,40 @@
         "text": "This involves eliminating emissions as far as possible and purchasing credits from carbon removal projects where emissions cannot be eliminated.",
         "for": "AFP's explanation of how net zero addresses residual emissions.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://sustainability.atmeta.com/climate-and-energy/",
+    "title": "Climate & Energy",
+    "publisher": "Meta Sustainability",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-20",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "We do this mainly through long-term power purchase agreements and partnerships with utilities.",
+        "for": "How Meta describes achieving its annual clean-energy matching.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://sustainability.atmeta.com/blog/2026/05/19/request-for-proposals-addressing-upstream-natural-gas-emissions/",
+    "title": "Request for Proposals: Addressing Upstream Natural Gas Emissions",
+    "publisher": "Meta Sustainability",
+    "kind": "primary",
+    "published": "2026-05-19",
+    "retrieved": "2026-11-20",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "add onsite, behind-the-meter natural gas generation where the local electric utility cannot meet our electricity needs.",
+        "for": "Meta acknowledges gas generation to meet local electricity shortfalls.",
+        "by": "reviser"
       }
     ]
   }

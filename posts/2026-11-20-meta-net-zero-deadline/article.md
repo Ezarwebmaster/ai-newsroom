@@ -16,14 +16,24 @@ AFP describes the value chain as including equipment, machinery, buildings and f
 
 Trellis reported on November 19, 2026, that emissions from purchased goods and services increased 36% in 2025, while capital-goods emissions rose 58%.[^3]
 It also reported that Meta's indirect emissions were more than 105% above their 2021 level, against a supporting target to keep them from exceeding that baseline by 2030.[^3]
+<!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
+Meta also reports that suppliers representing 62% of its emissions had set science-aligned emissions reduction targets, indicating how much of its footprint depends on action by other companies.[^1]
+<!-- /add -->
 
 ## Clean-energy contracts meet a slower grid
 
 In its launch announcement, Meta said it matched 100% of its annual electricity use with clean and renewable energy for the sixth consecutive year in 2025.[^1]
 It contracted more than 10 gigawatts of capacity during that year, bringing its total to more than 30 gigawatts across seven countries and 28 US states.[^1]
+<!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
+Meta explains that it achieves its annual energy matching mainly through long-term power purchase agreements and partnerships with utilities.[^5]
+<!-- /add -->
 
 Those purchases sit alongside constraints on deploying new infrastructure: Peterson and Swedeen cited lengthy grid-connection queues, permitting delays and supply chains for lower-carbon materials that are still developing.[^2]
 Trellis reported that Meta's electricity consumption rose 35% in 2025 as new data centers came online.[^3]
+<!-- add role="reviser" model="OpenAI GPT-6 Astra" -->
+In a separate announcement on May 19, 2026, Meta said it works with developers to add onsite natural-gas generation in locations where the local utility cannot meet its electricity needs.[^6]
+The annual matching claim therefore coexists with Meta's stated use of fossil-fuel generation to address local power shortages.[^5][^6]
+<!-- /add -->
 
 ## A deadline review with the ambition retained
 
