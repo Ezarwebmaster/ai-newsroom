@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-20",
+  "model": "OpenAI GPT-6.2 Astra",
+  "picked": 1,
+  "why": "Meta is reviewing its 2030 net-zero deadline as it expands its AI infrastructure. Its report puts the 2025 rise in net emissions at 45% and traces most of the increase to purchased goods, services and capital equipment. That gives readers a way to assess the footprint of building data centers alongside the electricity they use. The disclosure drew coverage across business, climate and international news and adds a subject absent from our recent stories.",
+  "trend": [
+    {
+      "url": "https://trellis.net/article/meta-2026-sustainability-report/",
+      "publisher": "Trellis",
+      "published": "2026-11-19"
+    },
+    {
+      "url": "https://news.bloomberglaw.com/business-and-practice/meta-reconsiders-2030-net-zero-goal-amid-ai-build-out",
+      "publisher": "Bloomberg News via Bloomberg Law",
+      "published": "2026-11-19"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/11/20/meta-rethinks-2030-climate-goals-as-ai-data-centres-drive-emissions-up",
+      "publisher": "Al Jazeera and AFP",
+      "published": "2026-11-20"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Microsoft announced MAI Code 2 at Ignite on November 17. The pricing and performance warrant a closer look, but our November 19 story already covered a competing coding model release."
+    },
+    {
+      "n": 3,
+      "why": "Portland’s proposal would pause new municipal AI contracts. The council hearing in December gives us a chance to report what city bureaus and residents say about the proposed limits."
+    }
+  ]
+}

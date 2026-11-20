@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-20",
-  "next": "editor",
-  "post": null,
+  "next": "writer",
+  "post": "2026-11-20-meta-net-zero-deadline",
   "history": [
     {
       "cycle": "2026-11-12",
