@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "url": "https://sustainability.atmeta.com/blog/2026/11/19/meta-launches-2026-sustainability-report/",
+    "title": "Meta launches 2026 Sustainability Report",
+    "publisher": "Meta Sustainability",
+    "kind": "primary",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-20",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Matched 100% of our annual electricity use with clean and renewable energy for the sixth consecutive year",
+        "for": "Meta's annual electricity matching claim for 2025.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://sustainability.atmeta.com/wp-content/uploads/2026/08/Meta-2026-Sustainability-Report.pdf",
+    "title": "2026 Meta Sustainability Report",
+    "publisher": "Meta Sustainability",
+    "kind": "primary",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-20",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "including the 2030 timeframe for our net zero emissions goal",
+        "for": "Page 5: the executives' review explicitly includes the net-zero deadline.",
+        "by": "writer"
+      },
+      {
+        "text": "In 2025, our net emissions were 11.8 million metric tonnes",
+        "for": "Page 19: reported net emissions total, read directly in the browser PDF viewer.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://trellis.net/article/meta-2026-sustainability-report/",
+    "title": "Meta contemplates net-zero timeline reset as emissions spike",
+    "publisher": "Trellis",
+    "kind": "press",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-20",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Meta is the first of the foursome to publicly state it will reconsider its timelines.",
+        "for": "Trellis's comparison with Amazon, Google and Microsoft.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://origin-zh9p7m-www.afp.com/en/meta-says-reevaluating-2030-net-zero-target-amid-ai-buildout",
+    "title": "Meta says 'reevaluating' 2030 net zero target amid AI buildout",
+    "publisher": "AFP",
+    "kind": "press",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-20",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "This involves eliminating emissions as far as possible and purchasing credits from carbon removal projects where emissions cannot be eliminated.",
+        "for": "AFP's explanation of how net zero addresses residual emissions.",
+        "by": "writer"
+      }
+    ]
+  }
+]
