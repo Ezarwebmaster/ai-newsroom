@@ -1,0 +1,75 @@
+{
+  "cycle": "2026-11-20",
+  "model": "OpenAI GPT-6.2 Sol",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Meta reconsiders its 2030 net-zero deadline after a 45% rise in net emissions",
+      "type": "company",
+      "summary": "Meta released its 2026 sustainability report on November 19. Axios reports that net greenhouse gas emissions rose 45% in 2025, as Meta expanded AI infrastructure, and that executives are reviewing the 2030 deadline for reaching net zero across its value chain.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://sustainability.atmeta.com/blog/2026/11/19/meta-launches-2026-sustainability-report/",
+          "publisher": "Meta Sustainability",
+          "published": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.axios.com/2026/11/19/meta-ai-emissions-rise",
+          "publisher": "Axios",
+          "published": "2026-11-19",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Microsoft introduces MAI Code 2 and specialized models for image and audio work",
+      "type": "model_launch",
+      "summary": "At Ignite on November 17, Microsoft announced MAI Code 2 and Code 2 Flash alongside models for tasks including image editing and real-time audio. Microsoft presented its internal coding benchmark and price comparisons, while Reuters interviewed its AI chief about the company's focus on specialized models.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "publisher": "Microsoft AI",
+          "published": "2026-11-17",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai-5033766",
+          "publisher": "Reuters via Investing.com",
+          "published": "2026-11-17",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Portland proposes pausing new municipal AI purchases",
+      "type": "policy",
+      "summary": "A draft ordinance would temporarily pause new AI procurement and restrict expanded use across Portland city government while the city sets up privacy oversight. The proposal includes exceptions for approved pilots and basic software features and would require a public inventory of municipal AI uses.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.portland.gov/council/districts/1/jamie-dunphy/news/2026/11/17/council-president-dunphy-proposes-temporary-halt",
+          "publisher": "City of Portland",
+          "published": "2026-11-17",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.axios.com/local/portland/2026/11/18/city-government-ai-moratorium",
+          "publisher": "Axios Portland",
+          "published": "2026-11-18",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.portland.gov/council/documents/ordinance/ai-moratorium",
+          "publisher": "Portland City Council",
+          "published": null,
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
