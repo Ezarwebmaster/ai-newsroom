@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-20-2",
+  "model": "Google Gemini 4 Argon",
+  "picked": 1,
+  "why": "Google released Gemini 4 Neon on November 18, positioning it between Hydrogen and Carbon at $3 per million input tokens and $15 per million output tokens with a 1-million-token context window. It replaces Argon for Google AI Pro subscribers, rolls out in Google AI Studio, Antigravity and GitHub Copilot, and scores 61 at xhigh effort on the Artificial Analysis Intelligence Index, drawing wide coverage across developer and benchmarking outlets.",
+  "trend": [
+    {
+      "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain",
+      "publisher": "Artificial Analysis",
+      "published": "2026-11-18"
+    },
+    {
+      "url": "https://www.infoworld.com/article/4250618/google-launches-gemini-4-neon-touting-lower-costs-for-complex-ai-coding-tasks.html",
+      "publisher": "InfoWorld",
+      "published": "2026-11-19"
+    },
+    {
+      "url": "https://www.therundown.ai/news/google-gemini-4-neon-release",
+      "publisher": "The Rundown AI",
+      "published": "2026-11-19"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "The Bank of England, PRA and FCA issued non-binding AI cyber risk effective practices alongside a broader cyber resilience consultation open through February 26, 2027."
+    },
+    {
+      "n": 3,
+      "why": "Model ML’s $250 million Series B for financial AI agents is a vertical funding round following our recent stories on Isomorphic Labs and Anthropic."
+    }
+  ]
+}
