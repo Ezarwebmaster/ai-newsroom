@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Google released Gemini 4 Neon for coding, reasoning and agent workflows.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Today, we’re introducing Gemini 4 Neon — bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Neon features a 1-million-token context window, four thinking levels, and $3/$15 per-million-token pricing positioned between Carbon and Hydrogen.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window."
+      },
+      {
+        "source": 1,
+        "quote": "While Carbon tackles your hardest, long-horizon projects and Hydrogen handles fast everyday execution, Neon balances depth and efficiency."
+      },
+      {
+        "source": 2,
+        "quote": "Gemini 4 Neon offers four effort levels (low, medium, high, and xhigh)"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Google released Gemini 4 Neon on November 18, 2026, marking its fourth Gemini 4 model in seven weeks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Google DeepMind has released Gemini 4 Neon, its fourth model in just seven weeks."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Neon targets complex software engineering, multistep tool use, and enterprise knowledge work positioned between Carbon and Hydrogen.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "While Carbon tackles your hardest, long-horizon projects and Hydrogen handles fast everyday execution, Neon balances depth and efficiency."
+      },
+      {
+        "source": 1,
+        "quote": "Today, we’re introducing Gemini 4 Neon — bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 9,
+    "claim": "Neon is adapted from Gemini 4 Carbon and has a March 2026 knowledge cutoff.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Gemini 4 Neon is adapted from Gemini 4 Carbon."
+      },
+      {
+        "source": 6,
+        "quote": "The knowledge cutoff for Gemini 4 Neon is March 2026"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 11,
+    "claim": "Neon supports a 1-million-token context window and four configurable thinking levels: low, medium, high, and xhigh.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window."
+      },
+      {
+        "source": 2,
+        "quote": "Gemini 4 Neon offers four effort levels (low, medium, high, and xhigh)"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 15,
+    "claim": "Google priced Gemini 4 Neon at $3 per million input tokens and $15 per million output tokens, with cached inputs discounted 95% to $0.15.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "Neon pricing is 25% below Carbon standard pricing and 50% above Carbon promotional rates ending November 30, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "$3/$15 per 1M input/output tokens, 50% above Gemini 4 Carbon’s currently discounted price of $2/$10 (which ends on November 30), and 25% below its standard $4/$20."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 17,
+    "claim": "In Artificial Analysis testing, Neon averaged $6.44 and roughly 21 minutes per task, about 17% cheaper and 40% faster than Carbon, with output speed near 110 tokens per second.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "It costs $6.44 per task, ~17% less than Carbon ($7.76 at non-discounted pricing), and takes ~21 minutes per task, ~40% less than Carbon (~36 minutes)."
+      },
+      {
+        "source": 2,
+        "quote": "and the lower time from its higher output speed (~110 vs ~57 output tokens per second)"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 19,
+    "claim": "Neon uses roughly 15% more output tokens per task than Carbon, deriving cost savings from lower token prices.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Neon uses ~15% more output tokens per task, so the lower cost comes purely from its 25% lower token prices"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 21,
+    "claim": "In the Gemini app, Neon replaces Argon and Pro for $19.99 monthly Google AI Pro users, while Carbon remains exclusive to AI Ultra at $99.99 and free or AI Plus tiers receive no Neon.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "In Google AI Pro, the new model replaces Argon and the older Pro model, while Carbon stays exclusive to AI Ultra."
+      },
+      {
+        "source": 5,
+        "quote": "Google AI Pro costs $19.99 a month in the US and €21.99 in Germany."
+      },
+      {
+        "source": 5,
+        "quote": "Carbon, Google's most capable model, remains limited to AI Ultra, which starts at $99.99 a month."
+      },
+      {
+        "source": 5,
+        "quote": "Neon is not part of the free tier or Google AI Plus, which costs $4.99 a month."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 25,
+    "claim": "Neon scored 61 on the Artificial Analysis Intelligence Index, ranking third behind GPT-6.2 Astra and Claude Fable 5.2, and one point ahead of Carbon.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Neon (xhigh) scores 61 on the Intelligence Index, 1 point ahead of Carbon (high), with small improvements in agentic knowledge work, visual reasoning and coding."
+      },
+      {
+        "source": 2,
+        "quote": "Neon (xhigh) scores 61 on the Artificial Analysis Intelligence Index, 1 point ahead of Gemini 4 Carbon (high) and 3rd overall, behind GPT-6.2 Astra (max) and Claude Fable 5.2 (max)"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 26,
+    "claim": "Google reported Neon scored 58.6 on the Coding Agent Index, 65.2% on Terminal-Bench 4.1, and 39.0% on SWE-sweep inside Google Antigravity.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "ranking #1 overall on the Artificial Analysis Coding Agent Index (58.6), with a score of 65.2% on Terminal-Bench 4.1"
+      },
+      {
+        "source": 1,
+        "quote": "On SWE-sweep, it already leads on the mini-SWE harness (12.8%) and more than triples to a state-of-the-art 39.0% in Google Antigravity showing what the Antigravity harness unlocks."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 28,
+    "claim": "Artificial Analysis measured Neon scoring 59 on the Coding Agent Index in Antigravity CLI, three points ahead of Carbon.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "With Antigravity CLI, Neon (xhigh) scores 59 on the Artificial Analysis Coding Agent Index, 3 points ahead of Carbon (high, 55)."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 29,
+    "claim": "Neon averaged $6.86 per task in Antigravity, compared to $12.61 for Claude Opus 5.5 and $15.47 for Claude Fable 5.2.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Gemini 4 Neon in Antigravity has an average Cost per Task of $6.86, compared to $12.61 for Claude Opus 5.5 (max) and $15.47 for Claude Fable 5.2 (xhigh)."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 31,
+    "claim": "On November 18, 2026, GitHub made Neon generally available across supported IDEs for Copilot Pro+, Max, Business, and Enterprise users under usage-based billing.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Gemini 4 Neon is now generally available in GitHub Copilot."
+      },
+      {
+        "source": 3,
+        "quote": "Gemini 4 Neon is available to Copilot Pro+, Max, Business, and Enterprise users."
+      },
+      {
+        "source": 3,
+        "quote": "This model is billed at provider list pricing under usage-based billing."
+      },
+      {
+        "source": 3,
+        "quote": "You can select the model in the model picker in: Visual Studio Code Visual Studio Copilot CLI GitHub Copilot coding agent GitHub Copilot app github.com GitHub Mobile on iOS and Android JetBrains IDEs Xcode Eclipse"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 37,
+    "claim": "Neon bypassed full critical capability evaluations because its capability gain over Argon was below Google Material Capability Change threshold.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Gemini 4 Neon showed an increase in general capability under our MCC assessment compared with Gemini 4 Argon, however this falls below our MCC threshold"
+      },
+      {
+        "source": 6,
+        "quote": "therefore a full suite of critical capability evaluations was not required"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 46,
+    "claim": "Google lists no free tier for Neon on its Gemini API pricing page.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Developers also have to pay, since the Gemini API pricing page lists no free tier for Neon"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 47,
+    "claim": "Google DeepMind stated the full Safety & Security Report for Neon will appear in the coming days.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "The full Safety & Security Report for Gemini 4 Neon will be available in the coming days."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 48,
+    "claim": "Eligible Fairwind Program members must contact their Cloud account team to request access to the cyber-defense version.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "To request access to the Fairwind Program, contact your Cloud account team."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 49,
+    "claim": "Autonomous AI agents may not yet be ready to independently manage production software development due to reliability and codebase complexity obstacles.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Autonomous AI agents may not yet be ready to independently manage production software development, with reliability and the complexity of enterprise codebases remaining significant obstacles"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 53,
+    "claim": "Google launched Gemini 4 Neon on November 18, 2026, offering a 1-million-token context window and four thinking levels positioned between Carbon and Hydrogen.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window."
+      },
+      {
+        "source": 1,
+        "quote": "While Carbon tackles your hardest, long-horizon projects and Hydrogen handles fast everyday execution, Neon balances depth and efficiency."
+      },
+      {
+        "source": 2,
+        "quote": "Google DeepMind has released Gemini 4 Neon, its fourth model in just seven weeks."
+      },
+      {
+        "source": 2,
+        "quote": "Gemini 4 Neon offers four effort levels (low, medium, high, and xhigh)"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 54,
+    "claim": "Neon is priced at $3 per million input and $15 per million output tokens, runs 17% cheaper and 40% faster than Carbon, and replaces Argon for Google AI Pro users.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window."
+      },
+      {
+        "source": 2,
+        "quote": "It costs $6.44 per task, ~17% less than Carbon ($7.76 at non-discounted pricing), and takes ~21 minutes per task, ~40% less than Carbon (~36 minutes)."
+      },
+      {
+        "source": 5,
+        "quote": "In Google AI Pro, the new model replaces Argon and the older Pro model, while Carbon stays exclusive to AI Ultra."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 55,
+    "claim": "Neon scored 59 on the Coding Agent Index, rolled out to GitHub Copilot, and carried over safety determinations from Argon with its full report pending.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "With Antigravity CLI, Neon (xhigh) scores 59 on the Artificial Analysis Coding Agent Index, 3 points ahead of Carbon (high, 55)."
+      },
+      {
+        "source": 3,
+        "quote": "Gemini 4 Neon is now generally available in GitHub Copilot."
+      },
+      {
+        "source": 6,
+        "quote": "We carry forward our capability evaluation results and T/CCL determinations from Gemini 4 Argon"
+      },
+      {
+        "source": 6,
+        "quote": "The full Safety & Security Report for Gemini 4 Neon will be available in the coming days."
+      }
+    ]
+  }
+]

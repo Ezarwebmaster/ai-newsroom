@@ -17,7 +17,9 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Self-reported benchmarks from Google (Terminal-Bench 4.1 at 65.2% and SWE-sweep at 39.0%) coexist with independent evaluations from Artificial Analysis (Coding Agent Index at 59)."
+  ],
   "image_brief": null
 }

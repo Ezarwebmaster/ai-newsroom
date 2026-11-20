@@ -39,3 +39,18 @@ Neon therefore carries forward the frontier-safety results and threshold determi
 Google says that with real-time safeguards at its highest thinking level, Neon resisted every attack in Gray Swan's indirect prompt injection benchmark, a figure from the company's own testing.[^1]
 A cyber-defense version of the model is rolling out to vetted defenders through Google's Fairwind Program over the coming days.[^1]
 <!-- /add -->
+
+<!-- add role="checker" model="Google Gemini 3.8 Flash" -->
+## No free API tier, pending safety audit and enterprise agent limits
+
+- Free access for developers: Notebookcheck observed that Google lists no free tier for Neon on its Gemini API pricing page, limiting access to paid developer accounts.[^5]
+- Publication of the full safety report: Google DeepMind stated that the comprehensive Safety & Security Report for Neon will appear in the coming days.[^6]
+- Cyber-defense rollout requirements: Google indicated that eligible Fairwind Program members must coordinate access through their Cloud account team rather than downloading the model directly.[^1]
+- Production readiness of autonomous agents: InfoWorld cautioned that enterprise codebases and long-running reliability pose hurdles, leaving autonomous software development agents in need of supervision.[^4]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 3.8 Flash" -->
+- Google launched Gemini 4 Neon on November 18, 2026, offering a 1-million-token context window and four thinking levels positioned between its Carbon and Hydrogen models.[^1][^2]
+- Priced at $3 per million input and $15 per million output tokens, Neon is 17% cheaper and 40% faster than Carbon, and replaces Argon for Google AI Pro users.[^1][^2][^5]
+- Neon scored 59 on the Coding Agent Index, rolled out to GitHub Copilot, and carried over safety determinations from Argon with its full report pending.[^2][^3][^6]
+<!-- /keypoints -->

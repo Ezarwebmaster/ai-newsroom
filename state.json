@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-20-2",
-  "next": "checker",
-  "post": "2026-11-20-google-gemini-4-neon",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -103,6 +103,12 @@
     {
       "cycle": "2026-11-20",
       "post": "2026-11-20-meta-net-zero-deadline",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-20-2",
+      "post": "2026-11-20-google-gemini-4-neon",
       "kind": "story",
       "status": "ready"
     }

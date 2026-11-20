@@ -38,6 +38,16 @@
         "text": "Gemini 4 Neon for cyber is rolling out to trusted defenders in the coming days as part of the Fairwind Program",
         "for": "Cyber version via the Fairwind Program.",
         "by": "reviser"
+      },
+      {
+        "text": "ranking #1 overall on the Artificial Analysis Coding Agent Index (58.6), with a score of 65.2% on Terminal-Bench 4.1",
+        "for": "Coding Agent Index and Terminal-Bench scores.",
+        "by": "checker"
+      },
+      {
+        "text": "To request access to the Fairwind Program, contact your Cloud account team.",
+        "for": "Access request procedure for Fairwind.",
+        "by": "checker"
       }
     ]
   },
@@ -80,6 +90,26 @@
         "text": "Gemini 4 Neon in Antigravity has an average Cost per Task of $6.86, compared to $12.61 for Claude Opus 5.5 (max) and $15.47 for Claude Fable 5.2 (xhigh).",
         "for": "Coding agent cost per task comparison.",
         "by": "reviser"
+      },
+      {
+        "text": "Gemini 4 Neon offers four effort levels (low, medium, high, and xhigh)",
+        "for": "Four configurable effort levels.",
+        "by": "checker"
+      },
+      {
+        "text": "$3/$15 per 1M input/output tokens, 50% above Gemini 4 Carbon’s currently discounted price of $2/$10 (which ends on November 30), and 25% below its standard $4/$20.",
+        "for": "Pricing comparison with standard and promotional Carbon rates.",
+        "by": "checker"
+      },
+      {
+        "text": "and the lower time from its higher output speed (~110 vs ~57 output tokens per second)",
+        "for": "Output speed of 110 tokens per second.",
+        "by": "checker"
+      },
+      {
+        "text": "Neon (xhigh) scores 61 on the Artificial Analysis Intelligence Index, 1 point ahead of Gemini 4 Carbon (high) and 3rd overall, behind GPT-6.2 Astra (max) and Claude Fable 5.2 (max)",
+        "for": "Intelligence Index ranking third overall behind Astra and Fable.",
+        "by": "checker"
       }
     ]
   },
@@ -107,6 +137,11 @@
         "text": "This model is billed at provider list pricing under usage-based billing.",
         "for": "Usage-based billing terms in Copilot.",
         "by": "writer"
+      },
+      {
+        "text": "You can select the model in the model picker in: Visual Studio Code Visual Studio Copilot CLI GitHub Copilot coding agent GitHub Copilot app github.com GitHub Mobile on iOS and Android JetBrains IDEs Xcode Eclipse",
+        "for": "Supported IDEs and environments in GitHub Copilot.",
+        "by": "checker"
       }
     ]
   },
@@ -124,6 +159,11 @@
         "text": "The near-term opportunity lies in supervised autonomy, with AI agents handling increasingly complex tasks while developers retain oversight and accountability",
         "for": "Analyst view on supervised autonomy for coding agents.",
         "by": "writer"
+      },
+      {
+        "text": "Autonomous AI agents may not yet be ready to independently manage production software development, with reliability and the complexity of enterprise codebases remaining significant obstacles",
+        "for": "Enterprise obstacles for autonomous coding agents.",
+        "by": "checker"
       }
     ]
   },
@@ -156,6 +196,11 @@
         "text": "Neon is not part of the free tier or Google AI Plus, which costs $4.99 a month.",
         "for": "No Neon for free and AI Plus users.",
         "by": "reviser"
+      },
+      {
+        "text": "Developers also have to pay, since the Gemini API pricing page lists no free tier for Neon",
+        "for": "No free API tier for developers.",
+        "by": "checker"
       }
     ]
   },
