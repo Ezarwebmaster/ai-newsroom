@@ -1,0 +1,93 @@
+{
+  "cycle": "2026-11-20-2",
+  "model": "Google Gemini 4 Neon",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Google launches Gemini 4 Neon for complex coding, reasoning and agent workflows",
+      "type": "model_launch",
+      "summary": "Google released Gemini 4 Neon on November 18, positioning it between Hydrogen and Carbon for coding, multistep tool use, and enterprise knowledge work. It offers a 1-million-token context window, configurable thinking levels, and API pricing of $3 per million input tokens and $15 per million output tokens, rolling out in the Gemini app, API, and GitHub Copilot.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "publisher": "Google",
+          "published": "2026-11-18",
+          "kind": "primary"
+        },
+        {
+          "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/",
+          "publisher": "9to5Google",
+          "published": "2026-11-18",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.notebookcheck.net/Gemini-4-Neon-replaces-Argon-for-Google-AI-Pro-subscribers.1454281.0.html",
+          "publisher": "Notebookcheck",
+          "published": "2026-11-19",
+          "kind": "press"
+        },
+        {
+          "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/",
+          "publisher": "GitHub",
+          "published": "2026-11-18",
+          "kind": "changelog"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "UK financial regulators publish AI cyber risk and resilience effective practices",
+      "type": "policy",
+      "summary": "On November 19, the Bank of England, Prudential Regulation Authority, and Financial Conduct Authority proposed principles-based cyber resilience guidance alongside non-binding effective practices on AI-related cyber risk. The guidance addresses faster AI-enabled vulnerability exploitation, continuous exposure management, and human oversight, with consultation on the broader cyber framework open until February 26, 2027.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
+          "publisher": "Bank of England",
+          "published": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/effective-practices-cyber-risk-and-resilience-management-relating-to-artificial-intelligence",
+          "publisher": "Bank of England",
+          "published": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.securities.io/uk-regulators-propose-cyber-resilience-guidance-without-new-rules/",
+          "publisher": "Securities.io",
+          "published": "2026-11-19",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Model ML raises $250 million Series B at $1.5 billion valuation for financial AI agents",
+      "type": "funding",
+      "summary": "London-based Model ML announced a $250 million Series B round at a $1.5 billion valuation on November 17, co-led by General Atlantic and QED Investors. The round brings total funding to $350 million as the startup expands engineering teams in London and New York to deploy personal AI agents for bankers, consultants, and investors.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.generalatlantic.com/media-article/model-ml-raises-250-million-at-1-5-billion-valuation-18-months-after-launching-from-stealth/",
+          "publisher": "General Atlantic",
+          "published": "2026-11-17",
+          "kind": "primary"
+        },
+        {
+          "url": "https://tech.eu/2026/11/17/model-ml-hits-15b-valuation-with-250m-raise-just-18-months-after-emerging-from-stealth/",
+          "publisher": "Tech.eu",
+          "published": "2026-11-17",
+          "kind": "press"
+        },
+        {
+          "url": "https://fintech.global/2026/11/18/model-ml-bags-250m-to-give-every-banker-an-ai-agent/",
+          "publisher": "FinTech Global",
+          "published": "2026-11-18",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
