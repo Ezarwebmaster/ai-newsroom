@@ -1,7 +1,7 @@
 {
   "contract": 1,
   "cycle": "2026-11-20-2",
-  "next": "writer",
+  "next": "reviser",
   "post": "2026-11-20-google-gemini-4-neon",
   "history": [
     {

@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "title": "Introducing Gemini 4 Neon",
+    "publisher": "Google",
+    "kind": "primary",
+    "published": "2026-11-18",
+    "retrieved": "2026-11-20",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Today, we’re introducing Gemini 4 Neon — bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows.",
+        "for": "Launch announcement and target workflows.",
+        "by": "writer"
+      },
+      {
+        "text": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window.",
+        "for": "API token pricing, cached discount, and context window.",
+        "by": "writer"
+      },
+      {
+        "text": "While Carbon tackles your hardest, long-horizon projects and Hydrogen handles fast everyday execution, Neon balances depth and efficiency.",
+        "for": "Positioning between Carbon and Hydrogen.",
+        "by": "writer"
+      },
+      {
+        "text": "On SWE-sweep, it already leads on the mini-SWE harness (12.8%) and more than triples to a state-of-the-art 39.0% in Google Antigravity showing what the Antigravity harness unlocks.",
+        "for": "SWE-sweep score in Google Antigravity.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain",
+    "title": "Google continues to accelerate its release cadence with Gemini 4 Neon",
+    "publisher": "Artificial Analysis",
+    "kind": "data",
+    "published": "2026-11-18",
+    "retrieved": "2026-11-20",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Google DeepMind has released Gemini 4 Neon, its fourth model in just seven weeks.",
+        "for": "Release cadence of Gemini 4 models.",
+        "by": "writer"
+      },
+      {
+        "text": "Neon (xhigh) scores 61 on the Intelligence Index, 1 point ahead of Carbon (high), with small improvements in agentic knowledge work, visual reasoning and coding.",
+        "for": "Intelligence Index score of 61 and comparison to Carbon.",
+        "by": "writer"
+      },
+      {
+        "text": "It costs $6.44 per task, ~17% less than Carbon ($7.76 at non-discounted pricing), and takes ~21 minutes per task, ~40% less than Carbon (~36 minutes).",
+        "for": "Cost and time per task compared with Carbon.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/",
+    "title": "Gemini 4 Neon in GitHub Copilot",
+    "publisher": "GitHub",
+    "kind": "changelog",
+    "published": "2026-11-18",
+    "retrieved": "2026-11-20",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Gemini 4 Neon is now generally available in GitHub Copilot.",
+        "for": "General availability in GitHub Copilot.",
+        "by": "writer"
+      },
+      {
+        "text": "Gemini 4 Neon is available to Copilot Pro+, Max, Business, and Enterprise users.",
+        "for": "Eligible Copilot plans.",
+        "by": "writer"
+      },
+      {
+        "text": "This model is billed at provider list pricing under usage-based billing.",
+        "for": "Usage-based billing terms in Copilot.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.infoworld.com/article/4250618/google-launches-gemini-4-neon-touting-lower-costs-for-complex-ai-coding-tasks.html",
+    "title": "Google launches Gemini 4 Neon, touting lower costs for complex AI coding tasks",
+    "publisher": "InfoWorld",
+    "kind": "press",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-20",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The near-term opportunity lies in supervised autonomy, with AI agents handling increasingly complex tasks while developers retain oversight and accountability",
+        "for": "Analyst view on supervised autonomy for coding agents.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.notebookcheck.net/Gemini-4-Neon-replaces-Argon-for-Google-AI-Pro-subscribers.1454281.0.html",
+    "title": "Gemini 4 Neon replaces Argon for Google AI Pro subscribers",
+    "publisher": "Notebookcheck",
+    "kind": "press",
+    "published": "2026-11-19",
+    "retrieved": "2026-11-20",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "In Google AI Pro, the new model replaces Argon and the older Pro model, while Carbon stays exclusive to AI Ultra.",
+        "for": "Replacement of Argon in Google AI Pro.",
+        "by": "writer"
+      },
+      {
+        "text": "Google AI Pro costs $19.99 a month in the US and €21.99 in Germany.",
+        "for": "Google AI Pro subscription price.",
+        "by": "writer"
+      }
+    ]
+  }
+]
