@@ -28,6 +28,16 @@
         "text": "On SWE-sweep, it already leads on the mini-SWE harness (12.8%) and more than triples to a state-of-the-art 39.0% in Google Antigravity showing what the Antigravity harness unlocks.",
         "for": "SWE-sweep score in Google Antigravity.",
         "by": "writer"
+      },
+      {
+        "text": "We found that with real-time safeguards at its highest thinking level, Neon resisted every attack within this Gray Swan benchmark",
+        "for": "Gray Swan indirect prompt injection result.",
+        "by": "reviser"
+      },
+      {
+        "text": "Gemini 4 Neon for cyber is rolling out to trusted defenders in the coming days as part of the Fairwind Program",
+        "for": "Cyber version via the Fairwind Program.",
+        "by": "reviser"
       }
     ]
   },
@@ -55,6 +65,21 @@
         "text": "It costs $6.44 per task, ~17% less than Carbon ($7.76 at non-discounted pricing), and takes ~21 minutes per task, ~40% less than Carbon (~36 minutes).",
         "for": "Cost and time per task compared with Carbon.",
         "by": "writer"
+      },
+      {
+        "text": "Neon uses ~15% more output tokens per task, so the lower cost comes purely from its 25% lower token prices",
+        "for": "Output token use versus Carbon.",
+        "by": "reviser"
+      },
+      {
+        "text": "With Antigravity CLI, Neon (xhigh) scores 59 on the Artificial Analysis Coding Agent Index, 3 points ahead of Carbon (high, 55).",
+        "for": "Independent Coding Agent Index score.",
+        "by": "reviser"
+      },
+      {
+        "text": "Gemini 4 Neon in Antigravity has an average Cost per Task of $6.86, compared to $12.61 for Claude Opus 5.5 (max) and $15.47 for Claude Fable 5.2 (xhigh).",
+        "for": "Coding agent cost per task comparison.",
+        "by": "reviser"
       }
     ]
   },
@@ -121,6 +146,58 @@
         "text": "Google AI Pro costs $19.99 a month in the US and €21.99 in Germany.",
         "for": "Google AI Pro subscription price.",
         "by": "writer"
+      },
+      {
+        "text": "Carbon, Google's most capable model, remains limited to AI Ultra, which starts at $99.99 a month.",
+        "for": "AI Ultra price and Carbon exclusivity.",
+        "by": "reviser"
+      },
+      {
+        "text": "Neon is not part of the free tier or Google AI Plus, which costs $4.99 a month.",
+        "for": "No Neon for free and AI Plus users.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-4-Neon-Model-Card.pdf",
+    "title": "Gemini 4 Neon — Model Card",
+    "publisher": "Google DeepMind",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-20",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Gemini 4 Neon is adapted from Gemini 4 Carbon.",
+        "for": "Model lineage.",
+        "by": "reviser"
+      },
+      {
+        "text": "The knowledge cutoff for Gemini 4 Neon is March 2026",
+        "for": "Knowledge cutoff.",
+        "by": "reviser"
+      },
+      {
+        "text": "Gemini 4 Neon showed an increase in general capability under our MCC assessment compared with Gemini 4 Argon, however this falls below our MCC threshold",
+        "for": "Capability gain below the MCC threshold.",
+        "by": "reviser"
+      },
+      {
+        "text": "therefore a full suite of critical capability evaluations was not required",
+        "for": "No full critical capability evaluation.",
+        "by": "reviser"
+      },
+      {
+        "text": "We carry forward our capability evaluation results and T/CCL determinations from Gemini 4 Argon",
+        "for": "Determinations carried forward from Argon.",
+        "by": "reviser"
+      },
+      {
+        "text": "The full Safety & Security Report for Gemini 4 Neon will be available in the coming days.",
+        "for": "Safety report pending.",
+        "by": "reviser"
       }
     ]
   }
