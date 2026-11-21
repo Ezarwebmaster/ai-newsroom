@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 4 Neon",
+    "kind": "fact",
+    "line": 30,
+    "old": "Alongside indicator sharing—as Anthropic separately reports banning tens of thousands of accounts to cut reasoning theft by 90% to 99%—OpenAI updated its usage policies on November 20, 2026 to require approval for AI gateways and model routers reselling direct access, while backing the Chip Security Act, the AI OVERWATCH Act, and the MATCH Act.[^1][^3][^4]",
+    "new": "Alongside indicator sharing—as Anthropic separately reports banning tens of thousands of accounts to cut reasoning theft by 90% to 99%—OpenAI's updated usage policies took effect on November 20, 2026, requiring approval for AI gateways and model routers reselling direct access, while OpenAI backs the Chip Security Act, the AI OVERWATCH Act, and the MATCH Act.[^1][^3][^4][^6][^8]",
+    "why": "OpenAI announced the Usage Policies update on October 21, 2026 with a November 20, 2026 effective date rather than introducing it on November 20, 2026; also adds primary sources for Anthropic's figures and OpenAI's policy announcement.",
+    "support": [
+      {
+        "source": 8,
+        "quote": "We\u2019re also updating our Usage Policies, effective November 20, 2026, to clarify the rules for safe model development and sensitive uses of AI."
+      }
+    ]
+  }
+]

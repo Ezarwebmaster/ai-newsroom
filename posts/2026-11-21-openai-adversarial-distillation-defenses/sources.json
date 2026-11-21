@@ -143,5 +143,108 @@
         "by": "writer"
       }
     ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.anthropic.com/news/distillation-defenses",
+    "title": "Strengthening our defenses against distillation attacks",
+    "publisher": "Anthropic",
+    "kind": "primary",
+    "published": "2026-10-12",
+    "retrieved": "2026-11-21",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "When training on the full transcripts, the distilled model achieved 80.4%; with only the summarized transcripts, it achieved 71.8%.",
+        "for": "Anthropic's SWE-bench Verified coding comparison between full reasoning transcripts and summarized transcripts.",
+        "by": "reviser"
+      },
+      {
+        "text": "Early evidence suggests that these methods have reduced the amount of data harvested by distillers by around 90 to 99%.",
+        "for": "Anthropic's primary report of a 90% to 99% reduction in data harvested by distillers.",
+        "by": "reviser"
+      },
+      {
+        "text": "We\u2019ve used these defenses to ban tens of thousands of accounts associated with distillation, often in less than two hours after such an account begins a distillation campaign.",
+        "for": "Anthropic banning tens of thousands of distillation accounts, often in under two hours.",
+        "by": "reviser"
+      },
+      {
+        "text": "We\u2019ve turned away meaningful revenue and trillions of tokens\u2019 worth of paying traffic from distillers, and our research and product teams have invested substantial time and effort into this problem.",
+        "for": "Commercial trade-offs reported by Anthropic from blocking paying distillation traffic.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+    "title": "Disrupting a coordinated model-distillation campaign",
+    "publisher": "OpenAI",
+    "kind": "primary",
+    "published": "2026-09-30",
+    "retrieved": "2026-11-21",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "The operators did not break our encryption, compromise a database, or gain direct access to stored user conversations.",
+        "for": "Clarification that the July 2026 campaign did not break encryption or compromise stored user data.",
+        "by": "reviser"
+      },
+      {
+        "text": "Further investigation identified related prompt-pattern activity across a cluster of more than 15,000 users, which we fully disrupted by July 28.",
+        "for": "Broader cluster of more than 15,000 users disrupted by July 28, 2026.",
+        "by": "reviser"
+      },
+      {
+        "text": "It is unclear whether all operators we observed during the relevant time period originated from a single actor.",
+        "for": "OpenAI's caveat on attribution scope for the July 2026 campaign.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://openai.com/index/broad-access-through-consistent-standards/",
+    "title": "Broad access through consistent standards",
+    "publisher": "OpenAI",
+    "kind": "primary",
+    "published": "2026-10-21",
+    "retrieved": "2026-11-21",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "We\u2019re also updating our Usage Policies, effective November 20, 2026, to clarify the rules for safe model development and sensitive uses of AI.",
+        "for": "October 21, 2026 announcement setting November 20, 2026 as the effective date of OpenAI's updated Usage Policies.",
+        "by": "reviser"
+      },
+      {
+        "text": "We\u2019re also working with customers to introduce SafetyIDs, which customers can provide to help us distinguish between individual end users in an investigation without OpenAI learning those users\u2019 identities.",
+        "for": "OpenAI's SafetyIDs mechanism for isolating abusive end users without exposing user identities.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "url": "https://developers.openai.com/api/docs/guides/keep-prefix-unchanged",
+    "title": "Keep the prefix unchanged",
+    "publisher": "OpenAI",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-21",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "If you use OpenAI compaction via /responses/compact or context_management, our systems retain subsequent reasoning items despite the prefix being changed.",
+        "for": "OpenAI compaction retaining subsequent reasoning items when the prefix changes.",
+        "by": "reviser"
+      },
+      {
+        "text": "Use input_transformations from the Responses API response to see which reasoning items the API removed from the input and why.",
+        "for": "Developer diagnostics via input_transformations for removed reasoning items.",
+        "by": "reviser"
+      }
+    ]
   }
 ]
