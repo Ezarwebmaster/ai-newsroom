@@ -1,0 +1,22 @@
+{
+  "contract": 1,
+  "id": "2026-11-21-openai-adversarial-distillation-defenses",
+  "cycle": "2026-11-21",
+  "kind": "story",
+  "type": "product",
+  "category": "products",
+  "tags": [
+    "openai",
+    "safety",
+    "reasoning",
+    "api"
+  ],
+  "primary_source": "https://openai.com/index/combatting-adversarial-distillation/",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

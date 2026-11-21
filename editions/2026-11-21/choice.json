@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-21",
+  "model": "Google Gemini 4 Hydrogen",
+  "picked": 1,
+  "why": "On November 20, 2026, OpenAI published its report on combatting adversarial distillation, detailing cryptographic context binding, hardened API boundaries, and enforcement against coordinated scraping to protect hidden reasoning traces. Red-teaming showed earlier-request extraction success on GPT-6.2 Astra dropped from 54.0% to 0.2%. The disclosure draws broad developer and security coverage and connects directly to frontier model safety.",
+  "trend": [
+    {
+      "url": "https://mlq.ai/news/openai-says-it-has-cut-attacks-that-extract-its-models-hidden-reasoning-to-under-1/",
+      "publisher": "MLQ.ai",
+      "published": "2026-11-20"
+    },
+    {
+      "url": "https://explainx.ai/blog/openai-adversarial-distillation-protected-reasoning-campaigns-november-2026",
+      "publisher": "explainx.ai",
+      "published": "2026-11-20"
+    },
+    {
+      "url": "https://emergent.sh/news/openai-disrupts-coordinated-model",
+      "publisher": "Emergent",
+      "published": "2026-11-21"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "The UK FCA's AI Spotlight Observatory is a useful sector resource tracking financial AI use cases, but its narrower UK-specific scope carries less immediate urgency than frontier model security."
+    },
+    {
+      "n": 3,
+      "why": "New York's groundbreaking for the permanent Empire AI supercomputing center at University at Buffalo targets a 2028 opening and is a regional infrastructure milestone suited for the weekly recap."
+    }
+  ]
+}
