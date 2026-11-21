@@ -1,0 +1,93 @@
+{
+  "cycle": "2026-11-21",
+  "model": "Google Gemini 3.8 Flash",
+  "topics": [
+    {
+      "n": 1,
+      "title": "OpenAI details defenses against adversarial distillation to protect reasoning traces",
+      "type": "product",
+      "summary": "On November 20, 2026, OpenAI published a report detailing technical defenses against adversarial distillation targeting frontier models. Red-teaming showed extraction attack success rates against hidden reasoning dropped from 54.0% to 0.2% on GPT-6.2 Astra, as OpenAI introduced cryptographic context binding, hardened API boundaries, and disruption of illicit scraping operations.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://openai.com/index/combatting-adversarial-distillation/",
+          "publisher": "OpenAI",
+          "published": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.unite.ai/openai-strengthens-gpt-6-2-astra-against-reasoning-extraction/",
+          "publisher": "Unite.AI",
+          "published": "2026-11-20",
+          "kind": "press"
+        },
+        {
+          "url": "https://cellcog.ai/blog/openai-distillation-defenses/",
+          "publisher": "CellCog",
+          "published": "2026-11-20",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "UK Financial Conduct Authority launches AI Spotlight Observatory for financial sector",
+      "type": "policy",
+      "summary": "On November 19, 2026, the UK Financial Conduct Authority launched the AI Spotlight Observatory, a regulatory platform tracking practical AI adoption across financial services. Developed with CFTE and NayaOne, the observatory categorizes real-world AI use cases from over 200 institutions across 150 activity areas to benchmark implementation and promote safe deployment.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
+          "publisher": "Financial Conduct Authority",
+          "published": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://blog.cfte.education/cfte-fca-ai-spotlight-observatory-launch-2026/",
+          "publisher": "CFTE",
+          "published": "2026-11-19",
+          "kind": "press"
+        },
+        {
+          "url": "https://caribbeannewsglobal.com/fca-launches-world-first-platform-giving-firms-new-insight-into-ai-innovation/",
+          "publisher": "Caribbean News Global",
+          "published": "2026-11-20",
+          "kind": "press"
+        },
+        {
+          "url": "https://news.europawire.eu/fca-launches-ai-spotlight-observatory-showcasing-financial-services-innovation-across-150-activity-areas/eu-press-release/2026/11/20/21/33/03/189048/",
+          "publisher": "EuropaWire",
+          "published": "2026-11-20",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "New York breaks ground on permanent Empire AI supercomputing center at University at Buffalo",
+      "type": "research",
+      "summary": "On November 19, 2026, New York Governor Kathy Hochul broke ground on the permanent 46,000-square-foot home of Empire AI at the University at Buffalo. The $500 million public-private supercomputing initiative, uniting SUNY, CUNY, Columbia, and other institutions, will house Empire AI Gamma by 2028 for academic research in medicine, climate, and materials.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.governor.ny.gov/news/video-audio-rush-transcript-governor-hochul-breaks-ground-permanent-empire-ai-supercomputing",
+          "publisher": "Office of the Governor of New York",
+          "published": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.buffalo.edu/news/releases/2026/11/empire-ai-groundbreaking.html",
+          "publisher": "University at Buffalo",
+          "published": "2026-11-20",
+          "kind": "press"
+        },
+        {
+          "url": "https://superpowerdaily.com/posts/new-york-breaks-ground-on-permanent-ai-supercomputing-center-for-university-research",
+          "publisher": "Superpower Daily",
+          "published": "2026-11-20",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
