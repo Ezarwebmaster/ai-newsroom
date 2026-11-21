@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "url": "https://openai.com/index/combatting-adversarial-distillation/",
+    "title": "Combatting adversarial distillation",
+    "publisher": "OpenAI",
+    "kind": "primary",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-21",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The average attack success rate fell from 54.0% against GPT\u20116 Astra with its original safeguards to 0.2% against GPT\u20116.2 Astra with its updated safeguards.",
+        "for": "Adaptive red-teaming drop from 54.0% to 0.2% on earlier-request reasoning extraction.",
+        "by": "writer"
+      },
+      {
+        "text": "Through adversarial distillation, a second model can learn advanced frontier capabilities without inheriting the safeguards that govern how the original model can use them.",
+        "for": "Definition and safety risk of adversarial distillation.",
+        "by": "writer"
+      },
+      {
+        "text": "After supervised fine-tuning, the student trained on exact reasoning traces generally outperformed the student trained on reasoning summaries.",
+        "for": "Internal cyber distillation study supervised fine-tuning result.",
+        "by": "writer"
+      },
+      {
+        "text": "After reinforcement learning, the exact-trace student still scored higher at the largest inference budget tested on both benchmarks shown, while the summary-trained student scored higher at lower budgets.",
+        "for": "Reinforcement learning comparison across inference budgets.",
+        "by": "writer"
+      },
+      {
+        "text": "We use input classifiers to detect attempts to extract protected reasoning, and output classifiers to detect leaks of protected reasoning in assistant messages and tool-call arguments.",
+        "for": "Input and output classifier coverage across assistant messages and tool calls.",
+        "by": "writer"
+      },
+      {
+        "text": "With GPT\u20116.2 Astra and GPT\u20116.2 Sol, we tie a model\u2019s protected reasoning to the conversation history that produced it.",
+        "for": "Binding protected reasoning to conversation history in GPT-6.2 Astra and Sol.",
+        "by": "writer"
+      },
+      {
+        "text": "We also prevent older model families with weaker safeguards from reading GPT\u20116.2 Astra and Sol\u2019s protected reasoning.",
+        "for": "Blocking older model families from reading GPT-6.2 protected reasoning.",
+        "by": "writer"
+      },
+      {
+        "text": "Our weekly enforcement actions against these campaigns have ranged in scale from thousands to tens of thousands of accounts, with the rate increasing significantly this past summer.",
+        "for": "Scale of weekly account enforcement actions against distillation campaigns.",
+        "by": "writer"
+      },
+      {
+        "text": "We\u2019ve also told Congress we support the Chip Security Act, the AI OVERWATCH Act, and the MATCH Act.",
+        "for": "OpenAI legislative support for the Chip Security Act, AI OVERWATCH Act, and MATCH Act.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://www.unite.ai/openai-strengthens-gpt-6-2-astra-against-reasoning-extraction/",
+    "title": "OpenAI Strengthens GPT-6.2 Astra Against Reasoning Extraction",
+    "publisher": "Unite.AI",
+    "kind": "press",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-21",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "For extraction from the current request, the corresponding average fell from 22.9% to 0.9%, OpenAI reports.",
+        "for": "Current-request extraction attack success rate drop from 22.9% to 0.9%.",
+        "by": "writer"
+      },
+      {
+        "text": "The adaptive black-box evaluation aggregates results across six attacker models, with automated red-teamers adjusting their approach as the system responds and seeing only what an external user would see.",
+        "for": "Six attacker models and black-box adaptive red-teaming methodology.",
+        "by": "writer"
+      },
+      {
+        "text": "The earlier report described 16,000 attempted extraction requests from more than 4,000 users on July 24 and 25, 2026, attributed a core cluster to individuals associated with Moonshot AI, and said it was unclear whether all operators belonged to one actor.",
+        "for": "September 30, 2026 disclosure of July 24-25 extraction requests and Moonshot AI attribution.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://mlq.ai/news/openai-says-it-has-cut-attacks-that-extract-its-models-hidden-reasoning-to-under-1/",
+    "title": "OpenAI says it has cut attacks that extract its models' hidden reasoning to under 1%",
+    "publisher": "MLQ.ai",
+    "kind": "press",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-21",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "after a round of reinforcement learning, the exact-trace student still scored higher at the largest inference budget tested on ExploitBench and SEC-bench Pro, while the summary-trained student did better at lower budgets",
+        "for": "ExploitBench and SEC-bench Pro benchmarks in the cyber distillation study.",
+        "by": "writer"
+      },
+      {
+        "text": "OpenAI said it briefed Congress in February on activity indicating DeepSeek was attempting to distill US frontier models, and in September attributed a core part of a reasoning-extraction campaign to individuals associated with Moonshot AI, the developer of Kimi",
+        "for": "February 2026 congressional briefing on DeepSeek and September 2026 attribution to Moonshot AI.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+    "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+    "publisher": "The Decoder",
+    "kind": "press",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-21",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "In internal automated tests, attacks pulling protected reasoning from prior requests dropped from a 54.0 percent success rate on GPT-6 Astra to 0.2 percent on GPT-6.2 Astra.",
+        "for": "Summary of internal automated red-teaming improvements on GPT-6.2 Astra.",
+        "by": "writer"
+      },
+      {
+        "text": "also banning tens of thousands of accounts to curb the theft of internal reasoning, reportedly succeeding in 90 to 99 percent of cases.",
+        "for": "Anthropic parallel enforcement banning tens of thousands of accounts and cutting reasoning theft by 90% to 99%.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://explainx.ai/blog/openai-adversarial-distillation-protected-reasoning-campaigns-november-2026",
+    "title": "OpenAI Adversarial Distillation: Protected Reasoning, Attacks and Enforcement",
+    "publisher": "explainx.ai",
+    "kind": "press",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-21",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "OpenAI treats unauthorized distillation as a frontier safety problem, not a licensing dispute alone.",
+        "for": "Framing of unauthorized distillation as a frontier safety issue.",
+        "by": "writer"
+      }
+    ]
+  }
+]
