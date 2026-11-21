@@ -41,3 +41,16 @@ Alongside indicator sharing—as Anthropic separately reports banning tens of th
 In its October 12, 2026 report, Anthropic said its defenses often ban distillation accounts in under two hours while carrying commercial trade-offs, including turning away "meaningful revenue and trillions of tokens' worth of paying traffic" and requiring legitimate customers to adjust integrations.[^6]
 OpenAI's October 21, 2026 consistent-standards policy also introduced SafetyIDs so API customers can help isolate abusive end users during misuse investigations without revealing those users' identities to OpenAI.[^8]
 <!-- /add -->
+
+<!-- add role="checker" model="Anthropic Claude Sonnet 5.5" -->
+## No Sol figure yet, and no date for the promised campaign report
+
+- Protection on GPT-6.2 Sol: OpenAI's published red-teaming result, the drop from 54.0% to 0.2%, is stated for GPT-6.2 Astra only, and the report gives no separate attack success rate for GPT-6.2 Sol.[^1]
+- Newly disrupted campaigns: OpenAI wrote that it plans to share more soon about recent campaigns it has disrupted, without giving a date or naming the actors involved.[^1]
+<!-- /add -->
+
+<!-- keypoints model="Anthropic Claude Sonnet 5.5" -->
+- OpenAI says internal red-teaming cut average success of extracting an earlier request's protected reasoning from 54.0% on GPT-6 Astra to 0.2% on GPT-6.2 Astra.[^1][^4]
+- OpenAI's study found students trained on exact reasoning traces generally outperformed those trained on summaries after supervised fine-tuning, so it hides exact traces to limit cyber-capability transfer.[^1][^3]
+- Weekly OpenAI enforcement has ranged from thousands to tens of thousands of accounts; all figures are vendor statements, with no Sol result or date for the next campaign report.[^1][^5]
+<!-- /keypoints -->

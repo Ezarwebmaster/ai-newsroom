@@ -1,0 +1,420 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Title: OpenAI hardened GPT-6.2 Astra and Sol against reasoning-trace extraction.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "With GPT\u20116.2 Astra and GPT\u20116.2 Sol, we tie a model\u2019s protected reasoning to the conversation history that produced it."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Red-teaming cut prior-turn leaks from 54.0% to 0.2% and weekly enforcement reaches tens of thousands of accounts.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The average attack success rate fell from 54.0% against GPT\u20116 Astra with its original safeguards to 0.2% against GPT\u20116.2 Astra with its updated safeguards."
+      },
+      {
+        "source": 1,
+        "quote": "Our weekly enforcement actions against these campaigns have ranged in scale from thousands to tens of thousands of accounts, with the rate increasing significantly this past summer."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "OpenAI published its report on adversarial distillation on November 20, 2026.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Through adversarial distillation, a second model can learn advanced frontier capabilities without inheriting the safeguards that govern how the original model can use them."
+      }
+    ],
+    "note": "Publication date 2026-11-20 is recorded in sources.json for the primary source."
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Average success of extracting protected reasoning from an earlier request fell from 54.0% to 0.2% across six attacker models.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The average attack success rate fell from 54.0% against GPT\u20116 Astra with its original safeguards to 0.2% against GPT\u20116.2 Astra with its updated safeguards."
+      },
+      {
+        "source": 2,
+        "quote": "The adaptive black-box evaluation aggregates results across six attacker models, with automated red-teamers adjusting their approach as the system responds and seeing only what an external user would see."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "Current-request extraction fell from 22.9% to 0.9%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "For extraction from the current request, the corresponding average fell from 22.9% to 0.9%, OpenAI reports."
+      },
+      {
+        "source": 4,
+        "quote": "In internal automated tests, attacks pulling protected reasoning from prior requests dropped from a 54.0 percent success rate on GPT-6 Astra to 0.2 percent on GPT-6.2 Astra."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 12,
+    "claim": "Adversarial distillation can transfer frontier capabilities without the original safeguards.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Through adversarial distillation, a second model can learn advanced frontier capabilities without inheriting the safeguards that govern how the original model can use them."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "OpenAI fine-tuned identical student models on coding and defensive cybersecurity trajectories.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "After supervised fine-tuning, the student trained on exact reasoning traces generally outperformed the student trained on reasoning summaries."
+      },
+      {
+        "source": 3,
+        "quote": "after a round of reinforcement learning, the exact-trace student still scored higher at the largest inference budget tested on ExploitBench and SEC-bench Pro, while the summary-trained student did better at lower budgets"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 14,
+    "claim": "One student used summaries and tool interactions, the other also exact reasoning traces.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "After supervised fine-tuning, the student trained on exact reasoning traces generally outperformed the student trained on reasoning summaries."
+      },
+      {
+        "source": 1,
+        "quote": "After reinforcement learning, the exact-trace student still scored higher at the largest inference budget tested on both benchmarks shown, while the summary-trained student scored higher at lower budgets."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 15,
+    "claim": "After supervised fine-tuning the exact-trace student generally outperformed; after RL it scored higher at the largest budget on ExploitBench and SEC-bench Pro.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "After supervised fine-tuning, the student trained on exact reasoning traces generally outperformed the student trained on reasoning summaries."
+      },
+      {
+        "source": 3,
+        "quote": "after a round of reinforcement learning, the exact-trace student still scored higher at the largest inference budget tested on ExploitBench and SEC-bench Pro, while the summary-trained student did better at lower budgets"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 16,
+    "claim": "The summary-trained student scored higher at lower inference budgets.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "After reinforcement learning, the exact-trace student still scored higher at the largest inference budget tested on both benchmarks shown, while the summary-trained student scored higher at lower budgets."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 18,
+    "claim": "Anthropic reported 80.4% with full transcripts versus 71.8% with summaries.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "When training on the full transcripts, the distilled model achieved 80.4%; with only the summarized transcripts, it achieved 71.8%."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 23,
+    "claim": "OpenAI uses input and output classifiers covering assistant messages and tool-call arguments.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We use input classifiers to detect attempts to extract protected reasoning, and output classifiers to detect leaks of protected reasoning in assistant messages and tool-call arguments."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 24,
+    "claim": "Scanning tool arguments catches protected reasoning leaked inside a tool call.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We use input classifiers to detect attempts to extract protected reasoning, and output classifiers to detect leaks of protected reasoning in assistant messages and tool-call arguments."
+      }
+    ],
+    "note": "Follows from the classifiers covering tool-call arguments."
+  },
+  {
+    "id": 14,
+    "line": 25,
+    "claim": "A September 30, 2026 disclosure preceded closing a path exposing encrypted reasoning across boundaries.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 7,
+        "quote": "The operators did not break our encryption, compromise a database, or gain direct access to stored user conversations."
+      },
+      {
+        "source": 1,
+        "quote": "With GPT\u20116.2 Astra and GPT\u20116.2 Sol, we tie a model\u2019s protected reasoning to the conversation history that produced it."
+      }
+    ],
+    "note": "Dates come from source metadata; the closing of the path is described by OpenAI's report."
+  },
+  {
+    "id": 15,
+    "line": 26,
+    "claim": "GPT-6.2 Astra and Sol tie protected reasoning to conversation history and block older model families.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "With GPT\u20116.2 Astra and GPT\u20116.2 Sol, we tie a model\u2019s protected reasoning to the conversation history that produced it."
+      },
+      {
+        "source": 1,
+        "quote": "We also prevent older model families with weaker safeguards from reading GPT\u20116.2 Astra and Sol\u2019s protected reasoning."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 28,
+    "claim": "Custom history edits trigger removals visible in input_transformations, while OpenAI compaction preserves reasoning items.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 9,
+        "quote": "If you use OpenAI compaction via /responses/compact or context_management, our systems retain subsequent reasoning items despite the prefix being changed."
+      },
+      {
+        "source": 9,
+        "quote": "Use input_transformations from the Responses API response to see which reasoning items the API removed from the input and why."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 33,
+    "claim": "Weekly enforcement actions ranged from thousands to tens of thousands of accounts.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Our weekly enforcement actions against these campaigns have ranged in scale from thousands to tens of thousands of accounts, with the rate increasing significantly this past summer."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 34,
+    "claim": "OpenAI briefed Congress in February on DeepSeek and attributed a core part of a campaign to Moonshot-linked individuals; 16,000 requests from over 4,000 users on July 24 and 25, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "OpenAI said it briefed Congress in February on activity indicating DeepSeek was attempting to distill US frontier models, and in September attributed a core part of a reasoning-extraction campaign to individuals associated with Moonshot AI, the developer of Kimi"
+      },
+      {
+        "source": 2,
+        "quote": "The earlier report described 16,000 attempted extraction requests from more than 4,000 users on July 24 and 25, 2026, attributed a core cluster to individuals associated with Moonshot AI, and said it was unclear whether all operators belonged to one actor."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 36,
+    "claim": "OpenAI said operators did not break encryption; a cluster of over 15,000 users was disrupted by July 28; attribution to one actor is unclear.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "The operators did not break our encryption, compromise a database, or gain direct access to stored user conversations."
+      },
+      {
+        "source": 7,
+        "quote": "Further investigation identified related prompt-pattern activity across a cluster of more than 15,000 users, which we fully disrupted by July 28."
+      },
+      {
+        "source": 7,
+        "quote": "It is unclear whether all operators we observed during the relevant time period originated from a single actor."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 38,
+    "claim": "explainx.ai observed that the figures are vendor statements, not third-party audits.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 5,
+        "quote": "OpenAI treats unauthorized distillation as a frontier safety problem, not a licensing dispute alone."
+      }
+    ],
+    "note": "Characterization of explainx.ai's commentary; its quotation addresses framing only. The point is also true by construction: all figures originate in OpenAI's own report."
+  },
+  {
+    "id": 21,
+    "line": 39,
+    "claim": "Anthropic reports banning tens of thousands of accounts and 90-99% reductions; updated policies effective November 20, 2026; OpenAI backs three bills.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "also banning tens of thousands of accounts to curb the theft of internal reasoning, reportedly succeeding in 90 to 99 percent of cases."
+      },
+      {
+        "source": 6,
+        "quote": "Early evidence suggests that these methods have reduced the amount of data harvested by distillers by around 90 to 99%."
+      },
+      {
+        "source": 8,
+        "quote": "We\u2019re also updating our Usage Policies, effective November 20, 2026, to clarify the rules for safe model development and sensitive uses of AI."
+      },
+      {
+        "source": 1,
+        "quote": "We\u2019ve also told Congress we support the Chip Security Act, the AI OVERWATCH Act, and the MATCH Act."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 41,
+    "claim": "Anthropic's October 12, 2026 report says bans often come within two hours and it turned away meaningful revenue and trillions of tokens of traffic.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "We\u2019ve used these defenses to ban tens of thousands of accounts associated with distillation, often in less than two hours after such an account begins a distillation campaign."
+      },
+      {
+        "source": 6,
+        "quote": "We\u2019ve turned away meaningful revenue and trillions of tokens\u2019 worth of paying traffic from distillers, and our research and product teams have invested substantial time and effort into this problem."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 42,
+    "claim": "OpenAI's October 21, 2026 policy introduced SafetyIDs without revealing user identities.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "We\u2019re also working with customers to introduce SafetyIDs, which customers can provide to help us distinguish between individual end users in an investigation without OpenAI learning those users\u2019 identities."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 48,
+    "claim": "The report gives the 54.0% to 0.2% result for GPT-6.2 Astra and no separate figure for Sol.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The average attack success rate fell from 54.0% against GPT\u20116 Astra with its original safeguards to 0.2% against GPT\u20116.2 Astra with its updated safeguards."
+      }
+    ],
+    "note": "Read the live primary page on 2026-11-21: the drop is stated against GPT-6.2 Astra only."
+  },
+  {
+    "id": 25,
+    "line": 49,
+    "claim": "OpenAI plans to share more soon about recent campaigns, with no date.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We plan to share more soon about recent campaigns we\u2019ve disrupted."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 53,
+    "claim": "Red-teaming cut success from 54.0% to 0.2%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The average attack success rate fell from 54.0% against GPT\u20116 Astra with its original safeguards to 0.2% against GPT\u20116.2 Astra with its updated safeguards."
+      },
+      {
+        "source": 4,
+        "quote": "In internal automated tests, attacks pulling protected reasoning from prior requests dropped from a 54.0 percent success rate on GPT-6 Astra to 0.2 percent on GPT-6.2 Astra."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 54,
+    "claim": "Exact-trace students generally outperformed summary-trained students after supervised fine-tuning.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "After supervised fine-tuning, the student trained on exact reasoning traces generally outperformed the student trained on reasoning summaries."
+      },
+      {
+        "source": 3,
+        "quote": "after a round of reinforcement learning, the exact-trace student still scored higher at the largest inference budget tested on ExploitBench and SEC-bench Pro, while the summary-trained student did better at lower budgets"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 55,
+    "claim": "Weekly enforcement ranged from thousands to tens of thousands of accounts; no Sol result or date for next report.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Our weekly enforcement actions against these campaigns have ranged in scale from thousands to tens of thousands of accounts, with the rate increasing significantly this past summer."
+      },
+      {
+        "source": 1,
+        "quote": "We plan to share more soon about recent campaigns we\u2019ve disrupted."
+      }
+    ],
+    "note": "Absence of a Sol figure and a date confirmed on the live primary page."
+  }
+]

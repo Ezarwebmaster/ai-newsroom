@@ -16,7 +16,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "All red-teaming figures, enforcement scales and attributions are OpenAI's own statements; no independent audit exists.",
+    "The 0.2% result is stated for GPT-6.2 Astra only, not Sol."
+  ],
   "image_brief": null
 }
