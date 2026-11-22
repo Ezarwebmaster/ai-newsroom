@@ -15,6 +15,10 @@ In an offline test on a MacBook Pro, researchers ran the model on a flight and b
 
 The model divides its 24 layers into four six-layer blocks and uses attention residuals so the middle two blocks can read outputs from earlier blocks and from the previous loop pass.[^1][^4]
 Thinking Machines Lab said that looping the middle 12 layers beat looping the last 12 layers on 27 of 28 evaluations.[^1]
+<!-- add role="reviser" model="Google Gemini 3.8 Flash" -->
+During midtraining, Thinking Machines Lab pruned two-thirds of the experts to retain the 128 most-used expert blocks per layer, allowing the model to run faster on local hardware.[^1]
+Each layer routes tokens to 8 of those 128 experts, while hybrid attention pairs local windows of 1,024 tokens with full-context global attention every six layers to support the 1-million-token window.[^5]
+<!-- /add -->
 
 ## Coding benchmarks, cost per task and knowledge limits
 
@@ -24,11 +28,18 @@ On Artificial Analysis's suite, Inkling 2 Mini used about 38% more output tokens
 
 Looping does not increase factual recall, which Thinking Machines Lab noted depends mainly on total parameter count.[^1]
 On the AA-Omniscience factuality benchmark, the model scored -8.6 with a 63.4% non-hallucination rate, trailing Qwen3.8 27B's -6.4 score and 71.4% rate, though it led comparable open-weight models on tool-assisted search benchmarks such as BrowseComp (79.0%) and DeepSearchQA (85.3%).[^1]
+<!-- add role="reviser" model="Google Gemini 3.8 Flash" -->
+However, independent testing revealed gaps between benchmark scores and live agent workflows, with MindStudio reporting that the model looped for over an hour trying to debug a tiered pricing calculation without reaching a fix.[^5]
+The model card also states that Inkling 2 Mini is not strongly multilingual and performs best on English-language tasks.[^5]
+<!-- /add -->
 
 ## Shorter reasoning chains and Goodfire's interpretability access
 
 To test how looping affects chain-of-thought monitoring, Thinking Machines Lab also released a variable-loop research variant on Hugging Face.[^1][^3]
 Across GPQA Diamond questions answered correctly at every depth, five-pass reasoning averaged 1,661 tokens compared with 3,703 tokens at one pass, while sentence length and English dictionary word rates stayed unchanged.[^1]
+<!-- add role="reviser" model="Google Gemini 3.8 Flash" -->
+On that research variant, the unprompted reasoning time horizon rose from 16 seconds at one pass to 37 seconds at three passes, while the model showed no upward trend on tests of agentic sabotage as loops were added.[^1]
+<!-- /add -->
 
 Thinking Machines Lab gave interpretability firm Goodfire early access to the weights to study how information moves across loops.[^1][^4]
 Goodfire reported on November 20, 2026 that layers in the looped blocks coordinate across passes in ways that let them write to themselves or read from future layers, and both Inkling 2 Mini and the variable-loop model are available via Tinker and Hugging Face.[^1][^4]

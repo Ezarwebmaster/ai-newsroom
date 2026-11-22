@@ -1,7 +1,7 @@
 {
   "contract": 1,
   "cycle": "2026-11-22",
-  "next": "reviser",
+  "next": "checker",
   "post": "2026-11-22-thinking-machines-inkling-2-mini",
   "history": [
     {

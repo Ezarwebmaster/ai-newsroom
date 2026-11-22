@@ -54,6 +54,21 @@
         "text": "Reasoning at 5 passes was less than half as long as at 1 pass (1,661 vs. 3,703 tokens on average), but no less legible: sentence length and the fraction of words in an English dictionary were unchanged.",
         "for": "Token length reduction and unchanged legibility across 5 passes vs 1 pass.",
         "by": "writer"
+      },
+      {
+        "text": "At a single point during midtraining, we pruned two-thirds of the experts, leaving the 128 experts that were most used in each layer.",
+        "for": "Pruning two-thirds of experts during midtraining to retain 128 experts per layer.",
+        "by": "reviser"
+      },
+      {
+        "text": "The no-CoT time horizon of TML-d24-varloop-research rises from 16 seconds at one pass to 37 seconds at three.",
+        "for": "Unprompted reasoning time horizon across loop passes.",
+        "by": "reviser"
+      },
+      {
+        "text": "The model didn’t trend higher on tests of agentic sabotage as loops were added.",
+        "for": "Agentic sabotage tests across loop passes.",
+        "by": "reviser"
       }
     ]
   },
@@ -148,6 +163,44 @@
         "text": "Our preliminary findings include insights into how layers coordinate with each other, and with future and past versions of themselves: counterintuitively, looped model layers can write to themselves, or read from “future” layers!",
         "for": "Layer coordination across loops including writing to themselves and reading from future layers.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.mindstudio.ai/blog/inkling-2-mini-benchmarks",
+    "title": "Inkling 2 Mini Benchmarks: How Thinking Machines' Open Model Scores",
+    "publisher": "MindStudio",
+    "kind": "press",
+    "published": "2026-11-21",
+    "retrieved": "2026-11-22",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "November 21, 2026",
+        "for": "Publication date of the MindStudio analysis.",
+        "by": "reviser"
+      },
+      {
+        "text": "Inside each layer, the model uses sparse mixture-of-experts routing: 128 expert blocks exist, but each token is routed to only 8 of them.",
+        "for": "Sparse mixture-of-experts routing to 8 of 128 expert blocks.",
+        "by": "reviser"
+      },
+      {
+        "text": "Attention is a hybrid of local layers, which mostly attend to the last 1,024 tokens, and global layers (every sixth layer) that attend to the full context, which is how the model supports a 1 million token context window without every layer paying full quadratic attention cost.",
+        "for": "Hybrid local and global attention layers supporting 1M context window.",
+        "by": "reviser"
+      },
+      {
+        "text": "In one independent test, the model looped for over an hour trying to debug a tiered pricing calculation error without reaching a fix, despite scoring well on standardized coding benchmarks.",
+        "for": "Real-world agentic debugging loop test.",
+        "by": "reviser"
+      },
+      {
+        "text": "the model card itself states it is not strongly multilingual and performs best in English",
+        "for": "English-focused and not strongly multilingual limitation.",
+        "by": "reviser"
       }
     ]
   }
