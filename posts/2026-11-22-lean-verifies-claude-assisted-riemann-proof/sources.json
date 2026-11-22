@@ -47,6 +47,11 @@
         "text": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms",
         "for": "Sutherland reports successful compilation and itemizes verification results.",
         "by": "writer"
+      },
+      {
+        "text": "every module has been replayed through the Lean kernel, two independently written kernels, nanoda and con-leche, accept the full exported proof",
+        "for": "Completed module checks and independent checks of the full proof export.",
+        "by": "reviser"
       }
     ]
   },
@@ -81,6 +86,28 @@
         "text": "It wouldn't have any practical implications (at least not immediately)",
         "for": "Thomas Bloom cautions against expecting immediate practical applications.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.claymath.org/millennium-problems/rules/",
+    "title": "Rules for the Millennium Prize Problems",
+    "publisher": "Clay Mathematics Institute",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-22",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "at least two years must have passed since publication",
+        "for": "Minimum interval after publication before prize consideration.",
+        "by": "reviser"
+      },
+      {
+        "text": "the proposed solution must have received general acceptance in the global mathematics community",
+        "for": "Community acceptance is a separate requirement for consideration.",
+        "by": "reviser"
       }
     ]
   }
