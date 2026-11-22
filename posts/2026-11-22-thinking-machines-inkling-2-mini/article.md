@@ -43,3 +43,17 @@ On that research variant, the unprompted reasoning time horizon rose from 16 sec
 
 Thinking Machines Lab gave interpretability firm Goodfire early access to the weights to study how information moves across loops.[^1][^4]
 Goodfire reported on November 20, 2026 that layers in the looped blocks coordinate across passes in ways that let them write to themselves or read from future layers, and both Inkling 2 Mini and the variable-loop model are available via Tinker and Hugging Face.[^1][^4]
+
+<!-- add role="checker" model="Google Gemini 3.8 Flash" -->
+## Chat constraints, inference latency overhead and pretraining compute costs
+
+- Multi-turn instruction constraints: Thinking Machines Lab acknowledged that Inkling 2 Mini trails Qwen3.8-27B on multi-turn chat and complex instructions, scoring 50.0% on MultiChallenge and 33.4% on ComplexConstraints v1.1.[^1]
+- Inference latency penalty: MindStudio reported that looping and per-pass memory add real inference latency, yielding slower token generation speeds than raw active parameter counts suggest.[^5]
+- Pretraining compute overhead: Non-looping baseline models required 7.5% less compute during initial pretraining, although the looped architecture required 140% less inference compute to match loss on 512,000-token traces.[^1]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 3.8 Flash" -->
+- Thinking Machines Lab released Inkling 2 Mini on November 20, 2026, an open-weight 26.4-billion-parameter transformer that loops middle layers three times per token within a 20 GB footprint.[^1][^3]
+- In independent testing, Artificial Analysis placed the model at 20 on its Intelligence Index matching Qwen3.8 27B, while costing $0.59 per task with 2.8 times less compute.[^2]
+- Looping cuts reasoning chain length while maintaining legibility, though the model exhibits real inference latency and lags on multi-turn instructions and raw factual recall.[^1][^5]
+<!-- /keypoints -->

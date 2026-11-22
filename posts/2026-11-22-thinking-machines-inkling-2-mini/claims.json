@@ -1,0 +1,438 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Thinking Machines Lab released Inkling 2 Mini, an open-weight looped transformer.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "The 26.4-billion-parameter model runs middle layers three times per token with a 20 GB footprint.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Inkling 2 Mini is a Mixture-of-Experts model with 26.4B total parameters, 3.4B active, and 5.4B weight activations per token to account for looping."
+      },
+      {
+        "source": 1,
+        "quote": "The total memory footprint of Inkling 2 Mini is ~20GB, allowing it to run on local devices such as consumer laptops and desktop AI computers."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Thinking Machines Lab released Inkling 2 Mini on November 20, 2026, a 26.4-billion-parameter model looping 12 middle layers three times per token.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 20, 2026"
+      },
+      {
+        "source": 3,
+        "quote": "Inkling 2 Mini runs 12 of its 24 layers three times in a row."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "The model is released under Apache 2.0 with text and image inputs and a 1-million-token context window.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "It is released under an Apache 2.0 license, with text and image input and a 1M token context window."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "The model's 24 physical layers include 3.4 billion active parameters per pass and 5.4 billion activations per token across three loops.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Inkling 2 Mini has 24 layers, divided into four blocks of six layers each."
+      },
+      {
+        "source": 1,
+        "quote": "Inkling 2 Mini is a Mixture-of-Experts model with 26.4B total parameters, 3.4B active, and 5.4B weight activations per token to account for looping."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 12,
+    "claim": "Most weights were trained in NVFP4 with final four layers in MXFP8, resulting in roughly 20 GB memory footprint.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Most of Inkling 2 Mini’s weights were trained and are deployed natively in NVFP4, with the last four layers in MXFP8."
+      },
+      {
+        "source": 1,
+        "quote": "The total memory footprint of Inkling 2 Mini is ~20GB, allowing it to run on local devices such as consumer laptops and desktop AI computers."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "The model runs offline on consumer laptops, supporting Mac systems with 32 GB RAM via Ollama and NVIDIA DGX Spark.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The total memory footprint of Inkling 2 Mini is ~20GB, allowing it to run on local devices such as consumer laptops and desktop AI computers."
+      },
+      {
+        "source": 1,
+        "quote": "At launch we support Inkling 2 Mini running on any Mac system (MacBook, Mac Mini) with at least 32GB RAM via Ollama."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 14,
+    "claim": "Researchers ran the model offline on a MacBook Pro during a flight to build a playable flight simulator.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The total memory footprint of Inkling 2 Mini is ~20GB, allowing it to run on local devices such as consumer laptops and desktop AI computers."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 16,
+    "claim": "The model divides 24 layers into four six-layer blocks and uses attention residuals for cross-loop message passing.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Inkling 2 Mini has 24 layers, divided into four blocks of six layers each."
+      },
+      {
+        "source": 1,
+        "quote": "The second and third passes through the middle blocks also read the middle blocks’ outputs from the previous pass, which we call the message."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 17,
+    "claim": "Looping the middle 12 layers beat looping the last 12 layers on 27 of 28 evaluations.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "looping the middle 12 layers resulted in larger gains in accuracy than looping the last 12 on 27 out of 28 different evaluations."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 19,
+    "claim": "Thinking Machines Lab pruned two-thirds of experts during midtraining to retain 128 most-used expert blocks per layer.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "At a single point during midtraining, we pruned two-thirds of the experts, leaving the 128 experts that were most used in each layer."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 20,
+    "claim": "Tokens route to 8 of 128 experts, while hybrid attention pairs 1,024-token local windows with global attention every six layers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Inside each layer, the model uses sparse mixture-of-experts routing: 128 expert blocks exist, but each token is routed to only 8 of them."
+      },
+      {
+        "source": 5,
+        "quote": "Attention is a hybrid of local layers, which mostly attend to the last 1,024 tokens, and global layers (every sixth layer) that attend to the full context, which is how the model supports a 1 million token context window without every layer paying full quadratic attention cost."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 25,
+    "claim": "Inkling 2 Mini leads open models under 100 billion parameters on DeepSWE v1.1 at 48.2% and Vals Index v2.2 at 46.5%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Inkling 2 Mini leads every open-weights model with less than 100B total parameters on benchmarks such as DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%)."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 26,
+    "claim": "Artificial Analysis placed the model at 20 on its Intelligence Index matching Qwen3.8 27B and Nanbeige4.3-33B with fewer active parameters.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Inkling 2 Mini matches Qwen3.8 27B (xhigh) and Nanbeige4.3-33B on the Intelligence Index with ~5x and ~6x fewer active parameters, respectively."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 27,
+    "claim": "Inkling 2 Mini used 38% more output tokens than Qwen3.8 27B but 2.8 times less compute, costing $0.59 and 9.0 minutes vs $3.53 and 38.2 minutes.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Inkling 2 Mini uses ~38% more output tokens than Qwen3.8 27B for the same Intelligence Index score, but ~2.8x less compute."
+      },
+      {
+        "source": 2,
+        "quote": "It costs $0.59 and takes 9.0 minutes per Intelligence Index task vs. $3.53 and 38.2 minutes for Qwen3.8 27B."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 29,
+    "claim": "Looping does not increase factual recall, which depends primarily on total parameter count.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "While looping improves the model’s reasoning, it doesn’t enable its weights to store more facts—knowledge is mostly a function of total parameter count."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 30,
+    "claim": "The model scored -8.6 on AA-Omniscience factuality and led on search benchmarks such as BrowseComp and DeepSearchQA.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Inkling 2 Mini’s score on AA-Omniscience, a measure of factuality, is in line with other models of the same size."
+      },
+      {
+        "source": 1,
+        "quote": "Inkling 2 Mini overcomes the knowledge gap by efficiently using search and tools. It leads open-weights models of similar size on BrowseComp, DeepSearchQA, and MCP Atlas."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 32,
+    "claim": "In independent testing by MindStudio, the model looped for over an hour trying to debug a calculation error.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "In one independent test, the model looped for over an hour trying to debug a tiered pricing calculation error without reaching a fix, despite scoring well on standardized coding benchmarks."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 33,
+    "claim": "The model card states that Inkling 2 Mini is not strongly multilingual and performs best in English.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "the model card itself states it is not strongly multilingual and performs best in English"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 38,
+    "claim": "Thinking Machines Lab released a variable-loop research variant on Hugging Face to study chain-of-thought monitoring.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The no-CoT time horizon of TML-d24-varloop-research rises from 16 seconds at one pass to 37 seconds at three."
+      },
+      {
+        "source": 3,
+        "quote": "Inkling 2 Mini runs 12 of its 24 layers three times in a row."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 39,
+    "claim": "Reasoning at 5 passes averaged 1,661 tokens compared with 3,703 at 1 pass, while sentence length and word rates remained unchanged.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Reasoning at 5 passes was less than half as long as at 1 pass (1,661 vs. 3,703 tokens on average), but no less legible: sentence length and the fraction of words in an English dictionary were unchanged."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 41,
+    "claim": "Reasoning time horizon rose from 16 to 37 seconds with loops, showing no upward trend on tests of agentic sabotage.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The no-CoT time horizon of TML-d24-varloop-research rises from 16 seconds at one pass to 37 seconds at three."
+      },
+      {
+        "source": 1,
+        "quote": "The model didn’t trend higher on tests of agentic sabotage as loops were added."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 44,
+    "claim": "Thinking Machines Lab provided Goodfire with early access to weights to investigate internal mechanisms.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Thinking Machines provided Goodfire with early access to the weights of Inkling 2 Mini so we could investigate how these architectural innovations affect the model’s internal mechanisms."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 45,
+    "claim": "Goodfire reported that looped layers coordinate across passes, and models are available via Tinker and Hugging Face.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "November 20, 2026"
+      },
+      {
+        "source": 4,
+        "quote": "Our preliminary findings include insights into how layers coordinate with each other, and with future and past versions of themselves: counterintuitively, looped model layers can write to themselves, or read from “future” layers!"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 50,
+    "claim": "Thinking Machines Lab acknowledged that Inkling 2 Mini trails Qwen3.8-27B on MultiChallenge (50.0%) and ComplexConstraints v1.1 (33.4%).",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "it scores 50.0% on MultiChallenge and 33.4% on ComplexConstraints v1.1, behind Qwen3.8-27B on both."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 51,
+    "claim": "MindStudio reported that looping and per-pass memory add real inference latency, yielding slower token generation speeds.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The tradeoff, as observed in independent testing, is that the looping and per-pass memory add real inference latency."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 52,
+    "claim": "Non-looping models cost 7.5% less compute to train, but required 140% more inference compute on 512k traces.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The non-looping model cost 7.5% less compute to train, but required 140% more inference compute to match the looped version’s loss on 512k-token agentic traces."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 56,
+    "claim": "Thinking Machines Lab released Inkling 2 Mini on November 20, 2026, looping middle layers three times within a 20 GB footprint.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 20, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "Inkling 2 Mini is a Mixture-of-Experts model with 26.4B total parameters, 3.4B active, and 5.4B weight activations per token to account for looping."
+      },
+      {
+        "source": 1,
+        "quote": "The total memory footprint of Inkling 2 Mini is ~20GB, allowing it to run on local devices such as consumer laptops and desktop AI computers."
+      },
+      {
+        "source": 3,
+        "quote": "Inkling 2 Mini runs 12 of its 24 layers three times in a row."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 57,
+    "claim": "Artificial Analysis placed the model at 20 on its Intelligence Index matching Qwen3.8 27B at $0.59 per task with 2.8 times less compute.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Inkling 2 Mini matches Qwen3.8 27B (xhigh) and Nanbeige4.3-33B on the Intelligence Index with ~5x and ~6x fewer active parameters, respectively."
+      },
+      {
+        "source": 2,
+        "quote": "Inkling 2 Mini uses ~38% more output tokens than Qwen3.8 27B for the same Intelligence Index score, but ~2.8x less compute."
+      },
+      {
+        "source": 2,
+        "quote": "It costs $0.59 and takes 9.0 minutes per Intelligence Index task vs. $3.53 and 38.2 minutes for Qwen3.8 27B."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 58,
+    "claim": "Looping reduces reasoning tokens while maintaining legibility, though the model exhibits inference latency and factual recall limits.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Reasoning at 5 passes was less than half as long as at 1 pass (1,661 vs. 3,703 tokens on average), but no less legible: sentence length and the fraction of words in an English dictionary were unchanged."
+      },
+      {
+        "source": 1,
+        "quote": "While looping improves the model’s reasoning, it doesn’t enable its weights to store more facts—knowledge is mostly a function of total parameter count."
+      },
+      {
+        "source": 5,
+        "quote": "The tradeoff, as observed in independent testing, is that the looping and per-pass memory add real inference latency."
+      }
+    ]
+  }
+]

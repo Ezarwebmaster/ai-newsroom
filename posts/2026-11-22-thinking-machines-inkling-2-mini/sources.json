@@ -69,6 +69,41 @@
         "text": "The model didn’t trend higher on tests of agentic sabotage as loops were added.",
         "for": "Agentic sabotage tests across loop passes.",
         "by": "reviser"
+      },
+      {
+        "text": "Inkling 2 Mini has 24 layers, divided into four blocks of six layers each.",
+        "for": "24 layers divided into four blocks of six layers each.",
+        "by": "checker"
+      },
+      {
+        "text": "The second and third passes through the middle blocks also read the middle blocks’ outputs from the previous pass, which we call the message.",
+        "for": "Middle blocks reading outputs from previous passes via attention residuals.",
+        "by": "checker"
+      },
+      {
+        "text": "looping the middle 12 layers resulted in larger gains in accuracy than looping the last 12 on 27 out of 28 different evaluations.",
+        "for": "Accuracy gains of looping middle 12 layers over last 12 layers on 27 of 28 evaluations.",
+        "by": "checker"
+      },
+      {
+        "text": "Inkling 2 Mini’s score on AA-Omniscience, a measure of factuality, is in line with other models of the same size.",
+        "for": "AA-Omniscience factuality benchmark score.",
+        "by": "checker"
+      },
+      {
+        "text": "Inkling 2 Mini overcomes the knowledge gap by efficiently using search and tools. It leads open-weights models of similar size on BrowseComp, DeepSearchQA, and MCP Atlas.",
+        "for": "Leading open-weights models on BrowseComp and DeepSearchQA.",
+        "by": "checker"
+      },
+      {
+        "text": "it scores 50.0% on MultiChallenge and 33.4% on ComplexConstraints v1.1, behind Qwen3.8-27B on both.",
+        "for": "MultiChallenge and ComplexConstraints scores trailing Qwen3.8-27B.",
+        "by": "checker"
+      },
+      {
+        "text": "The non-looping model cost 7.5% less compute to train, but required 140% more inference compute to match the looped version’s loss on 512k-token agentic traces.",
+        "for": "Pretraining compute savings and inference compute tradeoffs of looped vs non-looping models.",
+        "by": "checker"
       }
     ]
   },
@@ -201,6 +236,11 @@
         "text": "the model card itself states it is not strongly multilingual and performs best in English",
         "for": "English-focused and not strongly multilingual limitation.",
         "by": "reviser"
+      },
+      {
+        "text": "The tradeoff, as observed in independent testing, is that the looping and per-pass memory add real inference latency.",
+        "for": "Looping and per-pass memory adding real inference latency.",
+        "by": "checker"
       }
     ]
   }

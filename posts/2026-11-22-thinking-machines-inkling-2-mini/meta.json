@@ -17,7 +17,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Most benchmark results and architecture measurements originate from Thinking Machines Lab's announcement post.",
+    "Hardware and latency performance metrics reflect initial release tests from Artificial Analysis and MindStudio."
+  ],
   "image_brief": null
 }

@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-22",
-  "next": "checker",
-  "post": "2026-11-22-thinking-machines-inkling-2-mini",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -122,6 +122,12 @@
       "cycle": "2026-11-22",
       "post": "2026-11-22-week-47-recap",
       "kind": "recap",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-22",
+      "post": "2026-11-22-thinking-machines-inkling-2-mini",
+      "kind": "story",
       "status": "ready"
     }
   ]
