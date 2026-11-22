@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 18,
+    "old": "His results distinguish completed checks from additional Lean-kernel export replays still running.",
+    "new": "His results note that the lake comparator run and the Lean-kernel export replay are still in progress.[^3]",
+    "why": "Sutherland's page specifies that the lake comparator run and a single Lean-kernel replay of the export remain in progress, rather than multiple export replays.",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The lake comparator run and the Lean-kernel replay of the export are still in progress."
+      }
+    ]
+  }
+]
