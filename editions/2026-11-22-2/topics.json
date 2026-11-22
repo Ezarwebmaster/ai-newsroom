@@ -1,0 +1,93 @@
+{
+  "cycle": "2026-11-22-2",
+  "model": "OpenAI GPT-6.2 Sol",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Lean and Mathlib communities certify a Claude-assisted proof of the Riemann Hypothesis",
+      "type": "research",
+      "summary": "Anthropic mathematician Levent Alpöge released a Lean proof of the Riemann Hypothesis on November 20, 2026, saying he developed it with Claude. On November 21, the Lean and Mathlib communities said independent checkers validated the proof and confirmed it addressed Mathlib’s exact statement. The Clay Mathematics Institute still lists the problem as unsolved.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://alpo.ge/remark.pdf",
+          "publisher": "Levent Alpöge",
+          "published": null,
+          "kind": "primary"
+        },
+        {
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "publisher": "Lean and Mathlib communities",
+          "published": "2026-11-21",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/anthropic-claude-math-solution-ai-4fe8b69a891f160f9e7f0c85af8c55c8",
+          "publisher": "Associated Press",
+          "published": "2026-11-21",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.claymath.org/millennium/riemann-hypothesis/",
+          "publisher": "Clay Mathematics Institute",
+          "published": null,
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "House records show U.S. approvals for nearly 880,000 AI chips for China-linked companies",
+      "type": "policy",
+      "summary": "A House Foreign Affairs Committee disclosure on November 19, 2026, showed U.S. regulators had approved 879,868 Nvidia H200 and AMD MI325X chips for China-linked companies across 21 license applications as of May 11, 2026. Actual shipments remain unquantified in the disclosure. The figures surfaced days after the administration moved to restrict remote access to advanced U.S. chips.",
+      "follow_up_of": "2026-11-16-remote-ai-compute-rule",
+      "sources": [
+        {
+          "url": "https://democrats-foreignaffairs.house.gov/wp-content/uploads/2026/11/11.19.26-ECRA-Information-Disclosure-HFAC-Summary.pdf",
+          "publisher": "House Foreign Affairs Committee",
+          "published": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/nvidia-chip-export-restrictions-china-bessent-lutnick-88142455395552afe74caec3399a648b",
+          "publisher": "Associated Press",
+          "published": "2026-11-20",
+          "kind": "press"
+        },
+        {
+          "url": "https://mobil.aa.com.tr/en/americas/us-house-foreign-affairs-chairman-releases-nvidia-amd-ai-chip-export-records-to-china/4131606",
+          "publisher": "Anadolu Agency",
+          "published": "2026-11-20",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Google rolls out computer use in Gemini for Mac",
+      "type": "product",
+      "summary": "On November 19, 2026, Google began rolling out computer use in Gemini for Mac. The feature can click, type and fill forms across desktop apps and websites in a separate window with a live preview. The English-language U.S. rollout requires an Apple Silicon Mac and an eligible paid Google AI plan on a personal account.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "publisher": "Google",
+          "published": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-19",
+          "kind": "press"
+        },
+        {
+          "url": "https://support.google.com/gemini/answer/18956635?hl=en",
+          "publisher": "Google",
+          "published": null,
+          "kind": "docs"
+        }
+      ]
+    }
+  ]
+}
