@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+    "title": "Lean verification of the Riemann Hypothesis",
+    "publisher": "Lean and Mathlib communities",
+    "kind": "primary",
+    "published": "2026-11-21",
+    "retrieved": "2026-11-22",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
+        "for": "The communities certify both the theorem statement and its proof.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://alpo.ge/remark.pdf",
+    "title": "A remark on the Riemann Hypothesis",
+    "publisher": "Levent Alpöge",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-22",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Claude and I have also formalized the arguments without assumptions.",
+        "for": "Alpöge attributes the formalized argument to his collaboration with Claude.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://math.mit.edu/~drew/grh/",
+    "title": "Verification files for the Lean proof of the Riemann Hypothesis",
+    "publisher": "Andrew Sutherland, MIT",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-22",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms",
+        "for": "Sutherland reports successful compilation and itemizes verification results.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.claymath.org/millennium/riemann-hypothesis/",
+    "title": "Riemann Hypothesis",
+    "publisher": "Clay Mathematics Institute",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-22",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The Riemann hypothesis tells us about the deviation from the average.",
+        "for": "The significance of the hypothesis for the distribution of primes.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.lemonde.fr/en/science/article/2026/11/21/the-likely-solution-to-the-riemann-hypothesis-by-ai-marks-a-turning-point-for-mathematics_6786232_10.html",
+    "title": "Likely solution to Riemann hypothesis by AI marks turning point for mathematics",
+    "publisher": "Le Monde",
+    "kind": "press",
+    "published": "2026-11-21",
+    "retrieved": "2026-11-22",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "It wouldn't have any practical implications (at least not immediately)",
+        "for": "Thomas Bloom cautions against expecting immediate practical applications.",
+        "by": "writer"
+      }
+    ]
+  }
+]
