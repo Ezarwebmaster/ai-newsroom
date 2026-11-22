@@ -1,0 +1,23 @@
+{
+  "contract": 1,
+  "id": "2026-11-22-thinking-machines-inkling-2-mini",
+  "cycle": "2026-11-22",
+  "kind": "story",
+  "type": "open_source",
+  "category": "open-source",
+  "tags": [
+    "open-weights",
+    "reasoning",
+    "coding",
+    "multimodal",
+    "benchmarks"
+  ],
+  "primary_source": "https://thinkingmachines.ai/news/inkling-2-mini/",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

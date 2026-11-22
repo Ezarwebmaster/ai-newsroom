@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-22",
+  "model": "Google Gemini 4 Argon",
+  "picked": 2,
+  "why": "On November 20, 2026, Thinking Machines Lab released Inkling 2 Mini under an Apache 2.0 license, introducing a 26.4-billion-parameter looped Mixture-of-Experts architecture whose 12 middle layers run three times per token. Small enough to run locally on laptops while leading sub-100B open-weight models on DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%), it gives developers a direct test of looped-transformer reasoning efficiency and adds a fresh open-source release to recent blog coverage.",
+  "trend": [
+    {
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "publisher": "The Decoder",
+      "published": "2026-11-21"
+    },
+    {
+      "url": "https://www.goodfire.com/research/interpreting-inkling-2-mini/",
+      "publisher": "Goodfire",
+      "published": "2026-11-20"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/inkling-2-mini-benchmarks",
+      "publisher": "MindStudio",
+      "published": "2026-11-21"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 1,
+      "why": "Levent Alpöge's Claude-assisted Lean proof of the Riemann Hypothesis was verified to compile by two groups, but broader mathematical peer review of the 239 MB formalization is just beginning."
+    },
+    {
+      "n": 3,
+      "why": "The House committees' 12 policy recommendations on Chinese open-weight models and Anysphere's statement that it plans to explore phasing them out carry no immediate binding federal ban yet."
+    }
+  ]
+}
