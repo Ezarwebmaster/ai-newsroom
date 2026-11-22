@@ -1,0 +1,87 @@
+{
+  "cycle": "2026-11-22",
+  "model": "Google Gemini 4 Neon",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Anthropic mathematician releases Claude-assisted Lean proof of Riemann Hypothesis, verified by two groups",
+      "type": "research",
+      "summary": "On November 20, 2026, Anthropic mathematician Levent Alpöge posted a note and Lean proof code claiming Claude helped prove the Riemann Hypothesis over roughly six weeks. On November 21, 2026, the Lean Focused Research Organization and the Mathlib Initiative announced they had independently verified the Lean formalization.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://alpo.ge/remark.pdf",
+          "publisher": "Levent Alpöge",
+          "published": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+          "publisher": "The Guardian",
+          "published": "2026-11-21",
+          "kind": "press"
+        },
+        {
+          "url": "https://futurism.com/artificial-intelligence/anthropic-riemann-hypothesis",
+          "publisher": "Futurism",
+          "published": "2026-11-20",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Thinking Machines Lab releases Inkling 2 Mini, a 26.4B-parameter looped-transformer open-weight model",
+      "type": "open_source",
+      "summary": "On November 20, 2026, Thinking Machines Lab released Inkling 2 Mini, an Apache 2.0 open-weight looped-transformer model whose middle layers run three times per token. Small enough to run locally on laptops, the 26.4-billion-parameter sparse model leads open-weight models under 100 billion parameters on DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%).",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "publisher": "Thinking Machines Lab",
+          "published": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/inkling-2-mini",
+          "publisher": "Artificial Analysis",
+          "published": "2026-11-20",
+          "kind": "data"
+        },
+        {
+          "url": "https://futurumgroup.com/insights/thinking-machines-inkling-2-mini-redraws-the-open-weight-efficiency-frontier/",
+          "publisher": "The Futurum Group",
+          "published": "2026-11-21",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "House committees urge federal ban on Chinese open-weight AI models and say Cursor weighs phaseout",
+      "type": "policy",
+      "summary": "On November 20, 2026, the U.S. House Homeland Security and China Select Committees released a joint investigative report urging removal of Chinese-developed open-weight AI models from federal systems and high-risk critical infrastructure. The report also disclosed that Cursor developer Anysphere plans to explore phasing out PRC-developed open-weight models over geopolitical risk.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://homeland.house.gov/2026/11/20/chairmen-garbarino-moolenaar-release-joint-investigative-report-urging-removal-of-prc-open-weight-models-from-federal-systems-high-risk-critical-infrastructure/",
+          "publisher": "House Committee on Homeland Security",
+          "published": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+          "publisher": "CNBC",
+          "published": "2026-11-20",
+          "kind": "press"
+        },
+        {
+          "url": "https://mlq.ai/news/cursor-tells-lawmakers-it-is-considering-phasing-out-chinese-ai-models/",
+          "publisher": "MLQ.ai",
+          "published": "2026-11-20",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
