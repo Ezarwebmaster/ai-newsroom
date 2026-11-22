@@ -55,3 +55,17 @@ Under the institute's Millennium Prize rules, which allocate $1 million to each 
 Before the institute considers a proposed solution, it must appear in a qualifying outlet, wait at least two years after publication and gain general acceptance in the global mathematics community.[^6]
 <!-- /add -->
 Alpöge's promised explanation remains a separate task from the formal verification.[^2][^3]
+
+<!-- add role="checker" model="Google Gemini 4 Argon" -->
+## No schedule for a journal paper, ongoing export replays and no Anthropic disclosure
+
+- Timeline for a human-readable paper: Alpöge posted only the Lean code and set no timetable for a journal manuscript, while Clay Mathematics Institute president Martin Bridson said reaching real human understanding "will be long and difficult".[^2][^6][^8]
+- Single-threaded kernel replays at MIT: As of 16:20 UTC on November 22, 2026, Sutherland's single-threaded `leanchecker` replay across all 175,187 modules and the `lake comparator` replay of the 62 GB export were still running.[^3]
+- Claude configuration and company response: Anthropic did not reply to press inquiries, and neither Alpöge's four-page note nor the verification reports disclose which Claude model, compute budget or harness generated the proof.[^1][^2][^8]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Argon" -->
+- On November 21, 2026, the Lean and Mathlib communities certified that Anthropic mathematician Levent Alpöge's 17-million-line Claude-assisted Lean library proves Mathlib's Riemann hypothesis statement.[^1][^2][^7]
+- MIT's Andrew Sutherland compiled all 175,187 modules and verified the exported proof across independent kernels including `nanoda` and `con-leche`, covering Dirichlet L-functions using only standard Lean axioms.[^1][^3]
+- Alpöge released code without a human-readable paper, leaving mathematical explanation and Clay Mathematics Institute's two-year publication and community-acceptance requirements for the $1 million prize ahead.[^2][^4][^6][^8]
+<!-- /keypoints -->

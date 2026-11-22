@@ -1,0 +1,540 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "The Lean and Mathlib communities certified Levent Alpöge's Claude-assisted Riemann hypothesis proof.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct."
+      },
+      {
+        "source": 2,
+        "quote": "Claude and I have also formalized the arguments without assumptions."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Independent checks match the proof to Mathlib's Riemann hypothesis statement, while explaining the argument to mathematicians remains a separate task.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "That statement was compared against the theorem proved by Alpöge using two independent tools (comparator and con-leche --compare), both confirming that the theorem proved in Alpöge's library is exactly Mathlib's statement of the Riemann Hypothesis."
+      },
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "The Lean and Mathlib communities certified on November 21, 2026 that Levent Alpöge's Riemann hypothesis proof is correct, following his November 20, 2026 release of a Claude-assisted Lean library.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "2026-11-21 13:55"
+      },
+      {
+        "source": 1,
+        "quote": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code."
+      },
+      {
+        "source": 1,
+        "quote": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct."
+      },
+      {
+        "source": 2,
+        "quote": "Claude and I have also formalized the arguments without assumptions."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "The joint statement is endorsed by the Lean FRO and the Mathlib Initiative.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 9,
+    "claim": "Alpöge, a mathematician at Anthropic, called the timing horrible in his note after messaging CEO Dario Amodei about announcing the result ahead of Anthropic's stock market debut.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The precise timing is horrible. If I could have, I'd have finished this all much earlier."
+      },
+      {
+        "source": 7,
+        "quote": "Anthropic's Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis"
+      },
+      {
+        "source": 8,
+        "quote": "He messaged Anthropic CEO Dario Amodei to ask about"
+      },
+      {
+        "source": 8,
+        "quote": "as the San Francisco-based company was about to make major news with its stock market debut."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 10,
+    "claim": "Anthropic did not respond to an Associated Press email requesting comment on Alpöge's claim.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Anthropic did not respond to an email from The Associated Press requesting comment on Alpöge's claim."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 15,
+    "claim": "The library comprises 17 million lines of code and depends directly only on Mathlib, according to the communities' November 21, 2026 statement.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "2026-11-21 13:55"
+      },
+      {
+        "source": 1,
+        "quote": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code."
+      },
+      {
+        "source": 1,
+        "quote": "The codebase depends directly only on Mathlib. Over the past day, the Lean and Mathlib communities have rallied to verify the proof's correctness."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "Independent compilation reproduced the same exported proof and separate comparison tools matched Alpöge's theorem to Mathlib's Riemann hypothesis definition.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "By now, dozens of people have reported correct compilation of the codebase, reproducing the same raw proof export file."
+      },
+      {
+        "source": 1,
+        "quote": "That statement was compared against the theorem proved by Alpöge using two independent tools (comparator and con-leche --compare), both confirming that the theorem proved in Alpöge's library is exactly Mathlib's statement of the Riemann Hypothesis."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 17,
+    "claim": "Matching the theorem statement against Mathlib's definition rules out proving a different theorem.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "That statement was compared against the theorem proved by Alpöge using two independent tools (comparator and con-leche --compare), both confirming that the theorem proved in Alpöge's library is exactly Mathlib's statement of the Riemann Hypothesis."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 19,
+    "claim": "Independent checkers ran on an inert proof export insulated from hypothetical malicious source code.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "These checks ran on an inert export of the proof, out of reach of hypothetical malicious code in the Lean proof sources."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 21,
+    "claim": "The checkers con-leche and con-ron carry formal proofs relative to set theory that they cannot accept a false proof.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof, thus addressing concerns that Lean's logic itself might have flaws that the proof could exploit."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 24,
+    "claim": "MIT mathematician Andrew Sutherland's verification page, updated on November 22, 2026, reports compilation of all 175,187 modules and only the three standard Lean axioms for the five headline theorems.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Page last updated 2026-11-22 16:20 UTC. Results below are as of that time and this page will be updated as the remaining checks finish."
+      },
+      {
+        "source": 3,
+        "quote": "All 175,187 modules compile (Lean v4.33.1, Mathlib v4.33.1)"
+      },
+      {
+        "source": 3,
+        "quote": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 26,
+    "claim": "Every module has been replayed through the Lean kernel, nanoda and con-leche accept the full exported proof, and lean4lean accepts every compiled module.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "every module has been replayed through the Lean kernel, two independently written kernels, nanoda and con-leche, accept the full exported proof, and lean4lean accepts every compiled module."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 28,
+    "claim": "Sutherland's verification results distinguish completed checks from additional Lean-kernel export replays still in progress.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The lake comparator run and the Lean-kernel replay of the export are still in progress."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 29,
+    "claim": "The verified generalization covers Dirichlet L-functions rather than every broader family of L-functions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "\"GRH\" here means Dirichlet L-functions: all moduli and all characters. Dedekind zeta functions, Hecke L-functions and automorphic L-functions in general are not among the statements that were checked."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 33,
+    "claim": "Alpöge says he and Claude formalized the arguments without assumptions in a collaboration where he guided the approach and Claude supplied advances.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Claude and I have also formalized the arguments without assumptions."
+      },
+      {
+        "source": 2,
+        "quote": "I guided us to the right situation analogous to that toy setting, and then Claude began to leave me in awe."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 35,
+    "claim": "The Guardian reported that the collaboration with Claude took about six weeks, and Alpöge wrote that Claude far outpaced him near the finish line.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line."
+      },
+      {
+        "source": 7,
+        "quote": "He says that Claude helped develop a solution to the problem during the course of about six weeks."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 37,
+    "claim": "Alpöge released Lean code rather than a conventional exposition, acknowledging that he had not mastered a large mathematical neighborhood surrounding the argument.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This puts us in the rather extraordinary situation this age has made possible, in which I am presenting the world with a complete argument before having mastered a massive neighbourhood around its mathematics."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 39,
+    "claim": "Alpöge noted in a footnote that an informal write-up hit 250,000+ pages.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I of course amused myself, and hit 250,000+ pages."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 41,
+    "claim": "Alpöge says he intends to understand, explain and simplify the argument.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 43,
+    "claim": "University of Manchester mathematician Thomas Bloom told Le Monde that immediate practical applications would not follow.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "It wouldn't have any practical implications (at least not immediately)"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 45,
+    "claim": "Rutgers University mathematics chair Alex Kontorovich told the Associated Press that findings buried in that code would traditionally be published in a formal paper.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Traditionally the findings buried in that code would be published in a formal paper, said Alex Kontorovich, distinguished professor and department chair of mathematics at Rutgers University."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 50,
+    "claim": "The Riemann hypothesis concerns deviations from the average distribution of prime numbers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The Riemann hypothesis tells us about the deviation from the average."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 51,
+    "claim": "Clay Mathematics Institute describes the Riemann hypothesis as asserting that the non-obvious zeros of the zeta function have real part 1/2.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Formulated in Riemann's 1859 paper, it asserts that all the 'non-obvious' zeros of the zeta function are complex numbers with real part 1/2."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 52,
+    "claim": "Clay Mathematics Institute's problem page still labels the Riemann hypothesis unsolved as of November 22, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The Riemann hypothesis tells us about the deviation from the average."
+      }
+    ],
+    "note": "Checked Clay Mathematics Institute's Riemann Hypothesis problem page on November 22, 2026, which displays the status 'Unsolved' above the heading."
+  },
+  {
+    "id": 26,
+    "line": 54,
+    "claim": "Under the Millennium Prize rules, which allocate $1 million to each problem, Clay Mathematics Institute does not accept direct submissions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "CMI has designated a $7 million prize fund for the solutions to these Problems, with $1 million allocated to each Problem"
+      },
+      {
+        "source": 6,
+        "quote": "CMI does not accept direct submission of proposed solutions."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 55,
+    "claim": "Before Clay Mathematics Institute considers a proposed solution, it must appear in a qualifying outlet, wait at least two years after publication and gain general acceptance in the global mathematics community.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Before CMI will consider a proposed solution, all three of the following conditions must be satisfied: (i) the proposed solution must be published in a Qualifying Outlet (see §6), and (ii) at least two years must have passed since publication"
+      },
+      {
+        "source": 6,
+        "quote": "(iii) the proposed solution must have received general acceptance in the global mathematics community."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 57,
+    "claim": "Alpöge's promised explanation remains a separate task from the formal verification.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      },
+      {
+        "source": 3,
+        "quote": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 62,
+    "claim": "Alpöge posted only the Lean code without a journal timetable, while Clay Mathematics Institute president Martin Bridson said reaching human understanding will be long and difficult.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This puts us in the rather extraordinary situation this age has made possible, in which I am presenting the world with a complete argument before having mastered a massive neighbourhood around its mathematics."
+      },
+      {
+        "source": 6,
+        "quote": "Before CMI will consider a proposed solution, all three of the following conditions must be satisfied: (i) the proposed solution must be published in a Qualifying Outlet (see §6), and (ii) at least two years must have passed since publication"
+      },
+      {
+        "source": 8,
+        "quote": "But the journey from today's announcement to a place of real understanding will be long and difficult."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 63,
+    "claim": "As of 16:20 UTC on November 22, 2026, Sutherland's single-threaded leanchecker replay across 175,187 modules and lake comparator replay of the 62 GB export were still running.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Page last updated 2026-11-22 16:20 UTC. Results below are as of that time and this page will be updated as the remaining checks finish."
+      },
+      {
+        "source": 3,
+        "quote": "All 175,187 modules compile (Lean v4.33.1, Mathlib v4.33.1)"
+      },
+      {
+        "source": 3,
+        "quote": "The lake comparator run and the Lean-kernel replay of the export are still in progress."
+      },
+      {
+        "source": 3,
+        "quote": "statement comparison and axiom check passed; final kernel replay in progress (single-threaded on a 62 GB export)."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 64,
+    "claim": "Anthropic did not reply to press inquiries, and neither Alpöge's note nor the verification reports disclose which Claude model, compute budget or harness generated the proof.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Anthropic did not respond to an email from The Associated Press requesting comment on Alpöge's claim."
+      }
+    ],
+    "note": "Read Alpöge's four-page note and the Lean community verification statement; neither specifies the Claude model version, compute budget or prompting setup."
+  },
+  {
+    "id": 32,
+    "line": 68,
+    "claim": "On November 21, 2026, the Lean and Mathlib communities certified that Anthropic mathematician Levent Alpöge's 17-million-line Claude-assisted Lean library proves Mathlib's Riemann hypothesis statement.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "2026-11-21 13:55"
+      },
+      {
+        "source": 1,
+        "quote": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code."
+      },
+      {
+        "source": 1,
+        "quote": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct."
+      },
+      {
+        "source": 7,
+        "quote": "Anthropic's Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "line": 69,
+    "claim": "MIT's Andrew Sutherland compiled all 175,187 modules and verified the exported proof across independent kernels including nanoda and con-leche, covering Dirichlet L-functions using only standard Lean axioms.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "All 175,187 modules compile (Lean v4.33.1, Mathlib v4.33.1)"
+      },
+      {
+        "source": 3,
+        "quote": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms"
+      },
+      {
+        "source": 3,
+        "quote": "every module has been replayed through the Lean kernel, two independently written kernels, nanoda and con-leche, accept the full exported proof, and lean4lean accepts every compiled module."
+      },
+      {
+        "source": 3,
+        "quote": "\"GRH\" here means Dirichlet L-functions: all moduli and all characters. Dedekind zeta functions, Hecke L-functions and automorphic L-functions in general are not among the statements that were checked."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "line": 70,
+    "claim": "Alpöge released code without a human-readable paper, leaving mathematical explanation and Clay Mathematics Institute's two-year publication and community-acceptance requirements for the $1 million prize ahead.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      },
+      {
+        "source": 6,
+        "quote": "CMI has designated a $7 million prize fund for the solutions to these Problems, with $1 million allocated to each Problem"
+      },
+      {
+        "source": 6,
+        "quote": "Before CMI will consider a proposed solution, all three of the following conditions must be satisfied: (i) the proposed solution must be published in a Qualifying Outlet (see §6), and (ii) at least two years must have passed since publication"
+      },
+      {
+        "source": 6,
+        "quote": "(iii) the proposed solution must have received general acceptance in the global mathematics community."
+      }
+    ]
+  }
+]

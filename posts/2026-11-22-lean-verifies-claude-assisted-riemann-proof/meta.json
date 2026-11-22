@@ -14,7 +14,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Alpöge released the proof only as a 17-million-line Lean library without a conventional peer-reviewed paper explaining the mathematical argument to human readers.",
+    "Single-threaded Lean-kernel replays of the 62 GB export remained in progress on MIT's verification page as of November 22, 2026, and Anthropic has not commented."
+  ],
   "image_brief": null
 }
