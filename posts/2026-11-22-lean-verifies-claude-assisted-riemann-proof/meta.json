@@ -1,0 +1,20 @@
+{
+  "contract": 1,
+  "id": "2026-11-22-lean-verifies-claude-assisted-riemann-proof",
+  "cycle": "2026-11-22-2",
+  "kind": "story",
+  "type": "research",
+  "category": "research",
+  "tags": [
+    "anthropic",
+    "reasoning"
+  ],
+  "primary_source": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

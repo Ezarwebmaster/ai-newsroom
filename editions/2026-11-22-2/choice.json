@@ -1,0 +1,28 @@
+{
+  "cycle": "2026-11-22-2",
+  "model": "OpenAI GPT-6.2 Astra",
+  "picked": 1,
+  "why": "On November 21, the Lean and Mathlib communities certified that Levent Alpöge’s Claude-assisted proof establishes the exact Riemann hypothesis in Mathlib. Readers can trace how independent checkers tested a result about the distribution of primes, even as the Clay Mathematics Institute still lists the problem as unsolved. The Guardian covered the verification and Le Monde interviewed number theorists about its significance. Our recent Anthropic coverage focused on its IPO.",
+  "trend": [
+    {
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "publisher": "The Guardian",
+      "published": "2026-11-21"
+    },
+    {
+      "url": "https://www.lemonde.fr/en/science/article/2026/11/21/the-likely-solution-to-the-riemann-hypothesis-by-ai-marks-a-turning-point-for-mathematics_6786232_10.html",
+      "publisher": "Le Monde",
+      "published": "2026-11-21"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "The House disclosure adds license counts to our chip-policy coverage. Its figures run through May 11 and leave the number of chips actually shipped unresolved."
+    },
+    {
+      "n": 3,
+      "why": "Google’s initial rollout reaches English-speaking U.S. subscribers using Apple Silicon Macs. Wider availability would give more readers a chance to try the feature."
+    }
+  ]
+}
