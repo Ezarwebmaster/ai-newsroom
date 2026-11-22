@@ -1,0 +1,214 @@
+[
+  {
+    "id": 1,
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+    "title": "Introducing GPT-6.2 Astra and Sol",
+    "publisher": "OpenAI",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Starting today, GPT-6.2 Astra and Sol are available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+    "title": "GPT-6.2 Astra and Sol deployment safety",
+    "publisher": "OpenAI",
+    "kind": "primary",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "GPT-6.2 Astra meets the High threshold for AI Self-Improvement capabilities, while GPT-6.2 Sol falls below it.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://openai.com/index/combatting-adversarial-distillation/",
+    "title": "Combatting adversarial distillation",
+    "publisher": "OpenAI",
+    "kind": "primary",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "The average attack success rate fell from 54.0% against GPT‑6 Astra with its original safeguards to 0.2% against GPT‑6.2 Astra with its updated safeguards.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "title": "Anthropic prices initial public offering",
+    "publisher": "Anthropic",
+    "kind": "primary",
+    "published": "2026-11-18",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      },
+      {
+        "text": "The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.”",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
+    "title": "Anthropic prices IPO at $83 per share",
+    "publisher": "Fortune",
+    "kind": "press",
+    "published": "2026-11-18",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "The expanded float means Anthropic will raise roughly $79.4 billion in the IPO—and as much as $91.6 billion if the deal’s underwriters choose to exercise an over-allotment option.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      },
+      {
+        "text": "At a $1.5 trillion valuation, Anthropic would be the second most valuable IPO of all time, behind SpaceX’s $1.77 trillion IPO in June.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+    "title": "Attorney General Bonta sues OpenAI",
+    "publisher": "California Attorney General",
+    "kind": "primary",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "Today’s lawsuit alleges OpenAI created a public nuisance creating risk to public safety and violated California’s Unfair Competition Law",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      },
+      {
+        "text": "While OpenAI has admitted that it lost control of its autonomous AI agents at least 80 times during testing, it has failed to answer the detailed questions our office has asked about these incidents.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+    "title": "California sues OpenAI over rogue agent hacking",
+    "publisher": "The Guardian",
+    "kind": "press",
+    "published": "2026-11-16",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      },
+      {
+        "text": "Bonta is asking the court to order OpenAI to change its business practices and pay civil penalties.",
+        "for": "The remedies sought.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+    "title": "Nvidia board establishes national security and export control oversight committee",
+    "publisher": "NVIDIA",
+    "kind": "primary",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "The Committee will be chaired by director Suzanne Nora Johnson and will also include directors Stephen C. Neal and John O. Dabiri as members.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "url": "https://decrypt.co/383513/nvidia-board-shuts-down-jensen-huang-comeback",
+    "title": "Nvidia board shuts down Jensen Huang comeback",
+    "publisher": "Decrypt",
+    "kind": "press",
+    "published": "2026-11-17",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "The declaration comes just hours after Huang publicly offered to return if directors believed his reinstatement would benefit shareholders and employees.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      },
+      {
+        "text": "The Nvidia board does not intend to reinstate Jensen as CEO",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "url": "https://media.bis.gov/sites/default/files/documents/BIS%20Issues%20Rule%20Addressing%20Remote%20Access%20to%20American%20Super%20Intelligence%20Technology.pdf",
+    "title": "BIS issues rule addressing remote access",
+    "publisher": "Bureau of Industry and Security",
+    "kind": "primary",
+    "published": "2026-11-15",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "The rule is designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented through remote computing arrangements involving data centers in third countries.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "title": "Introducing Gemini 4 Neon",
+    "publisher": "Google",
+    "kind": "primary",
+    "published": "2026-11-18",
+    "retrieved": "2026-11-22",
+    "added_by": "recap",
+    "quotes": [
+      {
+        "text": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window.",
+        "for": "Key fact cited in the recap.",
+        "by": "recap"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "contract": 1,
+  "id": "2026-11-22-week-47-recap",
+  "cycle": "2026-11-22",
+  "kind": "recap",
+  "type": "recap",
+  "category": "recap",
+  "tags": [
+    "openai",
+    "anthropic",
+    "nvidia"
+  ],
+  "primary_source": null,
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": [
+    "2026-11-16-apple-health-ai-usage-study",
+    "2026-11-16-remote-ai-compute-rule",
+    "2026-11-17-california-sues-openai-agent-safety",
+    "2026-11-17-tencent-hy4-flash-launch",
+    "2026-11-18-nvidia-board-rejects-huang-return",
+    "2026-11-18-isomorphic-labs-5b-series-c",
+    "2026-11-19-openai-gpt-6-2-astra-sol-launch",
+    "2026-11-19-anthropic-prices-ipo-at-83",
+    "2026-11-20-meta-net-zero-deadline",
+    "2026-11-20-google-gemini-4-neon",
+    "2026-11-21-openai-adversarial-distillation-defenses"
+  ],
+  "status": "ready",
+  "issues": [],
+  "image_brief": null
+}

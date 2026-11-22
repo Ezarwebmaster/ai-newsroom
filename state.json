@@ -117,6 +117,12 @@
       "post": "2026-11-21-openai-adversarial-distillation-defenses",
       "kind": "story",
       "status": "ready"
+    },
+    {
+      "cycle": "2026-11-22",
+      "post": "2026-11-22-week-47-recap",
+      "kind": "recap",
+      "status": "ready"
     }
   ]
 }

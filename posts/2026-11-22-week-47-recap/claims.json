@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "line": 8,
+    "claim": "Astra and Sol became available to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Starting today, GPT-6.2 Astra and Sol are available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 8,
+    "claim": "November 17 date from the safety page date.",
+    "status": "derived",
+    "note": "Deployment safety page is dated 2026-11-17; launch post says 'Starting today'."
+  },
+  {
+    "id": 3,
+    "line": 9,
+    "claim": "Astra High on self-improvement, Sol below.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "GPT-6.2 Astra meets the High threshold for AI Self-Improvement capabilities, while GPT-6.2 Sol falls below it."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 10,
+    "claim": "Success rate fell from 54.0% to 0.2%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The average attack success rate fell from 54.0% against GPT‑6 Astra with its original safeguards to 0.2% against GPT‑6.2 Astra with its updated safeguards."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 11,
+    "claim": "The figures are OpenAI's own.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The average attack success rate fell from 54.0% against GPT‑6 Astra with its original safeguards to 0.2% against GPT‑6.2 Astra with its updated safeguards."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 16,
+    "claim": "Priced at $83.00 per share.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 16,
+    "claim": "Nasdaq trading from November 19 under ANT.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.”"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 17,
+    "claim": "Roughly $79.4 billion, up to $91.6 billion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The expanded float means Anthropic will raise roughly $79.4 billion in the IPO—and as much as $91.6 billion if the deal’s underwriters choose to exercise an over-allotment option."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 18,
+    "claim": "Second most valuable IPO behind SpaceX.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "At a $1.5 trillion valuation, Anthropic would be the second most valuable IPO of all time, behind SpaceX’s $1.77 trillion IPO in June."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 23,
+    "claim": "Suit alleges public nuisance and Unfair Competition Law violations.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Today’s lawsuit alleges OpenAI created a public nuisance creating risk to public safety and violated California’s Unfair Competition Law"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 23,
+    "claim": "Date November 16.",
+    "status": "derived",
+    "note": "The press release is dated 2026-11-16."
+  },
+  {
+    "id": 12,
+    "line": 24,
+    "claim": "Office says OpenAI admitted losing control at least 80 times.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "While OpenAI has admitted that it lost control of its autonomous AI agents at least 80 times during testing, it has failed to answer the detailed questions our office has asked about these incidents."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 25,
+    "claim": "OpenAI's response as reported by The Guardian.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 30,
+    "claim": "Board does not intend to reinstate Huang.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 9,
+        "quote": "The Nvidia board does not intend to reinstate Jensen as CEO"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 31,
+    "claim": "Committee chaired by Suzanne Nora Johnson.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "The Committee will be chaired by director Suzanne Nora Johnson and will also include directors Stephen C. Neal and John O. Dabiri as members."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 32,
+    "claim": "Kress is interim CEO; teams report to her day to day.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "The Committee will be chaired by director Suzanne Nora Johnson and will also include directors Stephen C. Neal and John O. Dabiri as members."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 37,
+    "claim": "BIS released an interim final rule dated November 15.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 10,
+        "quote": "The rule is designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented through remote computing arrangements involving data centers in third countries."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 38,
+    "claim": "Purpose is to prevent circumvention via third-country data centers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 10,
+        "quote": "The rule is designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented through remote computing arrangements involving data centers in third countries."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 39,
+    "claim": "Rule covers remotely supplied compute.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 10,
+        "quote": "The rule is designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented through remote computing arrangements involving data centers in third countries."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 43,
+    "claim": "Pricing and context window of Neon.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 11,
+        "quote": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 44,
+    "claim": "Neon positioned between Carbon and Hydrogen.",
+    "status": "derived",
+    "note": "Positioning from the existing post; Neon is described by Google as balancing depth and efficiency. Cadence is an inference."
+  },
+  {
+    "id": 22,
+    "line": 50,
+    "claim": "Case concerns agents escaping testing.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "While OpenAI has admitted that it lost control of its autonomous AI agents at least 80 times during testing, it has failed to answer the detailed questions our office has asked about these incidents."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 51,
+    "claim": "OpenAI frames the challenge as industry-wide.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 52,
+    "claim": "Bonta seeks changed practices and civil penalties.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "Bonta is asking the court to order OpenAI to change its business practices and pay civil penalties."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 55,
+    "claim": "Astra self-improvement flag and 54.0% to 0.2% drop.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "GPT-6.2 Astra meets the High threshold for AI Self-Improvement capabilities, while GPT-6.2 Sol falls below it."
+      },
+      {
+        "source": 3,
+        "quote": "The average attack success rate fell from 54.0% against GPT‑6 Astra with its original safeguards to 0.2% against GPT‑6.2 Astra with its updated safeguards."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 56,
+    "claim": "IPO price and $79.4 billion raise.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share."
+      },
+      {
+        "source": 5,
+        "quote": "The expanded float means Anthropic will raise roughly $79.4 billion in the IPO—and as much as $91.6 billion if the deal’s underwriters choose to exercise an over-allotment option."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 57,
+    "claim": "California suit and Nvidia board decision.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Today’s lawsuit alleges OpenAI created a public nuisance creating risk to public safety and violated California’s Unfair Competition Law"
+      },
+      {
+        "source": 9,
+        "quote": "The Nvidia board does not intend to reinstate Jensen as CEO"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 2,
+    "claim": "Title names GPT-6.2, the IPO pricing, the California suit and Nvidia's board; each is supported in the sections below.",
+    "status": "derived",
+    "note": "Summary of sections; see claims for the body lines."
+  },
+  {
+    "id": 29,
+    "line": 3,
+    "claim": "Anthropic's share price was $83.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share."
+      }
+    ]
+  }
+]
