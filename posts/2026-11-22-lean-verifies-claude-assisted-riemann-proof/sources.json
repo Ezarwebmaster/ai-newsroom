@@ -13,6 +13,11 @@
         "text": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
         "for": "The communities certify both the theorem statement and its proof.",
         "by": "writer"
+      },
+      {
+        "text": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof, thus addressing concerns that Lean's logic itself might have flaws that the proof could exploit.",
+        "for": "Soundness guarantees of the con-leche and con-ron independent checkers.",
+        "by": "reviser"
       }
     ]
   },
@@ -30,6 +35,21 @@
         "text": "Claude and I have also formalized the arguments without assumptions.",
         "for": "Alpöge attributes the formalized argument to his collaboration with Claude.",
         "by": "writer"
+      },
+      {
+        "text": "The precise timing is horrible. If I could have, I'd have finished this all much earlier.",
+        "for": "Alpöge calls the release timing horrible in his note.",
+        "by": "reviser"
+      },
+      {
+        "text": "Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line.",
+        "for": "Alpöge describes Claude outpacing him near the end of the proof.",
+        "by": "reviser"
+      },
+      {
+        "text": "I of course amused myself, and hit 250,000+ pages.",
+        "for": "Length of the informal write-up referenced in Alpöge's footnote.",
+        "by": "reviser"
       }
     ]
   },
@@ -47,6 +67,11 @@
         "text": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms",
         "for": "Sutherland reports successful compilation and itemizes verification results.",
         "by": "writer"
+      },
+      {
+        "text": "every module has been replayed through the Lean kernel, two independently written kernels, nanoda and con-leche, accept the full exported proof, and lean4lean accepts every compiled module.",
+        "for": "Completed Lean-kernel replays and independent kernel checks on Sutherland's verification page.",
+        "by": "reviser"
       }
     ]
   },
@@ -81,6 +106,92 @@
         "text": "It wouldn't have any practical implications (at least not immediately)",
         "for": "Thomas Bloom cautions against expecting immediate practical applications.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.claymath.org/millennium-prize-problems/rules-for-the-millennium-prize-problems/",
+    "title": "Rules for the Millennium Prize Problems",
+    "publisher": "Clay Mathematics Institute",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-22",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "CMI has designated a $7 million prize fund for the solutions to these Problems, with $1 million allocated to each Problem",
+        "for": "The $1 million prize allocated to each Millennium Prize Problem.",
+        "by": "reviser"
+      },
+      {
+        "text": "CMI does not accept direct submission of proposed solutions.",
+        "for": "Clay Mathematics Institute does not accept direct submissions.",
+        "by": "reviser"
+      },
+      {
+        "text": "Before CMI will consider a proposed solution, all three of the following conditions must be satisfied: (i) the proposed solution must be published in a Qualifying Outlet (see §6), and (ii) at least two years must have passed since publication",
+        "for": "Publication in a qualifying outlet and two-year waiting period before Clay consideration.",
+        "by": "reviser"
+      },
+      {
+        "text": "(iii) the proposed solution must have received general acceptance in the global mathematics community.",
+        "for": "Requirement of general acceptance in the global mathematics community.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+    "title": "Two groups verify mathematician's claim that Claude helped prove mathematics problem",
+    "publisher": "The Guardian",
+    "kind": "press",
+    "published": "2026-11-21",
+    "retrieved": "2026-11-22",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Anthropic's Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis",
+        "for": "Alpöge's affiliation with Anthropic and the six-week timeframe.",
+        "by": "reviser"
+      },
+      {
+        "text": "He says that Claude helped develop a solution to the problem during the course of about six weeks.",
+        "for": "The six-week collaboration between Alpöge and Claude.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://apnews.com/article/anthropic-claude-math-solution-ai-4fe8b69a891f160f9e7f0c85af8c55c8",
+    "title": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+    "publisher": "Associated Press",
+    "kind": "press",
+    "published": "2026-11-21",
+    "retrieved": "2026-11-22",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "He messaged Anthropic CEO Dario Amodei to ask about",
+        "for": "Alpöge messaged Anthropic CEO Dario Amodei regarding the announcement.",
+        "by": "reviser"
+      },
+      {
+        "text": "as the San Francisco-based company was about to make major news with its stock market debut.",
+        "for": "Anthropic was preparing for its stock market debut when Alpöge messaged Amodei.",
+        "by": "reviser"
+      },
+      {
+        "text": "Anthropic did not respond to an email from The Associated Press requesting comment on Alpöge's claim.",
+        "for": "Anthropic did not respond to the Associated Press request for comment.",
+        "by": "reviser"
+      },
+      {
+        "text": "Traditionally the findings buried in that code would be published in a formal paper, said Alex Kontorovich, distinguished professor and department chair of mathematics at Rutgers University.",
+        "for": "Rutgers University mathematics chair Alex Kontorovich on formal paper publication versus code.",
+        "by": "reviser"
       }
     ]
   }
