@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "title": "Introducing Inkling 2 Mini - Thinking Machines Lab",
+    "publisher": "Thinking Machines Lab",
+    "kind": "primary",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-22",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Nov 20, 2026",
+        "for": "Publication date of the release post.",
+        "by": "writer"
+      },
+      {
+        "text": "Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token.",
+        "for": "Looped architecture running middle layers three times per token.",
+        "by": "writer"
+      },
+      {
+        "text": "Inkling 2 Mini leads every open-weights model with less than 100B total parameters on benchmarks such as DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%).",
+        "for": "DeepSWE v1.1 and Vals Index v2.2 benchmark scores.",
+        "by": "writer"
+      },
+      {
+        "text": "Inkling 2 Mini is a Mixture-of-Experts model with 26.4B total parameters, 3.4B active, and 5.4B weight activations per token to account for looping.",
+        "for": "Total, active, and looped weight activation parameter counts.",
+        "by": "writer"
+      },
+      {
+        "text": "Most of Inkling 2 Mini’s weights were trained and are deployed natively in NVFP4, with the last four layers in MXFP8.",
+        "for": "NVFP4 and MXFP8 precision details.",
+        "by": "writer"
+      },
+      {
+        "text": "The total memory footprint of Inkling 2 Mini is ~20GB, allowing it to run on local devices such as consumer laptops and desktop AI computers.",
+        "for": "20 GB memory footprint and local device support.",
+        "by": "writer"
+      },
+      {
+        "text": "At launch we support Inkling 2 Mini running on any Mac system (MacBook, Mac Mini) with at least 32GB RAM via Ollama.",
+        "for": "Mac 32 GB RAM and Ollama support at launch.",
+        "by": "writer"
+      },
+      {
+        "text": "While looping improves the model’s reasoning, it doesn’t enable its weights to store more facts—knowledge is mostly a function of total parameter count.",
+        "for": "Looping does not increase factual storage.",
+        "by": "writer"
+      },
+      {
+        "text": "Reasoning at 5 passes was less than half as long as at 1 pass (1,661 vs. 3,703 tokens on average), but no less legible: sentence length and the fraction of words in an English dictionary were unchanged.",
+        "for": "Token length reduction and unchanged legibility across 5 passes vs 1 pass.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://artificialanalysis.ai/articles/inkling-2-mini",
+    "title": "Thinking Machines has released Inkling 2 Mini, an open weights looped transformer",
+    "publisher": "Artificial Analysis",
+    "kind": "data",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-22",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "November 20, 2026",
+        "for": "Publication date of the Artificial Analysis evaluation.",
+        "by": "writer"
+      },
+      {
+        "text": "It is released under an Apache 2.0 license, with text and image input and a 1M token context window.",
+        "for": "Apache 2.0 license, multimodal inputs, and 1M context window.",
+        "by": "writer"
+      },
+      {
+        "text": "Inkling 2 Mini matches Qwen3.8 27B (xhigh) and Nanbeige4.3-33B on the Intelligence Index with ~5x and ~6x fewer active parameters, respectively.",
+        "for": "Intelligence Index tie and active parameter comparison.",
+        "by": "writer"
+      },
+      {
+        "text": "Inkling 2 Mini uses ~38% more output tokens than Qwen3.8 27B for the same Intelligence Index score, but ~2.8x less compute.",
+        "for": "Output token and compute comparison against Qwen3.8 27B.",
+        "by": "writer"
+      },
+      {
+        "text": "It costs $0.59 and takes 9.0 minutes per Intelligence Index task vs. $3.53 and 38.2 minutes for Qwen3.8 27B.",
+        "for": "Cost and runtime per Intelligence Index task.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+    "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+    "publisher": "The Decoder",
+    "kind": "press",
+    "published": "2026-11-21",
+    "retrieved": "2026-11-22",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Nov 21, 2026",
+        "for": "Publication date of The Decoder article.",
+        "by": "writer"
+      },
+      {
+        "text": "Inkling 2 Mini runs 12 of its 24 layers three times in a row.",
+        "for": "12 of 24 layers looped three times.",
+        "by": "writer"
+      },
+      {
+        "text": "The open mixture-of-experts model has 26.4 billion parameters, with 5.4 billion active per token because of the loops, the company says.",
+        "for": "MoE parameter counts and looping activation.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.goodfire.com/research/interpreting-inkling-2-mini/",
+    "title": "Interpreting Inkling 2 Mini",
+    "publisher": "Goodfire",
+    "kind": "other",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-22",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "November 20, 2026",
+        "for": "Publication date of the Goodfire research post.",
+        "by": "writer"
+      },
+      {
+        "text": "Thinking Machines provided Goodfire with early access to the weights of Inkling 2 Mini so we could investigate how these architectural innovations affect the model’s internal mechanisms.",
+        "for": "Early access to weights provided to Goodfire.",
+        "by": "writer"
+      },
+      {
+        "text": "Our preliminary findings include insights into how layers coordinate with each other, and with future and past versions of themselves: counterintuitively, looped model layers can write to themselves, or read from “future” layers!",
+        "for": "Layer coordination across loops including writing to themselves and reading from future layers.",
+        "by": "writer"
+      }
+    ]
+  }
+]
