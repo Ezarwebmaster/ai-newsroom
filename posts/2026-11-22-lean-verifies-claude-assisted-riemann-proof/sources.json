@@ -13,6 +13,11 @@
         "text": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
         "for": "The communities certify both the theorem statement and its proof.",
         "by": "writer"
+      },
+      {
+        "text": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof, thus addressing concerns that Lean’s logic itself might have flaws that the proof could exploit.",
+        "for": "Formal soundness proofs of con-leche and con-ron relative to set theory.",
+        "by": "reviser"
       }
     ]
   },
@@ -30,6 +35,16 @@
         "text": "Claude and I have also formalized the arguments without assumptions.",
         "for": "Alpöge attributes the formalized argument to his collaboration with Claude.",
         "by": "writer"
+      },
+      {
+        "text": "In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too.",
+        "for": "Alpöge expects his method to extend to the Extended Riemann Hypothesis.",
+        "by": "reviser"
+      },
+      {
+        "text": "The precise timing is horrible. If I could have, I’d have finished this all much earlier.",
+        "for": "Alpöge comments on the timing of his announcement.",
+        "by": "reviser"
       }
     ]
   },
@@ -47,6 +62,21 @@
         "text": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms",
         "for": "Sutherland reports successful compilation and itemizes verification results.",
         "by": "writer"
+      },
+      {
+        "text": "two independently written kernels, nanoda and con-leche, accept the full exported proof, and lean4lean accepts every compiled module.",
+        "for": "Independent kernels nanoda, con-leche and lean4lean accept the proof.",
+        "by": "reviser"
+      },
+      {
+        "text": "An independent sandboxed lake build of the archive reproduces the export byte for byte.",
+        "for": "Sandboxed build reproduces the export byte for byte.",
+        "by": "reviser"
+      },
+      {
+        "text": "As a check that does not depend on Mathlib's definition of the zeta function, the proof was combined with kimihiro64/Robin1984 (commit acab1a3), an independent formalization of Robin's and Lagarias's criteria on the same Lean and Mathlib versions.",
+        "for": "Combined check with Robin1984 avoids relying on Mathlib's zeta definition.",
+        "by": "reviser"
       }
     ]
   },
@@ -81,6 +111,60 @@
         "text": "It wouldn't have any practical implications (at least not immediately)",
         "for": "Thomas Bloom cautions against expecting immediate practical applications.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+    "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+    "publisher": "The Guardian",
+    "kind": "press",
+    "published": "2026-11-21",
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "He says that Claude helped develop a solution to the problem during the course of about six weeks.",
+        "for": "Six-week timeline of Alpöge's work with Claude.",
+        "by": "reviser"
+      },
+      {
+        "text": "Alpöge’s note was published just one day after Anthropic went public on the Nasdaq stock market index.",
+        "for": "Timing one day after Anthropic's Nasdaq IPO.",
+        "by": "reviser"
+      },
+      {
+        "text": "Other mathematicians have expressed discomfort with relying on AI to solve math problems.",
+        "for": "Mathematicians' discomfort with relying on AI for proofs.",
+        "by": "reviser"
+      },
+      {
+        "text": "The Riemann hypothesis is one of the seven Millennium prize math problems selected in 2000 by the Clay Mathematics Institute.",
+        "for": "Selection as a Millennium Prize problem in 2000.",
+        "by": "reviser"
+      },
+      {
+        "text": "The institute has offered $1m for each problem solved.",
+        "for": "The $1 million Millennium Prize.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+    "title": "“…and the proof is checked in Lean”",
+    "publisher": "Xena Project",
+    "kind": "other",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "there is an important signal that can be extracted from Lean code, but if this code is AI-generated then you need to do some tests first.",
+        "for": "Buzzard's four-test framework for AI-generated Lean proofs.",
+        "by": "reviser"
       }
     ]
   }
