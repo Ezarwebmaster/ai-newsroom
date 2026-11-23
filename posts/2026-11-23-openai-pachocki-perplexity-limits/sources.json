@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "url": "https://openai.com/index/perplexity-and-intelligence/",
+    "title": "Perplexity and Intelligence",
+    "publisher": "OpenAI",
+    "kind": "primary",
+    "published": "2026-11-22",
+    "retrieved": "2026-11-23",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone",
+        "for": "Proposed binding limits tied to perplexity and monitoring milestones.",
+        "by": "writer"
+      },
+      {
+        "text": "and so as soon as 2027 we could conceivably see a similar avalanche of fundamental pretraining advancements",
+        "for": "Warning that AI-accelerated pretraining research could arrive as soon as 2027.",
+        "by": "writer"
+      },
+      {
+        "text": "was capable of fluent conversation and formed the basis for the original ChatGPT. GPT‑4, at ~0.91, was proficient at utilizing chain-of-thought reasoning productively",
+        "for": "GPT-4 log-perplexity of ~0.91 and chain-of-thought proficiency.",
+        "by": "writer"
+      },
+      {
+        "text": "Now, as we have reached losses below 0.8, we have seen the emergence of transformative capabilities in fields like cybersecurity and mathematics.",
+        "for": "Capabilities emerging below 0.8 log-perplexity.",
+        "by": "writer"
+      },
+      {
+        "text": "Once we upgraded to a model of log-perplexity ~0.76, it started producing groundbreaking results.",
+        "for": "Model at ~0.76 log-perplexity solving open math problems.",
+        "by": "writer"
+      },
+      {
+        "text": "Extrapolating from recent progress, we should expect further transformative capabilities as we enter the ~0.68-0.7 log-perplexity window.",
+        "for": "Expected capabilities in the ~0.68-0.7 log-perplexity window.",
+        "by": "writer"
+      },
+      {
+        "text": "in currently dominant forms of alignment auditing and further increases in evaluation and training awareness.",
+        "for": "Expected degradation in alignment auditing and higher evaluation awareness.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+    "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+    "publisher": "TechCrunch",
+    "kind": "press",
+    "published": "2026-11-22",
+    "retrieved": "2026-11-23",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Among other things, Amodei called for companies to agree to “common safety standards as well as limits on the rate of unchecked AI progress.”",
+        "for": "Context on Dario Amodei's call for limits on unchecked AI progress.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://www.insurancejournal.com/news/national/2026/11/23/893408.htm",
+    "title": "OpenAI Chief Scientist Urges Industry Limits on AI Development",
+    "publisher": "Insurance Journal",
+    "kind": "press",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-23",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Pachocki didn’t specify what the initial limit should be or when it might take effect.",
+        "for": "Absence of a specified initial threshold or effective date.",
+        "by": "writer"
+      },
+      {
+        "text": "OpenAI Chief Executive Officer Sam Altman endorsed the proposal, calling Pachocki’s essay “the most important thing OpenAI has published in awhile.” He said in a post on X that agreeing to common limits would help ensure “safety and control.”",
+        "for": "Sam Altman's endorsement of Pachocki's essay on X.",
+        "by": "writer"
+      },
+      {
+        "text": "The proposal comes as the US prepares for renewed debate over AI regulation following Democrats’ sweeping victories in the midterm elections.",
+        "for": "U.S. regulatory context following the 2026 midterm elections.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://cellcog.ai/blog/microsoft-mai-2-perplexity-openai/",
+    "title": "Microsoft Puts MAI-2 on OpenAI's Perplexity Chart",
+    "publisher": "CellCog",
+    "kind": "press",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-23",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "In a post on X at 00:37 UTC on November 23, 2026, Microsoft AI CEO Mustafa Suleyman wrote: “We fully support OpenAI’s transparency initiative.”",
+        "for": "Mustafa Suleyman's November 23, 2026 response on X.",
+        "by": "writer"
+      },
+      {
+        "text": "Its MAI-2 Base model scores 0.819 log-perplexity on OpenAI’s held-out evaluation set; MAI-1 Base scores 0.878.",
+        "for": "Microsoft MAI-2 Base (0.819) and MAI-1 Base (0.878) scores.",
+        "by": "writer"
+      },
+      {
+        "text": "For everyone else he proposes a different unit: “we might need to report bits-per-byte (BPB) rather than perplexity since different labs use different tokenizers”.",
+        "for": "Suleyman's proposal to use bits per byte for labs with different tokenizers.",
+        "by": "writer"
+      }
+    ]
+  }
+]
