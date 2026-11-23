@@ -14,7 +14,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Single-threaded Lean default and paranoid kernel replays of the 61.6-gigabyte export were still running on Andrew Sutherland's verification page as of November 22, 2026.",
+    "Alpöge has released only the 17-million-line Lean library and a brief remark, with a human-readable mathematical exposition still to be written."
+  ],
   "image_brief": null
 }

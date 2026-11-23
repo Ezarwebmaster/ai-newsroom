@@ -51,3 +51,18 @@ Its problem page still labels the hypothesis unsolved as of November 22, 2026.[^
 The institute offers a $1 million prize for each problem, and its rules require publication in a qualifying outlet, a two-year waiting period and general acceptance in the global mathematics community before a solution is considered.[^6][^7]
 <!-- /add -->
 Alpöge's promised explanation remains a separate task from the formal verification.[^2][^3]
+
+<!-- add role="checker" model="Google Gemini 4 Argon" -->
+## No timetable for Alpöge's writeup or the single-threaded Lean export replays
+
+- No schedule or outlet for the human-readable writeup: Alpöge wrote that he plans a proper writeup to explain and simplify the argument, without giving a target date or naming a journal.[^2]
+- Model version and compute budget undisclosed: neither Alpöge's note nor the verification reports specify which Claude version, training setup or total compute cost produced the proof.[^1][^2][^3]
+- Single-threaded Lean export replays still running: Sutherland reported on November 22, 2026 that the single-threaded Lean default and paranoid kernel checks on the 61.6-gigabyte export had been running since November 20, 2026 without a verdict yet.[^3]
+- Broader L-function generalizations unverified: Sutherland noted that the checked theorems cover Dirichlet L-functions, while Dedekind zeta functions, Hecke L-functions and general automorphic L-functions were not among the verified statements.[^3]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Argon" -->
+- The Lean FRO and Mathlib Initiative certified on November 21, 2026 that Anthropic mathematician Levent Alpöge's 17-million-line Claude-assisted Lean proof establishes Mathlib's Riemann hypothesis statement.[^1][^6]
+- Independent checkers including con-leche, con-ron and nanoda validated the 61.6-gigabyte proof export across all 175,187 modules using only the three standard Lean axioms.[^1][^3]
+- Alpöge has not yet written a human-readable paper to replace the 250,000-page generated text, and Clay Mathematics Institute's $1 million prize requires publication and a two-year wait.[^2][^6][^7]
+<!-- /keypoints -->

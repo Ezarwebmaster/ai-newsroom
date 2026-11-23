@@ -18,6 +18,42 @@
         "text": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof, thus addressing concerns that Lean’s logic itself might have flaws that the proof could exploit.",
         "for": "Why con-leche and con-ron address soundness concerns in Lean's logic.",
         "by": "reviser"
+      },
+      {
+        "type": "date",
+        "text": "2026-11-21 13:55",
+        "for": "Publication date of the Lean and Mathlib communities' joint certification statement.",
+        "by": "checker"
+      },
+      {
+        "text": "Joint statement by the Lean FRO and the Mathlib Initiative.",
+        "for": "Endorsement of the joint verification statement by the Lean FRO and the Mathlib Initiative.",
+        "by": "checker"
+      },
+      {
+        "text": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code.",
+        "for": "Release date of November 20, 2026 and the 17 million lines of Lean code.",
+        "by": "checker"
+      },
+      {
+        "text": "The codebase depends directly only on Mathlib. Over the past day, the Lean and Mathlib communities have rallied to verify the proof's correctness.",
+        "for": "The codebase depends directly only on Mathlib.",
+        "by": "checker"
+      },
+      {
+        "text": "By now, dozens of people have reported correct compilation of the codebase, reproducing the same raw proof export file.",
+        "for": "Independent compilation reproduced the same raw proof export file.",
+        "by": "checker"
+      },
+      {
+        "text": "That statement was compared against the theorem proved by Alpöge using two independent tools (comparator and con-leche –compare), both confirming that the theorem proved in Alpöge’s library is exactly Mathlib’s statement of the Riemann Hypothesis.",
+        "for": "Two independent tools matched Alpöge's theorem to Mathlib's Riemann hypothesis statement.",
+        "by": "checker"
+      },
+      {
+        "text": "These checks ran on an inert export of the proof, out of reach of hypothetical malicious code in the Lean proof sources.",
+        "for": "Independent checkers ran on an inert export insulated from hypothetical malicious source code.",
+        "by": "checker"
       }
     ]
   },
@@ -40,6 +76,36 @@
         "text": "it is routine to produce a huge, unreadable document containing sufficient detail",
         "for": "Alpöge describes the generated text version of the formalization as unreadable.",
         "by": "reviser"
+      },
+      {
+        "text": "I guided us to the right situation analogous to that toy setting, and then Claude began to leave me in awe.",
+        "for": "Alpöge describes guiding the approach while Claude supplied mathematical advances.",
+        "by": "checker"
+      },
+      {
+        "text": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly.",
+        "for": "Alpöge says he intends to understand, explain and simplify the argument.",
+        "by": "checker"
+      },
+      {
+        "text": "The precise timing is horrible. If I could have, I’d have finished this all much earlier.",
+        "for": "Alpöge calls the release timing horrible and says he would have finished earlier if he could have.",
+        "by": "checker"
+      },
+      {
+        "text": "I am presenting the world with a complete argument before having mastered a massive neighbourhood around its mathematics.",
+        "for": "Alpöge says he has not mastered a massive mathematical neighborhood around the argument.",
+        "by": "checker"
+      },
+      {
+        "text": "It being obviously inappropriate to attempt to post some massive unreadable travesty of \"slop\"2, I decided to only present Lean.",
+        "for": "Alpöge explains why he released only Lean rather than a conventional text exposition.",
+        "by": "checker"
+      },
+      {
+        "text": "I of course amused myself, and hit 250, 000+ pages.",
+        "for": "Generating a text version of the formalized proof produced more than 250,000 pages.",
+        "by": "checker"
       }
     ]
   },
@@ -62,6 +128,36 @@
         "text": "An independent sandboxed lake build of the archive reproduces the export byte for byte.",
         "for": "Sutherland reports byte-for-byte reproducibility of the proof export in a sandboxed build.",
         "by": "reviser"
+      },
+      {
+        "text": "Andrew Sutherland (MIT), checks run with Claude Code. Page last updated 2026-11-22 16:20 UTC.",
+        "for": "Sutherland's MIT affiliation, Claude Code usage and November 22, 2026 update timestamp.",
+        "by": "checker"
+      },
+      {
+        "text": "every module has been replayed through the Lean kernel, two independently written kernels, nanoda and con-leche, accept the full exported proof, and lean4lean accepts every compiled module.",
+        "for": "Kernel replay of every module and acceptance by nanoda, con-leche and lean4lean.",
+        "by": "checker"
+      },
+      {
+        "text": "The lake comparator run and the Lean-kernel replay of the export are still in progress.",
+        "for": "Sutherland distinguishes completed checks from the lake comparator and Lean-kernel export replays still running.",
+        "by": "checker"
+      },
+      {
+        "text": "All 175,187 modules compile (Lean v4.33.1, Mathlib v4.33.1)",
+        "for": "Compilation of all 175,187 modules.",
+        "by": "checker"
+      },
+      {
+        "text": "The exported proof: output of lean4export on module Main. Unpacks to 61,570,595,788 bytes.",
+        "for": "Exact byte size (61,570,595,788 bytes, or 61.6 gigabytes) of the reproduced proof export.",
+        "by": "checker"
+      },
+      {
+        "text": "\"GRH\" here means Dirichlet L-functions: all moduli and all characters. Dedekind zeta functions, Hecke L-functions and automorphic L-functions in general are not among the statements that were checked.",
+        "for": "The verified generalization covers Dirichlet L-functions and not Dedekind, Hecke or general automorphic L-functions.",
+        "by": "checker"
       }
     ]
   },
@@ -79,6 +175,16 @@
         "text": "The Riemann hypothesis tells us about the deviation from the average.",
         "for": "The significance of the hypothesis for the distribution of primes.",
         "by": "writer"
+      },
+      {
+        "text": "Home — Millennium Problems — Riemann Hypothesis Active Riemann Hypothesis",
+        "for": "Clay Mathematics Institute's problem page still labels the Riemann hypothesis as active.",
+        "by": "checker"
+      },
+      {
+        "text": "Formulated in Riemann’s 1859 paper, it asserts that all the ‘non-obvious’ zeros of the zeta function are complex numbers with real part 1/2.",
+        "for": "Clay Mathematics Institute's description of the non-obvious zeros having real part 1/2.",
+        "by": "checker"
       }
     ]
   },
@@ -123,6 +229,16 @@
         "text": "a near-trillion-dollar private company spent $15m to employ 10,000 AI systems to solve the problem.",
         "for": "Context on mathematicians' discomfort with OpenAI's $15 million AI math effort.",
         "by": "reviser"
+      },
+      {
+        "text": "The Riemann hypothesis is one of the seven Millennium prize math problems selected in 2000 by the Clay Mathematics Institute. The institute has offered $1m for each problem solved.",
+        "for": "Clay Mathematics Institute offers a $1 million prize for each Millennium Prize problem.",
+        "by": "checker"
+      },
+      {
+        "text": "In September, Anthropic competitor OpenAI claimed that a non-public version of its AI tools helped solve part of another Millennium prize problem.",
+        "for": "OpenAI's September 2026 claim regarding another Millennium Prize problem.",
+        "by": "checker"
       }
     ]
   },
@@ -145,6 +261,11 @@
         "text": "at least two years must have passed since publication",
         "for": "Clay Mathematics Institute's two-year waiting period requirement.",
         "by": "reviser"
+      },
+      {
+        "text": "the proposed solution must have received general acceptance in the global mathematics community",
+        "for": "Clay Mathematics Institute's requirement of general acceptance in the global mathematics community.",
+        "by": "checker"
       }
     ]
   }
