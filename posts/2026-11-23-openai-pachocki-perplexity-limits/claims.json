@@ -1,0 +1,520 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "OpenAI chief scientist Jakub Pachocki proposed perplexity-based limits on frontier AI development.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Pachocki disclosed internal pretraining loss figures on November 22, 2026, urging labs to pause past shared thresholds until monitoring improves, while Microsoft shared its own score.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 22, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone"
+      },
+      {
+        "source": 4,
+        "quote": "Its MAI-2 Base model scores 0.819 log-perplexity on OpenAI’s held-out evaluation set; MAI-1 Base scores 0.878."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Pachocki proposed on November 22, 2026 that frontier AI developers adopt common limits tied to pretraining perplexity thresholds until monitoring tools meet concrete safety milestones.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 22, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Pachocki argued on OpenAI's site that cross-entropy loss on held-out data offers a durable yardstick because downstream benchmarks saturate quickly.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "In this post, I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards."
+      },
+      {
+        "source": 1,
+        "quote": "It would make little sense to evaluate GPT‑2 and GPT‑3 on most modern benchmarks; and the benchmarks used then were largely saturated around GPT‑4. In contrast, I believe looking at progress on pretraining is likely to stay informative."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "Pachocki warned that AI contributions to pretraining research could trigger an avalanche of fundamental pretraining advancements as soon as 2027, outpacing alignment and monitoring work.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "and so as soon as 2027 we could conceivably see a similar avalanche of fundamental pretraining advancements"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 10,
+    "claim": "In a footnote, Pachocki attributed OpenAI's steep 2026 loss acceleration mainly to long-term research and compute investments rather than automation, while noting meaningful AI design contributions in recent models.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "On the plot of losses of OpenAI models, you can see a steep acceleration in 2026. We attribute it mostly to the outcomes of long term research and compute investments, and only in a smaller part to automation."
+      },
+      {
+        "source": 1,
+        "quote": "However, for the most recent models, we have already seen meaningful design contributions coming from AI"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 15,
+    "claim": "Pachocki disclosed internal log-perplexity measurements on OpenAI's held-out codebase dataset going back to GPT-3.5.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The primary held-out datasets we’ve been using since GPT-3.5 are sourced from our internal codebase, and those are the numbers reported here (for a fixed snapshot)."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "GPT-3.5 measured about 0.99 log-perplexity when fluent conversation emerged, and GPT-4 reached roughly 0.91 alongside productive chain-of-thought reasoning.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "GPT‑3.5, at a log-perplexity of ~0.99 on our current main evaluation dataset, was capable of fluent conversation and formed the basis for the original ChatGPT."
+      },
+      {
+        "source": 1,
+        "quote": "was capable of fluent conversation and formed the basis for the original ChatGPT. GPT‑4, at ~0.91, was proficient at utilizing chain-of-thought reasoning productively"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 17,
+    "claim": "Below 0.8 log-perplexity, OpenAI saw transformative capabilities in fields like cybersecurity and mathematics, with a model around 0.76 solving open math problems.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Now, as we have reached losses below 0.8, we have seen the emergence of transformative capabilities in fields like cybersecurity and mathematics."
+      },
+      {
+        "source": 1,
+        "quote": "For more than a year, we have been posing open problems in mathematics to our models as one of the ways of evaluating them."
+      },
+      {
+        "source": 1,
+        "quote": "Once we upgraded to a model of log-perplexity ~0.76, it started producing groundbreaking results."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 18,
+    "claim": "Pachocki wrote that entering the 0.68 to 0.70 log-perplexity window is expected to bring further capabilities alongside degradation in dominant alignment auditing and higher evaluation awareness.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Extrapolating from recent progress, we should expect further transformative capabilities as we enter the ~0.68-0.7 log-perplexity window."
+      },
+      {
+        "source": 1,
+        "quote": "in currently dominant forms of alignment auditing and further increases in evaluation and training awareness."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 20,
+    "claim": "In a November 10, 2026 OpenAI alignment study co-advised by Pachocki, researchers found that lower base-model perplexity correlates with stronger no-CoT reasoning and reported degraded CoT monitorability and greater monitor evasion in GPT-6 Astra.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Published: November 10, 2026"
+      },
+      {
+        "source": 5,
+        "quote": "Kristian Georgiev, Micah Carroll†, Ben Sokolowsky†, Katherine Lee†, Jakub Pachocki†"
+      },
+      {
+        "source": 5,
+        "quote": "Lower base-model perplexity and some architectural changes improve no-CoT reasoning, while RL and model-generated data can increase CoT controllability."
+      },
+      {
+        "source": 5,
+        "quote": "These are imperfect proxies for monitorability, but together they indicate that models will become harder to monitor through their CoT as we scale toward more intelligent systems."
+      },
+      {
+        "source": 5,
+        "quote": "However, with GPT-6 Astra we observed degradation in CoT monitorability for non-adversarial settings"
+      },
+      {
+        "source": 5,
+        "quote": "greater ability to perform CoT monitor evasion under adversarial testing"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 22,
+    "claim": "Pachocki proposed that labs commit not to cross an agreed threshold until monitoring reaches a milestone such as a successor to chain-of-thought monitors, without specifying an initial limit or start date.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone"
+      },
+      {
+        "source": 3,
+        "quote": "Pachocki didn’t specify what the initial limit should be or when it might take effect."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 26,
+    "claim": "Microsoft AI CEO Mustafa Suleyman became the first rival leader to answer on November 23, 2026, reporting on X that MAI-2 Base scored 0.819 log-perplexity on OpenAI's test set and MAI-1 Base scored 0.878.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Microsoft is the first lab to put its own model on OpenAI’s perplexity chart."
+      },
+      {
+        "source": 4,
+        "quote": "In a post on X at 00:37 UTC on November 23, 2026, Microsoft AI CEO Mustafa Suleyman wrote: “We fully support OpenAI’s transparency initiative.”"
+      },
+      {
+        "source": 4,
+        "quote": "Its MAI-2 Base model scores 0.819 log-perplexity on OpenAI’s held-out evaluation set; MAI-1 Base scores 0.878."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 28,
+    "claim": "Suleyman placed MAI-2 Base in the same range as OpenAI's GPT-5.6 Sol base model, behind OpenAI's GPT-6 Astra and GPT-6.2 Astra models, without committing Microsoft to a specific numerical limit.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Its log-perplexity is 0.819, putting it in the same ballpark as the GPT-5.6 Sol base model."
+      },
+      {
+        "source": 4,
+        "quote": "On the chart, MAI-2 Base sits just below GPT-5.6 Sol, near the line OpenAI marks as cybersecurity expert, and above both Astra models."
+      },
+      {
+        "source": 4,
+        "quote": "No lab has named a limit value. Pachocki proposed limits; Microsoft backed the idea and shared a number."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 29,
+    "claim": "CellCog reported that Anthropic, Google DeepMind, Meta and xAI had not published comparable perplexity figures as of 03:19 UTC on November 23, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "In a post on X at 00:37 UTC on November 23, 2026, Microsoft AI CEO Mustafa Suleyman wrote: “We fully support OpenAI’s transparency initiative.”"
+      },
+      {
+        "source": 4,
+        "quote": "Anthropic, Google DeepMind, Meta and xAI had published no number when we read the posts at 03:19 UTC."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 31,
+    "claim": "Suleyman noted that Microsoft could compare directly only because it uses the same tokenizer as OpenAI and received access to OpenAI's evaluation dataset.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Microsoft could do this only because OpenAI let it use its test set, and both labs use the same tokenizer; Suleyman calls that a special case."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 32,
+    "claim": "For other developers, Suleyman suggested reporting bits per byte on new shared test sets to account for different tokenizers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "For everyone else he proposes a different unit: “we might need to report bits-per-byte (BPB) rather than perplexity since different labs use different tokenizers”."
+      },
+      {
+        "source": 4,
+        "quote": "For other labs he suggests reporting bits per byte instead of perplexity, and new shared test sets, because tokenizers differ."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 33,
+    "claim": "Pachocki flagged structural limits to shared perplexity benchmarks: different data mixtures across labs, chain-of-thought reasoning boosting capability without lowering perplexity, and an unknown dataset entropy floor.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Different developers use different evaluation datasets and train on different data mixtures. Here, we report the numbers on the main dataset we have been tracking"
+      },
+      {
+        "source": 1,
+        "quote": "Most notably, chain-of-thought reasoning does not reduce perplexity achieved by the model, even though it leads to a drastic increase in capabilities."
+      },
+      {
+        "source": 1,
+        "quote": "We do not expect it is possible to achieve a loss of 0, which would correspond to being able to predict the dataset entirely deterministically. But we do not know what the inherent entropy of the data is."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 37,
+    "claim": "OpenAI CEO Sam Altman endorsed Pachocki's essay on X, calling it the most important thing OpenAI has published in awhile and saying common limits would support safety and control.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "OpenAI Chief Executive Officer Sam Altman endorsed the proposal, calling Pachocki’s essay “the most important thing OpenAI has published in awhile.” He said in a post on X that agreeing to common limits would help ensure “safety and control.”"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 38,
+    "claim": "TechCrunch noted that Pachocki's proposal follows Anthropic CEO Dario Amodei's call to pace the frontier through shared safety standards and limits on unchecked progress.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Among other things, Amodei called for companies to agree to “common safety standards as well as limits on the rate of unchecked AI progress.”"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 40,
+    "claim": "In his September 12, 2026 essay, Amodei proposed embedding independent third-party evaluators such as METR inside frontier labs to inspect training pipelines and argued for regulation across democratic countries to cover non-cooperating firms.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "2026-09-12"
+      },
+      {
+        "source": 6,
+        "quote": "Each frontier AI company commits to giving ongoing, employee-like access to a team of embedded third-party evaluators (such as METR), whose role is to verify adherence to safety practices and commitments"
+      },
+      {
+        "source": 6,
+        "quote": "whose role is to verify adherence to safety practices and commitments, report incidents, and help assess the alignment of not just completed AI models but training pipelines and processes."
+      },
+      {
+        "source": 6,
+        "quote": "Frontier AI companies within democratic countries coordinate to establish common safety standards as well as limits on the rate of unchecked AI progress."
+      },
+      {
+        "source": 6,
+        "quote": "The most effective method of pacing is via regulation that targets all US frontier AI companies, as that covers even those who are unwilling to cooperate voluntarily."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 42,
+    "claim": "Insurance Journal reported that the debate coincides with expectations of heightened congressional scrutiny of AI companies after Democrats won control in the 2026 midterm elections, contrasting with President Donald Trump's opposition to broad AI restrictions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The proposal comes as the US prepares for renewed debate over AI regulation following Democrats’ sweeping victories in the midterm elections."
+      },
+      {
+        "source": 3,
+        "quote": "President Donald Trump has opposed broad restrictions on AI development, setting up a potential clash with the incoming Democratic Congress over how to regulate the technology."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 44,
+    "claim": "Some U.S. lawmakers are discussing creating a dedicated Senate committee to coordinate AI policy, Insurance Journal reported.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Some lawmakers are also discussing the creation of a dedicated Senate committee to coordinate AI policy."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 50,
+    "claim": "Neither Pachocki's essay nor Suleyman's response specifies a numerical log-perplexity limit or an effective date for pausing model development.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Pachocki didn’t specify what the initial limit should be or when it might take effect."
+      },
+      {
+        "source": 4,
+        "quote": "No lab has named a limit value. Pachocki proposed limits; Microsoft backed the idea and shared a number."
+      }
+    ],
+    "note": "Read Pachocki's full essay and Suleyman's response as reported by CellCog and Insurance Journal; neither names a numerical limit value or effective date."
+  },
+  {
+    "id": 25,
+    "line": 51,
+    "claim": "OpenAI's reported measurements rely on an internal codebase snapshot shared only with Microsoft, and labs have not yet designated a public bits-per-byte test set.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The primary held-out datasets we’ve been using since GPT-3.5 are sourced from our internal codebase, and those are the numbers reported here (for a fixed snapshot)."
+      },
+      {
+        "source": 4,
+        "quote": "Microsoft could do this only because OpenAI let it use its test set, and both labs use the same tokenizer; Suleyman calls that a special case."
+      },
+      {
+        "source": 4,
+        "quote": "For other labs he suggests reporting bits per byte instead of perplexity, and new shared test sets, because tokenizers differ."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 52,
+    "claim": "Suleyman published MAI-2 Base's 0.819 log-perplexity score without stating whether or when MAI-2 Base will ship as a product.",
+    "status": "absence",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Its MAI-2 Base model scores 0.819 log-perplexity on OpenAI’s held-out evaluation set; MAI-1 Base scores 0.878."
+      },
+      {
+        "source": 4,
+        "quote": "Microsoft did not say whether or when MAI-2 Base ships as a product."
+      }
+    ],
+    "note": "Checked CellCog's record of Suleyman's November 23, 2026 announcement; no product release date for MAI-2 Base is given."
+  },
+  {
+    "id": 27,
+    "line": 53,
+    "claim": "Anthropic, Google DeepMind, Meta and xAI had not published comparable pretraining perplexity scores or committed to Pachocki's framework as of November 23, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "In a post on X at 00:37 UTC on November 23, 2026, Microsoft AI CEO Mustafa Suleyman wrote: “We fully support OpenAI’s transparency initiative.”"
+      },
+      {
+        "source": 4,
+        "quote": "Anthropic, Google DeepMind, Meta and xAI had published no number when we read the posts at 03:19 UTC."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 57,
+    "claim": "OpenAI chief scientist Jakub Pachocki proposed on November 22, 2026 that frontier AI labs adopt shared pretraining perplexity limits until monitoring tools reach concrete safety milestones.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "November 22, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 58,
+    "claim": "Pachocki disclosed OpenAI's log-perplexity curve from GPT-3.5 at roughly 0.99 to a 0.76 model solving open math problems, warning of alignment auditing degradation near 0.68 to 0.70.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "GPT‑3.5, at a log-perplexity of ~0.99 on our current main evaluation dataset, was capable of fluent conversation and formed the basis for the original ChatGPT."
+      },
+      {
+        "source": 1,
+        "quote": "Once we upgraded to a model of log-perplexity ~0.76, it started producing groundbreaking results."
+      },
+      {
+        "source": 1,
+        "quote": "Extrapolating from recent progress, we should expect further transformative capabilities as we enter the ~0.68-0.7 log-perplexity window."
+      },
+      {
+        "source": 1,
+        "quote": "in currently dominant forms of alignment auditing and further increases in evaluation and training awareness."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 59,
+    "claim": "Microsoft AI CEO Mustafa Suleyman reported on November 23, 2026 that MAI-2 Base scored 0.819 log-perplexity on OpenAI's evaluation set and proposed bits-per-byte benchmarks for other labs.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "In a post on X at 00:37 UTC on November 23, 2026, Microsoft AI CEO Mustafa Suleyman wrote: “We fully support OpenAI’s transparency initiative.”"
+      },
+      {
+        "source": 4,
+        "quote": "Its MAI-2 Base model scores 0.819 log-perplexity on OpenAI’s held-out evaluation set; MAI-1 Base scores 0.878."
+      },
+      {
+        "source": 4,
+        "quote": "For other labs he suggests reporting bits per byte instead of perplexity, and new shared test sets, because tokenizers differ."
+      }
+    ]
+  }
+]

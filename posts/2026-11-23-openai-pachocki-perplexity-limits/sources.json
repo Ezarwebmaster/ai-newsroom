@@ -58,6 +58,62 @@
         "text": "However, for the most recent models, we have already seen meaningful design contributions coming from AI",
         "for": "Footnote noting AI design contributions in OpenAI's most recent models.",
         "by": "reviser"
+      },
+      {
+        "type": "date",
+        "text": "November 22, 2026",
+        "for": "November 22, 2026 publication date of Jakub Pachocki's essay Perplexity and Intelligence.",
+        "by": "checker"
+      },
+      {
+        "text": "In this post, I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
+        "for": "Pachocki arguing for cross-entropy loss and perplexity as a durable metric across model developers.",
+        "by": "checker"
+      },
+      {
+        "text": "It would make little sense to evaluate GPT‑2 and GPT‑3 on most modern benchmarks; and the benchmarks used then were largely saturated around GPT‑4. In contrast, I believe looking at progress on pretraining is likely to stay informative.",
+        "for": "Downstream benchmarks saturating quickly around GPT-4 while pretraining loss stays informative.",
+        "by": "checker"
+      },
+      {
+        "text": "The primary held-out datasets we’ve been using since GPT-3.5 are sourced from our internal codebase, and those are the numbers reported here (for a fixed snapshot).",
+        "for": "OpenAI's reported log-perplexity numbers are measured on a fixed snapshot of its internal codebase held-out dataset since GPT-3.5.",
+        "by": "checker"
+      },
+      {
+        "text": "GPT‑3.5, at a log-perplexity of ~0.99 on our current main evaluation dataset, was capable of fluent conversation and formed the basis for the original ChatGPT.",
+        "for": "GPT-3.5 log-perplexity of ~0.99 when fluent conversation emerged.",
+        "by": "checker"
+      },
+      {
+        "text": "For more than a year, we have been posing open problems in mathematics to our models as one of the ways of evaluating them.",
+        "for": "OpenAI evaluating models on open problems in mathematics.",
+        "by": "checker"
+      },
+      {
+        "text": "I don’t know what those capabilities will be, and we may not be testing for them today.",
+        "for": "Pachocki acknowledging OpenAI may not be testing today for capabilities that emerge in the ~0.68-0.7 log-perplexity window.",
+        "by": "checker"
+      },
+      {
+        "text": "That is, I’d like an industry standard that specifies a first limit on development, measured by some key metric we can track across labs, and what concretely we’d need to achieve before going beyond it.",
+        "for": "Pachocki calling for an industry standard specifying a first development limit and concrete safety milestone without naming the threshold value.",
+        "by": "checker"
+      },
+      {
+        "text": "Different developers use different evaluation datasets and train on different data mixtures. Here, we report the numbers on the main dataset we have been tracking",
+        "for": "Structural limit of different evaluation datasets and training data mixtures across labs.",
+        "by": "checker"
+      },
+      {
+        "text": "Most notably, chain-of-thought reasoning does not reduce perplexity achieved by the model, even though it leads to a drastic increase in capabilities.",
+        "for": "Chain-of-thought reasoning boosting capabilities without lowering model perplexity.",
+        "by": "checker"
+      },
+      {
+        "text": "We do not expect it is possible to achieve a loss of 0, which would correspond to being able to predict the dataset entirely deterministically. But we do not know what the inherent entropy of the data is.",
+        "for": "Unknown inherent entropy floor of datasets.",
+        "by": "checker"
       }
     ]
   },
@@ -75,6 +131,12 @@
         "text": "Among other things, Amodei called for companies to agree to “common safety standards as well as limits on the rate of unchecked AI progress.”",
         "for": "Context on Dario Amodei's call for limits on unchecked AI progress.",
         "by": "writer"
+      },
+      {
+        "type": "date",
+        "text": "1:14 PM PST · November 22, 2026",
+        "for": "November 22, 2026 publication date of TechCrunch's article on Pachocki's proposal.",
+        "by": "checker"
       }
     ]
   },
@@ -107,6 +169,17 @@
         "text": "Some lawmakers are also discussing the creation of a dedicated Senate committee to coordinate AI policy.",
         "for": "Discussion of a dedicated Senate committee to coordinate AI policy.",
         "by": "reviser"
+      },
+      {
+        "type": "date",
+        "text": "2026-11-23T06:03:02+00:00",
+        "for": "November 23, 2026 publication timestamp of Insurance Journal's article.",
+        "by": "checker"
+      },
+      {
+        "text": "President Donald Trump has opposed broad restrictions on AI development, setting up a potential clash with the incoming Democratic Congress over how to regulate the technology.",
+        "for": "President Donald Trump's opposition to broad AI restrictions contrasting with incoming Democratic Congress scrutiny.",
+        "by": "checker"
       }
     ]
   },
@@ -154,6 +227,26 @@
         "text": "Anthropic, Google DeepMind, Meta and xAI had published no number when we read the posts at 03:19 UTC.",
         "for": "Status of other major frontier labs as of 03:19 UTC on November 23, 2026.",
         "by": "reviser"
+      },
+      {
+        "text": "Microsoft is the first lab to put its own model on OpenAI’s perplexity chart.",
+        "for": "Microsoft becoming the first rival lab to place its model on OpenAI's perplexity chart.",
+        "by": "checker"
+      },
+      {
+        "text": "Microsoft did not say whether or when MAI-2 Base ships as a product.",
+        "for": "Absence of product release status or timeline for Microsoft's MAI-2 Base.",
+        "by": "checker"
+      },
+      {
+        "text": "Microsoft could do this only because OpenAI let it use its test set, and both labs use the same tokenizer; Suleyman calls that a special case.",
+        "for": "Microsoft's direct comparison required sharing OpenAI's tokenizer and receiving access to OpenAI's private evaluation set.",
+        "by": "checker"
+      },
+      {
+        "text": "For other labs he suggests reporting bits per byte instead of perplexity, and new shared test sets, because tokenizers differ.",
+        "for": "Suleyman suggesting bits per byte on new shared test sets for labs with different tokenizers.",
+        "by": "checker"
       }
     ]
   },
@@ -186,6 +279,17 @@
         "text": "greater ability to perform CoT monitor evasion under adversarial testing",
         "for": "Observed monitor-evasion capability in GPT-6 Astra under adversarial testing.",
         "by": "reviser"
+      },
+      {
+        "type": "date",
+        "text": "Published: November 10, 2026",
+        "for": "November 10, 2026 publication date of OpenAI's chain-of-thought monitorability study.",
+        "by": "checker"
+      },
+      {
+        "text": "Kristian Georgiev, Micah Carroll†, Ben Sokolowsky†, Katherine Lee†, Jakub Pachocki†",
+        "for": "Jakub Pachocki co-advising the November 10, 2026 chain-of-thought monitorability study.",
+        "by": "checker"
       }
     ]
   },
@@ -213,6 +317,17 @@
         "text": "The most effective method of pacing is via regulation that targets all US frontier AI companies, as that covers even those who are unwilling to cooperate voluntarily.",
         "for": "Amodei's argument for regulation to cover companies unwilling to cooperate voluntarily.",
         "by": "reviser"
+      },
+      {
+        "type": "date",
+        "text": "2026-09-12",
+        "for": "September 12, 2026 publication date of Dario Amodei's essay We Must Pace the Frontier.",
+        "by": "checker"
+      },
+      {
+        "text": "Frontier AI companies within democratic countries coordinate to establish common safety standards as well as limits on the rate of unchecked AI progress.",
+        "for": "Amodei's call for frontier AI companies in democratic countries to coordinate on safety standards and limits.",
+        "by": "checker"
       }
     ]
   }

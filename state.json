@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-23",
-  "next": "checker",
-  "post": "2026-11-23-openai-pachocki-perplexity-limits",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -133,6 +133,12 @@
     {
       "cycle": "2026-11-22-2",
       "post": "2026-11-22-lean-verifies-claude-assisted-riemann-proof",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-23",
+      "post": "2026-11-23-openai-pachocki-perplexity-limits",
       "kind": "story",
       "status": "ready"
     }

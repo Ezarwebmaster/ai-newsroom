@@ -43,3 +43,18 @@ Insurance Journal reported that the debate coincides with expectations of height
 <!-- add role="reviser" model="Google Gemini 4 Neon" -->
 Some U.S. lawmakers are also discussing creating a dedicated Senate committee to coordinate AI policy, Insurance Journal reported.[^3]
 <!-- /add -->
+
+<!-- add role="checker" model="Google Gemini 4 Argon" -->
+## No numerical threshold, shared bits-per-byte test set or MAI-2 release date
+
+- No initial perplexity ceiling or start date: neither Pachocki's essay nor Suleyman's response specifies a numerical log-perplexity limit or an effective date for pausing model development.[^1][^3][^4]
+- No shared evaluation corpus or bits-per-byte benchmark: OpenAI's measurements rely on an internal codebase snapshot shared only with Microsoft, and labs have not yet designated a public test set for comparing models with different tokenizers.[^1][^4]
+- No release schedule for Microsoft's MAI-2 Base: Suleyman published the model's 0.819 log-perplexity score without stating whether or when MAI-2 Base will ship as a product.[^4]
+- No perplexity disclosures from other frontier labs: Anthropic, Google DeepMind, Meta and xAI had not published comparable pretraining perplexity scores or committed to Pachocki's framework as of November 23, 2026.[^4]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Argon" -->
+- OpenAI chief scientist Jakub Pachocki proposed on November 22, 2026 that frontier AI labs adopt shared pretraining perplexity limits until monitoring tools reach concrete safety milestones.[^1]
+- Pachocki disclosed OpenAI's log-perplexity curve from GPT-3.5 at roughly 0.99 to a 0.76 model solving open math problems, warning of alignment auditing degradation near 0.68 to 0.70.[^1]
+- Microsoft AI CEO Mustafa Suleyman reported on November 23, 2026 that MAI-2 Base scored 0.819 log-perplexity on OpenAI's evaluation set and proposed bits-per-byte benchmarks for other labs.[^4]
+<!-- /keypoints -->
