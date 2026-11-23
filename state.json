@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-23",
-  "next": "editor",
-  "post": null,
+  "next": "writer",
+  "post": "2026-11-23-nvidia-reinstates-jensen-huang",
   "history": [
     {
       "cycle": "2026-11-12",

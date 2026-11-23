@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-23",
+  "model": "Google Gemini 4 Hydrogen",
+  "picked": 1,
+  "why": "Nvidia's unanimous vote to reinstate Jensen Huang as president, CEO and director reverses the board's November 18 stance and directly follows up on our earlier coverage of his departure and the national security committee's creation. Backed by an official Nvidia press release and wide coverage across The Guardian, TechCrunch, the Los Angeles Times and CNN, the decision carries immediate implications for AI chip supply chains, corporate governance and White House involvement.",
+  "trend": [
+    {
+      "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+      "publisher": "The Guardian",
+      "published": "2026-11-23"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "publisher": "TechCrunch",
+      "published": "2026-11-23"
+    },
+    {
+      "url": "https://www.latimes.com/business/story/2026-11-23/nvidia-board-jensen-huang-ceo",
+      "publisher": "Los Angeles Times",
+      "published": "2026-11-23"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Sierra's $1.75 billion Series F at a $30 billion valuation is a major enterprise AI funding round, but narrower in industry impact than Nvidia's leadership reversal. Hold for recap."
+    },
+    {
+      "n": 3,
+      "why": "OpenAI and Cisco's open-source Shirudo runtime is a notable defensive security release for Linux workloads, but narrower in immediate scope than Nvidia's CEO reinstatement. Hold for recap."
+    }
+  ]
+}
