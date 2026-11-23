@@ -1,0 +1,87 @@
+{
+  "cycle": "2026-11-23-2",
+  "model": "Google Gemini 3.8 Flash",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Nvidia board unanimously reinstates Jensen Huang as CEO and director after White House assurances",
+      "type": "company",
+      "summary": "On November 23, 2026, Nvidia announced that its board of directors voted unanimously to reinstate Jensen Huang as president, CEO, and board director, ending his 11-day absence. The board cited discussions with Huang and assurances from senior U.S. government officials that his return posed no national security risk, while Nvidia shares surged over 30 percent.",
+      "follow_up_of": "2026-11-13-nvidia-ceo-transition",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "publisher": "Nvidia",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.tomshardware.com/tech-industry/nvidia-reinstates-jensen-huang-as-ceo-following-unanimous-vote-by-company-board-11-day-exit-from-company-saw-stock-prices-fall-by-24-percent-after-affair-scandal",
+          "publisher": "Tom's Hardware",
+          "published": "2026-11-23",
+          "kind": "press"
+        },
+        {
+          "url": "https://time.com/article/2026/11/23/jensen-huang-return-nvidia-trump/",
+          "publisher": "TIME",
+          "published": "2026-11-23",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "OpenRouter drops three inference providers and restricts 125 endpoints following Dragos canary study",
+      "type": "company",
+      "summary": "On November 22, 2026, AI router OpenRouter off-boarded three inference providers and stripped 125 endpoints of Zero Data Retention eligibility. The decision followed a five-month Dragos study using canary tokens across nearly two million prompts, which detected provider breaches, unauthorized prompt logging by marketplace resellers, and failures to honor privacy policies.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "publisher": "OpenRouter",
+          "published": "2026-11-22",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "publisher": "Dragos",
+          "published": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
+          "publisher": "SecurityWeek",
+          "published": "2026-11-23",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Anthropic closes $93.5 billion IPO and $26 billion supplier private placement as tech market sells off",
+      "type": "funding",
+      "summary": "On November 20, 2026, Anthropic closed its initial public offering of 1.127 billion Class A shares at $83 per share, raising $93.5 billion in gross proceeds alongside a concurrent $26 billion private placement of Class N shares to seven tech suppliers. The closing occurred amid a broader global stock market sell-off across AI and tech shares.",
+      "follow_up_of": "2026-11-19-anthropic-prices-ipo-at-83",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "publisher": "Anthropic",
+          "published": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "publisher": "The Guardian",
+          "published": "2026-11-20",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
+          "publisher": "CNN",
+          "published": "2026-11-20",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
