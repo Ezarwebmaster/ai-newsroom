@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 3.8 Flash",
+    "kind": "fact",
+    "line": 6,
+    "old": "The Lean and Mathlib communities certified on November 21, 2026 that Levent Alp\u00f6ge's proof of the Riemann hypothesis is correct, following his release of a Claude-assisted Lean library on November 20, 2026.[^1][^2]",
+    "new": "The Lean and Mathlib communities certified on November 21, 2026 that Levent Alp\u00f6ge's proof of the Riemann hypothesis is correct, following his release of a Claude-assisted Lean library on November 20, 2026.[^1][^2][^6]",
+    "why": "Add Guardian citation documenting that Alp\u00f6ge worked with Claude over six weeks to develop the solution.",
+    "support": [
+      {
+        "source": 6,
+        "quote": "He says that Claude helped develop a solution to the problem during the course of about six weeks."
+      }
+    ]
+  }
+]
