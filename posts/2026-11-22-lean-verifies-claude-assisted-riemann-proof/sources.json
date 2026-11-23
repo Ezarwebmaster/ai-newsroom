@@ -26,7 +26,7 @@
         "by": "reviser"
       },
       {
-        "text": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code.",
+        "text": "On November 20, 2026, Levent Alp\u00f6ge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code.",
         "for": "Release date of November 20, 2026 and size of 17 million lines of code.",
         "by": "reviser"
       },
@@ -41,12 +41,12 @@
         "by": "reviser"
       },
       {
-        "text": "That statement was compared against the theorem proved by Alpöge using two independent tools (comparator and con-leche –compare), both confirming that the theorem proved in Alpöge’s library is exactly Mathlib’s statement of the Riemann Hypothesis.",
-        "for": "Independent comparison tools comparator and con-leche --compare matching Alpöge's theorem to Mathlib's statement.",
+        "text": "That statement was compared against the theorem proved by Alp\u00f6ge using two independent tools (comparator and con-leche \u2013compare), both confirming that the theorem proved in Alp\u00f6ge\u2019s library is exactly Mathlib\u2019s statement of the Riemann Hypothesis.",
+        "for": "Independent comparison tools comparator and con-leche --compare matching Alp\u00f6ge's theorem to Mathlib's statement.",
         "by": "reviser"
       },
       {
-        "text": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof, thus addressing concerns that Lean’s logic itself might have flaws that the proof could exploit.",
+        "text": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof, thus addressing concerns that Lean\u2019s logic itself might have flaws that the proof could exploit.",
         "for": "Formal soundness proofs relative to set theory for con-leche and con-ron.",
         "by": "reviser"
       },
@@ -61,7 +61,7 @@
     "id": 2,
     "url": "https://alpo.ge/remark.pdf",
     "title": "A remark on the Riemann Hypothesis",
-    "publisher": "Levent Alpöge",
+    "publisher": "Levent Alp\u00f6ge",
     "kind": "primary",
     "published": null,
     "retrieved": "2026-11-22",
@@ -69,11 +69,11 @@
     "quotes": [
       {
         "text": "Claude and I have also formalized the arguments without assumptions.",
-        "for": "Alpöge attributes the formalized argument to his collaboration with Claude.",
+        "for": "Alp\u00f6ge attributes the formalized argument to his collaboration with Claude.",
         "by": "writer"
       },
       {
-        "text": "This argument is a descendant of Stepanov’s, but multiplicity is hard to find over the integers, corresponding to something like differentiating whole numbers.",
+        "text": "This argument is a descendant of Stepanov\u2019s, but multiplicity is hard to find over the integers, corresponding to something like differentiating whole numbers.",
         "for": "The proof's mathematical lineage as a descendant of Stepanov's function-field argument.",
         "by": "reviser"
       },
@@ -84,12 +84,12 @@
       },
       {
         "text": "The argument is incredibly long at the moment, and while its formalization is finished and it is routine to produce a huge, unreadable document containing sufficient detail, in my view of my path I have just taken a step.",
-        "for": "Why Alpöge did not release a machine-generated prose document alongside the finished formalization.",
+        "for": "Why Alp\u00f6ge did not release a machine-generated prose document alongside the finished formalization.",
         "by": "reviser"
       },
       {
         "text": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly.",
-        "for": "Alpöge's commitment to understand, simplify, and write a proper mathematical exposition.",
+        "for": "Alp\u00f6ge's commitment to understand, simplify, and write a proper mathematical exposition.",
         "by": "reviser"
       },
       {
@@ -98,8 +98,8 @@
         "by": "reviser"
       },
       {
-        "text": "The precise timing is horrible. If I could have, I’d have finished this all much earlier.",
-        "for": "Alpöge's remark on the timing of the discovery.",
+        "text": "The precise timing is horrible. If I could have, I\u2019d have finished this all much earlier.",
+        "for": "Alp\u00f6ge's remark on the timing of the discovery.",
         "by": "reviser"
       }
     ]
@@ -161,7 +161,7 @@
       },
       {
         "text": "lean.tar.gz, the 14 parts from alpo.ge joined; 239,275,554 bytes",
-        "for": "The 14-part source archive released on Alpöge's site.",
+        "for": "The 14-part source archive released on Alp\u00f6ge's site.",
         "by": "reviser"
       },
       {
@@ -192,12 +192,12 @@
         "by": "writer"
       },
       {
-        "text": "Formulated in Riemann’s 1859 paper, it asserts that all the ‘non-obvious’ zeros of the zeta function are complex numbers with real part 1/2.",
+        "text": "Formulated in Riemann\u2019s 1859 paper, it asserts that all the \u2018non-obvious\u2019 zeros of the zeta function are complex numbers with real part 1/2.",
         "for": "Riemann's 1859 formulation and the real part 1/2 condition for non-obvious zeros.",
         "by": "reviser"
       },
       {
-        "text": "The Riemann hypothesis asserts that all interesting solutions of the equation ζ(s) = 0 lie on a certain vertical straight line. This has been checked for the first 10,000,000,000,000 solutions.",
+        "text": "The Riemann hypothesis asserts that all interesting solutions of the equation \u03b6(s) = 0 lie on a certain vertical straight line. This has been checked for the first 10,000,000,000,000 solutions.",
         "for": "Computational verification for the first 10,000,000,000,000 solutions.",
         "by": "reviser"
       },
@@ -205,6 +205,21 @@
         "text": "A proof that it is true for every interesting solution would shed light on many of the mysteries surrounding the distribution of prime numbers.",
         "for": "Clay Mathematics Institute's conditional phrasing on its active problem page.",
         "by": "reviser"
+      },
+      {
+        "text": "a refereed mathematics publication of worldwide repute meeting the conditions in Section 6(e)",
+        "for": "Clay rules requirement for qualifying outlet publication.",
+        "by": "checker"
+      },
+      {
+        "text": "at least two (2) years have elapsed since publication of the Proposed Solution in a Qualifying Outlet",
+        "for": "Clay rules two-year minimum elapsed time window after publication.",
+        "by": "checker"
+      },
+      {
+        "text": "the Proposed Solution has achieved general acceptance in the global mathematics community",
+        "for": "Clay rules general acceptance requirement in global mathematics community.",
+        "by": "checker"
       }
     ]
   },
@@ -228,7 +243,7 @@
   {
     "id": 6,
     "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-    "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+    "title": "Two groups verify mathematician\u2019s claim that Claude helped prove mathematics problem",
     "publisher": "The Guardian",
     "kind": "press",
     "published": "2026-11-21",
@@ -242,12 +257,12 @@
         "by": "reviser"
       },
       {
-        "text": "Levent Alpöge, a Turkish American mathematician, on Friday posted a note on his personal website saying that Claude, the AI software, had helped prove the Riemann hypothesis. He says that Claude helped develop a solution to the problem during the course of about six weeks.",
-        "for": "Alpöge developing the proof with Claude over roughly six weeks.",
+        "text": "Levent Alp\u00f6ge, a Turkish American mathematician, on Friday posted a note on his personal website saying that Claude, the AI software, had helped prove the Riemann hypothesis. He says that Claude helped develop a solution to the problem during the course of about six weeks.",
+        "for": "Alp\u00f6ge developing the proof with Claude over roughly six weeks.",
         "by": "reviser"
       },
       {
-        "text": "Alpöge’s note was published just one day after Anthropic went public on the Nasdaq stock market index. He acknowledged that, writing: “The precise timing is horrible. If I could have, I’d have finished this all much earlier.”",
+        "text": "Alp\u00f6ge\u2019s note was published just one day after Anthropic went public on the Nasdaq stock market index. He acknowledged that, writing: \u201cThe precise timing is horrible. If I could have, I\u2019d have finished this all much earlier.\u201d",
         "for": "Release timing one day after Anthropic's Nasdaq stock market debut.",
         "by": "reviser"
       },

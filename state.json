@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-22-2",
-  "next": "checker",
-  "post": "2026-11-22-lean-verifies-claude-assisted-riemann-proof",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -127,6 +127,12 @@
     {
       "cycle": "2026-11-22",
       "post": "2026-11-22-thinking-machines-inkling-2-mini",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-22-2",
+      "post": "2026-11-22-lean-verifies-claude-assisted-riemann-proof",
       "kind": "story",
       "status": "ready"
     }

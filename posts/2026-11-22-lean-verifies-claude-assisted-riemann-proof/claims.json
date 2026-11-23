@@ -1,0 +1,473 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "The Lean and Mathlib communities certified Alp\u00f6ge's Claude-assisted Riemann proof.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Independent checks matched the proof to Mathlib's statement while mathematical explanation remains a separate task.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "That statement was compared against the theorem proved by Alp\u00f6ge using two independent tools (comparator and con-leche \u2013compare), both confirming that the theorem proved in Alp\u00f6ge\u2019s library is exactly Mathlib\u2019s statement of the Riemann Hypothesis."
+      },
+      {
+        "source": 2,
+        "quote": "it is routine to produce a huge, unreadable document containing sufficient detail, in my view of my path I have just taken a step"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "The Lean and Mathlib communities certified on November 21, 2026 that Alp\u00f6ge's Riemann hypothesis proof released on November 20, 2026 is correct.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct."
+      },
+      {
+        "source": 1,
+        "quote": "On November 20, 2026, Levent Alp\u00f6ge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "The joint statement is endorsed by the Lean FRO and Mathlib Initiative.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Joint statement by the Lean FRO and the Mathlib Initiative."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 9,
+    "claim": "Alp\u00f6ge developed the solution with Claude over roughly six weeks and published his note and 14-part archive one day after Anthropic went public on Nasdaq.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Claude helped develop a solution to the problem during the course of about six weeks."
+      },
+      {
+        "source": 6,
+        "quote": "Alp\u00f6ge\u2019s note was published just one day after Anthropic went public on the Nasdaq stock market index."
+      },
+      {
+        "source": 3,
+        "quote": "lean.tar.gz, the 14 parts from alpo.ge joined; 239,275,554 bytes"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 14,
+    "claim": "The library comprises 17 million lines of code and depends directly only on Mathlib according to the November 21, 2026 statement.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "On November 20, 2026, Levent Alp\u00f6ge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code."
+      },
+      {
+        "source": 1,
+        "quote": "The codebase depends directly only on Mathlib."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 15,
+    "claim": "Independent compilation reproduced the exported proof and separate comparison tools matched the theorem to Mathlib's Riemann hypothesis definition.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "That statement was compared against the theorem proved by Alp\u00f6ge using two independent tools (comparator and con-leche \u2013compare), both confirming that the theorem proved in Alp\u00f6ge\u2019s library is exactly Mathlib\u2019s statement of the Riemann Hypothesis."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "Matching the statement rules out proving a different theorem.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Crucially, the community has added a file that isolates the statement of the Riemann Hypothesis and imports only Mathlib."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 18,
+    "claim": "The community isolated Mathlib's theorem statement in a separate challenge file and checked it against Alp\u00f6ge's theorem with comparator and con-leche --compare.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Crucially, the community has added a file that isolates the statement of the Riemann Hypothesis and imports only Mathlib."
+      },
+      {
+        "source": 1,
+        "quote": "That statement was compared against the theorem proved by Alp\u00f6ge using two independent tools (comparator and con-leche \u2013compare), both confirming that the theorem proved in Alp\u00f6ge\u2019s library is exactly Mathlib\u2019s statement of the Riemann Hypothesis."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 21,
+    "claim": "Independent checkers accepted an inert proof export insulated from hypothetical malicious source code.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "These checks ran on an inert export of the proof, out of reach of hypothetical malicious code in the Lean proof sources."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 23,
+    "claim": "Checkers include Lean's official kernel, con-leche and con-ron, both carrying a formal proof relative to set theory that they cannot accept a false proof.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof, thus addressing concerns that Lean\u2019s logic itself might have flaws that the proof could exploit."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 26,
+    "claim": "Sutherland's page updated on November 23, 2026 reports compilation of all 175,187 modules and only the three standard Lean axioms for the five headline theorems.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms"
+      },
+      {
+        "source": 3,
+        "quote": "All 175,187 modules compile (Lean v4.33.1, Mathlib v4.33.1)"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 27,
+    "claim": "His results distinguish completed checks from additional Lean-kernel export replays still running.",
+    "status": "absence",
+    "note": "Sutherland notes paranoid kernel export replay and lake comparator run are still in progress."
+  },
+  {
+    "id": 14,
+    "line": 28,
+    "claim": "The verified generalization concerns Dirichlet L-functions and does not cover every broader family of L-functions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "\"GRH\" here means Dirichlet L-functions: all moduli and all characters. Dedekind zeta functions, Hecke L-functions and automorphic L-functions in general are not among the statements that were checked."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 30,
+    "claim": "A sandboxed rebuild reproduced the 61,570,595,788-byte export byte for byte, nanoda verified it in 27 minutes 42 seconds on 80 threads and con-leche checked 1,468,418 declarations in 3 minutes 15 seconds on 64 threads.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The exported proof: output of lean4export on module Main. Unpacks to 61,570,595,788 bytes."
+      },
+      {
+        "source": 3,
+        "quote": "27 min 42 s on 80 threads"
+      },
+      {
+        "source": 3,
+        "quote": "1,468,418 declarations accepted in --verified mode; exit 0 at 21:19:04 UTC; 3 min 15 s on 64 threads (log)"
+      },
+      {
+        "source": 3,
+        "quote": "The export made inside that sandbox is byte-identical to the published one"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 31,
+    "claim": "Sutherland combined the proof with Robin's and Lagarias's divisor-sum criteria, verifying both inequalities with no mention of zeta.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Importing both gives two theorems about the divisor sum, with no hypotheses and no mention of zeta"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 32,
+    "claim": "Dedekind zeta functions, Hecke L-functions and general automorphic L-functions were not among the checked statements.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "\"GRH\" here means Dirichlet L-functions: all moduli and all characters. Dedekind zeta functions, Hecke L-functions and automorphic L-functions in general are not among the statements that were checked."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 37,
+    "claim": "Alp\u00f6ge and Claude formalized the arguments without assumptions, with Alp\u00f6ge guiding the approach and Claude providing advances.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Claude and I have also formalized the arguments without assumptions."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 38,
+    "claim": "Alp\u00f6ge released Lean rather than conventional exposition, acknowledging he had not mastered a large neighborhood surrounding the argument.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This puts us in the rather extraordinary situation this age has made possible, in which I am presenting the world with a complete argument before having mastered a massive neighbourhood around its mathematics."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 39,
+    "claim": "Alp\u00f6ge intends to understand, explain and simplify the argument.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 41,
+    "claim": "Alp\u00f6ge describes the proof as a descendant of Stepanov's argument using Fourier-analytic ideas to chain theta lifts to mimic multiplicity over integers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "This argument is a descendant of Stepanov\u2019s, but multiplicity is hard to find over the integers, corresponding to something like differentiating whole numbers."
+      },
+      {
+        "source": 2,
+        "quote": "The simple, new, Fourier-analytic ideas in the toy setting led us to examine chaining theta lifts if we were to have the same tricks recur but work in a natively automorphic manner."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 42,
+    "claim": "Alp\u00f6ge wrote that while generating a huge unreadable document is routine, he viewed the formal library as a first step before proper exposition.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The argument is incredibly long at the moment, and while its formalization is finished and it is routine to produce a huge, unreadable document containing sufficient detail, in my view of my path I have just taken a step."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 45,
+    "claim": "Thomas Bloom told Le Monde the result would be a major mathematical achievement while cautioning immediate practical applications would not follow.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "It wouldn't have any practical implications (at least not immediately)"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 49,
+    "claim": "The hypothesis concerns deviations from the average distribution of prime numbers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The Riemann hypothesis tells us about the deviation from the average."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 50,
+    "claim": "Clay Mathematics Institute describes the hypothesis as asserting non-obvious zeros of the zeta function have real part 1/2.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Formulated in Riemann\u2019s 1859 paper, it asserts that all the \u2018non-obvious\u2019 zeros of the zeta function are complex numbers with real part 1/2."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 51,
+    "claim": "Clay's problem page still lists the problem as active and notes a proof would shed light on prime distribution.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "A proof that it is true for every interesting solution would shed light on many of the mysteries surrounding the distribution of prime numbers."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 53,
+    "claim": "Formulated in 1859 and checked computationally for 10,000,000,000,000 solutions, the conjecture is a Millennium Prize Problem selected in 2000 offering $1m.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The Riemann hypothesis asserts that all interesting solutions of the equation \u03b6(s) = 0 lie on a certain vertical straight line. This has been checked for the first 10,000,000,000,000 solutions."
+      },
+      {
+        "source": 6,
+        "quote": "The Riemann hypothesis is one of the seven Millennium prize math problems selected in 2000 by the Clay Mathematics Institute. The institute has offered $1m for each problem solved."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 55,
+    "claim": "Alp\u00f6ge's promised explanation remains a separate task from formal verification.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The argument is incredibly long at the moment, and while its formalization is finished and it is routine to produce a huge, unreadable document containing sufficient detail, in my view of my path I have just taken a step."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 60,
+    "claim": "Under Clay rules, a proposed solution must appear in a qualifying refereed journal rather than an informal repository or preprint.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "a refereed mathematics publication of worldwide repute meeting the conditions in Section 6(e)"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 61,
+    "claim": "Clay rules require at least two years to elapse after refereed publication to establish general mathematical acceptance before an award recommendation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "at least two (2) years have elapsed since publication of the Proposed Solution in a Qualifying Outlet"
+      },
+      {
+        "source": 4,
+        "quote": "the Proposed Solution has achieved general acceptance in the global mathematics community"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 62,
+    "claim": "Alp\u00f6ge stated that simplifying and explaining the argument in conventional mathematical prose remains an ongoing project with no release date.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "line": 66,
+    "claim": "The Lean and Mathlib communities certified on November 21, 2026 that Alp\u00f6ge proved the Riemann hypothesis in Lean matching Mathlib's statement.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct."
+      },
+      {
+        "source": 1,
+        "quote": "That statement was compared against the theorem proved by Alp\u00f6ge using two independent tools (comparator and con-leche \u2013compare), both confirming that the theorem proved in Alp\u00f6ge\u2019s library is exactly Mathlib\u2019s statement of the Riemann Hypothesis."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "line": 67,
+    "claim": "Sutherland's verification page confirmed on November 23, 2026 that 175,187 modules compile using standard Lean axioms, reproduced in an offline sandbox.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "All 175,187 modules compile (Lean v4.33.1, Mathlib v4.33.1)"
+      },
+      {
+        "source": 3,
+        "quote": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms"
+      },
+      {
+        "source": 3,
+        "quote": "The export made inside that sandbox is byte-identical to the published one"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "line": 68,
+    "claim": "Alp\u00f6ge and Claude formalized the proof without assumptions while mathematical exposition and Clay prize criteria remain future tasks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Claude and I have also formalized the arguments without assumptions."
+      },
+      {
+        "source": 4,
+        "quote": "a refereed mathematics publication of worldwide repute meeting the conditions in Section 6(e)"
+      }
+    ]
+  }
+]

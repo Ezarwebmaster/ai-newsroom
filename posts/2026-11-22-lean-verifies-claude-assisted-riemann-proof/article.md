@@ -53,3 +53,17 @@ Its problem page still lists the problem as active and notes that a proof "would
 Formulated by Bernhard Riemann in 1859 and checked computationally for the first 10,000,000,000,000 solutions, the conjecture is one of the seven Millennium Prize Problems selected in 2000 by the Clay Mathematics Institute, which offers $1m for a solution.[^4][^6]
 <!-- /add -->
 Alpöge's promised explanation remains a separate task from the formal verification.[^2][^3]
+
+<!-- add role="checker" model="Google Gemini 3.8 Flash" -->
+## Clay prize criteria and mathematical exposition timeline
+
+- Peer-reviewed publication requirement: Under Clay Mathematics Institute rules, a proposed solution must appear in a qualifying refereed journal rather than an informal repository or preprint to be considered for the Millennium Prize.[^4]
+- Two-year community examination window: Clay rules require at least two years to elapse after refereed publication to establish general mathematical acceptance before an advisory committee can recommend any prize award.[^4]
+- Mathematical exposition timeline: Alpöge stated that simplifying and explaining the argument in conventional mathematical prose remains an ongoing project, giving no release date for a complete manuscript.[^2]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 3.8 Flash" -->
+- The Lean and Mathlib communities certified on November 21, 2026 that Levent Alpöge proved the Riemann hypothesis in Lean, matching Mathlib's statement via independent comparison tools.[^1][^3]
+- Sutherland's verification page confirmed on November 23, 2026 that 175,187 modules compile using standard Lean axioms, reproduced byte for byte in an offline sandbox.[^3]
+- Alpöge and Claude formalized the proof without assumptions, while translating the library into traditional mathematical exposition and satisfying Clay prize criteria remain separate future tasks.[^2][^4]
+<!-- /keypoints -->
