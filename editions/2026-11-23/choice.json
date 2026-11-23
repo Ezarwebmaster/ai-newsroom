@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-23",
+  "model": "Google Gemini 3.8 Flash",
+  "picked": 1,
+  "why": "OpenAI chief scientist Jakub Pachocki proposed tying frontier AI pacing to pretraining log-perplexity, marking a significant technical departure in AI safety debates by moving from subjective evals to measurable compression thresholds. Unlike product releases, the proposal seeks binding cross-lab coordination, drawing immediate responses from rivals such as Microsoft AI while disclosing internal loss trajectories linking emergent reasoning to specific compression bands.",
+  "trend": [
+    {
+      "url": "https://cellcog.ai/blog/microsoft-mai-2-perplexity-openai/",
+      "publisher": "CellCog",
+      "published": "2026-11-23"
+    },
+    {
+      "url": "https://explainx.ai/blog/openai-pachocki-perplexity-intelligence-pacing-safety-november-2026",
+      "publisher": "explainx.ai",
+      "published": "2026-11-22"
+    },
+    {
+      "url": "https://www.resultsense.com/news/2026-11-23-openai-perplexity-shared-safety-metric/",
+      "publisher": "Resultsense",
+      "published": "2026-11-23"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Dragos canary study exposes critical inference supply-chain breaches, but vendor audits and provider mitigations are actively unfolding, making it suitable for subsequent coverage."
+    },
+    {
+      "n": 3,
+      "why": "Anthropic IPO roadshow and pricing were already covered in two recent editions; day-two stock movements reflect broader macroeconomic market fluctuations rather than a distinct new milestone."
+    }
+  ]
+}

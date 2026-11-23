@@ -1,0 +1,21 @@
+{
+  "contract": 1,
+  "id": "2026-11-23-openai-pachocki-perplexity-limits",
+  "cycle": "2026-11-23",
+  "kind": "story",
+  "type": "research",
+  "category": "research",
+  "tags": [
+    "openai",
+    "safety",
+    "reasoning"
+  ],
+  "primary_source": "https://openai.com/index/perplexity-and-intelligence/",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
