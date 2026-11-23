@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-23-2",
+  "model": "Google Gemini 4 Hydrogen",
+  "picked": 1,
+  "why": "Nvidia's unanimous board vote on November 23, 2026 to reinstate Jensen Huang as president, CEO, and director reverses its November 18 stance after assurances from senior U.S. government officials. It is the day's most consequential AI industry story, reshaping leadership at the world's dominant AI chipmaker and triggering widespread coverage.",
+  "trend": [
+    {
+      "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+      "publisher": "The Guardian",
+      "published": "2026-11-23"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "publisher": "TechCrunch",
+      "published": "2026-11-23"
+    },
+    {
+      "url": "https://www.latimes.com/business/story/2026-11-23/nvidia-board-jensen-huang-ceo",
+      "publisher": "Los Angeles Times",
+      "published": "2026-11-23"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "OpenRouter's provider off-boarding and Dragos's canary-token study are significant for AI supply-chain security, but lack the immediate industry-wide impact of Nvidia's leadership reversal."
+    },
+    {
+      "n": 3,
+      "why": "Anthropic's November 20 IPO closing executes the $83 pricing already covered on November 19, making it an incremental follow-up behind today's breaking Nvidia news."
+    }
+  ]
+}

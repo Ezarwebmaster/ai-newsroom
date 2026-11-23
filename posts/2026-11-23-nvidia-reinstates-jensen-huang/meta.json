@@ -1,0 +1,21 @@
+{
+  "contract": 1,
+  "id": "2026-11-23-nvidia-reinstates-jensen-huang",
+  "cycle": "2026-11-23-2",
+  "kind": "story",
+  "type": "company",
+  "category": "industry",
+  "tags": [
+    "nvidia",
+    "leadership",
+    "chips"
+  ],
+  "primary_source": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+  "follow_up_of": "2026-11-13-nvidia-ceo-transition",
+  "sensitive": true,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
