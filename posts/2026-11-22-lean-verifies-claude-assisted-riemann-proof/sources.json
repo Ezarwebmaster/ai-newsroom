@@ -13,6 +13,11 @@
         "text": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
         "for": "The communities certify both the theorem statement and its proof.",
         "by": "writer"
+      },
+      {
+        "text": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof, thus addressing concerns that Lean’s logic itself might have flaws that the proof could exploit.",
+        "for": "Formal soundness proof of con-leche and con-ron relative to set theory.",
+        "by": "reviser"
       }
     ]
   },
@@ -30,6 +35,21 @@
         "text": "Claude and I have also formalized the arguments without assumptions.",
         "for": "Alpöge attributes the formalized argument to his collaboration with Claude.",
         "by": "writer"
+      },
+      {
+        "text": "This argument is a descendant of Stepanov’s, but multiplicity is hard to find over the integers, corresponding to something like differentiating whole numbers.",
+        "for": "Alpöge describes the argument as a descendant of Stepanov's function-field method.",
+        "by": "reviser"
+      },
+      {
+        "text": "The simple, new, Fourier-analytic ideas in the toy setting led us to examine chaining theta lifts if we were to have the same tricks recur but work in a natively automorphic manner.",
+        "for": "Chaining theta lifts to mimic multiplicity over the integers.",
+        "by": "reviser"
+      },
+      {
+        "text": "The precise timing is horrible. If I could have, I’d have finished this all much earlier.",
+        "for": "Alpöge's remark on the timing of his announcement.",
+        "by": "reviser"
       }
     ]
   },
@@ -47,6 +67,11 @@
         "text": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms",
         "for": "Sutherland reports successful compilation and itemizes verification results.",
         "by": "writer"
+      },
+      {
+        "text": "As a check that does not depend on Mathlib's definition of the zeta function, the proof was combined with kimihiro64/Robin1984 (commit acab1a3), an independent formalization of Robin's and Lagarias's criteria on the same Lean and Mathlib versions.",
+        "for": "Independent arithmetic check via Robin's and Lagarias's divisor-sum inequalities.",
+        "by": "reviser"
       }
     ]
   },
@@ -81,6 +106,82 @@
         "text": "It wouldn't have any practical implications (at least not immediately)",
         "for": "Thomas Bloom cautions against expecting immediate practical applications.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+    "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+    "publisher": "The Guardian",
+    "kind": "press",
+    "published": "2026-11-21",
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Anthropic’s Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis",
+        "for": "Alpöge's Anthropic affiliation and six-week timeline.",
+        "by": "reviser"
+      },
+      {
+        "text": "Alpöge’s note was published just one day after Anthropic went public on the Nasdaq stock market index.",
+        "for": "Timing one day after Anthropic's Nasdaq listing.",
+        "by": "reviser"
+      },
+      {
+        "text": "even as mathematicians express uneasiness around extremely lucrative private companies dishing out millions of dollars for the technology to solve problems.",
+        "for": "Mathematicians' unease over private companies funding AI math efforts.",
+        "by": "reviser"
+      },
+      {
+        "text": "The Riemann hypothesis is one of the seven Millennium prize math problems selected in 2000 by the Clay Mathematics Institute. The institute has offered $1m for each problem solved.",
+        "for": "Millennium Prize status and $1 million award.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+    "title": "Unforced Euler singularity, unforced Navier-Stokes singularity, and the Generalized Riemann Hypothesis",
+    "publisher": "Terence Tao",
+    "kind": "other",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "extract the strategy of proof (which, from very initial analysis, appears to use the full power of modern developments on the Langlands program and arithmetic geometry).",
+        "for": "Tao's initial assessment of the mathematical fields used in the proof.",
+        "by": "reviser"
+      },
+      {
+        "text": "I imagine the digestion process will take some time, though in this case at least we have a human author to communicate with to assist with this task.",
+        "for": "Tao's comment that digesting the proof will take time.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://www.claymath.org/millennium-problems/rules/",
+    "title": "Rules for the Millennium Prize Problems",
+    "publisher": "Clay Mathematics Institute",
+    "kind": "primary",
+    "published": null,
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "CMI does not accept direct submission of proposed solutions.",
+        "for": "Clay Mathematics Institute does not accept direct submissions.",
+        "by": "reviser"
+      },
+      {
+        "text": "(i) the proposed solution must be published in a Qualifying Outlet (see §6), and (ii) at least two years must have passed since publication, and (iii) the proposed solution must have received general acceptance in the global mathematics community",
+        "for": "Clay's three prerequisites for considering a Millennium Prize solution.",
+        "by": "reviser"
       }
     ]
   }
