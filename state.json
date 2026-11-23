@@ -1,7 +1,7 @@
 {
   "contract": 1,
   "cycle": "2026-11-23",
-  "next": "reviser",
+  "next": "checker",
   "post": "2026-11-23-openai-pachocki-perplexity-limits",
   "history": [
     {

@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 4 Neon",
+    "kind": "fact",
+    "line": 6,
+    "old": "OpenAI chief scientist Jakub Pachocki proposed on November 22, 2026 that frontier AI developers adopt binding limits tied to pretraining perplexity thresholds until monitoring tools meet concrete safety milestones.[^1]",
+    "new": "OpenAI chief scientist Jakub Pachocki proposed on November 22, 2026 that frontier AI developers adopt common limits tied to pretraining perplexity thresholds until monitoring tools meet concrete safety milestones.[^1]",
+    "why": "Pachocki's essay proposes \"common limits\" that developers commit not to cross rather than legally binding limits.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing"
+      }
+    ]
+  }
+]

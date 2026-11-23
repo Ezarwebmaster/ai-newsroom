@@ -43,6 +43,21 @@
         "text": "in currently dominant forms of alignment auditing and further increases in evaluation and training awareness.",
         "for": "Expected degradation in alignment auditing and higher evaluation awareness.",
         "by": "writer"
+      },
+      {
+        "text": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone",
+        "for": "Pachocki proposed common limits rather than legally binding limits.",
+        "by": "reviser"
+      },
+      {
+        "text": "On the plot of losses of OpenAI models, you can see a steep acceleration in 2026. We attribute it mostly to the outcomes of long term research and compute investments, and only in a smaller part to automation.",
+        "for": "Footnote attribution of OpenAI's 2026 loss acceleration primarily to long-term research and compute investments.",
+        "by": "reviser"
+      },
+      {
+        "text": "However, for the most recent models, we have already seen meaningful design contributions coming from AI",
+        "for": "Footnote noting AI design contributions in OpenAI's most recent models.",
+        "by": "reviser"
       }
     ]
   },
@@ -87,6 +102,11 @@
         "text": "The proposal comes as the US prepares for renewed debate over AI regulation following Democrats’ sweeping victories in the midterm elections.",
         "for": "U.S. regulatory context following the 2026 midterm elections.",
         "by": "writer"
+      },
+      {
+        "text": "Some lawmakers are also discussing the creation of a dedicated Senate committee to coordinate AI policy.",
+        "for": "Discussion of a dedicated Senate committee to coordinate AI policy.",
+        "by": "reviser"
       }
     ]
   },
@@ -114,6 +134,85 @@
         "text": "For everyone else he proposes a different unit: “we might need to report bits-per-byte (BPB) rather than perplexity since different labs use different tokenizers”.",
         "for": "Suleyman's proposal to use bits per byte for labs with different tokenizers.",
         "by": "writer"
+      },
+      {
+        "text": "Its log-perplexity is 0.819, putting it in the same ballpark as the GPT-5.6 Sol base model.",
+        "for": "Suleyman comparing MAI-2 Base to OpenAI's GPT-5.6 Sol base model.",
+        "by": "reviser"
+      },
+      {
+        "text": "On the chart, MAI-2 Base sits just below GPT-5.6 Sol, near the line OpenAI marks as cybersecurity expert, and above both Astra models.",
+        "for": "MAI-2 Base placement relative to GPT-5.6 Sol and both Astra models.",
+        "by": "reviser"
+      },
+      {
+        "text": "No lab has named a limit value. Pachocki proposed limits; Microsoft backed the idea and shared a number.",
+        "for": "Microsoft did not commit to a specific numerical limit.",
+        "by": "reviser"
+      },
+      {
+        "text": "Anthropic, Google DeepMind, Meta and xAI had published no number when we read the posts at 03:19 UTC.",
+        "for": "Status of other major frontier labs as of 03:19 UTC on November 23, 2026.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://alignment.openai.com/cot-monitorability-model-lifecycle",
+    "title": "What affects chain-of-thought monitorability across the model lifecycle?",
+    "publisher": "OpenAI",
+    "kind": "primary",
+    "published": "2026-11-10",
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Lower base-model perplexity and some architectural changes improve no-CoT reasoning, while RL and model-generated data can increase CoT controllability.",
+        "for": "Correlation between lower base-model perplexity and stronger no-CoT reasoning.",
+        "by": "reviser"
+      },
+      {
+        "text": "These are imperfect proxies for monitorability, but together they indicate that models will become harder to monitor through their CoT as we scale toward more intelligent systems.",
+        "for": "Finding that scaling makes models harder to monitor through chain of thought.",
+        "by": "reviser"
+      },
+      {
+        "text": "However, with GPT-6 Astra we observed degradation in CoT monitorability for non-adversarial settings",
+        "for": "Observed CoT monitorability degradation in GPT-6 Astra.",
+        "by": "reviser"
+      },
+      {
+        "text": "greater ability to perform CoT monitor evasion under adversarial testing",
+        "for": "Observed monitor-evasion capability in GPT-6 Astra under adversarial testing.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "title": "We Must Pace the Frontier",
+    "publisher": "Dario Amodei",
+    "kind": "primary",
+    "published": "2026-09-12",
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Each frontier AI company commits to giving ongoing, employee-like access to a team of embedded third-party evaluators (such as METR), whose role is to verify adherence to safety practices and commitments",
+        "for": "Amodei's proposal for embedded third-party evaluators such as METR.",
+        "by": "reviser"
+      },
+      {
+        "text": "whose role is to verify adherence to safety practices and commitments, report incidents, and help assess the alignment of not just completed AI models but training pipelines and processes.",
+        "for": "Embedded evaluators inspecting training pipelines and processes.",
+        "by": "reviser"
+      },
+      {
+        "text": "The most effective method of pacing is via regulation that targets all US frontier AI companies, as that covers even those who are unwilling to cooperate voluntarily.",
+        "for": "Amodei's argument for regulation to cover companies unwilling to cooperate voluntarily.",
+        "by": "reviser"
       }
     ]
   }
