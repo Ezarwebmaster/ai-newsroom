@@ -13,6 +13,36 @@
         "text": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
         "for": "The communities certify both the theorem statement and its proof.",
         "by": "writer"
+      },
+      {
+        "text": "Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative.",
+        "for": "Endorsement of the joint verification statement by the Lean FRO and Mathlib Initiative.",
+        "by": "reviser"
+      },
+      {
+        "text": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code.",
+        "for": "Release date and 17-million-line scale of Alpöge's Lean library.",
+        "by": "reviser"
+      },
+      {
+        "text": "The codebase depends directly only on Mathlib. Over the past day, the Lean and Mathlib communities have rallied to verify the proof's correctness.",
+        "for": "Direct dependency only on Mathlib.",
+        "by": "reviser"
+      },
+      {
+        "text": "That statement was compared against the theorem proved by Alpöge using two independent tools (comparator and con-leche –compare), both confirming that the theorem proved in Alpöge’s library is exactly Mathlib’s statement of the Riemann Hypothesis.",
+        "for": "Statement comparison using comparator and con-leche --compare against Mathlib's RiemannHypothesis.",
+        "by": "reviser"
+      },
+      {
+        "text": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof, thus addressing concerns that Lean’s logic itself might have flaws that the proof could exploit.",
+        "for": "Formal soundness proofs relative to set theory for the con-leche and con-ron checkers.",
+        "by": "reviser"
+      },
+      {
+        "text": "These checks ran on an inert export of the proof, out of reach of hypothetical malicious code in the Lean proof sources.",
+        "for": "Verification on an inert proof export insulated from source code execution.",
+        "by": "reviser"
       }
     ]
   },
@@ -30,6 +60,31 @@
         "text": "Claude and I have also formalized the arguments without assumptions.",
         "for": "Alpöge attributes the formalized argument to his collaboration with Claude.",
         "by": "writer"
+      },
+      {
+        "text": "The precise timing is horrible. If I could have, I’d have finished this all much earlier.",
+        "for": "Alpöge's comment on the timing of his release.",
+        "by": "reviser"
+      },
+      {
+        "text": "Our leadership and the few trusted mathematicians I consulted hold extremely similar views on the right things to do in these circumstances",
+        "for": "Consultation with Anthropic leadership and trusted mathematicians before announcing.",
+        "by": "reviser"
+      },
+      {
+        "text": "This puts us in the rather extraordinary situation this age has made possible, in which I am presenting the world with a complete argument before having mastered a massive neighbourhood around its mathematics.",
+        "for": "Presenting the formal Lean proof before mastering the surrounding mathematical neighborhood.",
+        "by": "reviser"
+      },
+      {
+        "text": "The simple, new, Fourier-analytic ideas in the toy setting led us to examine chaining theta lifts if we were to have the same tricks recur but work in a natively automorphic manner.",
+        "for": "Adapting Stepanov's function-field approach by chaining automorphic theta lifts.",
+        "by": "reviser"
+      },
+      {
+        "text": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly.",
+        "for": "Alpöge's commitment to understand, simplify, and write a proper exposition.",
+        "by": "reviser"
       }
     ]
   },
@@ -47,6 +102,31 @@
         "text": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms",
         "for": "Sutherland reports successful compilation and itemizes verification results.",
         "by": "writer"
+      },
+      {
+        "text": "two independently written kernels, nanoda and con-leche, accept the full exported proof, and lean4lean accepts every compiled module.",
+        "for": "Acceptance of the full export by nanoda and con-leche and module verification by lean4lean.",
+        "by": "reviser"
+      },
+      {
+        "text": "An independent sandboxed lake build of the archive reproduces the export byte for byte. The lake comparator run and the Lean-kernel replay of the export are still in progress.",
+        "for": "Byte-for-byte reproduction of the export in a sandboxed rebuild and ongoing export replays.",
+        "by": "reviser"
+      },
+      {
+        "text": "\"GRH\" here means Dirichlet L-functions: all moduli and all characters. Dedekind zeta functions, Hecke L-functions and automorphic L-functions in general are not among the statements that were checked.",
+        "for": "Scope of verified GRH theorems limited to Dirichlet L-functions.",
+        "by": "reviser"
+      },
+      {
+        "text": "As a check that does not depend on Mathlib's definition of the zeta function, the proof was combined with kimihiro64/Robin1984 (commit acab1a3), an independent formalization of Robin's and Lagarias's criteria on the same Lean and Mathlib versions.",
+        "for": "Combining the proof with Robin1984 to verify arithmetic consequences independent of zeta.",
+        "by": "reviser"
+      },
+      {
+        "text": "Importing both gives two theorems about the divisor sum, with no hypotheses and no mention of zeta",
+        "for": "Unconditional divisor-sum inequalities proved without mentioning the zeta function.",
+        "by": "reviser"
       }
     ]
   },
@@ -64,6 +144,16 @@
         "text": "The Riemann hypothesis tells us about the deviation from the average.",
         "for": "The significance of the hypothesis for the distribution of primes.",
         "by": "writer"
+      },
+      {
+        "text": "Formulated in Riemann’s 1859 paper, it asserts that all the ‘non-obvious’ zeros of the zeta function are complex numbers with real part 1/2.",
+        "for": "Riemann's 1859 formulation and the real part 1/2 condition for non-obvious zeros.",
+        "by": "reviser"
+      },
+      {
+        "text": "This has been checked for the first 10,000,000,000,000 solutions. A proof that it is true for every interesting solution would shed light on many of the mysteries surrounding the distribution of prime numbers.",
+        "for": "Prior numerical verification for the first 10,000,000,000,000 solutions.",
+        "by": "reviser"
       }
     ]
   },
@@ -81,6 +171,113 @@
         "text": "It wouldn't have any practical implications (at least not immediately)",
         "for": "Thomas Bloom cautions against expecting immediate practical applications.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+    "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+    "publisher": "The Guardian",
+    "kind": "press",
+    "published": "2026-11-21",
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Levent Alpöge, a Turkish American mathematician, on Friday posted a note on his personal website saying that Claude, the AI software, had helped prove the Riemann hypothesis. He says that Claude helped develop a solution to the problem during the course of about six weeks.",
+        "for": "Alpöge developed the proof with Claude over about six weeks.",
+        "by": "reviser"
+      },
+      {
+        "text": "Alpöge’s note was published just one day after Anthropic went public on the Nasdaq stock market index.",
+        "for": "Release of Alpöge's note one day after Anthropic's Nasdaq IPO.",
+        "by": "reviser"
+      },
+      {
+        "text": "The Riemann hypothesis is one of the seven Millennium prize math problems selected in 2000 by the Clay Mathematics Institute. The institute has offered $1m for each problem solved.",
+        "for": "Selection of the Riemann hypothesis in 2000 as a $1 million Millennium Prize Problem.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://www.quantamagazine.org/updates/transformation/",
+    "title": "As mathematicians race to verify AI Riemann proof, a human proof emerges",
+    "publisher": "Quanta Magazine",
+    "kind": "press",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Alpöge says he had obtained the result on Monday November 16, and delayed sharing it for several days.",
+        "for": "Alpöge obtained the result on November 16, 2026 before releasing it on November 20.",
+        "by": "reviser"
+      },
+      {
+        "text": "Because his attempts to get Claude (Anthropic’s AI model) to produce human-readable text amounted to over 250,000 pages, he has not shared such a text.",
+        "for": "AI-generated human-readable text exceeded 250,000 pages and was withheld.",
+        "by": "reviser"
+      },
+      {
+        "text": "As of this writing, Anthropic has not made an official announcement of either result.",
+        "for": "Absence of an official announcement from Anthropic.",
+        "by": "reviser"
+      },
+      {
+        "text": "As Filippo A. E. Nuccio, a number theorist at the Jean Monnet University in France wrote in an online chat, “WOW, this is gorgeous: it basically contains all number theory produced in the last 50 years, in all branches of the discipline.”",
+        "for": "Filippo A. E. Nuccio's assessment of the proof's scope across 50 years of number theory.",
+        "by": "reviser"
+      },
+      {
+        "text": "As Maksym Radziwill, also of NYU, put it in an email, proof by Lean code short-circuits understanding by focusing on manipulating symbols: “If the symbols are right and follow the rules, then the symbols are a valid proof.”",
+        "for": "Maksym Radziwiłł's criticism that formal Lean code short-circuits mathematical understanding.",
+        "by": "reviser"
+      },
+      {
+        "text": "“The object of mathematics as the rest of science is really the question ‘why?’ and this doesn’t answer it at all.”",
+        "for": "Radziwiłł's comment that symbol manipulation does not answer why the theorem holds.",
+        "by": "reviser"
+      },
+      {
+        "text": "As this unfolded, Ravi Vakil, the president of the American Mathematical Society and a professor at Stanford University, uploaded a 940-page manuscript by Alessandro Masullo, whose LinkedIn page shows that he’s a postdoctoral scholar at Stanford.",
+        "for": "Ravi Vakil uploading Alessandro Masullo's 940-page proposed GRH manuscript.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://www.ihes.fr/~rzhang/files/GRH%20note.pdf",
+    "title": "A preliminary note on Alpöge's proposed proof of the generalized Riemann hypothesis",
+    "publisher": "Robin Zhang, IHES",
+    "kind": "primary",
+    "published": "2026-11-22",
+    "retrieved": "2026-11-23",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "type": "date",
+        "text": "Date: November 22, 2026.",
+        "for": "Publication date of Robin Zhang's preliminary report.",
+        "by": "reviser"
+      },
+      {
+        "text": "The scale of the material involved in [Alp26] makes this an unusual exercise in exposition: the Lean code has roughly 17 million lines of code, while Alpöge [Alp26, p. 2, footnote 2] describes an AI-generated exposition of more than 250,000 pages that he chose not to release.",
+        "for": "Scale of the 17-million-line Lean library and the unreleased 250,000-page AI exposition.",
+        "by": "reviser"
+      },
+      {
+        "text": "I prompted GPT 6 Pro to digest the Lean code on Alpöge’s website, infer a human-readable mathematical proof, to search the literature carefully for earlier sources and analogues of the ideas in the argument, and then to produce a written summary.",
+        "for": "Robin Zhang's use of GPT 6 Pro to produce a preliminary mathematical summary and trace provenance.",
+        "by": "reviser"
+      },
+      {
+        "text": "Given the impossibility of any human checking natural language text against 17 million lines of Lean code in a short timeframe, I cannot claim that this summary is a faithful translation of the Lean code in [Alp26]",
+        "for": "Caution that no human can quickly verify prose against 17 million lines of Lean code.",
+        "by": "reviser"
       }
     ]
   }
