@@ -47,3 +47,17 @@ Anthropic completed due diligence and exchanged draft agreements before withdraw
 <!-- add role="reviser" model="Google Gemini 4 Hydrogen" -->
 The reasons for Anthropic's withdrawal were not publicly established, Calcalist reported, and neither Decart nor Amazon immediately responded to TechCrunch's requests for comment.[^3][^5]
 <!-- /add -->
+<!-- add role="checker" model="Google Gemini 4 Hydrogen" -->
+
+## No disclosed price, closing date or multi-chip guarantee
+
+- Official terms and closing date: Amazon did not disclose the purchase price, payout structure or expected closing timeline beyond saying completion requires regulatory clearance.[^1][^2]
+- Multi-chip support and existing customers: Amazon has not said whether DOS will continue supporting Nvidia and Google processors or what becomes of Decart's AI models and customers such as eBay.[^2]
+- Anthropic's September withdrawal: Calcalist reported that Anthropic finished due diligence before pulling out of a roughly $6 billion deal for reasons not publicly established.[^3]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Hydrogen" -->
+- Amazon agreed on November 23, 2026 to buy Decart's Optimization Stack technology and hire its three co-founders and engineering team in a deal reported at about $7.5 billion.[^1][^2][^3]
+- Integrated via Annapurna Labs, Decart's software will tune Trainium and Inferentia chips as AWS prepares to sell Trainium externally to compete with Nvidia.[^2][^4][^5]
+- Amazon did not disclose financial terms, a closing date, whether DOS will keep supporting Nvidia and Google chips, or what happens to Decart's AI models.[^1][^2]
+<!-- /keypoints -->

@@ -158,6 +158,11 @@
         "text": "However, the company withdrew from the transaction in early September, bringing the proposed acquisition to an abrupt end. The reasons for its decision were not publicly established.",
         "for": "Anthropic's reasons for withdrawing in September 2026 not being publicly established.",
         "by": "reviser"
+      },
+      {
+        "text": "Founded in 2023, Decart initially gained attention for its real-time video-generation technology, including Oasis, an interactive model capable of generating virtual environments,",
+        "for": "Decart's 2023 founding year.",
+        "by": "checker"
       }
     ]
   },

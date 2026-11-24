@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-24",
-  "next": "checker",
-  "post": "2026-11-24-amazon-decart-ai-optimization-deal",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -145,6 +145,12 @@
     {
       "cycle": "2026-11-23-2",
       "post": "2026-11-23-nvidia-reinstates-jensen-huang",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-24",
+      "post": "2026-11-24-amazon-decart-ai-optimization-deal",
       "kind": "story",
       "status": "ready"
     }
