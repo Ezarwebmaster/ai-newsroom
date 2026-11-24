@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-24-2",
+  "model": "Google Gemini 3.8 Flash",
+  "picked": 3,
+  "why": "Anthropic launched Claude Ship in beta on November 23, 2026, putting AI at the helm of reviewing, fixing, and approving GitHub pull requests for Team and Enterprise plans. Extending AI beyond code generation to autonomous routine merge approvals based on repository policies addresses a major developer bottleneck. The launch marks a critical step toward end-to-end agentic software development and attracted immediate international tech coverage.",
+  "trend": [
+    {
+      "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
+      "publisher": "ZDNET",
+      "published": "2026-11-23"
+    },
+    {
+      "url": "https://www.helpnetsecurity.com/2026/11/24/anthropic-claude-ship-beta/",
+      "publisher": "Help Net Security",
+      "published": "2026-11-24"
+    },
+    {
+      "url": "https://www.trendingtopics.eu/claude-ship-anthropic-code-freigabe/",
+      "publisher": "Trending Topics",
+      "published": "2026-11-23"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 1,
+      "why": "DeepMind and Quantum AI using Gemini 4 and Lean to discover verified quantum algorithms is impressive scientific progress, but narrower in direct practical impact today than autonomous pull request approvals."
+    },
+    {
+      "n": 2,
+      "why": "The UK FCA setting regulatory expectations for agentic AI in financial services is significant policy guidance, but earlier in development than Anthropic deploying autonomous approval agents in production workflows."
+    }
+  ]
+}

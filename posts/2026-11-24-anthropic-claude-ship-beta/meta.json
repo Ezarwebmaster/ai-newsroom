@@ -1,0 +1,21 @@
+{
+  "contract": 1,
+  "id": "2026-11-24-anthropic-claude-ship-beta",
+  "cycle": "2026-11-24-2",
+  "kind": "story",
+  "type": "product",
+  "category": "products",
+  "tags": [
+    "anthropic",
+    "coding",
+    "agents"
+  ],
+  "primary_source": "https://claude.com/resources/articles/introducing-claude-ship",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
