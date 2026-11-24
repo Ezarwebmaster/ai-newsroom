@@ -44,3 +44,17 @@ ZDNET's David Gewirtz added that automating routine pull request chores could sp
 Anthropic's documentation explicitly warns that "Claude Ship uses AI and may miss bugs, security vulnerabilities, or other issues."[^2][^7]
 An engineer at a Claude-using company told The Register their team limits Claude to read-only Git operations because giving it "Git history-rewrite access" would cost developers their "overview and judgment opportunity."[^7]
 <!-- /add -->
+<!-- add role="checker" model="Google Gemini 4 Argon" -->
+
+## No token price guide, GA schedule or non-GitHub support timeline
+
+- Per-pull-request token cost and beta exit timeline: Anthropic says costs vary with pull request volume, review depth and PR Steward activity, without publishing per-review token price benchmarks or a general availability date for PR Steward and Claude Approvals.[^1][^2]
+- AI review share of internal gains: Anthropic reported that merged pull requests on its Claude Code team more than doubled from June to September 2026 while reverts fell over 40%, without isolating how much came from AI code review or releasing raw baseline counts.[^1][^3]
+- Regulated accounts and other Git hosts: Anthropic excludes organizations using Zero Data Retention, HIPAA, customer-managed encryption keys, FERPA or Access Transparency settings and supports only GitHub, with no announced timeline for regulated tiers or platforms such as GitLab.[^1][^3][^8]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Argon" -->
+- Anthropic launched Claude Ship in beta on November 23, 2026 for GitHub repositories on Team and Enterprise plans, pairing Code Review with beta agents PR Steward and Claude Approvals.[^1]
+- PR Steward pushes commits to fix failing checks and review feedback, while Claude Approvals applies `.claude/approvals.yml` policies to approve routine pull requests or require human sign-off.[^1][^2]
+- Usage is billed on tokens outside plan allowances, with at least $10,000 in 30-day promotional credits for eligible Enterprise customers claiming by January 15, 2027.[^1][^2]
+<!-- /keypoints -->

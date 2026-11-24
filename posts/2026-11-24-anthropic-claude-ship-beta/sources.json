@@ -99,6 +99,21 @@
         "text": "Claude Ship is not available to organizations with Zero Data Retention, the HIPAA configuration, or customer-managed encryption keys.",
         "for": "Exclusions for Zero Data Retention, HIPAA configurations and customer-managed encryption keys.",
         "by": "writer"
+      },
+      {
+        "text": "When a change is ready, they run /ship. Claude pushes it, opens the PR, reviews the change, and works on feedback and failing checks to help get it ready to merge.",
+        "for": "How the /ship command pushes a change, opens a pull request, reviews it and works on feedback and failing checks.",
+        "by": "checker"
+      },
+      {
+        "text": "Turning Claude Ship on for an entire repository puts it to work across a team's pull requests automatically, under settings and an approval policy the team controls.",
+        "for": "Administrators enabling Claude Ship across an entire repository automatically.",
+        "by": "checker"
+      },
+      {
+        "text": "Claude Ship usage is billed on tokens, so turning it on can add to an organization’s costs. The amount depends on the number and size of pull requests covered, the review level, how often reviews run, and how much work PR Steward does. Admins can set spend limits for Code Review and PR Steward.",
+        "for": "Factors driving token costs and administrator spend limits for Code Review and PR Steward.",
+        "by": "checker"
       }
     ]
   },
@@ -141,6 +156,11 @@
         "text": "an agent that’s on keeps running and billing your organization.",
         "for": "Active agents continuing to bill if usage credits are turned off.",
         "by": "reviser"
+      },
+      {
+        "text": "Claude Approvals is a check that reports who still has to approve. You write its policy file, which can set how many people have to approve changes to a path, and where Claude can post an approving review.",
+        "for": "Claude Approvals policy files setting path-based approval rules and where Claude can post an approving review.",
+        "by": "checker"
       }
     ]
   },
@@ -313,6 +333,11 @@
         "text": "It works on github.com, including GitHub Enterprise Cloud.",
         "for": "Supported GitHub environments for Claude Approvals.",
         "by": "reviser"
+      },
+      {
+        "text": "Compliance settings limit who can use it: Not available: with Zero Data Retention enabled, the HIPAA configuration applied, or customer-managed encryption keys (CMEK) Can’t start Approvals: with FERPA or Access Transparency settings",
+        "for": "Compliance restrictions including FERPA and Access Transparency settings that cannot start Claude Approvals.",
+        "by": "checker"
       }
     ]
   },
@@ -357,6 +382,16 @@
         "text": "The rules match a command’s text and the check is a model’s judgment, so a command that’s written another way can pass both.",
         "for": "Bypass risk for text-matching rules and model-based checks on merge or force-push commands.",
         "by": "reviser"
+      },
+      {
+        "text": "Anthropic’s service refuses these requests from a PR Steward session that acts as its GitHub App: Approving a pull request Changing branch protection, rulesets, or statuses, or writing check runs Deleting a branch",
+        "for": "Service-level blocks preventing PR Steward from approving pull requests, changing branch protection or deleting branches.",
+        "by": "checker"
+      },
+      {
+        "text": "Merging, turning on auto-merge, and force-pushing: before GitHub’s branch rules apply, two checks run on the commands that Claude runs",
+        "for": "Merging, auto-merge and force-pushing left to GitHub branch rules after two command checks.",
+        "by": "checker"
       }
     ]
   }
