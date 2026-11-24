@@ -86,6 +86,26 @@
         "text": "Nvidia held earlier acquisition talks, according to CTech, and invested in Decart’s $300 million funding round in May.",
         "for": "Nvidia's investment in Decart's May 2026 $300 million funding round.",
         "by": "writer"
+      },
+      {
+        "text": "Amazon announced the deal the same day Nvidia’s board reinstated Jensen Huang as CEO, ending a leadership shakeup at the chipmaker that put CFO Colette Kress in the interim role.",
+        "for": "Timing of the announcement relative to Nvidia reinstating Jensen Huang as CEO.",
+        "by": "reviser"
+      },
+      {
+        "text": "Decart’s software has also run on chips from Nvidia and Google. Amazon didn’t say whether that will continue.",
+        "for": "Lack of clarity on whether DOS will continue supporting Nvidia and Google chips.",
+        "by": "reviser"
+      },
+      {
+        "text": "Amazon didn’t say what happens to Decart’s AI models or to its existing customers, such as eBay, which is also an investor in the startup.",
+        "for": "Unanswered questions on Decart's AI models and existing customers including eBay.",
+        "by": "reviser"
+      },
+      {
+        "text": "The deal follows Amazon’s release last month of TorchNeuron, a tool that runs common AI code on Trainium with minimal changes. Both moves target the software advantage that has kept developers on Nvidia hardware, as GeekWire explained when the talks surfaced in October.",
+        "for": "Context on Amazon's October 2026 TorchNeuron release targeting Nvidia's software advantage.",
+        "by": "reviser"
       }
     ]
   },
@@ -128,6 +148,16 @@
         "text": "Decart then attempted to revive acquisition discussions with Nvidia, but the chipmaker declined to reopen negotiations. Amazon subsequently emerged as the next potential buyer and agreed to the transaction.",
         "for": "Nvidia declining to reopen talks before Amazon emerged as buyer.",
         "by": "writer"
+      },
+      {
+        "text": "In May, Decart raised $300 million at a valuation of approximately $4 billion, in a round that included participation from Nvidia. The company has raised more than $450 million in total and employs approximately 100 people.",
+        "for": "Decart's May 2026 $4 billion valuation, over $450 million total funding, and roughly 100 employees.",
+        "by": "reviser"
+      },
+      {
+        "text": "However, the company withdrew from the transaction in early September, bringing the proposed acquisition to an abrupt end. The reasons for its decision were not publicly established.",
+        "for": "Anthropic's reasons for withdrawing in September 2026 not being publicly established.",
+        "by": "reviser"
       }
     ]
   },
@@ -197,6 +227,33 @@
         "text": "Amazon, which has so far been using its Trainium chips at its own data centers, is preparing to start selling them to customers as a competitor to Nvidia.",
         "for": "Amazon preparing to sell Trainium chips to external customers.",
         "by": "writer"
+      },
+      {
+        "text": "Decart and Amazon did not immediately return requests for comment.",
+        "for": "Decart and Amazon not immediately returning requests for comment.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://decart.ai/optimization-engine",
+    "title": "Decart Optimization Stack (DOS)",
+    "publisher": "Decart",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "The Decart Optimization Stack (DOS) is a vertically integrated inference and training platform for LLM, agentic, video and world model workloads.",
+        "for": "Decart's technical description of DOS as an inference and training platform across model types.",
+        "by": "reviser"
+      },
+      {
+        "text": "It sits between the model and the chip, tuning the kernels, compilers and runtime to the hardware so every core stays busy.",
+        "for": "How DOS operates between AI models and hardware to increase chip utilization.",
+        "by": "reviser"
       }
     ]
   }
