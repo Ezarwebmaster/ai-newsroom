@@ -1,0 +1,259 @@
+[
+  {
+    "id": 1,
+    "url": "https://claude.com/resources/articles/introducing-claude-ship",
+    "title": "Introducing Claude Ship",
+    "publisher": "Anthropic",
+    "kind": "primary",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "November 23, 2026",
+        "type": "date",
+        "for": "Publication date of Anthropic's Claude Ship announcement.",
+        "by": "writer"
+      },
+      {
+        "text": "On the Claude Code team, Claude writes most of our code, and we wanted everything after the PR to move that fast too.",
+        "for": "Claude writing most code on Anthropic's Claude Code team.",
+        "by": "writer"
+      },
+      {
+        "text": "That's why we built Claude Ship, available today in beta. It can review PRs, fix them, and decide what's ready to merge based on policies each team sets. Teams stay in control of where it runs and which changes need a person. The goal: ship code as fast as teams write it.",
+        "for": "Beta launch of Claude Ship to review, fix and approve pull requests under team policies.",
+        "by": "writer"
+      },
+      {
+        "text": "Eligible Claude Enterprise organizations can claim at least $10,000 in Claude Ship credits to use within 30 days of claiming. Claim by January 15, 2027.",
+        "for": "Promotional $10,000 Enterprise credit offer, 30-day window and January 15, 2027 deadline.",
+        "by": "writer"
+      },
+      {
+        "text": "Claude Ship is made up of Code Review, which is already generally available, and two new agents in beta: PR Steward and Claude Approvals. Together, they take a pull request through review, fixes, and an approval decision so teams don't have to manage each step manually.",
+        "for": "Composition of Claude Ship across Code Review, PR Steward and Claude Approvals.",
+        "by": "writer"
+      },
+      {
+        "text": "Code Review performs an in-depth review of pull requests against the codebase through multiple lenses. It collects findings, adversarially verifies them, categorizes them, and posts them to a PR.",
+        "for": "Code Review adversarially verifying and categorizing pull request findings.",
+        "by": "writer"
+      },
+      {
+        "text": "On the Claude Code team, where Claude's review is one layer of a broader process, merged PRs more than doubled from June to September while the share reverted fell by more than 40%.",
+        "for": "Internal Claude Code team metrics from June to September 2026.",
+        "by": "writer"
+      },
+      {
+        "text": "Code Review gives teams fast reviews, clear findings, and a choice of Quick, Standard, or Deep review levels for each repository.",
+        "for": "Quick, Standard and Deep repository review settings.",
+        "by": "writer"
+      },
+      {
+        "text": "PR Steward works to keep a PR green, but is designed not to approve or merge pull requests. It jumps in on failing CI checks, merge conflicts, and review feedback from Code Review, other review tools, or team members.",
+        "for": "PR Steward scope covering failing CI checks, merge conflicts and review feedback without approving or merging.",
+        "by": "writer"
+      },
+      {
+        "text": "After every push, it comments with what it changed and how to undo it. Developers can comment @claude with an instruction to steer the work, or @claude stop to have it step back.",
+        "for": "PR Steward rollback comments and @claude and @claude stop comment controls.",
+        "by": "writer"
+      },
+      {
+        "text": "Claude can approve routine changes on its own if the policy allows it, or can require deeper human sign-off for certain scenarios. It works like a smarter CODEOWNERS file.",
+        "for": "Claude Approvals approving routine changes or requiring human sign-off like a smarter CODEOWNERS file.",
+        "by": "writer"
+      },
+      {
+        "text": "Teams can have Claude Approvals consider a variety of signals in its decision-making process, including Code Review findings or their own classifiers using natural language.",
+        "for": "Approval policies combining Code Review findings and natural-language classifiers.",
+        "by": "writer"
+      },
+      {
+        "text": "For most customers, we recommend enabling this first in observe-only mode to build confidence before configuring branch protection to require Claude Approvals' green light.",
+        "for": "Recommendation to start Claude Approvals in observe-only mode before branch protection enforcement.",
+        "by": "writer"
+      },
+      {
+        "text": "Developers can update Claude Code and run /ship on their next change. /ship is rolling out in Claude Code and the desktop app starting today.",
+        "for": "Rollout of the /ship command in Claude Code and the desktop app.",
+        "by": "writer"
+      },
+      {
+        "text": "Admins choose the review level (Quick, Standard, or Deep), choose when reviews run, and configure spend limits.",
+        "for": "Administrator controls for review levels, schedules and spending limits.",
+        "by": "writer"
+      },
+      {
+        "text": "Claude Ship is available on Claude Team and Enterprise plans for repositories on GitHub. Code Review is generally available, and PR Steward and Claude Approvals are in beta.",
+        "for": "Availability on Claude Team and Enterprise plans for GitHub repositories.",
+        "by": "writer"
+      },
+      {
+        "text": "Claude Approvals has no base charge, but classifiers in a policy are billed on the tokens they use, and a policy that uses Claude's review triggers a billed Code Review, even in observe mode. Running /ship counts as regular Claude Code usage.",
+        "for": "Token billing structure for Claude Approvals, classifiers, observe-mode Code Reviews and /ship.",
+        "by": "writer"
+      },
+      {
+        "text": "Claude Ship is not available to organizations with Zero Data Retention, the HIPAA configuration, or customer-managed encryption keys.",
+        "for": "Exclusions for Zero Data Retention, HIPAA configurations and customer-managed encryption keys.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://code.claude.com/docs/en/claude-ship",
+    "title": "Claude Ship - Claude Code Docs",
+    "publisher": "Anthropic",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Code Review reads a change alongside the surrounding code. Findings arrive as inline comments on the lines concerned, ranked by severity.",
+        "for": "Code Review posting severity-ranked inline comments.",
+        "by": "writer"
+      },
+      {
+        "text": "A Claude Approvals policy file, .claude/approvals.yml, changes which pull requests Code Review reviews automatically.",
+        "for": "Repository path .claude/approvals.yml for Claude Approvals policy files.",
+        "by": "writer"
+      },
+      {
+        "text": "Each agent is billed on token usage through your organization’s usage credits, separately from your plan’s included usage. Approvals bills for classifier runs and the Code Reviews that a policy asks for.",
+        "for": "Separate token-based billing via organization usage credits outside plan allowances.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://www.infoworld.com/article/4252505/anthropic-launches-claude-ship-extending-ai-assisted-development-to-pull-request-approvals.html",
+    "title": "Anthropic launches Claude Ship, extending AI-assisted development to pull request approvals",
+    "publisher": "InfoWorld",
+    "kind": "press",
+    "published": "2026-11-24",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Nov 24, 2026",
+        "type": "date",
+        "for": "Publication date of InfoWorld report.",
+        "by": "writer"
+      },
+      {
+        "text": "But GitHub and GitLab have an advantage in how closely their AI tools integrate with their respective development platforms, said Deepika Giri, vice president of Asia/Pacific artificial intelligence platforms and advisory at IDC.",
+        "for": "IDC analyst Deepika Giri on GitHub and GitLab native platform integration advantages.",
+        "by": "writer"
+      },
+      {
+        "text": "Anthropic said the number of pull requests merged by its Claude Code team more than doubled between June and September, while the proportion subsequently declined by more than 40%. Anthropic did not specify how much of the improvement was attributable to its AI code review tool.",
+        "for": "Anthropic not specifying how much of its internal merge and revert gains came from AI code review alone.",
+        "by": "writer"
+      },
+      {
+        "text": "One concern is that models used to generate code and those reviewing it could share blind spots, allowing certain defects to pass undetected, Giri said.",
+        "for": "Deepika Giri warning that coding and review models could share blind spots.",
+        "by": "writer"
+      },
+      {
+        "text": "“AI models are inherently non-deterministic, which makes them unsuitable as the sole quality gate,” Tyagi said.",
+        "for": "Gartner analyst Nitish Tyagi quote on non-deterministic AI models as quality gates.",
+        "by": "writer"
+      },
+      {
+        "text": "“Anthropic’s Claude Ship is not a breakthrough innovation as much as an evolution of existing AI-assisted code review capabilities,” said Nitish Tyagi, senior principal analyst at Gartner.",
+        "for": "Nitish Tyagi title and assessment of Claude Ship.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
+    "title": "Claude can ship code for you now - how to try it (if you dare)",
+    "publisher": "ZDNET",
+    "kind": "press",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "November 23, 2026",
+        "type": "date",
+        "for": "Publication date of ZDNET report.",
+        "by": "writer"
+      },
+      {
+        "text": "The new feature uses two new agents alongside Code Review, which Anthropic released in March for Teams and Enterprise plans.",
+        "for": "March 2026 release of Code Review for Teams and Enterprise plans.",
+        "by": "writer"
+      },
+      {
+        "text": "Individuals with a Pro, Max, or Ultra subscription can use the /ship command now available in Claude Code, meaning “users won’t notice any significant increase in token usage,” an Anthropic representative explained.",
+        "for": "Anthropic representative confirming Pro, Max and Ultra access to /ship in Claude Code.",
+        "by": "writer"
+      },
+      {
+        "text": "“Since that workflow is often assigned to less experienced members of the team, it’s likely that Claude would be as accurate, although it’s one more way to shut the junior members out of where they add value to the company and grow their skills to become senior decision makers,” he said.",
+        "for": "David Gewirtz commentary on junior developers losing skill-building pull request work.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+    "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+    "publisher": "TechCrunch",
+    "kind": "press",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "November 23, 2026",
+        "type": "date",
+        "for": "Publication date of TechCrunch report.",
+        "by": "writer"
+      },
+      {
+        "text": "On Monday, the newly public AI company announced the launch of Claude Ship, a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes.",
+        "for": "TechCrunch reporting newly public Anthropic launching Claude Ship.",
+        "by": "writer"
+      },
+      {
+        "text": "The launch arrives at a time when AI coding agents have become increasingly capable of generating substantial amounts of code, leading to bottlenecks in reviewing and approving the code changes before they go live.",
+        "for": "Context on AI coding agents creating pull request review and approval bottlenecks.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://www.helpnetsecurity.com/2026/11/24/anthropic-claude-ship-beta/",
+    "title": "Claude Ship gives AI a seat on both sides of code review",
+    "publisher": "Help Net Security",
+    "kind": "press",
+    "published": "2026-11-24",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "November 24, 2026",
+        "type": "date",
+        "for": "Publication date of Help Net Security report.",
+        "by": "writer"
+      },
+      {
+        "text": "We can tailor it to our teams’ processes, including how it suggests changes and organizes feedback. That flexibility has made it a useful part of the development workflow,” said Alex Devkar, Senior Vice President, Engineering and Analytics at Carvana.",
+        "for": "Carvana pilot quote from senior vice president Alex Devkar.",
+        "by": "writer"
+      }
+    ]
+  }
+]
