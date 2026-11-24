@@ -1,0 +1,87 @@
+{
+  "cycle": "2026-11-24",
+  "model": "Google Gemini 3.8 Flash",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Anthropic launches Claude Ship to automate pull request review, fixing, and approval",
+      "type": "product",
+      "summary": "On November 23, 2026, Anthropic launched Claude Ship in beta for GitHub-hosted projects on Claude Team and Enterprise plans. The feature coordinates three specialized AI agents\u2014Code Review, PR Steward, and Claude Approvals\u2014to automatically review pull requests, fix failing tests and merge conflicts, and approve routine code changes that satisfy repository policy.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://claude.com/resources/articles/introducing-claude-ship",
+          "publisher": "Anthropic",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-23",
+          "kind": "press"
+        },
+        {
+          "url": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders/",
+          "publisher": "9to5Mac",
+          "published": "2026-11-23",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Amazon agrees to acquire Decart AI optimization stack for reported $7.5 billion to power Trainium chips",
+      "type": "company",
+      "summary": "On November 23, 2026, Amazon announced an agreement to acquire the proprietary Decart Optimization Stack (DOS) technology and hire Decart's co-founders and engineering team. Financial reports valued the transaction at approximately $7.5 billion, with Amazon planning to integrate Decart's compiler and kernel tuning software to boost efficiency across custom Trainium AI chips.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+          "publisher": "Amazon",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-23",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.geekwire.com/2026/amazon-is-buying-decarts-ai-chip-software-for-a-reported-7-5b-and-bringing-its-founders-aboard/",
+          "publisher": "GeekWire",
+          "published": "2026-11-23",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Cisco and OpenAI launch Shirudo open-source eBPF Linux runtime to safeguard agentic AI",
+      "type": "open_source",
+      "summary": "On November 23, 2026, Cisco and OpenAI jointly launched Shirudo, an open-source Linux security runtime designed for agentic AI. Built on eBPF technology and rewritten from Tetragon, Shirudo deploys dynamically generated, cryptographically signed kernel shields that block active exploits without requiring software reboots while engineering teams prepare permanent patches.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html",
+          "publisher": "Cisco",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://openai.com/index/introducing-shirudo/",
+          "publisher": "OpenAI",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/",
+          "publisher": "Help Net Security",
+          "published": "2026-11-24",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
