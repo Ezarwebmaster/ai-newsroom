@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+    "title": "Amazon to purchase Decart's AI optimization technology to advance chip and model innovation for customers",
+    "publisher": "Amazon",
+    "kind": "primary",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "November 23, 2026",
+        "type": "date",
+        "for": "Publication date of Amazon's announcement.",
+        "by": "writer"
+      },
+      {
+        "text": "Today, Amazon announced it has signed an agreement to purchase the proprietary technology behind the Decart Optimization Stack (DOS), and bring the Decart AI co-founders—Dean Leitersdorf, Moshe Shalev, and Orian Leitersdorf—along with their team of AI researchers and engineers, to Amazon.",
+        "for": "Agreement to purchase DOS technology and hire Decart's three co-founders and engineering team.",
+        "by": "writer"
+      },
+      {
+        "text": "Since 2025, Decart's team has worked closely with Amazon to deliver strong performance results on Trainium, using a full-stack approach that spans software and hardware.",
+        "for": "Collaboration between Amazon and Decart on Trainium since 2025.",
+        "by": "writer"
+      },
+      {
+        "text": "Every leap forward in AI starts with getting more out of every chip,",
+        "for": "Opening remark by Peter DeSantis on chip efficiency.",
+        "by": "writer"
+      },
+      {
+        "text": "More efficient compute means better training, better reinforcement learning, faster inference, and better models for customers at a lower cost.",
+        "for": "Peter DeSantis quote on compute efficiency benefits for customers.",
+        "by": "writer"
+      },
+      {
+        "text": "Joining Amazon gives our team the scale, the customers, and the infrastructure to pursue that mission faster than we could on our own.",
+        "for": "Dean Leitersdorf quote on joining Amazon.",
+        "by": "writer"
+      },
+      {
+        "text": "Completion of the transaction is subject to customary closing conditions, including regulatory clearance.",
+        "for": "Closing conditions and regulatory clearance requirement.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://www.geekwire.com/2026/amazon-is-buying-decarts-ai-chip-software-for-a-reported-7-5b-and-bringing-its-founders-aboard/",
+    "title": "Amazon is buying Decart's AI chip software for a reported $7.5B and bringing its founders aboard",
+    "publisher": "GeekWire",
+    "kind": "press",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Amazon didn’t disclose financial terms. Amazon agreed to pay about $7.5 billion for the assets, Bloomberg reported, citing a person familiar with the matter.",
+        "for": "Undisclosed financial terms and reported $7.5 billion valuation.",
+        "by": "writer"
+      },
+      {
+        "text": "“We believe we’re going to have a very significant business selling chips externally,” CEO Andy Jassy said on the company’s earnings call last month.",
+        "for": "Andy Jassy's October 2026 earnings call statement on selling chips externally.",
+        "by": "writer"
+      },
+      {
+        "text": "Amazon isn’t buying Decart’s AI models, Bloomberg reported. Those include Lucy, which edits live video in real time, and Oasis, which generates interactive virtual worlds.",
+        "for": "Exclusion of Decart's Lucy and Oasis AI models from the acquisition.",
+        "by": "writer"
+      },
+      {
+        "text": "Amazon bought Annapurna, also founded in Israel, in 2015 for a reported $350 million. Its engineers went on to design Trainium and Amazon’s other custom chips.",
+        "for": "Amazon's 2015 acquisition of Annapurna Labs and its role designing Trainium.",
+        "by": "writer"
+      },
+      {
+        "text": "Decart was among the first customers on Trainium3, and Amazon said last December that Decart was running real-time video four times faster on Trainium at half the cost of GPUs.",
+        "for": "Decart's early Trainium3 usage and December 2025 performance benchmark.",
+        "by": "writer"
+      },
+      {
+        "text": "Nvidia held earlier acquisition talks, according to CTech, and invested in Decart’s $300 million funding round in May.",
+        "for": "Nvidia's investment in Decart's May 2026 $300 million funding round.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://www.calcalistech.com/ctechnews/article/g0mtcg4mi",
+    "title": "Amazon signs $7.5 billion deal for Israeli AI startup Decart's technology and team",
+    "publisher": "Calcalist CTech",
+    "kind": "press",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Amazon has signed an agreement to purchase the proprietary technology behind the Israeli artificial intelligence startup Decart's Optimization Stack (DOS), in a transaction valued at $7.5 billion, Calcalist has learned.",
+        "for": "Calcalist's reporting of the $7.5 billion valuation for DOS and team.",
+        "by": "writer"
+      },
+      {
+        "text": "The proposed structure included cash, stock and deferred payments, with part of the consideration tied to the company's performance. The founders also agreed to remain with Amazon for five years, with a significant portion of the payment scheduled for the fifth year.",
+        "for": "Deal structure with cash, stock, performance-tied deferred payments, and five-year founder retention.",
+        "by": "writer"
+      },
+      {
+        "text": "The agreement brings to an end a months-long acquisition saga that began on August 10, when Calcalist first reported that Decart was in talks regarding a potential sale.",
+        "for": "Timeline of acquisition talks starting August 10, 2026.",
+        "by": "writer"
+      },
+      {
+        "text": "However, Decart's founders preferred a potential deal with Anthropic, the developer of the Claude chatbot, which subsequently entered advanced negotiations to purchase the startup for approximately $6 billion.",
+        "for": "Anthropic's roughly $6 billion acquisition talks with Decart.",
+        "by": "writer"
+      },
+      {
+        "text": "The Anthropic negotiations advanced significantly, with the two sides exchanging draft agreements and Anthropic effectively completing its due diligence. However, the company withdrew from the transaction in early September, bringing the proposed acquisition to an abrupt end.",
+        "for": "Anthropic completing due diligence and withdrawing in early September 2026.",
+        "by": "writer"
+      },
+      {
+        "text": "Decart then attempted to revive acquisition discussions with Nvidia, but the chipmaker declined to reopen negotiations. Amazon subsequently emerged as the next potential buyer and agreed to the transaction.",
+        "for": "Nvidia declining to reopen talks before Amazon emerged as buyer.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://en.globes.co.il/en/article-amazon-confirms-decart-acquisition-1001564520",
+    "title": "Amazon confirms Decart acquisition",
+    "publisher": "Globes",
+    "kind": "press",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "No financial details were disclosed but the deal is believed to be for more than $7.5 billion.",
+        "for": "Globes reporting of undisclosed terms and valuation above $7.5 billion.",
+        "by": "writer"
+      },
+      {
+        "text": "Amazon will acquire Decart through its chip development arm Annapurna and will integrate its technology to enhance the efficiency of AI chips within its proprietary Trainium and Inferentia processors.",
+        "for": "Integration via Annapurna Labs into Trainium and Inferentia processors.",
+        "by": "writer"
+      },
+      {
+        "text": "The deal is structured in shares and is contingent upon meeting specific targets over five years.",
+        "for": "Five-year performance targets tied to the deal.",
+        "by": "writer"
+      },
+      {
+        "text": "the acquisition of the Israeli company is being led on Amazon’s behalf by an Israeli, Nafea Bshara, who heads the engineering side of Amazon’s chip division, Annapurna Labs.",
+        "for": "Nafea Bshara leading negotiations for Amazon.",
+        "by": "writer"
+      },
+      {
+        "text": "Annapurna itself was once an Israeli startup, acquired by Amazon ten years ago for $375 million.",
+        "for": "Globes reporting $375 million price for Amazon's Annapurna Labs acquisition.",
+        "by": "writer"
+      },
+      {
+        "text": "The three founders Dean Leitersdorf, his brother Orian, and Moshe Shalev collectively hold about 64% of the company’s shares. They are set to share $4.8 billion, averaging $1.5 billion per founder.",
+        "for": "Founders' 64% combined stake and roughly $4.8 billion collective payout.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+    "title": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+    "publisher": "TechCrunch",
+    "kind": "press",
+    "published": "2026-11-23",
+    "retrieved": "2026-11-24",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Decart has made a name for itself building interactive real-time world models — most recently Oasis 3 — and AI video-generation tools.",
+        "for": "Decart's Oasis 3 interactive world model and video-generation tools.",
+        "by": "writer"
+      },
+      {
+        "text": "But under the hood, the company stands out for its Decart Optimization Stack (DOS), software that helps AI models run efficiently on Nvidia, Amazon, and Google’s hardware.",
+        "for": "DOS software running across Nvidia, Amazon, and Google hardware.",
+        "by": "writer"
+      },
+      {
+        "text": "Amazon, which has so far been using its Trainium chips at its own data centers, is preparing to start selling them to customers as a competitor to Nvidia.",
+        "for": "Amazon preparing to sell Trainium chips to external customers.",
+        "by": "writer"
+      }
+    ]
+  }
+]
