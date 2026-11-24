@@ -1,0 +1,87 @@
+{
+  "cycle": "2026-11-24",
+  "model": "Google Gemini 4 Hydrogen",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Google DeepMind uses Gemini 4 agent teams and Lean to optimize quantum algorithms",
+      "type": "research",
+      "summary": "On November 23, 2026, Google DeepMind and Google Quantum AI published research showing teams of Gemini 4 agents discovered faster quantum circuits for fusion energy, chemistry, and drug-metabolizing enzymes, cutting spacetime costs up to 11.8x on fusion simulations and 290x on an arithmetic routine, with every circuit formally verified in Lean.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+          "publisher": "Google DeepMind",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
+          "publisher": "The Next Web",
+          "published": "2026-11-23",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.unite.ai/google-deepmind-agent-teams-discover-lean-verified-quantum-algorithms/",
+          "publisher": "Unite.AI",
+          "published": "2026-11-23",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "OpenAI and Cisco launch Shirudo open-source eBPF runtime to shield Linux systems",
+      "type": "open_source",
+      "summary": "On November 23, 2026, OpenAI and Cisco introduced Shirudo, an open-source Linux runtime that deploys eBPF shields to block exploits on running servers before patches arrive or restarts occur. Combining AI-generated mitigation code with human approval and TPM 2.0 attestation, Shirudo demonstrated live blocking of a Java4Shell exploit on Elasticsearch.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-shirudo/",
+          "publisher": "OpenAI",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html",
+          "publisher": "Cisco",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/",
+          "publisher": "Help Net Security",
+          "published": "2026-11-24",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "UN chief urges talks on global AI risk framework at Bridgetown safety summit",
+      "type": "policy",
+      "summary": "At the Bridgetown Special Summit on AI Safety in Barbados on November 23, 2026, UN Secretary-General António Guterres urged member states to negotiate a multilateral AI risk management framework, warning that safety guardrails lag behind autonomous AI capabilities and calling for shared testing standards and capacity-building for developing nations.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.un.org/digital-emerging-technologies/content/barbados-and-united-nations-co-host-special-summit-ai-safety-23-november",
+          "publisher": "United Nations",
+          "published": null,
+          "kind": "primary"
+        },
+        {
+          "url": "https://aa.com.tr/en/world/un-chief-warns-ai-risks-growing-as-he-urges-global-action-to-close-capacity-gap/4135111",
+          "publisher": "Anadolu Agency",
+          "published": "2026-11-23",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.globalissues.org/news/2026/11/23/44673",
+          "publisher": "Global Issues",
+          "published": "2026-11-23",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
