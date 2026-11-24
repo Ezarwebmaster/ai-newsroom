@@ -126,6 +126,21 @@
         "text": "Each agent is billed on token usage through your organization’s usage credits, separately from your plan’s included usage. Approvals bills for classifier runs and the Code Reviews that a policy asks for.",
         "for": "Separate token-based billing via organization usage credits outside plan allowances.",
         "by": "writer"
+      },
+      {
+        "text": "Claude Ship uses AI and may miss bugs, security vulnerabilities, or other issues.",
+        "for": "Anthropic disclaimer that Claude Ship may miss bugs or security vulnerabilities.",
+        "by": "reviser"
+      },
+      {
+        "text": "Turn off Approvals before Code Review, because a policy can start billed reviews where Code Review is off",
+        "for": "Order for disabling Claude Approvals before Code Review to prevent billed reviews.",
+        "by": "reviser"
+      },
+      {
+        "text": "an agent that’s on keeps running and billing your organization.",
+        "for": "Active agents continuing to bill if usage credits are turned off.",
+        "by": "reviser"
       }
     ]
   },
@@ -253,6 +268,95 @@
         "text": "We can tailor it to our teams’ processes, including how it suggests changes and organizes feedback. That flexibility has made it a useful part of the development workflow,” said Alex Devkar, Senior Vice President, Engineering and Analytics at Carvana.",
         "for": "Carvana pilot quote from senior vice president Alex Devkar.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/24/claude-ship-puts-ai-at-the-helm-of-pull-request-approvals/5311883",
+    "title": "Claude Ship puts AI at the helm of pull request approvals",
+    "publisher": "The Register",
+    "kind": "press",
+    "published": "2026-11-24",
+    "retrieved": "2026-11-24",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "24 Nov 2026",
+        "type": "date",
+        "for": "Publication date of The Register report.",
+        "by": "reviser"
+      },
+      {
+        "text": "Our golden rule so far with Git is to limit Claude to read operations there; this layer of separation still lets devs stay in control and allows them a judgment of the AI changes – what to keep, tweak, or commit.",
+        "for": "Engineer explaining why their team limits Claude to read-only Git operations.",
+        "by": "reviser"
+      },
+      {
+        "text": "If that's offloaded to Claude and it has Git history-rewrite access, the devs will lose that overview and judgment opportunity.",
+        "for": "Engineer warning about losing overview and judgment with Git history-rewrite access.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://code.claude.com/docs/en/approvals",
+    "title": "Claude Approvals - Claude Code Docs",
+    "publisher": "Anthropic",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "It works on github.com, including GitHub Enterprise Cloud.",
+        "for": "Supported GitHub environments for Claude Approvals.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "url": "https://code.claude.com/docs/en/approvals-github-rules",
+    "title": "Claude Approvals and your GitHub rules - Claude Code Docs",
+    "publisher": "Anthropic",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "If you use GitHub auto-merge or a merge queue with a policy that doesn’t require a person’s approval, a change can merge without anyone acting.",
+        "for": "Auto-merge and merge queue behavior when a policy does not require human approval.",
+        "by": "reviser"
+      },
+      {
+        "text": "That answer is one that a pull request’s text can steer",
+        "for": "Classifier answers being steerable by pull request text.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "url": "https://code.claude.com/docs/en/pr-steward-security",
+    "title": "What PR Steward can access - Claude Code Docs",
+    "publisher": "Anthropic",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Anthropic’s service refuses these requests from a PR Steward session that acts as its GitHub App: Approving a pull request",
+        "for": "Service-level refusal of pull request approvals from PR Steward.",
+        "by": "reviser"
+      },
+      {
+        "text": "The rules match a command’s text and the check is a model’s judgment, so a command that’s written another way can pass both.",
+        "for": "Bypass risk for text-matching rules and model-based checks on merge or force-push commands.",
+        "by": "reviser"
       }
     ]
   }

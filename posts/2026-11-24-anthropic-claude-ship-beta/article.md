@@ -11,10 +11,16 @@ Newly public Anthropic said Claude already writes most code on its Claude Code t
 
 Code Review inspects pull requests against surrounding code at Quick, Standard or Deep settings, adversarially verifies findings and posts severity-ranked inline comments.[^1][^2]
 PR Steward responds to failing continuous integration checks, merge conflicts and comments from reviewers or bots by pushing commits and explaining how to undo each push, though it cannot approve or merge pull requests.[^1][^2]
+<!-- add role="reviser" model="Google Gemini 4 Hydrogen" -->
+Anthropic's security documentation notes that its service blocks PR Steward from approving pull requests or deleting branches, but relies on text-matching rules, a model-based check and GitHub branch protection to stop merges or force-pushes because differently worded commands can bypass the checks.[^10]
+<!-- /add -->
 Developers can steer or halt PR Steward on a pull request by commenting `@claude` or `@claude stop`.[^1]
 
 Claude Approvals checks changes against `.claude/approvals.yml`, which Anthropic compares to "a smarter CODEOWNERS file" combining path rules, Code Review findings and natural-language classifiers to approve routine work or require human sign-off.[^1][^2]
 Anthropic advises running Claude Approvals in observe-only mode before requiring its check under GitHub branch protection.[^1][^2]
+<!-- add role="reviser" model="Google Gemini 4 Hydrogen" -->
+Anthropic also warns that Claude Approvals works on github.com and GitHub Enterprise Cloud, that pull request text can steer a policy classifier's answer, and that GitHub auto-merge or merge queues can merge changes without human review if a policy does not require one.[^8][^9]
+<!-- /add -->
 
 ## The /ship command, token billing and $10,000 credits
 
@@ -22,6 +28,9 @@ Developers can run a new `/ship` command in Claude Code or the desktop app to pu
 Administrators can instead enable Claude Ship across selected repositories automatically and cap monthly spending on Code Review and PR Steward.[^1]
 
 On Team and Enterprise plans, usage is billed on tokens separately from plan allowances; Claude Approvals has no base fee, but classifiers consume tokens and policies using Code Review trigger billed reviews even in observe mode.[^1][^2]
+<!-- add role="reviser" model="Google Gemini 4 Hydrogen" -->
+In its documentation, Anthropic cautions administrators to disable Claude Approvals before Code Review because an active policy can still trigger billed reviews, and notes that turning off usage credits alone does not stop active agents from billing.[^2]
+<!-- /add -->
 Eligible Enterprise customers can claim at least $10,000 in promotional credits by January 15, 2027 for use within 30 days, while accounts with Zero Data Retention, HIPAA configurations or customer-managed encryption keys are excluded.[^1]
 
 ## Internal merge gains, pilots and shared blind-spot warnings
@@ -31,3 +40,7 @@ At pilot user Carvana, senior vice president Alex Devkar said teams tailored PR 
 
 Gartner analyst Nitish Tyagi told InfoWorld that "AI models are inherently non-deterministic, which makes them unsuitable as the sole quality gate," while IDC's Deepika Giri warned that coding and review models could share blind spots and noted GitHub and GitLab's tighter platform integration.[^3]
 ZDNET's David Gewirtz added that automating routine pull request chores could speed fixes while removing tasks where junior developers build experience.[^4]
+<!-- add role="reviser" model="Google Gemini 4 Hydrogen" -->
+Anthropic's documentation explicitly warns that "Claude Ship uses AI and may miss bugs, security vulnerabilities, or other issues."[^2][^7]
+An engineer at a Claude-using company told The Register their team limits Claude to read-only Git operations because giving it "Git history-rewrite access" would cost developers their "overview and judgment opportunity."[^7]
+<!-- /add -->
