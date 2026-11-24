@@ -1,0 +1,87 @@
+{
+  "cycle": "2026-11-24-2",
+  "model": "Google Gemini 4 Neon",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Google DeepMind uses Gemini 4 agents and Lean to discover formally verified quantum algorithms",
+      "type": "research",
+      "summary": "On November 23, 2026, Google DeepMind and Google Quantum AI reported using teams of Gemini 4 agents paired with the Lean theorem prover to discover formally verified quantum algorithms. The approach reduced resource costs by 11.8 times for a fusion simulation, 8 times for a photochemistry molecule, and over 290 times for a quantum arithmetic subroutine.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+          "publisher": "Google DeepMind",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
+          "publisher": "The Next Web",
+          "published": "2026-11-23",
+          "kind": "press"
+        },
+        {
+          "url": "https://arxiv.org/abs/2611.09822",
+          "publisher": "arXiv",
+          "published": "2026-11-06",
+          "kind": "paper"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "UK Financial Conduct Authority sets regulatory expectations for agentic AI in financial services",
+      "type": "policy",
+      "summary": "On November 24, 2026, the UK Financial Conduct Authority published regulatory expectations for firms, technology providers, and social media platforms developing or deploying agentic AI in financial services. The FCA warned that autonomous agents initiating transactions, moving money, arranging borrowing, or making investment decisions may require authorization and that firms and senior managers retain regulatory responsibility.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
+          "publisher": "Financial Conduct Authority",
+          "published": "2026-11-24",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fca-warns-companies-against-unregulated-agentic-activity/",
+          "publisher": "PYMNTS",
+          "published": "2026-11-24",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.insurancebusinessmag.com/uk/news/technology/fca-sets-out-accountability-expectations-for-agentic-ai-in-financial-services-598548.aspx",
+          "publisher": "Insurance Business",
+          "published": "2026-11-24",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Anthropic launches Claude Ship to automate pull request review, fixes, and approvals",
+      "type": "product",
+      "summary": "On November 23, 2026, Anthropic launched Claude Ship in beta for GitHub-hosted repositories on Claude Team and Enterprise plans. Combining Code Review with two new agents, PR Steward and Claude Approvals, the tool reviews pull requests, fixes failing tests and merge conflicts, and approves routine changes that meet team-defined policies.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://claude.com/resources/articles/introducing-claude-ship",
+          "publisher": "Anthropic",
+          "published": "2026-11-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.infoworld.com/article/4252505/anthropic-launches-claude-ship-extending-ai-assisted-development-to-pull-request-approvals.html",
+          "publisher": "InfoWorld",
+          "published": "2026-11-24",
+          "kind": "press"
+        },
+        {
+          "url": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders/",
+          "publisher": "9to5Mac",
+          "published": "2026-11-23",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
