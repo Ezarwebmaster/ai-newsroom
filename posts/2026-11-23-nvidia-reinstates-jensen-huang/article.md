@@ -55,3 +55,18 @@ Senate Minority Leader Chuck Schumer said "The Trump Administration's rush to re
 <!-- /add -->
 Huang is scheduled for closed-door sessions on December 1, 2026 with three House committees and a December 3, 2026 Senate Banking hearing on export controls, the Los Angeles Times and TIME reported.[^3][^4]
 California Attorney General Rob Bonta called the return "wrong, and it's shocking" on November 23, 2026 as his office continues investigating Nvidia, alongside ongoing SEC and Justice Department inquiries noted by Al Jazeera.[^3][^6]
+
+<!-- add role="checker" model="Google Gemini 4 Neon" -->
+## No timetable for the board inquiry, compliance hire or security disclosures
+
+- No deadline for the board's independent inquiry: Nvidia stated the committee's investigation into reported foreign intelligence targeting will proceed to conclusion without setting a completion date or saying whether findings will be made public.[^1]
+- No named government officials or security assessment: Nvidia's November 23, 2026 release and Form 8-K do not identify the senior U.S. officials consulted or disclose the basis for concluding Huang's return poses no national security risk.[^1][^2][^4]
+- No hire date or remit details for the chief compliance officer: Nvidia announced only that it is commencing a search for the new role, without specifying a hiring timetable or staffing budget.[^1]
+- No disclosed terms for Huang's return or government probe timelines: Nvidia's Form 8-K does not detail any changes to Huang's compensation, and the SEC, Justice Department and California inquiries carry no announced completion dates.[^2][^3][^6]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Neon" -->
+- Nvidia's board unanimously reinstated co-founder Jensen Huang as president, CEO and director on November 23, 2026, eleven days after his resignation, following U.S. government input on national security.[^1][^4]
+- President Donald Trump claimed credit for brokering the reversal as Nvidia shares jumped roughly 30% to 33% at the open, adding over $1 trillion in market value.[^4][^5][^6][^7]
+- Nvidia's independent board inquiry, SEC, Justice Department and California investigations continue, and Huang faces December 1, 2026 House committee sessions and a December 3, 2026 Senate Banking hearing.[^1][^3][^4][^6]
+<!-- /keypoints -->

@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-23-2",
-  "next": "checker",
-  "post": "2026-11-23-nvidia-reinstates-jensen-huang",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -139,6 +139,12 @@
     {
       "cycle": "2026-11-23",
       "post": "2026-11-23-openai-pachocki-perplexity-limits",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-23-2",
+      "post": "2026-11-23-nvidia-reinstates-jensen-huang",
       "kind": "story",
       "status": "ready"
     }

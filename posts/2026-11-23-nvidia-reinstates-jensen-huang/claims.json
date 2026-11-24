@@ -1,0 +1,583 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Nvidia's board unanimously reinstated Jensen Huang as CEO after receiving U.S. government security assurances.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The Board of Directors voted unanimously to reinstate Mr. Huang"
+      },
+      {
+        "source": 1,
+        "quote": "the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Eleven days after Jensen Huang resigned, Nvidia announced on November 23, 2026 that he returned immediately as president, CEO and director, sending shares up about 30%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Eleven days. That’s how long it took Jensen Huang to return to his post of CEO of Nvidia"
+      },
+      {
+        "source": 1,
+        "quote": "NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board."
+      },
+      {
+        "source": 5,
+        "quote": "Nvidia shares, which had already shot up in premarket trading, opened 30% higher."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "Eleven days after stepping down, Nvidia announced on November 23, 2026 that its board unanimously reinstated Huang as president, chief executive officer and director effective immediately.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board."
+      },
+      {
+        "source": 1,
+        "quote": "The Board of Directors voted unanimously to reinstate Mr. Huang"
+      },
+      {
+        "source": 4,
+        "quote": "Eleven days. That’s how long it took Jensen Huang to return to his post of CEO of Nvidia"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "A Form 8-K filed on November 23, 2026 records that directors reinstated Huang on November 22, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "On November 22, 2026, the Board of Directors of NVIDIA Corporation reinstated Jen-Hsun Huang as NVIDIA’s President, Chief Executive Officer and member of the Board of Directors, effective immediately."
+      },
+      {
+        "source": 2,
+        "quote": "NVIDIA Corporation Date: November 23, 2026 By: /s/ Colette M. Kress"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "Interim CEO Colette Kress continues as executive vice president and CFO, and Harvey C. Jones remains board chair.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Following the reinstatement of Mr. Huang, Ms. Kress will continue to serve as NVIDIA’s Executive Vice President and Chief Financial Officer."
+      },
+      {
+        "source": 1,
+        "quote": "Harvey Jones will remain as Board chair."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 9,
+    "claim": "Nvidia said meetings with Huang satisfied directors on his candor and ability to lead, and input from senior levels of the U.S. government left the board confident his return poses no national security risk.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang’s candor and ability to lead NVIDIA."
+      },
+      {
+        "source": 1,
+        "quote": "the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 11,
+    "claim": "TIME noted the board acted before completing its independent investigation and did not name the government officials consulted or detail the information they supplied.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Notably, the board reinstated Huang before completing its independent investigation."
+      },
+      {
+        "source": 4,
+        "quote": "They did not identify those officials or explain what information they supplied."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "The vote reverses Harvey C. Jones's November 17, 2026 earnings call statement that directors did not intend to reinstate Huang after hiring Heidrick & Struggles.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "At the company’s Q3 earnings call on Nov. 17, chairman Harvey Jones told investors that the board did “not intend to reinstate Huang,”"
+      },
+      {
+        "source": 5,
+        "quote": "Nvidia had even retained executive search firm Heidrick & Struggles to find a permanent replacement."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 18,
+    "claim": "Arm Holdings CEO Rene Haas, who had been approached to succeed Huang, signed a new contract keeping him in his current role until 2033.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "The Arm Holdings chief executive, Rene Haas, who had been approached to succeed Huang, has signed a new deal that will keep him in his current role until 2033."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 20,
+    "claim": "In Nvidia's November 23, 2026 release, Jones said Huang's return serves the best interests of stockholders, employees, partners and customers, and Huang said he returned with the greatest humility and renewed commitment.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "his reinstatement is in the best interests of our stockholders, employees, partners and customers,"
+      },
+      {
+        "source": 1,
+        "quote": "I take this responsibility with the greatest humility and renewed commitment."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 22,
+    "claim": "Huang said he was honored to return to Nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "“I am honored to return to NVIDIA and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution,” said Jensen Huang."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 24,
+    "claim": "Huang resigned on November 12, 2026 after acknowledging an extramarital affair and amid reports of other extramarital relationships.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "On Nov. 12, Huang stepped down from the company he co-founded in 1993 after acknowledging an extramarital affair"
+      },
+      {
+        "source": 3,
+        "quote": "Huang resigned as Nvidia’s chief executive on Nov. 12, after reports of extramarital affairs"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 25,
+    "claim": "U.S. intelligence suspected the woman outside Nvidia, formerly at Megaspeed, of spying for China, though intelligence agencies have not publicly established she knowingly spied and Beijing denied the allegation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "a Singapore-based businesswoman suspected by U.S. intelligence of being a Chinese spy."
+      },
+      {
+        "source": 4,
+        "quote": "Her former company, Megaspeed, is also under criminal investigation over possible export-control violations."
+      },
+      {
+        "source": 4,
+        "quote": "But the intelligence community has not publicly established that she knowingly acted as a spy, and Beijing has denied the allegation."
+      },
+      {
+        "source": 5,
+        "quote": "a woman whom the U.S. government suspects to be a Chinese spy."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 27,
+    "claim": "On November 23, 2026, the U.S. government added Singapore-based Megaspeed to a federal trade blacklist barring U.S. companies from selling it chips or advanced technology.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "The same day as Huang’s reinstatement, the US government announced it had added Megaspeed to a federal trade blacklist, preventing US companies from selling chips or other advanced technology to the Singaporean business."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 29,
+    "claim": "Nvidia said its independent committee inquiry into reported foreign intelligence targeting will proceed to conclusion with Huang's cooperation, alongside its National Security and Export Control Committee, a chief compliance officer search and cooperation with government inquiries.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The Board reiterated that the committee’s investigation will proceed to conclusion. Mr. Huang fully supports the investigation and is committed to cooperating with it."
+      },
+      {
+        "source": 1,
+        "quote": "The Board also recently formed a National Security and Export Control Committee comprised solely of independent directors to oversee trade compliance and national security risks."
+      },
+      {
+        "source": 1,
+        "quote": "NVIDIA is commencing a search to fill a new position, Chief Compliance Officer, to oversee compliance across NVIDIA and report to the Nominating and Corporate Governance Committee. NVIDIA will continue to cooperate with ongoing government investigations and inquiries."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 31,
+    "claim": "Both board committees consist solely of independent directors assisted by outside counsel, and the new chief compliance officer will report to the Nominating and Corporate Governance Committee.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "the Board formed a committee comprised solely of independent directors to investigate, and the committee retained independent counsel to assist it in that investigation."
+      },
+      {
+        "source": 1,
+        "quote": "The committee is engaging counsel with experience in national security matters, and such counsel will be retaining advisors with expertise in national security matters."
+      },
+      {
+        "source": 1,
+        "quote": "Chief Compliance Officer, to oversee compliance across NVIDIA and report to the Nominating and Corporate Governance Committee."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 36,
+    "claim": "President Donald Trump told CNBC on November 23, 2026 'I convinced them' and 'I made the deal' after speaking to directors directly and indirectly alongside Vice President JD Vance.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Donald Trump personally claimed credit for the reversal, telling CNBC that “I convinced them” and “I made the deal.”"
+      },
+      {
+        "source": 4,
+        "quote": "Trump told CNBC that he had spoken to Nvidia’s board “directly and indirectly,” and that Vice President JD Vance was also involved in discussions."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 38,
+    "claim": "Trump told CNBC he was represented in the board meeting, the U.S. had to protect its geniuses, and Chinese President Xi Jinping praised Huang at the APEC summit in Shenzhen.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "In an interview with CNBC, Trump added that he was “represented in the board meeting”"
+      },
+      {
+        "source": 7,
+        "quote": "The US president told CNBC the US had to “protect our geniuses”, adding that the Chinese president, Xi Jinping, praised Huang at last week’s Apec summit in Shenzhen."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 40,
+    "claim": "On Truth Social on November 23, 2026, Trump called the move correct and proper and wrote that Attorney General Todd Blanche did not possess evidence of unlawful conduct by Huang.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "“The NVIDIA Board of Directors has made the correct and proper decision to return Jensen Huang to the position of CEO,” Trump wrote on Truth Social."
+      },
+      {
+        "source": 4,
+        "quote": "Trump wrote on Truth Social on Monday that Attorney General Todd Blanche did “not possess evidence” that Huang engaged in unlawful conduct."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 41,
+    "claim": "An online petition backing Huang passed 180,000 signatures, including Elon Musk, and TechCrunch noted Musk and other tech executives signed it.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "An online campaign attracted more than 180,000 signatures, including from executives like Elon Musk"
+      },
+      {
+        "source": 6,
+        "quote": "a petition calling for his return had drawn more than 180,000 signatures, including from Musk."
+      },
+      {
+        "source": 5,
+        "quote": "all of whom signed a petition pushing for reinstatement."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 43,
+    "claim": "Petition signatories included Replit CEO Amjad Masad, Epic Games CEO Tim Sweeney, Atoms founder Travis Kalanick and Y Combinator CEO Garry Tan, and Musk wrote on X on November 23, 2026 that 'The mistake has been corrected'.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Replit CEO Amjad Masad, Epic Games CEO Tim Sweeney, Atoms founder Travis Kalanick, and Y Combinator CEO Garry Tan — all of whom signed a petition pushing for reinstatement."
+      },
+      {
+        "source": 3,
+        "quote": "“The mistake has been corrected,” billionaire tech leader Elon Musk posted on X"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 45,
+    "claim": "Nvidia shares opened 30% higher on November 23, 2026 and traded at $159.95, up 27%, at 9:51 a.m. ET, while Al Jazeera reported an opening jump above 33% as the Nasdaq rose 6.7% and the S&P 500 gained 4.6%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Nvidia shares, which had already shot up in premarket trading, opened 30% higher. Nvidia shares were priced at $159.95 a share, up 27%, at 9:51 a.m. ET."
+      },
+      {
+        "source": 6,
+        "quote": "Nvidia shares jumped by more than 33 percent on the news as US markets opened on Monday."
+      },
+      {
+        "source": 6,
+        "quote": "The tech-heavy Nasdaq was up 6.7 percent, the Dow Jones Industrial Average was up 2.8 percent and the S&P 500 was up 4.6 percent in early trading."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 47,
+    "claim": "Nvidia's stock fell by a quarter after Huang's November 12, 2026 resignation, the November 23, 2026 rally added over $1 trillion (£760 billion) in market value, and Morningstar's Lindsey Stewart said reinstating Huang before finishing the inquiry adds to investor corporate governance questions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "Nvidia’s share price had fallen by a quarter in the days after Huang resigned on 12 November."
+      },
+      {
+        "source": 7,
+        "quote": "jumping 32% and adding more than $1tn (£760bn) to the company’s market value in New York on Monday"
+      },
+      {
+        "source": 4,
+        "quote": "Lindsey Stewart, director of institutional insights at Morningstar, an investment research company, says that the fact that Huang was reinstated before his investigation was concluded “is going to add to those corporate governance questions that investors have\""
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 52,
+    "claim": "Senators John Cornyn and John Curtis questioned the basis for the security finding on November 23, 2026, and Senator Elizabeth Warren wrote that Huang and Nvidia still owe Congress answers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "“No national security risk? Based on what?” Sen. John Cornyn (R-Texas) wrote on X."
+      },
+      {
+        "source": 4,
+        "quote": "Who in our government weighed in? What did they tell the board? And on what basis did the board conclude there was no risk?” wrote Utah Senator John Curtis."
+      },
+      {
+        "source": 6,
+        "quote": "“This reckless decision to bring back Jensen Huang does not change the fact that Huang and NVIDIA still owe Congress answers,” Massachusetts Senator Elizabeth Warren posted on X."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 54,
+    "claim": "Senate Minority Leader Chuck Schumer criticized the administration's rush and pledged Democrats would wield their full power to investigate, while Representative Greg Casar said Huang must testify under oath.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "“The Trump Administration’s rush to reinstate Jensen Huang underscores the need for Congress to act,” Senate minority leader Chuck Schumer (D-N.Y.) said in a statement."
+      },
+      {
+        "source": 3,
+        "quote": "Schumer said Democrats will “wield their full power” to investigate any wrongdoing by Huang, Nvidia and the Trump administration."
+      },
+      {
+        "source": 4,
+        "quote": "“Congress must get to the bottom of what’s going on at Nvidia. Jensen Huang must testify under oath,” Congressman Greg Casar wrote in a statement on Monday."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 56,
+    "claim": "Huang is scheduled for closed-door sessions on December 1, 2026 with three House committees and a December 3, 2026 Senate Banking hearing on export controls.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "On Dec. 1, Huang is scheduled to testify in closed-door meetings with three Republican-led congressional committees."
+      },
+      {
+        "source": 4,
+        "quote": "He has agreed to a transcribed congressional interview on Dec. 1 before the House Intelligence, Foreign Affairs, and China committees, and has also been asked to appear on Dec. 3 in a public Senate hearing."
+      },
+      {
+        "source": 3,
+        "quote": "Republican Sen. Tim Scott, chairman of the Senate Banking Committee, announced that Huang would also testify in a public hearing on Dec. 3 titled “Protecting America’s AI Advantage: Oversight of U.S. Export Controls.”"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 57,
+    "claim": "California Attorney General Rob Bonta called the return wrong and shocking on November 23, 2026 as his office continues investigating Nvidia, alongside ongoing SEC and Justice Department inquiries.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "“It’s wrong, and it’s shocking,” Bonta said of Huang’s reinstatement."
+      },
+      {
+        "source": 3,
+        "quote": "Atty. Gen. Rob Bonta said that the state Department of Justice would continue its investigation"
+      },
+      {
+        "source": 6,
+        "quote": "He was reinstated despite multiple investigations under way into the chipmaker, including by the US Securities and Exchange Commission (SEC) and the Department of Justice (DOJ)."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 62,
+    "claim": "Nvidia did not set a completion date for its independent committee investigation or say whether findings will be made public.",
+    "status": "absence",
+    "note": "Checked the entire November 23, 2026 Nvidia press release; it states only that the investigation will proceed to conclusion with no timetable or publication commitment."
+  },
+  {
+    "id": 29,
+    "line": 63,
+    "claim": "Nvidia's November 23, 2026 release and Form 8-K do not identify the senior U.S. government officials consulted or disclose the basis for concluding Huang's return poses no national security risk.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "They did not identify those officials or explain what information they supplied."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 64,
+    "claim": "Nvidia did not specify a hiring timetable or staffing budget for its new Chief Compliance Officer search.",
+    "status": "absence",
+    "note": "Checked the entire November 23, 2026 Nvidia press release; it announces only that Nvidia is commencing a search for a Chief Compliance Officer reporting to the Nominating and Corporate Governance Committee."
+  },
+  {
+    "id": 31,
+    "line": 65,
+    "claim": "Nvidia's Form 8-K does not detail any changes to Huang's compensation, and the SEC, Justice Department and California investigations carry no announced completion dates.",
+    "status": "absence",
+    "note": "Checked the complete Item 5.02 Form 8-K text as well as the Los Angeles Times and Al Jazeera reports; none disclose compensation modifications or end dates for the ongoing government inquiries."
+  },
+  {
+    "id": 32,
+    "line": 69,
+    "claim": "Key point 1: Nvidia's board unanimously reinstated Jensen Huang as president, CEO and director on November 23, 2026, eleven days after his resignation, following U.S. government input on national security.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board."
+      },
+      {
+        "source": 1,
+        "quote": "The Board of Directors voted unanimously to reinstate Mr. Huang"
+      },
+      {
+        "source": 1,
+        "quote": "the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk."
+      },
+      {
+        "source": 4,
+        "quote": "Eleven days. That’s how long it took Jensen Huang to return to his post of CEO of Nvidia"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "line": 70,
+    "claim": "Key point 2: President Donald Trump claimed credit for brokering the reversal as Nvidia shares jumped roughly 30% to 33% at the open, adding over $1 trillion in market value.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Donald Trump personally claimed credit for the reversal, telling CNBC that “I convinced them” and “I made the deal.”"
+      },
+      {
+        "source": 5,
+        "quote": "Nvidia shares, which had already shot up in premarket trading, opened 30% higher."
+      },
+      {
+        "source": 6,
+        "quote": "Nvidia shares jumped by more than 33 percent on the news as US markets opened on Monday."
+      },
+      {
+        "source": 7,
+        "quote": "jumping 32% and adding more than $1tn (£760bn) to the company’s market value in New York on Monday"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "line": 71,
+    "claim": "Key point 3: Nvidia's independent board inquiry, SEC, Justice Department and California investigations continue, and Huang faces December 1, 2026 House committee sessions and a December 3, 2026 Senate Banking hearing.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The Board reiterated that the committee’s investigation will proceed to conclusion."
+      },
+      {
+        "source": 6,
+        "quote": "He was reinstated despite multiple investigations under way into the chipmaker, including by the US Securities and Exchange Commission (SEC) and the Department of Justice (DOJ)."
+      },
+      {
+        "source": 3,
+        "quote": "Atty. Gen. Rob Bonta said that the state Department of Justice would continue its investigation"
+      },
+      {
+        "source": 4,
+        "quote": "He has agreed to a transcribed congressional interview on Dec. 1 before the House Intelligence, Foreign Affairs, and China committees, and has also been asked to appear on Dec. 3 in a public Senate hearing."
+      },
+      {
+        "source": 3,
+        "quote": "Republican Sen. Tim Scott, chairman of the Senate Banking Committee, announced that Huang would also testify in a public hearing on Dec. 3 titled “Protecting America’s AI Advantage: Oversight of U.S. Export Controls.”"
+      }
+    ]
+  }
+]
