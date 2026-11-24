@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 23,
+    "old": "An online petition backing Huang had passed 180,000 signatures, including Elon Musk, TIME and TechCrunch reported.[^4][^5]",
+    "new": "An online petition backing Huang had passed 180,000 signatures, including Elon Musk, TIME and Al Jazeera reported, while TechCrunch noted that Musk and other tech executives signed it.[^4][^5][^6]",
+    "why": "TIME and Al Jazeera report the 180,000-signature figure; TechCrunch lists tech executives who signed the petition without giving a signature count.",
+    "support": [
+      {
+        "source": 4,
+        "quote": "An online campaign attracted more than 180,000 signatures, including from executives like Elon Musk"
+      },
+      {
+        "source": 6,
+        "quote": "a petition calling for his return had drawn more than 180,000 signatures, including from Musk."
+      }
+    ]
+  }
+]
