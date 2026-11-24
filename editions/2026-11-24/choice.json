@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-24",
+  "model": "Google Gemini 4 Argon",
+  "picked": 2,
+  "why": "Amazon's agreement on November 23, 2026 to purchase the proprietary technology behind the Decart Optimization Stack and hire Decart's co-founders and engineering team in a deal valued at a reported $7.5 billion is a major consolidation in AI infrastructure. Integrating Decart's software-hardware optimization into AWS's custom Trainium chips via Annapurna Labs directly targets Nvidia's software moat and drew broad international press coverage.",
+  "trend": [
+    {
+      "url": "https://www.calcalistech.com/ctechnews/article/g0mtcg4mi",
+      "publisher": "Calcalist CTech",
+      "published": "2026-11-23"
+    },
+    {
+      "url": "https://en.globes.co.il/en/article-amazon-confirms-decart-acquisition-1001564520",
+      "publisher": "Globes",
+      "published": "2026-11-23"
+    },
+    {
+      "url": "https://thenextweb.com/news/amazon-decart-7-5bn-optimization-stack-founders-trainium",
+      "publisher": "The Next Web",
+      "published": "2026-11-23"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 1,
+      "why": "Anthropic's Claude Ship beta automates GitHub pull request reviews, fixes, and approvals for Team and Enterprise users, a notable developer tool behind Amazon's $7.5 billion silicon software deal."
+    },
+    {
+      "n": 3,
+      "why": "Cisco and OpenAI's Shirudo open-source eBPF Linux runtime deploys temporary kernel shields before software patches land, an early security project of narrower scope than Amazon's Decart deal."
+    }
+  ]
+}
