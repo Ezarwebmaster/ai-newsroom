@@ -1,7 +1,7 @@
 {
   "contract": 1,
   "cycle": "2026-11-25",
-  "next": "writer",
+  "next": "reviser",
   "post": "2026-11-25-openclaw-shellbench-agent-benchmark",
   "history": [
     {
