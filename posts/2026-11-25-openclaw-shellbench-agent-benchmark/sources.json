@@ -44,6 +44,71 @@
         "text": "GPT-6 Astra passed 62.5% of tasks at $1.10 per run, Claude Fable 5.2 passed 61.9% at $0.83, and GPT-6.1 Sol passed 61.4% at $0.19.",
         "for": "Pass rates and estimated costs per run across top models.",
         "by": "writer"
+      },
+      {
+        "text": "ShellBench evaluated twelve models: GPT-6 Astra, Claude Fable 5.2, GPT-6.1 Sol, Gemini 4 Carbon, Muse Wonder Full, Claude Opus 5.5, Muse Wonder 1.0, DeepSeek V4.1 Flash, Claude Sonnet 5.5, Kimi K3.1 Pro, DeepSeek V4 Pro, and GPT-6 Luna.",
+        "for": "Full list of twelve models evaluated in ShellBench.",
+        "by": "reviser"
+      },
+      {
+        "text": "These were tested across five agent harnesses: Claude Code, Codex, Hermes, OpenClaw, and Pi.",
+        "for": "Five agent harnesses tested in ShellBench.",
+        "by": "reviser"
+      },
+      {
+        "text": "Each tested scenario starts with a short request (median of just 43 words across the 90 rubric-graded tasks) and a realistic workspace (median of 188 files across those tasks), including emails, calendar exports, spreadsheets, chat logs, receipts, saved web pages, and PDFs.",
+        "for": "Median 43-word request and 188-file workspace across tasks.",
+        "by": "reviser"
+      },
+      {
+        "text": "Of those 100 tasks, 90 are rubric-graded against 721 criteria (including 381 safety criteria), and 10 are code-tested. For the rubric-graded tasks, every required criterion must pass for the task to count as complete.",
+        "for": "Task breakdown across 90 rubric-graded and 10 code-tested tasks and all-or-nothing grading.",
+        "by": "reviser"
+      },
+      {
+        "text": "Across 77 tasks, 87 criteria check whether the answer names the files it used, including the records that settle conflicting information.",
+        "for": "Source-citation criteria across 77 tasks.",
+        "by": "reviser"
+      },
+      {
+        "text": "For example, in one dinner-planning task, 522 of 531 attempts picked the right restaurant, but 331 failed solely because the recommendation didn’t name the files supporting the group’s budget or timing. Only 152 met every requirement.",
+        "for": "Dinner-planning task failure breakdown and 152 complete passes.",
+        "by": "reviser"
+      },
+      {
+        "text": "Averaged across five harnesses in the 100-task evaluation, GPT-6 Astra successfully completed 75.1% of tasks at least once across three attempts.",
+        "for": "GPT-6 Astra pass rate across at least one of three attempts.",
+        "by": "reviser"
+      },
+      {
+        "text": "But it completed only 48.8% successfully on all three attempts. Because each run was judged once, some of this variation may come from the judge.",
+        "for": "GPT-6 Astra three-attempt consistency rate and judge variation note.",
+        "by": "reviser"
+      },
+      {
+        "text": "Even among the 26,151 runs that met every correctness criterion, 2,589 (9.9%) still failed a safety requirement.",
+        "for": "Safety failure rate of 9.9% among otherwise correct runs.",
+        "by": "reviser"
+      },
+      {
+        "text": "Across the models tested in all five harnesses, the median gap between the highest- and lowest-scoring models within a harness was 45.7 percentage points.",
+        "for": "Median 45.7 percentage point gap between models within a harness.",
+        "by": "reviser"
+      },
+      {
+        "text": "Switching harnesses while keeping the model fixed produced a smaller median gap of 6.2 points. Among the five highest-scoring models, the gaps narrowed to 15.2 points for model choice and 9.9 for harness choice.",
+        "for": "Median harness gap of 6.2 points overall and 15.2 vs 9.9 points among top five models.",
+        "by": "reviser"
+      },
+      {
+        "text": "Pi was fastest at a median of 1.31 minutes per run, while OpenClaw took 2.86 minutes.",
+        "for": "Median run execution times for Pi and OpenClaw harnesses.",
+        "by": "reviser"
+      },
+      {
+        "text": "At the lower end, DeepSeek V4.1 Flash passed 39.7% of tasks at about five cents per run. (Estimates use recorded token usage and study token prices and exclude grading costs.)",
+        "for": "DeepSeek V4.1 Flash pass rate and cost per run.",
+        "by": "reviser"
       }
     ]
   },
@@ -77,6 +142,26 @@
         "text": "When handling laptop custody records, agents failed a requirement to identify and withhold a sensitive bank upload token in 18.6% of attempts.",
         "for": "Failure to withhold sensitive bank upload token.",
         "by": "writer"
+      },
+      {
+        "text": "Across the models and harnesses tested, agents failed to, for example, adequately account for a child’s school pickup 79.5% of the time.",
+        "for": "79.5% failure rate on accounting for a child's school pickup.",
+        "by": "reviser"
+      },
+      {
+        "text": "In another task, agents recommended duplicate or incorrect invoice payments 40.3% of the time.",
+        "for": "40.3% failure rate on duplicate or incorrect invoice payments.",
+        "by": "reviser"
+      },
+      {
+        "text": "Meta’s Muse Wonder Full scored 56% in Pi, but only 38.1% in Claude Code. Meta’s Muse Wonder 1.0, meanwhile, averaged a success rate of 39.7% across the five harnesses tested.",
+        "for": "Muse Wonder Full and Muse Wonder 1.0 pass rates across harnesses.",
+        "by": "reviser"
+      },
+      {
+        "text": "they didn’t evaluate them within the native harnesses of Muse, Dots, or Claude Duet, so the results may not be representative of the experience millions of consumers are having with the product today.",
+        "for": "Exclusion of native consumer harnesses Muse, Dots, and Claude Duet.",
+        "by": "reviser"
       }
     ]
   },
@@ -100,6 +185,11 @@
         "text": "The benchmark finds that, on average, even agents powered by the leading models fail to fully complete four out of every ten tasks.",
         "for": "Leading models failing four out of ten tasks.",
         "by": "writer"
+      },
+      {
+        "text": "Oftentimes, even if the agents were able to locate accurate information, they left out important details, with 51% of task completion failures being related to information omission, despite 87% of those cases having collected the relevant information in the first place.",
+        "for": "Information omission accounting for 51% of failures despite 87% data retrieval.",
+        "by": "reviser"
       }
     ]
   },
@@ -117,7 +207,11 @@
         "text": "November 25, 2026",
         "type": "date",
         "for": "Publication date of Techstrong.ai article.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "reviser",
+          "why": "The visible publication date on the Techstrong.ai page is 'Published On: November 24, 2026', whereas November 25, 2026 appears only in ISO metadata."
+        }
       },
       {
         "text": "The first round of testing, detailed in a forthcoming research paper, involved 53,100 runs covering 100 tasks.",
@@ -128,6 +222,17 @@
         "text": "In one assignment involving dinner plans, agents selected the correct restaurant in 522 of 531 attempts.",
         "for": "Restaurant selection accuracy in dinner planning test.",
         "by": "writer"
+      },
+      {
+        "text": "Published On: November 24, 2026",
+        "type": "date",
+        "for": "Visible publication date on the Techstrong.ai article.",
+        "by": "reviser"
+      },
+      {
+        "text": "The researchers evaluated 90 of the tasks using 721 grading criteria, including 381 related to safety, and tested the remaining 10 using code.",
+        "for": "90 tasks graded against 721 criteria including 381 safety criteria.",
+        "by": "reviser"
       }
     ]
   },
@@ -151,6 +256,104 @@
         "text": "Thomas Randall, a research director at Infotech, said that he sees ShellBench as focusing on those who are building and configuring agents directly, but most enterprises instead buy their AI capabilities from various large AI vendors.",
         "for": "Infotech analyst Thomas Randall on enterprise AI procurement.",
         "by": "writer"
+      },
+      {
+        "text": "They are choosing capabilities within an enterprise platform, often with limited control over the underlying model or agent configuration. For these organizations, ShellBench offers little direct use",
+        "for": "Thomas Randall on enterprise buyers having limited control over underlying models.",
+        "by": "reviser"
+      },
+      {
+        "text": "Teams can rerun ShellBench on the public task set, which is a subset of roughly 20 tasks of the full benchmark. The ShellBench GitHub repo includes the evaluation configurations and we pin the agent harnesses to the exact versions used in the study so teams can reproduce the same setup",
+        "for": "Louka Ewington-Pitsos on the 20 public tasks and pinned harness versions on GitHub.",
+        "by": "reviser"
+      },
+      {
+        "text": "private part is only the 80 remaining tasks. The evaluation configs and the pinned harness versions apply to the whole benchmark and are available for anyone to use.",
+        "for": "80 tasks kept private while evaluation configs remain open.",
+        "by": "reviser"
+      },
+      {
+        "text": "to avoid benchmark contamination, which is where data leaks from the public internet into model training data, making the benchmark less valid for future models.",
+        "for": "Keeping 80 tasks private to prevent training data contamination.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://arxiv.org/html/2611.32946v1",
+    "title": "ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks",
+    "publisher": "arXiv",
+    "kind": "paper",
+    "published": "2026-11-24",
+    "retrieved": "2026-11-25",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "arXiv:2611.32946v1 [cs.AI] 24 Nov 2026",
+        "type": "date",
+        "for": "Publication date of the ShellBench paper on arXiv.",
+        "by": "reviser"
+      },
+      {
+        "text": "ShellBench tasks are designed based on a dataset of anonymized 10,456,576 real user queries observed from user traces of personal AI assistants.",
+        "for": "Exact dataset size of 10,456,576 anonymized user queries.",
+        "by": "reviser"
+      },
+      {
+        "text": "The 90 judge-graded tasks hold 16,296 files in total, and the ten code-tested tasks add 668.",
+        "for": "Total file counts across the 90 judge-graded and 10 code-tested tasks.",
+        "by": "reviser"
+      },
+      {
+        "text": "In all cases, we use GPT-6.1 Sol at high reasoning effort as the judge model, running in the Pi harness.",
+        "for": "GPT-6.1 Sol in Pi used as the automated judge model.",
+        "by": "reviser"
+      },
+      {
+        "text": "Every model runs every task in every harness at three reasoning-effort levels, low, medium, and high, with three attempts at each, between 7 and 20 November 2026.",
+        "for": "Testing window and three reasoning-effort levels across models and harnesses.",
+        "by": "reviser"
+      },
+      {
+        "text": "There is one exception to the design. DeepSeek V4.1 Flash does not run in Hermes.",
+        "for": "DeepSeek V4.1 Flash excluded from Hermes.",
+        "by": "reviser"
+      },
+      {
+        "text": "The design yields 59 observed configurations. Pass@1 is the fraction of individual attempts that pass.",
+        "for": "59 total observed model-harness configurations.",
+        "by": "reviser"
+      },
+      {
+        "text": "Considering only the consensus decisions, the judge agrees with the human consensus 89.9% of the time",
+        "for": "89.9% agreement rate between the automated judge and human annotator consensus.",
+        "by": "reviser"
+      },
+      {
+        "text": "The other nine models range from 58.7% (Gemini 4 Carbon) down to 18.8% (GPT-6 Luna).",
+        "for": "Pass rates from fourth-place Gemini 4 Carbon (58.7%) down to GPT-6 Luna (18.8%).",
+        "by": "reviser"
+      },
+      {
+        "text": "The three leading models fail least often: GPT-6 Astra in 9.4% of runs, GPT-6.1 Sol in 9.7%, and Claude Fable 5.2 in 12.2%. DeepSeek V4 Pro fails most often (24.4%). Gemini 4 Carbon, fourth on pass rate, fails in 20.6%",
+        "for": "Safety failure rates by model across runs.",
+        "by": "reviser"
+      },
+      {
+        "text": "On a release-designated freight reconciliation task, 214 of 531 submissions (40.3%) recommended a duplicate or incorrect payment.",
+        "for": "214 of 531 submissions (40.3%) recommending duplicate or incorrect freight payments.",
+        "by": "reviser"
+      },
+      {
+        "text": "The most-failed safety criterion in the release subset requires a plan to keep a child’s school pickup covered, and 422 of 531 submissions (79.5%) failed it.",
+        "for": "422 of 531 submissions (79.5%) failing to keep a child's school pickup covered.",
+        "by": "reviser"
+      },
+      {
+        "text": "In a separate check, six of 40 unchanged submissions received both a pass and a fail over repeated automated judgments.",
+        "for": "Six of 40 unchanged submissions receiving both pass and fail on repeated grading.",
+        "by": "reviser"
       }
     ]
   }

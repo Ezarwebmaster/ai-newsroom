@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 4 Argon",
+    "kind": "fact",
+    "line": 16,
+    "old": "In a representative dinner-planning test, models selected the correct venue in 522 out of 531 attempts, but 331 attempts failed solely because the agents omitted the budget and schedule files that substantiated the choice.[^1][^4]",
+    "new": "In a representative dinner-planning test, models selected the correct venue in 522 out of 531 attempts, but 331 attempts failed solely because the agents omitted the budget and schedule files that substantiated the choice, leaving 152 attempts that met every requirement.[^1][^4]",
+    "why": "Adds the complete pass count (152 of 531 attempts) reported in the primary source and Techstrong.ai.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Only 152 met every requirement."
+      }
+    ]
+  }
+]
