@@ -1,0 +1,22 @@
+{
+  "contract": 1,
+  "id": "2026-11-25-openclaw-shellbench-agent-benchmark",
+  "cycle": "2026-11-25",
+  "kind": "story",
+  "type": "research",
+  "category": "research",
+  "tags": [
+    "agents",
+    "benchmarks",
+    "safety",
+    "enterprise"
+  ],
+  "primary_source": "https://openclaw.ai/blog/shellbench",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}

@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-25",
+  "model": "Google Gemini 4 Carbon",
+  "picked": 1,
+  "why": "OpenClaw, UC Berkeley, Hugging Face, Red Hat, and Parsewave launched ShellBench on November 24, 2026, testing twelve frontier models across five agent harnesses on 100 messy workspace tasks drawn from over 10 million anonymized interactions. Even the leading model cleared only 62.5% of tasks across 53,100 graded runs, while 15.7% failed at least one safety check. As major labs push personal and enterprise agents, this empirical reality check offers broad, immediate value for builders and buyers.",
+  "trend": [
+    {
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "publisher": "TechCrunch",
+      "published": "2026-11-24"
+    },
+    {
+      "url": "https://www.computerworld.com/article/4252841/openclaw-launches-an-ai-performance-benchmark-that-it-argues-is-more-realistic-than-others.html",
+      "publisher": "Computerworld",
+      "published": "2026-11-25"
+    },
+    {
+      "url": "https://cryptobriefing.com/openclaw-shellbench-ai-agent-benchmark/",
+      "publisher": "Crypto Briefing",
+      "published": "2026-11-25"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Sand.ai announced its 480B MAGI-2 audio-video model on its blog, but promised open weights and the technical report are not yet released, and independent press coverage remains sparse."
+    },
+    {
+      "n": 3,
+      "why": "The UK FCA webpage clarifies how existing financial rules and authorisation perimeters apply to agentic AI without introducing new binding rules or enforcement actions yet."
+    }
+  ]
+}
