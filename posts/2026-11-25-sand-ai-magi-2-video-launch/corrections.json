@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "OpenAI GPT-6.2 Sol",
+    "kind": "fact",
+    "line": 11,
+    "old": "In one launch demonstration, Sand.ai used reference images to dress a character and place them on an iris hillside, in a rose garden and in a valley of lilies.[^1]",
+    "new": "In one launch demonstration, Sand.ai used reference images to keep a character’s wardrobe consistent across an iris hillside, a rose garden and a valley of lilies.[^1]",
+    "why": "The showcase describes keeping the wardrobe consistent across settings.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Locks character appearance, wardrobe, and three distinct floral environments"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "reviser",
+    "model": "OpenAI GPT-6.2 Sol",
+    "kind": "fact",
+    "line": 29,
+    "old": "SandBase’s listing on the same date shows how its per-second billing works for shorter clips, with a default price of $0.40 for five seconds and a price of $0.80 for ten.[^3]",
+    "new": "SandBase’s November 25, 2026 listing showed a $0.40 estimate for the default five seconds, with its billing formula giving $0.80 for ten.[^3]",
+    "why": "The listing distinguishes the visible five-second estimate from the calculated ten-second price.",
+    "support": [
+      {
+        "source": 3,
+        "quote": "the number on the Run button when duration is 5."
+      },
+      {
+        "source": 3,
+        "quote": "A default 5-second clip lists at $0.40. A 10-second clip lists at $0.80."
+      }
+    ]
+  }
+]

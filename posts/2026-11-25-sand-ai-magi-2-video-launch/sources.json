@@ -18,6 +18,16 @@
         "text": "we will open-source MAGI-2 and publish a comprehensive technical report",
         "for": "The developer's plans for the full model.",
         "by": "writer"
+      },
+      {
+        "text": "Locks character appearance, wardrobe, and three distinct floral environments",
+        "for": "The flower-world demo uses references to preserve the character's appearance and clothing.",
+        "by": "reviser"
+      },
+      {
+        "text": "shot-cut control, and supports targeted editing on existing video.",
+        "for": "Sand.ai describes editing as a model capability.",
+        "by": "reviser"
       }
     ]
   },
@@ -35,6 +45,11 @@
         "text": "A 30-second clip costs 75 credits, approximately $3.69 on Plus, or $2.40 through the API.",
         "for": "Comparison of web credits and API pricing.",
         "by": "writer"
+      },
+      {
+        "text": "The estimates below use the Plus plan priced at $59 per month for 1,200 credits",
+        "for": "The plan used to value the web app credits.",
+        "by": "reviser"
       }
     ]
   },
@@ -52,6 +67,72 @@
         "text": "A default 5-second clip lists at $0.40. A 10-second clip lists at $0.80.",
         "for": "Published prices for two output durations.",
         "by": "writer"
+      },
+      {
+        "text": "the number on the Run button when duration is 5.",
+        "for": "The visible SandBase estimate was for the five-second default.",
+        "by": "reviser"
+      },
+      {
+        "text": "None of the three schemas includes a frame-rate field or an edit input.",
+        "for": "SandBase's documented generation modes did not expose editing.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+    "title": "AA-Video-I2V v2.1 Leaderboard",
+    "publisher": "Artificial Analysis",
+    "kind": "data",
+    "published": null,
+    "retrieved": "2026-11-25",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "audio, by Elo from pairwise human preference votes.",
+        "for": "The image-to-video board compares video with audio.",
+        "by": "reviser"
+      },
+      {
+        "text": "MAGI-2 currently leads AA-Video-I2V v2.1 with an Elo score of 1163.",
+        "for": "MAGI-2 had the highest displayed Elo on the image-to-video board on November 25, 2026.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "title": "AA-Video-T2V v2.1 Leaderboard",
+    "publisher": "Artificial Analysis",
+    "kind": "data",
+    "published": null,
+    "retrieved": "2026-11-25",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Ranks video models on generating video with audio from a text prompt, by Elo from pairwise human preference votes.",
+        "for": "The text-to-video board measures audio-inclusive generation from a text prompt.",
+        "by": "reviser"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://platform.sand.ai/docs/model-pricing/",
+    "title": "Model & Pricing",
+    "publisher": "Sand.ai",
+    "kind": "docs",
+    "published": null,
+    "retrieved": "2026-11-25",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Top-up is not supported for the time being.",
+        "for": "The developer's API platform announced a billing limitation.",
+        "by": "reviser"
       }
     ]
   }
