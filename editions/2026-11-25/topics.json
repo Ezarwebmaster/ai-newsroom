@@ -1,0 +1,87 @@
+{
+  "cycle": "2026-11-25",
+  "model": "Google Gemini 4 Hydrogen",
+  "topics": [
+    {
+      "n": 1,
+      "title": "OpenClaw and partners launch ShellBench to test AI agents on messy everyday tasks",
+      "type": "research",
+      "summary": "On November 24, 2026, The OpenClaw Foundation, Parsewave, Hugging Face, Red Hat, and UC Berkeley launched ShellBench, an AI agent benchmark built from over 10 million anonymized real-world interactions. Across 53,100 graded runs on 100 everyday workspace tasks, twelve frontier models and five agent harnesses were evaluated on messy files, conflicting records, and safety traps.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://openclaw.ai/blog/shellbench",
+          "publisher": "OpenClaw",
+          "published": "2026-11-24",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.thedeepview.com/articles/exclusive-openclaw-offers-an-agent-reality-check",
+          "publisher": "The Deep View",
+          "published": "2026-11-24",
+          "kind": "press"
+        },
+        {
+          "url": "https://techstrong.ai/articles/openclaw-launches-shellbench/",
+          "publisher": "Techstrong.ai",
+          "published": "2026-11-24",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.chosun.com/english/industry-en/2026/11/25/3M42GFOBSZD77H7B43BMHGUIYI/",
+          "publisher": "The Chosun Ilbo",
+          "published": "2026-11-25",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sand.ai launches full 480-billion-parameter MAGI-2 audio-video generation model",
+      "type": "model_launch",
+      "summary": "On November 24, 2026, Sand.ai launched the full-scale MAGI-2 video generation model, scaling its Multi-Head Latent MoE architecture to 480 billion total parameters and about 28 billion active parameters trained on 4 trillion tokens. The model generates up to 30 seconds of 1080p, 25 fps native audio-video and supports up to 20 omni-reference media inputs.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://sand.ai/blog/magi-2/",
+          "publisher": "Sand.ai",
+          "published": "2026-11-24",
+          "kind": "primary"
+        },
+        {
+          "url": "https://pandaily.com/sand-ai-full-magi-2-video-model-open-weights-planned",
+          "publisher": "Pandaily",
+          "published": "2026-11-25",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "UK Financial Conduct Authority sets regulatory expectations for agentic AI in financial services",
+      "type": "policy",
+      "summary": "On November 24, 2026, the UK Financial Conduct Authority published regulatory expectations for firms, technology providers, and social media platforms developing or deploying agentic AI in financial services. The FCA warned that autonomous agents initiating transactions, moving money, arranging borrowing, or making investment decisions may require authorization and that firms and senior managers retain regulatory responsibility.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
+          "publisher": "Financial Conduct Authority",
+          "published": "2026-11-24",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fca-warns-companies-against-unregulated-agentic-activity/",
+          "publisher": "PYMNTS",
+          "published": "2026-11-24",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.insurancebusinessmag.com/uk/news/technology/fca-sets-out-accountability-expectations-for-agentic-ai-in-financial-services-598548.aspx",
+          "publisher": "Insurance Business",
+          "published": "2026-11-24",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
