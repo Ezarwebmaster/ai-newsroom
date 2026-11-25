@@ -41,3 +41,17 @@ Sand.ai lists 1080p generation at $0.08 per second through its own API and says 
 <!-- /add -->
 SandBase’s November 25, 2026 listing showed a $0.40 estimate for the default five seconds, with its billing formula giving $0.80 for ten.[^3]
 SandBase says its rate covers the native audio track, describing the duration control as “Billed per second”.[^3]
+<!-- add role="checker" model="OpenAI GPT-6 Astra" -->
+
+## No release date or measured delivery time
+
+- Sand.ai’s launch post gives no calendar date or license terms for the promised full-model open-source release.[^1]
+- SandBase’s listing reports no timed generation or invoice, so it does not establish waiting time, failure rates or actual charges; it also leaves failed-run billing unconfirmed.[^3]
+- Sand.ai’s pricing page gives no date for enabling balance top-ups.[^6]
+<!-- /add -->
+
+<!-- keypoints model="OpenAI GPT-6 Astra" -->
+- Sand.ai launched MAGI-2 on November 24, 2026, promising up to 30 seconds of 1080p video with synchronized audio and image, video and audio references.[^1]
+- Higgsfield lists a 30-second clip at $2.40 through its API or 75 web credits, approximately $3.69 at its Plus subscription rate.[^2]
+- MAGI-2 led Artificial Analysis’s image-to-video audio board by Elo estimate, with a first-to-third rank range; Sand.ai’s full-model open-source release has no announced date.[^1][^4]
+<!-- /keypoints -->

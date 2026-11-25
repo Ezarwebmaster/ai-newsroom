@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "Sand.ai launched MAGI-2 with up to 30 seconds of synchronized audio-video.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "It generates up to 30 seconds of 1080p, 25 fps native audio-video"
+      }
+    ],
+    "note": "Read the launch introduction and capabilities section; synchronization is explicitly described as native video and audio within one backbone."
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Reference inputs include images, footage and audio; start and end frames guide generation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "shot-cut control, and supports targeted editing on existing video."
+      },
+      {
+        "source": 2,
+        "quote": "Frames defines the image the video starts from and, optionally, the image it ends on."
+      }
+    ],
+    "note": "Sand.ai’s capabilities paragraph lists all three reference media; Higgsfield’s Frames instructions describe start/end frames."
+  },
+  {
+    "id": 3,
+    "line": 3,
+    "claim": "Higgsfield lists a full-length 30-second clip at $2.40 through its API.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "A 30-second clip costs 75 credits, approximately $3.69 on Plus, or $2.40 through the API."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 6,
+    "claim": "The full MAGI-2 launch was announced on November 24, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NOVEMBER 24, 2026"
+      }
+    ],
+    "note": "The visible date and announcement of the full flagship appear together; this is distinct from the August preview."
+  },
+  {
+    "id": 5,
+    "line": 6,
+    "claim": "Sand.ai says outputs reach 30 seconds and include generated dialogue, music and effects.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "It generates up to 30 seconds of 1080p, 25 fps native audio-video"
+      }
+    ],
+    "note": "The capabilities section explicitly lists lip-synced dialogue, foley, ambient sound and music; these are developer capability claims."
+  },
+  {
+    "id": 6,
+    "line": 7,
+    "claim": "Sand.ai specifies 1080p, 25 fps and controllable shot cuts.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "It generates up to 30 seconds of 1080p, 25 fps native audio-video"
+      },
+      {
+        "source": 1,
+        "quote": "shot-cut control, and supports targeted editing on existing video."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 11,
+    "claim": "The floral demo uses reference images for consistent wardrobe across iris, rose and lily settings.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Locks character appearance, wardrobe, and three distinct floral environments"
+      }
+    ],
+    "note": "Opened the Into the Giant Flower World showcase. Its expanded caption names the iris hillside, pink rose garden and lily valley, and says references lock wardrobe."
+  },
+  {
+    "id": 8,
+    "line": 12,
+    "claim": "The floral showcase uses close-ups, wide shots and leaf/petal transitions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Locks character appearance, wardrobe, and three distinct floral environments"
+      }
+    ],
+    "note": "The expanded caption describes alternating close-ups, low-angle viewpoints and wide shots, with transitions obscured by leaves and petals. This describes a showcase, not a reliability test."
+  },
+  {
+    "id": 9,
+    "line": 13,
+    "claim": "Sand.ai allows up to 10 image, five video and five audio references per request.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "It generates up to 30 seconds of 1080p, 25 fps native audio-video"
+      }
+    ],
+    "note": "Verified the capabilities paragraph: it specifies 20 combined references, divided into 10 images, 5 videos and 5 audio clips. The short stored quotation covers output, not those input limits."
+  },
+  {
+    "id": 10,
+    "line": 15,
+    "claim": "Sand.ai describes targeted editing of existing video.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "shot-cut control, and supports targeted editing on existing video."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 16,
+    "claim": "SandBase lists text, image and reference generation modes without editing inputs.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "None of the three schemas includes a frame-rate field or an edit input."
+      }
+    ],
+    "note": "Read the three model cards summarized in the listing and its FAQ on editing; this is about SandBase’s documented schemas, not the model’s total capabilities."
+  },
+  {
+    "id": 12,
+    "line": 19,
+    "claim": "Higgsfield published its web-app guide on November 25, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Frames defines the image the video starts from and, optionally, the image it ends on."
+      }
+    ],
+    "note": "The browser-visible date at the top is Nov 25, 2026; the numbered instructions describe the web-app workflow."
+  },
+  {
+    "id": 13,
+    "line": 20,
+    "claim": "Creators can animate a starting frame or supply both endpoints and describe the transition.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Frames defines the image the video starts from and, optionally, the image it ends on."
+      }
+    ],
+    "note": "Read Steps 2–4: the end frame is optional, and prompting instructions describe the intended movement between endpoints."
+  },
+  {
+    "id": 14,
+    "line": 21,
+    "claim": "Higgsfield allows sound to be disabled and recommends similar lighting and settings for transitions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The Sound toggle turns audio on or off."
+      }
+    ],
+    "note": "The recommendations table advises similar setting, lighting and character when the transition between start and end frames is abrupt."
+  },
+  {
+    "id": 15,
+    "line": 25,
+    "claim": "Sand.ai places the preview in August 2026 and gives 114B/6B versus 480B/28B total/active parameters.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "from 114B total (6B active) to 480B total (28B active)"
+      }
+    ],
+    "note": "The opening paragraph dates the preview to August 2026; the architecture section supplies the exact comparison. Figures remain attributed to Sand.ai."
+  },
+  {
+    "id": 16,
+    "line": 26,
+    "claim": "Sand.ai says pretraining grew roughly threefold to four trillion tokens.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "expanded pre-training data roughly 3× over Preview to 4T tokens"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 26,
+    "claim": "Sand.ai retained rapid cuts, multiple-character interactions and dense soundscapes in training.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "expanded pre-training data roughly 3× over Preview to 4T tokens"
+      }
+    ],
+    "note": "Read the training-data section: it explains retaining complex footage, including multiple interacting characters, rapid cuts and dense real-world soundscapes."
+  },
+  {
+    "id": 18,
+    "line": 27,
+    "claim": "An upscaler reuses original reference images to reconstruct small faces and lettering.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "It generates up to 30 seconds of 1080p, 25 fps native audio-video"
+      }
+    ],
+    "note": "Verified the post-training/upscaling paragraph: original references are supplied again to improve small-face identity and legible text. The stored output quotation does not detail that mechanism."
+  },
+  {
+    "id": 19,
+    "line": 28,
+    "claim": "Sand.ai acknowledges continuity artifacts in extreme high-speed motion and promises open source and a technical report.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "we will open-source MAGI-2 and publish a comprehensive technical report"
+      }
+    ],
+    "note": "Read Limitations and Looking Ahead: high-speed trajectories and continuity may fail. The release and report are future commitments, not completed releases."
+  },
+  {
+    "id": 20,
+    "line": 31,
+    "claim": "MAGI-2 led the image-to-video board with audio by Elo estimate on November 25, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "MAGI-2 currently leads AA-Video-I2V v2.1 with an Elo score of 1163."
+      },
+      {
+        "source": 4,
+        "quote": "audio, by Elo from pairwise human preference votes."
+      }
+    ],
+    "note": "The audio tab’s table lists MAGI-2 first at 1163; the FAQ confirms the lead. Methodology describes blind paired human preferences. This is a retrieval-day snapshot."
+  },
+  {
+    "id": 21,
+    "line": 32,
+    "claim": "Both MAGI-2 and Dreamina Seedance 2.5 have a displayed image-to-video rank range of first to third.",
+    "status": "derived",
+    "note": "Read the audio table on November 25: MAGI-2’s Range cell is 1-3 and Dreamina Seedance 2.5’s is 1-3; converting the endpoints to ordinal words gives first through third."
+  },
+  {
+    "id": 22,
+    "line": 33,
+    "claim": "MAGI-2 is seventh on the text-to-video leaderboard with audio on November 25, 2026.",
+    "status": "derived",
+    "note": "Counted six rows above MAGI-2 on the audio table; its printed rank is 7, Elo 1150 and range 4-12. Seventh describes the ordered estimate, not a statistically certain rank."
+  },
+  {
+    "id": 23,
+    "line": 38,
+    "claim": "Higgsfield lists 30 seconds at $2.40 API or 75 web credits, about $3.69 on Plus.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "A 30-second clip costs 75 credits, approximately $3.69 on Plus, or $2.40 through the API."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 38,
+    "claim": "The Plus-equivalent value of 75 credits rounds to $3.69.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 2,
+        "quote": "The estimates below use the Plus plan priced at $59 per month for 1,200 credits"
+      }
+    ],
+    "note": "75 × $59 / 1,200 = $3.6875, rounded to $3.69. This allocates a subscription’s credits; it is not a separate cash purchase price."
+  },
+  {
+    "id": 25,
+    "line": 40,
+    "claim": "Sand.ai lists 1080p at $0.08 per second and temporarily does not support top-ups.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Top-up is not supported for the time being."
+      }
+    ],
+    "note": "Read the full pricing page: its model table shows magi-2, Resolution 1080p, Pricing 0.08 USD/s. The quotation supports the billing limitation; the table supplies the rate."
+  },
+  {
+    "id": 26,
+    "line": 42,
+    "claim": "The November 25 SandBase listing shows the five-second default at $0.40.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "the number on the Run button when duration is 5."
+      }
+    ],
+    "note": "The visible article date is November 25, 2026. Its price discussion and playground captions identify the default five-second estimate as $0.40."
+  },
+  {
+    "id": 27,
+    "line": 42,
+    "claim": "Ten seconds costs $0.80 under SandBase’s listed duration formula.",
+    "status": "derived",
+    "support": [
+      {
+        "source": 3,
+        "quote": "A default 5-second clip lists at $0.40. A 10-second clip lists at $0.80."
+      }
+    ],
+    "note": "The documented formula is duration × $0.08; 10 × $0.08 = $0.80. This is listed/formula pricing, not an observed invoice."
+  },
+  {
+    "id": 28,
+    "line": 43,
+    "claim": "SandBase says native audio is included and labels duration as billed per second.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "The field help says a native audio track is included in the price"
+      },
+      {
+        "source": 3,
+        "quote": "The help text says “Billed per second” and"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 48,
+    "claim": "No calendar date or license terms for the full-model open-source release are given in the launch post.",
+    "status": "absence",
+    "note": "Read the complete launch article, including its introduction and closing release promise; neither specifies a calendar date or license. This is a scoped absence, not a search of all Sand.ai channels."
+  },
+  {
+    "id": 30,
+    "line": 49,
+    "claim": "The SandBase listing does not establish delivery latency, failure rate, actual charges or failed-run billing.",
+    "status": "absence",
+    "note": "Read the pricing discussion and call instructions: the author says no generation or invoice was tested and failed-run billing was not established. The absence is limited to this listing."
+  },
+  {
+    "id": 31,
+    "line": 50,
+    "claim": "The pricing page gives no date for enabling balance top-ups.",
+    "status": "absence",
+    "note": "Read the entire short pricing page: it says top-up is temporarily unsupported and directs readers to X for updates, without giving a launch date."
+  },
+  {
+    "id": 32,
+    "line": 54,
+    "claim": "MAGI-2 launched November 24 with claimed 30-second 1080p audio-video and multimodal references.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "NOVEMBER 24, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "It generates up to 30 seconds of 1080p, 25 fps native audio-video"
+      }
+    ],
+    "note": "The capabilities paragraph enumerates image, video and audio references; the launch date is visible above the article."
+  },
+  {
+    "id": 33,
+    "line": 55,
+    "claim": "Higgsfield’s listed 30-second prices are $2.40 API or 75 web credits, about $3.69 on Plus.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "A 30-second clip costs 75 credits, approximately $3.69 on Plus, or $2.40 through the API."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "line": 56,
+    "claim": "MAGI-2 led image-to-video audio Elo estimates with a first-to-third displayed rank range.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "MAGI-2 currently leads AA-Video-I2V v2.1 with an Elo score of 1163."
+      }
+    ],
+    "note": "Verified the audio table’s Range cell of 1-3 on November 25, 2026. The range qualifies the point-estimate lead."
+  },
+  {
+    "id": 35,
+    "line": 56,
+    "claim": "The launch post gives no date for the full-model open-source release.",
+    "status": "absence",
+    "note": "The complete Sand.ai launch post promises a later open-source release but gives no calendar date."
+  }
+]

@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-25-2",
-  "next": "checker",
-  "post": "2026-11-25-sand-ai-magi-2-video-launch",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -163,6 +163,12 @@
     {
       "cycle": "2026-11-25",
       "post": "2026-11-25-openclaw-shellbench-agent-benchmark",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-25-2",
+      "post": "2026-11-25-sand-ai-magi-2-video-launch",
       "kind": "story",
       "status": "ready"
     }

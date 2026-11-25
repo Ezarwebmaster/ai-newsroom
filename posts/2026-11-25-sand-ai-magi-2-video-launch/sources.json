@@ -28,6 +28,22 @@
         "text": "shot-cut control, and supports targeted editing on existing video.",
         "for": "Sand.ai describes editing as a model capability.",
         "by": "reviser"
+      },
+      {
+        "text": "from 114B total (6B active) to 480B total (28B active)",
+        "for": "The architecture section compares the preview and flagship parameter counts.",
+        "by": "checker"
+      },
+      {
+        "text": "expanded pre-training data roughly 3× over Preview to 4T tokens",
+        "for": "The training-data section gives both the multiplier and total.",
+        "by": "checker"
+      },
+      {
+        "type": "date",
+        "text": "NOVEMBER 24, 2026",
+        "for": "Visible date above the launch article.",
+        "by": "checker"
       }
     ]
   },
@@ -50,6 +66,16 @@
         "text": "The estimates below use the Plus plan priced at $59 per month for 1,200 credits",
         "for": "The plan used to value the web app credits.",
         "by": "reviser"
+      },
+      {
+        "text": "Frames defines the image the video starts from and, optionally, the image it ends on.",
+        "for": "The guide defines its start/end-frame mode.",
+        "by": "checker"
+      },
+      {
+        "text": "The Sound toggle turns audio on or off.",
+        "for": "The guide documents optional sound.",
+        "by": "checker"
       }
     ]
   },
@@ -77,6 +103,16 @@
         "text": "None of the three schemas includes a frame-rate field or an edit input.",
         "for": "SandBase's documented generation modes did not expose editing.",
         "by": "reviser"
+      },
+      {
+        "text": "The field help says a native audio track is included in the price",
+        "for": "The provider records that audio is included.",
+        "by": "checker"
+      },
+      {
+        "text": "The help text says “Billed per second” and",
+        "for": "Exact duration-label quotation in the listing.",
+        "by": "checker"
       }
     ]
   },

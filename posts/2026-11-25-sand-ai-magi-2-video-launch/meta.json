@@ -15,7 +15,9 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Leaderboard positions and hosted pricing are November 25, 2026 snapshots; provider performance claims and listed prices are not independent generation or billing tests."
+  ],
   "image_brief": null
 }
