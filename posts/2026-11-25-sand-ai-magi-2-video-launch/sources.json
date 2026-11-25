@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "url": "https://sand.ai/blog/magi-2",
+    "title": "MAGI-2: A 480B Frontier Video Generation Model",
+    "publisher": "Sand.ai",
+    "kind": "primary",
+    "published": "2026-11-24",
+    "retrieved": "2026-11-25",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "It generates up to 30 seconds of 1080p, 25 fps native audio-video",
+        "for": "Duration, resolution, frame rate and sound.",
+        "by": "writer"
+      },
+      {
+        "text": "we will open-source MAGI-2 and publish a comprehensive technical report",
+        "for": "The developer's plans for the full model.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://higgsfield.ai/blog/higgsfield-magi-2",
+    "title": "Meet MAGI-2: Sand AI’s New Video Model With Built-In Sound, Exclusively on Higgsfield",
+    "publisher": "Higgsfield",
+    "kind": "primary",
+    "published": "2026-11-25",
+    "retrieved": "2026-11-25",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "A 30-second clip costs 75 credits, approximately $3.69 on Plus, or $2.40 through the API.",
+        "for": "Comparison of web credits and API pricing.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://blog.sandbase.ai/magi-2-on-sandbase-1080p-2026/",
+    "title": "MAGI-2 Is on SandBase: 1080p, $0.08 per Second, Three Model IDs",
+    "publisher": "SandBase",
+    "kind": "primary",
+    "published": "2026-11-25",
+    "retrieved": "2026-11-25",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "A default 5-second clip lists at $0.40. A 10-second clip lists at $0.80.",
+        "for": "Published prices for two output durations.",
+        "by": "writer"
+      }
+    ]
+  }
+]
