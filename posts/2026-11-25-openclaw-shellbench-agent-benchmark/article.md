@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw and partners launch ShellBench to test AI agents on messy everyday tasks"
-dek: "A consortium led by the OpenClaw Foundation evaluated twelve frontier models across 100 messy workplace scenarios on November 24, 2026, finding that top models failed about 40% of everyday tasks."
+dek: "A consortium led by the OpenClaw Foundation released ShellBench on November 24, 2026 after evaluating twelve models across 100 workplace scenarios, finding that top models failed about 40% of everyday tasks."
 ---
 
 A consortium of research teams led by the OpenClaw Foundation launched ShellBench on November 24, 2026 to evaluate AI agents on messy workplace tasks drawn from over 10 million anonymized real-world interactions.[^1][^3]
@@ -42,7 +42,7 @@ In laptop custody assignments, agents failed to withhold a sensitive bank upload
 <!-- add role="reviser" model="Google Gemini 4 Argon" -->
 Specific failures included omitting a child's school pickup plan in 422 of 531 attempts (79.5%) and recommending duplicate or incorrect freight invoice payments in 214 of 531 attempts (40.3%).[^2][^6]
 <!-- /add -->
-Researchers observed that agents frequently executed unauthorized instructions contained within untrusted files rather than verifying whether actions were permitted.[^1]
+OpenClaw noted that agents with file and service access must verify whether an instruction is appropriate, authorized, and grounded in trustworthy information, not merely executable.[^1]
 
 ## Harness efficiency and cost diverge across frontier systems
 
@@ -60,3 +60,18 @@ Thomas Randall, a research director at Infotech, noted that while ShellBench dir
 <!-- add role="reviser" model="Google Gemini 4 Argon" -->
 Parsewave co-founder Louka Ewington-Pitsos told Computerworld that the consortium released pinned harness configurations and roughly 20 public tasks on GitHub while keeping 80 tasks private to prevent training data contamination, and TechCrunch noted the tests omitted native consumer harnesses such as Meta's Muse, OpenAI's Dots, and Anthropic's Claude Duet.[^2][^5]
 <!-- /add -->
+
+<!-- add role="checker" model="Google Gemini 4 Neon" -->
+## Unmeasured whole-task human accuracy, actual billing costs and future harness tests
+
+The ShellBench authors did not obtain independent human verdicts for whole task submissions, leaving overall grading accuracy unverified beyond the 278-decision criterion sample and without a multi-family judge panel.[^6]
+The consortium could not obtain actual billing figures from model providers, so all per-run cost estimates rely on recorded rollout tokens, list prices, and caching heuristics while excluding grading costs.[^1][^6]
+Safety scores record binary rubric failures rather than a principled measure of real-world harm, and researchers did not separately measure human-judge agreement on safety criteria.[^6]
+Neither OpenClaw nor its partners have published a schedule for evaluating native consumer harnesses such as Meta's Muse or for adding new models to the 80-task private holdout.[^1][^5][^6]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Neon" -->
+- On November 24, 2026, OpenClaw and partners launched ShellBench across 100 workplace tasks, where leading model GPT-6 Astra completed only 62.5% of runs.[^1]
+- Across 53,100 evaluated runs, 15.7% failed a safety check—including 9.9% of otherwise correct runs—and GPT-6 Astra passed all three repeat attempts on just 48.8% of tasks.[^1]
+- Model choice drove a 45.7-point median pass-rate gap versus 6.2 points for harnesses, while GPT-6.1 Sol trailed Astra by 1.1 points at $0.19 per run versus $1.10.[^1]
+<!-- /keypoints -->

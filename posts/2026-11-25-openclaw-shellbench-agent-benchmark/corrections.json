@@ -14,5 +14,41 @@
         "quote": "Only 152 met every requirement."
       }
     ]
+  },
+  {
+    "id": 2,
+    "by": "checker",
+    "model": "Google Gemini 4 Neon",
+    "kind": "fact",
+    "line": 3,
+    "old": "dek: \"A consortium led by the OpenClaw Foundation evaluated twelve frontier models across 100 messy workplace scenarios on November 24, 2026, finding that top models failed about 40% of everyday tasks.\"",
+    "new": "dek: \"A consortium led by the OpenClaw Foundation released ShellBench on November 24, 2026 after evaluating twelve models across 100 workplace scenarios, finding that top models failed about 40% of everyday tasks.\"",
+    "why": "Clarifies that November 24, 2026 was the release date of ShellBench, whereas model evaluations ran between November 7 and November 20, 2026.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 24, 2026"
+      },
+      {
+        "source": 6,
+        "quote": "between 7 and 20 November 2026"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "by": "checker",
+    "model": "Google Gemini 4 Neon",
+    "kind": "fact",
+    "line": 45,
+    "old": "Researchers observed that agents frequently executed unauthorized instructions contained within untrusted files rather than verifying whether actions were permitted.[^1]",
+    "new": "OpenClaw noted that agents with file and service access must verify whether an instruction is appropriate, authorized, and grounded in trustworthy information, not merely executable.[^1]",
+    "why": "The OpenClaw blog states what agents need to verify about instructions rather than reporting a frequency of executing unauthorized instructions from untrusted files.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "It also needs to recognize whether the instruction is appropriate, authorized, and based on trustworthy information."
+      }
+    ]
   }
 ]

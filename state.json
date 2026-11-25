@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-25",
-  "next": "checker",
-  "post": "2026-11-25-openclaw-shellbench-agent-benchmark",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -157,6 +157,12 @@
     {
       "cycle": "2026-11-24-2",
       "post": "2026-11-24-anthropic-claude-ship-beta",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-25",
+      "post": "2026-11-25-openclaw-shellbench-agent-benchmark",
       "kind": "story",
       "status": "ready"
     }

@@ -1,0 +1,565 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "OpenClaw and partners launched ShellBench to test AI agents on everyday tasks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Shellbench is a new benchmark developed in collaboration with researchers at The OpenClaw Foundation, Parsewave, Hugging Face, Red Hat, and UC Berkeley."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "The OpenClaw-led consortium released ShellBench on November 24, 2026 after evaluating twelve models across 100 workplace scenarios, finding top models failed about 40% of tasks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 24, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "ShellBench evaluated twelve models"
+      },
+      {
+        "source": 3,
+        "quote": "even agents powered by the leading models fail to fully complete four out of every ten tasks."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "ShellBench launched on November 24, 2026 using tasks drawn from over 10 million anonymized real-world AI agent interactions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 24, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "It draws on more than 10 million anonymized, real-world AI agent interactions"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Developed with Parsewave, Hugging Face, Red Hat, and UC Berkeley, ShellBench tested twelve models across five harnesses on 100 scenarios.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Shellbench is a new benchmark developed in collaboration with researchers at The OpenClaw Foundation, Parsewave, Hugging Face, Red Hat, and UC Berkeley."
+      },
+      {
+        "source": 1,
+        "quote": "These were tested across five agent harnesses: Claude Code, Codex, Hermes, OpenClaw, and Pi."
+      },
+      {
+        "source": 4,
+        "quote": "involved 53,100 runs covering 100 tasks."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 9,
+    "claim": "Tasks derive from 10,456,576 opt-in user queries, pairing median 43-word requests with 16,296 files across 90 rubric-graded tasks and 668 across 10 code-tested tasks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "anonymized 10,456,576 real user queries observed from user traces of personal AI assistants."
+      },
+      {
+        "source": 1,
+        "quote": "median of just 43 words across the 90 rubric-graded tasks"
+      },
+      {
+        "source": 6,
+        "quote": "The 90 judge-graded tasks hold 16,296 files in total, and the ten code-tested tasks add 668."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 10,
+    "claim": "All twelve models were tested between November 7 and November 20, 2026 across five harnesses at three reasoning-effort levels, except DeepSeek V4.1 Flash in Hermes, yielding 59 configurations.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "at three reasoning-effort levels, low, medium, and high, with three attempts at each, between 7 and 20 November 2026."
+      },
+      {
+        "source": 6,
+        "quote": "DeepSeek V4.1 Flash does not run in Hermes."
+      },
+      {
+        "source": 6,
+        "quote": "The design yields 59 observed configurations."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 12,
+    "claim": "Across 53,100 graded runs, the highest-performing model completed 62.5% of tasks, leaving roughly four in ten incomplete.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Across all 53,100 runs"
+      },
+      {
+        "source": 1,
+        "quote": "GPT-6 Astra led at 62.5%"
+      },
+      {
+        "source": 3,
+        "quote": "fail to fully complete four out of every ten tasks."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 16,
+    "claim": "ShellBench placed agents in workspaces containing a median of 188 files, including emails, spreadsheets, receipts, calendar exports, and PDFs.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "realistic workspace (median of 188 files across those tasks), including emails, calendar exports, spreadsheets, chat logs, receipts, saved web pages, and PDFs."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 18,
+    "claim": "GPT-6 Astra led at 62.5%, followed by Claude Fable 5.2 at 61.9% and GPT-6.1 Sol at 61.4%.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "GPT-6 Astra led at 62.5%, followed by Claude Fable 5.2 at 61.9% and GPT-6.1 Sol at 61.4%."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 20,
+    "claim": "Fourth-place Gemini 4 Carbon averaged 58.7%, while remaining models ranged down to 39.7% for Muse Wonder 1.0 and DeepSeek V4.1 Flash and 18.8% for GPT-6 Luna.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "The other nine models range from 58.7% (Gemini 4 Carbon) down to 18.8% (GPT-6 Luna)."
+      },
+      {
+        "source": 2,
+        "quote": "Muse Wonder 1.0, meanwhile, averaged a success rate of 39.7%"
+      },
+      {
+        "source": 1,
+        "quote": "DeepSeek V4.1 Flash passed 39.7% of tasks"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 21,
+    "claim": "Across 90 rubric-graded tasks and 721 criteria, GPT-6.1 Sol at high reasoning effort in Pi served as the automated judge under an all-or-nothing pass rule.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Of those 100 tasks, 90 are rubric-graded against 721 criteria (including 381 safety criteria), and 10 are code-tested. For the rubric-graded tasks, every required criterion must pass for the task to count as complete."
+      },
+      {
+        "source": 6,
+        "quote": "we use GPT-6.1 Sol at high reasoning effort as the judge model, running in the Pi harness."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 25,
+    "claim": "Across 77 tasks, 87 criteria checked file citations, and The Deep View reported omission caused 51% of completion failures despite 87% data retrieval.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Across 77 tasks, 87 criteria check whether the answer names the files it used"
+      },
+      {
+        "source": 3,
+        "quote": "51% of task completion failures being related to information omission, despite 87% of those cases having collected the relevant information in the first place."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 27,
+    "claim": "In a dinner-planning test, models chose the right venue in 522 of 531 attempts, 331 failed solely for omitting supporting files, and 152 met every requirement.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "522 of 531 attempts picked the right restaurant, but 331 failed solely because the recommendation didn’t name the files supporting the group’s budget or timing. Only 152 met every requirement."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 28,
+    "claim": "GPT-6 Astra passed 75.1% of tasks at least once across three attempts, but succeeded on all three attempts only 48.8% of the time.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "GPT-6 Astra successfully completed 75.1% of tasks at least once across three attempts."
+      },
+      {
+        "source": 1,
+        "quote": "But it completed only 48.8% successfully on all three attempts."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 30,
+    "claim": "The automated judge agreed with human annotators on 89.9% of 278 consensus criterion decisions, while six of 40 unchanged submissions received both a pass and a fail across repeated gradings.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Our blinded comparison yielded a reference label for 278 of 290 sampled criterion decisions (95.9%)"
+      },
+      {
+        "source": 6,
+        "quote": "the judge agrees with the human consensus 89.9% of the time"
+      },
+      {
+        "source": 6,
+        "quote": "six of 40 unchanged submissions received both a pass and a fail over repeated automated judgments."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 35,
+    "claim": "ShellBench included 381 safety criteria across 90 rubric-graded tasks covering phishing, fraudulent payments, and irreversible actions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "90 are rubric-graded against 721 criteria (including 381 safety criteria)"
+      },
+      {
+        "source": 1,
+        "quote": "including phishing attempts, fraudulent payment instructions, sensitive information, and irreversible actions."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 36,
+    "claim": "Across all 53,100 evaluated runs, 15.7% failed at least one safety check.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Across all 53,100 runs, 15.7% failed at least one safety check."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 38,
+    "claim": "Safety failure rates ranged from 9.4% for GPT-6 Astra and 9.7% for GPT-6.1 Sol to 20.6% for Gemini 4 Carbon and 24.4% for DeepSeek V4 Pro.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "GPT-6 Astra in 9.4% of runs, GPT-6.1 Sol in 9.7%, and Claude Fable 5.2 in 12.2%. DeepSeek V4 Pro fails most often (24.4%). Gemini 4 Carbon, fourth on pass rate, fails in 20.6%"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 40,
+    "claim": "Among otherwise correct runs, 9.9% still violated a safety rule.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Even among the 26,151 runs that met every correctness criterion, 2,589 (9.9%) still failed a safety requirement."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 41,
+    "claim": "In laptop custody assignments, agents failed to withhold a sensitive bank upload token in 18.6% of attempts.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "When handling laptop custody records, agents failed a requirement to identify and withhold a sensitive bank upload token in 18.6% of attempts."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 43,
+    "claim": "Specific failures included omitting a child's school pickup plan in 422 of 531 attempts (79.5%) and recommending duplicate or incorrect freight payments in 214 of 531 attempts (40.3%).",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "a plan to keep a child’s school pickup covered, and 422 of 531 submissions (79.5%) failed it."
+      },
+      {
+        "source": 6,
+        "quote": "214 of 531 submissions (40.3%) recommended a duplicate or incorrect payment."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 45,
+    "claim": "OpenClaw noted that agents with file and service access must verify whether instructions are appropriate, authorized, and grounded in trustworthy information.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "It also needs to recognize whether the instruction is appropriate, authorized, and based on trustworthy information."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 49,
+    "claim": "Model choice drove a 45.7 percentage point median gap within harnesses versus a 6.2 percentage point median gap from switching harnesses.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "the median gap between the highest- and lowest-scoring models within a harness was 45.7 percentage points."
+      },
+      {
+        "source": 1,
+        "quote": "Switching harnesses while keeping the model fixed produced a smaller median gap of 6.2 points."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 51,
+    "claim": "Among the five highest-scoring models, the median spread narrowed to 15.2 percentage points for model choice and 9.9 percentage points for harness choice.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Among the five highest-scoring models, the gaps narrowed to 15.2 points for model choice and 9.9 for harness choice."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 53,
+    "claim": "OpenClaw posted a 45.23% average pass rate and Pi reached 45.22%, compared to 42.87% for Claude Code.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "OpenClaw (open source): 45.23% Pi (open source): 45.22% Hermes (open source): 45.11% Codex CLI (open source): 45.04% Claude Code (proprietary): 42.87%"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 55,
+    "claim": "Hermes and Codex CLI averaged 45.11% and 45.04% pass rates, while median execution times ranged from 1.31 minutes in Pi to 2.86 minutes in OpenClaw.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Hermes (open source): 45.11% Codex CLI (open source): 45.04%"
+      },
+      {
+        "source": 1,
+        "quote": "Pi was fastest at a median of 1.31 minutes per run, while OpenClaw took 2.86 minutes."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 58,
+    "claim": "GPT-6 Astra cost an estimated $1.10 per task attempt, whereas GPT-6.1 Sol cost $0.19 per attempt while finishing within 1.1 percentage points of the top score.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "GPT-6 Astra passed 62.5% of tasks at $1.10 per run, Claude Fable 5.2 passed 61.9% at $0.83, and GPT-6.1 Sol passed 61.4% at $0.19."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 59,
+    "claim": "Infotech research director Thomas Randall noted most enterprises buy packaged agent capabilities with limited control over underlying models.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Thomas Randall, a research director at Infotech, said that he sees ShellBench as focusing on those who are building and configuring agents directly, but most enterprises instead buy their AI capabilities from various large AI vendors."
+      },
+      {
+        "source": 5,
+        "quote": "often with limited control over the underlying model or agent configuration."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 61,
+    "claim": "The consortium released pinned harness configs and roughly 20 public tasks on GitHub while keeping 80 tasks private, and omitted native consumer harnesses including Muse, Dots, and Claude Duet.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "a subset of roughly 20 tasks of the full benchmark. The ShellBench GitHub repo includes the evaluation configurations and we pin the agent harnesses to the exact versions used in the study"
+      },
+      {
+        "source": 5,
+        "quote": "private part is only the 80 remaining tasks."
+      },
+      {
+        "source": 2,
+        "quote": "they didn’t evaluate them within the native harnesses of Muse, Dots, or Claude Duet"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 67,
+    "claim": "The ShellBench authors did not obtain independent human verdicts for whole task submissions beyond the 278-decision criterion sample.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "Our blinded comparison yielded a reference label for 278 of 290 sampled criterion decisions (95.9%)"
+      },
+      {
+        "source": 6,
+        "quote": "We did not obtain independent human verdicts for whole submissions."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 68,
+    "claim": "The consortium could not obtain actual billing figures from providers, relying on rollout-token estimates, list prices, and caching heuristics while excluding grading costs.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "we could not obtain model costings directly from providers, so all our costs are estimates based on our recorded rollout tokens at list prices."
+      },
+      {
+        "source": 6,
+        "quote": "We use heuristics to judge which tokens were cache hits vs cache misses"
+      },
+      {
+        "source": 1,
+        "quote": "Estimates use recorded token usage and study token prices and exclude grading costs."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "line": 69,
+    "claim": "Safety scores record binary rubric compliance rather than a principled measure of real-world harm.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "The safety results count failed safety criteria, which record compliance with each task’s rubric, but this study does not include a principled way to measure harm."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "line": 70,
+    "claim": "Neither OpenClaw nor its partners have published a schedule for evaluating native consumer harnesses or adding new models to the 80-task private holdout.",
+    "status": "absence",
+    "note": "Read the full OpenClaw blog post, arXiv paper, and Computerworld report; while future comparisons including Meta's Muse are mentioned, no release or evaluation timetable is given."
+  },
+  {
+    "id": 34,
+    "line": 74,
+    "claim": "Key point 1: On November 24, 2026, OpenClaw and partners launched ShellBench across 100 workplace tasks, where GPT-6 Astra completed 62.5% of runs.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Nov 24, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "Of those 100 tasks"
+      },
+      {
+        "source": 1,
+        "quote": "GPT-6 Astra led at 62.5%"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 75,
+    "claim": "Key point 2: Across 53,100 runs, 15.7% failed a safety check, 9.9% of otherwise correct runs failed safety, and GPT-6 Astra passed all three attempts on 48.8% of tasks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Across all 53,100 runs, 15.7% failed at least one safety check."
+      },
+      {
+        "source": 1,
+        "quote": "2,589 (9.9%) still failed a safety requirement."
+      },
+      {
+        "source": 1,
+        "quote": "But it completed only 48.8% successfully on all three attempts."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "line": 76,
+    "claim": "Key point 3: Model choice drove a 45.7-point median pass-rate gap versus 6.2 points for harnesses, while GPT-6.1 Sol trailed Astra by 1.1 points at $0.19 versus $1.10 per run.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "the median gap between the highest- and lowest-scoring models within a harness was 45.7 percentage points."
+      },
+      {
+        "source": 1,
+        "quote": "Switching harnesses while keeping the model fixed produced a smaller median gap of 6.2 points."
+      },
+      {
+        "source": 1,
+        "quote": "GPT-6 Astra passed 62.5% of tasks at $1.10 per run, Claude Fable 5.2 passed 61.9% at $0.83, and GPT-6.1 Sol passed 61.4% at $0.19."
+      }
+    ]
+  }
+]

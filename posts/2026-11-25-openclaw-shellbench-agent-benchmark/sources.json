@@ -109,6 +109,21 @@
         "text": "At the lower end, DeepSeek V4.1 Flash passed 39.7% of tasks at about five cents per run. (Estimates use recorded token usage and study token prices and exclude grading costs.)",
         "for": "DeepSeek V4.1 Flash pass rate and cost per run.",
         "by": "reviser"
+      },
+      {
+        "text": "Its tasks incorporate risks that can arise in normal workflows, including phishing attempts, fraudulent payment instructions, sensitive information, and irreversible actions.",
+        "for": "Types of safety hazards embedded in ShellBench tasks.",
+        "by": "checker"
+      },
+      {
+        "text": "An agent that can read files, interact with services, and take actions needs to recognize more than whether an instruction is technically executable. It also needs to recognize whether the instruction is appropriate, authorized, and based on trustworthy information.",
+        "for": "OpenClaw statement on verifying whether instructions are appropriate, authorized, and trustworthy.",
+        "by": "checker"
+      },
+      {
+        "text": "Across the models run in all five harnesses, average pass rates were tightly grouped: OpenClaw (open source): 45.23% Pi (open source): 45.22% Hermes (open source): 45.11% Codex CLI (open source): 45.04% Claude Code (proprietary): 42.87%",
+        "for": "Average pass rates across all five evaluated agent harnesses.",
+        "by": "checker"
       }
     ]
   },
@@ -250,7 +265,11 @@
         "text": "November 24, 2026",
         "type": "date",
         "for": "Publication date of Computerworld article.",
-        "by": "writer"
+        "by": "writer",
+        "withdrawn": {
+          "by": "checker",
+          "why": "The visible date on the Computerworld page is 'Nov 24, 2026', whereas 'November 24, 2026' appears only in HTML meta tags."
+        }
       },
       {
         "text": "Thomas Randall, a research director at Infotech, said that he sees ShellBench as focusing on those who are building and configuring agents directly, but most enterprises instead buy their AI capabilities from various large AI vendors.",
@@ -276,6 +295,12 @@
         "text": "to avoid benchmark contamination, which is where data leaks from the public internet into model training data, making the benchmark less valid for future models.",
         "for": "Keeping 80 tasks private to prevent training data contamination.",
         "by": "reviser"
+      },
+      {
+        "text": "Nov 24, 2026",
+        "type": "date",
+        "for": "Visible publication date on the Computerworld article.",
+        "by": "checker"
       }
     ]
   },
@@ -354,6 +379,36 @@
         "text": "In a separate check, six of 40 unchanged submissions received both a pass and a fail over repeated automated judgments.",
         "for": "Six of 40 unchanged submissions receiving both pass and fail on repeated grading.",
         "by": "reviser"
+      },
+      {
+        "text": "Our blinded comparison yielded a reference label for 278 of 290 sampled criterion decisions (95.9%), including decisions with a single human rating.",
+        "for": "278 sampled criterion decisions with a human reference label.",
+        "by": "checker"
+      },
+      {
+        "text": "We did not obtain independent human verdicts for whole submissions.",
+        "for": "Absence of independent human verdicts for whole task submissions.",
+        "by": "checker"
+      },
+      {
+        "text": "Given practical constraints, we could not obtain model costings directly from providers, so all our costs are estimates based on our recorded rollout tokens at list prices.",
+        "for": "Cost figures are rollout-token estimates rather than actual provider bills.",
+        "by": "checker"
+      },
+      {
+        "text": "We use heuristics to judge which tokens were cache hits vs cache misses, and these likely do not match real caching behavior exactly.",
+        "for": "Use of caching heuristics in per-run cost estimates.",
+        "by": "checker"
+      },
+      {
+        "text": "The safety results count failed safety criteria, which record compliance with each task’s rubric, but this study does not include a principled way to measure harm.",
+        "for": "Safety results measure binary rubric compliance rather than real-world harm.",
+        "by": "checker"
+      },
+      {
+        "text": "The evaluation covers five harness versions. Other harnesses, including Meta’s Muse harness, are candidates for a future comparison.",
+        "for": "Future harness comparisons such as Meta's Muse are deferred without a schedule.",
+        "by": "checker"
       }
     ]
   }

@@ -16,7 +16,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "TechCrunch (source 2) blocked automated HTTP fetches with Cloudflare; its quantitative claims were cross-verified against sources 1 and 6, and consumer-harness context via web search.",
+    "GPT-6.1 Sol served as both a top-three evaluated model and the sole automated judge across 90 rubric-graded tasks without whole-submission human grading."
+  ],
   "image_brief": null
 }
