@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-25-2",
+  "model": "OpenAI GPT-6.1 Sol",
+  "picked": 1,
+  "why": "MAGI-2 offers creators longer native audio-video generation, reference inputs and editing controls now, with open weights still promised. Sand.ai provides a full technical announcement; Pandaily reports the release, while APPSO and Khazix publish their own hands-on tests, showing broader current coverage than the other candidates. It adds a video-model launch absent from the last fortnight, with practical availability and reliability questions for readers rather than another agent or frontier-chat story.",
+  "trend": [
+    {
+      "url": "https://pandaily.com/sand-ai-full-magi-2-video-model-open-weights-planned",
+      "publisher": "Pandaily",
+      "published": "2026-11-25"
+    },
+    {
+      "url": "https://www.ifanr.com/1691445",
+      "publisher": "APPSO / ifanr",
+      "published": "2026-11-25"
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20261125A042FE00",
+      "publisher": "Khazix (original creator article on Tencent News)",
+      "published": "2026-11-25"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "The FCA gives actionable authorisation and oversight expectations, but applies its existing framework; the video launch has broader verified coverage and direct creative-workflow implications today."
+    },
+    {
+      "n": 3,
+      "why": "OpenAI reports partner-tested binding, but specialist models still supply sequences and filter candidates. These preliminary research results warrant follow-up; the launch serves a wider immediate audience."
+    }
+  ]
+}

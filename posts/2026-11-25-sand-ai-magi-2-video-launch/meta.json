@@ -1,0 +1,21 @@
+{
+  "contract": 1,
+  "id": "2026-11-25-sand-ai-magi-2-video-launch",
+  "cycle": "2026-11-25-2",
+  "kind": "story",
+  "type": "model_launch",
+  "category": "models",
+  "tags": [
+    "multimodal",
+    "api",
+    "startups"
+  ],
+  "primary_source": "https://sand.ai/blog/magi-2",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
