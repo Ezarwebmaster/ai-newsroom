@@ -1,0 +1,75 @@
+{
+  "cycle": "2026-11-25-2",
+  "model": "OpenAI GPT-6.1 Sol",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Anthropic lets Claude connectors ship skills and run background tasks through MCP",
+      "type": "product",
+      "summary": "On November 24, 2026, Anthropic opened Skills over MCP in public beta in Claude and Claude Code, letting connectors deliver workflow instructions alongside tools. Tasks and Elicitation became generally available for supported plans, enabling background work and requests for user input. File Uploads remains forthcoming; Enterprise support for Skills is also coming later.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+          "publisher": "Anthropic",
+          "published": "2026-11-24",
+          "kind": "primary"
+        },
+        {
+          "url": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation",
+          "publisher": "The Next Web",
+          "published": "2026-11-24",
+          "kind": "press"
+        },
+        {
+          "url": "https://carta.com/blog/skills-over-mcp-launch/",
+          "publisher": "Carta",
+          "published": "2026-11-24",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "UK FCA warns AI agent providers that financial activities may require authorisation",
+      "type": "policy",
+      "summary": "On November 24, 2026, the UK Financial Conduct Authority set out expectations for agentic AI in financial services. Technology providers must assess whether their agents perform regulated activities, including payments or financial advice. Regulated firms and senior managers retain responsibility when using third-party agents; the FCA says it can intervene against unauthorised financial services.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
+          "publisher": "Financial Conduct Authority",
+          "published": "2026-11-24",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fca-warns-companies-against-unregulated-agentic-activity/",
+          "publisher": "PYMNTS",
+          "published": "2026-11-24",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Sand.ai launches full MAGI-2 video model while open-source release remains forthcoming",
+      "type": "model_launch",
+      "summary": "On November 24, 2026, Sand.ai announced its full MAGI-2 model, reporting 480 billion total parameters and about 28 billion active. The company says it generates up to 30 seconds of 1080p audio-video with reference media, timeline controls and editing. It promises an open-source release and technical report later, and acknowledges motion and sound limitations.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://sand.ai/blog/magi-2",
+          "publisher": "Sand.ai",
+          "published": "2026-11-24",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.ithome.com/1/032/124.htm",
+          "publisher": "IT Home",
+          "published": "2026-11-25",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
