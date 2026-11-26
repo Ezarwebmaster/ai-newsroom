@@ -1,0 +1,33 @@
+{
+  "cycle": "2026-11-26",
+  "model": "Anthropic Claude Opus 5.5",
+  "picked": 1,
+  "why": "The FCC's November 25, 2026 order is the first U.S. authorization for a constellation of data centers in space: up to one million SpaceX Starmind satellites, with binding deployment deadlines from 2033 to 2040. The full order is public, it sets AI compute against energy and orbital limits, TechCrunch, Mashable and New Atlas reported it within a day, and no story of the last 14 days covers it.",
+  "trend": [
+    {
+      "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+      "publisher": "TechCrunch",
+      "published": "2026-11-25"
+    },
+    {
+      "url": "https://mashable.com/tech/spacex-starmind-fcc-approval-ai-data-centers-space",
+      "publisher": "Mashable",
+      "published": "2026-11-25"
+    },
+    {
+      "url": "https://newatlas.com/space-systems/fcc-greenlight-spacex-million-orbital-data-center-constellation/",
+      "publisher": "New Atlas",
+      "published": "2026-11-25"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "The Commission's own release proposes the Quantum Act and only lays groundwork for the equity fund; it is mainly quantum policy, a proposal still before lawmakers. Recap material."
+    },
+    {
+      "n": 3,
+      "why": "Xpeng's Iron robot release is set for 2027 and CnEVPost frames AI Day as a roadmap; the undated product page adds little new today. Recap material."
+    }
+  ]
+}
