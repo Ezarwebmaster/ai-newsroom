@@ -1,0 +1,588 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "The FCC authorized SpaceX to deploy up to 1 million Starmind orbital data center satellites.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Authority for radiofrequency communications for backup and emergency telemetry, tracking, & command (TT&C) for a constellation of 1,000,000 NGSO satellites to operate as data centers in space."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "The Space Bureau's November 25, 2026 order grants backup spectrum between 500 and 1,002 kilometers, sets milestones through 2040, and defers high-altitude disposal waivers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Non-geostationary satellite orbit (NGSO) constellation of 1,000,000 satellites deployed into orbital shells each spanning 50 km at altitudes from 500 to 1,002 km and in 30-degree inclinations and sun-synchronous inclinations."
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX must launch the remaining space stations necessary to complete its authorized constellation, place them in their assigned orbits, and operate each in accordance with this authorization no later than November 25, 2040."
+      },
+      {
+        "source": 1,
+        "quote": "Because SpaceX has not provided sufficient information for the Commission to determine whether its alternative disposal methods are compliant with the Commission’s requirements, SpaceX’s waiver request is deferred."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "The FCC Space Bureau granted SpaceX conditional authority on November 25, 2026 for up to 1,000,000 non-geostationary orbital data center satellites under Starmind.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Adopted: November 25, 2026 By the Chief, Space Bureau: Released: November 25, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "Authority for radiofrequency communications for backup and emergency telemetry, tracking, & command (TT&C) for a constellation of 1,000,000 NGSO satellites to operate as data centers in space."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "The FCC's November 25, 2026 release called the order the first U.S. authorization for a constellation of data centers in space, and Chairman Brendan Carr said it opens a bold new frontier.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Today, the Federal Communications Commission granted the first authorization in U.S. history for a constellation of data centers in space."
+      },
+      {
+        "source": 2,
+        "quote": "This action opens a bold new frontier for the computing infrastructure needed to power America’s leadership and growth."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "Elon Musk wrote on X on November 25, 2026 that Starmind will be a great asset to America and the world, and SpaceX shares rose 1.3% to $127.44.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "“Much appreciated. This will be a great asset to America and the world,” Musk wrote."
+      },
+      {
+        "source": 6,
+        "quote": "SpaceX shares rose 1.3% on Wednesday to $127.44."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 11,
+    "claim": "SpaceX acquired xAI Corp. shortly after filing for Starmind and featured orbital data centers in its June 2026 IPO investor pitch.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "SpaceX first applied for the system in January, shortly before it acquired Musk’s artificial intelligence company xAI Corp. Orbital data centers then featured in SpaceX’s pitch to investors ahead of its record initial public offering in June."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 12,
+    "claim": "Rival efforts include Blue Origin's March 2026 filing for up to 51,600 Project Sunrise satellites, Starcloud's $250 million August 2026 round, and Google's Project Suncatcher prototype satellite launched in October 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Jeff Bezos’ Blue Origin LLC, which applied in March for Project Sunrise, a planned network of up to 51,600 data center satellites. Starcloud Inc., a startup developing AI data centers in orbit, raised $250 million at a $2.3 billion valuation in August."
+      },
+      {
+        "source": 4,
+        "quote": "Google is testing that with Project Suncatcher, a prototype satellite that launched on a SpaceX rocket in October."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 17,
+    "claim": "Under Order DA 26-1273 (ICFS File No. SAT-LOA-20260108-00016, Call Sign S00798), SpaceX may deploy satellites across 50-kilometer shells from 500 to 1,002 kilometers at 30-degree and sun-synchronous inclinations.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "ICFS File No. SAT-LOA-20260108-00016 Call Sign: S00798"
+      },
+      {
+        "source": 1,
+        "quote": "orbital shells each spanning 50 km at altitudes from 500 to 1,002 km and in 30-degree inclinations and sun-synchronous inclinations."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 19,
+    "claim": "SpaceX's initial filing sought altitudes up to 2,000 kilometers and 18.3 to 19.3 GHz downlink spectrum, calling it a first step towards becoming a Kardashev II-level civilization before a May 29, 2026 letter narrowed the shells.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 7,
+        "quote": "The System will operate at altitudes ranging from 500 km to 2,000 km and in 30 degree and sun-synchronous orbit inclinations within orbital shells spanning up to 50 km each."
+      },
+      {
+        "source": 7,
+        "quote": "requested use of the 18.3-19.3 GHz and 28.6-29.1 GHz frequency bands outside of a processing round."
+      },
+      {
+        "source": 7,
+        "quote": "first step towards becoming a Kardashev II-level civilization"
+      },
+      {
+        "source": 1,
+        "quote": "filed May 29, 2026"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 21,
+    "claim": "The order specifies six nominal operational altitude and inclination bands from 550-568 km to 967-1,002 km.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "550-568 km, 26-32° inclination 565-585 km, 97.7° inclination 686-718 km, 30° inclination 707-744 km, 97.2° inclination 946-978 km, 30° inclination 967-1002 km, 99.4° inclination"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 22,
+    "claim": "A U.S. Table waiver permits unprotected, non-interference backup TT&C in 18.8-19.3 GHz (space-to-Earth) and 28.6-29.1 GHz (Earth-to-space).",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "waiver of the U.S. Table of Frequency Allocations, 47 CFR § 2.106(a) (U.S. Table), for SpaceX’s TT&C operations only in the 18.8-19.3 GHz (space-to-Earth) and 28.6-29.1 GHz (Earth-to-space) bands on an unprotected and non-interference basis."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 24,
+    "claim": "SpaceX must coordinate with federal national-security and safety-of-life agencies before using 18.8-19.3 GHz and immediately cease operations causing harmful interference.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "SpaceX must complete coordination with potentially affected Federal Agencies and Services engaged in national security or safety-of-life service"
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX must immediately cease the operations causing the harmful interference until the issue is resolved"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 27,
+    "claim": "Each satellite spans 70 to 75 meters (230 to 246 feet) with radiation-hardened compute modules, a 250-kilowatt peak solar array, and a 110-square-meter (1,184-square-foot) liquid-cooled radiator array.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "Each satellite, spanning 230 to 246 feet (70 to 75 m) when deployed, houses a central rack of radiation-hardened compute modules flanked by two sets of panels."
+      },
+      {
+        "source": 5,
+        "quote": "A smaller 1,184-square-foot (110 m²) array circulates liquid through double-sided radiators angled edge-on to the Sun to vent heat into deep space. A larger solar array generates up to 250 kW of peak electrical power."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 28,
+    "claim": "Nvidia said in August 2026 SpaceX plans to adapt its Vera Rubin system for first-generation satellites, and SpaceX says its Bastrop, Texas factory could produce satellites by late 2027.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "In August (pre-Jensen Huang drama), Nvidia said SpaceX plans to adapt its Vera Rubin computing system for the first generation of satellites"
+      },
+      {
+        "source": 4,
+        "quote": "SpaceX says the factory it’s building in Bastrop, Texas, could start turning out satellites for launch as early as late 2027."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 30,
+    "claim": "The first-generation AI1 satellite uses a space-optimized Nvidia Vera Rubin NVL72 rack-scale system, could reach orbit by Q3 2027 according to Musk, and relies on Starship for heavy launches.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "Built around a space-optimized version of Nvidia Corp.’s Vera Rubin NVL72 rack-scale system, the first-generation Starmind satellite, known as AI1, could reach orbit as early as the third quarter of next year, according to Musk."
+      },
+      {
+        "source": 4,
+        "quote": "SpaceX is counting on its Starship rocket to carry the heavy satellites into orbit in large numbers."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 35,
+    "claim": "The order waives Part 25 processing round and surety bond rules and sets a 15-year license term starting upon certification of the first operational satellite.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "SpaceX’s request for waiver of the Commission’s processing round rules in sections 25.156 and 25.157 is GRANTED."
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX’s request for waiver of the Commission’s surety bond rules in section 25.165 is GRANTED."
+      },
+      {
+        "source": 1,
+        "quote": "The license term is 15 years and will begin at 3 a.m. EST on the date SpaceX certifies to the Commission that the first Starmind satellite has been successfully placed into orbit"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 36,
+    "claim": "SpaceX must operate one satellite by November 25, 2033, 10% (100,000) by November 25, 2035, 50% (500,000) by November 25, 2038, and all 1,000,000 by November 25, 2040, with semiannual reports due January 1 and July 1.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "SpaceX must deploy one authorized space station, place it into its assigned orbit, and operate it in accordance with the station authorization no later than November 25, 2033."
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX must deploy 10% of the maximum number of authorized space stations, place them in the assigned orbits, and operate them in accordance with the station authorization no later than November 25, 2035."
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX must deploy 50% of the maximum number of authorized space stations, place them in the assigned orbits, and operate them in accordance with the station authorization no later than November 25, 2038."
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX must launch the remaining space stations necessary to complete its authorized constellation, place them in their assigned orbits, and operate each in accordance with this authorization no later than November 25, 2040."
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX must provide a semi-annual report, by January 1 and July 1 each year"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 38,
+    "claim": "SpaceX withdrew its milestone-waiver request on October 19, 2026; missing any milestone voids the grant, and 100,000 satellites in 2035 is nearly nine times Starlink's active fleet.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "SpaceX originally requested waiver of the Commission’s milestone requirements altogether, but withdrew that request in favor of its request to apply the new milestones adopted in the Space Modernization R&O and FNPRM."
+      },
+      {
+        "source": 1,
+        "quote": "filed Oct. 19, 2026"
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX’s authorization will therefore become null and void if the authorized space stations are not deployed and operated as follows:"
+      },
+      {
+        "source": 4,
+        "quote": "Two years later, the FCC expects 100,000 satellites to be operating. That's nearly nine times as many satellites as SpaceX's Starlink network has in orbit today."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 41,
+    "claim": "The Space Bureau approved atmospheric reentry disposal below 600 kilometers and deferred SpaceX's waiver request for the five-year reentry rule below 2,000 kilometers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "SpaceX requested a waiver of existing FCC rules, which requires satellites ending missions below 2,000 kilometers reenter Earth’s atmosphere within five years of completing those missions."
+      },
+      {
+        "source": 1,
+        "quote": "Because SpaceX has not provided sufficient information for the Commission to determine whether its alternative disposal methods are compliant with the Commission’s requirements, SpaceX’s waiver request is deferred."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 42,
+    "claim": "SpaceX requested flexibility to dispose satellites above 600 km into Earth disposal or heliocentric orbits and must win approval of a modified debris plan before deploying above 600 km.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "flexibility to dispose satellites operating above 600 km altitude into Earth disposal orbits or heliocentric orbits."
+      },
+      {
+        "source": 1,
+        "quote": "Prior to deploying and operating any Starmind satellites that will not be disposed via atmospheric re-entry, SpaceX must file an application for modification of this authorization and provide sufficient justification for any requested waiver(s) of the Commission’s rules."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 44,
+    "claim": "Four of the six nominal bands sit above 600 kilometers, while in lower orbits SpaceX committed to initial testing below other operational systems and controlled, fully demisable ocean reentries.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 8,
+        "quote": "SpaceX’s orbital debris plan was found to comply with the agency’s rules only for satellites below 600 kilometers, and four of the six shells sit above that line."
+      },
+      {
+        "source": 1,
+        "quote": "These strategies include, for initial testing, deploying its satellites into orbits below other operational systems to ensure reentry, and for operational satellites, actively deorbiting in a controlled manner"
+      },
+      {
+        "source": 1,
+        "quote": "and steering its satellites to reenter over the ocean. SpaceX commits that the design of each of its satellites is such that the satellite fully demises during reentry."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 49,
+    "claim": "SpaceX applied on January 30, 2026, drawing March 6, 2026 petitions to deny from Amazon's Kuiper Systems, Viasat, and the American Astronomical Society.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "On January 30, 2026, SpaceX filed an application requesting authority for backup and emergency use of radiofrequency communications to support an NGSO constellation of one million ODCs."
+      },
+      {
+        "source": 1,
+        "quote": "Petition to Deny of Kuiper Systems LLC (filed Mar. 6, 2026) (Amazon Petition); Petition to Deny of Viasat Inc. (filed Mar. 6, 2026) (Viasat Petition); Petition to Deny of the American Astronomical Society (filed Mar. 6, 2026) (AAS Petition)."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 50,
+    "claim": "Amazon called the filing a lofty ambition rather than a real plan that risks real harm, while the AAS warned tens of thousands of satellites could be visible to the naked eye.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "described it as a “lofty ambition rather than a real plan.”"
+      },
+      {
+        "source": 3,
+        "quote": "Despite that lack of detail, Amazon also said the proposal “risks real harm.”"
+      },
+      {
+        "source": 4,
+        "quote": "if SpaceX deploys the full million, tens of thousands could be visible to the naked eye around the world."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 52,
+    "claim": "Viasat raised aggregate Ka-band interference, collision, and disposal concerns, while the Secure World Foundation warned filings represent a qualitative shift in constellation scale.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "concerns that the aggregate interference from one million Starmind satellites operating simultaneously will cause interference into other satellite and terrestrial systems."
+      },
+      {
+        "source": 9,
+        "quote": "“The current wave of ODC applications represents a qualitative shift in the scale of proposed satellite constellation operations,”"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 54,
+    "claim": "Denying all three petitions on November 25, 2026, the Space Bureau relied on NSF coordination for optical astronomy, ruled waste-heat and feasibility outside its radiofrequency mandate, and declined NEPA review under its October 1, 2026 order and current rules.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "IT IS FURTHER ORDERED that the Petitions to deny filed by Viasat, Inc., Kuiper Systems LLC, and the American Astronomical Society are DENIED."
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX commits to coordinate with the National Science Foundation (NSF)."
+      },
+      {
+        "source": 1,
+        "quote": "We find that these concerns regarding potential non-spectrum related impacts are outside the scope of the ODC’s radiofrequency operations."
+      },
+      {
+        "source": 1,
+        "quote": "FCC 26-64 at paras. 62-69 (rel. Oct. 1, 2026) (NEPA Order)."
+      },
+      {
+        "source": 1,
+        "quote": "even applying our current rule framework, we decline to require further environmental review under NEPA."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 57,
+    "claim": "The bureau ruled FCC rules cap neither constellation size nor shared orbits and required semiannual counts of satellites using Ka-band links.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "the Commission’s rules do not place limits on the number of space stations that can be authorized with similar orbital parameters"
+      },
+      {
+        "source": 1,
+        "quote": "we also condition this grant on SpaceX reporting, on a semiannual basis, the number of satellites that communicated with earth stations using Ka-band frequencies."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 58,
+    "claim": "After the November 25, 2026 ruling, the AAS said it was disheartened and dismayed and urged FCC protection for optical and infrared astronomy.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 9,
+        "quote": "In a statement today, AAS said it is “disheartened and dismayed” at the FCC decision"
+      },
+      {
+        "source": 9,
+        "quote": "We believe that it is critical for the FCC to consider the protection of optical and infrared astronomy when assessing applications from satellite operators, in the absence of another licensing agency that can take these concerns into account."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 64,
+    "claim": "The FCC found SpaceX had not provided sufficient information to evaluate Earth disposal or heliocentric orbits for four of the six shells above 600 kilometers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Because SpaceX has not provided sufficient information for the Commission to determine whether its alternative disposal methods are compliant with the Commission’s requirements, SpaceX’s waiver request is deferred."
+      },
+      {
+        "source": 8,
+        "quote": "SpaceX’s orbital debris plan was found to comply with the agency’s rules only for satellites below 600 kilometers, and four of the six shells sit above that line."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 65,
+    "claim": "SpaceX has 30 days from November 25, 2026 to decline the conditioned grant, and Musk gave a third-quarter 2027 target for the first AI1 satellite.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Licensee/grantee is afforded thirty (30) days from the date of release of this action to decline the grant as conditioned."
+      },
+      {
+        "source": 8,
+        "quote": "the first-generation Starmind satellite, known as AI1, could reach orbit as early as the third quarter of next year, according to Musk."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 65,
+    "claim": "Neither the order nor SpaceX sets a firm launch date for the first AI1 satellite.",
+    "status": "absence",
+    "note": "Checked Order DA 26-1273 and all cited November 25, 2026 press reports; only Musk's Q3 2027 target and the FCC's November 25, 2033 deadline appear."
+  },
+  {
+    "id": 31,
+    "line": 66,
+    "claim": "SpaceX has not disclosed customer pricing, unit manufacturing costs, or chip-financing terms, which TechCrunch flagged as an unresolved hurdle.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "how to dramatically reduce the cost of manufacturing and launching satellites, cool processors in space, and even how to secure financing for chips that are destined for orbit."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "line": 67,
+    "claim": "None of the cited November 25, 2026 reports states whether Amazon's Kuiper Systems, Viasat, or the AAS will appeal the bureau's denial.",
+    "status": "absence",
+    "note": "Checked Order DA 26-1273 and SpacePolicyOnline.com's November 25, 2026 coverage of the AAS statement; no appeal decision is reported."
+  },
+  {
+    "id": 33,
+    "line": 71,
+    "claim": "The FCC conditionally authorized SpaceX on November 25, 2026 to operate up to 1,000,000 Starmind orbital data center satellites across six shells from 500 to 1,002 kilometers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Non-geostationary satellite orbit (NGSO) constellation of 1,000,000 satellites deployed into orbital shells each spanning 50 km at altitudes from 500 to 1,002 km and in 30-degree inclinations and sun-synchronous inclinations."
+      },
+      {
+        "source": 2,
+        "quote": "Today, the Federal Communications Commission granted the first authorization in U.S. history for a constellation of data centers in space."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "line": 72,
+    "claim": "SpaceX must deploy one satellite by November 25, 2033 and all 1,000,000 by November 25, 2040, while winning modified debris approval before operating above 600 kilometers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "SpaceX must deploy one authorized space station, place it into its assigned orbit, and operate it in accordance with the station authorization no later than November 25, 2033."
+      },
+      {
+        "source": 1,
+        "quote": "SpaceX must launch the remaining space stations necessary to complete its authorized constellation, place them in their assigned orbits, and operate each in accordance with this authorization no later than November 25, 2040."
+      },
+      {
+        "source": 1,
+        "quote": "Prior to deploying and operating any Starmind satellites that will not be disposed via atmospheric re-entry, SpaceX must file an application for modification of this authorization and provide sufficient justification for any requested waiver(s) of the Commission’s rules."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 73,
+    "claim": "The bureau denied petitions from Amazon, Viasat, and the American Astronomical Society, ruling waste-heat and feasibility objections outside its radiofrequency mandate and requiring no NEPA review.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "IT IS FURTHER ORDERED that the Petitions to deny filed by Viasat, Inc., Kuiper Systems LLC, and the American Astronomical Society are DENIED."
+      },
+      {
+        "source": 1,
+        "quote": "We find that these concerns regarding potential non-spectrum related impacts are outside the scope of the ODC’s radiofrequency operations."
+      },
+      {
+        "source": 1,
+        "quote": "even applying our current rule framework, we decline to require further environmental review under NEPA."
+      }
+    ]
+  }
+]

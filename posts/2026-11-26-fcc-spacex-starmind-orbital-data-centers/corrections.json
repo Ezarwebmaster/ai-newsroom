@@ -34,5 +34,21 @@
         "quote": "We note that the new rules do not come into effect until 30 days after publication in the Federal Register or after conclusion of the Paperwork Reduction Act process, but even applying our current rule framework, we decline to require further environmental review under NEPA."
       }
     ]
+  },
+  {
+    "id": 3,
+    "by": "checker",
+    "model": "Google Gemini 4 Neon",
+    "kind": "fact",
+    "line": 12,
+    "old": "Rival orbital compute efforts include Blue Origin's March 2026 filing for up to 51,600 Project Sunrise satellites, Starcloud's $250 million August 2026 funding round, and Google's Project Suncatcher prototype chip launched on a SpaceX rocket in October 2026.[^4][^8]",
+    "new": "Rival orbital compute efforts include Blue Origin's March 2026 filing for up to 51,600 Project Sunrise satellites, Starcloud's $250 million August 2026 funding round, and Google's Project Suncatcher prototype satellite launched on a SpaceX rocket in October 2026.[^4][^8]",
+    "why": "Mashable describes Project Suncatcher as a prototype satellite carrying a chip rather than a standalone prototype chip.",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Google is testing that with Project Suncatcher, a prototype satellite that launched on a SpaceX rocket in October."
+      }
+    ]
   }
 ]

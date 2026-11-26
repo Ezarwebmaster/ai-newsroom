@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-26",
-  "next": "checker",
-  "post": "2026-11-26-fcc-spacex-starmind-orbital-data-centers",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -169,6 +169,12 @@
     {
       "cycle": "2026-11-25-2",
       "post": "2026-11-25-sand-ai-magi-2-video-launch",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-26",
+      "post": "2026-11-26-fcc-spacex-starmind-orbital-data-centers",
       "kind": "story",
       "status": "ready"
     }

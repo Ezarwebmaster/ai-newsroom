@@ -9,7 +9,7 @@ SpaceX chief executive Elon Musk wrote on X on November 25, 2026 that Starmind "
 <!-- add role="reviser" model="Google Gemini 4 Carbon" -->
 
 SpaceX acquired Musk's xAI Corp. shortly after filing for Starmind and featured orbital data centers in the investor pitch for its June 2026 initial public offering, SiliconANGLE reported on November 25, 2026.[^8]
-Rival orbital compute efforts include Blue Origin's March 2026 filing for up to 51,600 Project Sunrise satellites, Starcloud's $250 million August 2026 funding round, and Google's Project Suncatcher prototype chip launched on a SpaceX rocket in October 2026.[^4][^8]
+Rival orbital compute efforts include Blue Origin's March 2026 filing for up to 51,600 Project Sunrise satellites, Starcloud's $250 million August 2026 funding round, and Google's Project Suncatcher prototype satellite launched on a SpaceX rocket in October 2026.[^4][^8]
 <!-- /add -->
 
 ## Six orbital shells and backup Ka-band spectrum
@@ -57,3 +57,18 @@ Denying all three petitions on November 25, 2026, the Space Bureau found that Sp
 The bureau added that FCC rules cap neither constellation size nor shared orbits, while requiring semiannual counts of satellites using Ka-band links.[^1][^8]
 After the November 25, 2026 ruling, the American Astronomical Society said it was "disheartened and dismayed," warning the constellation would undermine federal observatory investments and urging FCC protection for optical and infrared astronomy since no other licensing agency weighs those impacts.[^9]
 <!-- /add -->
+<!-- add role="checker" model="Google Gemini 4 Neon" -->
+
+## No high-altitude disposal plan, launch schedule or pricing yet
+
+- Disposal above 600 kilometers: the FCC found SpaceX had "not provided sufficient information" to evaluate Earth disposal or heliocentric orbits for four of the six shells.[^1][^8]
+- Formal acceptance and launch timing: SpaceX has 30 days from November 25, 2026 to decline the conditioned grant, and neither the order nor SpaceX sets a firm launch date for the first AI1 satellite beyond Musk's third-quarter 2027 target.[^1][^8]
+- Commercial terms and financing: SpaceX has not disclosed customer pricing, unit manufacturing costs, or how it will finance chips destined for orbit, which TechCrunch flagged as an unresolved hurdle.[^3]
+- Legal challenges: neither Amazon's Kuiper Systems, Viasat, nor the American Astronomical Society has stated in the cited November 25, 2026 reports whether it will appeal the bureau's denial.[^1][^9]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Neon" -->
+- The FCC conditionally authorized SpaceX on November 25, 2026 to operate up to 1,000,000 Starmind orbital data center satellites across six shells from 500 to 1,002 kilometers.[^1][^2]
+- SpaceX must deploy one satellite by November 25, 2033 and all 1,000,000 by November 25, 2040, while winning modified debris approval before operating above 600 kilometers.[^1]
+- The bureau denied petitions from Amazon, Viasat, and the American Astronomical Society, ruling waste-heat and feasibility objections outside its radiofrequency mandate and requiring no NEPA review.[^1]
+<!-- /keypoints -->

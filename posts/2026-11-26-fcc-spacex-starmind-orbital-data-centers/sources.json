@@ -103,6 +103,86 @@
         "text": "We find that concerns about impacts of ODCs on optical astronomy are sufficiently addressed in SpaceX’s application and supplemental material, in which SpaceX commits to coordinate with the National Science Foundation (NSF).",
         "for": "Space Bureau reliance on SpaceX's commitment to coordinate with the National Science Foundation.",
         "by": "reviser"
+      },
+      {
+        "text": "ICFS File No. SAT-LOA-20260108-00016 Call Sign: S00798 MEMORANDUM OPINION AND ORDER AND AUTHORIZATION Adopted: November 25, 2026 By the Chief, Space Bureau: Released: November 25, 2026",
+        "for": "Order docket identifiers, call sign, and November 25, 2026 adoption and release date.",
+        "by": "checker"
+      },
+      {
+        "text": "We grant, on our own motion, waiver of the U.S. Table of Frequency Allocations, 47 CFR § 2.106(a) (U.S. Table), for SpaceX’s TT&C operations only in the 18.8-19.3 GHz (space-to-Earth) and 28.6-29.1 GHz (Earth-to-space) bands on an unprotected and non-interference basis.",
+        "for": "U.S. Table waiver and authorized backup Ka-band TT&C frequencies.",
+        "by": "checker"
+      },
+      {
+        "text": "SpaceX’s request for waiver of the Commission’s processing round rules in sections 25.156 and 25.157 is GRANTED.",
+        "for": "Waiver of Part 25 processing round rules.",
+        "by": "checker"
+      },
+      {
+        "text": "SpaceX’s request for waiver of the Commission’s surety bond rules in section 25.165 is GRANTED.",
+        "for": "Waiver of Part 25 surety bond rules.",
+        "by": "checker"
+      },
+      {
+        "text": "The license term is 15 years and will begin at 3 a.m. EST on the date SpaceX certifies to the Commission that the first Starmind satellite has been successfully placed into orbit and its operations fully conform to the terms and conditions of this authorization.",
+        "for": "15-year license term beginning upon first operational satellite certification.",
+        "by": "checker"
+      },
+      {
+        "text": "Licensee/grantee is afforded thirty (30) days from the date of release of this action to decline the grant as conditioned.",
+        "for": "30-day window from November 25, 2026 for SpaceX to decline the conditioned grant.",
+        "by": "checker"
+      },
+      {
+        "text": "SpaceX must deploy 10% of the maximum number of authorized space stations, place them in the assigned orbits, and operate them in accordance with the station authorization no later than November 25, 2035.",
+        "for": "10% deployment milestone deadline of November 25, 2035.",
+        "by": "checker"
+      },
+      {
+        "text": "SpaceX must deploy 50% of the maximum number of authorized space stations, place them in the assigned orbits, and operate them in accordance with the station authorization no later than November 25, 2038.",
+        "for": "50% deployment milestone deadline of November 25, 2038.",
+        "by": "checker"
+      },
+      {
+        "text": "SpaceX must launch the remaining space stations necessary to complete its authorized constellation, place them in their assigned orbits, and operate each in accordance with this authorization no later than November 25, 2040.",
+        "for": "100% deployment milestone deadline of November 25, 2040.",
+        "by": "checker"
+      },
+      {
+        "text": "SpaceX must provide a semi-annual report, by January 1 and July 1 each year, covering the preceding six-month period, respectively, from June 1 to November 30 and December 1 to May 31.",
+        "for": "Semiannual reporting deadlines of January 1 and July 1.",
+        "by": "checker"
+      },
+      {
+        "text": "SpaceX requests waiver of this rule to allow for “flexibility to dispose satellites operating above 600 km altitude into Earth disposal orbits or heliocentric orbits.”",
+        "for": "SpaceX's requested disposal flexibility above 600 kilometers.",
+        "by": "checker"
+      },
+      {
+        "text": "Because SpaceX has not provided sufficient information for the Commission to determine whether its alternative disposal methods are compliant with the Commission’s requirements, SpaceX’s waiver request is deferred.",
+        "for": "Reason for deferring SpaceX's high-altitude disposal waiver request.",
+        "by": "checker"
+      },
+      {
+        "text": "On January 30, 2026, SpaceX filed an application requesting authority for backup and emergency use of radiofrequency communications to support an NGSO constellation of one million ODCs.",
+        "for": "January 30, 2026 filing date of SpaceX's Starmind application.",
+        "by": "checker"
+      },
+      {
+        "text": "Petition to Deny of Kuiper Systems LLC (filed Mar. 6, 2026) (Amazon Petition); Petition to Deny of Viasat Inc. (filed Mar. 6, 2026) (Viasat Petition); Petition to Deny of the American Astronomical Society (filed Mar. 6, 2026) (AAS Petition).",
+        "for": "March 6, 2026 petitions to deny filed by Amazon's Kuiper Systems, Viasat, and the AAS.",
+        "by": "checker"
+      },
+      {
+        "text": "We find that these concerns regarding potential non-spectrum related impacts are outside the scope of the ODC’s radiofrequency operations.",
+        "for": "Space Bureau finding that waste-heat and non-spectrum concerns fall outside its radiofrequency mandate.",
+        "by": "checker"
+      },
+      {
+        "text": "See Modernizing the Commission’s National Environmental Policy Act Rules, Report and Order and Further Notice of Proposed Rulemaking, FCC 26-64 at paras. 62-69 (rel. Oct. 1, 2026) (NEPA Order).",
+        "for": "October 1, 2026 release date of the FCC's NEPA Order.",
+        "by": "checker"
       }
     ]
   },
@@ -152,6 +232,11 @@
         "text": "Despite that lack of detail, Amazon also said the proposal “risks real harm.”",
         "for": "Amazon's statement that the Starmind proposal risks real harm.",
         "by": "reviser"
+      },
+      {
+        "text": "how to dramatically reduce the cost of manufacturing and launching satellites, cool processors in space, and even how to secure financing for chips that are destined for orbit.",
+        "for": "Unresolved cost and chip-financing hurdles noted by TechCrunch.",
+        "by": "checker"
       }
     ]
   },
