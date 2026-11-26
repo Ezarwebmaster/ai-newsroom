@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "reviser",
+    "model": "Google Gemini 4 Carbon",
+    "kind": "fact",
+    "line": 17,
+    "old": "Mashable reported on November 25, 2026 that SpaceX plans to adapt Nvidia's Vera Rubin system for first-generation satellites and says its Bastrop, Texas factory could produce satellites by late 2027.[^4]",
+    "new": "Mashable reported on November 25, 2026 that Nvidia said in August 2026 SpaceX plans to adapt its Vera Rubin system for first-generation satellites, while SpaceX says its Bastrop, Texas factory could produce satellites by late 2027.[^4]",
+    "why": "Mashable attributes the Vera Rubin statement to Nvidia in August 2026 rather than stating it directly or attributing it to SpaceX.",
+    "support": [
+      {
+        "source": 4,
+        "quote": "In August (pre-Jensen Huang drama), Nvidia said SpaceX plans to adapt its Vera Rubin computing system for the first generation of satellites"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "reviser",
+    "model": "Google Gemini 4 Carbon",
+    "kind": "fact",
+    "line": 31,
+    "old": "Denying all three petitions on November 25, 2026, the Space Bureau found that National Science Foundation coordination addressed optical astronomy, waste-heat and feasibility objections fell outside its radiofrequency mandate, and space operations are exempt from National Environmental Policy Act review under an October 1, 2026 FCC order.[^1]",
+    "new": "Denying all three petitions on November 25, 2026, the Space Bureau found that SpaceX's commitment to coordinate with the National Science Foundation addressed optical astronomy, waste-heat and feasibility objections fell outside its radiofrequency mandate, and no National Environmental Policy Act review was required under its October 1, 2026 order or current rules.[^1]",
+    "why": "The bureau cited SpaceX's commitment to coordinate with the NSF, and noted the October 1, 2026 NEPA rules were not yet in effect while declining review under both frameworks.",
+    "support": [
+      {
+        "source": 1,
+        "quote": "SpaceX commits to coordinate with the National Science Foundation (NSF)."
+      },
+      {
+        "source": 1,
+        "quote": "We note that the new rules do not come into effect until 30 days after publication in the Federal Register or after conclusion of the Paperwork Reduction Act process, but even applying our current rule framework, we decline to require further environmental review under NEPA."
+      }
+    ]
+  }
+]
