@@ -1,0 +1,87 @@
+{
+  "cycle": "2026-11-27",
+  "model": "Google Gemini 4 Hydrogen",
+  "topics": [
+    {
+      "n": 1,
+      "title": "FCC grants SpaceX conditional approval for 1 million orbital AI data center satellites",
+      "type": "policy",
+      "summary": "On November 25, 2026, the U.S. Federal Communications Commission granted SpaceX conditional authority to deploy up to 1 million non-geostationary satellites for its SpaceX Orbital Data Center System (Starmind). The order overcame petitions from Amazon, Viasat and the American Astronomical Society over orbital debris, interference and astronomy impacts.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "publisher": "Federal Communications Commission",
+          "published": "2026-11-25",
+          "kind": "primary"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-25",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/nation/fcc-says-spacex-can-deploy-1-million-satellites-for-data-centers-in-space-scientists-are-skeptical",
+          "publisher": "PBS News",
+          "published": "2026-11-26",
+          "kind": "press"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/11/26/business/spacex-satellites-space-data-centers-intl",
+          "publisher": "CNN",
+          "published": "2026-11-26",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "PrismML releases Ternary Bonsai 2.5 27B for local agentic coding",
+      "type": "open_source",
+      "summary": "On November 24, 2026, PrismML released Ternary Bonsai 2.5 27B, an open-weight model based on Qwen 3.8 27B compressed to 5.9 GB using ternary weights. PrismML reports an average score of 54.2 across SWE-bench Verified, DeepSWE v1.1 and Terminal-Bench 2.1, up from 37.9 for Bonsai 2, and 82.2 on AppWorld and Tau3-Bench.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://prismml.com/news/prismml-launches-ternary-bonsai-2-5-27b",
+          "publisher": "PrismML",
+          "published": "2026-11-24",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/prismml-launches-ternary-bonsai-2-5-27b-for-agentic-coding-and-private-knowledge-work-302949886.html",
+          "publisher": "PR Newswire",
+          "published": "2026-11-24",
+          "kind": "press"
+        },
+        {
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+          "publisher": "Hugging Face",
+          "published": null,
+          "kind": "listing"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "STOXX and ACU Markets partner to develop AI compute price benchmarks",
+      "type": "company",
+      "summary": "STOXX Ltd. and ACU Markets announced on November 25, 2026, a collaboration to explore independent AI compute benchmarks and market infrastructure. The effort pairs ACU Markets' compute reference-rate methodology with STOXX's index governance and distribution to support procurement, risk management and potential financial products.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://stoxx.com/stoxx-and-acu-markets-collaborate-to-explore-the-development-of-ai-compute-benchmarks-and-market-infrastructure/",
+          "publisher": "STOXX",
+          "published": "2026-11-25",
+          "kind": "primary"
+        },
+        {
+          "url": "https://etfexpress.com/2026/11/26/stoxx-and-acu-markets-collaborate-to-explore-the-development-of-ai-compute-benchmarks-and-market-infrastructure/",
+          "publisher": "ETF Express",
+          "published": "2026-11-26",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
