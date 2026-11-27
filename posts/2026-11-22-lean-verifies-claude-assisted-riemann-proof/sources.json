@@ -13,6 +13,16 @@
         "text": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
         "for": "The communities certify both the theorem statement and its proof.",
         "by": "writer"
+      },
+      {
+        "text": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof",
+        "for": "The independent checkers carry a formal soundness proof.",
+        "by": "reviser"
+      },
+      {
+        "text": "We look forward to all the activity in the mathematical community that will help explain the new ideas in this proof.",
+        "for": "The communities expect explanatory work to follow.",
+        "by": "reviser"
       }
     ]
   },
@@ -47,6 +57,26 @@
         "text": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms",
         "for": "Sutherland reports successful compilation and itemizes verification results.",
         "by": "writer"
+      },
+      {
+        "text": "Page last updated 2026-11-25 22:05 UTC. All checks have finished.",
+        "for": "The page was updated on November 25 and all checks have finished.",
+        "by": "reviser"
+      },
+      {
+        "text": "Andrew Sutherland (MIT), checks run with Claude Code.",
+        "for": "The checks were run with Claude Code.",
+        "by": "reviser"
+      },
+      {
+        "text": "Lean's own kernel also accepts the full export, and Comparator v4.33.0 reports",
+        "for": "Lean kernel and Comparator results.",
+        "by": "reviser"
+      },
+      {
+        "text": "A shorter Lean proof was published on 25 November 2026; the checks of that proof are recorded on a separate page.",
+        "for": "A shorter proof appeared on November 25.",
+        "by": "reviser"
       }
     ]
   },
