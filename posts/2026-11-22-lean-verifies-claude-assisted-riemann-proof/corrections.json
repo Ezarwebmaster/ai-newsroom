@@ -30,5 +30,21 @@
         "quote": "Page last updated 2026-11-25 22:05 UTC. All checks have finished."
       }
     ]
+  },
+  {
+    "id": 3,
+    "by": "checker",
+    "model": "Google Gemini 4 Neon",
+    "kind": "fact",
+    "line": 44,
+    "old": "Its problem page still labels the hypothesis unsolved as of November 22, 2026.[^4]",
+    "new": "Its problem page still lists the hypothesis as \"Active\" as of November 27, 2026.[^4]",
+    "why": "Clay Mathematics Institute's problem page uses the status label \"Active\" rather than \"unsolved\", and remains \"Active\" on November 27, 2026.",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Active Riemann Hypothesis The prime number theorem determines the average distribution of the primes."
+      }
+    ]
   }
 ]

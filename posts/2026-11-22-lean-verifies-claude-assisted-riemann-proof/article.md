@@ -41,5 +41,19 @@ University of Manchester mathematician Thomas Bloom told Le Monde that, if true,
 
 The hypothesis concerns deviations from the average distribution of prime numbers.
 Clay Mathematics Institute describes it as asserting that the non-obvious zeros of the zeta function have real part 1/2.[^4]
-Its problem page still labels the hypothesis unsolved as of November 22, 2026.[^4]
+Its problem page still lists the hypothesis as "Active" as of November 27, 2026.[^4]
 Alpöge's promised explanation remains a separate task from the formal verification.[^2][^3]
+
+<!-- add role="checker" model="Google Gemini 4 Neon" -->
+## No human-readable proof, prize review or broader L-function check yet
+
+- Human-readable exposition: Alpöge has not yet released a conventional mathematical writeup or a schedule for one, saying he intends to understand, explain and simplify the argument.[^2]
+- Clay Millennium Prize review: Clay Mathematics Institute does not accept direct submissions and requires publication in a qualifying outlet, a two-year waiting period and general community acceptance before considering a solution.[^6]
+- Broader L-functions and the shorter proof: Sutherland's verification covers Dirichlet L-functions rather than Dedekind zeta, Hecke or general automorphic L-functions, and the separate checks of the shorter November 25, 2026 Lean proof have not been reviewed here.[^3]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Neon" -->
+- The Lean and Mathlib communities certified on November 21, 2026 that Levent Alpöge's 17-million-line Claude-assisted Lean proof matches Mathlib's Riemann hypothesis statement and is valid.[^1][^2]
+- MIT mathematician Andrew Sutherland's verification page reports all 175,187 modules compile with standard axioms only and all kernel replays finished by November 25, 2026.[^3]
+- Alpöge has yet to write a human-readable exposition, and Clay Mathematics Institute still lists the problem as "Active" under rules requiring refereed publication and a two-year wait.[^2][^4][^6]
+<!-- /keypoints -->

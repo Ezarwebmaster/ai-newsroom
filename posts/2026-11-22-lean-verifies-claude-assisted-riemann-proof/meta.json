@@ -14,7 +14,9 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Source 5 (Le Monde) returned HTTP 402 bot-protection during live verification, so Thomas Bloom's quotation could not be re-verified directly against the page."
+  ],
   "image_brief": null
 }

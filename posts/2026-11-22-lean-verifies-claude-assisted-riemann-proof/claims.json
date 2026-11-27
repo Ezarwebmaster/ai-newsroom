@@ -1,0 +1,446 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "The Lean and Mathlib communities certified Levent Alpöge's Claude-assisted Riemann hypothesis proof.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct."
+      },
+      {
+        "source": 2,
+        "quote": "Claude and I have also formalized the arguments without assumptions."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "Independent checks matched the proof to Mathlib's Riemann hypothesis statement, while explaining the argument to mathematicians remains a separate task.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "confirming that the theorem proved in Alpöge’s library is exactly Mathlib’s statement of the Riemann Hypothesis."
+      },
+      {
+        "source": 1,
+        "quote": "We look forward to all the activity in the mathematical community that will help explain the new ideas in this proof."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "The Lean and Mathlib communities certified on November 21, 2026 that Levent Alpöge's Riemann hypothesis proof is correct, following his November 20, 2026 release of a Claude-assisted Lean library.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "2026-11-21 13:55"
+      },
+      {
+        "source": 1,
+        "quote": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code."
+      },
+      {
+        "source": 1,
+        "quote": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct."
+      },
+      {
+        "source": 2,
+        "quote": "Claude and I have also formalized the arguments without assumptions."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "The joint statement is endorsed by the Lean FRO and Mathlib Initiative.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Joint statement by the Lean FRO and the Mathlib Initiative."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 11,
+    "claim": "The library comprises 17 million lines of code and depends directly only on Mathlib, according to the communities' November 21, 2026 statement.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "2026-11-21 13:55"
+      },
+      {
+        "source": 1,
+        "quote": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code."
+      },
+      {
+        "source": 1,
+        "quote": "The codebase depends directly only on Mathlib."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 12,
+    "claim": "Independent compilation reproduced the same exported proof and two comparison tools matched Alpöge's theorem to Mathlib's Riemann hypothesis definition.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "By now, dozens of people have reported correct compilation of the codebase, reproducing the same raw proof export file."
+      },
+      {
+        "source": 1,
+        "quote": "That statement was compared against the theorem proved by Alpöge using two independent tools (comparator and con-leche –compare), both confirming that the theorem proved in Alpöge’s library is exactly Mathlib’s statement of the Riemann Hypothesis."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "Matching the statement rules out proving a different theorem.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "confirming that the theorem proved in Alpöge’s library is exactly Mathlib’s statement of the Riemann Hypothesis."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 15,
+    "claim": "Independent checkers accepted an inert proof export insulated from hypothetical malicious source code.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "These checks ran on an inert export of the proof, out of reach of hypothetical malicious code in the Lean proof sources."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 17,
+    "claim": "The checkers con-leche and con-ron carry a formal proof, relative to set theory, that they cannot accept a false proof.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 20,
+    "claim": "Andrew Sutherland's verification page, last updated November 25, 2026, reports compilation of all 175,187 modules and only the three standard Lean axioms for the five headline theorems.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Page last updated 2026-11-25 22:05 UTC. All checks have finished."
+      },
+      {
+        "source": 3,
+        "quote": "All 175,187 modules compile (Lean v4.33.1, Mathlib v4.33.1)"
+      },
+      {
+        "source": 3,
+        "quote": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 21,
+    "claim": "Sutherland's page says all checks have finished, including single-threaded Lean-kernel replays of the full export.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Page last updated 2026-11-25 22:05 UTC. All checks have finished."
+      },
+      {
+        "source": 3,
+        "quote": "Started 19:03 UTC on 20 November; 122 h 45 min in all, its kernel stages being single-threaded"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 22,
+    "claim": "The verified generalization covers Dirichlet L-functions rather than broader families of L-functions.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "\"GRH\" here means Dirichlet L-functions: all moduli and all characters. Dedekind zeta functions, Hecke L-functions and automorphic L-functions in general are not among the statements that were checked."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 24,
+    "claim": "Sutherland notes that his checks were run with Claude Code.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Andrew Sutherland (MIT), checks run with Claude Code."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "line": 25,
+    "claim": "Lean's own kernel accepts the full export and Comparator reports success on the challenge file.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "Lean's own kernel also accepts the full export, and Comparator v4.33.0 reports"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 26,
+    "claim": "A shorter Lean proof was published on November 25, 2026, with checks recorded on a separate page not reviewed in this story.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "A shorter Lean proof was published on 25 November 2026; the checks of that proof are recorded on a separate page."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 31,
+    "claim": "Alpöge says he and Claude formalized the arguments without assumptions, with him guiding the approach and Claude supplying advances.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Claude and I have also formalized the arguments without assumptions."
+      },
+      {
+        "source": 2,
+        "quote": "I guided us to the right situation analogous to that toy setting, and then Claude began to leave me in awe."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 32,
+    "claim": "Alpöge released Lean rather than a conventional exposition, acknowledging he had not mastered a large mathematical neighborhood surrounding the argument.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I am presenting the world with a complete argument before having mastered a massive neighbourhood around its mathematics."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 33,
+    "claim": "Alpöge says he intends to understand, explain and simplify the argument.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 35,
+    "claim": "The Lean and Mathlib statement says it looks forward to community activity that will help explain the new ideas in the proof.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "We look forward to all the activity in the mathematical community that will help explain the new ideas in this proof."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 38,
+    "claim": "Thomas Bloom told Le Monde that immediate practical applications would not follow.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "It wouldn't have any practical implications (at least not immediately)"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 42,
+    "claim": "The Riemann hypothesis concerns deviations from the average distribution of prime numbers.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "The Riemann hypothesis tells us about the deviation from the average."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 43,
+    "claim": "Clay Mathematics Institute describes the hypothesis as asserting that the non-obvious zeros of the zeta function have real part 1/2.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Formulated in Riemann’s 1859 paper, it asserts that all the ‘non-obvious’ zeros of the zeta function are complex numbers with real part 1/2."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 44,
+    "claim": "Clay Mathematics Institute's problem page still lists the hypothesis as Active as of November 27, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 4,
+        "quote": "Active Riemann Hypothesis The prime number theorem determines the average distribution of the primes."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 45,
+    "claim": "Alpöge's promised explanation remains a separate task from the formal verification.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 50,
+    "claim": "Alpöge has not yet released a conventional mathematical writeup or a schedule for one.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 51,
+    "claim": "Clay Mathematics Institute does not accept direct submissions and requires publication in a qualifying outlet, a two-year waiting period and general community acceptance.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 6,
+        "quote": "CMI does not accept direct submission of proposed solutions."
+      },
+      {
+        "source": 6,
+        "quote": "(i) the proposed solution must be published in a Qualifying Outlet (see §6), and (ii) at least two years must have passed since publication, and (iii) the proposed solution must have received general acceptance in the global mathematics community"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 52,
+    "claim": "Sutherland's verification covers Dirichlet L-functions rather than Dedekind zeta, Hecke or general automorphic L-functions, and the shorter November 25, 2026 Lean proof is checked on a separate unreviewed page.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "\"GRH\" here means Dirichlet L-functions: all moduli and all characters. Dedekind zeta functions, Hecke L-functions and automorphic L-functions in general are not among the statements that were checked."
+      },
+      {
+        "source": 3,
+        "quote": "A shorter Lean proof was published on 25 November 2026; the checks of that proof are recorded on a separate page."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 56,
+    "claim": "The Lean and Mathlib communities certified on November 21, 2026 that Levent Alpöge's 17-million-line Claude-assisted Lean proof matches Mathlib's Riemann hypothesis statement and is valid.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "2026-11-21 13:55"
+      },
+      {
+        "source": 1,
+        "quote": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code."
+      },
+      {
+        "source": 1,
+        "quote": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct."
+      },
+      {
+        "source": 2,
+        "quote": "Claude and I have also formalized the arguments without assumptions."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 57,
+    "claim": "Andrew Sutherland's verification page reports all 175,187 modules compile with standard axioms only and all kernel replays finished by November 25, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 3,
+        "quote": "All 175,187 modules compile (Lean v4.33.1, Mathlib v4.33.1)"
+      },
+      {
+        "source": 3,
+        "quote": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms"
+      },
+      {
+        "source": 3,
+        "quote": "Page last updated 2026-11-25 22:05 UTC. All checks have finished."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 58,
+    "claim": "Alpöge has yet to write a human-readable exposition, and Clay Mathematics Institute still lists the problem as Active under rules requiring refereed publication and a two-year wait.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "I intend to do my best to understand and impart understanding of this argument and its certain simplifications, to speak about it, to write it properly."
+      },
+      {
+        "source": 4,
+        "quote": "Active Riemann Hypothesis The prime number theorem determines the average distribution of the primes."
+      },
+      {
+        "source": 6,
+        "quote": "(i) the proposed solution must be published in a Qualifying Outlet (see §6), and (ii) at least two years must have passed since publication, and (iii) the proposed solution must have received general acceptance in the global mathematics community"
+      }
+    ]
+  }
+]
