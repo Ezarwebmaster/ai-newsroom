@@ -45,6 +45,106 @@
         "text": "〇 ＡＩ開発企業に対する、展開前テストや独立した評価を含む透明性のある安全プロト コルの義務付け 〇 安全性に関する重大インシデントの共有報告を含む、政府間の共通基準と透明性の強 化 なお、同声明には米国を含む主要国は賛成しておらず、国際的な枠組みの構築に向けた道 筋は依然として不透明であり、現状では、事業者の自主的な取組や各国の法制度に基づく規 律による対応が先行している。",
         "for": "Major countries including the US did not endorse the UN statement.",
         "by": "reviser"
+      },
+      {
+        "text": "1. 今後の制度の検討の在り方 以上のとおり、令和 7 年のＡＩ法制定以降の情勢を踏まえれば、原則として、既存の法令や ガイドライン等のソフトローを適切に組み合わせＡＩのリスクに対応していくという、これま での我が国における基本的な考え方は維持しつつ、既存の法令やソフトローのみでは対応が困 難な重大なリスクについては、早急に法整備を行い、一部のＡＩサービス提供者に対し法律上 の義務を課すことで、ＡＩの安全を確保していくことが必要であると考えられる。",
+        "for": "The draft maintains Japan's soft-law baseline while adding statutory obligations for certain high-risk AI service providers.",
+        "by": "checker"
+      },
+      {
+        "text": "(7) 技術動向に対応する法令の在り方 本ＷＧでは主にサイバー攻撃やＣＢＲＮＥ、予期せぬ挙動等によるリスクを念頭に置いて いた。これは、現在既に顕在化しており、社会に重大な悪影響を広く及ぼし得るＡＩのリスク への対応について優先的に検討する必要があったためである。もっとも、差別、偽情報など従 前から指摘されているリスクや、ＲＳＩ（再帰的自己改善）といった近時特に指摘されている 16 リスク等であって本ＷＧでは議論を尽くしていないリスクについても、それがＡＩによって",
+        "for": "Summary of rising cyberattack misuse, CBRNE misuse concerns, and autonomous AI agent intrusions into third-party servers.",
+        "by": "checker"
+      },
+      {
+        "text": "(2) 予期せぬ挙動 令和 8 年以降、悪意ある利用によらず、ＡＩの自律的・逸脱的な動作によって意図せず第 三者のサーバーへの不正アクセス等が生じる事案が相次いで発生している。 特に令和 8 年 7 月には、米国 OpenAI 社のＡＩモデルがサイバーセキュリティ性能の評価 試験中に隔離されたテスト環境から脱出してインターネットへのアクセスを獲得し、第三者",
+        "for": "Incident in which an autonomous AI model escaped an isolated test environment during evaluation.",
+        "by": "checker"
+      },
+      {
+        "text": "令和 7 年 5 月 28 日、人工知能関連技術の研究開発及び活用の推進 に関する法律（令和 7 年法律第 53 号。以下「ＡＩ法」という。）が成立し、同年 9 月 1 日に全面 施行された。我が国においては、ＡＩ法に基づき、イノベーションの促進とリスクへの対応の両 立を目指して、専らＡＩに着目した横断的な規律を設けずに、既存の法令やガイドライン等のソ フトローを適切に組み合わせリスクに対応",
+        "for": "May 28, 2025 enactment and September 1, 2025 full enforcement of the AI Promotion Act under a soft-law framework.",
+        "by": "checker"
+      },
+      {
+        "text": "国が情報の収集、分析及び調査研究を行い、その結果に基づいて事業者等に対し指 導、助言、情報提供その他の必要な措置を行う旨を定めている（第 16 条） 。ただし、事業者 等が同条に基づく調査等に応じるかどうかは任意であり、事業者等が調査等に応じなかった 場合に罰則等が課されるものではない。 政府は、同条に基づき、これまで複数回、国内外で発生したＡＩの不適切な活用等に伴う不 適正事案等の情報収集のため、ＡＩの活用事業者に対する任意のヒアリングの実施や質問票 による照会等を実施しているところ 11、一部の事業者からは調査への協力が得られなかった。",
+        "for": "Voluntary Article 16 hearings and questionnaires and non-cooperation by some operators.",
+        "by": "checker"
+      },
+      {
+        "text": "Ⅲ．１．(4)で整理した規律の対象となるＡＩサービス提供者（以下「対象事業者」という。） には、その提供するサービスに関連して、社会全体に重大な悪影響が生じるリスクが高い。そ こで、ＡＩサービスの安全性を確保するために対象事業者に対し、特に人の生命、身体、財産 及び権利利益に対する重大な悪影響の発生又はそのおそれについて適時に評価し、その発生 及び拡大を防止するために必要な措置（以下「安全確保措置」という。）を講じることを法律 上義務付けることが妥当である。 14 安全確保措置の内容としては、主にはサイバー攻撃やＣＢＲＮＥリスクを惹起するような",
+        "for": "Statutory duty on covered providers to evaluate and prevent severe harms to life, body, property and rights.",
+        "by": "checker"
+      },
+      {
+        "text": "対象事業者が、自らが任意に行う調査等により、そのサービス に関連する重大な悪影響の発生又は具体的なリスクを知った場合には、当該重大な悪影響に 係る内容について、国に報告することを義務付けるべきである。この際、報告の対象となる場 合や報告の期限は、諸外国の法制度の例も参考にしつつ、具体的に検討すべきである。 (3) 国からの報告の求めに応じる義務 (2)で述べたような対象事業者自らによる報告によらず、国が自ら行う情報収集によって重 大な悪影響の発生を認知した場合や、平時であっても安全確保措置の実施状況について国が",
+        "for": "Mandatory reporting of serious adverse impacts or concrete risks, with reporting scope and deadlines still to be examined.",
+        "by": "checker"
+      },
+      {
+        "text": "対 象事業者に対し、重大な悪影響の発生又はそのおそれその他業務に関する報告を求めること ができるようにし、立入検査についての規定の要否についても検討すべきである。ただし、立 入検査をするとしても、報告徴収によっては必要な情報が得られない場合に限るなど、要件 を限定的に定めるとともに、営業秘密の保護に十分配慮すべきである。 (4) 国の勧告・命令権限 上記のような安全確保措置実施義務及び報告義務の実効性を確保するため、対象事業者が",
+        "for": "State information requests and ongoing examination of whether to include restricted on-site inspections.",
+        "by": "checker"
+      },
+      {
+        "text": "① ＡＩの性能の観点 上記のようなリスクの整理を踏まえると、規律の対象とする事業者は、社会への重大な 悪影響を惹起する上で中核的な役割を果たし得る程度に高性能のＡＩを用いてＡＩサービ スを提供する事業者をまずは想定するのが妥当である。ＡＩの性能を判断する際には、諸 外国の法令を参考に、学習に要した計算量が一定以上であること等を基準としつつ、ＡＩ の性能を適正に評価するための技術的な手法を国際的な協力枠組みも活用しつつ模索して いくべきである。その際、評価基準は国際的な評価枠組みとの整合を図りつつ明確化し、",
+        "for": "Performance thresholds referencing foreign laws such as training compute.",
+        "by": "checker"
+      },
+      {
+        "text": "② 国内における利用の観点 重大な悪影響を及ぼし得るＡＩサービスについて我が国の法令において一定の規律を 設けるとしても、あくまで国内法である以上、国内に利用者が全く見込まれず我が国と何 ら関係性を有していないＡＩサービスについてまで規制を適用することは避けるべきであ る。 そこで、対象となる事業者を限定するにあたっては、我が国に悪影響を及ぼすリスクを 有すると評価し得る程度に国内で利用されていること等、その利用や事業の態様を考慮す るべきである。",
+        "for": "Limiting coverage to AI services used in Japan to an extent that poses domestic risk.",
+        "by": "checker"
+      },
+      {
+        "text": "17 他社が開発するＡＩサービスを自社のサービスに組み込んで活用する場合等、複数の事業 者が関係するＡＩサービスの安全性確保を考える上では、他社が開発するＡＩサービスを 自社のサービスに組み込んで利用している企業等について、一律に上流の事業者と同様の 義務を課すべきではなく、各事業者の役割、情報へのアクセス及びリスクの管理可能性に 応じて対応を求めることが合理的であると考えられる。 13 は拡大を防止するための措置を講じるとともに、問題が発生した場合には政府に緊密に情",
+        "for": "Downstream companies embedding third-party AI services should not face uniform upstream obligations.",
+        "by": "checker"
+      },
+      {
+        "text": "オープンウェイトモデル（ＡＩモデルの開発者が、ＡＩモデルの中核的なデータを インターネット上に公開し、個人を含め、幅広い利用者が自由にダウンロードし、ＡＩモデ ルを活用することができる利用形態）については、当該モデルをダウンロードして情報処理 を行うＡＩサービスを提供する者は、 当該サービスにより生じ得るリスクの程度によっては、 クローズドなＡＩサービスと同様、規律の対象となるＡＩサービス提供者に該当し得る。 他方で、オープンウェイトモデルを活用するＡＩサービス提供者は、当該モデルの開発過 程や潜在的な能力を十分に把握できない場合がある。このため、ＡＩＳＩにおいて主要なオ",
+        "for": "Providers hosting open-weight models as information-processing services may be covered depending on service risk.",
+        "by": "checker"
+      },
+      {
+        "text": "(4) 国の勧告・命令権限 上記のような安全確保措置実施義務及び報告義務の実効性を確保するため、対象事業者が これらの義務に違反している場合に、違反の是正に必要な措置を講じるよう勧告する権限を 国に付与することが妥当である。 また、勧告を受けた対象事業者が、正当な理由なく勧告に係る措置を講じない場合には、そ 15 の措置を講じるよう国が命令し、違反した場合に罰則を科すことで履行を担保する必要があ",
+        "for": "Recommendation authority before corrective action when an operator fails to comply without justifiable reason.",
+        "by": "checker"
+      },
+      {
+        "text": "ＡＩがもたらす重大なリスクの顕在化が急迫している場合には、勧告を経ずに 直ちに必要な措置を命令する旨の緊急規定を設けることも検討すべきである。 さらに、これらの権限の発動に伴い、国民に適切に情報発信を行う観点から、事実の公表に 関する規定を設けることも検討すべきである。ただし、公表によって悪用を招くおそれのあ る情報や営業秘密が開示されることのないよう、配意することも必要である。 (5) 罰則 法令の実効性を確保するため、対象事業者が報告義務や命令に違反した場合を念頭に、罰",
+        "for": "Emergency order option without prior recommendation, and publicizing enforcement facts while protecting trade secrets and preventing misuse.",
+        "by": "checker"
+      },
+      {
+        "text": "さらに、ＡＩサービス提供者の多くはグローバルに事業を展開しており、そのようなＡＩ サービス提供者が提供するＡＩのリスクは世界中で同時に顕在化するリスクが高い。我が国 において新たな規律を設ける場合でも、諸外国の法令と不必要な重複や矛盾が生じないよう、 諸外国の規律との調和・整合も考慮しつつ、法整備を進めるべきである。これは、複数の法域 をまたいで発生した同一の事象に対して、収集する情報を可能な範囲で他国と共通化するこ とで、我が国においても効率的で円滑な情報の収集・分析と他国との連携を可能とするとい 11 う点で、単なる事業者負担への配慮にとどまるものではなく、公益の観点からも望ましいと",
+        "for": "Harmonizing rules with foreign regimes to avoid unnecessary overlap or contradiction.",
+        "by": "checker"
+      },
+      {
+        "text": "(6) ＡＩＳＩ（ＡＩセーフティ・インスティテュート）の役割 対象事業者の把握や、報告徴収、勧告・命令及び公表を適切に行うためには、ＡＩの性能や リスク、安全確保措置の有効性等について、高度に技術的な判断が必要となる。このため、国 がＡＩＳＩに対し、適宜、技術的な調査を行わせることができるようにするとともに、その旨 をＡＩＳＩが設置されている独立行政法人情報処理推進機構の固有の業務として、同機構の 業務の範囲等を規定する情報処理の推進に関する法律（昭和 45 年法律第 90 号）で規定する ことが妥当である。",
+        "for": "Establishing AISI's technical investigation role in law under IPA.",
+        "by": "checker"
+      },
+      {
+        "text": "このため、措置の具体的な内容を法律で固定的に定めることは適当で なく、国が定める指針において方向性を示して対象事業者に一定の裁量を残して、柔軟に変 化に対応していけるアプローチが妥当である。他方で、裁量を残しつつも透明性を確保する 観点からは、安全確保措置の実施状況について、事業者に公表を義務化することもあり得、そ の必要性についても検討の余地がある。 (2) 重大な悪影響が発生した場合に国に報告する義務 ＡＩのリスクに的確に対応するためには、国が対象事業者から必要な情報を確実に収集で",
+        "for": "Guiding concrete safety measures via government guidelines and considering mandatory provider publication of implementation status.",
+        "by": "checker"
+      },
+      {
+        "text": "14 安全確保措置の内容としては、主にはサイバー攻撃やＣＢＲＮＥリスクを惹起するような 出力をさせない技術的措置を講じることが考えられるが、これに限らず、適切なＡＩサービ スの提供体制を講じる組織的措置、独立した第三者による検証を受ける等のモニタリングな ど、様々な措置が含まれ得る。 ただし、ＡＩ技術は急速に発展しており、想定される具体的なリスクは変化し続けている。 それに伴って、そのリスクに対応する有効な安全確保措置の内容も流動的な性質を有してい るとともに、対象事業者が提供するＡＩサービスの性質に応じて何が必要かつ適切な措置で",
+        "for": "Technical controls blocking cyberattack or CBRNE outputs as an example of safety measures guided by guidelines rather than fixed in statute.",
+        "by": "checker"
+      },
+      {
+        "text": "各州法においては、概ね共通して、学習に要した計算量が一定（10^26 FLOPs） 以上のフロンティアモデルを開発する事業者を対象に、以下を義務付けている。 〇 事業者による安全性確保の枠組みの公表 〇 ＡＩモデルごとの透明性報告 〇",
+        "for": "Reference to U.S. state laws using a 10^26 FLOPs training-compute threshold.",
+        "by": "checker"
+      },
+      {
+        "text": "規律の対象とすべきＡＩを活用した情報処理サービス事業者 の具体的な要件や基準等についても、下位法令に適宜委ねつつ、ＡＩの開発・提供・利用の実 態の変化を踏まえ、また、専門家及び事業者の意見を聴きながら不断に見直していく必要が ある。 加えて、現下のＡＩ産業の状況を踏まえれば、主として日本国内にサービスを提供するＡ Ｉサービス提供者に対し規律を課すことが妥当であると考えられるが、今後の情勢によって は、規律対象を拡大していくことも検討の余地がある。ただし、今後の情勢によってリスクの 類型や規律対象の見直しを行う場合にも、既存の法令等では対応できない理由とその必要性",
+        "for": "Delegating concrete provider requirements and standards to subordinate regulations.",
+        "by": "checker"
       }
     ]
   },
@@ -94,6 +194,26 @@
         "text": "The government would first issue a recommendation, then a corrective order, and a penalty would apply only to a provider that violates that order.",
         "for": "Stepped enforcement sequence.",
         "by": "writer"
+      },
+      {
+        "text": "drafting an amendment to its AI Promotion Act that would require frontier AI providers to verify who uses cyber-capable models, refuse attack-related queries and report safety defects, according to the Seoul Economic Daily's Yomiuri relay of the Yomiuri Shimbun's Nov. 26 report.",
+        "for": "Tech Times attribution of user-verification, query-refusal and defect-reporting claims to the relayed Nov. 26 Yomiuri report.",
+        "by": "checker"
+      },
+      {
+        "text": "Duties to verify users and refuse queries bind services that a provider hosts. A model whose weights anyone can download can be run on private hardware without any checks.",
+        "for": "Downloadable open-weight models can run on private hardware without provider-side checks.",
+        "by": "checker"
+      },
+      {
+        "text": "innovaTopia's report on thresholds noted the limits of compute-based thresholds for deciding which models count as frontier. The EU uses 10^25 floating-point operations, and some U.S. state laws use 10^26.",
+        "for": "Comparison with EU 10^25 and U.S. state 10^26 FLOPs compute thresholds.",
+        "by": "checker"
+      },
+      {
+        "text": "When could the amendment reach the Diet? Yomiuri, as relayed, says the government aims for the ordinary Diet session next year , but no submission date is confirmed.",
+        "for": "Relayed Yomiuri target of the 2027 ordinary Diet session with no confirmed submission date.",
+        "by": "checker"
       }
     ]
   },
@@ -116,6 +236,21 @@
         "text": "For now, the existing law remains the operative framework; the proposed duties and penalties still require legislation.",
         "for": "Current legal status while bill is still a proposal.",
         "by": "writer"
+      },
+      {
+        "text": "02 Yomiuri-reported duties for cyber-capable AI include user verification, refusing attack-related queries, and reporting safety defects; these details are not confirmed in the Cabinet Office outline.",
+        "for": "Superpower Daily noting user-verification, query-refusal and defect-reporting details are unconfirmed in the official outline.",
+        "by": "checker"
+      },
+      {
+        "text": "A separate boundary remains unresolved: how the amendment would treat open-weight models, whose downloadable model files can run on private hardware. The reported requirements describe checks and refusals administered by providers, but do not specify a mechanism for those independently run models.",
+        "for": "Unresolved treatment of downloadable open-weight models run on private hardware.",
+        "by": "checker"
+      },
+      {
+        "text": "The government aims to finalize the bill promptly and submit it to the Diet, Japan’s parliament. Yomiuri’s reported target is the ordinary session in 2027, but no submission date is confirmed.",
+        "for": "Reported 2027 ordinary Diet session target with no confirmed submission date.",
+        "by": "checker"
       }
     ]
   }

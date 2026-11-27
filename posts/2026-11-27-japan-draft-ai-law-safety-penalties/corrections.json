@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "id": 1,
+    "by": "checker",
+    "model": "Google Gemini 4 Carbon",
+    "kind": "fact",
+    "line": 3,
+    "old": "dek: \"A Cabinet Office working group proposed binding safety and incident-reporting rules for widely used frontier AI providers on November 27, 2026, replacing voluntary guidance with corrective orders.\"",
+    "new": "dek: \"A Cabinet Office working group proposed binding safety and incident-reporting rules for widely used frontier AI providers on November 27, 2026, adding corrective orders alongside voluntary guidance.\"",
+    "why": "The draft summary keeps Japan's soft-law voluntary guideline framework in principle while adding binding duties and corrective orders for high-risk frontier AI services.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "1. 今後の制度の検討の在り方 以上のとおり、令和 7 年のＡＩ法制定以降の情勢を踏まえれば、原則として、既存の法令や ガイドライン等のソフトローを適切に組み合わせＡＩのリスクに対応していくという、これま での我が国における基本的な考え方は維持しつつ、既存の法令やソフトローのみでは対応が困 難な重大なリスクについては、早急に法整備を行い、一部のＡＩサービス提供者に対し法律上 の義務を課すことで、ＡＩの安全を確保していくことが必要であると考えられる。"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "by": "checker",
+    "model": "Google Gemini 4 Carbon",
+    "kind": "fact",
+    "line": 19,
+    "old": "Qualifying operators would also be required to report serious adverse impacts or concrete risks to the state and respond to government information requests, with on-site inspections reserved for cases where reporting alone is insufficient.[^2]",
+    "new": "Qualifying operators would also be required to report serious adverse impacts or concrete risks to the state and respond to government information requests, while whether to include on-site inspections—limited to cases where reporting proves insufficient—remains under study.[^2]",
+    "why": "Section III.2.(3) of the draft summary says whether to establish an on-site inspection provision should still be examined, rather than presenting inspections as settled.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "対 象事業者に対し、重大な悪影響の発生又はそのおそれその他業務に関する報告を求めること ができるようにし、立入検査についての規定の要否についても検討すべきである。ただし、立 入検査をするとしても、報告徴収によっては必要な情報が得られない場合に限るなど、要件 を限定的に定めるとともに、営業秘密の保護に十分配慮すべきである。 (4) 国の勧告・命令権限 上記のような安全確保措置実施義務及び報告義務の実効性を確保するため、対象事業者が"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "by": "checker",
+    "model": "Google Gemini 4 Carbon",
+    "kind": "fact",
+    "line": 32,
+    "old": "It also says that requiring providers to publish how they apply their safety measures could be considered, with care not to expose trade secrets or information that could invite misuse.[^2]",
+    "new": "It also says requiring providers to publish how they implement safety measures could be considered, alongside a provision to publicize facts when authorities exercise enforcement powers without exposing trade secrets or information inviting misuse.[^2]",
+    "why": "The trade-secret and misuse caveat in Section III.2.(4) applies to publicizing facts when authorities exercise recommendation or order powers, distinct from Section III.2.(1) on provider safety disclosures.",
+    "support": [
+      {
+        "source": 2,
+        "quote": "このため、措置の具体的な内容を法律で固定的に定めることは適当で なく、国が定める指針において方向性を示して対象事業者に一定の裁量を残して、柔軟に変 化に対応していけるアプローチが妥当である。他方で、裁量を残しつつも透明性を確保する 観点からは、安全確保措置の実施状況について、事業者に公表を義務化することもあり得、そ の必要性についても検討の余地がある。 (2) 重大な悪影響が発生した場合に国に報告する義務 ＡＩのリスクに的確に対応するためには、国が対象事業者から必要な情報を確実に収集で"
+      },
+      {
+        "source": 2,
+        "quote": "ＡＩがもたらす重大なリスクの顕在化が急迫している場合には、勧告を経ずに 直ちに必要な措置を命令する旨の緊急規定を設けることも検討すべきである。 さらに、これらの権限の発動に伴い、国民に適切に情報発信を行う観点から、事実の公表に 関する規定を設けることも検討すべきである。ただし、公表によって悪用を招くおそれのあ る情報や営業秘密が開示されることのないよう、配意することも必要である。 (5) 罰則 法令の実効性を確保するため、対象事業者が報告義務や命令に違反した場合を念頭に、罰"
+      }
+    ]
+  }
+]

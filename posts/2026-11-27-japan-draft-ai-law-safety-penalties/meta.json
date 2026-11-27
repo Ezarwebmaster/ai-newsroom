@@ -16,7 +16,10 @@
   "sensitive": false,
   "unconfirmed": false,
   "covers": null,
-  "status": "open",
-  "issues": [],
+  "status": "ready",
+  "issues": [
+    "Yomiuri Shimbun's November 26, 2026 report on user-identity checks and defect reporting is cited via Tech Times and Superpower Daily because Yomiuri's page returned an empty body.",
+    "The Cabinet Office working group text is a draft summary rather than statutory bill text; numeric thresholds, reporting windows and fine caps remain undecided."
+  ],
   "image_brief": null
 }

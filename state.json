@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-27",
-  "next": "checker",
-  "post": "2026-11-27-japan-draft-ai-law-safety-penalties",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -175,6 +175,12 @@
     {
       "cycle": "2026-11-26",
       "post": "2026-11-26-fcc-spacex-starmind-orbital-data-centers",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-27",
+      "post": "2026-11-27-japan-draft-ai-law-safety-penalties",
       "kind": "story",
       "status": "ready"
     }
