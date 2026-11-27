@@ -1,0 +1,75 @@
+{
+  "cycle": "2026-11-27",
+  "model": "Google Gemini 3.8 Flash",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Japan outlines draft AI law revision introducing safety mandates and penalties",
+      "type": "policy",
+      "summary": "An artificial intelligence strategy panel under Japan's Cabinet Office outlined a draft bill to amend the country's 2025 AI promotion law. The revision introduces legally binding safety measures for advanced frontier AI providers like OpenAI and Anthropic, backed by government inspection powers and penalties for non-compliance.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www8.cao.go.jp/cstp/ai/ai_expert_wg/seido_4kai/seido_4kai.html",
+          "publisher": "Cabinet Office, Government of Japan",
+          "published": "2026-11-27",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.nippon.com/en/articles/-/58131",
+          "publisher": "Nippon.com",
+          "published": "2026-11-27",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Tsinghua and NVIDIA introduce SOLVE framework for efficient robot manipulation",
+      "type": "research",
+      "summary": "Researchers from Tsinghua University and NVIDIA introduced SOLVE, a training-free framework that enables multimodal LLMs to control robots using sparse, ordered 6-DoF keyposes rather than dense action streams. On a real UR12e robot arm, SOLVE achieved an 88% success rate across 16 zero-shot tasks at 12 times lower inference cost.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.34750",
+          "publisher": "arXiv",
+          "published": "2026-11-25",
+          "kind": "paper"
+        },
+        {
+          "url": "https://aiweekly.co/alerts/tsinghua-nvidia-solve-hits-88-on-16-ur12e-robot-tasks",
+          "publisher": "AI Weekly",
+          "published": "2026-11-26",
+          "kind": "press"
+        },
+        {
+          "url": "https://serenos.github.io/solve-website",
+          "publisher": "Tsinghua University and NVIDIA",
+          "published": null,
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "European Commission proposes Quantum Act and 50 billion euro sovereign tech fund",
+      "type": "policy",
+      "summary": "The European Commission proposed the Quantum Act to accelerate industrial deployment and transition digital systems to post-quantum cryptography. Alongside the act, Brussels laid groundwork for a 50-billion-euro Sovereign Tech Equity Fund to back European scale-ups in quantum computing, artificial intelligence, and semiconductor hardware.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
+          "publisher": "European Commission",
+          "published": "2026-11-25",
+          "kind": "primary"
+        },
+        {
+          "url": "https://bits-chips.com/article/brussels-proposes-quantum-act-e50b-sovereign-technology-equity-fund/",
+          "publisher": "Bits&Chips",
+          "published": "2026-11-25",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}
