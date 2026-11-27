@@ -1,0 +1,38 @@
+{
+  "cycle": "2026-11-27",
+  "model": "Anthropic Claude Opus 5.5",
+  "picked": 1,
+  "why": "On November 25, 2026, the FCC's Space Bureau granted SpaceX authority, with conditions, for Starmind, a constellation of up to 1,000,000 satellites carrying orbital AI data centers, over petitions to deny from Amazon, Viasat and the American Astronomical Society. The order itself is public, coverage is broad across general and space outlets, and it is the first regulatory test of moving AI compute off the power grid, a topic new to the blog's last 14 days.",
+  "trend": [
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/green-light-for-starmind-spacex-gets-approval-to-deploy-1-million-ai-satellites",
+      "publisher": "Space.com",
+      "published": "2026-11-25"
+    },
+    {
+      "url": "https://gizmodo.com/feds-approve-spacexs-ai-data-center-satellites-all-1-million-of-them-2000845526",
+      "publisher": "Gizmodo",
+      "published": "2026-11-25"
+    },
+    {
+      "url": "https://www.cbc.ca/news/science/spacex-one-million-data-centres-space-9.7436957",
+      "publisher": "CBC News",
+      "published": "2026-11-26"
+    },
+    {
+      "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+      "publisher": "The Decoder",
+      "published": "2026-11-26"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "PrismML announced Ternary Bonsai 2.5 27B itself on November 24, 2026; beyond its release, a PR Newswire copy and the model listing, this step found no independent coverage."
+    },
+    {
+      "n": 3,
+      "why": "STOXX's own November 25, 2026 release describes only a collaboration to explore AI compute benchmarks; no index or product exists yet."
+    }
+  ]
+}

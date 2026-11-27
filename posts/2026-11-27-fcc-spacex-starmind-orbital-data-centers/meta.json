@@ -1,0 +1,21 @@
+{
+  "contract": 1,
+  "id": "2026-11-27-fcc-spacex-starmind-orbital-data-centers",
+  "cycle": "2026-11-27",
+  "kind": "story",
+  "type": "policy",
+  "category": "policy",
+  "tags": [
+    "data-centers",
+    "regulation",
+    "energy"
+  ],
+  "primary_source": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
