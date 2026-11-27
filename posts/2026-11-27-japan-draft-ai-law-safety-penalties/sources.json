@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "url": "https://www8.cao.go.jp/cstp/ai/ai_expert_wg/seido_4kai/seido_4kai.html",
+    "title": "制度の在り方検討ワーキンググループ（第4回）",
+    "publisher": "Cabinet Office, Government of Japan",
+    "kind": "primary",
+    "published": "2026-11-27",
+    "retrieved": "2026-11-27",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "制度の在り方検討ワーキンググループ（第4回） 日時 令和８年11月27日（金）17:00～18:30 場所 赤坂グリーンクロス22階会議室 資料 資料1 とりまとめ（案）（PDF形式：1458KB）",
+        "for": "Meeting date, venue, and link to the draft summary PDF.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://www8.cao.go.jp/cstp/ai/ai_expert_wg/seido_4kai/shiryo1.pdf",
+    "title": "とりまとめ（案）（制度の在り方検討ワーキンググループ）",
+    "publisher": "Cabinet Office, Government of Japan",
+    "kind": "primary",
+    "published": "2026-11-27",
+    "retrieved": "2026-11-27",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "令和 7 年 5 月 28 日、人工知能関連技術の研究開発及び活用の推進に関する法律（令和 7 年法律第 53 号。以下「ＡＩ法」という。）が成立し、同年 9 月 1 日に全面施行された。",
+        "for": "Enactment and full enforcement dates of the 2025 AI Promotion Act.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://www.nippon.com/en/articles/-/58131",
+    "title": "Japan to Revise AI Law to Introduce Penalties",
+    "publisher": "Nippon.com (Jiji Press)",
+    "kind": "press",
+    "published": "2026-11-27",
+    "retrieved": "2026-11-27",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "outlined a draft bill to amend the AI law to strengthen the state's authority and introduce penalties",
+        "for": "Panel's November 27, 2026 draft bill outline.",
+        "by": "writer"
+      },
+      {
+        "text": "The government aims to finalize the bill early based on the outline and submit it to the Diet, the country's parliament.",
+        "for": "Plan to finalize and submit the bill to the Diet.",
+        "by": "writer"
+      },
+      {
+        "text": "apparently with in mind OpenAI, which offers generative AI chatbot ChatGPT, and Anthropic, the developer of generative AI Claude.",
+        "for": "Target providers mentioned by Jiji Press.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.techtimes.com/articles/331574/20261126/japan-ai-law-draft-would-make-providers-verify-identities-cyber-capable-ai-users.htm",
+    "title": "Japan AI Law Draft Would Make Providers Verify Identities of Cyber-Capable AI Users",
+    "publisher": "Tech Times",
+    "kind": "press",
+    "published": "2026-11-26",
+    "retrieved": "2026-11-27",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The user-verification duty and the defect-reporting duty come from the Yomiuri report alone, as relayed by Korean outlets.",
+        "for": "Attribution of user-verification and defect-reporting claims to Yomiuri.",
+        "by": "writer"
+      },
+      {
+        "text": "The government would first issue a recommendation, then a corrective order, and a penalty would apply only to a provider that violates that order.",
+        "for": "Stepped enforcement sequence.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://superpowerdaily.com/posts/japan-drafts-ai-law-amendment-to-require-cyber-safeguards-and-add-penalties",
+    "title": "Japan drafts AI law amendment to require cyber safeguards and add penalties",
+    "publisher": "Superpower Daily",
+    "kind": "press",
+    "published": "2026-11-27",
+    "retrieved": "2026-11-27",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The panel’s outline sets a broad duty to prevent cyberattacks.",
+        "for": "Distinction between the panel's broad cyber duty and Yomiuri-reported specifics.",
+        "by": "writer"
+      },
+      {
+        "text": "For now, the existing law remains the operative framework; the proposed duties and penalties still require legislation.",
+        "for": "Current legal status while bill is still a proposal.",
+        "by": "writer"
+      }
+    ]
+  }
+]
