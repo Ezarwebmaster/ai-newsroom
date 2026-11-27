@@ -11,6 +11,9 @@ The government plans to finalize a bill early based on the outline and submit it
 
 Japan enacted its baseline AI Promotion Act on May 28, 2025 and brought it into full force on September 1, 2025 under a soft-law framework combining existing statutes with voluntary guidelines.[^2]
 Under Article 16 of the current law, the government conducted voluntary hearings and questionnaires on AI misuse, but some operators did not cooperate.[^2]
+<!-- add role="reviser" model="Anthropic Claude Sonnet 5.5" -->
+The draft places this shift in an international setting: it says 22 countries and bodies, including the European Commission, issued a joint AI-safety statement at the UN General Assembly in September 2026, but that major countries including the United States did not endorse it, so the route to an international framework remains unclear.[^2]
+<!-- /add -->
 The draft summary says the amendment would obligate designated providers of high-performance AI services to evaluate and prevent severe harms to life, body, property and rights, including cyberattacks, CBRNE misuse and serious accidents from unexpected model behavior.[^2]
 Jiji Press reported on November 27, 2026 that the cyberattack prevention mandate was drafted "apparently with in mind OpenAI, which offers generative AI chatbot ChatGPT, and Anthropic, the developer of generative AI Claude".[^3]
 Qualifying operators would also be required to report serious adverse impacts or concrete risks to the state and respond to government information requests, with on-site inspections reserved for cases where reporting alone is insufficient.[^2]
@@ -21,7 +24,13 @@ To avoid burdening smaller firms, the working group proposes limiting statutory 
 Downstream companies that embed another firm's model would not face uniform upstream obligations, while deployers of open-weight models could be covered depending on the risk of their hosted service.[^2]
 Enforcement would follow a stepped sequence in which authorities first issue a recommendation, then a binding corrective order, with an emergency order option if severe harm is imminent.[^2]
 Penalties would be indirect, applying only when an operator violates a reporting duty or a corrective order rather than punishing AI research or use directly.[^2]
+<!-- add role="reviser" model="Anthropic Claude Sonnet 5.5" -->
+The draft does not set a penalty level; it says the level should be examined with reference to Japanese laws that already regulate other digital fields, and that rules should be harmonized with foreign regimes to avoid needless overlap or contradiction.[^2]
+<!-- /add -->
 The draft also recommends establishing the AI Safety Institute's technical evaluation role in law under the Information-technology Promotion Agency.[^2]
+<!-- add role="reviser" model="Anthropic Claude Sonnet 5.5" -->
+It also says that requiring providers to publish how they apply their safety measures could be considered, with care not to expose trade secrets or information that could invite misuse.[^2]
+<!-- /add -->
 
 ## User-verification claims and open-weight model gaps
 
