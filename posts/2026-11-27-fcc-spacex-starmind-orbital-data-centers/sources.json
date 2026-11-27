@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+    "title": "Memorandum Opinion and Order and Authorization: Space Exploration Holdings LLC (DA 26-1273)",
+    "publisher": "Federal Communications Commission",
+    "kind": "primary",
+    "published": "2026-11-25",
+    "retrieved": "2026-11-27",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "We find that grant of this application will serve the public interest by permitting SpaceX to pioneer emergent technology that advances American leadership in space and artificial intelligence.",
+        "for": "The FCC finds the authorization serves the public interest and advances leadership in space and AI.",
+        "by": "writer"
+      },
+      {
+        "text": "Authority for radiofrequency communications for backup and emergency telemetry, tracking, & command (TT&C) for a constellation of 1,000,000 NGSO satellites to operate as data centers in space.",
+        "for": "Scope of the grant for backup and emergency TT&C for 1,000,000 satellites.",
+        "by": "writer"
+      },
+      {
+        "text": "We find that SpaceX’s orbital debris mitigation plan for Starmind satellites that will operate below 600 km complies with the Commission’s orbital debris mitigation rules.",
+        "for": "Approval of orbital debris mitigation plan for satellites below 600 km.",
+        "by": "writer"
+      },
+      {
+        "text": "SpaceX contends that its limited backup operations on a non-interference basis will not preclude other operators from using these bands",
+        "for": "Non-interference basis of backup operations.",
+        "by": "writer"
+      },
+      {
+        "text": "Released: November 25, 2026",
+        "type": "date",
+        "for": "Release date of the FCC Memorandum Opinion and Order.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+    "title": "FCC approves SpaceX plan to put AI data centers in space",
+    "publisher": "TechCrunch",
+    "kind": "press",
+    "published": "2026-11-25",
+    "retrieved": "2026-11-27",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "SpaceX was given conditional approval by the Federal Communications Commission on Wednesday to deploy and operate a constellation of up to 1 million satellites for its orbital data center business, a regulatory victory for Elon Musk and his bid to move AI data centers into space.",
+        "for": "Conditional approval by the FCC for up to 1 million satellites for orbital data centers.",
+        "by": "writer"
+      },
+      {
+        "text": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
+        "for": "Dismissal of opponents' concerns outside regulatory authority.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://gizmodo.com/feds-approve-spacexs-ai-data-center-satellites-all-1-million-of-them-2000845526",
+    "title": "Feds Approve SpaceX’s AI Data Center Satellites, All 1 Million of Them",
+    "publisher": "Gizmodo",
+    "kind": "press",
+    "published": "2026-11-25",
+    "retrieved": "2026-11-27",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "Under its new license, SpaceX must deploy its first operational Starmind satellite by November 2033.",
+        "for": "Milestone requirement to deploy the first operational satellite by November 2033.",
+        "by": "writer"
+      },
+      {
+        "text": "The company must then deploy 10% of the constellation, or 100,000 satellites, by November 2035, and 50% by November 2038.",
+        "for": "Deployment milestones of 10% by 2035 and 50% by 2038.",
+        "by": "writer"
+      },
+      {
+        "text": "The company sought a waiver to allow satellites operating above 372 miles (600 kilometers) to be moved into so-called graveyard orbits at the end of their operational lives, rather than being brought down to burn up in the atmosphere.",
+        "for": "Sought waiver to move satellites operating above 600 kilometers into graveyard orbits.",
+        "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://www.pbs.org/newshour/nation/fcc-says-spacex-can-deploy-1-million-satellites-for-data-centers-in-space-scientists-are-skeptical",
+    "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+    "publisher": "PBS News",
+    "kind": "press",
+    "published": "2026-11-26",
+    "retrieved": "2026-11-27",
+    "added_by": "writer",
+    "quotes": [
+      {
+        "text": "The Trump administration on Wednesday gave SpaceX the green light to deploy 1 million satellites that it said would create data centers in space, a long-lofty goal of Elon Musk's rocket company, in a move that has raised both skepticism and alarm among some scientists.",
+        "for": "Approval for 1 million satellites for data centers in space.",
+        "by": "writer"
+      },
+      {
+        "text": "A lengthier authorization order published by the FCC noted that the company must deploy at least \"one authorized space station\" by 2033 — and then gradually add more and more through 2040.",
+        "for": "Authorization order requirement to deploy space station by 2033 through 2040.",
+        "by": "writer"
+      }
+    ]
+  }
+]

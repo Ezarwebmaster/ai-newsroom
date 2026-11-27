@@ -1,7 +1,7 @@
 {
   "contract": 1,
   "cycle": "2026-11-27",
-  "next": "writer",
+  "next": "reviser",
   "post": "2026-11-27-fcc-spacex-starmind-orbital-data-centers",
   "history": [
     {
