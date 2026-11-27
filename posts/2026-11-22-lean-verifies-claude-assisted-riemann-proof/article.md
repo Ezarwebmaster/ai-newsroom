@@ -13,9 +13,18 @@ They report that independent compilation reproduced the same exported proof and 
 Matching the statement rules out proving a different theorem.[^1]
 
 Independent checkers accepted an inert proof export, insulated from hypothetical malicious source code.[^1]
+<!-- add role="reviser" model="Anthropic Claude Sonnet 5.5" -->
+Two of those checkers, con-leche and con-ron, come with a formal proof relative to set theory that they cannot accept a false proof.[^1]
+The Xena Project, a Lean education blog, wrote on November 12, 2026 that Lean code gives an important signal but that AI-generated code needs tests first.[^6]
+The same post argues that a Lean kernel bug matters little because Lean now has many kernels, written by users in many different languages.[^6]
+<!-- /add -->
 
-MIT mathematician Andrew Sutherland's verification page, updated on November 22, 2026, reports successful compilation of all 175,187 modules and only the three standard Lean axioms for the five headline theorems.[^3]
-His results distinguish completed checks from additional Lean-kernel export replays still running.
+MIT mathematician Andrew Sutherland's verification page, last updated on November 25, 2026, reports successful compilation of all 175,187 modules and only the three standard Lean axioms for the five headline theorems.[^3]
+His page now states that all checks have finished, including the Lean-kernel export replays that were still running on November 22, 2026.[^3]
+<!-- add role="reviser" model="Anthropic Claude Sonnet 5.5" -->
+A separate sandboxed rebuild on another machine reproduced the exported proof byte for byte, according to his page.[^3]
+The page also records that a shorter Lean proof was published on November 25, 2026, and that its checks are listed on a separate page.[^3]
+<!-- /add -->
 The verified generalization concerns Dirichlet L-functions; it does not cover every broader family of L-functions.[^3]
 
 ## From a formal library to a mathematical explanation

@@ -13,6 +13,11 @@
         "text": "We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
         "for": "The communities certify both the theorem statement and its proof.",
         "by": "writer"
+      },
+      {
+        "text": "The checkers con-leche and con-ron come with a formal proof, relative to set theory, that they cannot accept a false proof",
+        "for": "Two of the proof checkers carry a formal proof that they cannot accept a false proof.",
+        "by": "reviser"
       }
     ]
   },
@@ -47,6 +52,21 @@
         "text": "The published Lean source compiles without errors, the five headline theorems depend only on the three standard axioms",
         "for": "Sutherland reports successful compilation and itemizes verification results.",
         "by": "writer"
+      },
+      {
+        "text": "Andrew Sutherland (MIT), checks run with Claude Code. Page last updated 2026-11-25 22:05 UTC. All checks have finished.",
+        "for": "The page was last updated on November 25, 2026 and reports all checks finished.",
+        "by": "reviser"
+      },
+      {
+        "text": "An independent sandboxed lake build of the archive reproduces the export byte for byte.",
+        "for": "A separate sandboxed rebuild reproduced the exported proof.",
+        "by": "reviser"
+      },
+      {
+        "text": "A shorter Lean proof was published on 25 November 2026; the checks of that proof are recorded on a separate page.",
+        "for": "A shorter Lean proof appeared on November 25, 2026.",
+        "by": "reviser"
       }
     ]
   },
@@ -81,6 +101,28 @@
         "text": "It wouldn't have any practical implications (at least not immediately)",
         "for": "Thomas Bloom cautions against expecting immediate practical applications.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+    "title": "“…and the proof is checked in Lean”",
+    "publisher": "Xena Project",
+    "kind": "primary",
+    "published": "2026-11-12",
+    "retrieved": "2026-11-27",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "there is an important signal that can be extracted from Lean code, but if this code is AI-generated then you need to do some tests first",
+        "for": "The Xena post explains how to read claims that a theorem was checked in Lean.",
+        "by": "reviser"
+      },
+      {
+        "text": "Lean now has many kernels, created by users, written in many different languages",
+        "for": "Independent kernels reduce the risk that a Lean kernel bug could hide a false proof.",
+        "by": "reviser"
       }
     ]
   }
