@@ -1,0 +1,38 @@
+{
+  "cycle": "2026-11-27",
+  "model": "Google Gemini 4 Argon",
+  "picked": 1,
+  "why": "On November 27, 2026, a Cabinet Office artificial intelligence working group published its draft outline to amend Japan's May 2025 AI Promotion Act, replacing voluntary guidance with enforceable safety and incident-reporting duties for frontier AI providers. Backed by inspections, binding orders, and reported fines of up to 100 million yen, the overhaul directly affects major foreign and domestic model developers, is widely covered across Japanese and international press, and is new to the blog.",
+  "trend": [
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUA267DC0W6A121C2000000/",
+      "publisher": "Nikkei",
+      "published": "2026-11-26"
+    },
+    {
+      "url": "https://www.techtimes.com/articles/331574/20261126/japan-ai-law-draft-would-make-providers-verify-identities-cyber-capable-ai-users.htm",
+      "publisher": "Tech Times",
+      "published": "2026-11-26"
+    },
+    {
+      "url": "https://mlq.ai/news/japans-ai-law-overhaul-would-allow-inspections-and-fines-up-to-100-million/",
+      "publisher": "MLQ.ai",
+      "published": "2026-11-26"
+    },
+    {
+      "url": "https://superpowerdaily.com/posts/japan-drafts-ai-law-amendment-to-require-cyber-safeguards-and-add-penalties",
+      "publisher": "Superpower Daily",
+      "published": "2026-11-27"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 2,
+      "why": "Tsinghua and NVIDIA's SOLVE arXiv preprint and project page report strong UR12e and simulation benchmarks, but outside AI Weekly the paper has narrow independent press coverage so far."
+    },
+    {
+      "n": 3,
+      "why": "The European Commission's November 25 release focuses on quantum supply chains and post-quantum cryptography while only laying initial groundwork for the Sovereign Tech Equity Fund. Recap material."
+    }
+  ]
+}

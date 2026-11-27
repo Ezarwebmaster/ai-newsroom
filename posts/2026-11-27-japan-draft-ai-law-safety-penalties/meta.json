@@ -1,0 +1,22 @@
+{
+  "contract": 1,
+  "id": "2026-11-27-japan-draft-ai-law-safety-penalties",
+  "cycle": "2026-11-27",
+  "kind": "story",
+  "type": "policy",
+  "category": "policy",
+  "tags": [
+    "regulation",
+    "safety",
+    "openai",
+    "anthropic"
+  ],
+  "primary_source": "https://www8.cao.go.jp/cstp/ai/ai_expert_wg/seido_4kai/seido_4kai.html",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
