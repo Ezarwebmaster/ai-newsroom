@@ -1,0 +1,38 @@
+{
+  "cycle": "2026-11-28",
+  "model": "Google Gemini 4 Carbon",
+  "picked": 2,
+  "why": "On November 26, 2026, the Bank of England's Financial Policy Committee published its November Financial Stability Report, warning that circular, opaque AI financing—with 2026 hyperscaler bond issuance topping $305 billion and total exposures exceeding $4 trillion—raises contagion risk while AI agents and open-weight models with removable safeguards heighten cyber threats. Backed by the complete primary text and broad financial and tech coverage including Reuters, this UK warning is new to the blog.",
+  "trend": [
+    {
+      "url": "https://live.euronext.com/en/financial-news/bank-england-sees-growing-financial-risks-ai-borrowing-surges",
+      "publisher": "Reuters (via Euronext)",
+      "published": "2026-11-26"
+    },
+    {
+      "url": "https://techstrong.ai/agentic-ai/bank-of-england-warns-4-trillion-ai-debt-web-threatens-global-financial-stability/",
+      "publisher": "Techstrong.ai",
+      "published": "2026-11-26"
+    },
+    {
+      "url": "https://www.scottishfinancialnews.com/articles/bank-of-england-sounds-alarm-over-circular-ai-financing",
+      "publisher": "Scottish Financial News",
+      "published": "2026-11-26"
+    },
+    {
+      "url": "https://thequantuminsider.com/2026/11/27/bank-of-england-urges-firms-to-move-faster-on-quantum-security/",
+      "publisher": "The Quantum Insider",
+      "published": "2026-11-27"
+    }
+  ],
+  "set_aside": [
+    {
+      "n": 1,
+      "why": "Tencent's Nature paper is paywalled beyond its abstract, all peptide results are preclinical mouse trials, and independent press coverage outside niche outlets remains narrow."
+    },
+    {
+      "n": 3,
+      "why": "OpenAI's cited undated Help Center page omits the December shared-limit merger and still describes separate Chat and Work toggles, while testing covers few Pro users."
+    }
+  ]
+}

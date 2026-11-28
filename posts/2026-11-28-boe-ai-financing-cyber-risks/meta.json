@@ -1,0 +1,23 @@
+{
+  "contract": 1,
+  "id": "2026-11-28-boe-ai-financing-cyber-risks",
+  "cycle": "2026-11-28",
+  "kind": "story",
+  "type": "policy",
+  "category": "policy",
+  "tags": [
+    "regulation",
+    "funding",
+    "data-centers",
+    "open-weights",
+    "safety"
+  ],
+  "primary_source": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026",
+  "follow_up_of": null,
+  "sensitive": false,
+  "unconfirmed": false,
+  "covers": null,
+  "status": "open",
+  "issues": [],
+  "image_brief": null
+}
