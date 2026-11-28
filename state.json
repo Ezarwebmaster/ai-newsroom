@@ -1,8 +1,8 @@
 {
   "contract": 1,
   "cycle": "2026-11-28",
-  "next": "checker",
-  "post": "2026-11-28-boe-ai-financing-cyber-risks",
+  "next": "done",
+  "post": null,
   "history": [
     {
       "cycle": "2026-11-12",
@@ -181,6 +181,12 @@
     {
       "cycle": "2026-11-27",
       "post": "2026-11-27-japan-draft-ai-law-safety-penalties",
+      "kind": "story",
+      "status": "ready"
+    },
+    {
+      "cycle": "2026-11-28",
+      "post": "2026-11-28-boe-ai-financing-cyber-risks",
       "kind": "story",
       "status": "ready"
     }

@@ -129,6 +129,81 @@
         "text": "Taking the proposals for risk-weighted and leverage requirements together, Tier 1 capital requirements for major UK banks will be reduced by an amount equivalent to around 50 basis points of risk-weighted assets in normal times",
         "for": "Tier 1 capital requirement cut of around 50 basis points.",
         "by": "reviser"
+      },
+      {
+        "text": "Frontier AI capabilities have continued to grow since the July FSR, notably in the growing sophistication of AI agents and open-weight AI models. These developments increase cyber risks and create challenges for firms’ governance and controls.",
+        "for": "Frontier AI capabilities in agents and open-weight models increasing cyber risks for firms.",
+        "by": "checker"
+      },
+      {
+        "text": "These financing needs are expected to increase further, with AI investment increasingly drawing on a broad range of funding sources, including investment-grade bonds, leveraged finance and private credit, alongside public and private equity.",
+        "for": "AI financing spanning investment-grade bonds, leveraged finance and private credit.",
+        "by": "checker"
+      },
+      {
+        "text": "In addition, the financing of hyperscalers increasingly combines bond issuance with joint ventures and special purpose vehicles funded by public and private capital.",
+        "for": "Hyperscaler financing combining bond issuance with joint ventures and special purpose vehicles.",
+        "by": "checker"
+      },
+      {
+        "text": "Hyperscalers’ long-term contractual commitments help these vehicles raise debt by providing expected revenues to service it, strengthening financial interconnections between hyperscalers, data-centre operators and investors.",
+        "for": "Special purpose vehicles backed by hyperscalers' long-term contractual commitments.",
+        "by": "checker"
+      },
+      {
+        "text": "Businesses across the AI supply chain increasingly rely on equity investments or contractual commitments, including leases, purchase agreements, backstops and guarantees, from a small number of large hyperscalers and chip designers.",
+        "for": "AI supply chain reliance on large hyperscalers and chip designers.",
+        "by": "checker"
+      },
+      {
+        "text": "Greater use of debt financing could increase the potential for losses in the financial system, while more complex structures and circular financing arrangements can make it more difficult to identify concentrations of risk and where exposures ultimately sit.",
+        "for": "Complex circular financing obscuring concentrations of risk and where exposures sit.",
+        "by": "checker"
+      },
+      {
+        "text": "The scale and nature of these financing commitments could come under strain in a stress or if expectations around future AI revenues were revised down, particularly where the path to monetisation remains uncertain for some of the AI-related companies reliant on this financing.",
+        "for": "Financing commitments coming under strain if future AI revenue expectations drop.",
+        "by": "checker"
+      },
+      {
+        "text": "Hyperscalers are cloud service providers or technology companies that build, lease, and operate data-centre networks to deliver computing power, storage, and AI infrastructure. These companies include Alphabet, Amazon, Microsoft, Meta, Oracle and SpaceX.",
+        "for": "Definition of hyperscalers as including Alphabet, Amazon, Microsoft, Meta, Oracle and SpaceX.",
+        "by": "checker"
+      },
+      {
+        "text": "Private markets (Section 1.5) are also playing a growing role in the financing of data-centres and other AI-infrastructure vehicles, although limited disclosure makes the scale and distribution of these exposures difficult to assess.",
+        "for": "Limited disclosure obscuring the scale and distribution of private-market AI exposures.",
+        "by": "checker"
+      },
+      {
+        "text": "While estimates are not directly comparable, Morgan Stanley analysts estimate that $700 billion of data-centre capital expenditure between 2026 and 2028 would be financed by private credit.",
+        "for": "Morgan Stanley estimate of $700 billion in private-credit data-centre capex from 2026 to 2028.",
+        "by": "checker"
+      },
+      {
+        "text": "J.P. Morgan analysts estimate, more broadly, that $1.4 trillion of anticipated AI capex could be financed by alternative capital.",
+        "for": "J.P. Morgan estimate that $1.4 trillion of AI capex could be financed by alternative capital.",
+        "by": "checker"
+      },
+      {
+        "text": "Currently, there is no evidence to suggest that AI models are critical to the provision of important business services; the 2026 AI survey found that most reported AI systems are not assessed by firms to be of high materiality.",
+        "for": "2026 AI survey finding most AI systems are not high materiality and not yet critical to vital business services.",
+        "by": "checker"
+      },
+      {
+        "text": "The survey also indicated widespread and growing use of AI agents among respondent firms, but with limited autonomy.",
+        "for": "2026 AI survey finding deployed AI agents operate with limited autonomy.",
+        "by": "checker"
+      },
+      {
+        "text": "Suitable participants will be invited for testing in summer 2027, with thematic findings planned to be published by the Bank in 2027 Q4. The test will continue to be voluntary and exploratory in nature.",
+        "for": "Summer 2027 voluntary CORST testing invitation and Q4 2027 thematic findings timeline.",
+        "by": "checker"
+      },
+      {
+        "text": "The Bank, PRA and FCA will continue to assess the systemic risks posed by AI providers.",
+        "for": "Ongoing assessment of systemic risks posed by AI providers under the CTP regime.",
+        "by": "checker"
       }
     ]
   },
@@ -205,6 +280,11 @@
         "text": "current frontier models already surpass the speed, scale and cost advantages available to skilled human practitioners in cyber tasks.",
         "for": "May 2026 UK authorities joint statement on frontier AI cyber capabilities.",
         "by": "writer"
+      },
+      {
+        "text": "In May 2026 the Bank of England, the Financial Conduct Authority and HM Treasury issued a joint statement stressing that current frontier models already surpass the speed, scale and cost advantages available to skilled human practitioners in cyber tasks.",
+        "for": "Full May 2026 joint statement attribution to the Bank of England, FCA and HM Treasury.",
+        "by": "checker"
       }
     ]
   },
@@ -268,6 +348,16 @@
         "text": "However, the CTP regime would only partially address some risks relating to frontier AI.",
         "for": "CTP regime only partially addressing frontier AI risks.",
         "by": "reviser"
+      },
+      {
+        "text": "The FPC agreed to maintain the UK CCyB rate at 2% on 19 November 2026, unchanged from its 25 September 2026 meeting.",
+        "for": "FPC decision at its November 19, 2026 meeting to maintain the UK CCyB rate at 2%.",
+        "by": "checker"
+      },
+      {
+        "text": "The FPC welcomed the introduction of new aligned reporting requirements by the Bank, PRA and FCA from 18 March 2027, which would strengthen authorities’ visibility of regulated firms’ and FMIs’ dependencies on material third parties",
+        "for": "Aligned third-party dependency reporting requirements taking effect on March 18, 2027.",
+        "by": "checker"
       }
     ]
   }

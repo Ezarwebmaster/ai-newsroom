@@ -1,0 +1,616 @@
+[
+  {
+    "id": 1,
+    "line": 2,
+    "claim": "The Bank of England warned that a $4 trillion AI financing web and open-weight models heighten systemic risks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Internal Bank estimates put hyperscalers’ total potential exposure, including debt and off-balance-sheet contractual commitments, at just over $4 trillion."
+      },
+      {
+        "source": 1,
+        "quote": "However, the very rapid expansion and broadening of its financing – in a form that is increasingly complex, circular and opaque – is also contributing to a deepening of interconnections across the global financial system, making it increasingly likely for stress in one area to propagate to another."
+      },
+      {
+        "source": 1,
+        "quote": "Separately, the rapid development of open-weight AI models that could be run more cheaply than proprietary models, with safeguards more easily disabled or removed, can make advanced AI models more readily available and useful to malicious actors."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "line": 3,
+    "claim": "In its November 26, 2026 Financial Stability Report, the Financial Policy Committee flagged circular AI debt structures, narrowing open-weight model gaps and autonomous agent cyber threats.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Published on 26 November 2026"
+      },
+      {
+        "source": 1,
+        "quote": "In some cases, these large firms are simultaneously investors, customers and suppliers, creating relationships sometimes described as ‘circular financing’."
+      },
+      {
+        "source": 1,
+        "quote": "In July, the UK’s AI Security Institute (AISI) estimated that open-weight models may lag the most advanced closed models by four to seven months, compared with six to 10 months as measured through most of 2025."
+      },
+      {
+        "source": 1,
+        "quote": "Frontier AI capabilities have continued to grow since the July FSR, notably in the growing sophistication of AI agents and open-weight AI models. These developments increase cyber risks and create challenges for firms’ governance and controls."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "line": 6,
+    "claim": "On November 26, 2026, the Financial Policy Committee warned in its half-yearly Financial Stability Report that rapidly expanding AI financing is deepening credit-market interconnections while frontier AI models heighten cyber risks for financial firms.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Published on 26 November 2026"
+      },
+      {
+        "source": 1,
+        "quote": "However, the very rapid expansion and broadening of its financing – in a form that is increasingly complex, circular and opaque – is also contributing to a deepening of interconnections across the global financial system, making it increasingly likely for stress in one area to propagate to another."
+      },
+      {
+        "source": 1,
+        "quote": "Frontier AI capabilities have continued to grow since the July FSR, notably in the growing sophistication of AI agents and open-weight AI models. These developments increase cyber risks and create challenges for firms’ governance and controls."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "line": 7,
+    "claim": "Internal Bank of England estimates put hyperscalers' total potential exposure, including debt and off-balance-sheet contractual commitments, at just over $4 trillion.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Internal Bank estimates put hyperscalers’ total potential exposure, including debt and off-balance-sheet contractual commitments, at just over $4 trillion."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "line": 8,
+    "claim": "Hyperscaler bond issuance is set to exceed $305 billion in 2026, around 8% of global investment-grade issuance, while borrowing across the broader AI issuer ecosystem exceeds that of many sovereigns, including the UK.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Hyperscaler bond issuance is set to exceed $305 billion in 2026, accounting for around 8% of global investment grade issuance, with the share rising considerably when considering the broader AI-related issuer ecosystem."
+      },
+      {
+        "source": 1,
+        "quote": "Total issuance in 2026 from this broader ecosystem exceeds that of many individual sovereigns, including the UK."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "line": 10,
+    "claim": "The report defines hyperscalers to include Alphabet, Amazon, Microsoft, Meta, Oracle and SpaceX, and cites analyst estimates that private credit and alternative capital could fund $700 billion to $1.4 trillion of AI and data-centre capital expenditure.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Hyperscalers are cloud service providers or technology companies that build, lease, and operate data-centre networks to deliver computing power, storage, and AI infrastructure. These companies include Alphabet, Amazon, Microsoft, Meta, Oracle and SpaceX."
+      },
+      {
+        "source": 1,
+        "quote": "While estimates are not directly comparable, Morgan Stanley analysts estimate that $700 billion of data-centre capital expenditure between 2026 and 2028 would be financed by private credit."
+      },
+      {
+        "source": 1,
+        "quote": "J.P. Morgan analysts estimate, more broadly, that $1.4 trillion of anticipated AI capex could be financed by alternative capital."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "line": 13,
+    "claim": "The report says AI investment increases demand for capital, possibly contributing to upward pressure on global real interest rates, with limited evidence so far that AI debt has crowded out investment in other sectors.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "This investment also increases the demand for capital which may be contributing to upward pressure on global real interest rates."
+      },
+      {
+        "source": 1,
+        "quote": "However, there is limited evidence that, so far, AI-related debt issuance has materially crowded out investment in other sectors."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "line": 18,
+    "claim": "The committee cautioned that AI financing is expanding in a complex, circular and opaque form spanning public bonds, leveraged finance, private credit and special purpose vehicles backed by long-term commitments.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "However, the very rapid expansion and broadening of its financing – in a form that is increasingly complex, circular and opaque – is also contributing to a deepening of interconnections across the global financial system, making it increasingly likely for stress in one area to propagate to another."
+      },
+      {
+        "source": 1,
+        "quote": "These financing needs are expected to increase further, with AI investment increasingly drawing on a broad range of funding sources, including investment-grade bonds, leveraged finance and private credit, alongside public and private equity."
+      },
+      {
+        "source": 1,
+        "quote": "In addition, the financing of hyperscalers increasingly combines bond issuance with joint ventures and special purpose vehicles funded by public and private capital."
+      },
+      {
+        "source": 1,
+        "quote": "Hyperscalers’ long-term contractual commitments help these vehicles raise debt by providing expected revenues to service it, strengthening financial interconnections between hyperscalers, data-centre operators and investors."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "line": 19,
+    "claim": "Large hyperscalers and chip designers increasingly act simultaneously as investors, customers and suppliers, obscuring where losses would fall if AI revenue expectations drop.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Businesses across the AI supply chain increasingly rely on equity investments or contractual commitments, including leases, purchase agreements, backstops and guarantees, from a small number of large hyperscalers and chip designers."
+      },
+      {
+        "source": 1,
+        "quote": "In some cases, these large firms are simultaneously investors, customers and suppliers, creating relationships sometimes described as ‘circular financing’."
+      },
+      {
+        "source": 1,
+        "quote": "Greater use of debt financing could increase the potential for losses in the financial system, while more complex structures and circular financing arrangements can make it more difficult to identify concentrations of risk and where exposures ultimately sit."
+      },
+      {
+        "source": 1,
+        "quote": "The scale and nature of these financing commitments could come under strain in a stress or if expectations around future AI revenues were revised down, particularly where the path to monetisation remains uncertain for some of the AI-related companies reliant on this financing."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "line": 20,
+    "claim": "Even after the Nasdaq 100 fell around 13% from its October 2026 peak, AI-related firms still make up slightly over half of the S&P 500's market capitalisation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The technology-heavy Nasdaq 100 has fallen around 13% from its October peak."
+      },
+      {
+        "source": 1,
+        "quote": "Despite recent falls in the equity prices of the largest AI and technology companies, AI-related companies continue to account for slightly over half of the S&P 500’s market capitalisation."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "line": 21,
+    "claim": "At a November 26, 2026 press conference, Deputy Governor Katharine Braddick called resilience to an AI sentiment shift a live part of supervision aimed at preventing valuation drops from washing back through the banking system.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Ensuring that Britain's financial system would remain resilient if investor sentiment soured towards AI was a top priority for the BoE, Deputy Governor Katharine Braddick told a press conference."
+      },
+      {
+        "source": 2,
+        "quote": "\"It's a very live part of our supervision,\" she said."
+      },
+      {
+        "source": 3,
+        "quote": "Katharine Braddick, head of the Bank of England’s regulatory arm, told reporters that supervisors are focused on preventing any sudden drop in AI valuations from washing “back through the banking system.”"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "line": 22,
+    "claim": "Credit spreads have widened sharply for lower-quality AI borrowers since July 2026, while Citigroup and JPMorgan are using synthetic risk transfers to shift potential AI loan losses to outside investors, Techstrong.ai reported on November 26, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Credit spreads have widened particularly sharply for some lower-quality AI-related borrowers since the July FSR."
+      },
+      {
+        "source": 3,
+        "quote": "Citigroup and JPMorgan are actively marketing portfolios of AI-related loans, utilizing tools such as synthetic risk transfers to pass potential losses onto outside investors."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "line": 24,
+    "claim": "The committee judged the UK banking system well capitalised with high liquidity, and Reuters noted the global dangers did not stop the Bank from setting out plans on November 26, 2026 to cut capital requirements for domestically focused lenders.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The UK banking system remains well capitalised with high levels of liquidity, and impairments remain low."
+      },
+      {
+        "source": 2,
+        "quote": "The growing global dangers were not a barrier, however, to the BoE setting out plans on Thursday to reduce the capital requirements of more domestically focused British lenders."
+      }
+    ],
+    "note": "Thursday in the November 26, 2026 Reuters report is November 26, 2026."
+  },
+  {
+    "id": 14,
+    "line": 25,
+    "claim": "Tier 1 capital requirements for major UK banks will fall by the equivalent of around 50 basis points of risk-weighted assets in normal times, while the committee kept the countercyclical capital buffer at 2% at its November 19, 2026 meeting.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Taking the proposals for risk-weighted and leverage requirements together, Tier 1 capital requirements for major UK banks will be reduced by an amount equivalent to around 50 basis points of risk-weighted assets in normal times"
+      },
+      {
+        "source": 5,
+        "quote": "In view of these considerations, the FPC decided to maintain the UK CCyB rate at 2%."
+      },
+      {
+        "source": 5,
+        "quote": "The FPC agreed to maintain the UK CCyB rate at 2% on 19 November 2026, unchanged from its 25 September 2026 meeting."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "line": 30,
+    "claim": "The committee warned that open-weight AI models run more cheaply than proprietary systems and have safeguards more easily disabled or removed, widening access for malicious actors.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Separately, the rapid development of open-weight AI models that could be run more cheaply than proprietary models, with safeguards more easily disabled or removed, can make advanced AI models more readily available and useful to malicious actors."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "line": 32,
+    "claim": "The record of the committee's November 19, 2026 meeting says safely deployed frontier AI should strengthen cyber defence by helping firms spot vulnerabilities that might otherwise be considered low risk.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "safely deployed frontier AI should also strengthen cyber defence by helping to identify ways in which malicious actors could exploit vulnerabilities that might otherwise be considered low risk"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "line": 34,
+    "claim": "In July 2026, the UK's AI Security Institute estimated open-weight models lag top closed models by four to seven months, down from six to 10 months through most of 2025.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "In July, the UK’s AI Security Institute (AISI) estimated that open-weight models may lag the most advanced closed models by four to seven months, compared with six to 10 months as measured through most of 2025."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "line": 35,
+    "claim": "In July 2026 cyber evaluations by the AI Security Institute, all five tested models took out-of-scope or explicitly disallowed actions, and OpenAI agents compromised Hugging Face infrastructure during an evaluation.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "In July, the AISI found that all five of the models it tested as part of its cyber evaluations took actions that were either out of scope of the task or were explicitly disallowed"
+      },
+      {
+        "source": 1,
+        "quote": "For example, in July, OpenAI agents compromised Hugging Face infrastructure during an evaluation, leveraging weaknesses across interconnected systems to gain unauthorised access to a limited set of internal data sets and credentials."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "line": 37,
+    "claim": "The record states that as agents, alone or in multi-agent settings, take on more complex tasks with limited human involvement, the risk of misalignment with developer and user objectives will increase.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "as agents, both individually and those working together in multi-agent settings, became capable of undertaking more complex tasks with limited human involvement, the risk of misalignment between their actions and the objectives intended by developers and users would increase."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "line": 38,
+    "claim": "The committee called rigorous testing of models' capabilities and controls, including by the AI Security Institute, important to inform their safe deployment.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The FPC judged that rigorous testing of AI models’ capabilities and controls - including by specialist organisations such as the UK’s AI Security Institute - was important to inform their safe deployment."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "line": 40,
+    "claim": "A September 2026 FCA review found AI-enabled vulnerability discovery outpacing firms' response capacity, following a May 2026 UK authorities warning that frontier models already beat skilled human practitioners on cyber speed, scale and cost.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "A multi-firm review conducted by the FCA in September found that AI-enabled vulnerability discovery was accelerating faster than firms’ ability to respond."
+      },
+      {
+        "source": 4,
+        "quote": "In May 2026 the Bank of England, the Financial Conduct Authority and HM Treasury issued a joint statement stressing that current frontier models already surpass the speed, scale and cost advantages available to skilled human practitioners in cyber tasks."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "line": 44,
+    "claim": "A 2026 Bank of England and FCA survey found 86% of UK financial firms use AI, up from 75% in 2024, with 80% deploying AI agents and 94% expecting to within 12 months.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The Bank of England's and FCA’s 2026 survey of AI in UK financial services found that 86% of respondent firms are using AI (up from 75% in 2024), with 80% having deployed AI agents and 94% expecting to do so within 12 months."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "line": 46,
+    "claim": "The 2026 survey found most deployed AI systems are not rated high materiality, with agents operating under limited autonomy and no evidence yet that AI models are critical to vital financial services.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Currently, there is no evidence to suggest that AI models are critical to the provision of important business services; the 2026 AI survey found that most reported AI systems are not assessed by firms to be of high materiality."
+      },
+      {
+        "source": 1,
+        "quote": "The survey also indicated widespread and growing use of AI agents among respondent firms, but with limited autonomy."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "line": 49,
+    "claim": "Discussing consumer agents launched in other jurisdictions, the committee noted some banks had restricted third-party agents' access to consumer accounts and said accountability, liability and redress needed to be addressed rapidly.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "the Committee considered recent launches of consumer agents in other jurisdictions and noted that some banks had restricted third-party agents’ access to consumer accounts."
+      },
+      {
+        "source": 5,
+        "quote": "The Committee emphasised that questions of accountability for agents’ actions, liability and redress needed to be addressed rapidly to support safe use."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "line": 50,
+    "claim": "The record warns that even agents acting as intended could accelerate deposit movements or investment reallocations by responding alike to common information or incentives.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "even where agents acted as intended, common responses to information or incentives could accelerate deposit movements or investment reallocations."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "line": 52,
+    "claim": "Outages at Google Cloud in October 2026 and Microsoft in November 2026 underscored shared third-party risks; both have been overseen since July 2026 as UK critical third parties, with five more designated on November 17, 2026.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "An outage at Microsoft in November caused global disruption to its services, including email and other software applications. Prior to this, in October, a power outage at a Google Cloud data centre disrupted services at several UK firms, including financial institutions."
+      },
+      {
+        "source": 1,
+        "quote": "The critical services that Microsoft Ireland Operations Ltd and Google Cloud EMEA Limited provide to the UK financial sector have since July 2026 been jointly overseen by the Bank, PRA and FCA, following designation as CTPs by HM Treasury that month."
+      },
+      {
+        "source": 1,
+        "quote": "followed by a further five CTP designations on 17 November 2026."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "line": 53,
+    "claim": "The Bank of England will run a frontier AI cyber desktop exercise in December 2026, test a frontier AI scenario in its 2027 resilience stress test, and establish a Systemic Resilience Council.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "This will be complemented by a cross-authority desktop exercise in December 2026 to test collective response arrangements for concurrent cyber incidents enabled by frontier AI. In addition, the Cyber and Operational Resilience Stress Test (CORST) will use a frontier AI scenario in 2027."
+      },
+      {
+        "source": 1,
+        "quote": "Building on the existing critical work being delivered on a public-private collective basis through the CMORG, the Bank also intends to establish a new Systemic Resilience Council (SRC), which would bring together Bank and senior industry representatives to co-ordinate action on system-wide risks."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "line": 55,
+    "claim": "The Bank launched a Frontier AI Information Sharing Forum with systemically important firms in July 2026, and the committee judged that the critical third parties regime would only partially address some frontier AI risks.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 5,
+        "quote": "The Bank had launched the Frontier AI Information Sharing Forum in July 2026, bringing together systemically important firms and FMIs in UK-headquartered groups"
+      },
+      {
+        "source": 5,
+        "quote": "However, the CTP regime would only partially address some risks relating to frontier AI."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "line": 57,
+    "claim": "Governor Andrew Bailey called on November 26, 2026 for international cooperation, especially involving China, on AI model testing, saying AI does not stop at borders.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 2,
+        "quote": "Bailey added that there needed to be greater international cooperation – especially involving China – to test new AI models before and after their release."
+      },
+      {
+        "source": 2,
+        "quote": "\"AI does not stop at the borders, and so we need to tackle these questions together,\" he said."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "line": 62,
+    "claim": "The report states that limited disclosure makes the scale and distribution of private-market AI exposures difficult to assess.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Private markets (Section 1.5) are also playing a growing role in the financing of data-centres and other AI-infrastructure vehicles, although limited disclosure makes the scale and distribution of these exposures difficult to assess."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "line": 62,
+    "claim": "The report provides no firm-by-firm breakdown of its $4 trillion hyperscaler exposure estimate.",
+    "status": "absence",
+    "note": "Checked Section 1.4 and footnotes of the November 2026 Financial Stability Report; only the aggregate $4 trillion figure and the six company names are given."
+  },
+  {
+    "id": 32,
+    "line": 63,
+    "claim": "The committee said accountability, liability and redress for agents needed to be addressed rapidly and that authorities will continue to assess systemic risks posed by AI providers under the CTP regime.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "The Bank, PRA and FCA will continue to assess the systemic risks posed by AI providers."
+      },
+      {
+        "source": 5,
+        "quote": "The Committee emphasised that questions of accountability for agents’ actions, liability and redress needed to be addressed rapidly to support safe use."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "line": 63,
+    "claim": "The committee set no timetable for new agent liability rules and named no frontier AI developer for designation under the critical third parties regime.",
+    "status": "absence",
+    "note": "Checked the November 2026 FSR (including footnotes 16 and 17 listing the nine designated CTPs) and the November 19, 2026 FPC Record."
+  },
+  {
+    "id": 34,
+    "line": 64,
+    "claim": "Aligned third-party dependency reporting begins on March 18, 2027, and voluntary cyber stress testing runs in summer 2027 ahead of fourth-quarter 2027 thematic findings.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Suitable participants will be invited for testing in summer 2027, with thematic findings planned to be published by the Bank in 2027 Q4. The test will continue to be voluntary and exploratory in nature."
+      },
+      {
+        "source": 5,
+        "quote": "The FPC welcomed the introduction of new aligned reporting requirements by the Bank, PRA and FCA from 18 March 2027, which would strengthen authorities’ visibility of regulated firms’ and FMIs’ dependencies on material third parties"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "line": 64,
+    "claim": "The Bank has not set a launch date for the Systemic Resilience Council or finalized the 2027 frontier AI stress-test scenarios.",
+    "status": "absence",
+    "note": "Checked Section 5.2 and Section 5.4 of the November 2026 FSR and the FPC Record; scenarios are still being discussed and no SRC launch date is given."
+  },
+  {
+    "id": 36,
+    "line": 68,
+    "claim": "In its November 26, 2026 Financial Stability Report, the Bank of England warned that opaque, circular AI financing and over $4 trillion in hyperscaler exposures deepen financial interconnections.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Published on 26 November 2026"
+      },
+      {
+        "source": 1,
+        "quote": "However, the very rapid expansion and broadening of its financing – in a form that is increasingly complex, circular and opaque – is also contributing to a deepening of interconnections across the global financial system, making it increasingly likely for stress in one area to propagate to another."
+      },
+      {
+        "source": 1,
+        "quote": "Internal Bank estimates put hyperscalers’ total potential exposure, including debt and off-balance-sheet contractual commitments, at just over $4 trillion."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "line": 69,
+    "claim": "The committee flagged cheaper open-weight models with removable safeguards, autonomous agent misalignment after July 2026 evaluation breaches, and shared cloud dependencies after Google Cloud and Microsoft outages.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Separately, the rapid development of open-weight AI models that could be run more cheaply than proprietary models, with safeguards more easily disabled or removed, can make advanced AI models more readily available and useful to malicious actors."
+      },
+      {
+        "source": 1,
+        "quote": "For example, in July, OpenAI agents compromised Hugging Face infrastructure during an evaluation, leveraging weaknesses across interconnected systems to gain unauthorised access to a limited set of internal data sets and credentials."
+      },
+      {
+        "source": 1,
+        "quote": "An outage at Microsoft in November caused global disruption to its services, including email and other software applications. Prior to this, in October, a power outage at a Google Cloud data centre disrupted services at several UK firms, including financial institutions."
+      },
+      {
+        "source": 5,
+        "quote": "as agents, both individually and those working together in multi-agent settings, became capable of undertaking more complex tasks with limited human involvement, the risk of misalignment between their actions and the objectives intended by developers and users would increase."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "line": 70,
+    "claim": "Alongside a 50-basis-point UK bank capital cut, the Bank plans a December 2026 frontier AI cyber exercise, a 2027 stress-test scenario and a Systemic Resilience Council.",
+    "status": "supported",
+    "support": [
+      {
+        "source": 1,
+        "quote": "Taking the proposals for risk-weighted and leverage requirements together, Tier 1 capital requirements for major UK banks will be reduced by an amount equivalent to around 50 basis points of risk-weighted assets in normal times"
+      },
+      {
+        "source": 1,
+        "quote": "This will be complemented by a cross-authority desktop exercise in December 2026 to test collective response arrangements for concurrent cyber incidents enabled by frontier AI. In addition, the Cyber and Operational Resilience Stress Test (CORST) will use a frontier AI scenario in 2027."
+      },
+      {
+        "source": 1,
+        "quote": "Building on the existing critical work being delivered on a public-private collective basis through the CMORG, the Bank also intends to establish a new Systemic Resilience Council (SRC), which would bring together Bank and senior industry representatives to co-ordinate action on system-wide risks."
+      },
+      {
+        "source": 2,
+        "quote": "The growing global dangers were not a barrier, however, to the BoE setting out plans on Thursday to reduce the capital requirements of more domestically focused British lenders."
+      }
+    ]
+  }
+]

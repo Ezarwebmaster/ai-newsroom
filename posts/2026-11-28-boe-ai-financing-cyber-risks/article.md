@@ -6,6 +6,9 @@ dek: "In its November 26, 2026 Financial Stability Report, the Financial Policy 
 On November 26, 2026, the Bank of England's Financial Policy Committee warned in its half-yearly Financial Stability Report that rapidly expanding AI financing is deepening credit-market interconnections while frontier AI models heighten cyber risks for financial firms.[^1]
 Internal Bank of England estimates put hyperscalers' total potential exposure, including debt and off-balance-sheet contractual commitments, at "just over $4 trillion".[^1]
 Hyperscaler bond issuance is set to exceed $305 billion in 2026, around 8% of global investment-grade issuance, while borrowing across the broader AI issuer ecosystem exceeds that of many sovereigns, including the UK.[^1]
+<!-- add role="checker" model="Google Gemini 4 Argon" -->
+The report defines hyperscalers to include Alphabet, Amazon, Microsoft, Meta, Oracle and SpaceX, and cites analyst estimates that private credit and alternative capital could fund $700 billion to $1.4 trillion of AI and data-centre capital expenditure.[^1]
+<!-- /add -->
 <!-- add role="reviser" model="Anthropic Claude Opus 5.5" -->
 The report says AI investment also increases demand for capital, which "may be contributing to upward pressure on global real interest rates", though it found limited evidence so far that AI-related debt has crowded out investment in other sectors.[^1]
 <!-- /add -->
@@ -39,6 +42,9 @@ A September 2026 Financial Conduct Authority review found AI-enabled vulnerabili
 ## Regulatory testing, cloud dependencies and international calls
 
 A 2026 Bank of England and FCA survey found 86% of UK financial firms use AI, up from 75% in 2024, with 80% deploying AI agents and 94% expecting to within 12 months.[^1]
+<!-- add role="checker" model="Google Gemini 4 Argon" -->
+The survey nonetheless found most deployed AI systems are not rated high materiality, with agents operating under limited autonomy and no evidence yet that AI models are critical to vital financial services.[^1]
+<!-- /add -->
 <!-- add role="reviser" model="Anthropic Claude Opus 5.5" -->
 Discussing consumer agents launched in other jurisdictions, the committee noted that some banks had restricted third-party agents' access to consumer accounts, and said accountability, liability and redress for agents' actions "needed to be addressed rapidly".[^5]
 Even agents acting as intended could accelerate deposit movements or investment reallocations by responding alike to the same information or incentives, the record warns.[^5]
@@ -49,3 +55,17 @@ The Bank of England will run a frontier AI cyber desktop exercise in December 20
 The Bank launched a Frontier AI Information Sharing Forum with systemically important firms in July 2026, and the committee judged that the critical third parties regime "would only partially address some risks relating to frontier AI".[^5]
 <!-- /add -->
 Governor Andrew Bailey called on November 26, 2026 for international cooperation, especially involving China, on AI model testing, saying "AI does not stop at the borders, and so we need to tackle these questions together".[^2]
+<!-- add role="checker" model="Google Gemini 4 Argon" -->
+
+## Undisclosed private-credit AI exposures, agent liability rules and 2027 stress-test scenarios
+
+- Per-company AI debt breakdown and private-credit totals: the report gives no firm-by-firm split of its $4 trillion hyperscaler exposure estimate and says limited disclosure obscures how private-market AI exposures are distributed.[^1]
+- Agent liability rules and frontier AI designations: the committee set no timetable for new agent liability rules and named no frontier AI developer for designation under the critical third parties regime.[^1][^5]
+- Systemic Resilience Council launch and 2027 test design: while aligned third-party reporting starts on March 18, 2027 and voluntary cyber stress testing runs in summer 2027, the council's launch date and final frontier AI test scenarios remain unset.[^1][^5]
+<!-- /add -->
+
+<!-- keypoints model="Google Gemini 4 Argon" -->
+- In its November 26, 2026 Financial Stability Report, the Bank of England warned that opaque, circular AI financing and over $4 trillion in hyperscaler exposures deepen financial interconnections.[^1]
+- The committee flagged cheaper open-weight models with removable safeguards, autonomous agent misalignment after July 2026 evaluation breaches, and shared cloud dependencies after Google Cloud and Microsoft outages.[^1][^5]
+- Alongside a 50-basis-point UK bank capital cut, the Bank plans a December 2026 frontier AI cyber exercise, a 2027 stress-test scenario and a Systemic Resilience Council.[^1][^2]
+<!-- /keypoints -->
