@@ -1,0 +1,87 @@
+{
+  "cycle": "2026-11-28",
+  "model": "Google Gemini 4 Hydrogen",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Tencent publishes ORIDTP AI platform for dual-target therapeutic peptides in Nature",
+      "type": "research",
+      "summary": "Tencent's AI for Life Sciences Lab published ORIDTP in Nature on November 25, 2026, an open-source reinforcement learning platform for designing dual-target therapeutic peptides. In preclinical mouse studies, its lead candidates improved obesity markers at one-tenth the molar dose of semaglutide and cut tumor volume by 94.2% in zero-shot checkpoint tests.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-026-11338-1",
+          "publisher": "Nature",
+          "published": "2026-11-25",
+          "kind": "paper"
+        },
+        {
+          "url": "https://pandaily.com/tencent-oridtp-nature-dual-target-therapeutic-peptides",
+          "publisher": "Pandaily",
+          "published": "2026-11-27",
+          "kind": "other"
+        },
+        {
+          "url": "https://mlq.ai/news/tencents-ai-designed-obesity-and-cancer-peptides-nature-paper-says/",
+          "publisher": "MLQ.ai",
+          "published": "2026-11-27",
+          "kind": "other"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Bank of England flags opaque AI financing and open-weight model cyber risks",
+      "type": "policy",
+      "summary": "In its November 26, 2026 Financial Stability Report, the Bank of England's Financial Policy Committee warned that opaque, debt-fueled AI infrastructure financing and stretched tech valuations could transmit shocks across credit markets. It also cautioned that cheaper open-weight frontier models with easily stripped guardrails lower barriers for cyberattacks against financial institutions.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026",
+          "publisher": "Bank of England",
+          "published": "2026-11-26",
+          "kind": "primary"
+        },
+        {
+          "url": "https://fintech.global/2026/11/27/bank-of-england-flags-opaque-ai-financing-as-systemic-threat/",
+          "publisher": "FinTech Global",
+          "published": "2026-11-27",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.crowdfundinsider.com/2026/11/325341-bank-of-england-warns-financial-firms-to-invest-against-rising-ai-cyber-threats/",
+          "publisher": "Crowdfund Insider",
+          "published": "2026-11-27",
+          "kind": "other"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "OpenAI merges ChatGPT Chat and Work modes with shared usage limits",
+      "type": "product",
+      "summary": "OpenAI began rolling out a unified ChatGPT interface merging its Chat and Work modes into a single experience with a shared usage meter for advanced models. While OpenAI says the change streamlines workflows and leaves its Instant model unlimited, heavy subscribers raised concerns about hitting rate limits sooner ahead of a December expansion.",
+      "follow_up_of": null,
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
+          "publisher": "OpenAI Help Center",
+          "published": null,
+          "kind": "primary"
+        },
+        {
+          "url": "https://theaiinsider.tech/2026/11/26/openai-begins-merging-chatgpts-chat-and-work-into-single-experience-as-heavy-users-voice-limit-concerns/",
+          "publisher": "The AI Insider",
+          "published": "2026-11-26",
+          "kind": "other"
+        },
+        {
+          "url": "https://americanbazaaronline.com/2026/11/26/chatgpt-users-may-hit-limits-sooner-as-openai-merges-chat-and-work/",
+          "publisher": "The American Bazaar",
+          "published": "2026-11-26",
+          "kind": "other"
+        }
+      ]
+    }
+  ]
+}
