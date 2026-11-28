@@ -109,6 +109,26 @@
         "text": "Building on the existing critical work being delivered on a public-private collective basis through the CMORG, the Bank also intends to establish a new Systemic Resilience Council (SRC), which would bring together Bank and senior industry representatives to co-ordinate action on system-wide risks.",
         "for": "Bank of England plan to establish a new Systemic Resilience Council.",
         "by": "writer"
+      },
+      {
+        "text": "This investment also increases the demand for capital which may be contributing to upward pressure on global real interest rates.",
+        "for": "AI investment possibly adding upward pressure on global real interest rates.",
+        "by": "reviser"
+      },
+      {
+        "text": "However, there is limited evidence that, so far, AI-related debt issuance has materially crowded out investment in other sectors.",
+        "for": "Limited evidence of AI debt crowding out other investment.",
+        "by": "reviser"
+      },
+      {
+        "text": "The UK banking system remains well capitalised with high levels of liquidity, and impairments remain low.",
+        "for": "FPC judgement that UK banks are well capitalised.",
+        "by": "reviser"
+      },
+      {
+        "text": "Taking the proposals for risk-weighted and leverage requirements together, Tier 1 capital requirements for major UK banks will be reduced by an amount equivalent to around 50 basis points of risk-weighted assets in normal times",
+        "for": "Tier 1 capital requirement cut of around 50 basis points.",
+        "by": "reviser"
       }
     ]
   },
@@ -136,6 +156,16 @@
         "text": "\"AI does not stop at the borders, and so we need to tackle these questions together,\" he said.",
         "for": "Andrew Bailey quote on tackling AI risks internationally.",
         "by": "writer"
+      },
+      {
+        "text": "\"It's a very live part of our supervision,\" she said.",
+        "for": "Katharine Braddick's quoted words at the press conference.",
+        "by": "reviser"
+      },
+      {
+        "text": "The growing global dangers were not a barrier, however, to the BoE setting out plans on Thursday to reduce the capital requirements of more domestically focused British lenders.",
+        "for": "Capital requirement cuts announced alongside the AI warnings.",
+        "by": "reviser"
       }
     ]
   },
@@ -175,6 +205,69 @@
         "text": "current frontier models already surpass the speed, scale and cost advantages available to skilled human practitioners in cyber tasks.",
         "for": "May 2026 UK authorities joint statement on frontier AI cyber capabilities.",
         "by": "writer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026",
+    "title": "Record of the Financial Policy Committee meeting on 19 November 2026",
+    "publisher": "Bank of England",
+    "kind": "primary",
+    "published": "2026-11-26",
+    "retrieved": "2026-11-28",
+    "added_by": "reviser",
+    "quotes": [
+      {
+        "text": "Published on 26 November 2026",
+        "for": "Publication date of the FPC record.",
+        "by": "reviser",
+        "type": "date"
+      },
+      {
+        "text": "In view of these considerations, the FPC decided to maintain the UK CCyB rate at 2%.",
+        "for": "CCyB kept at 2%.",
+        "by": "reviser"
+      },
+      {
+        "text": "safely deployed frontier AI should also strengthen cyber defence by helping to identify ways in which malicious actors could exploit vulnerabilities that might otherwise be considered low risk",
+        "for": "Frontier AI as a cyber defence aid.",
+        "by": "reviser"
+      },
+      {
+        "text": "as agents, both individually and those working together in multi-agent settings, became capable of undertaking more complex tasks with limited human involvement, the risk of misalignment between their actions and the objectives intended by developers and users would increase.",
+        "for": "Agent misalignment risk rising with autonomy.",
+        "by": "reviser"
+      },
+      {
+        "text": "The FPC judged that rigorous testing of AI models’ capabilities and controls - including by specialist organisations such as the UK’s AI Security Institute - was important to inform their safe deployment.",
+        "for": "Call for rigorous model testing, including by AISI.",
+        "by": "reviser"
+      },
+      {
+        "text": "the Committee considered recent launches of consumer agents in other jurisdictions and noted that some banks had restricted third-party agents’ access to consumer accounts.",
+        "for": "Banks restricting third-party agents' account access.",
+        "by": "reviser"
+      },
+      {
+        "text": "The Committee emphasised that questions of accountability for agents’ actions, liability and redress needed to be addressed rapidly to support safe use.",
+        "for": "Accountability, liability and redress for agents.",
+        "by": "reviser"
+      },
+      {
+        "text": "even where agents acted as intended, common responses to information or incentives could accelerate deposit movements or investment reallocations.",
+        "for": "Correlated agent behaviour accelerating deposit and investment moves.",
+        "by": "reviser"
+      },
+      {
+        "text": "The Bank had launched the Frontier AI Information Sharing Forum in July 2026, bringing together systemically important firms and FMIs in UK-headquartered groups",
+        "for": "Frontier AI Information Sharing Forum launched July 2026.",
+        "by": "reviser"
+      },
+      {
+        "text": "However, the CTP regime would only partially address some risks relating to frontier AI.",
+        "for": "CTP regime only partially addressing frontier AI risks.",
+        "by": "reviser"
       }
     ]
   }
